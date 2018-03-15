@@ -1,0 +1,32 @@
+//footer style 2
+#shopify-section-footer {
+  .footer-wrapper.footer-style2 {
+    .footer-container {
+      padding: 80px 70px 20px 70px;
+      .footer_middle_logo {
+        margin-top: -23px;
+      }
+      .content-text{
+        margin-top: 25px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 25px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      .footer-menu {
+        text-align: center;
+        li {
+          display: inline-block;
+          margin: 5px 15px;
+          text-transform: uppercase;
+        }
+      }
+      .social-media-link {
+        float: right;
+      }
+    }
+  }
+}
+//end footer style 2

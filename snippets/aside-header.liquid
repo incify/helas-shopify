@@ -1,0 +1,32 @@
+<aside class="header--aside" id="header-aside">
+    <div class="header-aside-wrapper">
+        <span class="btn-close-aside-header zyra-icon icon-ui-1-simple-remove"></span>
+        <div class="header-aside-inner">
+            <div class="header-aside-logo">
+                {% if section.settings.logo_use_image %}
+                <a href="/" class="logo">
+                    <img class="x1" src="{{ logo }}" alt="{{ shop.name }}" />
+                </a>
+                {% endif %}
+            </div>
+            {% if section.settings.custom_block_header_aside_top != '' %}
+            <div class="custom-block-aside-top">
+                {{ section.settings.custom_block_header_aside_top }}
+            </div>
+            {% endif %}
+            <div class="main-menu hidden-lg hidden-md hidden-xs">
+                <!-- Main Menu -->
+                {% include 'main-menu' %}
+                <!-- End Main Menu -->
+            </div>
+            <div class="lang-current-aside">
+                {% include 'header-setting' %}
+            </div>
+            {% if section.settings.custom_block_header_aside_bottom != '' %}
+            <div class="custom-block-aside-bottom">
+                {{ section.settings.custom_block_header_aside_bottom }}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</aside>

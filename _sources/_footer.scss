@@ -1,0 +1,178 @@
+/*============================================================================
+#Footer
+==============================================================================*/
+#shopify-section-footer{
+  .footer-column-title{
+    h4{
+      text-transform: uppercase;
+      margin: 0 0 30px;
+      font-size: 14px;
+      letter-spacing: 2px;
+      font-weight: bold;
+    }
+  }
+  .footer-list{
+    li{
+      margin-bottom: 25px;
+      a{
+        font-size: 10px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+    }
+  }
+  p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .footer_middle_logo {
+    &.light {
+      display: block;
+    }
+    &.dark {
+      display: none;
+    }
+  }
+  .content-image-intagram {
+    #footer_instafeed {
+        li {
+          display: inline-block;
+          width: 33.33%;
+          float: left;
+          padding: 5px;
+          a {
+            display: block;
+            position: relative;
+            img {
+              width: 100%;
+            }
+            .item--overlay {
+              position: absolute;
+              left: 0;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              visibility: hidden;
+              opacity: 0;
+              z-index: 2;
+              background-color: rgba(35,35,36,0.6);
+              transition: all 250ms ease-out;
+              i {
+                position: absolute;
+                color: #fff;
+                font-size: 50px;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                font-size: 24px;
+                text-align: center;
+                transform: translate(-50%,-50%);
+                left: 50%;
+                top: 50%;
+                background: -webkit-gradient(radial,33% 100%,0,33% 100%,221,color-stop(1,#515ECF),color-stop(0.81,#9B36B7),color-stop(0.63,#D92E7F),color-stop(0.32,#F15245),color-stop(0.04,#FED373));
+                background: -webkit-radial-gradient(33% 100%,circle,#FED373 4%,#F15245 30%,#D92E7F 62%,#9B36B7 85%,#515ECF 100%);
+                background: radial-gradient(33% 100%,circle,#FED373 4%,#F15245 30%,#D92E7F 62%,#9B36B7 85%,#515ECF 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+            }
+            &:hover {
+              .item--overlay {
+                visibility: visible;
+                opacity: 1;
+              }
+            }
+          }
+        }
+    }
+  }
+  .footer-dark {
+    background: #333;
+    a {
+      color: rgba(255,255,255,0.6);
+      &:hover{
+        color: rgba(255,255,255,1);
+      }
+    }
+    .footer_middle_logo {
+      &.light {
+        display: none;
+      }
+      &.dark {
+        display: inline-block;
+      }
+    }
+    .footer-column-title{
+      h4{
+        color: #fff;
+      }
+    }
+  }
+}
+/*============================================================================
+#back to top
+==============================================================================*/
+.back-top-before{
+  text-align: center;
+  #back-top{
+    .sticker-wrapper{
+      .sticker{
+        color: #727883;
+        span{
+          display: block;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}
+.footer-wrapper{
+  border-top:0;
+  #back-top {
+    bottom: 30px;
+    position: fixed;
+    right: 10px;
+    z-index: 9;
+    a{
+      .sticker-wrapper {
+        -webkit-transition: all 100ms ease-in-out 0s;
+        position: relative;
+        right: 0;
+        top: 0;
+        transition: all 100ms ease-in-out 0s;
+        .sticker {
+          height: 40px;
+          position: fixed;
+          right: 15px;
+          width: 40px;
+          z-index: 9999;
+          bottom: 0;
+          background-color: #404040;
+          font-size: 16px;
+          text-align: center;
+          line-height: 1;
+          padding: 11px 0;
+          border-radius: 0;
+          color:white;
+          &:hover {
+            opacity:0.9;
+          }
+        }
+      }
+    }
+    a:hover{
+      .sticker-wrapper {
+        right: 0px;
+        top: 0px;
+      }
+    }
+  }
+}
+@media (min-width: 1600px) {
+  #shopify-section-footer {
+    .container {
+      width: 1420px;
+    }
+  }
+}

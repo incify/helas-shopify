@@ -1,0 +1,6 @@
+{% capture xl %}{% include 'shortcode-render' render:'xl' %}{% endcapture %}
+{% capture lg %}{% include 'shortcode-render' render:'lg' %}{% endcapture %}
+{% capture md %}{% include 'shortcode-render' render:'md' %}{% endcapture %}
+{% capture sm %}{% include 'shortcode-render' render:'sm' %}{% endcapture %}
+{% capture xs %}{% include 'shortcode-render' render:'xs' %}{% endcapture %}
+<div class="nova-divier{% if xl != blank %} xl-pt-{{xl}}{% endif %}{% if lg != blank %} lg-pt-{{lg}}{% endif %}{% if md != blank %} md-pt-{{md}}{% endif %}{% if sm != blank %} sm-pt-{{sm}}{% endif %}{% if xs != blank %} xs-pt-{{xs}}{% endif %}"></div>

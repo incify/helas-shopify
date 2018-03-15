@@ -1,0 +1,228 @@
+<div data-section-id="{{ section.id }}" data-section-type="hover-box-section" class="section__wine-hover-box {% if section.settings.enable_style == true %} incify-styles{% endif %}"{% if section.settings.enable_style == true %} data-styles='{
+  {% if section.settings.style_top != '' %}
+  "margin-top":"{{ section.settings.style_top }}px",
+  {% endif %}
+  {% if section.settings.style_bottom != '' %}
+  "margin-bottom":"{{ section.settings.style_bottom }}px",
+  {% endif %}
+  {% if section.settings.style_left != '' %}
+  "margin-left":"{{ section.settings.style_left }}px",
+  {% endif %}
+  {% if section.settings.style_right != '' %}
+  "margin-right":"{{ section.settings.style_right }}px"
+  {% endif %}
+}'{% endif %}>
+  <div class="container {{ section.settings.preset_section_title }} {% if section.settings.sub_title != blank %}sub-title-enable{% endif %}">
+      <div class="row">
+          <div class="col-sm-12">
+              <div class="section-title">
+                  {% if settings.language_enable %}
+                  <span class="lang1">{{ section.settings.title | split: '|' | first }}</span>
+                  <span class="lang2">{{ section.settings.title | split: '|' | last }}</span>
+                  {% else %}
+                  <span>{{ section.settings.title | split: '|' | first }}</span>
+                  {% endif %}
+              </div>
+              {% if section.settings.preset_section_title == 'style_7' %}
+              <div class="sub-image">
+                  <img src="{{ 'leaf.png' | asset_url }}" alt="sub-image">
+              </div>
+              {% endif %}
+              {% if section.settings.sub_title != blank %}
+              {% if section.settings.preset_section_title == 'style_8' %}
+              <div class="sub-image">
+                  <img src="{{ 'm15-i1.png' | asset_url }}" alt="sub-image">
+              </div>
+              {% endif %}
+              <div class="section-sub-title">
+                  {{ section.settings.sub_title }}
+              </div>
+              {% endif %}
+          </div>
+      </div>
+  </div>
+  <div class="wine-hover-box">
+    <div class="container">
+      <div class="row">
+        <div class="grid-x grid-padding-y grid-padding-x small-up-1 medium-up-3 large-up-{{section.settings.grid}}">
+            {% for block in section.blocks %}
+            <div class="cell">
+              <div class="wine-hover-box__inner" data-background="{{ block.settings.image | img_url: 'master' }}" data-hover="{{ block.settings.image_hover | img_url: 'master' }}">
+                <div class="wine-hover-box__desc">
+                  <div class="wine-hover-box__inner--title">
+                    <h3>{{ block.settings.title }}</h3>
+                  </div>
+                  <div class="wine-hover-box__inner--link">
+                    <a href="{{ block.settings.link }}">{{ block.settings.link_title }}</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+"name": "Box Hover",
+"class": "index-section",
+"settings": [
+{
+"type": "header",
+"content": "Title Settings"
+},
+{
+"type": "select",
+"id": "preset_section_title",
+"label": "Preset Section Title",
+"options": [
+{
+"value": "style_1",
+"label": "Style 1"
+},
+{
+"value": "style_2",
+"label": "Style 2"
+},
+{
+"value": "style_3",
+"label": "Style 3"
+},
+{
+"value": "style_4",
+"label": "Style 4"
+},
+{
+"value": "style_5",
+"label": "Style 5"
+},
+{
+"value": "style_6",
+"label": "Style 6"
+},
+{
+"value": "style_7",
+"label": "Style 7"
+},
+{
+"value": "style_8",
+"label": "Style 8"
+}
+],
+"default": "style_1"
+},
+{
+"type": "text",
+"id": "title",
+"label": "Box Title"
+},
+{
+"type": "text",
+"id": "sub_title",
+"label": "Box Sub Title"
+},
+{
+"type": "text",
+"id": "columns",
+"label": "Columns",
+ "default": "3"
+},
+{
+  "type": "header",
+  "content": "Styles Settings"
+},
+{
+ "type": "checkbox",
+ "id": "enable_style",
+ "default": false,
+ "label": "Enable Style Settings"
+},
+{
+    "type":      "range",
+    "id":        "style_top",
+    "min":       0,
+    "max":        500,
+    "step":       5,
+    "unit":       "px",
+    "label":     "Space Top",
+    "default":   0
+},
+{
+    "type":      "range",
+    "id":        "style_bottom",
+    "min":       0,
+    "max":        500,
+    "step":       5,
+    "unit":       "px",
+    "label":     "Space Bottom",
+    "default":   0
+},
+{
+    "type":      "range",
+    "id":        "style_left",
+    "min":       0,
+    "max":        500,
+    "step":       5,
+    "unit":       "px",
+    "label":     "Space Left",
+    "default":   0
+},
+{
+    "type":      "range",
+    "id":        "style_right",
+    "min":       0,
+    "max":        500,
+    "step":       5,
+    "unit":       "px",
+    "label":     "Space Right",
+    "default":   0
+}
+],
+"blocks": [
+{
+"type": "item",
+"name": "Box Item",
+"settings": [
+{
+  "type": "text",
+  "id": "title",
+  "label": "Title",
+  "default": "Title"
+},
+{
+"type": "image_picker",
+"id": "image",
+"label": "Image"
+},
+{
+"type": "image_picker",
+"id": "image_hover",
+"label": "Image When Hover"
+},
+{
+  "type": "text",
+  "id": "link_title",
+  "label": "Text Link",
+  "default": "Read More >"
+},
+{
+"type": "url",
+"id": "link",
+"label": "Link"
+}
+]
+}
+],
+"presets": [
+{
+"name": "Box Hover",
+"category": "Wine Main",
+"settings": {
+"columns": "5"
+}
+}
+]
+}
+{% endschema %}

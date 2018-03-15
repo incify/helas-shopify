@@ -1,0 +1,215 @@
+<div data-section-id="{{ section.id }}" data-section-type="subscribe-section" class="subscribe-section {{section.settings.preset}} {% if section.settings.enable_parallax == true %}parallax-box{% endif %} {{section.settings.banner_preset}} incify-styles" data-styles='{
+  {% if section.settings.enable_style == true %}
+    {% if section.settings.style_top != '' %}
+    "margin-top":"{{ section.settings.style_top }}px",
+    {% endif %}
+    {% if section.settings.style_bottom != '' %}
+    "margin-bottom":"{{ section.settings.style_bottom }}px",
+    {% endif %}
+    {% if section.settings.style_left != '' %}
+    "margin-left":"{{ section.settings.style_left }}px",
+    {% endif %}
+    {% if section.settings.style_right != '' %}
+    "margin-right":"{{ section.settings.style_right }}px",
+    {% endif %}
+  {% endif %}
+  {% if section.settings.background_color != blank %}
+    "background-color": "{{ section.settings.background_color }}",
+  {% endif %}
+  {% if section.settings.gradient_bg != blank %}
+  "background": "-moz-linear-gradient(left, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%)",
+  "background": "-webkit-linear-gradient(left, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%)",
+  "background": "linear-gradient(to right, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%)",
+  {% endif %}
+  {% if section.settings.background %}
+  "background-image":"url({{ section.settings.background | img_url: 'master' }})",
+  "background-repeat": "{{ section.settings.background_repeat }}",
+  {% if section.settings.background_repeat == 'repeat' %}
+    "background-size": "auto",
+  {% else %}
+    "background-size": "cover",
+  {% endif %}
+  "background-position": "50% 50%",
+  {% endif %}
+  {% if section.settings.padding_top != '' %}
+  "padding-top":"{{ section.settings.padding_top }}px",
+  {% endif %}
+  "padding-bottom":"{{ section.settings.padding_bottom }}px"
+}'>
+  <div class="incify-subscribe">
+      <div class="container">
+          {% include 'main_subscribe' %}
+      </div>
+  </div>
+</div>
+{% schema %}
+{
+"name": "Subscribe",
+"settings": [
+    {
+      "type": "select",
+      "id": "preset",
+      "label": "Preset",
+      "options": [
+    {
+      "value": "style_1",
+      "label": "Style 1"
+    },
+    {
+      "value": "style_2",
+      "label": "Style 2"
+    },
+    {
+      "value": "style_3",
+      "label": "Style 3"
+    }
+    ],
+    "default": "style_1"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "sub_title",
+      "label": "Sub Title"
+    },
+    {
+      "type": "header",
+      "content": "Gradient Background"
+    },
+    {
+     "type": "checkbox",
+     "id": "gradient_bg",
+     "default": false,
+     "label": "Use Gradient Background",
+     "info": "If you enable gradient background. Please remove image background"
+    },
+    {
+      "type": "color",
+      "id": "gradient_left",
+      "label": "Gradient Left Color",
+      "default": "#707fdf"
+    },
+    {
+      "type": "color",
+      "id": "gradient_right",
+      "label": "Gradient Right Color",
+      "default": "#f5364c"
+    },
+    {
+      "type": "header",
+      "content": "Image Background"
+    },
+    {
+     "type": "checkbox",
+     "id": "enable_parallax",
+     "default": true,
+     "label": "Enable Parallax Background"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#f7f7f7"
+    },
+    {
+    "type": "image_picker",
+    "id": "background",
+    "label": "Banner Background"
+    },
+    {
+    "type": "select",
+    "id": "background_repeat",
+    "label": "Background Repeat",
+    "options": [
+    {
+    "value": "no-repeat",
+    "label": "No Reapeat"
+    },
+    {
+    "value": "repeat",
+    "label": "Repeat"
+    }
+    ],
+    "default": "no-repeat"
+    },
+    {
+        "type":      "range",
+        "id":        "padding_top",
+        "min":       50,
+        "max":        500,
+        "step":       10,
+        "unit":       "px",
+        "label":     "Padding Top",
+        "default":   70
+    },
+    {
+        "type":      "range",
+        "id":        "padding_bottom",
+        "min":       50,
+        "max":        500,
+        "step":       10,
+        "unit":       "px",
+        "label":     "Padding Bottom",
+        "default":   50
+    },
+    {
+      "type": "header",
+      "content": "Styles Settings"
+    },
+    {
+     "type": "checkbox",
+     "id": "enable_style",
+     "default": false,
+     "label": "Enable Style Settings"
+    },
+    {
+        "type":      "range",
+        "id":        "style_top",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Top",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_bottom",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Bottom",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_left",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Left",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_right",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Right",
+        "default":   0
+    }
+	],
+	"presets": [{
+      "name": "Subscribe",
+      "category": "Subscribe"
+  	}]
+}
+{% endschema %}

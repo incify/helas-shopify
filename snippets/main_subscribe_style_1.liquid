@@ -1,0 +1,16 @@
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <h3>{{ section.settings.title}}</h3>
+      </div>
+      <div class="col-md-7">
+        <form action="{{ form_action }}" method="post" target="_blank" name="mc-embedded-subscribe-form">
+          <div class="input-group">
+            <input id="fc-email" type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}" name="EMAIL" class="input-group-field" aria-label="{{ 'general.newsletter_form.newsletter_email' | t }}">
+            <button type="submit" class="btn-button" name="subscribe" {% if settings.language_enable %}data-translate="general.newsletter_form.subscribe"{% endif %}>{{ 'general.newsletter_form.subscribe' | t }}</button>
+          </div>
+          <label id="fc-response" for="fc-email"></label>
+        </form>
+      </div>
+    </div>
+  </div>

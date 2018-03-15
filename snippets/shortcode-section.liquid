@@ -1,0 +1,12 @@
+{% capture row %}{% include 'shortcode-render' render:'action' %}{% endcapture %}
+{% capture parallax %}{% include 'shortcode-render' render:'parallax' default:'' %}{% endcapture %}
+{% capture bg_image %}{% include 'shortcode-render' render:'bg_image' default:'' %}{% endcapture %}
+{% capture class %}{% include 'shortcode-render' render:'class' default:'' %}{% endcapture %}
+{% capture top_space %}{% include 'shortcode-render' render:'top_space' default:'' %}{% endcapture %}
+{% capture bottom_space %}{% include 'shortcode-render' render:'bottom_space' default:'' %}{% endcapture %}
+{% case row %}
+{% when 'new row' %}
+<div class="incify-section-shortcode {% if parallax == 'on' %}parallax-box{% endif %} {{class}}" style="{% if bg_image != '' %}background-image: url({{bg_image}});{% endif %}{% if top_space != '' %}padding-top:{{top_space}}px;{% endif %}{% if bottom_space != '' %}padding-bottom:{{bottom_space}}px;{% endif %}">
+    {% when 'end row' %}
+</div>
+{% endcase %}

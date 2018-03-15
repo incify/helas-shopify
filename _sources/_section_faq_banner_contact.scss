@@ -1,0 +1,21 @@
+#shopify-section-faq_banner_contact {
+  .faq-banner-contact {
+    background: -webkit-linear-gradient(left, rgb(254, 155, 102) 0%, rgb(148, 221, 254) 100%);
+    position: relative;
+    padding: 60px 0;
+    .banner--title {
+      color: #fff;
+      font-size: 46px;
+      margin-bottom: 0;
+    }
+    .banner--sub-title {
+      color: #fff;
+      font-size: 14px;
+    }
+    .banner--button-act {
+      float:right;
+      text-align: right;
+      padding-top: 15px;
+    }
+  }
+}

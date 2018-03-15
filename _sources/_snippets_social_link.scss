@@ -1,0 +1,20 @@
+.social-media-link {
+  &.style-default {
+    a {
+      color:#ccc;
+      margin: 0 15px;
+      &:first-child {
+        margin-left: 0 !important;
+      }
+      i {
+        font-size: 16px;
+      }
+    }
+  }
+}
+.item--social {
+  a {
+    display: inline-block;
+    padding: 0 10px;
+  }
+}

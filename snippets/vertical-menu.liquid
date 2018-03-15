@@ -1,0 +1,80 @@
+<nav class="site-category-nav menu--vertical menu--vertical-left">
+  <span class="toggle-category-menu">Shop by Categories</span>
+  <div class="nav-inner" data-container="#masthead .site-header__nav-primary .site-category-nav .nav-inner" data-parent-container="#masthead .site-header__nav-primary .header-main">
+    <ul class="top-navigation">
+      {% for block in section.blocks %}
+      {% assign collection = collections[block.settings.collection] %}
+    <li class="level0 level-top">
+        <img src="{{ block.settings.icon | img_url: 'master' }}" />
+        <a href="{{ collection.url }}" class="level-top">
+            <span><span>{{ collection.title }}</span></span>
+        </a>
+        {% if block.settings.sub_menu != '0' %}
+        <div class="level0 menu-wrap-sub ">
+            <div class="content-menu-inner" style="background-image: url(//cdn.shopify.com/s/files/1/2573/5730/t/15/assets/menu-shop-bg-1.jpg?17087655361032364156);{% if block.settings.sub_menu == '2' %} max-width:650px;{% endif %}">
+                <div class="container">
+                    <div class="mega-columns row">
+                        {% if block.settings.sub_menu == '1' %}
+                        <div class="ulmenu-block ulmenu-block-center menu-items col-sm-12 category-products">
+                            <div class="row">
+                              <ul class="products-grid shortcode slick-carousel" data-slick='{"slidesToShow":3,"slidesToScroll":3,"dots":true,"autoplaySpeed":5000,"speed":300,"infinite":false,"arrows":false,"swipe":true,"draggable":true,"touchMove":true,"pauseOnHover":false,"responsive":[{"breakpoint":1824,"settings":{"slidesToShow":3,"slidesToScroll":3}},{"breakpoint":1200,"settings":{"slidesToShow":3,"slidesToScroll":3}},{"breakpoint":992,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":768,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"pauseOnDotsHover":true}'>
+                                {% assign collection1 = collections[block.settings.product_style_1] %}
+                                {% for product in collection1.products limit: block.settings.limit_1 %}
+                                <li class="item product product-layout-grid">
+                                    {% include 'product-tab-grid-item' %}
+                                </li>
+                                {% endfor %}
+                              </ul>
+
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% if block.settings.sub_menu == '2' %}
+                        {% assign collection2 = collections[block.settings.product_style_2] %}
+                        <div class="ulmenu-block ulmenu-block-center menu-items col-sm-12 category-products">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="product-mini-list-section">
+                                  <div class="product-mini-list">
+                                    <h5 class="title">{{ block.settings.title_2}}</h3>
+                                    <ul class="shortcode">
+                                      {% for product in collection2.products limit: block.settings.limit_2 %}
+                                        {% include "product-mini-item" %}
+                                      {% endfor %}
+                                    </ul>
+                                    {% if block.settings.viewmore_url_2 != blank %}
+                                    <div class="more-product">
+                                      <a href="{{ block.settings.viewmore_url_2}}" class="btn-all-product">{{ block.settings.viewmore_text_2}}</a>
+                                    </div>
+                                    {% endif %}
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="products-style-2-list">
+                                  <h5 class="title">{{ block.settings.title_3}}</h3>
+                                    <ul class="shortcode slick-carousel" data-slick='{"slidesToShow":1,"slidesToScroll":1,"dots":true,"autoplaySpeed":5000,"speed":300,"infinite":false,"arrows":false,"swipe":true,"draggable":true,"touchMove":true,"pauseOnHover":false,"responsive":[{"breakpoint":1824,"settings":{"slidesToShow":3,"slidesToScroll":3}},{"breakpoint":1200,"settings":{"slidesToShow":3,"slidesToScroll":3}},{"breakpoint":992,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":768,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"pauseOnDotsHover":true}'>
+                                      {% assign collection3 = collections[block.settings.product_style_3] %}
+                                      {% for product in collection3.products limit: block.settings.limit_3 %}
+                                      <li class="item product product-layout-grid">
+                                          {% include 'product-style-2-grid-item' %}
+                                      </li>
+                                      {% endfor %}
+                                    </ul>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        {% endif %}
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+  </div>
+</nav>

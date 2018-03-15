@@ -1,0 +1,10 @@
+{% capture imageLink %}{% include 'shortcode-render' render:'link' default:'' %}{% endcapture %}
+{% capture imageSrc %}{% include 'shortcode-render' render:'src' default:'' %}{% endcapture %}
+{% capture imageClass %}{% include 'shortcode-render' render:'class' default:'' %}{% endcapture %}
+{% if imageLink != '' %}
+<a href="{{imageLink}}">
+{% endif %}
+    <img src="{{imageSrc}}" {% if class != '' %}class="{{imageClass}}"{% endif %}/>
+{% if imageLink != '' %}
+</a>
+{% endif %}

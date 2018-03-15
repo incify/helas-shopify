@@ -1,0 +1,6119 @@
+{
+  "Animals & Nature": [
+    {
+      "la-icon nature_bear": "Nature bear"
+    },
+    {
+      "la-icon nature_bee": "Nature bee"
+    },
+    {
+      "la-icon nature_butterfly": "Nature butterfly"
+    },
+    {
+      "la-icon nature_chicken": "Nature chicken"
+    },
+    {
+      "la-icon nature_clover": "Nature clover"
+    },
+    {
+      "la-icon nature_collar": "Nature collar"
+    },
+    {
+      "la-icon nature_cow": "Nature cow"
+    },
+    {
+      "la-icon nature_dog-house": "Nature dog house"
+    },
+    {
+      "la-icon nature_dog": "Nature dog"
+    },
+    {
+      "la-icon nature_flower-05": "Nature flower 05"
+    },
+    {
+      "la-icon nature_flower-06": "Nature flower 06"
+    },
+    {
+      "la-icon nature_flower-07": "Nature flower 07"
+    },
+    {
+      "la-icon nature_food-dog": "Nature food dog"
+    },
+    {
+      "la-icon nature_food": "Nature food"
+    },
+    {
+      "la-icon nature_forest": "Nature forest"
+    },
+    {
+      "la-icon nature_mountain": "Nature mountain"
+    },
+    {
+      "la-icon nature_mushroom": "Nature mushroom"
+    },
+    {
+      "la-icon nature_panda": "Nature panda"
+    },
+    {
+      "la-icon nature_paw": "Nature paw"
+    },
+    {
+      "la-icon nature_pig": "Nature pig"
+    },
+    {
+      "la-icon nature_plant-ground": "Nature plant ground"
+    },
+    {
+      "la-icon nature_plant-vase": "Nature plant vase"
+    },
+    {
+      "la-icon nature_rat": "Nature rat"
+    },
+    {
+      "la-icon nature_sheep": "Nature sheep"
+    },
+    {
+      "la-icon nature_snake": "Nature snake"
+    },
+    {
+      "la-icon nature_tree-01": "Nature tree 01"
+    },
+    {
+      "la-icon nature_tree-02": "Nature tree 02"
+    },
+    {
+      "la-icon nature_tree-03": "Nature tree 03"
+    },
+    {
+      "la-icon nature_turtle": "Nature turtle"
+    },
+    {
+      "la-icon nature_wood": "Nature wood"
+    }
+  ],
+  "Arrows": [
+    {
+      "la-icon arrows-1_back-78": "Arrows 1 back-78"
+    },
+    {
+      "la-icon arrows-1_back-80": "Arrows 1 back-80"
+    },
+    {
+      "la-icon arrows-1_bold-direction": "Arrows 1 bold-direction"
+    },
+    {
+      "la-icon arrows-1_bold-down": "Arrows 1 bold-down"
+    },
+    {
+      "la-icon arrows-1_bold-left": "Arrows 1 bold-left"
+    },
+    {
+      "la-icon arrows-1_bold-right": "Arrows 1 bold-right"
+    },
+    {
+      "la-icon arrows-1_bold-up": "Arrows 1 bold-up"
+    },
+    {
+      "la-icon arrows-1_circle-down-12": "Arrows 1 circle-down-12"
+    },
+    {
+      "la-icon arrows-1_circle-down-40": "Arrows 1 circle-down-40"
+    },
+    {
+      "la-icon arrows-1_circle-left-10": "Arrows 1 circle-left-10"
+    },
+    {
+      "la-icon arrows-1_circle-left-38": "Arrows 1 circle-left-38"
+    },
+    {
+      "la-icon arrows-1_circle-right-09": "Arrows 1 circle-right-09"
+    },
+    {
+      "la-icon arrows-1_circle-right-37": "Arrows 1 circle-right-37"
+    },
+    {
+      "la-icon arrows-1_circle-up-11": "Arrows 1 circle-up-11"
+    },
+    {
+      "la-icon arrows-1_circle-up-39": "Arrows 1 circle-up-39"
+    },
+    {
+      "la-icon arrows-1_cloud-download-93": "Arrows 1 cloud-download-93"
+    },
+    {
+      "la-icon arrows-1_cloud-download-95": "Arrows 1 cloud-download-95"
+    },
+    {
+      "la-icon arrows-1_cloud-upload-94": "Arrows 1 cloud-upload-94"
+    },
+    {
+      "la-icon arrows-1_cloud-upload-96": "Arrows 1 cloud-upload-96"
+    },
+    {
+      "la-icon arrows-1_curved-next": "Arrows 1 curved-next"
+    },
+    {
+      "la-icon arrows-1_curved-previous": "Arrows 1 curved-previous"
+    },
+    {
+      "la-icon arrows-1_direction-53": "Arrows 1 direction-53"
+    },
+    {
+      "la-icon arrows-1_direction-56": "Arrows 1 direction-56"
+    },
+    {
+      "la-icon arrows-1_double-left": "Arrows 1 double-left"
+    },
+    {
+      "la-icon arrows-1_double-right": "Arrows 1 double-right"
+    },
+    {
+      "la-icon arrows-1_download": "Arrows 1 download"
+    },
+    {
+      "la-icon arrows-1_enlarge-diagonal-43": "Arrows 1 enlarge-diagonal-43"
+    },
+    {
+      "la-icon arrows-1_enlarge-diagonal-44": "Arrows 1 enlarge-diagonal-44"
+    },
+    {
+      "la-icon arrows-1_enlarge-horizontal": "Arrows 1 enlarge-horizontal"
+    },
+    {
+      "la-icon arrows-1_enlarge-vertical": "Arrows 1 enlarge-vertical"
+    },
+    {
+      "la-icon arrows-1_fit-horizontal": "Arrows 1 fit-horizontal"
+    },
+    {
+      "la-icon arrows-1_fit-vertical": "Arrows 1 fit-vertical"
+    },
+    {
+      "la-icon arrows-1_fullscreen-70": "Arrows 1 fullscreen-70"
+    },
+    {
+      "la-icon arrows-1_fullscreen-71": "Arrows 1 fullscreen-71"
+    },
+    {
+      "la-icon arrows-1_fullscreen-76": "Arrows 1 fullscreen-76"
+    },
+    {
+      "la-icon arrows-1_fullscreen-77": "Arrows 1 fullscreen-77"
+    },
+    {
+      "la-icon arrows-1_fullscreen-double-74": "Arrows 1 fullscreen-double-74"
+    },
+    {
+      "la-icon arrows-1_fullscreen-double-75": "Arrows 1 fullscreen-double-75"
+    },
+    {
+      "la-icon arrows-1_fullscreen-split-72": "Arrows 1 fullscreen-split-72"
+    },
+    {
+      "la-icon arrows-1_fullscreen-split-73": "Arrows 1 fullscreen-split-73"
+    },
+    {
+      "la-icon arrows-1_log-in": "Arrows 1 log-in"
+    },
+    {
+      "la-icon arrows-1_log-out": "Arrows 1 log-out"
+    },
+    {
+      "la-icon arrows-1_loop-82": "Arrows 1 loop-82"
+    },
+    {
+      "la-icon arrows-1_loop-83": "Arrows 1 loop-83"
+    },
+    {
+      "la-icon arrows-1_minimal-down": "Arrows 1 minimal-down"
+    },
+    {
+      "la-icon arrows-1_minimal-left": "Arrows 1 minimal-left"
+    },
+    {
+      "la-icon arrows-1_minimal-right": "Arrows 1 minimal-right"
+    },
+    {
+      "la-icon arrows-1_minimal-up": "Arrows 1 minimal-up"
+    },
+    {
+      "la-icon arrows-1_redo-79": "Arrows 1 redo-79"
+    },
+    {
+      "la-icon arrows-1_redo-81": "Arrows 1 redo-81"
+    },
+    {
+      "la-icon arrows-1_refresh-68": "Arrows 1 refresh-68"
+    },
+    {
+      "la-icon arrows-1_refresh-69": "Arrows 1 refresh-69"
+    },
+    {
+      "la-icon arrows-1_round-down": "Arrows 1 round-down"
+    },
+    {
+      "la-icon arrows-1_round-left": "Arrows 1 round-left"
+    },
+    {
+      "la-icon arrows-1_round-right": "Arrows 1 round-right"
+    },
+    {
+      "la-icon arrows-1_round-up": "Arrows 1 round-up"
+    },
+    {
+      "la-icon arrows-1_share-66": "Arrows 1 share-66"
+    },
+    {
+      "la-icon arrows-1_share-91": "Arrows 1 share-91"
+    },
+    {
+      "la-icon arrows-1_share-92": "Arrows 1 share-92"
+    },
+    {
+      "la-icon arrows-1_shuffle-97": "Arrows 1 shuffle-97"
+    },
+    {
+      "la-icon arrows-1_shuffle-98": "Arrows 1 shuffle-98"
+    },
+    {
+      "la-icon arrows-1_simple-down": "Arrows 1 simple-down"
+    },
+    {
+      "la-icon arrows-1_simple-left": "Arrows 1 simple-left"
+    },
+    {
+      "la-icon arrows-1_simple-right": "Arrows 1 simple-right"
+    },
+    {
+      "la-icon arrows-1_simple-up": "Arrows 1 simple-up"
+    },
+    {
+      "la-icon arrows-1_small-triangle-down": "Arrows 1 small-triangle-down"
+    },
+    {
+      "la-icon arrows-1_small-triangle-left": "Arrows 1 small-triangle-left"
+    },
+    {
+      "la-icon arrows-1_small-triangle-right": "Arrows 1 small-triangle-right"
+    },
+    {
+      "la-icon arrows-1_small-triangle-up": "Arrows 1 small-triangle-up"
+    },
+    {
+      "la-icon arrows-1_square-down": "Arrows 1 square-down"
+    },
+    {
+      "la-icon arrows-1_square-left": "Arrows 1 square-left"
+    },
+    {
+      "la-icon arrows-1_square-right": "Arrows 1 square-right"
+    },
+    {
+      "la-icon arrows-1_square-up": "Arrows 1 square-up"
+    },
+    {
+      "la-icon arrows-1_strong-down": "Arrows 1 strong-down"
+    },
+    {
+      "la-icon arrows-1_strong-left": "Arrows 1 strong-left"
+    },
+    {
+      "la-icon arrows-1_strong-right": "Arrows 1 strong-right"
+    },
+    {
+      "la-icon arrows-1_strong-up": "Arrows 1 strong-up"
+    },
+    {
+      "la-icon arrows-1_tail-down": "Arrows 1 tail-down"
+    },
+    {
+      "la-icon arrows-1_tail-left": "Arrows 1 tail-left"
+    },
+    {
+      "la-icon arrows-1_tail-right": "Arrows 1 tail-right"
+    },
+    {
+      "la-icon arrows-1_tail-triangle-down": "Arrows 1 tail-triangle-down"
+    },
+    {
+      "la-icon arrows-1_tail-triangle-left": "Arrows 1 tail-triangle-left"
+    },
+    {
+      "la-icon arrows-1_tail-triangle-right": "Arrows 1 tail-triangle-right"
+    },
+    {
+      "la-icon arrows-1_tail-triangle-up": "Arrows 1 tail-triangle-up"
+    },
+    {
+      "la-icon arrows-1_tail-up": "Arrows 1 tail-up"
+    },
+    {
+      "la-icon arrows-1_trend-down": "Arrows 1 trend-down"
+    },
+    {
+      "la-icon arrows-1_trend-up": "Arrows 1 trend-up"
+    },
+    {
+      "la-icon arrows-1_triangle-down-20": "Arrows 1 triangle-down-20"
+    },
+    {
+      "la-icon arrows-1_triangle-down-65": "Arrows 1 triangle-down-65"
+    },
+    {
+      "la-icon arrows-1_triangle-left-18": "Arrows 1 triangle-left-18"
+    },
+    {
+      "la-icon arrows-1_triangle-left-63": "Arrows 1 triangle-left-63"
+    },
+    {
+      "la-icon arrows-1_triangle-right-17": "Arrows 1 triangle-right-17"
+    },
+    {
+      "la-icon arrows-1_triangle-right-62": "Arrows 1 triangle-right-62"
+    },
+    {
+      "la-icon arrows-1_triangle-up-19": "Arrows 1 triangle-up-19"
+    },
+    {
+      "la-icon arrows-1_triangle-up-64": "Arrows 1 triangle-up-64"
+    },
+    {
+      "la-icon arrows-1_window-zoom-in": "Arrows 1 window-zoom-in"
+    },
+    {
+      "la-icon arrows-1_window-zoom-out": "Arrows 1 window-zoom-out"
+    },
+    {
+      "la-icon arrows-1_zoom-88": "Arrows 1 zoom-88"
+    },
+    {
+      "la-icon arrows-1_zoom-99": "Arrows 1 zoom-99"
+    },
+    {
+      "la-icon arrows-1_zoom-100": "Arrows 1 zoom-100"
+    },
+    {
+      "la-icon arrows-2_block-down": "Arrows 2 block-down"
+    },
+    {
+      "la-icon arrows-2_block-left": "Arrows 2 block-left"
+    },
+    {
+      "la-icon arrows-2_block-right": "Arrows 2 block-right"
+    },
+    {
+      "la-icon arrows-2_block-up": "Arrows 2 block-up"
+    },
+    {
+      "la-icon arrows-2_circle-in": "Arrows 2 circle-in"
+    },
+    {
+      "la-icon arrows-2_circle-out": "Arrows 2 circle-out"
+    },
+    {
+      "la-icon arrows-2_circuit-round": "Arrows 2 circuit-round"
+    },
+    {
+      "la-icon arrows-2_circuit": "Arrows 2 circuit"
+    },
+    {
+      "la-icon arrows-2_computer-upload": "Arrows 2 computer-upload"
+    },
+    {
+      "la-icon arrows-2_conversion": "Arrows 2 conversion"
+    },
+    {
+      "la-icon arrows-2_corner-down-round": "Arrows 2 corner-down-round"
+    },
+    {
+      "la-icon arrows-2_corner-down": "Arrows 2 corner-down"
+    },
+    {
+      "la-icon arrows-2_corner-left-down": "Arrows 2 corner-left-down"
+    },
+    {
+      "la-icon arrows-2_corner-left-round": "Arrows 2 corner-left-round"
+    },
+    {
+      "la-icon arrows-2_corner-left": "Arrows 2 corner-left"
+    },
+    {
+      "la-icon arrows-2_corner-right-down": "Arrows 2 corner-right-down"
+    },
+    {
+      "la-icon arrows-2_corner-right-round": "Arrows 2 corner-right-round"
+    },
+    {
+      "la-icon arrows-2_corner-right": "Arrows 2 corner-right"
+    },
+    {
+      "la-icon arrows-2_corner-up-left": "Arrows 2 corner-up-left"
+    },
+    {
+      "la-icon arrows-2_corner-up-right": "Arrows 2 corner-up-right"
+    },
+    {
+      "la-icon arrows-2_corner-up-round": "Arrows 2 corner-up-round"
+    },
+    {
+      "la-icon arrows-2_corner-up": "Arrows 2 corner-up"
+    },
+    {
+      "la-icon arrows-2_cross-down": "Arrows 2 cross-down"
+    },
+    {
+      "la-icon arrows-2_cross-horizontal": "Arrows 2 cross-horizontal"
+    },
+    {
+      "la-icon arrows-2_cross-left": "Arrows 2 cross-left"
+    },
+    {
+      "la-icon arrows-2_cross-right": "Arrows 2 cross-right"
+    },
+    {
+      "la-icon arrows-2_cross-up": "Arrows 2 cross-up"
+    },
+    {
+      "la-icon arrows-2_cross-vertical": "Arrows 2 cross-vertical"
+    },
+    {
+      "la-icon arrows-2_curve-circuit": "Arrows 2 curve-circuit"
+    },
+    {
+      "la-icon arrows-2_curve-directions": "Arrows 2 curve-directions"
+    },
+    {
+      "la-icon arrows-2_curve-split": "Arrows 2 curve-split"
+    },
+    {
+      "la-icon arrows-2_delete-49": "Arrows 2 delete-49"
+    },
+    {
+      "la-icon arrows-2_delete-50": "Arrows 2 delete-50"
+    },
+    {
+      "la-icon arrows-2_direction": "Arrows 2 direction"
+    },
+    {
+      "la-icon arrows-2_dots-download": "Arrows 2 dots-download"
+    },
+    {
+      "la-icon arrows-2_dots-upload": "Arrows 2 dots-upload"
+    },
+    {
+      "la-icon arrows-2_eject": "Arrows 2 eject"
+    },
+    {
+      "la-icon arrows-2_enlarge-circle": "Arrows 2 enlarge-circle"
+    },
+    {
+      "la-icon arrows-2_file-download-87": "Arrows 2 file-download-87"
+    },
+    {
+      "la-icon arrows-2_file-download-89": "Arrows 2 file-download-89"
+    },
+    {
+      "la-icon arrows-2_file-download-94": "Arrows 2 file-download-94"
+    },
+    {
+      "la-icon arrows-2_file-upload-86": "Arrows 2 file-upload-86"
+    },
+    {
+      "la-icon arrows-2_file-upload-88": "Arrows 2 file-upload-88"
+    },
+    {
+      "la-icon arrows-2_file-upload-93": "Arrows 2 file-upload-93"
+    },
+    {
+      "la-icon arrows-2_fork-round": "Arrows 2 fork-round"
+    },
+    {
+      "la-icon arrows-2_fork": "Arrows 2 fork"
+    },
+    {
+      "la-icon arrows-2_hit-down": "Arrows 2 hit-down"
+    },
+    {
+      "la-icon arrows-2_hit-left": "Arrows 2 hit-left"
+    },
+    {
+      "la-icon arrows-2_hit-right": "Arrows 2 hit-right"
+    },
+    {
+      "la-icon arrows-2_hit-up": "Arrows 2 hit-up"
+    },
+    {
+      "la-icon arrows-2_lines": "Arrows 2 lines"
+    },
+    {
+      "la-icon arrows-2_log-out": "Arrows 2 log-out"
+    },
+    {
+      "la-icon arrows-2_loop": "Arrows 2 loop"
+    },
+    {
+      "la-icon arrows-2_merge-round": "Arrows 2 merge-round"
+    },
+    {
+      "la-icon arrows-2_merge": "Arrows 2 merge"
+    },
+    {
+      "la-icon arrows-2_move-05": "Arrows 2 move-05"
+    },
+    {
+      "la-icon arrows-2_move-06": "Arrows 2 move-06"
+    },
+    {
+      "la-icon arrows-2_move-92": "Arrows 2 move-92"
+    },
+    {
+      "la-icon arrows-2_move-down-right": "Arrows 2 move-down-right"
+    },
+    {
+      "la-icon arrows-2_move-down": "Arrows 2 move-down"
+    },
+    {
+      "la-icon arrows-2_move-left": "Arrows 2 move-left"
+    },
+    {
+      "la-icon arrows-2_move-right": "Arrows 2 move-right"
+    },
+    {
+      "la-icon arrows-2_move-up-left": "Arrows 2 move-up-left"
+    },
+    {
+      "la-icon arrows-2_move-up": "Arrows 2 move-up"
+    },
+    {
+      "la-icon arrows-2_push-next": "Arrows 2 push-next"
+    },
+    {
+      "la-icon arrows-2_push-previous": "Arrows 2 push-previous"
+    },
+    {
+      "la-icon arrows-2_reload": "Arrows 2 reload"
+    },
+    {
+      "la-icon arrows-2_replay": "Arrows 2 replay"
+    },
+    {
+      "la-icon arrows-2_rotate-left": "Arrows 2 rotate-left"
+    },
+    {
+      "la-icon arrows-2_rotate-right": "Arrows 2 rotate-right"
+    },
+    {
+      "la-icon arrows-2_round-left-down": "Arrows 2 round-left-down"
+    },
+    {
+      "la-icon arrows-2_round-right-down": "Arrows 2 round-right-down"
+    },
+    {
+      "la-icon arrows-2_round-up-left": "Arrows 2 round-up-left"
+    },
+    {
+      "la-icon arrows-2_round-up-right": "Arrows 2 round-up-right"
+    },
+    {
+      "la-icon arrows-2_select-83": "Arrows 2 select-83"
+    },
+    {
+      "la-icon arrows-2_select-84": "Arrows 2 select-84"
+    },
+    {
+      "la-icon arrows-2_separate-round": "Arrows 2 separate-round"
+    },
+    {
+      "la-icon arrows-2_separate": "Arrows 2 separate"
+    },
+    {
+      "la-icon arrows-2_share-left": "Arrows 2 share-left"
+    },
+    {
+      "la-icon arrows-2_share-right": "Arrows 2 share-right"
+    },
+    {
+      "la-icon arrows-2_skew-down": "Arrows 2 skew-down"
+    },
+    {
+      "la-icon arrows-2_skew-left": "Arrows 2 skew-left"
+    },
+    {
+      "la-icon arrows-2_skew-right": "Arrows 2 skew-right"
+    },
+    {
+      "la-icon arrows-2_skew-up": "Arrows 2 skew-up"
+    },
+    {
+      "la-icon arrows-2_small-left": "Arrows 2 small-left"
+    },
+    {
+      "la-icon arrows-2_small-right": "Arrows 2 small-right"
+    },
+    {
+      "la-icon arrows-2_split-horizontal": "Arrows 2 split-horizontal"
+    },
+    {
+      "la-icon arrows-2_split-round": "Arrows 2 split-round"
+    },
+    {
+      "la-icon arrows-2_split-vertical": "Arrows 2 split-vertical"
+    },
+    {
+      "la-icon arrows-2_split": "Arrows 2 split"
+    },
+    {
+      "la-icon arrows-2_square-download": "Arrows 2 square-download"
+    },
+    {
+      "la-icon arrows-2_square-upload": "Arrows 2 square-upload"
+    },
+    {
+      "la-icon arrows-2_time": "Arrows 2 time"
+    },
+    {
+      "la-icon arrows-2_triangle-down": "Arrows 2 triangle-down"
+    },
+    {
+      "la-icon arrows-2_triangle-left": "Arrows 2 triangle-left"
+    },
+    {
+      "la-icon arrows-2_triangle-right": "Arrows 2 triangle-right"
+    },
+    {
+      "la-icon arrows-2_triangle-up": "Arrows 2 triangle-up"
+    },
+    {
+      "la-icon arrows-2_unite-round": "Arrows 2 unite-round"
+    },
+    {
+      "la-icon arrows-2_unite": "Arrows 2 unite"
+    },
+    {
+      "la-icon arrows-2_zoom": "Arrows 2 zoom"
+    },
+    {
+      "la-icon arrows-3_circle-down": "Arrows 3 circle-down"
+    },
+    {
+      "la-icon arrows-3_circle-left": "Arrows 3 circle-left"
+    },
+    {
+      "la-icon arrows-3_circle-right": "Arrows 3 circle-right"
+    },
+    {
+      "la-icon arrows-3_circle-simple-down": "Arrows 3 circle-simple-down"
+    },
+    {
+      "la-icon arrows-3_circle-simple-left": "Arrows 3 circle-simple-left"
+    },
+    {
+      "la-icon arrows-3_circle-simple-right": "Arrows 3 circle-simple-right"
+    },
+    {
+      "la-icon arrows-3_circle-simple-up": "Arrows 3 circle-simple-up"
+    },
+    {
+      "la-icon arrows-3_circle-up": "Arrows 3 circle-up"
+    },
+    {
+      "la-icon arrows-3_cloud-refresh": "Arrows 3 cloud-refresh"
+    },
+    {
+      "la-icon arrows-3_separate": "Arrows 3 separate"
+    },
+    {
+      "la-icon arrows-3_small-down": "Arrows 3 small-down"
+    },
+    {
+      "la-icon arrows-3_small-up": "Arrows 3 small-up"
+    },
+    {
+      "la-icon arrows-3_square-corner-down-left": "Arrows 3 square-corner-down-left"
+    },
+    {
+      "la-icon arrows-3_square-corner-down-right": "Arrows 3 square-corner-down-right"
+    },
+    {
+      "la-icon arrows-3_square-corner-up-left": "Arrows 3 square-corner-up-left"
+    },
+    {
+      "la-icon arrows-3_square-corner-up-right": "Arrows 3 square-corner-up-right"
+    },
+    {
+      "la-icon arrows-3_square-down-06": "Arrows 3 square-down-06"
+    },
+    {
+      "la-icon arrows-3_square-down-22": "Arrows 3 square-down-22"
+    },
+    {
+      "la-icon arrows-3_square-enlarge": "Arrows 3 square-enlarge"
+    },
+    {
+      "la-icon arrows-3_square-left-04": "Arrows 3 square-left-04"
+    },
+    {
+      "la-icon arrows-3_square-left-20": "Arrows 3 square-left-20"
+    },
+    {
+      "la-icon arrows-3_square-right-03": "Arrows 3 square-right-03"
+    },
+    {
+      "la-icon arrows-3_square-right-19": "Arrows 3 square-right-19"
+    },
+    {
+      "la-icon arrows-3_square-simple-down": "Arrows 3 square-simple-down"
+    },
+    {
+      "la-icon arrows-3_square-simple-left": "Arrows 3 square-simple-left"
+    },
+    {
+      "la-icon arrows-3_square-simple-right": "Arrows 3 square-simple-right"
+    },
+    {
+      "la-icon arrows-3_square-simple-up": "Arrows 3 square-simple-up"
+    },
+    {
+      "la-icon arrows-3_square-up-05": "Arrows 3 square-up-05"
+    },
+    {
+      "la-icon arrows-3_square-up-21": "Arrows 3 square-up-21"
+    },
+    {
+      "la-icon arrows-3_square-zoom": "Arrows 3 square-zoom"
+    },
+    {
+      "la-icon arrows-3_super-bold-down": "Arrows 3 super-bold-down"
+    },
+    {
+      "la-icon arrows-3_super-bold-left": "Arrows 3 super-bold-left"
+    },
+    {
+      "la-icon arrows-3_super-bold-right": "Arrows 3 super-bold-right"
+    },
+    {
+      "la-icon arrows-3_super-bold-up": "Arrows 3 super-bold-up"
+    },
+    {
+      "la-icon arrows-4_block-bottom-left": "Arrows 4 block-bottom-left"
+    },
+    {
+      "la-icon arrows-4_block-bottom-right": "Arrows 4 block-bottom-right"
+    },
+    {
+      "la-icon arrows-4_block-top-left": "Arrows 4 block-top-left"
+    },
+    {
+      "la-icon arrows-4_block-top-right": "Arrows 4 block-top-right"
+    },
+    {
+      "la-icon arrows-4_centralize": "Arrows 4 centralize"
+    },
+    {
+      "la-icon arrows-4_compare": "Arrows 4 compare"
+    },
+    {
+      "la-icon arrows-4_contrast": "Arrows 4 contrast"
+    },
+    {
+      "la-icon arrows-4_cross": "Arrows 4 cross"
+    },
+    {
+      "la-icon arrows-4_diag-bottom-left": "Arrows 4 diag-bottom-left"
+    },
+    {
+      "la-icon arrows-4_diag-bottom-right": "Arrows 4 diag-bottom-right"
+    },
+    {
+      "la-icon arrows-4_diag-top-left": "Arrows 4 diag-top-left"
+    },
+    {
+      "la-icon arrows-4_diag-top-right": "Arrows 4 diag-top-right"
+    },
+    {
+      "la-icon arrows-4_disperse": "Arrows 4 disperse"
+    },
+    {
+      "la-icon arrows-4_download": "Arrows 4 download"
+    },
+    {
+      "la-icon arrows-4_enlarge-45": "Arrows 4 enlarge-45"
+    },
+    {
+      "la-icon arrows-4_enlarge-46": "Arrows 4 enlarge-46"
+    },
+    {
+      "la-icon arrows-4_export": "Arrows 4 export"
+    },
+    {
+      "la-icon arrows-4_format-left": "Arrows 4 format-left"
+    },
+    {
+      "la-icon arrows-4_format-right": "Arrows 4 format-right"
+    },
+    {
+      "la-icon arrows-4_input-12": "Arrows 4 input-12"
+    },
+    {
+      "la-icon arrows-4_input-21": "Arrows 4 input-21"
+    },
+    {
+      "la-icon arrows-4_invert": "Arrows 4 invert"
+    },
+    {
+      "la-icon arrows-4_launch-11": "Arrows 4 launch-11"
+    },
+    {
+      "la-icon arrows-4_launch-47": "Arrows 4 launch-47"
+    },
+    {
+      "la-icon arrows-4_logout": "Arrows 4 logout"
+    },
+    {
+      "la-icon arrows-4_loop-30": "Arrows 4 loop-30"
+    },
+    {
+      "la-icon arrows-4_loop-34": "Arrows 4 loop-34"
+    },
+    {
+      "la-icon arrows-4_merge": "Arrows 4 merge"
+    },
+    {
+      "la-icon arrows-4_open-in-browser": "Arrows 4 open-in-browser"
+    },
+    {
+      "la-icon arrows-4_priority-high": "Arrows 4 priority-high"
+    },
+    {
+      "la-icon arrows-4_priority-low": "Arrows 4 priority-low"
+    },
+    {
+      "la-icon arrows-4_redo-10": "Arrows 4 redo-10"
+    },
+    {
+      "la-icon arrows-4_redo-26": "Arrows 4 redo-26"
+    },
+    {
+      "la-icon arrows-4_reply-all": "Arrows 4 reply-all"
+    },
+    {
+      "la-icon arrows-4_reply": "Arrows 4 reply"
+    },
+    {
+      "la-icon arrows-4_restore": "Arrows 4 restore"
+    },
+    {
+      "la-icon arrows-4_share": "Arrows 4 share"
+    },
+    {
+      "la-icon arrows-4_shuffle-01": "Arrows 4 shuffle-01"
+    },
+    {
+      "la-icon arrows-4_shuffle-35": "Arrows 4 shuffle-35"
+    },
+    {
+      "la-icon arrows-4_split-33": "Arrows 4 split-33"
+    },
+    {
+      "la-icon arrows-4_split-37": "Arrows 4 split-37"
+    },
+    {
+      "la-icon arrows-4_stre-down": "Arrows 4 stre-down"
+    },
+    {
+      "la-icon arrows-4_stre-left": "Arrows 4 stre-left"
+    },
+    {
+      "la-icon arrows-4_stre-right": "Arrows 4 stre-right"
+    },
+    {
+      "la-icon arrows-4_stre-up": "Arrows 4 stre-up"
+    },
+    {
+      "la-icon arrows-4_swap-horizontal": "Arrows 4 swap-horizontal"
+    },
+    {
+      "la-icon arrows-4_swap-vertical": "Arrows 4 swap-vertical"
+    },
+    {
+      "la-icon arrows-4_system-update": "Arrows 4 system-update"
+    },
+    {
+      "la-icon arrows-4_undo-25": "Arrows 4 undo-25"
+    },
+    {
+      "la-icon arrows-4_undo-29": "Arrows 4 undo-29"
+    },
+    {
+      "la-icon arrows-4_upload": "Arrows 4 upload"
+    }
+  ],
+  "Business & Finance": [
+    {
+      "la-icon business_agenda": "Business agenda"
+    },
+    {
+      "la-icon business_atm": "Business atm"
+    },
+    {
+      "la-icon business_award-48": "Business award 48"
+    },
+    {
+      "la-icon business_award-49": "Business award 49"
+    },
+    {
+      "la-icon business_award-74": "Business award 74"
+    },
+    {
+      "la-icon business_badge": "Business badge"
+    },
+    {
+      "la-icon business_bank": "Business bank"
+    },
+    {
+      "la-icon business_board-27": "Business board 27"
+    },
+    {
+      "la-icon business_board-28": "Business board 28"
+    },
+    {
+      "la-icon business_board-29": "Business board 29"
+    },
+    {
+      "la-icon business_board-30": "Business board 30"
+    },
+    {
+      "la-icon business_books": "Business books"
+    },
+    {
+      "la-icon business_briefcase-24": "Business briefcase 24"
+    },
+    {
+      "la-icon business_briefcase-25": "Business briefcase 25"
+    },
+    {
+      "la-icon business_briefcase-26": "Business briefcase 26"
+    },
+    {
+      "la-icon business_building": "Business building"
+    },
+    {
+      "la-icon business_bulb-61": "Business bulb 61"
+    },
+    {
+      "la-icon business_bulb-62": "Business bulb 62"
+    },
+    {
+      "la-icon business_bulb-63": "Business bulb 63"
+    },
+    {
+      "la-icon business_business-contact-85": "Business business contact-85"
+    },
+    {
+      "la-icon business_business-contact-86": "Business business contact-86"
+    },
+    {
+      "la-icon business_business-contact-87": "Business business contact-87"
+    },
+    {
+      "la-icon business_business-contact-88": "Business business contact-88"
+    },
+    {
+      "la-icon business_business-contact-89": "Business business contact-89"
+    },
+    {
+      "la-icon business_businessman-03": "Business businessman 03"
+    },
+    {
+      "la-icon business_businessman-04": "Business businessman 04"
+    },
+    {
+      "la-icon business_calculator": "Business calculator"
+    },
+    {
+      "la-icon business_chair": "Business chair"
+    },
+    {
+      "la-icon business_chart-bar-32": "Business chart bar-32"
+    },
+    {
+      "la-icon business_chart-bar-33": "Business chart bar-33"
+    },
+    {
+      "la-icon business_chart-growth": "Business chart growth"
+    },
+    {
+      "la-icon business_chart-pie-35": "Business chart pie-35"
+    },
+    {
+      "la-icon business_chart-pie-36": "Business chart pie-36"
+    },
+    {
+      "la-icon business_chart": "Business chart"
+    },
+    {
+      "la-icon business_cheque": "Business cheque"
+    },
+    {
+      "la-icon business_coins": "Business coins"
+    },
+    {
+      "la-icon business_connect": "Business connect"
+    },
+    {
+      "la-icon business_contacts": "Business contacts"
+    },
+    {
+      "la-icon business_currency-dollar": "Business currency dollar"
+    },
+    {
+      "la-icon business_currency-euro": "Business currency euro"
+    },
+    {
+      "la-icon business_currency-pound": "Business currency pound"
+    },
+    {
+      "la-icon business_currency-yen": "Business currency yen"
+    },
+    {
+      "la-icon business_factory": "Business factory"
+    },
+    {
+      "la-icon business_globe": "Business globe"
+    },
+    {
+      "la-icon business_goal-64": "Business goal 64"
+    },
+    {
+      "la-icon business_goal-65": "Business goal 65"
+    },
+    {
+      "la-icon business_gold": "Business gold"
+    },
+    {
+      "la-icon business_hammer": "Business hammer"
+    },
+    {
+      "la-icon business_handout": "Business handout"
+    },
+    {
+      "la-icon business_handshake": "Business handshake"
+    },
+    {
+      "la-icon business_hat": "Business hat"
+    },
+    {
+      "la-icon business_hierarchy-53": "Business hierarchy 53"
+    },
+    {
+      "la-icon business_hierarchy-54": "Business hierarchy 54"
+    },
+    {
+      "la-icon business_hierarchy-55": "Business hierarchy 55"
+    },
+    {
+      "la-icon business_hierarchy-56": "Business hierarchy 56"
+    },
+    {
+      "la-icon business_laptop-71": "Business laptop 71"
+    },
+    {
+      "la-icon business_laptop-72": "Business laptop 72"
+    },
+    {
+      "la-icon business_laptop-91": "Business laptop 91"
+    },
+    {
+      "la-icon business_law": "Business law"
+    },
+    {
+      "la-icon business_math": "Business math"
+    },
+    {
+      "la-icon business_money-11": "Business money 11"
+    },
+    {
+      "la-icon business_money-12": "Business money 12"
+    },
+    {
+      "la-icon business_money-13": "Business money 13"
+    },
+    {
+      "la-icon business_money-bag": "Business money bag"
+    },
+    {
+      "la-icon business_money-coins": "Business money coins"
+    },
+    {
+      "la-icon business_money-growth": "Business money growth"
+    },
+    {
+      "la-icon business_money-time": "Business money time"
+    },
+    {
+      "la-icon business_net": "Business net"
+    },
+    {
+      "la-icon business_notes": "Business notes"
+    },
+    {
+      "la-icon business_payment": "Business payment"
+    },
+    {
+      "la-icon business_percentage-38": "Business percentage 38"
+    },
+    {
+      "la-icon business_percentage-39": "Business percentage 39"
+    },
+    {
+      "la-icon business_pig": "Business pig"
+    },
+    {
+      "la-icon business_pin": "Business pin"
+    },
+    {
+      "la-icon business_plug": "Business plug"
+    },
+    {
+      "la-icon business_progress": "Business progress"
+    },
+    {
+      "la-icon business_round-dollar": "Business round dollar"
+    },
+    {
+      "la-icon business_round-euro": "Business round euro"
+    },
+    {
+      "la-icon business_round-pound": "Business round pound"
+    },
+    {
+      "la-icon business_round-yen": "Business round yen"
+    },
+    {
+      "la-icon business_safe": "Business safe"
+    },
+    {
+      "la-icon business_scale": "Business scale"
+    },
+    {
+      "la-icon business_sign": "Business sign"
+    },
+    {
+      "la-icon business_signature": "Business signature"
+    },
+    {
+      "la-icon business_stock": "Business stock"
+    },
+    {
+      "la-icon business_strategy": "Business strategy"
+    },
+    {
+      "la-icon business_tie-01": "Business tie 01"
+    },
+    {
+      "la-icon business_tie-02": "Business tie 02"
+    },
+    {
+      "la-icon business_wallet-43": "Business wallet 43"
+    },
+    {
+      "la-icon business_wallet-44": "Business wallet 44"
+    },
+    {
+      "la-icon business_wallet-90": "Business wallet 90"
+    }
+  ],
+  "Clothes & Accessories": [
+    {
+      "la-icon clothes_baby": "Clothes baby"
+    },
+    {
+      "la-icon clothes_backpack": "Clothes backpack"
+    },
+    {
+      "la-icon clothes_bag-21": "Clothes bag 21"
+    },
+    {
+      "la-icon clothes_bag-22": "Clothes bag 22"
+    },
+    {
+      "la-icon clothes_belt": "Clothes belt"
+    },
+    {
+      "la-icon clothes_boot-woman": "Clothes boot woman"
+    },
+    {
+      "la-icon clothes_boot": "Clothes boot"
+    },
+    {
+      "la-icon clothes_bra": "Clothes bra"
+    },
+    {
+      "la-icon clothes_button": "Clothes button"
+    },
+    {
+      "la-icon clothes_cap": "Clothes cap"
+    },
+    {
+      "la-icon clothes_coat": "Clothes coat"
+    },
+    {
+      "la-icon clothes_corset": "Clothes corset"
+    },
+    {
+      "la-icon clothes_dress-man": "Clothes dress man"
+    },
+    {
+      "la-icon clothes_dress-woman": "Clothes dress woman"
+    },
+    {
+      "la-icon clothes_flip": "Clothes flip"
+    },
+    {
+      "la-icon clothes_glasses": "Clothes glasses"
+    },
+    {
+      "la-icon clothes_gloves": "Clothes gloves"
+    },
+    {
+      "la-icon clothes_hat-top": "Clothes hat top"
+    },
+    {
+      "la-icon clothes_hat": "Clothes hat"
+    },
+    {
+      "la-icon clothes_hoodie": "Clothes hoodie"
+    },
+    {
+      "la-icon clothes_iron-dont": "Clothes iron dont"
+    },
+    {
+      "la-icon clothes_iron": "Clothes iron"
+    },
+    {
+      "la-icon clothes_jeans-41": "Clothes jeans 41"
+    },
+    {
+      "la-icon clothes_jeans-43": "Clothes jeans 43"
+    },
+    {
+      "la-icon clothes_jeans-pocket": "Clothes jeans pocket"
+    },
+    {
+      "la-icon clothes_kitchen": "Clothes kitchen"
+    },
+    {
+      "la-icon clothes_long-sleeve": "Clothes long sleeve"
+    },
+    {
+      "la-icon clothes_makeup": "Clothes makeup"
+    },
+    {
+      "la-icon clothes_needle": "Clothes needle"
+    },
+    {
+      "la-icon clothes_pajamas": "Clothes pajamas"
+    },
+    {
+      "la-icon clothes_ring": "Clothes ring"
+    },
+    {
+      "la-icon clothes_scarf": "Clothes scarf"
+    },
+    {
+      "la-icon clothes_shirt-business": "Clothes shirt business"
+    },
+    {
+      "la-icon clothes_shirt-buttons": "Clothes shirt buttons"
+    },
+    {
+      "la-icon clothes_shirt-neck": "Clothes shirt neck"
+    },
+    {
+      "la-icon clothes_shirt": "Clothes shirt"
+    },
+    {
+      "la-icon clothes_shoe-man": "Clothes shoe man"
+    },
+    {
+      "la-icon clothes_shoe-sport": "Clothes shoe sport"
+    },
+    {
+      "la-icon clothes_shoe-woman": "Clothes shoe woman"
+    },
+    {
+      "la-icon clothes_skirt": "Clothes skirt"
+    },
+    {
+      "la-icon clothes_slacks-12": "Clothes slacks 12"
+    },
+    {
+      "la-icon clothes_slacks-13": "Clothes slacks 13"
+    },
+    {
+      "la-icon clothes_sock": "Clothes sock"
+    },
+    {
+      "la-icon clothes_tie-bow": "Clothes tie bow"
+    },
+    {
+      "la-icon clothes_tshirt-53": "Clothes tshirt 53"
+    },
+    {
+      "la-icon clothes_tshirt-54": "Clothes tshirt 54"
+    },
+    {
+      "la-icon clothes_tshirt-sport": "Clothes tshirt sport"
+    },
+    {
+      "la-icon clothes_underwear-man": "Clothes underwear man"
+    },
+    {
+      "la-icon clothes_underwear": "Clothes underwear"
+    },
+    {
+      "la-icon clothes_vest-sport": "Clothes vest sport"
+    },
+    {
+      "la-icon clothes_vest": "Clothes vest"
+    },
+    {
+      "la-icon clothes_wash-30": "Clothes wash 30"
+    },
+    {
+      "la-icon clothes_wash-60": "Clothes wash 60"
+    },
+    {
+      "la-icon clothes_wash-90": "Clothes wash 90"
+    },
+    {
+      "la-icon clothes_wash-hand": "Clothes wash hand"
+    },
+    {
+      "la-icon clothes_wash": "Clothes wash"
+    }
+  ],
+  "Design & Development": [
+    {
+      "la-icon design_album": "Design album"
+    },
+    {
+      "la-icon design_align-bottom": "Design align bottom"
+    },
+    {
+      "la-icon design_align-center-horizontal": "Design align center-horizontal"
+    },
+    {
+      "la-icon design_align-center-vertical": "Design align center-vertical"
+    },
+    {
+      "la-icon design_align-left": "Design align left"
+    },
+    {
+      "la-icon design_align-right": "Design align right"
+    },
+    {
+      "la-icon design_align-top": "Design align top"
+    },
+    {
+      "la-icon design_app": "Design app"
+    },
+    {
+      "la-icon design_artboard": "Design artboard"
+    },
+    {
+      "la-icon design_blend": "Design blend"
+    },
+    {
+      "la-icon design_book-bookmark": "Design book bookmark"
+    },
+    {
+      "la-icon design_book-open": "Design book open"
+    },
+    {
+      "la-icon design_brush": "Design brush"
+    },
+    {
+      "la-icon design_bug": "Design bug"
+    },
+    {
+      "la-icon design_bullet-list-67": "Design bullet list-67"
+    },
+    {
+      "la-icon design_bullet-list-68": "Design bullet list-68"
+    },
+    {
+      "la-icon design_bullet-list-69": "Design bullet list-69"
+    },
+    {
+      "la-icon design_bullet-list-70": "Design bullet list-70"
+    },
+    {
+      "la-icon design_clone": "Design clone"
+    },
+    {
+      "la-icon design_code-editor": "Design code editor"
+    },
+    {
+      "la-icon design_code": "Design code"
+    },
+    {
+      "la-icon design_collection": "Design collection"
+    },
+    {
+      "la-icon design_command": "Design command"
+    },
+    {
+      "la-icon design_compass": "Design compass"
+    },
+    {
+      "la-icon design_contrast": "Design contrast"
+    },
+    {
+      "la-icon design_copy": "Design copy"
+    },
+    {
+      "la-icon design_crop": "Design crop"
+    },
+    {
+      "la-icon design_cursor-48": "Design cursor 48"
+    },
+    {
+      "la-icon design_cursor-49": "Design cursor 49"
+    },
+    {
+      "la-icon design_design-dev": "Design design dev"
+    },
+    {
+      "la-icon design_design": "Design design"
+    },
+    {
+      "la-icon design_distribute-horizontal": "Design distribute horizontal"
+    },
+    {
+      "la-icon design_distribute-vertical": "Design distribute vertical"
+    },
+    {
+      "la-icon design_drag": "Design drag"
+    },
+    {
+      "la-icon design_eraser-32": "Design eraser 32"
+    },
+    {
+      "la-icon design_eraser-33": "Design eraser 33"
+    },
+    {
+      "la-icon design_eraser-46": "Design eraser 46"
+    },
+    {
+      "la-icon design_flip-horizontal": "Design flip horizontal"
+    },
+    {
+      "la-icon design_flip-vertical": "Design flip vertical"
+    },
+    {
+      "la-icon design_image": "Design image"
+    },
+    {
+      "la-icon design_magnet": "Design magnet"
+    },
+    {
+      "la-icon design_marker": "Design marker"
+    },
+    {
+      "la-icon design_measure-02": "Design measure 02"
+    },
+    {
+      "la-icon design_measure-17": "Design measure 17"
+    },
+    {
+      "la-icon design_measure-big": "Design measure big"
+    },
+    {
+      "la-icon design_mobile-design": "Design mobile design"
+    },
+    {
+      "la-icon design_mobile-dev": "Design mobile dev"
+    },
+    {
+      "la-icon design_mouse-08": "Design mouse 08"
+    },
+    {
+      "la-icon design_mouse-09": "Design mouse 09"
+    },
+    {
+      "la-icon design_mouse-10": "Design mouse 10"
+    },
+    {
+      "la-icon design_newsletter-dev": "Design newsletter dev"
+    },
+    {
+      "la-icon design_note-code": "Design note code"
+    },
+    {
+      "la-icon design_paint-16": "Design paint 16"
+    },
+    {
+      "la-icon design_paint-37": "Design paint 37"
+    },
+    {
+      "la-icon design_paint-38": "Design paint 38"
+    },
+    {
+      "la-icon design_paint-bucket-39": "Design paint bucket-39"
+    },
+    {
+      "la-icon design_paint-bucket-40": "Design paint bucket-40"
+    },
+    {
+      "la-icon design_palette": "Design palette"
+    },
+    {
+      "la-icon design_pantone": "Design pantone"
+    },
+    {
+      "la-icon design_paper-design": "Design paper design"
+    },
+    {
+      "la-icon design_paper-dev": "Design paper dev"
+    },
+    {
+      "la-icon design_patch-19": "Design patch 19"
+    },
+    {
+      "la-icon design_patch-34": "Design patch 34"
+    },
+    {
+      "la-icon design_path-exclude": "Design path exclude"
+    },
+    {
+      "la-icon design_path-intersect": "Design path intersect"
+    },
+    {
+      "la-icon design_path-minus": "Design path minus"
+    },
+    {
+      "la-icon design_path-unite": "Design path unite"
+    },
+    {
+      "la-icon design_pen-01": "Design pen 01"
+    },
+    {
+      "la-icon design_pen-23": "Design pen 23"
+    },
+    {
+      "la-icon design_pen-tool": "Design pen tool"
+    },
+    {
+      "la-icon design_phone": "Design phone"
+    },
+    {
+      "la-icon design_photo-editor": "Design photo editor"
+    },
+    {
+      "la-icon design_responsive": "Design responsive"
+    },
+    {
+      "la-icon design_scissors-dashed": "Design scissors dashed"
+    },
+    {
+      "la-icon design_scissors": "Design scissors"
+    },
+    {
+      "la-icon design_shape-adjust": "Design shape adjust"
+    },
+    {
+      "la-icon design_shape-circle": "Design shape circle"
+    },
+    {
+      "la-icon design_shape-polygon": "Design shape polygon"
+    },
+    {
+      "la-icon design_shape-square": "Design shape square"
+    },
+    {
+      "la-icon design_shape-triangle": "Design shape triangle"
+    },
+    {
+      "la-icon design_shapes": "Design shapes"
+    },
+    {
+      "la-icon design_sharpener": "Design sharpener"
+    },
+    {
+      "la-icon design_slice": "Design slice"
+    },
+    {
+      "la-icon design_spray": "Design spray"
+    },
+    {
+      "la-icon design_stamp": "Design stamp"
+    },
+    {
+      "la-icon design_tablet-mobile": "Design tablet mobile"
+    },
+    {
+      "la-icon design_tablet": "Design tablet"
+    },
+    {
+      "la-icon design_text": "Design text"
+    },
+    {
+      "la-icon design_todo": "Design todo"
+    },
+    {
+      "la-icon design_usb": "Design usb"
+    },
+    {
+      "la-icon design_vector": "Design vector"
+    },
+    {
+      "la-icon design_wand-11": "Design wand 11"
+    },
+    {
+      "la-icon design_wand-99": "Design wand 99"
+    },
+    {
+      "la-icon design_watch-dev": "Design watch dev"
+    },
+    {
+      "la-icon design_web-design": "Design web design"
+    },
+    {
+      "la-icon design_webpage": "Design webpage"
+    },
+    {
+      "la-icon design_window-code": "Design window code"
+    },
+    {
+      "la-icon design_window-dev": "Design window dev"
+    },
+    {
+      "la-icon design_window-paragraph": "Design window paragraph"
+    },
+    {
+      "la-icon design_window-responsive": "Design window responsive"
+    },
+    {
+      "la-icon design-2_3d-28": "Design 2 3d-28"
+    },
+    {
+      "la-icon design-2_3d-29": "Design 2 3d-29"
+    },
+    {
+      "la-icon design-2_android": "Design 2 android"
+    },
+    {
+      "la-icon design-2_angle": "Design 2 angle"
+    },
+    {
+      "la-icon design-2_animation-14": "Design 2 animation-14"
+    },
+    {
+      "la-icon design-2_animation-31": "Design 2 animation-31"
+    },
+    {
+      "la-icon design-2_animation-32": "Design 2 animation-32"
+    },
+    {
+      "la-icon design-2_apple": "Design 2 apple"
+    },
+    {
+      "la-icon design-2_browser-chrome": "Design 2 browser-chrome"
+    },
+    {
+      "la-icon design-2_browser-edge": "Design 2 browser-edge"
+    },
+    {
+      "la-icon design-2_browser-firefox": "Design 2 browser-firefox"
+    },
+    {
+      "la-icon design-2_browser-ie": "Design 2 browser-ie"
+    },
+    {
+      "la-icon design-2_browser-opera": "Design 2 browser-opera"
+    },
+    {
+      "la-icon design-2_browser-safari": "Design 2 browser-safari"
+    },
+    {
+      "la-icon design-2_bucket": "Design 2 bucket"
+    },
+    {
+      "la-icon design-2_button": "Design 2 button"
+    },
+    {
+      "la-icon design-2_canvas": "Design 2 canvas"
+    },
+    {
+      "la-icon design-2_css3": "Design 2 css3"
+    },
+    {
+      "la-icon design-2_cursor-add": "Design 2 cursor-add"
+    },
+    {
+      "la-icon design-2_cursor-grab": "Design 2 cursor-grab"
+    },
+    {
+      "la-icon design-2_cursor-load": "Design 2 cursor-load"
+    },
+    {
+      "la-icon design-2_cursor-menu": "Design 2 cursor-menu"
+    },
+    {
+      "la-icon design-2_cursor-not-allowed": "Design 2 cursor-not-allowed"
+    },
+    {
+      "la-icon design-2_cursor-pointer": "Design 2 cursor-pointer"
+    },
+    {
+      "la-icon design-2_cursor-text": "Design 2 cursor-text"
+    },
+    {
+      "la-icon design-2_divider": "Design 2 divider"
+    },
+    {
+      "la-icon design-2_filter-organization": "Design 2 filter-organization"
+    },
+    {
+      "la-icon design-2_form": "Design 2 form"
+    },
+    {
+      "la-icon design-2_frame": "Design 2 frame"
+    },
+    {
+      "la-icon design-2_group": "Design 2 group"
+    },
+    {
+      "la-icon design-2_html5": "Design 2 html5"
+    },
+    {
+      "la-icon design-2_image": "Design 2 image"
+    },
+    {
+      "la-icon design-2_layers": "Design 2 layers"
+    },
+    {
+      "la-icon design-2_layout-11": "Design 2 layout-11"
+    },
+    {
+      "la-icon design-2_layout-25": "Design 2 layout-25"
+    },
+    {
+      "la-icon design-2_microsoft": "Design 2 microsoft"
+    },
+    {
+      "la-icon design-2_mirror": "Design 2 mirror"
+    },
+    {
+      "la-icon design-2_move-down": "Design 2 move-down"
+    },
+    {
+      "la-icon design-2_move-up": "Design 2 move-up"
+    },
+    {
+      "la-icon design-2_paint-brush": "Design 2 paint-brush"
+    },
+    {
+      "la-icon design-2_ruler-pencil": "Design 2 ruler-pencil"
+    },
+    {
+      "la-icon design-2_scale-down": "Design 2 scale-down"
+    },
+    {
+      "la-icon design-2_scale-up": "Design 2 scale-up"
+    },
+    {
+      "la-icon design-2_scale": "Design 2 scale"
+    },
+    {
+      "la-icon design-2_selection": "Design 2 selection"
+    },
+    {
+      "la-icon design-2_slider": "Design 2 slider"
+    },
+    {
+      "la-icon design-2_text": "Design 2 text"
+    },
+    {
+      "la-icon design-2_transform-origin": "Design 2 transform-origin"
+    },
+    {
+      "la-icon design-2_transform": "Design 2 transform"
+    },
+    {
+      "la-icon design-2_ungroup": "Design 2 ungroup"
+    }
+  ],
+  "Emoticons": [
+    {
+      "la-icon emoticons_alien": "Emoticons alien"
+    },
+    {
+      "la-icon emoticons_angry-10": "Emoticons angry 10"
+    },
+    {
+      "la-icon emoticons_angry-44": "Emoticons angry 44"
+    },
+    {
+      "la-icon emoticons_big-eyes": "Emoticons big eyes"
+    },
+    {
+      "la-icon emoticons_big-smile": "Emoticons big smile"
+    },
+    {
+      "la-icon emoticons_bigmouth": "Emoticons bigmouth"
+    },
+    {
+      "la-icon emoticons_bleah": "Emoticons bleah"
+    },
+    {
+      "la-icon emoticons_blind": "Emoticons blind"
+    },
+    {
+      "la-icon emoticons_bomb": "Emoticons bomb"
+    },
+    {
+      "la-icon emoticons_bored": "Emoticons bored"
+    },
+    {
+      "la-icon emoticons_cake": "Emoticons cake"
+    },
+    {
+      "la-icon emoticons_cry-15": "Emoticons cry 15"
+    },
+    {
+      "la-icon emoticons_cry-57": "Emoticons cry 57"
+    },
+    {
+      "la-icon emoticons_cute": "Emoticons cute"
+    },
+    {
+      "la-icon emoticons_devil": "Emoticons devil"
+    },
+    {
+      "la-icon emoticons_disgusted": "Emoticons disgusted"
+    },
+    {
+      "la-icon emoticons_fist": "Emoticons fist"
+    },
+    {
+      "la-icon emoticons_ghost": "Emoticons ghost"
+    },
+    {
+      "la-icon emoticons_hannibal": "Emoticons hannibal"
+    },
+    {
+      "la-icon emoticons_happy-sun": "Emoticons happy sun"
+    },
+    {
+      "la-icon emoticons_kid": "Emoticons kid"
+    },
+    {
+      "la-icon emoticons_kiss": "Emoticons kiss"
+    },
+    {
+      "la-icon emoticons_laugh-17": "Emoticons laugh 17"
+    },
+    {
+      "la-icon emoticons_laugh-35": "Emoticons laugh 35"
+    },
+    {
+      "la-icon emoticons_like-no": "Emoticons like no"
+    },
+    {
+      "la-icon emoticons_like": "Emoticons like"
+    },
+    {
+      "la-icon emoticons_mad-12": "Emoticons mad 12"
+    },
+    {
+      "la-icon emoticons_mad-58": "Emoticons mad 58"
+    },
+    {
+      "la-icon emoticons_malicious": "Emoticons malicious"
+    },
+    {
+      "la-icon emoticons_manga-62": "Emoticons manga 62"
+    },
+    {
+      "la-icon emoticons_manga-63": "Emoticons manga 63"
+    },
+    {
+      "la-icon emoticons_monster": "Emoticons monster"
+    },
+    {
+      "la-icon emoticons_nerd-22": "Emoticons nerd 22"
+    },
+    {
+      "la-icon emoticons_nerd-23": "Emoticons nerd 23"
+    },
+    {
+      "la-icon emoticons_ninja": "Emoticons ninja"
+    },
+    {
+      "la-icon emoticons_no-words": "Emoticons no words"
+    },
+    {
+      "la-icon emoticons_parrot": "Emoticons parrot"
+    },
+    {
+      "la-icon emoticons_penguin": "Emoticons penguin"
+    },
+    {
+      "la-icon emoticons_pirate": "Emoticons pirate"
+    },
+    {
+      "la-icon emoticons_poop": "Emoticons poop"
+    },
+    {
+      "la-icon emoticons_puzzled": "Emoticons puzzled"
+    },
+    {
+      "la-icon emoticons_quite-happy": "Emoticons quite happy"
+    },
+    {
+      "la-icon emoticons_robot": "Emoticons robot"
+    },
+    {
+      "la-icon emoticons_rock": "Emoticons rock"
+    },
+    {
+      "la-icon emoticons_sad": "Emoticons sad"
+    },
+    {
+      "la-icon emoticons_satisfied": "Emoticons satisfied"
+    },
+    {
+      "la-icon emoticons_shark": "Emoticons shark"
+    },
+    {
+      "la-icon emoticons_shy": "Emoticons shy"
+    },
+    {
+      "la-icon emoticons_sick": "Emoticons sick"
+    },
+    {
+      "la-icon emoticons_silly": "Emoticons silly"
+    },
+    {
+      "la-icon emoticons_skull": "Emoticons skull"
+    },
+    {
+      "la-icon emoticons_sleep": "Emoticons sleep"
+    },
+    {
+      "la-icon emoticons_sloth": "Emoticons sloth"
+    },
+    {
+      "la-icon emoticons_smart": "Emoticons smart"
+    },
+    {
+      "la-icon emoticons_smile": "Emoticons smile"
+    },
+    {
+      "la-icon emoticons_soldier": "Emoticons soldier"
+    },
+    {
+      "la-icon emoticons_speechless": "Emoticons speechless"
+    },
+    {
+      "la-icon emoticons_spiteful": "Emoticons spiteful"
+    },
+    {
+      "la-icon emoticons_sunglasses-48": "Emoticons sunglasses 48"
+    },
+    {
+      "la-icon emoticons_sunglasses-49": "Emoticons sunglasses 49"
+    },
+    {
+      "la-icon emoticons_surprise": "Emoticons surprise"
+    },
+    {
+      "la-icon emoticons_upset-13": "Emoticons upset 13"
+    },
+    {
+      "la-icon emoticons_upset-14": "Emoticons upset 14"
+    },
+    {
+      "la-icon emoticons_virus": "Emoticons virus"
+    },
+    {
+      "la-icon emoticons_what": "Emoticons what"
+    },
+    {
+      "la-icon emoticons_whiskers": "Emoticons whiskers"
+    },
+    {
+      "la-icon emoticons_wink-06": "Emoticons wink 06"
+    },
+    {
+      "la-icon emoticons_wink-11": "Emoticons wink 11"
+    },
+    {
+      "la-icon emoticons_wink-69": "Emoticons wink 69"
+    }
+  ],
+  "Energy & Environment": [
+    {
+      "la-icon envir_bulb-saver": "Envir bulb saver"
+    },
+    {
+      "la-icon envir_bulb": "Envir bulb"
+    },
+    {
+      "la-icon envir_car": "Envir car"
+    },
+    {
+      "la-icon envir_fuel-electric": "Envir fuel electric"
+    },
+    {
+      "la-icon envir_fuel": "Envir fuel"
+    },
+    {
+      "la-icon envir_home": "Envir home"
+    },
+    {
+      "la-icon envir_level": "Envir level"
+    },
+    {
+      "la-icon envir_panel": "Envir panel"
+    },
+    {
+      "la-icon envir_radiation": "Envir radiation"
+    },
+    {
+      "la-icon envir_recycling": "Envir recycling"
+    },
+    {
+      "la-icon envir_save-planet": "Envir save planet"
+    },
+    {
+      "la-icon envir_waste-danger": "Envir waste danger"
+    },
+    {
+      "la-icon envir_waste-recycling": "Envir waste recycling"
+    },
+    {
+      "la-icon envir_waste": "Envir waste"
+    },
+    {
+      "la-icon envir_water-hand": "Envir water hand"
+    },
+    {
+      "la-icon envir_water-sink": "Envir water sink"
+    },
+    {
+      "la-icon envir_water": "Envir water"
+    },
+    {
+      "la-icon envir_wind": "Envir wind"
+    }
+  ],
+  "Files & Folders": [
+    {
+      "la-icon files_add": "Files add"
+    },
+    {
+      "la-icon files_archive-3d-check": "Files archive 3d-check"
+    },
+    {
+      "la-icon files_archive-3d-content": "Files archive 3d-content"
+    },
+    {
+      "la-icon files_archive-check": "Files archive check"
+    },
+    {
+      "la-icon files_archive-content": "Files archive content"
+    },
+    {
+      "la-icon files_archive-paper-check": "Files archive paper-check"
+    },
+    {
+      "la-icon files_archive-paper": "Files archive paper"
+    },
+    {
+      "la-icon files_archive": "Files archive"
+    },
+    {
+      "la-icon files_audio": "Files audio"
+    },
+    {
+      "la-icon files_book-07": "Files book 07"
+    },
+    {
+      "la-icon files_book-08": "Files book 08"
+    },
+    {
+      "la-icon files_bookmark": "Files bookmark"
+    },
+    {
+      "la-icon files_box": "Files box"
+    },
+    {
+      "la-icon files_chart-bar": "Files chart bar"
+    },
+    {
+      "la-icon files_chart-pie": "Files chart pie"
+    },
+    {
+      "la-icon files_check": "Files check"
+    },
+    {
+      "la-icon files_cloud": "Files cloud"
+    },
+    {
+      "la-icon files_copy": "Files copy"
+    },
+    {
+      "la-icon files_dev": "Files dev"
+    },
+    {
+      "la-icon files_download": "Files download"
+    },
+    {
+      "la-icon files_drawer": "Files drawer"
+    },
+    {
+      "la-icon files_edit": "Files edit"
+    },
+    {
+      "la-icon files_exclamation": "Files exclamation"
+    },
+    {
+      "la-icon files_folder-13": "Files folder 13"
+    },
+    {
+      "la-icon files_folder-14": "Files folder 14"
+    },
+    {
+      "la-icon files_folder-15": "Files folder 15"
+    },
+    {
+      "la-icon files_folder-16": "Files folder 16"
+    },
+    {
+      "la-icon files_folder-17": "Files folder 17"
+    },
+    {
+      "la-icon files_folder-18": "Files folder 18"
+    },
+    {
+      "la-icon files_folder-19": "Files folder 19"
+    },
+    {
+      "la-icon files_folder-add": "Files folder add"
+    },
+    {
+      "la-icon files_folder-audio": "Files folder audio"
+    },
+    {
+      "la-icon files_folder-bookmark": "Files folder bookmark"
+    },
+    {
+      "la-icon files_folder-chart-bar": "Files folder chart-bar"
+    },
+    {
+      "la-icon files_folder-chart-pie": "Files folder chart-pie"
+    },
+    {
+      "la-icon files_folder-check": "Files folder check"
+    },
+    {
+      "la-icon files_folder-cloud": "Files folder cloud"
+    },
+    {
+      "la-icon files_folder-dev": "Files folder dev"
+    },
+    {
+      "la-icon files_folder-download": "Files folder download"
+    },
+    {
+      "la-icon files_folder-edit": "Files folder edit"
+    },
+    {
+      "la-icon files_folder-exclamation": "Files folder exclamation"
+    },
+    {
+      "la-icon files_folder-gallery": "Files folder gallery"
+    },
+    {
+      "la-icon files_folder-heart": "Files folder heart"
+    },
+    {
+      "la-icon files_folder-image": "Files folder image"
+    },
+    {
+      "la-icon files_folder-info": "Files folder info"
+    },
+    {
+      "la-icon files_folder-link": "Files folder link"
+    },
+    {
+      "la-icon files_folder-locked": "Files folder locked"
+    },
+    {
+      "la-icon files_folder-money": "Files folder money"
+    },
+    {
+      "la-icon files_folder-music": "Files folder music"
+    },
+    {
+      "la-icon files_folder-no-access": "Files folder no-access"
+    },
+    {
+      "la-icon files_folder-play": "Files folder play"
+    },
+    {
+      "la-icon files_folder-question": "Files folder question"
+    },
+    {
+      "la-icon files_folder-refresh": "Files folder refresh"
+    },
+    {
+      "la-icon files_folder-remove": "Files folder remove"
+    },
+    {
+      "la-icon files_folder-search": "Files folder search"
+    },
+    {
+      "la-icon files_folder-settings-81": "Files folder settings-81"
+    },
+    {
+      "la-icon files_folder-settings-97": "Files folder settings-97"
+    },
+    {
+      "la-icon files_folder-shared": "Files folder shared"
+    },
+    {
+      "la-icon files_folder-star": "Files folder star"
+    },
+    {
+      "la-icon files_folder-time": "Files folder time"
+    },
+    {
+      "la-icon files_folder-upload": "Files folder upload"
+    },
+    {
+      "la-icon files_folder-user": "Files folder user"
+    },
+    {
+      "la-icon files_folder-vector": "Files folder vector"
+    },
+    {
+      "la-icon files_gallery": "Files gallery"
+    },
+    {
+      "la-icon files_heart": "Files heart"
+    },
+    {
+      "la-icon files_image": "Files image"
+    },
+    {
+      "la-icon files_info": "Files info"
+    },
+    {
+      "la-icon files_link": "Files link"
+    },
+    {
+      "la-icon files_locked": "Files locked"
+    },
+    {
+      "la-icon files_money": "Files money"
+    },
+    {
+      "la-icon files_music": "Files music"
+    },
+    {
+      "la-icon files_no-access": "Files no access"
+    },
+    {
+      "la-icon files_notebook": "Files notebook"
+    },
+    {
+      "la-icon files_paper": "Files paper"
+    },
+    {
+      "la-icon files_play": "Files play"
+    },
+    {
+      "la-icon files_question": "Files question"
+    },
+    {
+      "la-icon files_refresh": "Files refresh"
+    },
+    {
+      "la-icon files_remove": "Files remove"
+    },
+    {
+      "la-icon files_replace-folder": "Files replace folder"
+    },
+    {
+      "la-icon files_replace": "Files replace"
+    },
+    {
+      "la-icon files_search": "Files search"
+    },
+    {
+      "la-icon files_settings-46": "Files settings 46"
+    },
+    {
+      "la-icon files_settings-99": "Files settings 99"
+    },
+    {
+      "la-icon files_shared": "Files shared"
+    },
+    {
+      "la-icon files_single-content-02": "Files single content-02"
+    },
+    {
+      "la-icon files_single-content-03": "Files single content-03"
+    },
+    {
+      "la-icon files_single-copies": "Files single copies"
+    },
+    {
+      "la-icon files_single-copy-04": "Files single copy-04"
+    },
+    {
+      "la-icon files_single-copy-06": "Files single copy-06"
+    },
+    {
+      "la-icon files_single-folded-content": "Files single folded-content"
+    },
+    {
+      "la-icon files_single-folded": "Files single folded"
+    },
+    {
+      "la-icon files_single-paragraph": "Files single paragraph"
+    },
+    {
+      "la-icon files_single": "Files single"
+    },
+    {
+      "la-icon files_star": "Files star"
+    },
+    {
+      "la-icon files_time": "Files time"
+    },
+    {
+      "la-icon files_upload": "Files upload"
+    },
+    {
+      "la-icon files_user": "Files user"
+    },
+    {
+      "la-icon files_vector": "Files vector"
+    },
+    {
+      "la-icon files_zip-54": "Files zip 54"
+    },
+    {
+      "la-icon files_zip-55": "Files zip 55"
+    },
+    {
+      "la-icon files-2_ai-illustrator": "Files 2 ai-illustrator"
+    },
+    {
+      "la-icon files-2_avi": "Files 2 avi"
+    },
+    {
+      "la-icon files-2_css": "Files 2 css"
+    },
+    {
+      "la-icon files-2_csv": "Files 2 csv"
+    },
+    {
+      "la-icon files-2_doc": "Files 2 doc"
+    },
+    {
+      "la-icon files-2_docx": "Files 2 docx"
+    },
+    {
+      "la-icon files-2_epub": "Files 2 epub"
+    },
+    {
+      "la-icon files-2_exe": "Files 2 exe"
+    },
+    {
+      "la-icon files-2_font": "Files 2 font"
+    },
+    {
+      "la-icon files-2_gif": "Files 2 gif"
+    },
+    {
+      "la-icon files-2_html": "Files 2 html"
+    },
+    {
+      "la-icon files-2_jpg-jpeg": "Files 2 jpg-jpeg"
+    },
+    {
+      "la-icon files-2_js-javascript-jquery": "Files 2 js-javascript-jquery"
+    },
+    {
+      "la-icon files-3_mov": "Files 3 mov"
+    },
+    {
+      "la-icon files-3_mp3": "Files 3 mp3"
+    },
+    {
+      "la-icon files-3_mp4": "Files 3 mp4"
+    },
+    {
+      "la-icon files-3_pdf": "Files 3 pdf"
+    },
+    {
+      "la-icon files-3_png": "Files 3 png"
+    },
+    {
+      "la-icon files-3_psd-photoshop": "Files 3 psd-photoshop"
+    },
+    {
+      "la-icon files-3_rar": "Files 3 rar"
+    },
+    {
+      "la-icon files-3_sketch": "Files 3 sketch"
+    },
+    {
+      "la-icon files-3_svg": "Files 3 svg"
+    },
+    {
+      "la-icon files-3_txt": "Files 3 txt"
+    },
+    {
+      "la-icon files-3_wav": "Files 3 wav"
+    },
+    {
+      "la-icon files-3_zip": "Files 3 zip"
+    }
+  ],
+  "Food": [
+    {
+      "la-icon food_alcohol": "Food alcohol"
+    },
+    {
+      "la-icon food_apple": "Food apple"
+    },
+    {
+      "la-icon food_baby": "Food baby"
+    },
+    {
+      "la-icon food_bacon": "Food bacon"
+    },
+    {
+      "la-icon food_baguette": "Food baguette"
+    },
+    {
+      "la-icon food_banana": "Food banana"
+    },
+    {
+      "la-icon food_barbecue-02": "Food barbecue 02"
+    },
+    {
+      "la-icon food_barbecue-15": "Food barbecue 15"
+    },
+    {
+      "la-icon food_barbecue-tools": "Food barbecue tools"
+    },
+    {
+      "la-icon food_beer-95": "Food beer 95"
+    },
+    {
+      "la-icon food_beer-96": "Food beer 96"
+    },
+    {
+      "la-icon food_beverage": "Food beverage"
+    },
+    {
+      "la-icon food_bottle-wine": "Food bottle wine"
+    },
+    {
+      "la-icon food_bottle": "Food bottle"
+    },
+    {
+      "la-icon food_bowl": "Food bowl"
+    },
+    {
+      "la-icon food_bread": "Food bread"
+    },
+    {
+      "la-icon food_broccoli": "Food broccoli"
+    },
+    {
+      "la-icon food_cake-13": "Food cake 13"
+    },
+    {
+      "la-icon food_cake-100": "Food cake 100"
+    },
+    {
+      "la-icon food_cake-slice": "Food cake slice"
+    },
+    {
+      "la-icon food_candle": "Food candle"
+    },
+    {
+      "la-icon food_candy": "Food candy"
+    },
+    {
+      "la-icon food_carrot": "Food carrot"
+    },
+    {
+      "la-icon food_champagne": "Food champagne"
+    },
+    {
+      "la-icon food_cheese-24": "Food cheese 24"
+    },
+    {
+      "la-icon food_cheese-87": "Food cheese 87"
+    },
+    {
+      "la-icon food_cheeseburger": "Food cheeseburger"
+    },
+    {
+      "la-icon food_chef-hat": "Food chef hat"
+    },
+    {
+      "la-icon food_cherry": "Food cherry"
+    },
+    {
+      "la-icon food_chicken": "Food chicken"
+    },
+    {
+      "la-icon food_chili": "Food chili"
+    },
+    {
+      "la-icon food_chinese": "Food chinese"
+    },
+    {
+      "la-icon food_chips": "Food chips"
+    },
+    {
+      "la-icon food_chocolate": "Food chocolate"
+    },
+    {
+      "la-icon food_cocktail": "Food cocktail"
+    },
+    {
+      "la-icon food_coffe-long": "Food coffe long"
+    },
+    {
+      "la-icon food_coffee-long": "Food coffee long"
+    },
+    {
+      "la-icon food_coffee": "Food coffee"
+    },
+    {
+      "la-icon food_cookies": "Food cookies"
+    },
+    {
+      "la-icon food_course": "Food course"
+    },
+    {
+      "la-icon food_crab": "Food crab"
+    },
+    {
+      "la-icon food_croissant": "Food croissant"
+    },
+    {
+      "la-icon food_cutlery-75": "Food cutlery 75"
+    },
+    {
+      "la-icon food_cutlery-76": "Food cutlery 76"
+    },
+    {
+      "la-icon food_cutlery-77": "Food cutlery 77"
+    },
+    {
+      "la-icon food_dishwasher": "Food dishwasher"
+    },
+    {
+      "la-icon food_donut": "Food donut"
+    },
+    {
+      "la-icon food_drink": "Food drink"
+    },
+    {
+      "la-icon food_egg": "Food egg"
+    },
+    {
+      "la-icon food_energy-drink": "Food energy drink"
+    },
+    {
+      "la-icon food_fish": "Food fish"
+    },
+    {
+      "la-icon food_fishbone": "Food fishbone"
+    },
+    {
+      "la-icon food_fridge": "Food fridge"
+    },
+    {
+      "la-icon food_glass": "Food glass"
+    },
+    {
+      "la-icon food_grape": "Food grape"
+    },
+    {
+      "la-icon food_hob": "Food hob"
+    },
+    {
+      "la-icon food_hot-dog": "Food hot dog"
+    },
+    {
+      "la-icon food_ice-cream-22": "Food ice cream-22"
+    },
+    {
+      "la-icon food_ice-cream-72": "Food ice cream-72"
+    },
+    {
+      "la-icon food_jam": "Food jam"
+    },
+    {
+      "la-icon food_kettle": "Food kettle"
+    },
+    {
+      "la-icon food_kitchen-fan": "Food kitchen fan"
+    },
+    {
+      "la-icon food_knife": "Food knife"
+    },
+    {
+      "la-icon food_lemon-slice": "Food lemon slice"
+    },
+    {
+      "la-icon food_lighter": "Food lighter"
+    },
+    {
+      "la-icon food_lobster": "Food lobster"
+    },
+    {
+      "la-icon food_matches": "Food matches"
+    },
+    {
+      "la-icon food_measuring-cup": "Food measuring cup"
+    },
+    {
+      "la-icon food_meat-spit": "Food meat spit"
+    },
+    {
+      "la-icon food_microwave": "Food microwave"
+    },
+    {
+      "la-icon food_milk": "Food milk"
+    },
+    {
+      "la-icon food_moka": "Food moka"
+    },
+    {
+      "la-icon food_muffin": "Food muffin"
+    },
+    {
+      "la-icon food_mug": "Food mug"
+    },
+    {
+      "la-icon food_oven": "Food oven"
+    },
+    {
+      "la-icon food_pan": "Food pan"
+    },
+    {
+      "la-icon food_pizza-slice": "Food pizza slice"
+    },
+    {
+      "la-icon food_pizza": "Food pizza"
+    },
+    {
+      "la-icon food_plate": "Food plate"
+    },
+    {
+      "la-icon food_pot": "Food pot"
+    },
+    {
+      "la-icon food_prosciutto": "Food prosciutto"
+    },
+    {
+      "la-icon food_recipe-book-46": "Food recipe book-46"
+    },
+    {
+      "la-icon food_recipe-book-47": "Food recipe book-47"
+    },
+    {
+      "la-icon food_rolling-pin": "Food rolling pin"
+    },
+    {
+      "la-icon food_salt": "Food salt"
+    },
+    {
+      "la-icon food_sausage": "Food sausage"
+    },
+    {
+      "la-icon food_scale": "Food scale"
+    },
+    {
+      "la-icon food_scotch": "Food scotch"
+    },
+    {
+      "la-icon food_shrimp": "Food shrimp"
+    },
+    {
+      "la-icon food_steak": "Food steak"
+    },
+    {
+      "la-icon food_store": "Food store"
+    },
+    {
+      "la-icon food_strawberry": "Food strawberry"
+    },
+    {
+      "la-icon food_sushi": "Food sushi"
+    },
+    {
+      "la-icon food_tacos": "Food tacos"
+    },
+    {
+      "la-icon food_tea": "Food tea"
+    },
+    {
+      "la-icon food_temperature": "Food temperature"
+    },
+    {
+      "la-icon food_vest-07": "Food vest 07"
+    },
+    {
+      "la-icon food_vest-31": "Food vest 31"
+    },
+    {
+      "la-icon food_watermelon": "Food watermelon"
+    },
+    {
+      "la-icon food_whisk": "Food whisk"
+    }
+  ],
+  "Healthcare & Medical": [
+    {
+      "la-icon health_ambulance": "Health ambulance"
+    },
+    {
+      "la-icon health_apple": "Health apple"
+    },
+    {
+      "la-icon health_bag-49": "Health bag 49"
+    },
+    {
+      "la-icon health_bag-50": "Health bag 50"
+    },
+    {
+      "la-icon health_brain": "Health brain"
+    },
+    {
+      "la-icon health_dna-27": "Health dna 27"
+    },
+    {
+      "la-icon health_dna-38": "Health dna 38"
+    },
+    {
+      "la-icon health_doctor": "Health doctor"
+    },
+    {
+      "la-icon health_flask": "Health flask"
+    },
+    {
+      "la-icon health_heartbeat-16": "Health heartbeat 16"
+    },
+    {
+      "la-icon health_height": "Health height"
+    },
+    {
+      "la-icon health_hospital-32": "Health hospital 32"
+    },
+    {
+      "la-icon health_hospital-33": "Health hospital 33"
+    },
+    {
+      "la-icon health_hospital-34": "Health hospital 34"
+    },
+    {
+      "la-icon health_humidity-26": "Health humidity 26"
+    },
+    {
+      "la-icon health_humidity-52": "Health humidity 52"
+    },
+    {
+      "la-icon health_intestine": "Health intestine"
+    },
+    {
+      "la-icon health_lungs": "Health lungs"
+    },
+    {
+      "la-icon health_molecule-39": "Health molecule 39"
+    },
+    {
+      "la-icon health_molecule-40": "Health molecule 40"
+    },
+    {
+      "la-icon health_notebook": "Health notebook"
+    },
+    {
+      "la-icon health_nurse": "Health nurse"
+    },
+    {
+      "la-icon health_patch-46": "Health patch 46"
+    },
+    {
+      "la-icon health_pill-42": "Health pill 42"
+    },
+    {
+      "la-icon health_pill-43": "Health pill 43"
+    },
+    {
+      "la-icon health_pill-container-44": "Health pill container-44"
+    },
+    {
+      "la-icon health_pill-container-47": "Health pill container-47"
+    },
+    {
+      "la-icon health_pulse-chart": "Health pulse chart"
+    },
+    {
+      "la-icon health_pulse-phone": "Health pulse phone"
+    },
+    {
+      "la-icon health_pulse-sleep": "Health pulse sleep"
+    },
+    {
+      "la-icon health_pulse-watch": "Health pulse watch"
+    },
+    {
+      "la-icon health_pulse": "Health pulse"
+    },
+    {
+      "la-icon health_sleep": "Health sleep"
+    },
+    {
+      "la-icon health_steps": "Health steps"
+    },
+    {
+      "la-icon health_syringe": "Health syringe"
+    },
+    {
+      "la-icon health_temperature-23": "Health temperature 23"
+    },
+    {
+      "la-icon health_temperature-24": "Health temperature 24"
+    },
+    {
+      "la-icon health_tooth": "Health tooth"
+    },
+    {
+      "la-icon health_weed": "Health weed"
+    },
+    {
+      "la-icon health_weight": "Health weight"
+    },
+    {
+      "la-icon health_wheelchair": "Health wheelchair"
+    },
+    {
+      "la-icon health_woman": "Health woman"
+    }
+  ],
+  "Holidays": [
+    {
+      "la-icon holidays_bat": "Holidays bat"
+    },
+    {
+      "la-icon holidays_biscuit": "Holidays biscuit"
+    },
+    {
+      "la-icon holidays_bones": "Holidays bones"
+    },
+    {
+      "la-icon holidays_boot": "Holidays boot"
+    },
+    {
+      "la-icon holidays_candy": "Holidays candy"
+    },
+    {
+      "la-icon holidays_cat": "Holidays cat"
+    },
+    {
+      "la-icon holidays_cauldron": "Holidays cauldron"
+    },
+    {
+      "la-icon holidays_chimney": "Holidays chimney"
+    },
+    {
+      "la-icon holidays_cockade": "Holidays cockade"
+    },
+    {
+      "la-icon holidays_coffin": "Holidays coffin"
+    },
+    {
+      "la-icon holidays_dead-hand": "Holidays dead hand"
+    },
+    {
+      "la-icon holidays_decoration": "Holidays decoration"
+    },
+    {
+      "la-icon holidays_deer": "Holidays deer"
+    },
+    {
+      "la-icon holidays_egg-38": "Holidays egg 38"
+    },
+    {
+      "la-icon holidays_egg-39": "Holidays egg 39"
+    },
+    {
+      "la-icon holidays_frankenstein": "Holidays frankenstein"
+    },
+    {
+      "la-icon holidays_ghost": "Holidays ghost"
+    },
+    {
+      "la-icon holidays_gift-exchange": "Holidays gift exchange"
+    },
+    {
+      "la-icon holidays_gift": "Holidays gift"
+    },
+    {
+      "la-icon holidays_glove": "Holidays glove"
+    },
+    {
+      "la-icon holidays_grave": "Holidays grave"
+    },
+    {
+      "la-icon holidays_light": "Holidays light"
+    },
+    {
+      "la-icon holidays_message": "Holidays message"
+    },
+    {
+      "la-icon holidays_mistletoe": "Holidays mistletoe"
+    },
+    {
+      "la-icon holidays_owl": "Holidays owl"
+    },
+    {
+      "la-icon holidays_pumpkin": "Holidays pumpkin"
+    },
+    {
+      "la-icon holidays_rabbit": "Holidays rabbit"
+    },
+    {
+      "la-icon holidays_santa-hat": "Holidays santa hat"
+    },
+    {
+      "la-icon holidays_sickle": "Holidays sickle"
+    },
+    {
+      "la-icon holidays_snow-ball": "Holidays snow ball"
+    },
+    {
+      "la-icon holidays_snowman-head": "Holidays snowman head"
+    },
+    {
+      "la-icon holidays_snowman": "Holidays snowman"
+    },
+    {
+      "la-icon holidays_soak": "Holidays soak"
+    },
+    {
+      "la-icon holidays_spider": "Holidays spider"
+    },
+    {
+      "la-icon holidays_tree-ball": "Holidays tree ball"
+    },
+    {
+      "la-icon holidays_tree": "Holidays tree"
+    },
+    {
+      "la-icon holidays_vampire": "Holidays vampire"
+    },
+    {
+      "la-icon holidays_witch-hat": "Holidays witch hat"
+    },
+    {
+      "la-icon holidays_wolf": "Holidays wolf"
+    },
+    {
+      "la-icon holidays_zombie": "Holidays zombie"
+    }
+  ],
+  "Home furniture": [
+    {
+      "la-icon furniture_air-conditioner": "Furniture air conditioner"
+    },
+    {
+      "la-icon furniture_armchair": "Furniture armchair"
+    },
+    {
+      "la-icon furniture_bath-tub": "Furniture bath tub"
+    },
+    {
+      "la-icon furniture_bed-09": "Furniture bed 09"
+    },
+    {
+      "la-icon furniture_bed-23": "Furniture bed 23"
+    },
+    {
+      "la-icon furniture_bed-side": "Furniture bed side"
+    },
+    {
+      "la-icon furniture_cabinet": "Furniture cabinet"
+    },
+    {
+      "la-icon furniture_cactus": "Furniture cactus"
+    },
+    {
+      "la-icon furniture_chair": "Furniture chair"
+    },
+    {
+      "la-icon furniture_coat-hanger": "Furniture coat hanger"
+    },
+    {
+      "la-icon furniture_coffee": "Furniture coffee"
+    },
+    {
+      "la-icon furniture_cradle": "Furniture cradle"
+    },
+    {
+      "la-icon furniture_curtain": "Furniture curtain"
+    },
+    {
+      "la-icon furniture_desk-drawer": "Furniture desk drawer"
+    },
+    {
+      "la-icon furniture_desk": "Furniture desk"
+    },
+    {
+      "la-icon furniture_door": "Furniture door"
+    },
+    {
+      "la-icon furniture_drawer": "Furniture drawer"
+    },
+    {
+      "la-icon furniture_fridge": "Furniture fridge"
+    },
+    {
+      "la-icon furniture_hanger-clothes": "Furniture hanger clothes"
+    },
+    {
+      "la-icon furniture_hanger": "Furniture hanger"
+    },
+    {
+      "la-icon furniture_heater": "Furniture heater"
+    },
+    {
+      "la-icon furniture_iron": "Furniture iron"
+    },
+    {
+      "la-icon furniture_lamp-floor": "Furniture lamp floor"
+    },
+    {
+      "la-icon furniture_lamp": "Furniture lamp"
+    },
+    {
+      "la-icon furniture_library": "Furniture library"
+    },
+    {
+      "la-icon furniture_light": "Furniture light"
+    },
+    {
+      "la-icon furniture_mixer": "Furniture mixer"
+    },
+    {
+      "la-icon furniture_oven": "Furniture oven"
+    },
+    {
+      "la-icon furniture_shower": "Furniture shower"
+    },
+    {
+      "la-icon furniture_sink-wash": "Furniture sink wash"
+    },
+    {
+      "la-icon furniture_sink": "Furniture sink"
+    },
+    {
+      "la-icon furniture_sofa": "Furniture sofa"
+    },
+    {
+      "la-icon furniture_storage-hanger": "Furniture storage hanger"
+    },
+    {
+      "la-icon furniture_storage": "Furniture storage"
+    },
+    {
+      "la-icon furniture_table": "Furniture table"
+    },
+    {
+      "la-icon furniture_toilet-paper": "Furniture toilet paper"
+    },
+    {
+      "la-icon furniture_toilet": "Furniture toilet"
+    },
+    {
+      "la-icon furniture_tv": "Furniture tv"
+    },
+    {
+      "la-icon furniture_wardrobe": "Furniture wardrobe"
+    },
+    {
+      "la-icon furniture_wash": "Furniture wash"
+    }
+  ],
+  "Loaders": [
+    {
+      "la-icon loader_circle-04": "Loader circle 04"
+    },
+    {
+      "la-icon loader_dots-06": "Loader dots 06"
+    },
+    {
+      "la-icon loader_gear": "Loader gear"
+    },
+    {
+      "la-icon loader_refresh": "Loader refresh"
+    }
+  ],
+  "Maps & Location": [
+    {
+      "la-icon location_appointment": "Location appointment"
+    },
+    {
+      "la-icon location_bookmark-add": "Location bookmark add"
+    },
+    {
+      "la-icon location_bookmark-remove": "Location bookmark remove"
+    },
+    {
+      "la-icon location_bookmark": "Location bookmark"
+    },
+    {
+      "la-icon location_compass-04": "Location compass 04"
+    },
+    {
+      "la-icon location_compass-05": "Location compass 05"
+    },
+    {
+      "la-icon location_compass-06": "Location compass 06"
+    },
+    {
+      "la-icon location_crosshair": "Location crosshair"
+    },
+    {
+      "la-icon location_explore-user": "Location explore user"
+    },
+    {
+      "la-icon location_explore": "Location explore"
+    },
+    {
+      "la-icon location_flag-complex": "Location flag complex"
+    },
+    {
+      "la-icon location_flag-diagonal-33": "Location flag diagonal-33"
+    },
+    {
+      "la-icon location_flag-diagonal-34": "Location flag diagonal-34"
+    },
+    {
+      "la-icon location_flag-points-31": "Location flag points-31"
+    },
+    {
+      "la-icon location_flag-points-32": "Location flag points-32"
+    },
+    {
+      "la-icon location_flag-simple": "Location flag simple"
+    },
+    {
+      "la-icon location_flag-triangle": "Location flag triangle"
+    },
+    {
+      "la-icon location_flag": "Location flag"
+    },
+    {
+      "la-icon location_gps": "Location gps"
+    },
+    {
+      "la-icon location_map-big": "Location map big"
+    },
+    {
+      "la-icon location_map-compass": "Location map compass"
+    },
+    {
+      "la-icon location_map-gps": "Location map gps"
+    },
+    {
+      "la-icon location_map-marker": "Location map marker"
+    },
+    {
+      "la-icon location_map-pin": "Location map pin"
+    },
+    {
+      "la-icon location_map": "Location map"
+    },
+    {
+      "la-icon location_marker": "Location marker"
+    },
+    {
+      "la-icon location_pin-add": "Location pin add"
+    },
+    {
+      "la-icon location_pin-copy": "Location pin copy"
+    },
+    {
+      "la-icon location_pin-remove": "Location pin remove"
+    },
+    {
+      "la-icon location_pin": "Location pin"
+    },
+    {
+      "la-icon location_pins": "Location pins"
+    },
+    {
+      "la-icon location_position-marker": "Location position marker"
+    },
+    {
+      "la-icon location_position-pin": "Location position pin"
+    },
+    {
+      "la-icon location_position-user": "Location position user"
+    },
+    {
+      "la-icon location_radar": "Location radar"
+    },
+    {
+      "la-icon location_road": "Location road"
+    },
+    {
+      "la-icon location_route-alert": "Location route alert"
+    },
+    {
+      "la-icon location_route-close": "Location route close"
+    },
+    {
+      "la-icon location_route-open": "Location route open"
+    },
+    {
+      "la-icon location_square-marker": "Location square marker"
+    },
+    {
+      "la-icon location_square-pin": "Location square pin"
+    },
+    {
+      "la-icon location_treasure-map-21": "Location treasure map-21"
+    },
+    {
+      "la-icon location_treasure-map-40": "Location treasure map-40"
+    },
+    {
+      "la-icon location_worl-marker": "Location worl marker"
+    },
+    {
+      "la-icon location_world-pin": "Location world pin"
+    },
+    {
+      "la-icon location_world": "Location world"
+    }
+  ],
+  "Media": [
+    {
+      "la-icon media-1_3d": "Media 1 3d"
+    },
+    {
+      "la-icon media-1_action-73": "Media 1 action-73"
+    },
+    {
+      "la-icon media-1_action-74": "Media 1 action-74"
+    },
+    {
+      "la-icon media-1_album": "Media 1 album"
+    },
+    {
+      "la-icon media-1_audio-91": "Media 1 audio-91"
+    },
+    {
+      "la-icon media-1_audio-92": "Media 1 audio-92"
+    },
+    {
+      "la-icon media-1_balance": "Media 1 balance"
+    },
+    {
+      "la-icon media-1_brightness-46": "Media 1 brightness-46"
+    },
+    {
+      "la-icon media-1_brightness-47": "Media 1 brightness-47"
+    },
+    {
+      "la-icon media-1_button-circle-pause": "Media 1 button-circle-pause"
+    },
+    {
+      "la-icon media-1_button-circle-play": "Media 1 button-circle-play"
+    },
+    {
+      "la-icon media-1_button-circle-stop": "Media 1 button-circle-stop"
+    },
+    {
+      "la-icon media-1_button-eject": "Media 1 button-eject"
+    },
+    {
+      "la-icon media-1_button-next": "Media 1 button-next"
+    },
+    {
+      "la-icon media-1_button-pause": "Media 1 button-pause"
+    },
+    {
+      "la-icon media-1_button-play": "Media 1 button-play"
+    },
+    {
+      "la-icon media-1_button-power": "Media 1 button-power"
+    },
+    {
+      "la-icon media-1_button-previous": "Media 1 button-previous"
+    },
+    {
+      "la-icon media-1_button-record": "Media 1 button-record"
+    },
+    {
+      "la-icon media-1_button-rewind": "Media 1 button-rewind"
+    },
+    {
+      "la-icon media-1_button-skip": "Media 1 button-skip"
+    },
+    {
+      "la-icon media-1_button-stop": "Media 1 button-stop"
+    },
+    {
+      "la-icon media-1_camera-18": "Media 1 camera-18"
+    },
+    {
+      "la-icon media-1_camera-19": "Media 1 camera-19"
+    },
+    {
+      "la-icon media-1_camera-20": "Media 1 camera-20"
+    },
+    {
+      "la-icon media-1_camera-ban-36": "Media 1 camera-ban-36"
+    },
+    {
+      "la-icon media-1_camera-ban-37": "Media 1 camera-ban-37"
+    },
+    {
+      "la-icon media-1_camera-compact": "Media 1 camera-compact"
+    },
+    {
+      "la-icon media-1_camera-screen": "Media 1 camera-screen"
+    },
+    {
+      "la-icon media-1_camera-square-57": "Media 1 camera-square-57"
+    },
+    {
+      "la-icon media-1_camera-square-58": "Media 1 camera-square-58"
+    },
+    {
+      "la-icon media-1_camera-time": "Media 1 camera-time"
+    },
+    {
+      "la-icon media-1_countdown-34": "Media 1 countdown-34"
+    },
+    {
+      "la-icon media-1_countdown-35": "Media 1 countdown-35"
+    },
+    {
+      "la-icon media-1_edit-color": "Media 1 edit-color"
+    },
+    {
+      "la-icon media-1_edit-contrast-42": "Media 1 edit-contrast-42"
+    },
+    {
+      "la-icon media-1_edit-contrast-43": "Media 1 edit-contrast-43"
+    },
+    {
+      "la-icon media-1_edit-saturation": "Media 1 edit-saturation"
+    },
+    {
+      "la-icon media-1_flash-21": "Media 1 flash-21"
+    },
+    {
+      "la-icon media-1_flash-24": "Media 1 flash-24"
+    },
+    {
+      "la-icon media-1_flash-29": "Media 1 flash-29"
+    },
+    {
+      "la-icon media-1_flash-auto-22": "Media 1 flash-auto-22"
+    },
+    {
+      "la-icon media-1_flash-auto-25": "Media 1 flash-auto-25"
+    },
+    {
+      "la-icon media-1_flash-off-23": "Media 1 flash-off-23"
+    },
+    {
+      "la-icon media-1_flash-off-26": "Media 1 flash-off-26"
+    },
+    {
+      "la-icon media-1_focus-32": "Media 1 focus-32"
+    },
+    {
+      "la-icon media-1_focus-38": "Media 1 focus-38"
+    },
+    {
+      "la-icon media-1_focus-40": "Media 1 focus-40"
+    },
+    {
+      "la-icon media-1_focus-circle": "Media 1 focus-circle"
+    },
+    {
+      "la-icon media-1_frame-12": "Media 1 frame-12"
+    },
+    {
+      "la-icon media-1_frame-41": "Media 1 frame-41"
+    },
+    {
+      "la-icon media-1_grid": "Media 1 grid"
+    },
+    {
+      "la-icon media-1_image-01": "Media 1 image-01"
+    },
+    {
+      "la-icon media-1_image-02": "Media 1 image-02"
+    },
+    {
+      "la-icon media-1_image-05": "Media 1 image-05"
+    },
+    {
+      "la-icon media-1_image-add": "Media 1 image-add"
+    },
+    {
+      "la-icon media-1_image-delete": "Media 1 image-delete"
+    },
+    {
+      "la-icon media-1_image-location": "Media 1 image-location"
+    },
+    {
+      "la-icon media-1_kid": "Media 1 kid"
+    },
+    {
+      "la-icon media-1_layers": "Media 1 layers"
+    },
+    {
+      "la-icon media-1_lens-31": "Media 1 lens-31"
+    },
+    {
+      "la-icon media-1_lens-56": "Media 1 lens-56"
+    },
+    {
+      "la-icon media-1_macro": "Media 1 macro"
+    },
+    {
+      "la-icon media-1_movie-61": "Media 1 movie-61"
+    },
+    {
+      "la-icon media-1_movie-62": "Media 1 movie-62"
+    },
+    {
+      "la-icon media-1_night": "Media 1 night"
+    },
+    {
+      "la-icon media-1_picture": "Media 1 picture"
+    },
+    {
+      "la-icon media-1_play-68": "Media 1 play-68"
+    },
+    {
+      "la-icon media-1_play-69": "Media 1 play-69"
+    },
+    {
+      "la-icon media-1_player": "Media 1 player"
+    },
+    {
+      "la-icon media-1_polaroid-add": "Media 1 polaroid-add"
+    },
+    {
+      "la-icon media-1_polaroid-delete": "Media 1 polaroid-delete"
+    },
+    {
+      "la-icon media-1_polaroid-multiple": "Media 1 polaroid-multiple"
+    },
+    {
+      "la-icon media-1_polaroid-user": "Media 1 polaroid-user"
+    },
+    {
+      "la-icon media-1_polaroid": "Media 1 polaroid"
+    },
+    {
+      "la-icon media-1_roll": "Media 1 roll"
+    },
+    {
+      "la-icon media-1_rotate-left": "Media 1 rotate-left"
+    },
+    {
+      "la-icon media-1_rotate-right": "Media 1 rotate-right"
+    },
+    {
+      "la-icon media-1_sd": "Media 1 sd"
+    },
+    {
+      "la-icon media-1_selfie": "Media 1 selfie"
+    },
+    {
+      "la-icon media-1_shake": "Media 1 shake"
+    },
+    {
+      "la-icon media-1_speaker": "Media 1 speaker"
+    },
+    {
+      "la-icon media-1_sport": "Media 1 sport"
+    },
+    {
+      "la-icon media-1_ticket-75": "Media 1 ticket-75"
+    },
+    {
+      "la-icon media-1_ticket-76": "Media 1 ticket-76"
+    },
+    {
+      "la-icon media-1_touch": "Media 1 touch"
+    },
+    {
+      "la-icon media-1_tripod": "Media 1 tripod"
+    },
+    {
+      "la-icon media-1_video-64": "Media 1 video-64"
+    },
+    {
+      "la-icon media-1_video-65": "Media 1 video-65"
+    },
+    {
+      "la-icon media-1_video-66": "Media 1 video-66"
+    },
+    {
+      "la-icon media-1_video-67": "Media 1 video-67"
+    },
+    {
+      "la-icon media-1_videocamera-71": "Media 1 videocamera-71"
+    },
+    {
+      "la-icon media-1_videocamera-72": "Media 1 videocamera-72"
+    },
+    {
+      "la-icon media-1_volume-93": "Media 1 volume-93"
+    },
+    {
+      "la-icon media-1_volume-97": "Media 1 volume-97"
+    },
+    {
+      "la-icon media-1_volume-98": "Media 1 volume-98"
+    },
+    {
+      "la-icon media-1_volume-ban": "Media 1 volume-ban"
+    },
+    {
+      "la-icon media-1_volume-down": "Media 1 volume-down"
+    },
+    {
+      "la-icon media-1_volume-off": "Media 1 volume-off"
+    },
+    {
+      "la-icon media-1_volume-up": "Media 1 volume-up"
+    },
+    {
+      "la-icon media-2_guitar": "Media 2 guitar"
+    },
+    {
+      "la-icon media-2_headphones-mic": "Media 2 headphones-mic"
+    },
+    {
+      "la-icon media-2_headphones": "Media 2 headphones"
+    },
+    {
+      "la-icon media-2_knob": "Media 2 knob"
+    },
+    {
+      "la-icon media-2_mic": "Media 2 mic"
+    },
+    {
+      "la-icon media-2_music-album": "Media 2 music-album"
+    },
+    {
+      "la-icon media-2_music-cloud": "Media 2 music-cloud"
+    },
+    {
+      "la-icon media-2_note-03": "Media 2 note-03"
+    },
+    {
+      "la-icon media-2_note-04": "Media 2 note-04"
+    },
+    {
+      "la-icon media-2_piano": "Media 2 piano"
+    },
+    {
+      "la-icon media-2_radio": "Media 2 radio"
+    },
+    {
+      "la-icon media-2_remix": "Media 2 remix"
+    },
+    {
+      "la-icon media-2_sound-wave": "Media 2 sound-wave"
+    },
+    {
+      "la-icon media-2_speaker-01": "Media 2 speaker-01"
+    },
+    {
+      "la-icon media-2_speaker-05": "Media 2 speaker-05"
+    },
+    {
+      "la-icon media-2_tape": "Media 2 tape"
+    }
+  ],
+  "Objects": [
+    {
+      "la-icon objects_alien-29": "Objects alien 29"
+    },
+    {
+      "la-icon objects_alien-33": "Objects alien 33"
+    },
+    {
+      "la-icon objects_anchor": "Objects anchor"
+    },
+    {
+      "la-icon objects_astronaut": "Objects astronaut"
+    },
+    {
+      "la-icon objects_axe": "Objects axe"
+    },
+    {
+      "la-icon objects_baby-bottle": "Objects baby bottle"
+    },
+    {
+      "la-icon objects_baby": "Objects baby"
+    },
+    {
+      "la-icon objects_baloon": "Objects baloon"
+    },
+    {
+      "la-icon objects_battery": "Objects battery"
+    },
+    {
+      "la-icon objects_bear": "Objects bear"
+    },
+    {
+      "la-icon objects_billiard": "Objects billiard"
+    },
+    {
+      "la-icon objects_binocular": "Objects binocular"
+    },
+    {
+      "la-icon objects_bow": "Objects bow"
+    },
+    {
+      "la-icon objects_bowling": "Objects bowling"
+    },
+    {
+      "la-icon objects_broom": "Objects broom"
+    },
+    {
+      "la-icon objects_cone": "Objects cone"
+    },
+    {
+      "la-icon objects_controller": "Objects controller"
+    },
+    {
+      "la-icon objects_diamond": "Objects diamond"
+    },
+    {
+      "la-icon objects_dice": "Objects dice"
+    },
+    {
+      "la-icon objects_globe": "Objects globe"
+    },
+    {
+      "la-icon objects_hut": "Objects hut"
+    },
+    {
+      "la-icon objects_key-25": "Objects key 25"
+    },
+    {
+      "la-icon objects_key-26": "Objects key 26"
+    },
+    {
+      "la-icon objects_lamp": "Objects lamp"
+    },
+    {
+      "la-icon objects_leaf-36": "Objects leaf 36"
+    },
+    {
+      "la-icon objects_leaf-38": "Objects leaf 38"
+    },
+    {
+      "la-icon objects_light": "Objects light"
+    },
+    {
+      "la-icon objects_pipe": "Objects pipe"
+    },
+    {
+      "la-icon objects_planet": "Objects planet"
+    },
+    {
+      "la-icon objects_puzzle-09": "Objects puzzle 09"
+    },
+    {
+      "la-icon objects_puzzle-10": "Objects puzzle 10"
+    },
+    {
+      "la-icon objects_shovel": "Objects shovel"
+    },
+    {
+      "la-icon objects_skull": "Objects skull"
+    },
+    {
+      "la-icon objects_spaceship": "Objects spaceship"
+    },
+    {
+      "la-icon objects_spray": "Objects spray"
+    },
+    {
+      "la-icon objects_support-16": "Objects support 16"
+    },
+    {
+      "la-icon objects_support-17": "Objects support 17"
+    },
+    {
+      "la-icon objects_umbrella-13": "Objects umbrella 13"
+    },
+    {
+      "la-icon objects_umbrella-14": "Objects umbrella 14"
+    },
+    {
+      "la-icon objects_wool-ball": "Objects wool ball"
+    }
+  ],
+  "School & Education": [
+    {
+      "la-icon education_abc": "Education abc"
+    },
+    {
+      "la-icon education_agenda-bookmark": "Education agenda bookmark"
+    },
+    {
+      "la-icon education_atom": "Education atom"
+    },
+    {
+      "la-icon education_award-55": "Education award 55"
+    },
+    {
+      "la-icon education_backpack-57": "Education backpack 57"
+    },
+    {
+      "la-icon education_backpack-58": "Education backpack 58"
+    },
+    {
+      "la-icon education_ball-basket": "Education ball basket"
+    },
+    {
+      "la-icon education_ball-soccer": "Education ball soccer"
+    },
+    {
+      "la-icon education_board-51": "Education board 51"
+    },
+    {
+      "la-icon education_book-39": "Education book 39"
+    },
+    {
+      "la-icon education_book-bookmark": "Education book bookmark"
+    },
+    {
+      "la-icon education_book-open": "Education book open"
+    },
+    {
+      "la-icon education_books-46": "Education books 46"
+    },
+    {
+      "la-icon education_chalkboard": "Education chalkboard"
+    },
+    {
+      "la-icon education_flask": "Education flask"
+    },
+    {
+      "la-icon education_glasses": "Education glasses"
+    },
+    {
+      "la-icon education_grammar-check": "Education grammar check"
+    },
+    {
+      "la-icon education_hat": "Education hat"
+    },
+    {
+      "la-icon education_language": "Education language"
+    },
+    {
+      "la-icon education_microscope": "Education microscope"
+    },
+    {
+      "la-icon education_molecule": "Education molecule"
+    },
+    {
+      "la-icon education_notepad": "Education notepad"
+    },
+    {
+      "la-icon education_paper-diploma": "Education paper diploma"
+    },
+    {
+      "la-icon education_paper": "Education paper"
+    },
+    {
+      "la-icon education_pencil-47": "Education pencil 47"
+    },
+    {
+      "la-icon education_school": "Education school"
+    }
+  ],
+  "Shopping": [
+    {
+      "la-icon shopping_award": "Shopping award"
+    },
+    {
+      "la-icon shopping_bag-09": "Shopping bag 09"
+    },
+    {
+      "la-icon shopping_bag-16": "Shopping bag 16"
+    },
+    {
+      "la-icon shopping_bag-17": "Shopping bag 17"
+    },
+    {
+      "la-icon shopping_bag-20": "Shopping bag 20"
+    },
+    {
+      "la-icon shopping_bag-add-18": "Shopping bag add-18"
+    },
+    {
+      "la-icon shopping_bag-add-21": "Shopping bag add-21"
+    },
+    {
+      "la-icon shopping_bag-edit": "Shopping bag edit"
+    },
+    {
+      "la-icon shopping_bag-remove-19": "Shopping bag remove-19"
+    },
+    {
+      "la-icon shopping_bag-remove-22": "Shopping bag remove-22"
+    },
+    {
+      "la-icon shopping_barcode-scan": "Shopping barcode scan"
+    },
+    {
+      "la-icon shopping_barcode": "Shopping barcode"
+    },
+    {
+      "la-icon shopping_bardcode-qr": "Shopping bardcode qr"
+    },
+    {
+      "la-icon shopping_basket-add": "Shopping basket add"
+    },
+    {
+      "la-icon shopping_basket-edit": "Shopping basket edit"
+    },
+    {
+      "la-icon shopping_basket-remove": "Shopping basket remove"
+    },
+    {
+      "la-icon shopping_basket-simple-add": "Shopping basket simple-add"
+    },
+    {
+      "la-icon shopping_basket-simple-remove": "Shopping basket simple-remove"
+    },
+    {
+      "la-icon shopping_basket-simple": "Shopping basket simple"
+    },
+    {
+      "la-icon shopping_basket": "Shopping basket"
+    },
+    {
+      "la-icon shopping_bitcoin": "Shopping bitcoin"
+    },
+    {
+      "la-icon shopping_board": "Shopping board"
+    },
+    {
+      "la-icon shopping_box-3d-50": "Shopping box 3d-50"
+    },
+    {
+      "la-icon shopping_box-3d-67": "Shopping box 3d-67"
+    },
+    {
+      "la-icon shopping_box-ribbon": "Shopping box ribbon"
+    },
+    {
+      "la-icon shopping_box": "Shopping box"
+    },
+    {
+      "la-icon shopping_cart-add": "Shopping cart add"
+    },
+    {
+      "la-icon shopping_cart-modern-add": "Shopping cart modern-add"
+    },
+    {
+      "la-icon shopping_cart-modern-in": "Shopping cart modern-in"
+    },
+    {
+      "la-icon shopping_cart-modern-remove": "Shopping cart modern-remove"
+    },
+    {
+      "la-icon shopping_cart-modern": "Shopping cart modern"
+    },
+    {
+      "la-icon shopping_cart-remove": "Shopping cart remove"
+    },
+    {
+      "la-icon shopping_cart-simple-add": "Shopping cart simple-add"
+    },
+    {
+      "la-icon shopping_cart-simple-in": "Shopping cart simple-in"
+    },
+    {
+      "la-icon shopping_cart-simple-remove": "Shopping cart simple-remove"
+    },
+    {
+      "la-icon shopping_cart-simple": "Shopping cart simple"
+    },
+    {
+      "la-icon shopping_cart": "Shopping cart"
+    },
+    {
+      "la-icon shopping_cash-register": "Shopping cash register"
+    },
+    {
+      "la-icon shopping_chart": "Shopping chart"
+    },
+    {
+      "la-icon shopping_credit-card-in": "Shopping credit card-in"
+    },
+    {
+      "la-icon shopping_credit-card": "Shopping credit card"
+    },
+    {
+      "la-icon shopping_credit-locked": "Shopping credit locked"
+    },
+    {
+      "la-icon shopping_delivery-fast": "Shopping delivery fast"
+    },
+    {
+      "la-icon shopping_delivery-time": "Shopping delivery time"
+    },
+    {
+      "la-icon shopping_delivery-track": "Shopping delivery track"
+    },
+    {
+      "la-icon shopping_delivery": "Shopping delivery"
+    },
+    {
+      "la-icon shopping_discount": "Shopping discount"
+    },
+    {
+      "la-icon shopping_gift": "Shopping gift"
+    },
+    {
+      "la-icon shopping_hand-card": "Shopping hand card"
+    },
+    {
+      "la-icon shopping_list": "Shopping list"
+    },
+    {
+      "la-icon shopping_mobile-card": "Shopping mobile card"
+    },
+    {
+      "la-icon shopping_mobile-cart": "Shopping mobile cart"
+    },
+    {
+      "la-icon shopping_mobile-touch": "Shopping mobile touch"
+    },
+    {
+      "la-icon shopping_newsletter": "Shopping newsletter"
+    },
+    {
+      "la-icon shopping_pos": "Shopping pos"
+    },
+    {
+      "la-icon shopping_receipt-list-42": "Shopping receipt list-42"
+    },
+    {
+      "la-icon shopping_receipt-list-43": "Shopping receipt list-43"
+    },
+    {
+      "la-icon shopping_receipt": "Shopping receipt"
+    },
+    {
+      "la-icon shopping_shop-location": "Shopping shop location"
+    },
+    {
+      "la-icon shopping_shop": "Shopping shop"
+    },
+    {
+      "la-icon shopping_stock": "Shopping stock"
+    },
+    {
+      "la-icon shopping_tag-content": "Shopping tag content"
+    },
+    {
+      "la-icon shopping_tag-cut": "Shopping tag cut"
+    },
+    {
+      "la-icon shopping_tag-line": "Shopping tag line"
+    },
+    {
+      "la-icon shopping_tag-sale": "Shopping tag sale"
+    },
+    {
+      "la-icon shopping_tag": "Shopping tag"
+    },
+    {
+      "la-icon shopping_wallet": "Shopping wallet"
+    }
+  ],
+  "Sport": [
+    {
+      "la-icon sport_badminton": "Sport badminton"
+    },
+    {
+      "la-icon sport_baseball-ball": "Sport baseball ball"
+    },
+    {
+      "la-icon sport_baseball-bat": "Sport baseball bat"
+    },
+    {
+      "la-icon sport_baseball": "Sport baseball"
+    },
+    {
+      "la-icon sport_basketball-12": "Sport basketball 12"
+    },
+    {
+      "la-icon sport_basketball-13": "Sport basketball 13"
+    },
+    {
+      "la-icon sport_boxing": "Sport boxing"
+    },
+    {
+      "la-icon sport_cardio": "Sport cardio"
+    },
+    {
+      "la-icon sport_cricket": "Sport cricket"
+    },
+    {
+      "la-icon sport_crown": "Sport crown"
+    },
+    {
+      "la-icon sport_dart": "Sport dart"
+    },
+    {
+      "la-icon sport_dumbbells": "Sport dumbbells"
+    },
+    {
+      "la-icon sport_energy-drink": "Sport energy drink"
+    },
+    {
+      "la-icon sport_energy-supplement": "Sport energy supplement"
+    },
+    {
+      "la-icon sport_fencing": "Sport fencing"
+    },
+    {
+      "la-icon sport_fishing": "Sport fishing"
+    },
+    {
+      "la-icon sport_flag-finish": "Sport flag finish"
+    },
+    {
+      "la-icon sport_football-headguard": "Sport football headguard"
+    },
+    {
+      "la-icon sport_golf": "Sport golf"
+    },
+    {
+      "la-icon sport_helmet": "Sport helmet"
+    },
+    {
+      "la-icon sport_hockey": "Sport hockey"
+    },
+    {
+      "la-icon sport_kettlebell": "Sport kettlebell"
+    },
+    {
+      "la-icon sport_ping-pong": "Sport ping pong"
+    },
+    {
+      "la-icon sport_podium-trophy": "Sport podium trophy"
+    },
+    {
+      "la-icon sport_podium": "Sport podium"
+    },
+    {
+      "la-icon sport_rope": "Sport rope"
+    },
+    {
+      "la-icon sport_rugby": "Sport rugby"
+    },
+    {
+      "la-icon sport_shaker": "Sport shaker"
+    },
+    {
+      "la-icon sport_shoe-run": "Sport shoe run"
+    },
+    {
+      "la-icon sport_skateboard": "Sport skateboard"
+    },
+    {
+      "la-icon sport_snowboard": "Sport snowboard"
+    },
+    {
+      "la-icon sport_soccer-field": "Sport soccer field"
+    },
+    {
+      "la-icon sport_steering-wheel": "Sport steering wheel"
+    },
+    {
+      "la-icon sport_supplement": "Sport supplement"
+    },
+    {
+      "la-icon sport_surf": "Sport surf"
+    },
+    {
+      "la-icon sport_tactic": "Sport tactic"
+    },
+    {
+      "la-icon sport_tennis-ball": "Sport tennis ball"
+    },
+    {
+      "la-icon sport_tennis": "Sport tennis"
+    },
+    {
+      "la-icon sport_trophy": "Sport trophy"
+    },
+    {
+      "la-icon sport_user-balance": "Sport user balance"
+    },
+    {
+      "la-icon sport_user-climb": "Sport user climb"
+    },
+    {
+      "la-icon sport_user-meditation": "Sport user meditation"
+    },
+    {
+      "la-icon sport_user-run": "Sport user run"
+    },
+    {
+      "la-icon sport_user-snowboard": "Sport user snowboard"
+    },
+    {
+      "la-icon sport_user-swim": "Sport user swim"
+    },
+    {
+      "la-icon sport_volleyball": "Sport volleyball"
+    },
+    {
+      "la-icon sport_whistle": "Sport whistle"
+    }
+  ],
+  "Technology": [
+    {
+      "la-icon tech_cable-49": "Tech cable 49"
+    },
+    {
+      "la-icon tech_cable-50": "Tech cable 50"
+    },
+    {
+      "la-icon tech_cd-reader": "Tech cd reader"
+    },
+    {
+      "la-icon tech_computer-monitor": "Tech computer monitor"
+    },
+    {
+      "la-icon tech_computer-old": "Tech computer old"
+    },
+    {
+      "la-icon tech_computer": "Tech computer"
+    },
+    {
+      "la-icon tech_controller-modern": "Tech controller modern"
+    },
+    {
+      "la-icon tech_controller": "Tech controller"
+    },
+    {
+      "la-icon tech_desktop-screen": "Tech desktop screen"
+    },
+    {
+      "la-icon tech_desktop": "Tech desktop"
+    },
+    {
+      "la-icon tech_disk-reader": "Tech disk reader"
+    },
+    {
+      "la-icon tech_disk": "Tech disk"
+    },
+    {
+      "la-icon tech_gopro": "Tech gopro"
+    },
+    {
+      "la-icon tech_headphones": "Tech headphones"
+    },
+    {
+      "la-icon tech_keyboard-mouse": "Tech keyboard mouse"
+    },
+    {
+      "la-icon tech_keyboard-wifi": "Tech keyboard wifi"
+    },
+    {
+      "la-icon tech_keyboard": "Tech keyboard"
+    },
+    {
+      "la-icon tech_laptop-1": "Tech laptop 1"
+    },
+    {
+      "la-icon tech_laptop-2": "Tech laptop 2"
+    },
+    {
+      "la-icon tech_laptop": "Tech laptop"
+    },
+    {
+      "la-icon tech_mobile-button": "Tech mobile button"
+    },
+    {
+      "la-icon tech_mobile-camera": "Tech mobile camera"
+    },
+    {
+      "la-icon tech_mobile-recharger-08": "Tech mobile recharger-08"
+    },
+    {
+      "la-icon tech_mobile-recharger-09": "Tech mobile recharger-09"
+    },
+    {
+      "la-icon tech_mobile-toolbar": "Tech mobile toolbar"
+    },
+    {
+      "la-icon tech_mobile": "Tech mobile"
+    },
+    {
+      "la-icon tech_music": "Tech music"
+    },
+    {
+      "la-icon tech_navigation": "Tech navigation"
+    },
+    {
+      "la-icon tech_player-19": "Tech player 19"
+    },
+    {
+      "la-icon tech_player-48": "Tech player 48"
+    },
+    {
+      "la-icon tech_print-fold": "Tech print fold"
+    },
+    {
+      "la-icon tech_print-round-fold": "Tech print round-fold"
+    },
+    {
+      "la-icon tech_print-round": "Tech print round"
+    },
+    {
+      "la-icon tech_print": "Tech print"
+    },
+    {
+      "la-icon tech_ram": "Tech ram"
+    },
+    {
+      "la-icon tech_remote": "Tech remote"
+    },
+    {
+      "la-icon tech_signal": "Tech signal"
+    },
+    {
+      "la-icon tech_socket": "Tech socket"
+    },
+    {
+      "la-icon tech_sync": "Tech sync"
+    },
+    {
+      "la-icon tech_tablet-button": "Tech tablet button"
+    },
+    {
+      "la-icon tech_tablet-reader-31": "Tech tablet reader-31"
+    },
+    {
+      "la-icon tech_tablet-reader-42": "Tech tablet reader-42"
+    },
+    {
+      "la-icon tech_tablet-toolbar": "Tech tablet toolbar"
+    },
+    {
+      "la-icon tech_tablet": "Tech tablet"
+    },
+    {
+      "la-icon tech_tv-old": "Tech tv old"
+    },
+    {
+      "la-icon tech_tv": "Tech tv"
+    },
+    {
+      "la-icon tech_watch-circle": "Tech watch circle"
+    },
+    {
+      "la-icon tech_watch-time": "Tech watch time"
+    },
+    {
+      "la-icon tech_watch": "Tech watch"
+    },
+    {
+      "la-icon tech_webcam-38": "Tech webcam 38"
+    },
+    {
+      "la-icon tech_webcam-39": "Tech webcam 39"
+    },
+    {
+      "la-icon tech_wifi-router": "Tech wifi router"
+    },
+    {
+      "la-icon tech_wifi": "Tech wifi"
+    },
+    {
+      "la-icon tech-2_cctv": "Tech 2 cctv"
+    },
+    {
+      "la-icon tech-2_connection": "Tech 2 connection"
+    },
+    {
+      "la-icon tech-2_device-connection": "Tech 2 device-connection"
+    },
+    {
+      "la-icon tech-2_dock": "Tech 2 dock"
+    },
+    {
+      "la-icon tech-2_firewall": "Tech 2 firewall"
+    },
+    {
+      "la-icon tech-2_hdmi": "Tech 2 hdmi"
+    },
+    {
+      "la-icon tech-2_headphone": "Tech 2 headphone"
+    },
+    {
+      "la-icon tech-2_headset": "Tech 2 headset"
+    },
+    {
+      "la-icon tech-2_keyboard-hide": "Tech 2 keyboard-hide"
+    },
+    {
+      "la-icon tech-2_keyboard-wireless": "Tech 2 keyboard-wireless"
+    },
+    {
+      "la-icon tech-2_l-add": "Tech 2 l-add"
+    },
+    {
+      "la-icon tech-2_l-check": "Tech 2 l-check"
+    },
+    {
+      "la-icon tech-2_l-location": "Tech 2 l-location"
+    },
+    {
+      "la-icon tech-2_l-remove": "Tech 2 l-remove"
+    },
+    {
+      "la-icon tech-2_l-search": "Tech 2 l-search"
+    },
+    {
+      "la-icon tech-2_l-security": "Tech 2 l-security"
+    },
+    {
+      "la-icon tech-2_l-settings": "Tech 2 l-settings"
+    },
+    {
+      "la-icon tech-2_l-sync": "Tech 2 l-sync"
+    },
+    {
+      "la-icon tech-2_l-system-update": "Tech 2 l-system-update"
+    },
+    {
+      "la-icon tech-2_lock-landscape": "Tech 2 lock-landscape"
+    },
+    {
+      "la-icon tech-2_lock-portrait": "Tech 2 lock-portrait"
+    },
+    {
+      "la-icon tech-2_mic": "Tech 2 mic"
+    },
+    {
+      "la-icon tech-2_mobile-landscape": "Tech 2 mobile-landscape"
+    },
+    {
+      "la-icon tech-2_p-add": "Tech 2 p-add"
+    },
+    {
+      "la-icon tech-2_p-check": "Tech 2 p-check"
+    },
+    {
+      "la-icon tech-2_p-edit": "Tech 2 p-edit"
+    },
+    {
+      "la-icon tech-2_p-heart": "Tech 2 p-heart"
+    },
+    {
+      "la-icon tech-2_p-location": "Tech 2 p-location"
+    },
+    {
+      "la-icon tech-2_p-remove": "Tech 2 p-remove"
+    },
+    {
+      "la-icon tech-2_p-search": "Tech 2 p-search"
+    },
+    {
+      "la-icon tech-2_p-settings": "Tech 2 p-settings"
+    },
+    {
+      "la-icon tech-2_p-share": "Tech 2 p-share"
+    },
+    {
+      "la-icon tech-2_p-sync": "Tech 2 p-sync"
+    },
+    {
+      "la-icon tech-2_p-system-update": "Tech 2 p-system-update"
+    },
+    {
+      "la-icon tech-2_p-time": "Tech 2 p-time"
+    },
+    {
+      "la-icon tech-2_pci-card": "Tech 2 pci-card"
+    },
+    {
+      "la-icon tech-2_rotate-lock": "Tech 2 rotate-lock"
+    },
+    {
+      "la-icon tech-2_rotate": "Tech 2 rotate"
+    },
+    {
+      "la-icon tech-2_sim-card": "Tech 2 sim-card"
+    },
+    {
+      "la-icon tech-2_socket-europe-1": "Tech 2 socket-europe-1"
+    },
+    {
+      "la-icon tech-2_socket-europe-2": "Tech 2 socket-europe-2"
+    },
+    {
+      "la-icon tech-2_socket-uk": "Tech 2 socket-uk"
+    },
+    {
+      "la-icon tech-2_vpn": "Tech 2 vpn"
+    },
+    {
+      "la-icon tech-2_wifi-off": "Tech 2 wifi-off"
+    },
+    {
+      "la-icon tech-2_wifi-protected": "Tech 2 wifi-protected"
+    },
+    {
+      "la-icon tech-2_wifi": "Tech 2 wifi"
+    }
+  ],
+  "Text Editing": [
+    {
+      "la-icon text_align-center": "Text align center"
+    },
+    {
+      "la-icon text_align-justify": "Text align justify"
+    },
+    {
+      "la-icon text_align-left": "Text align left"
+    },
+    {
+      "la-icon text_align-right": "Text align right"
+    },
+    {
+      "la-icon text_background": "Text background"
+    },
+    {
+      "la-icon text_bold": "Text bold"
+    },
+    {
+      "la-icon text_capitalize": "Text capitalize"
+    },
+    {
+      "la-icon text_caps-all": "Text caps all"
+    },
+    {
+      "la-icon text_caps-small": "Text caps small"
+    },
+    {
+      "la-icon text_color": "Text color"
+    },
+    {
+      "la-icon text_edit": "Text edit"
+    },
+    {
+      "la-icon text_italic": "Text italic"
+    },
+    {
+      "la-icon text_line-height": "Text line height"
+    },
+    {
+      "la-icon text_list-bullet": "Text list bullet"
+    },
+    {
+      "la-icon text_list-numbers": "Text list numbers"
+    },
+    {
+      "la-icon text_margin-left": "Text margin left"
+    },
+    {
+      "la-icon text_margin-right": "Text margin right"
+    },
+    {
+      "la-icon text_quote": "Text quote"
+    },
+    {
+      "la-icon text_scale-horizontal": "Text scale horizontal"
+    },
+    {
+      "la-icon text_scale-vertical": "Text scale vertical"
+    },
+    {
+      "la-icon text_size": "Text size"
+    },
+    {
+      "la-icon text_strikethrough": "Text strikethrough"
+    },
+    {
+      "la-icon text_subscript": "Text subscript"
+    },
+    {
+      "la-icon text_superscript": "Text superscript"
+    },
+    {
+      "la-icon text_tracking": "Text tracking"
+    },
+    {
+      "la-icon text_underline": "Text underline"
+    }
+  ],
+  "Touch Gestures": [
+    {
+      "la-icon gestures_2x-drag-down": "Gestures 2x drag-down"
+    },
+    {
+      "la-icon gestures_2x-drag-up": "Gestures 2x drag-up"
+    },
+    {
+      "la-icon gestures_2x-swipe-down": "Gestures 2x swipe-down"
+    },
+    {
+      "la-icon gestures_2x-swipe-left": "Gestures 2x swipe-left"
+    },
+    {
+      "la-icon gestures_2x-swipe-right": "Gestures 2x swipe-right"
+    },
+    {
+      "la-icon gestures_2x-swipe-up": "Gestures 2x swipe-up"
+    },
+    {
+      "la-icon gestures_2x-tap": "Gestures 2x tap"
+    },
+    {
+      "la-icon gestures_3x-swipe-left": "Gestures 3x swipe-left"
+    },
+    {
+      "la-icon gestures_3x-swipe-right": "Gestures 3x swipe-right"
+    },
+    {
+      "la-icon gestures_3x-swipe-up": "Gestures 3x swipe-up"
+    },
+    {
+      "la-icon gestures_3x-tap": "Gestures 3x tap"
+    },
+    {
+      "la-icon gestures_4x-swipe-left": "Gestures 4x swipe-left"
+    },
+    {
+      "la-icon gestures_4x-swipe-right": "Gestures 4x swipe-right"
+    },
+    {
+      "la-icon gestures_4x-swipe-up": "Gestures 4x swipe-up"
+    },
+    {
+      "la-icon gestures_active-38": "Gestures active 38"
+    },
+    {
+      "la-icon gestures_active-40": "Gestures active 40"
+    },
+    {
+      "la-icon gestures_camera": "Gestures camera"
+    },
+    {
+      "la-icon gestures_double-tap": "Gestures double tap"
+    },
+    {
+      "la-icon gestures_drag-21": "Gestures drag 21"
+    },
+    {
+      "la-icon gestures_drag-31": "Gestures drag 31"
+    },
+    {
+      "la-icon gestures_drag-down": "Gestures drag down"
+    },
+    {
+      "la-icon gestures_drag-left": "Gestures drag left"
+    },
+    {
+      "la-icon gestures_drag-right": "Gestures drag right"
+    },
+    {
+      "la-icon gestures_drag-up": "Gestures drag up"
+    },
+    {
+      "la-icon gestures_flick-down": "Gestures flick down"
+    },
+    {
+      "la-icon gestures_flick-left": "Gestures flick left"
+    },
+    {
+      "la-icon gestures_flick-right": "Gestures flick right"
+    },
+    {
+      "la-icon gestures_flick-up": "Gestures flick up"
+    },
+    {
+      "la-icon gestures_grab": "Gestures grab"
+    },
+    {
+      "la-icon gestures_hold": "Gestures hold"
+    },
+    {
+      "la-icon gestures_pin": "Gestures pin"
+    },
+    {
+      "la-icon gestures_pinch": "Gestures pinch"
+    },
+    {
+      "la-icon gestures_rotate-22": "Gestures rotate 22"
+    },
+    {
+      "la-icon gestures_rotate-23": "Gestures rotate 23"
+    },
+    {
+      "la-icon gestures_scan": "Gestures scan"
+    },
+    {
+      "la-icon gestures_scroll-horitontal": "Gestures scroll horitontal"
+    },
+    {
+      "la-icon gestures_scroll-vertical": "Gestures scroll vertical"
+    },
+    {
+      "la-icon gestures_stretch": "Gestures stretch"
+    },
+    {
+      "la-icon gestures_swipe-bottom": "Gestures swipe bottom"
+    },
+    {
+      "la-icon gestures_swipe-left": "Gestures swipe left"
+    },
+    {
+      "la-icon gestures_swipe-right": "Gestures swipe right"
+    },
+    {
+      "la-icon gestures_swipe-up": "Gestures swipe up"
+    },
+    {
+      "la-icon gestures_tap-01": "Gestures tap 01"
+    },
+    {
+      "la-icon gestures_tap-02": "Gestures tap 02"
+    }
+  ],
+  "Transportation": [
+    {
+      "la-icon transportation_air-baloon": "Transportation air baloon"
+    },
+    {
+      "la-icon transportation_bike-sport": "Transportation bike sport"
+    },
+    {
+      "la-icon transportation_bike": "Transportation bike"
+    },
+    {
+      "la-icon transportation_boat-front": "Transportation boat front"
+    },
+    {
+      "la-icon transportation_boat-small-02": "Transportation boat small-02"
+    },
+    {
+      "la-icon transportation_boat-small-03": "Transportation boat small-03"
+    },
+    {
+      "la-icon transportation_boat": "Transportation boat"
+    },
+    {
+      "la-icon transportation_bus-front-10": "Transportation bus front-10"
+    },
+    {
+      "la-icon transportation_bus-front-12": "Transportation bus front-12"
+    },
+    {
+      "la-icon transportation_bus": "Transportation bus"
+    },
+    {
+      "la-icon transportation_car-front": "Transportation car front"
+    },
+    {
+      "la-icon transportation_car-simple": "Transportation car simple"
+    },
+    {
+      "la-icon transportation_car-sport": "Transportation car sport"
+    },
+    {
+      "la-icon transportation_car-taxi": "Transportation car taxi"
+    },
+    {
+      "la-icon transportation_car": "Transportation car"
+    },
+    {
+      "la-icon transportation_helicopter": "Transportation helicopter"
+    },
+    {
+      "la-icon transportation_helmet": "Transportation helmet"
+    },
+    {
+      "la-icon transportation_light-traffic": "Transportation light traffic"
+    },
+    {
+      "la-icon transportation_moto": "Transportation moto"
+    },
+    {
+      "la-icon transportation_plane-17": "Transportation plane 17"
+    },
+    {
+      "la-icon transportation_plane-18": "Transportation plane 18"
+    },
+    {
+      "la-icon transportation_road": "Transportation road"
+    },
+    {
+      "la-icon transportation_skateboard": "Transportation skateboard"
+    },
+    {
+      "la-icon transportation_tractor": "Transportation tractor"
+    },
+    {
+      "la-icon transportation_train-speed": "Transportation train speed"
+    },
+    {
+      "la-icon transportation_train": "Transportation train"
+    },
+    {
+      "la-icon transportation_tram": "Transportation tram"
+    },
+    {
+      "la-icon transportation_truck-front": "Transportation truck front"
+    },
+    {
+      "la-icon transportation_vespa-front": "Transportation vespa front"
+    },
+    {
+      "la-icon transportation_vespa": "Transportation vespa"
+    }
+  ],
+  "Travel": [
+    {
+      "la-icon travel_axe": "Travel axe"
+    },
+    {
+      "la-icon travel_backpack": "Travel backpack"
+    },
+    {
+      "la-icon travel_bag": "Travel bag"
+    },
+    {
+      "la-icon travel_barbecue": "Travel barbecue"
+    },
+    {
+      "la-icon travel_beach-umbrella": "Travel beach umbrella"
+    },
+    {
+      "la-icon travel_berlin": "Travel berlin"
+    },
+    {
+      "la-icon travel_binocular": "Travel binocular"
+    },
+    {
+      "la-icon travel_camper": "Travel camper"
+    },
+    {
+      "la-icon travel_camping": "Travel camping"
+    },
+    {
+      "la-icon travel_castle": "Travel castle"
+    },
+    {
+      "la-icon travel_china": "Travel china"
+    },
+    {
+      "la-icon travel_church": "Travel church"
+    },
+    {
+      "la-icon travel_drink": "Travel drink"
+    },
+    {
+      "la-icon travel_explore": "Travel explore"
+    },
+    {
+      "la-icon travel_fire": "Travel fire"
+    },
+    {
+      "la-icon travel_hotel-bell": "Travel hotel bell"
+    },
+    {
+      "la-icon travel_hotel-symbol": "Travel hotel symbol"
+    },
+    {
+      "la-icon travel_hotel": "Travel hotel"
+    },
+    {
+      "la-icon travel_hut": "Travel hut"
+    },
+    {
+      "la-icon travel_igloo": "Travel igloo"
+    },
+    {
+      "la-icon travel_info": "Travel info"
+    },
+    {
+      "la-icon travel_istanbul": "Travel istanbul"
+    },
+    {
+      "la-icon travel_jellyfish": "Travel jellyfish"
+    },
+    {
+      "la-icon travel_lamp": "Travel lamp"
+    },
+    {
+      "la-icon travel_lighthouse": "Travel lighthouse"
+    },
+    {
+      "la-icon travel_london": "Travel london"
+    },
+    {
+      "la-icon travel_luggage": "Travel luggage"
+    },
+    {
+      "la-icon travel_mosque": "Travel mosque"
+    },
+    {
+      "la-icon travel_ny": "Travel ny"
+    },
+    {
+      "la-icon travel_octopus": "Travel octopus"
+    },
+    {
+      "la-icon travel_paris-tower": "Travel paris tower"
+    },
+    {
+      "la-icon travel_passport": "Travel passport"
+    },
+    {
+      "la-icon travel_pickaxe": "Travel pickaxe"
+    },
+    {
+      "la-icon travel_pool": "Travel pool"
+    },
+    {
+      "la-icon travel_pyramid": "Travel pyramid"
+    },
+    {
+      "la-icon travel_rackets": "Travel rackets"
+    },
+    {
+      "la-icon travel_rio": "Travel rio"
+    },
+    {
+      "la-icon travel_road-sign-left": "Travel road sign-left"
+    },
+    {
+      "la-icon travel_road-sign-right": "Travel road sign-right"
+    },
+    {
+      "la-icon travel_rome": "Travel rome"
+    },
+    {
+      "la-icon travel_rowing": "Travel rowing"
+    },
+    {
+      "la-icon travel_sea-mask": "Travel sea mask"
+    },
+    {
+      "la-icon travel_sf-bridge": "Travel sf bridge"
+    },
+    {
+      "la-icon travel_shark": "Travel shark"
+    },
+    {
+      "la-icon travel_spa": "Travel spa"
+    },
+    {
+      "la-icon travel_sunglasses": "Travel sunglasses"
+    },
+    {
+      "la-icon travel_surf": "Travel surf"
+    },
+    {
+      "la-icon travel_swimsuit": "Travel swimsuit"
+    },
+    {
+      "la-icon travel_swimwear": "Travel swimwear"
+    },
+    {
+      "la-icon travel_swiss-knife": "Travel swiss knife"
+    },
+    {
+      "la-icon travel_temple-02": "Travel temple 02"
+    },
+    {
+      "la-icon travel_temple-25": "Travel temple 25"
+    },
+    {
+      "la-icon travel_trolley": "Travel trolley"
+    },
+    {
+      "la-icon travel_white-house": "Travel white house"
+    },
+    {
+      "la-icon travel_world": "Travel world"
+    },
+    {
+      "la-icon travel_worldmap": "Travel worldmap"
+    }
+  ],
+  "User Interface": [
+    {
+      "la-icon ui-1_analytics-88": "Ui 1 analytics-88"
+    },
+    {
+      "la-icon ui-1_analytics-89": "Ui 1 analytics-89"
+    },
+    {
+      "la-icon ui-1_attach-86": "Ui 1 attach-86"
+    },
+    {
+      "la-icon ui-1_attach-87": "Ui 1 attach-87"
+    },
+    {
+      "la-icon ui-1_bell-53": "Ui 1 bell-53"
+    },
+    {
+      "la-icon ui-1_bell-54": "Ui 1 bell-54"
+    },
+    {
+      "la-icon ui-1_bell-55": "Ui 1 bell-55"
+    },
+    {
+      "la-icon ui-1_bold-add": "Ui 1 bold-add"
+    },
+    {
+      "la-icon ui-1_bold-delete": "Ui 1 bold-delete"
+    },
+    {
+      "la-icon ui-1_bold-remove": "Ui 1 bold-remove"
+    },
+    {
+      "la-icon ui-1_bookmark-add": "Ui 1 bookmark-add"
+    },
+    {
+      "la-icon ui-1_bookmark-remove": "Ui 1 bookmark-remove"
+    },
+    {
+      "la-icon ui-1_calendar-57": "Ui 1 calendar-57"
+    },
+    {
+      "la-icon ui-1_calendar-60": "Ui 1 calendar-60"
+    },
+    {
+      "la-icon ui-1_calendar-check-59": "Ui 1 calendar-check-59"
+    },
+    {
+      "la-icon ui-1_calendar-check-62": "Ui 1 calendar-check-62"
+    },
+    {
+      "la-icon ui-1_calendar-grid-58": "Ui 1 calendar-grid-58"
+    },
+    {
+      "la-icon ui-1_calendar-grid-61": "Ui 1 calendar-grid-61"
+    },
+    {
+      "la-icon ui-1_check-bold": "Ui 1 check-bold"
+    },
+    {
+      "la-icon ui-1_check-circle-07": "Ui 1 check-circle-07"
+    },
+    {
+      "la-icon ui-1_check-circle-08": "Ui 1 check-circle-08"
+    },
+    {
+      "la-icon ui-1_check-curve": "Ui 1 check-curve"
+    },
+    {
+      "la-icon ui-1_check-simple": "Ui 1 check-simple"
+    },
+    {
+      "la-icon ui-1_check-small": "Ui 1 check-small"
+    },
+    {
+      "la-icon ui-1_check-square-09": "Ui 1 check-square-09"
+    },
+    {
+      "la-icon ui-1_check-square-11": "Ui 1 check-square-11"
+    },
+    {
+      "la-icon ui-1_check": "Ui 1 check"
+    },
+    {
+      "la-icon ui-1_circle-add": "Ui 1 circle-add"
+    },
+    {
+      "la-icon ui-1_circle-bold-add": "Ui 1 circle-bold-add"
+    },
+    {
+      "la-icon ui-1_circle-bold-remove": "Ui 1 circle-bold-remove"
+    },
+    {
+      "la-icon ui-1_circle-delete": "Ui 1 circle-delete"
+    },
+    {
+      "la-icon ui-1_circle-remove": "Ui 1 circle-remove"
+    },
+    {
+      "la-icon ui-1_dashboard-29": "Ui 1 dashboard-29"
+    },
+    {
+      "la-icon ui-1_dashboard-30": "Ui 1 dashboard-30"
+    },
+    {
+      "la-icon ui-1_dashboard-half": "Ui 1 dashboard-half"
+    },
+    {
+      "la-icon ui-1_dashboard-level": "Ui 1 dashboard-level"
+    },
+    {
+      "la-icon ui-1_database": "Ui 1 database"
+    },
+    {
+      "la-icon ui-1_drop": "Ui 1 drop"
+    },
+    {
+      "la-icon ui-1_edit-71": "Ui 1 edit-71"
+    },
+    {
+      "la-icon ui-1_edit-72": "Ui 1 edit-72"
+    },
+    {
+      "la-icon ui-1_edit-73": "Ui 1 edit-73"
+    },
+    {
+      "la-icon ui-1_edit-74": "Ui 1 edit-74"
+    },
+    {
+      "la-icon ui-1_edit-75": "Ui 1 edit-75"
+    },
+    {
+      "la-icon ui-1_edit-76": "Ui 1 edit-76"
+    },
+    {
+      "la-icon ui-1_edit-77": "Ui 1 edit-77"
+    },
+    {
+      "la-icon ui-1_edit-78": "Ui 1 edit-78"
+    },
+    {
+      "la-icon ui-1_email-83": "Ui 1 email-83"
+    },
+    {
+      "la-icon ui-1_email-84": "Ui 1 email-84"
+    },
+    {
+      "la-icon ui-1_email-85": "Ui 1 email-85"
+    },
+    {
+      "la-icon ui-1_eye-17": "Ui 1 eye-17"
+    },
+    {
+      "la-icon ui-1_eye-19": "Ui 1 eye-19"
+    },
+    {
+      "la-icon ui-1_eye-ban-18": "Ui 1 eye-ban-18"
+    },
+    {
+      "la-icon ui-1_eye-ban-20": "Ui 1 eye-ban-20"
+    },
+    {
+      "la-icon ui-1_flame": "Ui 1 flame"
+    },
+    {
+      "la-icon ui-1_home-51": "Ui 1 home-51"
+    },
+    {
+      "la-icon ui-1_home-52": "Ui 1 home-52"
+    },
+    {
+      "la-icon ui-1_home-minimal": "Ui 1 home-minimal"
+    },
+    {
+      "la-icon ui-1_home-simple": "Ui 1 home-simple"
+    },
+    {
+      "la-icon ui-1_leaf-80": "Ui 1 leaf-80"
+    },
+    {
+      "la-icon ui-1_leaf-81": "Ui 1 leaf-81"
+    },
+    {
+      "la-icon ui-1_leaf-edit": "Ui 1 leaf-edit"
+    },
+    {
+      "la-icon ui-1_lock-circle-open": "Ui 1 lock-circle-open"
+    },
+    {
+      "la-icon ui-1_lock-circle": "Ui 1 lock-circle"
+    },
+    {
+      "la-icon ui-1_lock-open": "Ui 1 lock-open"
+    },
+    {
+      "la-icon ui-1_lock": "Ui 1 lock"
+    },
+    {
+      "la-icon ui-1_notification-69": "Ui 1 notification-69"
+    },
+    {
+      "la-icon ui-1_notification-70": "Ui 1 notification-70"
+    },
+    {
+      "la-icon ui-1_pencil": "Ui 1 pencil"
+    },
+    {
+      "la-icon ui-1_preferences-circle-rotate": "Ui 1 preferences-circle-rotate"
+    },
+    {
+      "la-icon ui-1_preferences-circle": "Ui 1 preferences-circle"
+    },
+    {
+      "la-icon ui-1_preferences-container-circle-rotate": "Ui 1 preferences-container-circle-rotate"
+    },
+    {
+      "la-icon ui-1_preferences-container-circle": "Ui 1 preferences-container-circle"
+    },
+    {
+      "la-icon ui-1_preferences-container-rotate": "Ui 1 preferences-container-rotate"
+    },
+    {
+      "la-icon ui-1_preferences-container": "Ui 1 preferences-container"
+    },
+    {
+      "la-icon ui-1_preferences-rotate": "Ui 1 preferences-rotate"
+    },
+    {
+      "la-icon ui-1_preferences": "Ui 1 preferences"
+    },
+    {
+      "la-icon ui-1_send": "Ui 1 send"
+    },
+    {
+      "la-icon ui-1_settings-gear-63": "Ui 1 settings-gear-63"
+    },
+    {
+      "la-icon ui-1_settings-gear-64": "Ui 1 settings-gear-64"
+    },
+    {
+      "la-icon ui-1_settings-gear-65": "Ui 1 settings-gear-65"
+    },
+    {
+      "la-icon ui-1_settings-tool-66": "Ui 1 settings-tool-66"
+    },
+    {
+      "la-icon ui-1_settings-tool-67": "Ui 1 settings-tool-67"
+    },
+    {
+      "la-icon ui-1_settings": "Ui 1 settings"
+    },
+    {
+      "la-icon ui-1_simple-add": "Ui 1 simple-add"
+    },
+    {
+      "la-icon ui-1_simple-delete": "Ui 1 simple-delete"
+    },
+    {
+      "la-icon ui-1_simple-remove": "Ui 1 simple-remove"
+    },
+    {
+      "la-icon ui-1_trash-round": "Ui 1 trash-round"
+    },
+    {
+      "la-icon ui-1_trash-simple": "Ui 1 trash-simple"
+    },
+    {
+      "la-icon ui-1_trash": "Ui 1 trash"
+    },
+    {
+      "la-icon ui-1_ui-03": "Ui 1 ui-03"
+    },
+    {
+      "la-icon ui-1_ui-04": "Ui 1 ui-04"
+    },
+    {
+      "la-icon ui-1_zoom-bold-in": "Ui 1 zoom-bold-in"
+    },
+    {
+      "la-icon ui-1_zoom-bold-out": "Ui 1 zoom-bold-out"
+    },
+    {
+      "la-icon ui-1_zoom-bold": "Ui 1 zoom-bold"
+    },
+    {
+      "la-icon ui-1_zoom-in": "Ui 1 zoom-in"
+    },
+    {
+      "la-icon ui-1_zoom-out": "Ui 1 zoom-out"
+    },
+    {
+      "la-icon ui-1_zoom-split-in": "Ui 1 zoom-split-in"
+    },
+    {
+      "la-icon ui-1_zoom-split-out": "Ui 1 zoom-split-out"
+    },
+    {
+      "la-icon ui-1_zoom-split": "Ui 1 zoom-split"
+    },
+    {
+      "la-icon ui-1_zoom": "Ui 1 zoom"
+    },
+    {
+      "la-icon ui-2_alert": "Ui 2 alert"
+    },
+    {
+      "la-icon ui-2_alert-": "Ui 2 alert-"
+    },
+    {
+      "la-icon ui-2_alert-circle": "Ui 2 alert-circle"
+    },
+    {
+      "la-icon ui-2_alert-circle-": "Ui 2 alert-circle-"
+    },
+    {
+      "la-icon ui-2_alert-circle-i": "Ui 2 alert-circle-i"
+    },
+    {
+      "la-icon ui-2_alert-i": "Ui 2 alert-i"
+    },
+    {
+      "la-icon ui-2_alert-square": "Ui 2 alert-square"
+    },
+    {
+      "la-icon ui-2_alert-square-": "Ui 2 alert-square-"
+    },
+    {
+      "la-icon ui-2_alert-square-i": "Ui 2 alert-square-i"
+    },
+    {
+      "la-icon ui-2_archive": "Ui 2 archive"
+    },
+    {
+      "la-icon ui-2_ban-bold": "Ui 2 ban-bold"
+    },
+    {
+      "la-icon ui-2_ban": "Ui 2 ban"
+    },
+    {
+      "la-icon ui-2_battery-81": "Ui 2 battery-81"
+    },
+    {
+      "la-icon ui-2_battery-83": "Ui 2 battery-83"
+    },
+    {
+      "la-icon ui-2_battery-half": "Ui 2 battery-half"
+    },
+    {
+      "la-icon ui-2_battery-low": "Ui 2 battery-low"
+    },
+    {
+      "la-icon ui-2_bluetooth": "Ui 2 bluetooth"
+    },
+    {
+      "la-icon ui-2_book": "Ui 2 book"
+    },
+    {
+      "la-icon ui-2_chart-bar-52": "Ui 2 chart-bar-52"
+    },
+    {
+      "la-icon ui-2_chart-bar-53": "Ui 2 chart-bar-53"
+    },
+    {
+      "la-icon ui-2_chat-content": "Ui 2 chat-content"
+    },
+    {
+      "la-icon ui-2_chat-round-content": "Ui 2 chat-round-content"
+    },
+    {
+      "la-icon ui-2_chat-round": "Ui 2 chat-round"
+    },
+    {
+      "la-icon ui-2_chat": "Ui 2 chat"
+    },
+    {
+      "la-icon ui-2_circle-bold-delete": "Ui 2 circle-bold-delete"
+    },
+    {
+      "la-icon ui-2_cloud-25": "Ui 2 cloud-25"
+    },
+    {
+      "la-icon ui-2_cloud-26": "Ui 2 cloud-26"
+    },
+    {
+      "la-icon ui-2_disk": "Ui 2 disk"
+    },
+    {
+      "la-icon ui-2_enlarge-57": "Ui 2 enlarge-57"
+    },
+    {
+      "la-icon ui-2_enlarge-58": "Ui 2 enlarge-58"
+    },
+    {
+      "la-icon ui-2_enlarge-59": "Ui 2 enlarge-59"
+    },
+    {
+      "la-icon ui-2_fat-add": "Ui 2 fat-add"
+    },
+    {
+      "la-icon ui-2_fat-delete": "Ui 2 fat-delete"
+    },
+    {
+      "la-icon ui-2_fat-remove": "Ui 2 fat-remove"
+    },
+    {
+      "la-icon ui-2_favourite-28": "Ui 2 favourite-28"
+    },
+    {
+      "la-icon ui-2_favourite-31": "Ui 2 favourite-31"
+    },
+    {
+      "la-icon ui-2_favourite-add-29": "Ui 2 favourite-add-29"
+    },
+    {
+      "la-icon ui-2_favourite-add-32": "Ui 2 favourite-add-32"
+    },
+    {
+      "la-icon ui-2_favourite-remove-30": "Ui 2 favourite-remove-30"
+    },
+    {
+      "la-icon ui-2_favourite-remove-33": "Ui 2 favourite-remove-33"
+    },
+    {
+      "la-icon ui-2_filter": "Ui 2 filter"
+    },
+    {
+      "la-icon ui-2_fullsize": "Ui 2 fullsize"
+    },
+    {
+      "la-icon ui-2_grid-45": "Ui 2 grid-45"
+    },
+    {
+      "la-icon ui-2_grid-46": "Ui 2 grid-46"
+    },
+    {
+      "la-icon ui-2_grid-48": "Ui 2 grid-48"
+    },
+    {
+      "la-icon ui-2_grid-49": "Ui 2 grid-49"
+    },
+    {
+      "la-icon ui-2_grid-50": "Ui 2 grid-50"
+    },
+    {
+      "la-icon ui-2_grid-square": "Ui 2 grid-square"
+    },
+    {
+      "la-icon ui-2_hourglass": "Ui 2 hourglass"
+    },
+    {
+      "la-icon ui-2_lab": "Ui 2 lab"
+    },
+    {
+      "la-icon ui-2_layers": "Ui 2 layers"
+    },
+    {
+      "la-icon ui-2_like": "Ui 2 like"
+    },
+    {
+      "la-icon ui-2_link-66": "Ui 2 link-66"
+    },
+    {
+      "la-icon ui-2_link-67": "Ui 2 link-67"
+    },
+    {
+      "la-icon ui-2_link-68": "Ui 2 link-68"
+    },
+    {
+      "la-icon ui-2_link-69": "Ui 2 link-69"
+    },
+    {
+      "la-icon ui-2_link-71": "Ui 2 link-71"
+    },
+    {
+      "la-icon ui-2_link-72": "Ui 2 link-72"
+    },
+    {
+      "la-icon ui-2_link-broken-70": "Ui 2 link-broken-70"
+    },
+    {
+      "la-icon ui-2_link-broken-73": "Ui 2 link-broken-73"
+    },
+    {
+      "la-icon ui-2_menu-34": "Ui 2 menu-34"
+    },
+    {
+      "la-icon ui-2_menu-35": "Ui 2 menu-35"
+    },
+    {
+      "la-icon ui-2_menu-bold": "Ui 2 menu-bold"
+    },
+    {
+      "la-icon ui-2_menu-dots": "Ui 2 menu-dots"
+    },
+    {
+      "la-icon ui-2_menu-square": "Ui 2 menu-square"
+    },
+    {
+      "la-icon ui-2_node": "Ui 2 node"
+    },
+    {
+      "la-icon ui-2_paragraph": "Ui 2 paragraph"
+    },
+    {
+      "la-icon ui-2_phone": "Ui 2 phone"
+    },
+    {
+      "la-icon ui-2_settings-90": "Ui 2 settings-90"
+    },
+    {
+      "la-icon ui-2_settings-91": "Ui 2 settings-91"
+    },
+    {
+      "la-icon ui-2_share-bold": "Ui 2 share-bold"
+    },
+    {
+      "la-icon ui-2_share": "Ui 2 share"
+    },
+    {
+      "la-icon ui-2_small-add": "Ui 2 small-add"
+    },
+    {
+      "la-icon ui-2_small-delete": "Ui 2 small-delete"
+    },
+    {
+      "la-icon ui-2_small-remove": "Ui 2 small-remove"
+    },
+    {
+      "la-icon ui-2_square-add-08": "Ui 2 square-add-08"
+    },
+    {
+      "la-icon ui-2_square-add-11": "Ui 2 square-add-11"
+    },
+    {
+      "la-icon ui-2_square-delete-10": "Ui 2 square-delete-10"
+    },
+    {
+      "la-icon ui-2_square-delete-13": "Ui 2 square-delete-13"
+    },
+    {
+      "la-icon ui-2_square-remove-09": "Ui 2 square-remove-09"
+    },
+    {
+      "la-icon ui-2_square-remove-12": "Ui 2 square-remove-12"
+    },
+    {
+      "la-icon ui-2_target": "Ui 2 target"
+    },
+    {
+      "la-icon ui-2_tile-55": "Ui 2 tile-55"
+    },
+    {
+      "la-icon ui-2_tile-56": "Ui 2 tile-56"
+    },
+    {
+      "la-icon ui-2_time-alarm": "Ui 2 time-alarm"
+    },
+    {
+      "la-icon ui-2_time-clock": "Ui 2 time-clock"
+    },
+    {
+      "la-icon ui-2_time-countdown": "Ui 2 time-countdown"
+    },
+    {
+      "la-icon ui-2_time": "Ui 2 time"
+    },
+    {
+      "la-icon ui-2_webpage": "Ui 2 webpage"
+    },
+    {
+      "la-icon ui-2_window-add": "Ui 2 window-add"
+    },
+    {
+      "la-icon ui-2_window-delete": "Ui 2 window-delete"
+    },
+    {
+      "la-icon ui-3_alert": "Ui 3 alert"
+    },
+    {
+      "la-icon ui-3_backward": "Ui 3 backward"
+    },
+    {
+      "la-icon ui-3_bolt": "Ui 3 bolt"
+    },
+    {
+      "la-icon ui-3_bullet-list": "Ui 3 bullet-list"
+    },
+    {
+      "la-icon ui-3_calendar-add": "Ui 3 calendar-add"
+    },
+    {
+      "la-icon ui-3_card-add": "Ui 3 card-add"
+    },
+    {
+      "la-icon ui-3_card-alert": "Ui 3 card-alert"
+    },
+    {
+      "la-icon ui-3_chart-bars": "Ui 3 chart-bars"
+    },
+    {
+      "la-icon ui-3_chart": "Ui 3 chart"
+    },
+    {
+      "la-icon ui-3_chat-33": "Ui 3 chat-33"
+    },
+    {
+      "la-icon ui-3_chat-45": "Ui 3 chat-45"
+    },
+    {
+      "la-icon ui-3_chat-46": "Ui 3 chat-46"
+    },
+    {
+      "la-icon ui-3_chat-reply": "Ui 3 chat-reply"
+    },
+    {
+      "la-icon ui-3_check-in": "Ui 3 check-in"
+    },
+    {
+      "la-icon ui-3_check-out": "Ui 3 check-out"
+    },
+    {
+      "la-icon ui-3_dock-bottom": "Ui 3 dock-bottom"
+    },
+    {
+      "la-icon ui-3_dock-left": "Ui 3 dock-left"
+    },
+    {
+      "la-icon ui-3_dock-right": "Ui 3 dock-right"
+    },
+    {
+      "la-icon ui-3_dock-top": "Ui 3 dock-top"
+    },
+    {
+      "la-icon ui-3_filter-check": "Ui 3 filter-check"
+    },
+    {
+      "la-icon ui-3_filter-remove": "Ui 3 filter-remove"
+    },
+    {
+      "la-icon ui-3_forward": "Ui 3 forward"
+    },
+    {
+      "la-icon ui-3_funnel-39": "Ui 3 funnel-39"
+    },
+    {
+      "la-icon ui-3_funnel-40": "Ui 3 funnel-40"
+    },
+    {
+      "la-icon ui-3_funnel-41": "Ui 3 funnel-41"
+    },
+    {
+      "la-icon ui-3_heart-add": "Ui 3 heart-add"
+    },
+    {
+      "la-icon ui-3_heart-remove": "Ui 3 heart-remove"
+    },
+    {
+      "la-icon ui-3_heart": "Ui 3 heart"
+    },
+    {
+      "la-icon ui-3_infinite": "Ui 3 infinite"
+    },
+    {
+      "la-icon ui-3_link": "Ui 3 link"
+    },
+    {
+      "la-icon ui-3_menu-left": "Ui 3 menu-left"
+    },
+    {
+      "la-icon ui-3_menu-right": "Ui 3 menu-right"
+    },
+    {
+      "la-icon ui-3_menu": "Ui 3 menu"
+    },
+    {
+      "la-icon ui-3_metrics": "Ui 3 metrics"
+    },
+    {
+      "la-icon ui-3_phone-call-end": "Ui 3 phone-call-end"
+    },
+    {
+      "la-icon ui-3_phone-call": "Ui 3 phone-call"
+    },
+    {
+      "la-icon ui-3_phone": "Ui 3 phone"
+    },
+    {
+      "la-icon ui-3_playlist": "Ui 3 playlist"
+    },
+    {
+      "la-icon ui-3_search": "Ui 3 search"
+    },
+    {
+      "la-icon ui-3_security": "Ui 3 security"
+    },
+    {
+      "la-icon ui-3_segmentation": "Ui 3 segmentation"
+    },
+    {
+      "la-icon ui-3_select": "Ui 3 select"
+    },
+    {
+      "la-icon ui-3_send": "Ui 3 send"
+    },
+    {
+      "la-icon ui-3_signal": "Ui 3 signal"
+    },
+    {
+      "la-icon ui-3_slide-left": "Ui 3 slide-left"
+    },
+    {
+      "la-icon ui-3_slide-right": "Ui 3 slide-right"
+    },
+    {
+      "la-icon ui-3_table-left": "Ui 3 table-left"
+    },
+    {
+      "la-icon ui-3_table-right": "Ui 3 table-right"
+    },
+    {
+      "la-icon ui-3_tag": "Ui 3 tag"
+    },
+    {
+      "la-icon ui-3_widget": "Ui 3 widget"
+    }
+  ],
+  "Users": [
+    {
+      "la-icon users_add-27": "Users add 27"
+    },
+    {
+      "la-icon users_add-29": "Users add 29"
+    },
+    {
+      "la-icon users_badge-13": "Users badge 13"
+    },
+    {
+      "la-icon users_badge-14": "Users badge 14"
+    },
+    {
+      "la-icon users_badge-15": "Users badge 15"
+    },
+    {
+      "la-icon users_circle-08": "Users circle 08"
+    },
+    {
+      "la-icon users_circle-09": "Users circle 09"
+    },
+    {
+      "la-icon users_circle-10": "Users circle 10"
+    },
+    {
+      "la-icon users_contacts": "Users contacts"
+    },
+    {
+      "la-icon users_delete-28": "Users delete 28"
+    },
+    {
+      "la-icon users_delete-30": "Users delete 30"
+    },
+    {
+      "la-icon users_man-20": "Users man 20"
+    },
+    {
+      "la-icon users_man-23": "Users man 23"
+    },
+    {
+      "la-icon users_man-glasses": "Users man glasses"
+    },
+    {
+      "la-icon users_mobile-contact": "Users mobile contact"
+    },
+    {
+      "la-icon users_multiple-11": "Users multiple 11"
+    },
+    {
+      "la-icon users_multiple-19": "Users multiple 19"
+    },
+    {
+      "la-icon users_network": "Users network"
+    },
+    {
+      "la-icon users_parent": "Users parent"
+    },
+    {
+      "la-icon users_single-01": "Users single 01"
+    },
+    {
+      "la-icon users_single-02": "Users single 02"
+    },
+    {
+      "la-icon users_single-03": "Users single 03"
+    },
+    {
+      "la-icon users_single-04": "Users single 04"
+    },
+    {
+      "la-icon users_single-05": "Users single 05"
+    },
+    {
+      "la-icon users_single-body": "Users single body"
+    },
+    {
+      "la-icon users_single-position": "Users single position"
+    },
+    {
+      "la-icon users_square-31": "Users square 31"
+    },
+    {
+      "la-icon users_square-32": "Users square 32"
+    },
+    {
+      "la-icon users_square-33": "Users square 33"
+    },
+    {
+      "la-icon users_woman-21": "Users woman 21"
+    },
+    {
+      "la-icon users_woman-24": "Users woman 24"
+    },
+    {
+      "la-icon users_woman-25": "Users woman 25"
+    },
+    {
+      "la-icon users_woman-man": "Users woman man"
+    },
+    {
+      "la-icon users-2_a-add": "Users 2 a-add"
+    },
+    {
+      "la-icon users-2_a-check": "Users 2 a-check"
+    },
+    {
+      "la-icon users-2_a-delete": "Users 2 a-delete"
+    },
+    {
+      "la-icon users-2_a-edit": "Users 2 a-edit"
+    },
+    {
+      "la-icon users-2_a-heart": "Users 2 a-heart"
+    },
+    {
+      "la-icon users-2_a-location": "Users 2 a-location"
+    },
+    {
+      "la-icon users-2_a-remove": "Users 2 a-remove"
+    },
+    {
+      "la-icon users-2_a-search": "Users 2 a-search"
+    },
+    {
+      "la-icon users-2_a-security": "Users 2 a-security"
+    },
+    {
+      "la-icon users-2_a-share": "Users 2 a-share"
+    },
+    {
+      "la-icon users-2_a-star": "Users 2 a-star"
+    },
+    {
+      "la-icon users-2_a-sync": "Users 2 a-sync"
+    },
+    {
+      "la-icon users-2_a-time": "Users 2 a-time"
+    },
+    {
+      "la-icon users-2_accessibility": "Users 2 accessibility"
+    },
+    {
+      "la-icon users-2_b-add": "Users 2 b-add"
+    },
+    {
+      "la-icon users-2_b-check": "Users 2 b-check"
+    },
+    {
+      "la-icon users-2_b-location": "Users 2 b-location"
+    },
+    {
+      "la-icon users-2_b-love": "Users 2 b-love"
+    },
+    {
+      "la-icon users-2_b-meeting": "Users 2 b-meeting"
+    },
+    {
+      "la-icon users-2_b-remove": "Users 2 b-remove"
+    },
+    {
+      "la-icon users-2_b-security": "Users 2 b-security"
+    },
+    {
+      "la-icon users-2_child": "Users 2 child"
+    },
+    {
+      "la-icon users-2_contacts-44": "Users 2 contacts-44"
+    },
+    {
+      "la-icon users-2_contacts-45": "Users 2 contacts-45"
+    },
+    {
+      "la-icon users-2_couple-gay": "Users 2 couple-gay"
+    },
+    {
+      "la-icon users-2_couple-lesbian": "Users 2 couple-lesbian"
+    },
+    {
+      "la-icon users-2_disabled": "Users 2 disabled"
+    },
+    {
+      "la-icon users-2_exchange": "Users 2 exchange"
+    },
+    {
+      "la-icon users-2_family": "Users 2 family"
+    },
+    {
+      "la-icon users-2_focus": "Users 2 focus"
+    },
+    {
+      "la-icon users-2_home": "Users 2 home"
+    },
+    {
+      "la-icon users-2_man-down": "Users 2 man-down"
+    },
+    {
+      "la-icon users-2_man-up": "Users 2 man-up"
+    },
+    {
+      "la-icon users-2_man": "Users 2 man"
+    },
+    {
+      "la-icon users-2_meeting": "Users 2 meeting"
+    },
+    {
+      "la-icon users-2_mickey-mouse": "Users 2 mickey-mouse"
+    },
+    {
+      "la-icon users-2_multiple": "Users 2 multiple"
+    },
+    {
+      "la-icon users-2_pin": "Users 2 pin"
+    },
+    {
+      "la-icon users-2_police": "Users 2 police"
+    },
+    {
+      "la-icon users-2_search": "Users 2 search"
+    },
+    {
+      "la-icon users-2_standing-man": "Users 2 standing-man"
+    },
+    {
+      "la-icon users-2_standing-woman": "Users 2 standing-woman"
+    },
+    {
+      "la-icon users-2_voice-record": "Users 2 voice-record"
+    },
+    {
+      "la-icon users-2_wc": "Users 2 wc"
+    },
+    {
+      "la-icon users-2_woman-down": "Users 2 woman-down"
+    },
+    {
+      "la-icon users-2_woman-up": "Users 2 woman-up"
+    },
+    {
+      "la-icon users-2_woman": "Users 2 woman"
+    }
+  ],
+  "Weather": [
+    {
+      "la-icon weather_celsius": "Weather celsius"
+    },
+    {
+      "la-icon weather_cloud-13": "Weather cloud 13"
+    },
+    {
+      "la-icon weather_cloud-14": "Weather cloud 14"
+    },
+    {
+      "la-icon weather_cloud-drop": "Weather cloud drop"
+    },
+    {
+      "la-icon weather_cloud-fog-31": "Weather cloud fog-31"
+    },
+    {
+      "la-icon weather_cloud-fog-32": "Weather cloud fog-32"
+    },
+    {
+      "la-icon weather_cloud-hail": "Weather cloud hail"
+    },
+    {
+      "la-icon weather_cloud-light": "Weather cloud light"
+    },
+    {
+      "la-icon weather_cloud-moon": "Weather cloud moon"
+    },
+    {
+      "la-icon weather_cloud-rain": "Weather cloud rain"
+    },
+    {
+      "la-icon weather_cloud-rainbow": "Weather cloud rainbow"
+    },
+    {
+      "la-icon weather_cloud-snow-34": "Weather cloud snow-34"
+    },
+    {
+      "la-icon weather_cloud-snow-42": "Weather cloud snow-42"
+    },
+    {
+      "la-icon weather_cloud-sun-17": "Weather cloud sun-17"
+    },
+    {
+      "la-icon weather_cloud-sun-19": "Weather cloud sun-19"
+    },
+    {
+      "la-icon weather_compass": "Weather compass"
+    },
+    {
+      "la-icon weather_drop-12": "Weather drop 12"
+    },
+    {
+      "la-icon weather_drop-15": "Weather drop 15"
+    },
+    {
+      "la-icon weather_drops": "Weather drops"
+    },
+    {
+      "la-icon weather_eclipse": "Weather eclipse"
+    },
+    {
+      "la-icon weather_fahrenheit": "Weather fahrenheit"
+    },
+    {
+      "la-icon weather_fog": "Weather fog"
+    },
+    {
+      "la-icon weather_forecast": "Weather forecast"
+    },
+    {
+      "la-icon weather_hurricane-44": "Weather hurricane 44"
+    },
+    {
+      "la-icon weather_hurricane-45": "Weather hurricane 45"
+    },
+    {
+      "la-icon weather_moon-cloud-drop": "Weather moon cloud-drop"
+    },
+    {
+      "la-icon weather_moon-cloud-fog": "Weather moon cloud-fog"
+    },
+    {
+      "la-icon weather_moon-cloud-hail": "Weather moon cloud-hail"
+    },
+    {
+      "la-icon weather_moon-cloud-light": "Weather moon cloud-light"
+    },
+    {
+      "la-icon weather_moon-cloud-rain": "Weather moon cloud-rain"
+    },
+    {
+      "la-icon weather_moon-cloud-snow-61": "Weather moon cloud-snow-61"
+    },
+    {
+      "la-icon weather_moon-cloud-snow-62": "Weather moon cloud-snow-62"
+    },
+    {
+      "la-icon weather_moon-fog": "Weather moon fog"
+    },
+    {
+      "la-icon weather_moon-full": "Weather moon full"
+    },
+    {
+      "la-icon weather_moon-stars": "Weather moon stars"
+    },
+    {
+      "la-icon weather_moon": "Weather moon"
+    },
+    {
+      "la-icon weather_rain-hail": "Weather rain hail"
+    },
+    {
+      "la-icon weather_rain": "Weather rain"
+    },
+    {
+      "la-icon weather_rainbow": "Weather rainbow"
+    },
+    {
+      "la-icon weather_snow": "Weather snow"
+    },
+    {
+      "la-icon weather_sun-cloud-drop": "Weather sun cloud-drop"
+    },
+    {
+      "la-icon weather_sun-cloud-fog": "Weather sun cloud-fog"
+    },
+    {
+      "la-icon weather_sun-cloud-hail": "Weather sun cloud-hail"
+    },
+    {
+      "la-icon weather_sun-cloud-light": "Weather sun cloud-light"
+    },
+    {
+      "la-icon weather_sun-cloud-rain": "Weather sun cloud-rain"
+    },
+    {
+      "la-icon weather_sun-cloud-snow-54": "Weather sun cloud-snow-54"
+    },
+    {
+      "la-icon weather_sun-cloud-snow-55": "Weather sun cloud-snow-55"
+    },
+    {
+      "la-icon weather_sun-cloud": "Weather sun cloud"
+    },
+    {
+      "la-icon weather_sun-fog-29": "Weather sun fog-29"
+    },
+    {
+      "la-icon weather_sun-fog-30": "Weather sun fog-30"
+    },
+    {
+      "la-icon weather_sun-fog-43": "Weather sun fog-43"
+    },
+    {
+      "la-icon weather_sun": "Weather sun"
+    },
+    {
+      "la-icon weather_wind": "Weather wind"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{% if collection.image %}
+  {%- assign collection_image = collection.image -%}
+{% elsif collection.products.first and collection.products.first.images != empty %}
+  {%- assign collection_image = collection.products.first.featured_image -%}
+{% else %}
+  {% assign collection_image = blank %}
+{% endif %}
+<div class="item cell infy-item">
+    <div class="box-inner">
+      {% if collection == empty %}
+         <div class="banner--image placeholder-svg">
+           {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
+           {{ 'collection-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+         </div>
+       {% else %}
+          <div class="banner--image" style="background-image: url({{ collection_image | img_url: 'master' }})"></div>
+       {% endif %}
+        {% if collection.title != blank %}
+        <div class="banner-desc">
+          <div class="b-title b-title1">{{ collection.title }}</div>
+          <div class="b-title b-title2">{{ block.settings.sub_title }}</div>
+        </div>
+        <div class="banner--infor">
+            <p>{{ collection.title }}</p>
+        </div>
+        {% endif %}
+        <a class="link-shop-overlay" href="{% if collection.products == empty %}#{% else %}{{ collection.url }}{% endif %}"></a>
+    </div>
+</div>

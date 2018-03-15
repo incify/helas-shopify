@@ -1,0 +1,32 @@
+.instagram-photos-section {
+  .instagram-img {
+    .cell {
+      position: relative;
+      .item--overlay {
+        z-index: 2;
+        background-color: rgba(35,35,36,.6);
+        i {
+          position: absolute;
+          color: #fff;
+          font-size: 50px;
+          width: 50px;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          transform: translate(-50%,-50%);
+          left: 50%;
+          top: 50%;
+          background: -webkit-gradient(radial,33% 100%,0,33% 100%,221,color-stop(1,#515ecf),color-stop(0.81,#9b36b7),color-stop(0.63,#d92e7f),color-stop(0.32,#f15245),color-stop(0.04,#fed373));
+          background: -webkit-radial-gradient(33% 100%,circle,#fed373 4%,#f15245 30%,#d92e7f 62%,#9b36b7 85%,#515ecf 100%);
+          background: radial-gradient(33% 100%,circle,#fed373 4%,#f15245 30%,#d92e7f 62%,#9b36b7 85%,#515ecf 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+      &:hover .item--overlay {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+}

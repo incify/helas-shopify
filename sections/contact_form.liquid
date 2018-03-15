@@ -1,0 +1,144 @@
+<section class="form-contact-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10">
+                <div class="contact-infor-form">
+                    <div class="contact-form-top">
+                        {% if section.settings.contact_form_title != blank %}
+                        <div class="title-form-contact">
+                            <h3>{{ section.settings.contact_form_title }}</h3>
+                        </div>
+                        {% endif %}
+                        {% if section.settings.contact_form_sub_title != blank %}
+                        <div class="line-contact1"></div>
+                        <div class="sub-title-contact">
+                            <p>{{ section.settings.contact_form_sub_title }}</p>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <div class="form-vertical">
+                        {% form 'contact' %}
+                        {% if form.posted_successfully? %}
+                        <p class="note form-success" {% if settings.language_enable %}data-translate="contact.form.post_success"{% endif %}>
+                            {{ 'contact.form.post_success' | t }}
+                        </p>
+                        {% endif %}
+                        {{ form.errors | default_errors }}
+                        {% assign name_attr = 'contact.form.name' | t | handle %}
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul class="form-list">
+                                    <li>
+                                        <!--                                    <label for="name" class="required">{{ 'contact.form.name' | t }}<em>*</em></label>-->
+                                        <input type="text" placeholder="{{ 'contact.form.name' | t }}" id="ContactFormName" class="input-full" name="contact[{{ name_attr }}]" autocapitalize="words" value="{% if form[name_attr] %}{{ form[name_attr] }}{% elsif customer %}{{ customer.name }}{% endif %}">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <ul class="form-list">
+                                    <li>
+                                        <!--                                    <label for="name" class="required">{{ 'contact.form.email' | t }}<em>*</em></label>-->
+                                        <input type="email" placeholder="{{ 'contact.form.email' | t }}" id="ContactFormEmail" class="input-full" name="contact[email]" autocorrect="off" autocapitalize="off" value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-12">
+                                <ul class="form-list">
+                                    <li>
+                                        <input type="text" placeholder="{{ 'contact.form.phone' | t }}" id="ContactFormPhone" class="input-full" name="contact[phone]" autocorrect="off" autocapitalize="off" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12">
+                                <ul class="form-list">
+                                    <li>
+                                        <!--                                    <label for="name" class="required">{{ 'contact.form.comment' | t }}<em>*</em></label>-->
+                                        <textarea rows="5" cols="5" id="ContactFormMessage" class="input-full" name="contact[body]" placeholder="{{ 'contact.form.comment' | t }}">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12 btn-submit-contact">
+                                <input type="submit" class="btn-button" {% if settings.language_enable %}data-translate="contact.form.send"{% endif %} value="{{ 'contact.form.send' | t }}">
+                            </div>
+                        </div>
+                        {% endform %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% if section.settings.enable_map == true %}
+<section class="contact-page-map">
+    <div class="block-googlemap">
+        {% assign map_pin = 'map_marker.png' | asset_url %}
+        <script src="//maps.googleapis.com/maps/api/js{% if settings.google_map_api_key != '' %}?key={{settings.google_map_api_key}}{% else %}?v=3.17{% endif %}" type="text/javascript"></script>
+        <script type="text/javascript">
+            function initialize() {
+                var pos = new google.maps.LatLng({{ settings.google_map_pin_latitude }}, {{settings.google_map_pin_longitude}});
+                var mapOptions = {
+                    center: pos,
+                    panControl: true,
+                    scrollwheel: false,
+                    zoomControl: false,
+                    mapTypeControl: true,
+                    scaleControl: true,
+                    streetViewControl: false,
+                    overviewMapControl: false,
+                    zoom: {{settings.google_map_zoom}}
+            };
+                var styles = [{"featureType":"administrative","elementType":"geometry","stylers":[{"saturation":"2"},{"visibility":"simplified"}]},{"featureType":"administrative","elementType":"labels","stylers":[{"saturation":"-28"},{"lightness":"-10"},{"visibility":"on"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"saturation":"-1"},{"lightness":"-12"}]},{"featureType":"landscape.natural","elementType":"labels.text","stylers":[{"lightness":"-31"}]},{"featureType":"landscape.natural","elementType":"labels.text.fill","stylers":[{"lightness":"-74"}]},{"featureType":"landscape.natural","elementType":"labels.text.stroke","stylers":[{"lightness":"65"}]},{"featureType":"landscape.natural.landcover","elementType":"geometry","stylers":[{"lightness":"-15"}]},{"featureType":"landscape.natural.landcover","elementType":"geometry.fill","stylers":[{"lightness":"0"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road","elementType":"geometry","stylers":[{"visibility":"on"},{"saturation":"0"},{"lightness":"-9"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"lightness":"-14"}]},{"featureType":"road","elementType":"labels","stylers":[{"lightness":"-35"},{"gamma":"1"},{"weight":"1.39"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"lightness":"-19"}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"lightness":"46"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"labels.icon","stylers":[{"lightness":"-13"},{"weight":"1.23"},{"invert_lightness":true},{"visibility":"simplified"},{"hue":"#ff0000"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#adadad"},{"visibility":"on"}]}];
+                var styledMap = new google.maps.StyledMapType(styles,{name: "Styled Map"});
+                var map = new google.maps.Map(document.getElementById("store_map"), mapOptions);
+                map.mapTypes.set('map_style', styledMap);
+                map.setMapTypeId('map_style');
+                var marker = new google.maps.Marker({
+                    position: pos,
+                    map: map,
+                    icon: '{{ map_pin }}',
+                    title: '{{settings.google_map_address}}'
+                });
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+        <div id="store_map" style="height: 400px; width: 100%;"></div>
+    </div>
+</section>
+{% endif %}
+{% schema %}
+{
+"name": "Contact Form",
+"settings": [
+    {
+    "type": "header",
+    "content": "Contact Form"
+    },
+    {
+    "type": "text",
+    "id": "contact_form_title",
+    "label": "Form Title"
+    },
+    {
+    "type": "text",
+    "id": "contact_form_sub_title",
+    "label": "Form Sub Title"
+    },
+    {
+    "type": "checkbox",
+    "id": "enable_map",
+    "label": "Enable Map?",
+    "default": true
+    }
+	],
+	"presets": [{
+      "name": "Contact Form",
+      "category": "Contact Page"
+  	}]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,39 @@
+<div class="footer-handheld-footer-bar">
+  <div class="footer-handheld__inner">
+    <div class="handheld_component handheld_component--dropdown-menu la_compt_iem la_com_action--dropdownmenu ">
+      <a rel="nofollow" class="component-target" href="javascript:;"><i class="fa fa-user-circle-o"></i></a>
+      <ul id="menu-profile" class="menu">
+        {% assign list = linklists[settings.user_menu] %}
+        {% for link in list.links %}
+        <li>
+            <a href="{{ link.url }}">
+                {% if settings.language_enable %}
+                <span class="lang1">{{ link.title | split: '|' | first }}</span>
+                <span class="lang2">{{ link.title | split: '|' | last }}</span>
+                {% else %}
+                {{ link.title | split: '|' | first }}
+                {% endif %}
+            </a>
+        </li>
+        {% endfor %}
+        <li>
+          <div class="lang-current-aside">
+              {% include 'header-setting' %}
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="handheld_component handheld_component--searchbox la_compt_iem la_com_action--searchbox searchbox__01 ">
+      <a class="component-target" href="javascript:;">
+        <i class="dl-icon-search1"></i>
+      </a>
+    </div>
+    <div class="handheld_component handheld_component--wishlist la_compt_iem la_com_action--wishlist ">
+      <a rel="nofollow" class="component-target" href="{{ shop.url }}/pages/{{ settings.wishlist_page }}"><i class="dl-icon-heart2"></i></a>
+    </div>
+    <div class="handheld_component handheld_component--cart la_compt_iem la_com_action--cart ">
+      <a rel="nofollow" class="component-target" href="/cart"><i class="dl-icon-cart1"></i><span class="component-target-badget la-cart-count">{{ cart.item_count }}</span>
+      </a>
+    </div>
+  </div>
+</div>

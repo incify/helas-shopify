@@ -1,0 +1,90 @@
+{% capture image %}{% include 'shortcode-render' render:'image' default:'' %}{% endcapture %}
+{% capture name %}{% include 'shortcode-render' render:'name' default:'' %}{% endcapture %}
+{% capture position %}{% include 'shortcode-render' render:'position' default:'' %}{% endcapture %}
+{% capture facebook %}{% include 'shortcode-render' render:'facebook' default:'' %}{% endcapture %}
+{% capture twitter %}{% include 'shortcode-render' render:'twitter' default:'' %}{% endcapture %}
+{% capture pinterest %}{% include 'shortcode-render' render:'pinterest' default:'' %}{% endcapture %}
+{% capture linkedin %}{% include 'shortcode-render' render:'linkedin' default:'' %}{% endcapture %}
+{% capture google_plus %}{% include 'shortcode-render' render:'google-plus' default:'' %}{% endcapture %}
+{% capture mail %}{% include 'shortcode-render' render:'mail' default:'' %}{% endcapture %}
+{% capture style %}{% include 'shortcode-render' render:'style' default:'style_1' %}{% endcapture %}
+{% if style == 'style_1' %}
+<div class="incify-member__inner item-inner {{style}}">
+    {% if image != blank %}
+    <div class="incify-member__image">
+        <img width="177" height="177" src="{{image}}" alt="" />
+        <div class="item--overlay"></div>
+    </div>
+    {% endif %}
+    <div class="incify-member__info">
+        <div class="incify-member__info-title-role">
+            <div class="incify-member__info-title">
+                {{name}}
+            </div>
+            <p class="incify-member__info-role">{{position}}</p>
+        </div>
+        <div class="item--social member-social">
+            {% if facebook != blank %}
+            <a class="social-facebook facebook" href="{{facebook}}" tabindex="0"><i class="fa fa-facebook"></i></a>
+            {% endif %}
+            {% if twitter != blank %}
+            <a class="social-twitter twitter" href="{{twitter}}" tabindex="0"><i class="fa fa-twitter"></i></a>
+            {% endif %}
+            {% if pinterest != blank %}
+            <a class="social-pinterest pinterest" href="{{pinterest}}" tabindex="0"><i class="fa fa-pinterest-p"></i></a>
+            {% endif %}
+            {% if linkedin != blank %}
+            <a class="social-linkedin linkedin" href="{{linkedin}}" tabindex="0"><i class="fa fa-linkedin"></i></a>
+            {% endif %}
+            {% if google_plus != blank %}
+            <a class="social-google-plus google-plus" href="{{google_plus}}" tabindex="0"><i class="fa fa-google-plus"></i></a>
+            {% endif %}
+            {% if mail != blank %}
+            <a class="social-email email" href="mailto:{{email}}" tabindex="0"><i class="fa fa-envelope-o"></i></a>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endif %}
+{% if style == 'style_2' %}
+<div class="incify-member__inner item-inner {{style}}">
+    {% if image != blank %}
+    <div class="incify-member__image">
+        <img src="{{image}}" alt="" />
+        <div class="item--overlay"></div>
+    </div>
+    {% endif %}
+    <div class="incify-member__info">
+        <div class="incify-member__info-inner">
+            <div class="incify-member__info_top">
+                <div class="incify-member__info-title">
+                    {{name}}
+                </div>
+            </div>
+            <div class="incify-member__info_bottom">
+                <p class="incify-member__info-role">{{position}}</p>
+                <div class="item--social member-social">
+                    {% if facebook != blank %}
+                    <a class="social-facebook facebook" href="{{facebook}}" tabindex="0"><i class="fa fa-facebook"></i></a>
+                    {% endif %}
+                    {% if twitter != blank %}
+                    <a class="social-twitter twitter" href="{{twitter}}" tabindex="0"><i class="fa fa-twitter"></i></a>
+                    {% endif %}
+                    {% if pinterest != blank %}
+                    <a class="social-pinterest pinterest" href="{{pinterest}}" tabindex="0"><i class="fa fa-pinterest-p"></i></a>
+                    {% endif %}
+                    {% if linkedin != blank %}
+                    <a class="social-linkedin linkedin" href="{{linkedin}}" tabindex="0"><i class="fa fa-linkedin"></i></a>
+                    {% endif %}
+                    {% if google_plus != blank %}
+                    <a class="social-google-plus google-plus" href="{{google_plus}}" tabindex="0"><i class="fa fa-google-plus"></i></a>
+                    {% endif %}
+                    {% if mail != blank %}
+                    <a class="social-email email" href="mailto:{{email}}" tabindex="0"><i class="fa fa-envelope-o"></i></a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}

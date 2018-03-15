@@ -1,0 +1,33 @@
+@import "reponsive/_min_1200.scss";
+@import "reponsive/_max_1201.scss";
+@import "reponsive/_max_991.scss";
+@import "reponsive/_max_481.scss";
+@media (min-width: 992px){
+  .a-right-sm {
+    text-align: right;
+  }
+}
+@media (min-width: 768px){
+  .sidebar{
+    padding-right: 12px;
+  }
+  .sidebar-product{
+    padding-left: 12px;
+  }
+  .collection_content{
+    padding-left:12px;
+    .toolbar {
+      .collection-sorting-row{
+
+      }
+    }
+  }
+  .product-shop{
+    padding-right: 12px;
+  }
+  .template-blog{
+    .sidebar{
+      padding-left:12px;
+    }
+  }
+}

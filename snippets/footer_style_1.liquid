@@ -1,0 +1,138 @@
+<div class="footer-inner">
+    <div class="container">
+        <div class="row">
+            <div class="footer-left-inner">
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-column footer-col-1">
+                        {% if section.settings.logo_use_image %}
+                        <a class="footer_middle_logo light" href="/">
+                            <img src="{{ footer_logo }}" alt=""/>
+                        </a>
+                        <a class="footer_middle_logo dark" href="/">
+                            <img src="{{ footer_logo_white }}" alt=""/>
+                        </a>
+                        {% endif %}
+                        {% if section.settings.footer_bottom_copyright != '' %}
+                        <div class="content-text">
+                            {{ section.settings.footer_bottom_copyright }}
+                        </div>
+                        {% endif %}
+                        {% if section.settings.footer_social_share != '' %}
+                        <div class="footer-area-socials">
+                            <div class="social-media-link">
+                                {{ section.settings.footer_social_share }}
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-3">
+                    <div class="footer-column footer-col-2">
+                        {% if section.settings.footer_title_col2_type1 != '' %}
+                        <div class="footer-column-title">
+                            {% if settings.language_enable %}
+                            <h4 class="lang1">{{ section.settings.footer_title_col2_type1 | split: '[lang2]' | first }}</h4>
+                            <h4 class="lang2">{{ section.settings.footer_title_col2_type1 | split: '[lang2]' | last }}</h4>
+                            {% else %}
+                            <h4>{{ section.settings.footer_title_col2_type1 | split: '[lang2]' | first }}</h4>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                        {% assign list = linklists[section.settings.footer_linklist_1_type1] %}
+                        <ul class="footer-list">
+                            {% for link in list.links %}
+                            <li class="theme-color">
+                                <a href="{{ link.url }}">
+                                    {% if settings.language_enable %}
+                                    <span class="lang1">{{ link.title | split: '|' | first }}</span>
+                                    <span class="lang2">{{ link.title | split: '|' | last }}</span>
+                                    {% else %}
+                                    {{ link.title | split: '|' | first }}
+                                    {% endif %}
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-3">
+                    <div class="footer-column footer-col-3">
+                        {% if section.settings.footer_title_col3_type1 != '' %}
+                        <div class="footer-column-title">
+                            {% if settings.language_enable %}
+                            <h4 class="lang1">{{ section.settings.footer_title_col3_type1 | split: '[lang2]' | first }}</h4>
+                            <h4 class="lang2">{{ section.settings.footer_title_col3_type1 | split: '[lang2]' | last }}</h4>
+                            {% else %}
+                            <h4>{{ section.settings.footer_title_col3_type1 | split: '[lang2]' | first }}</h4>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                        {% assign list = linklists[section.settings.footer_linklist_2_type1] %}
+                        <ul class="footer-list">
+                            {% for link in list.links %}
+                            <li class="theme-color">
+                                <a href="{{ link.url }}">
+                                    {% if settings.language_enable %}
+                                    <span class="lang1">{{ link.title | split: '|' | first }}</span>
+                                    <span class="lang2">{{ link.title | split: '|' | last }}</span>
+                                    {% else %}
+                                    {{ link.title | split: '|' | first }}
+                                    {% endif %}
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <div class="footer-column footer-col-4">
+                        {% if section.settings.footer_title_col4_type1 != '' %}
+                        <div class="footer-column-title">
+                            {% if settings.language_enable %}
+                            <h4 class="lang1">{{ section.settings.footer_title_col4_type1 | split: '[lang2]' | first }}</h4>
+                            <h4 class="lang2">{{ section.settings.footer_title_col4_type1 | split: '[lang2]' | last }}</h4>
+                            {% else %}
+                            <h4>{{ section.settings.footer_title_col4_type1 | split: '[lang2]' | first }}</h4>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                        {% assign list = linklists[section.settings.footer_linklist_3_type1] %}
+                        <ul class="footer-list">
+                            {% for link in list.links %}
+                            <li class="theme-color">
+                                <a href="{{ link.url }}">
+                                    {% if settings.language_enable %}
+                                    <span class="lang1">{{ link.title | split: '|' | first }}</span>
+                                    <span class="lang2">{{ link.title | split: '|' | last }}</span>
+                                    {% else %}
+                                    {{ link.title | split: '|' | first }}
+                                    {% endif %}
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-column footer-col-5">
+                        {% if section.settings.footer_title_col5_type1 != '' %}
+                        <div class="footer-column-title">
+                            {% if settings.language_enable %}
+                            <h4 class="lang1">{{ section.settings.footer_title_col5_type1 | split: '[lang2]' | first }}</h4>
+                            <h4 class="lang2">{{ section.settings.footer_title_col5_type1 | split: '[lang2]' | last }}</h4>
+                            {% else %}
+                            <h4>{{ section.settings.footer_title_col5_type1 | split: '[lang2]' | first }}</h4>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                        {% if section.settings.column_5_content == 'instagram' %}
+                            {% include 'footer_instagram' %}
+                        {% else %}
+                            {% include 'footer_map' %}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

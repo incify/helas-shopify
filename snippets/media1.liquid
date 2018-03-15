@@ -1,0 +1,16 @@
+{% case settings.product_aspect_ratio %}
+{% when '1' %}
+{%- assign image_width = settings.product_ratio_width -%}
+{%- assign image_height = '' -%} 
+{% else %}
+{%- assign image_width = settings.product_ratio_width -%}
+{%- assign image_height = settings.product_ratio_height -%}
+{% endcase %}  
+{% capture image_size %}{{ image_width }}x{{ image_height }}{% endcapture %}   
+<div class="product-image">
+    {% for image in product.images %}
+    <a class="thumb-link" href="{{ image.src | img_url: 'master' }}" data-rel="lightcase:nova_gallery:slideshow" data-image-index="{{ forloop.index }}" data-image="{{ image | product_img_url: image_size, crop: 'center' }}" data-zoom-image="{{ image | product_img_url:'master' }}">
+        <img class="img-responsive" src="{{ image.src | img_url: 'master' }}" />
+    </a>
+    {% endfor %}
+</div>   

@@ -1,0 +1,27 @@
+//custom-support-section
+.custom-support-section{
+  padding: 50px 0;
+  margin-top: 80px;
+  background-color: #f7f7f7;
+  .custom-support{
+    .icon-boxes-inner{
+      text-align: center;
+      .aio-icon-left{
+        i{
+          font-size: 30px;
+          color: #000000;
+        }
+      }
+      .box-contents{
+        h5{
+          margin-top: 15px;
+          font-weight: 700;
+        }
+        p{
+          font-size: 14px;
+          color: #8a8a8a;
+        }
+      }
+    }
+  }
+}

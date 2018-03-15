@@ -1,0 +1,32 @@
+<!-- /templates/blog.liquid -->
+{% section 'blog_page_header' %}
+{% if settings.blog_page_layout == 'style_1' %}
+{% paginate blog.articles by 9 %}
+{% include 'blog-layout-01' %}
+{% endpaginate %}
+{% endif %}
+
+{% if settings.blog_page_layout == 'style_2' %}
+{% paginate blog.articles by 12 %}
+{% include 'blog-layout-02' %}
+{% endpaginate %}
+{% endif %}
+
+{% if settings.blog_page_layout == 'style_3' %}
+{% paginate blog.articles by 12 %}
+{% include 'blog-layout-03' %}
+{% endpaginate %}
+{% endif %}
+
+{% if settings.blog_page_layout == 'style_4' %}
+{% paginate blog.articles by 12 %}
+{% include 'blog-layout-04' %}
+{% endpaginate %}
+{% endif %}
+
+{% if settings.blog_page_layout == 'style_5' %}
+{% paginate blog.articles by 12 %}
+{% include 'blog-layout-05' %}
+{% endpaginate %}
+{% endif %}
+

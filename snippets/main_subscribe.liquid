@@ -1,0 +1,16 @@
+<div class="main_section_subscribe">
+  {% if settings.newsletter_form_action != blank %}
+  {% assign form_action = settings.newsletter_form_action %}
+  {% else %}
+  {% assign form_action = '#' %}
+  {% endif %}
+  {%if section.settings.preset == 'style_1' %}
+  {% include "main_subscribe_style_1" %}
+  {% endif %}
+  {%if section.settings.preset == 'style_2' %}
+  {% include "main_subscribe_style_2" %}
+  {% endif %}
+  {%if section.settings.preset == 'style_3' %}
+  {% include "main_subscribe_style_2" %}
+  {% endif %}
+</div>

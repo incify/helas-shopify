@@ -1,0 +1,236 @@
+.form-list .input-box {
+  position: relative;
+  clear: both;
+  display: block;
+  line-height: 30px;
+}
+.move-below-header {
+  display: none;
+}
+.form-list select {
+  width: 100%;
+}
+input.input-full, textarea,select{
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  padding: 2px 8px;
+  height: 26px;
+  color: #777;
+  font-size: 11px;
+  text-transform: uppercase;
+  border-radius: 0px;
+}
+input.input-full, textarea,.input-text{
+  width: 100%;
+  height: 50px;
+  border-radius: 0px;
+  background-color: #fff;
+  margin-bottom:10px;
+  padding: 15px 30px;
+  &::placeholder{
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+  &:focus {
+    border: 1px solid #000;
+  }
+}
+textarea{
+  height: 12em;
+  line-height: 1.4;
+}
+button,.btn-button{
+  display: inline-block;
+  border: 0;
+  background: #3b3b3b;
+  padding: 0 15px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  white-space: nowrap;
+  color: #fff;
+  line-height: 38px;
+  border-radius: 0px;
+  &:hover{
+    color:#fff;
+  }
+}
+button.btn-button span span{
+  border: 0;
+  padding: 0;
+  color: inherit;
+  border-width: 0;
+  background: transparent;
+  line-height: inherit;
+}
+select {
+  background: {
+    repeat: no-repeat;
+    position: right 0 center;
+    color: transparent;
+  }
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 2px 8px;
+  height: 26px;
+  color: #777;
+  font-size: 13px;
+  .ie9 &,
+  .lt-ie9 & {
+    padding-right: 10px;
+    background-image: none;
+  }
+}
+.inputbox-container {
+  display: inline-block;
+  height: 25px;
+  position: relative;
+  width: 25px;
+  color: #939393;
+  vertical-align: middle;
+  input {
+    height: 25px;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 25px;
+    z-index: 99;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .input-skin	{
+    border: 1px solid #efefef;
+    height: 25px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 25px;
+    &.checked {
+      .visible-checked {
+        display: block !important;
+      }
+      .visible-unchecked {
+        display: none !important;
+      }
+    }
+    i {
+      width: 100%;
+      text-align: center;
+      line-height: 25px;
+      font-size: 12px;
+    }
+  }
+
+  .visible-checked {
+    display: none;
+  }
+
+  .visible-unchecked {
+    display: block;
+  }
+}
+
+.input-container {
+  display: none;
+  height: 20px;
+  position: relative;
+  width: 20px;
+  color: #d1d1d1;
+  margin-top: 0;
+  vertical-align: middle;
+  input {
+    height: 20px;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 20px;
+    z-index: 99;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .input-skin	{
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 20px;
+    line-height: 20px;
+    &.checked {
+      .visible-checked {
+        display: block !important;
+      }
+      .visible-unchecked {
+        display: none !important;
+      }
+    }
+  }
+
+  .visible-checked {
+    color: #d2d1d1;
+    display: none;
+  }
+
+  .visible-unchecked {
+    color: #efefef;
+    display: block;
+  }
+}
+ul.form-list{
+  li{
+    margin: 0 0 10px;
+    label{
+      float: left;
+      font-size: 12px;
+      position: relative;
+      z-index: 0;
+      margin: 0 0 10px 0;
+      vertical-align: middle;
+      color: #777;
+      font-weight: 400;
+      text-transform: uppercase;
+      em{
+        float: right;
+        font-style: normal;
+        color: #eb340a;
+        position: absolute;
+        top: 0;
+        right: -8px;
+      }
+    }
+  }
+}
+.errors {
+  ul {
+    li {
+      color: #a94442;
+      background-color: #f2dede;
+      border: #ebccd1 solid 1px;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+  }
+}
+/*-----------------------------------------------------------------------------
+- SELECTS
+-----------------------------------------------------------------------------*/
+.mobile-nav-shown{
+  overflow: hidden;
+}
+.mobile-nav-shown .wrapper{
+  left: 250px;
+}
+.search-form input,
+.form-search input {
+  visibility: inherit;
+}

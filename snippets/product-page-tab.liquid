@@ -1,0 +1,246 @@
+{% if settings.product_tab_style !='eliteup' and settings.product_tab_style !='accordion' %}
+<div class="product-tabs {{settings.product_tab_style}}">
+  <ul>
+    <li class="active first">
+      <a href="#product_tabs_description" role="tab" data-toggle="tab" {% if settings.language_enable %}data-translate="products.product.tab_title_description"{% endif %}>{{ 'products.product.tab_title_description' | t }}</a>
+    </li>
+    <li class="">
+      <a href="#product_tabs_tabreviews" role="tab" data-toggle="tab" {% if settings.language_enable %}data-translate="products.product.tab_title_review"{% endif %}>{{ 'products.product.tab_title_review' | t }}</a>
+    </li>
+    {% if settings.tab_custom_title != blank %}
+    <li class="">
+      <a href="#product_tabs_custom" role="tab" data-toggle="tab"> 
+        {% if settings.language_enable %}
+        <span class="lang1">{{ settings.tab_custom_title | split: '|' | first }}</span>
+        <span class="lang2">{{ settings.tab_custom_title | split: '|' | last }}</span>
+        {% else %}
+        {{ settings.tab_custom_title | split: '|' | first }}
+        {% endif %}
+      </a>
+    </li> 
+    {% endif %}
+  </ul> 
+{% if settings.product_tab_style == "horizontal" %}
+  <div class="clearer"></div>
+{% endif %}
+{% if settings.product_tab_style == "vertical" %}
+  <div class="product-tab-content">
+{% endif%}
+  <div class="tab-content in active first {% if settings.product_tab_style != "sticky" %}collapse{%endif%} in" id="product_tabs_description">
+    <div class="product-tabs-content-inner clearfix"> 
+      {% if product.description contains '[countdown]' %}
+        {% assign des = product.description | split:'[/countdown]' | last %}  
+        {% if settings.language_enable %}
+        <div class="lang1">{{ des | split: '[lang2]' | first }}</div>
+        <div class="lang2">{{ des | split: '[lang2]' | last }}</div>
+        {% else %}
+        {{ des | split: '[lang2]' | first }}
+        {% endif %} 
+      {% else %} 
+        {% if settings.language_enable %}
+        <div class="lang1">{{ product.content | split: '[lang2]' | first }}</div>
+        <div class="lang2">{{ product.content | split: '[lang2]' | last }}</div>
+        {% else %}
+        {{ product.content | split: '[lang2]' | first }}
+        {% endif %} 
+      {% endif %}
+    </div>
+  </div>  
+  <div class="tab-content {% if settings.product_tab_style != "sticky" %}collapse{%endif%}" id="product_tabs_tabreviews">
+    <div class="product-tabs-content-inner clearfix">
+      <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+    </div>
+  </div>
+  {% if settings.tab_custom_title != blank %} 
+  <div class="tab-content {% if settings.product_tab_style != "sticky" %}collapse{%endif%}" id="product_tabs_custom">
+    <div class="product-tabs-content-inner clearfix"> 
+      {% if settings.language_enable %}
+      <div class="lang1">{{ settings.tab_custom_content | split: '|' | first }}</div>
+      <div class="lang2">{{ settings.tab_custom_content | split: '|' | last }}</div>
+      {% else %}
+      {{ settings.tab_custom_content | split: '|' | first }}
+      {% endif %}
+    </div>
+  </div> 
+  {% endif %}
+  {% if settings.product_tab_style == "vertical" %}
+</div>
+{% endif%}
+</div>
+{% if settings.product_tab_style == "sticky" %}
+<script type="text/javascript">
+  $(function(){
+    var sticky_tabs;
+    var is_sticky = false; 
+    $(".product-tabs > ul > li > a").off("click").on("click", function(){  
+      $($(this).attr('href')).scrollToMe();
+    });
+    $(window).scroll(function(){
+      if($(window).scrollTop() >= $(".product-tabs").offset().top){
+        if(!is_sticky){
+          sticky_tabs = $(".product-tabs.sticky > ul").clone().detach();
+          $(sticky_tabs).addClass("sticky-tab");
+          $(".product-tabs.sticky").before('<div class="product-tabs-container"><div class="container"></div></div>');
+          $(".product-tabs-container > .container").append(sticky_tabs);
+          $(".sticky-tab > li > a").off("click").on("click", function(){
+            $($(this).attr('href')).scrollToMe();
+          }); 
+          if($('.sticky-header').length > 0) { 
+            $(".product-tabs-container").addClass("has-sticky-header"); 
+          }
+          if($('.sticky-product').length > 0) { 
+            $(".product-tabs-container").addClass("has-sticky-product");
+          } 
+          is_sticky = true;
+        }
+      } else {
+        $(".product-tabs-container").remove();
+        is_sticky = false;
+      }
+    });
+  });
+</script>
+{%endif%}
+{%endif%}
+{% if settings.product_tab_style =='accordion' %}
+<div class="product-tab-accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+      	<a href="#product_tabs_description" data-toggle="collapse" aria-expanded="false" aria-controls="product_tabs_description"{% if settings.language_enable %}data-translate="products.product.tab_title_description"{% endif %}>{{ 'products.product.tab_title_description' | t }}</a>
+      </h4>
+    </div>
+    <div class="tab-content in active first collapse in" id="product_tabs_description">
+    <div class="product-tabs-content-inner clearfix"> 
+      {% if product.description contains '[countdown]' %}
+        {% assign des = product.description | split:'[/countdown]' | last %}  
+        {% if settings.language_enable %}
+        <div class="lang1">{{ des | split: '[lang2]' | first }}</div>
+        <div class="lang2">{{ des | split: '[lang2]' | last }}</div>
+        {% else %}
+        {{ des | split: '[lang2]' | first }}
+        {% endif %} 
+      {% else %} 
+        {% if settings.language_enable %}
+        <div class="lang1">{{ product.content | split: '[lang2]' | first }}</div>
+        <div class="lang2">{{ product.content | split: '[lang2]' | last }}</div>
+        {% else %}
+        {{ product.content | split: '[lang2]' | first }}
+        {% endif %} 
+      {% endif %}
+        <img src="{{ 'tab_size_chart.png' | asset_url }}" class="img-responsive" />
+    </div>
+  </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a href="#product_tabs_tabreviews" class="collapsed" data-toggle="collapse" aria-expanded="false" aria-controls="product_tabs_tabreviews"{% if settings.language_enable %}data-translate="products.product.tab_title_review"{% endif %}>{{ 'products.product.tab_title_review' | t }}</a>
+      </h4>
+    </div>
+    <div class="tab-content collapse" id="product_tabs_tabreviews">
+      <div class="product-tabs-content-inner clearfix">
+        <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+      </div>
+    </div>
+  </div>
+  {% if settings.tab_custom_title != blank %}
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a href="#product_tabs_custom" class="collapsed" data-toggle="collapse" aria-expanded="false" aria-controls="product_tabs_custom">
+          {% if settings.language_enable %}
+          <div class="lang1">{{ settings.tab_custom_title | split: '|' | first }}</div>
+          <div class="lang2">{{ settings.tab_custom_title | split: '|' | last }}</div>
+          {% else %}
+          {{ settings.tab_custom_title | split: '|' | first }}
+          {% endif %}
+        </a>
+      </h4>
+    </div>
+    <div class="tab-content collapse" id="product_tabs_custom">
+      <div class="product-tabs-content-inner clearfix"> 
+        {% if settings.language_enable %}
+        <div class="lang1">{{ settings.tab_custom_content | split: '|' | first }}</div>
+        <div class="lang2">{{ settings.tab_custom_content | split: '|' | last }}</div>
+        {% else %}
+        {{ settings.tab_custom_content | split: '|' | first }}
+        {% endif %}
+      </div>
+    </div> 
+  </div>
+  {% endif %}
+</div>
+{% endif %}
+
+{% if settings.product_tab_style =='eliteup' %}
+<div class="product-tab-eliteup">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href="#product_tabs_description" data-toggle="collapse" aria-expanded="false" aria-controls="product_tabs_description"{% if settings.language_enable %}data-translate="products.product.tab_title_description"{% endif %}>{{ 'products.product.tab_title_description' | t }}</a>
+            </h4>
+        </div>
+        <div class="tab-content" id="product_tabs_description">
+            <div class="product-tabs-content-inner clearfix">
+                {% if product.description contains '[countdown]' %}
+                {% assign des = product.description | split:'[/countdown]' | last %}
+                {% if settings.language_enable %}
+                <div class="lang1">{{ des | split: '[lang2]' | first }}</div>
+                <div class="lang2">{{ des | split: '[lang2]' | last }}</div>
+                {% else %}
+                {{ des | split: '[lang2]' | first }}
+                {% endif %}
+                {% else %}
+                {% if settings.language_enable %}
+                <div class="lang1">{{ product.content | split: '[lang2]' | first }}</div>
+                <div class="lang2">{{ product.content | split: '[lang2]' | last }}</div>
+                {% else %}
+                {{ product.content | split: '[lang2]' | first }}
+                {% endif %}
+                {% endif %}
+                <img src="{{ 'tab_size_chart.png' | asset_url }}" class="img-responsive" />
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href="#product_tabs_tabreviews" class="collapsed" data-toggle="collapse" aria-expanded="false" aria-controls="product_tabs_tabreviews"{% if settings.language_enable %}data-translate="products.product.tab_title_review"{% endif %}>{{ 'products.product.tab_title_review' | t }}</a>
+            </h4>
+        </div>
+        <div class="tab-content" id="product_tabs_tabreviews">
+            <div class="product-tabs-content-inner clearfix">
+                <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+            </div>
+        </div>
+    </div>
+    {% if settings.tab_custom_title != blank %}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href="#product_tabs_custom" class="collapsed" data-toggle="collapse" aria-expanded="false" aria-controls="product_tabs_custom">
+                    {% if settings.language_enable %}
+                    <div class="lang1">{{ settings.tab_custom_title | split: '|' | first }}</div>
+                    <div class="lang2">{{ settings.tab_custom_title | split: '|' | last }}</div>
+                    {% else %}
+                    {{ settings.tab_custom_title | split: '|' | first }}
+                    {% endif %}
+                </a>
+            </h4>
+        </div>
+        <div class="tab-content" id="product_tabs_custom">
+            <div class="product-tabs-content-inner clearfix">
+                {% if settings.language_enable %}
+                <div class="lang1">{{ settings.tab_custom_content | split: '|' | first }}</div>
+                <div class="lang2">{{ settings.tab_custom_content | split: '|' | last }}</div>
+                {% else %}
+                {{ settings.tab_custom_content | split: '|' | first }}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endif %}
+ 

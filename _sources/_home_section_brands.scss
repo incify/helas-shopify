@@ -1,0 +1,49 @@
+//brand-secdion
+.brand-section{
+  padding: 30px 0;
+  border-top: 1px solid #e8e8e8;
+  margin-top: 50px;
+  .featured-brands{
+    .item{
+      a{
+        img{
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  &.layout-style_2 {
+    img {
+      filter: grayscale(100);
+      -webkit-filter: grayscale(100);
+      opacity: .6;
+      transition: all 250ms ease-out;
+      &:hover {
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        opacity: 1;
+      }
+    }
+  }
+  &.layout-style_3 {
+    border:none;
+    padding: 35px 0;
+    margin: 0;
+    img {
+      filter: grayscale(100);
+      -webkit-filter: grayscale(100);
+      opacity: .6;
+      transition: all 250ms ease-out;
+      &:hover {
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        opacity: 1;
+      }
+    }
+  }
+  &.layout-style_4 {
+    border:none;
+    padding: 0;
+    margin: 0;
+  }
+}

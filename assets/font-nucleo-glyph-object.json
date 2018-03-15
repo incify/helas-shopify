@@ -1,0 +1,6253 @@
+{
+  "Animals & Nature": [
+    {
+      "nc-icon-glyph nature_bear": "Nature bear"
+    },
+    {
+      "nc-icon-glyph nature_bee": "Nature bee"
+    },
+    {
+      "nc-icon-glyph nature_butterfly": "Nature butterfly"
+    },
+    {
+      "nc-icon-glyph nature_chicken": "Nature chicken"
+    },
+    {
+      "nc-icon-glyph nature_clover": "Nature clover"
+    },
+    {
+      "nc-icon-glyph nature_collar": "Nature collar"
+    },
+    {
+      "nc-icon-glyph nature_cow": "Nature cow"
+    },
+    {
+      "nc-icon-glyph nature_dog-house": "Nature dog house"
+    },
+    {
+      "nc-icon-glyph nature_dog": "Nature dog"
+    },
+    {
+      "nc-icon-glyph nature_flower-05": "Nature flower 05"
+    },
+    {
+      "nc-icon-glyph nature_flower-06": "Nature flower 06"
+    },
+    {
+      "nc-icon-glyph nature_flower-07": "Nature flower 07"
+    },
+    {
+      "nc-icon-glyph nature_food-dog": "Nature food dog"
+    },
+    {
+      "nc-icon-glyph nature_food": "Nature food"
+    },
+    {
+      "nc-icon-glyph nature_forest": "Nature forest"
+    },
+    {
+      "nc-icon-glyph nature_mountain": "Nature mountain"
+    },
+    {
+      "nc-icon-glyph nature_mushroom": "Nature mushroom"
+    },
+    {
+      "nc-icon-glyph nature_panda": "Nature panda"
+    },
+    {
+      "nc-icon-glyph nature_paw": "Nature paw"
+    },
+    {
+      "nc-icon-glyph nature_pig": "Nature pig"
+    },
+    {
+      "nc-icon-glyph nature_plant-ground": "Nature plant ground"
+    },
+    {
+      "nc-icon-glyph nature_plant-vase": "Nature plant vase"
+    },
+    {
+      "nc-icon-glyph nature_rat": "Nature rat"
+    },
+    {
+      "nc-icon-glyph nature_sheep": "Nature sheep"
+    },
+    {
+      "nc-icon-glyph nature_snake": "Nature snake"
+    },
+    {
+      "nc-icon-glyph nature_tree-01": "Nature tree 01"
+    },
+    {
+      "nc-icon-glyph nature_tree-02": "Nature tree 02"
+    },
+    {
+      "nc-icon-glyph nature_tree-03": "Nature tree 03"
+    },
+    {
+      "nc-icon-glyph nature_turtle": "Nature turtle"
+    },
+    {
+      "nc-icon-glyph nature_wood": "Nature wood"
+    }
+  ],
+  "Arrows": [
+    {
+      "nc-icon-glyph arrows-1_back-78": "Arrows 1 back-78"
+    },
+    {
+      "nc-icon-glyph arrows-1_back-80": "Arrows 1 back-80"
+    },
+    {
+      "nc-icon-glyph arrows-1_bold-direction": "Arrows 1 bold-direction"
+    },
+    {
+      "nc-icon-glyph arrows-1_bold-down": "Arrows 1 bold-down"
+    },
+    {
+      "nc-icon-glyph arrows-1_bold-left": "Arrows 1 bold-left"
+    },
+    {
+      "nc-icon-glyph arrows-1_bold-right": "Arrows 1 bold-right"
+    },
+    {
+      "nc-icon-glyph arrows-1_bold-up": "Arrows 1 bold-up"
+    },
+    {
+      "nc-icon-glyph arrows-1_circle-down-12": "Arrows 1 circle-down-12"
+    },
+    {
+      "nc-icon-glyph arrows-1_circle-down-40": "Arrows 1 circle-down-40"
+    },
+    {
+      "nc-icon-glyph arrows-1_circle-left-10": "Arrows 1 circle-left-10"
+    },
+    {
+      "nc-icon-glyph arrows-1_circle-left-38": "Arrows 1 circle-left-38"
+    },
+    {
+      "nc-icon-glyph arrows-1_circle-right-09": "Arrows 1 circle-right-09"
+    },
+    {
+      "nc-icon-glyph arrows-1_circle-right-37": "Arrows 1 circle-right-37"
+    },
+    {
+      "nc-icon-glyph arrows-1_circle-up-11": "Arrows 1 circle-up-11"
+    },
+    {
+      "nc-icon-glyph arrows-1_circle-up-39": "Arrows 1 circle-up-39"
+    },
+    {
+      "nc-icon-glyph arrows-1_cloud-download-93": "Arrows 1 cloud-download-93"
+    },
+    {
+      "nc-icon-glyph arrows-1_cloud-download-95": "Arrows 1 cloud-download-95"
+    },
+    {
+      "nc-icon-glyph arrows-1_cloud-upload-94": "Arrows 1 cloud-upload-94"
+    },
+    {
+      "nc-icon-glyph arrows-1_cloud-upload-96": "Arrows 1 cloud-upload-96"
+    },
+    {
+      "nc-icon-glyph arrows-1_curved-next": "Arrows 1 curved-next"
+    },
+    {
+      "nc-icon-glyph arrows-1_curved-previous": "Arrows 1 curved-previous"
+    },
+    {
+      "nc-icon-glyph arrows-1_direction-53": "Arrows 1 direction-53"
+    },
+    {
+      "nc-icon-glyph arrows-1_direction-56": "Arrows 1 direction-56"
+    },
+    {
+      "nc-icon-glyph arrows-1_double-left": "Arrows 1 double-left"
+    },
+    {
+      "nc-icon-glyph arrows-1_double-right": "Arrows 1 double-right"
+    },
+    {
+      "nc-icon-glyph arrows-1_download": "Arrows 1 download"
+    },
+    {
+      "nc-icon-glyph arrows-1_enlarge-diagonal-41": "Arrows 1 enlarge-diagonal-41"
+    },
+    {
+      "nc-icon-glyph arrows-1_enlarge-diagonal-43": "Arrows 1 enlarge-diagonal-43"
+    },
+    {
+      "nc-icon-glyph arrows-1_enlarge-diagonal-44": "Arrows 1 enlarge-diagonal-44"
+    },
+    {
+      "nc-icon-glyph arrows-1_enlarge-vertical": "Arrows 1 enlarge-vertical"
+    },
+    {
+      "nc-icon-glyph arrows-1_fit-horizontal": "Arrows 1 fit-horizontal"
+    },
+    {
+      "nc-icon-glyph arrows-1_fit-vertical": "Arrows 1 fit-vertical"
+    },
+    {
+      "nc-icon-glyph arrows-1_fullscreen-70": "Arrows 1 fullscreen-70"
+    },
+    {
+      "nc-icon-glyph arrows-1_fullscreen-71": "Arrows 1 fullscreen-71"
+    },
+    {
+      "nc-icon-glyph arrows-1_fullscreen-76": "Arrows 1 fullscreen-76"
+    },
+    {
+      "nc-icon-glyph arrows-1_fullscreen-77": "Arrows 1 fullscreen-77"
+    },
+    {
+      "nc-icon-glyph arrows-1_fullscreen-double-74": "Arrows 1 fullscreen-double-74"
+    },
+    {
+      "nc-icon-glyph arrows-1_fullscreen-double-75": "Arrows 1 fullscreen-double-75"
+    },
+    {
+      "nc-icon-glyph arrows-1_fullscreen-split-72": "Arrows 1 fullscreen-split-72"
+    },
+    {
+      "nc-icon-glyph arrows-1_fullscreen-split-73": "Arrows 1 fullscreen-split-73"
+    },
+    {
+      "nc-icon-glyph arrows-1_log-in": "Arrows 1 log-in"
+    },
+    {
+      "nc-icon-glyph arrows-1_log-out": "Arrows 1 log-out"
+    },
+    {
+      "nc-icon-glyph arrows-1_loop-82": "Arrows 1 loop-82"
+    },
+    {
+      "nc-icon-glyph arrows-1_loop-83": "Arrows 1 loop-83"
+    },
+    {
+      "nc-icon-glyph arrows-1_minimal-down": "Arrows 1 minimal-down"
+    },
+    {
+      "nc-icon-glyph arrows-1_minimal-left": "Arrows 1 minimal-left"
+    },
+    {
+      "nc-icon-glyph arrows-1_minimal-right": "Arrows 1 minimal-right"
+    },
+    {
+      "nc-icon-glyph arrows-1_minimal-up": "Arrows 1 minimal-up"
+    },
+    {
+      "nc-icon-glyph arrows-1_redo-79": "Arrows 1 redo-79"
+    },
+    {
+      "nc-icon-glyph arrows-1_redo-81": "Arrows 1 redo-81"
+    },
+    {
+      "nc-icon-glyph arrows-1_refresh-68": "Arrows 1 refresh-68"
+    },
+    {
+      "nc-icon-glyph arrows-1_refresh-69": "Arrows 1 refresh-69"
+    },
+    {
+      "nc-icon-glyph arrows-1_round-down": "Arrows 1 round-down"
+    },
+    {
+      "nc-icon-glyph arrows-1_round-left": "Arrows 1 round-left"
+    },
+    {
+      "nc-icon-glyph arrows-1_round-right": "Arrows 1 round-right"
+    },
+    {
+      "nc-icon-glyph arrows-1_round-up": "Arrows 1 round-up"
+    },
+    {
+      "nc-icon-glyph arrows-1_share-66": "Arrows 1 share-66"
+    },
+    {
+      "nc-icon-glyph arrows-1_share-91": "Arrows 1 share-91"
+    },
+    {
+      "nc-icon-glyph arrows-1_share-92": "Arrows 1 share-92"
+    },
+    {
+      "nc-icon-glyph arrows-1_shuffle-97": "Arrows 1 shuffle-97"
+    },
+    {
+      "nc-icon-glyph arrows-1_shuffle-98": "Arrows 1 shuffle-98"
+    },
+    {
+      "nc-icon-glyph arrows-1_simple-down": "Arrows 1 simple-down"
+    },
+    {
+      "nc-icon-glyph arrows-1_simple-left": "Arrows 1 simple-left"
+    },
+    {
+      "nc-icon-glyph arrows-1_simple-right": "Arrows 1 simple-right"
+    },
+    {
+      "nc-icon-glyph arrows-1_simple-up": "Arrows 1 simple-up"
+    },
+    {
+      "nc-icon-glyph arrows-1_small-triangle-down": "Arrows 1 small-triangle-down"
+    },
+    {
+      "nc-icon-glyph arrows-1_small-triangle-left": "Arrows 1 small-triangle-left"
+    },
+    {
+      "nc-icon-glyph arrows-1_small-triangle-right": "Arrows 1 small-triangle-right"
+    },
+    {
+      "nc-icon-glyph arrows-1_small-triangle-up": "Arrows 1 small-triangle-up"
+    },
+    {
+      "nc-icon-glyph arrows-1_square-down": "Arrows 1 square-down"
+    },
+    {
+      "nc-icon-glyph arrows-1_square-left": "Arrows 1 square-left"
+    },
+    {
+      "nc-icon-glyph arrows-1_square-right": "Arrows 1 square-right"
+    },
+    {
+      "nc-icon-glyph arrows-1_square-up": "Arrows 1 square-up"
+    },
+    {
+      "nc-icon-glyph arrows-1_strong-down": "Arrows 1 strong-down"
+    },
+    {
+      "nc-icon-glyph arrows-1_strong-left": "Arrows 1 strong-left"
+    },
+    {
+      "nc-icon-glyph arrows-1_strong-right": "Arrows 1 strong-right"
+    },
+    {
+      "nc-icon-glyph arrows-1_strong-up": "Arrows 1 strong-up"
+    },
+    {
+      "nc-icon-glyph arrows-1_tail-down": "Arrows 1 tail-down"
+    },
+    {
+      "nc-icon-glyph arrows-1_tail-left": "Arrows 1 tail-left"
+    },
+    {
+      "nc-icon-glyph arrows-1_tail-right": "Arrows 1 tail-right"
+    },
+    {
+      "nc-icon-glyph arrows-1_tail-triangle-down": "Arrows 1 tail-triangle-down"
+    },
+    {
+      "nc-icon-glyph arrows-1_tail-triangle-left": "Arrows 1 tail-triangle-left"
+    },
+    {
+      "nc-icon-glyph arrows-1_tail-triangle-right": "Arrows 1 tail-triangle-right"
+    },
+    {
+      "nc-icon-glyph arrows-1_tail-triangle-up": "Arrows 1 tail-triangle-up"
+    },
+    {
+      "nc-icon-glyph arrows-1_tail-up": "Arrows 1 tail-up"
+    },
+    {
+      "nc-icon-glyph arrows-1_trend-down": "Arrows 1 trend-down"
+    },
+    {
+      "nc-icon-glyph arrows-1_trend-up": "Arrows 1 trend-up"
+    },
+    {
+      "nc-icon-glyph arrows-1_triangle-down-20": "Arrows 1 triangle-down-20"
+    },
+    {
+      "nc-icon-glyph arrows-1_triangle-down-65": "Arrows 1 triangle-down-65"
+    },
+    {
+      "nc-icon-glyph arrows-1_triangle-left-18": "Arrows 1 triangle-left-18"
+    },
+    {
+      "nc-icon-glyph arrows-1_triangle-left-63": "Arrows 1 triangle-left-63"
+    },
+    {
+      "nc-icon-glyph arrows-1_triangle-right-17": "Arrows 1 triangle-right-17"
+    },
+    {
+      "nc-icon-glyph arrows-1_triangle-right-62": "Arrows 1 triangle-right-62"
+    },
+    {
+      "nc-icon-glyph arrows-1_triangle-up-19": "Arrows 1 triangle-up-19"
+    },
+    {
+      "nc-icon-glyph arrows-1_triangle-up-64": "Arrows 1 triangle-up-64"
+    },
+    {
+      "nc-icon-glyph arrows-1_window-zoom-in": "Arrows 1 window-zoom-in"
+    },
+    {
+      "nc-icon-glyph arrows-1_window-zoom-out": "Arrows 1 window-zoom-out"
+    },
+    {
+      "nc-icon-glyph arrows-1_zoom-88": "Arrows 1 zoom-88"
+    },
+    {
+      "nc-icon-glyph arrows-1_zoom-99": "Arrows 1 zoom-99"
+    },
+    {
+      "nc-icon-glyph arrows-1_zoom-100": "Arrows 1 zoom-100"
+    },
+    {
+      "nc-icon-glyph arrows-2_block-down": "Arrows 2 block-down"
+    },
+    {
+      "nc-icon-glyph arrows-2_block-left": "Arrows 2 block-left"
+    },
+    {
+      "nc-icon-glyph arrows-2_block-right": "Arrows 2 block-right"
+    },
+    {
+      "nc-icon-glyph arrows-2_block-up": "Arrows 2 block-up"
+    },
+    {
+      "nc-icon-glyph arrows-2_circle-in": "Arrows 2 circle-in"
+    },
+    {
+      "nc-icon-glyph arrows-2_circle-out": "Arrows 2 circle-out"
+    },
+    {
+      "nc-icon-glyph arrows-2_circuit-round": "Arrows 2 circuit-round"
+    },
+    {
+      "nc-icon-glyph arrows-2_circuit": "Arrows 2 circuit"
+    },
+    {
+      "nc-icon-glyph arrows-2_computer-upload": "Arrows 2 computer-upload"
+    },
+    {
+      "nc-icon-glyph arrows-2_conversion": "Arrows 2 conversion"
+    },
+    {
+      "nc-icon-glyph arrows-2_corner-down-round": "Arrows 2 corner-down-round"
+    },
+    {
+      "nc-icon-glyph arrows-2_corner-down": "Arrows 2 corner-down"
+    },
+    {
+      "nc-icon-glyph arrows-2_corner-left-down": "Arrows 2 corner-left-down"
+    },
+    {
+      "nc-icon-glyph arrows-2_corner-left-round": "Arrows 2 corner-left-round"
+    },
+    {
+      "nc-icon-glyph arrows-2_corner-left": "Arrows 2 corner-left"
+    },
+    {
+      "nc-icon-glyph arrows-2_corner-right-down": "Arrows 2 corner-right-down"
+    },
+    {
+      "nc-icon-glyph arrows-2_corner-right-round": "Arrows 2 corner-right-round"
+    },
+    {
+      "nc-icon-glyph arrows-2_corner-right": "Arrows 2 corner-right"
+    },
+    {
+      "nc-icon-glyph arrows-2_corner-up-left": "Arrows 2 corner-up-left"
+    },
+    {
+      "nc-icon-glyph arrows-2_corner-up-right": "Arrows 2 corner-up-right"
+    },
+    {
+      "nc-icon-glyph arrows-2_corner-up-round": "Arrows 2 corner-up-round"
+    },
+    {
+      "nc-icon-glyph arrows-2_corner-up": "Arrows 2 corner-up"
+    },
+    {
+      "nc-icon-glyph arrows-2_cross-down": "Arrows 2 cross-down"
+    },
+    {
+      "nc-icon-glyph arrows-2_cross-horizontal": "Arrows 2 cross-horizontal"
+    },
+    {
+      "nc-icon-glyph arrows-2_cross-left": "Arrows 2 cross-left"
+    },
+    {
+      "nc-icon-glyph arrows-2_cross-right": "Arrows 2 cross-right"
+    },
+    {
+      "nc-icon-glyph arrows-2_cross-up": "Arrows 2 cross-up"
+    },
+    {
+      "nc-icon-glyph arrows-2_cross-vertical": "Arrows 2 cross-vertical"
+    },
+    {
+      "nc-icon-glyph arrows-2_curve-circuit": "Arrows 2 curve-circuit"
+    },
+    {
+      "nc-icon-glyph arrows-2_curve-directions": "Arrows 2 curve-directions"
+    },
+    {
+      "nc-icon-glyph arrows-2_curve-split": "Arrows 2 curve-split"
+    },
+    {
+      "nc-icon-glyph arrows-2_delete-45": "Arrows 2 delete-45"
+    },
+    {
+      "nc-icon-glyph arrows-2_delete-49": "Arrows 2 delete-49"
+    },
+    {
+      "nc-icon-glyph arrows-2_delete-50": "Arrows 2 delete-50"
+    },
+    {
+      "nc-icon-glyph arrows-2_direction": "Arrows 2 direction"
+    },
+    {
+      "nc-icon-glyph arrows-2_dots-download": "Arrows 2 dots-download"
+    },
+    {
+      "nc-icon-glyph arrows-2_dots-upload": "Arrows 2 dots-upload"
+    },
+    {
+      "nc-icon-glyph arrows-2_eject": "Arrows 2 eject"
+    },
+    {
+      "nc-icon-glyph arrows-2_enlarge-circle": "Arrows 2 enlarge-circle"
+    },
+    {
+      "nc-icon-glyph arrows-2_file-download-87": "Arrows 2 file-download-87"
+    },
+    {
+      "nc-icon-glyph arrows-2_file-download-89": "Arrows 2 file-download-89"
+    },
+    {
+      "nc-icon-glyph arrows-2_file-download-94": "Arrows 2 file-download-94"
+    },
+    {
+      "nc-icon-glyph arrows-2_file-upload-86": "Arrows 2 file-upload-86"
+    },
+    {
+      "nc-icon-glyph arrows-2_file-upload-88": "Arrows 2 file-upload-88"
+    },
+    {
+      "nc-icon-glyph arrows-2_file-upload-93": "Arrows 2 file-upload-93"
+    },
+    {
+      "nc-icon-glyph arrows-2_fork-round": "Arrows 2 fork-round"
+    },
+    {
+      "nc-icon-glyph arrows-2_fork": "Arrows 2 fork"
+    },
+    {
+      "nc-icon-glyph arrows-2_hit-down": "Arrows 2 hit-down"
+    },
+    {
+      "nc-icon-glyph arrows-2_hit-left": "Arrows 2 hit-left"
+    },
+    {
+      "nc-icon-glyph arrows-2_hit-right": "Arrows 2 hit-right"
+    },
+    {
+      "nc-icon-glyph arrows-2_hit-up": "Arrows 2 hit-up"
+    },
+    {
+      "nc-icon-glyph arrows-2_lines": "Arrows 2 lines"
+    },
+    {
+      "nc-icon-glyph arrows-2_log-out": "Arrows 2 log-out"
+    },
+    {
+      "nc-icon-glyph arrows-2_loop": "Arrows 2 loop"
+    },
+    {
+      "nc-icon-glyph arrows-2_merge-round": "Arrows 2 merge-round"
+    },
+    {
+      "nc-icon-glyph arrows-2_merge": "Arrows 2 merge"
+    },
+    {
+      "nc-icon-glyph arrows-2_move-05": "Arrows 2 move-05"
+    },
+    {
+      "nc-icon-glyph arrows-2_move-06": "Arrows 2 move-06"
+    },
+    {
+      "nc-icon-glyph arrows-2_move-92": "Arrows 2 move-92"
+    },
+    {
+      "nc-icon-glyph arrows-2_move-down-right": "Arrows 2 move-down-right"
+    },
+    {
+      "nc-icon-glyph arrows-2_move-down": "Arrows 2 move-down"
+    },
+    {
+      "nc-icon-glyph arrows-2_move-left": "Arrows 2 move-left"
+    },
+    {
+      "nc-icon-glyph arrows-2_move-right": "Arrows 2 move-right"
+    },
+    {
+      "nc-icon-glyph arrows-2_move-up-left": "Arrows 2 move-up-left"
+    },
+    {
+      "nc-icon-glyph arrows-2_move-up": "Arrows 2 move-up"
+    },
+    {
+      "nc-icon-glyph arrows-2_push-next": "Arrows 2 push-next"
+    },
+    {
+      "nc-icon-glyph arrows-2_push-previous": "Arrows 2 push-previous"
+    },
+    {
+      "nc-icon-glyph arrows-2_reload": "Arrows 2 reload"
+    },
+    {
+      "nc-icon-glyph arrows-2_replay": "Arrows 2 replay"
+    },
+    {
+      "nc-icon-glyph arrows-2_rotate-left": "Arrows 2 rotate-left"
+    },
+    {
+      "nc-icon-glyph arrows-2_rotate-right": "Arrows 2 rotate-right"
+    },
+    {
+      "nc-icon-glyph arrows-2_round-left-down": "Arrows 2 round-left-down"
+    },
+    {
+      "nc-icon-glyph arrows-2_round-right-down": "Arrows 2 round-right-down"
+    },
+    {
+      "nc-icon-glyph arrows-2_round-up-left": "Arrows 2 round-up-left"
+    },
+    {
+      "nc-icon-glyph arrows-2_round-up-right": "Arrows 2 round-up-right"
+    },
+    {
+      "nc-icon-glyph arrows-2_select-83": "Arrows 2 select-83"
+    },
+    {
+      "nc-icon-glyph arrows-2_select-84": "Arrows 2 select-84"
+    },
+    {
+      "nc-icon-glyph arrows-2_separate-round": "Arrows 2 separate-round"
+    },
+    {
+      "nc-icon-glyph arrows-2_separate": "Arrows 2 separate"
+    },
+    {
+      "nc-icon-glyph arrows-2_share-left": "Arrows 2 share-left"
+    },
+    {
+      "nc-icon-glyph arrows-2_share-right": "Arrows 2 share-right"
+    },
+    {
+      "nc-icon-glyph arrows-2_skew-down": "Arrows 2 skew-down"
+    },
+    {
+      "nc-icon-glyph arrows-2_skew-left": "Arrows 2 skew-left"
+    },
+    {
+      "nc-icon-glyph arrows-2_skew-up": "Arrows 2 skew-up"
+    },
+    {
+      "nc-icon-glyph arrows-2_small-left": "Arrows 2 small-left"
+    },
+    {
+      "nc-icon-glyph arrows-2_small-right": "Arrows 2 small-right"
+    },
+    {
+      "nc-icon-glyph arrows-2_split-horizontal": "Arrows 2 split-horizontal"
+    },
+    {
+      "nc-icon-glyph arrows-2_split-round": "Arrows 2 split-round"
+    },
+    {
+      "nc-icon-glyph arrows-2_split-vertical": "Arrows 2 split-vertical"
+    },
+    {
+      "nc-icon-glyph arrows-2_split": "Arrows 2 split"
+    },
+    {
+      "nc-icon-glyph arrows-2_square-download": "Arrows 2 square-download"
+    },
+    {
+      "nc-icon-glyph arrows-2_square-upload": "Arrows 2 square-upload"
+    },
+    {
+      "nc-icon-glyph arrows-2_time": "Arrows 2 time"
+    },
+    {
+      "nc-icon-glyph arrows-2_triangle-down": "Arrows 2 triangle-down"
+    },
+    {
+      "nc-icon-glyph arrows-2_triangle-left": "Arrows 2 triangle-left"
+    },
+    {
+      "nc-icon-glyph arrows-2_triangle-right": "Arrows 2 triangle-right"
+    },
+    {
+      "nc-icon-glyph arrows-2_triangle-up": "Arrows 2 triangle-up"
+    },
+    {
+      "nc-icon-glyph arrows-2_unite-round": "Arrows 2 unite-round"
+    },
+    {
+      "nc-icon-glyph arrows-2_unite": "Arrows 2 unite"
+    },
+    {
+      "nc-icon-glyph arrows-2_zoom": "Arrows 2 zoom"
+    },
+    {
+      "nc-icon-glyph arrows-3_circle-down": "Arrows 3 circle-down"
+    },
+    {
+      "nc-icon-glyph arrows-3_circle-left": "Arrows 3 circle-left"
+    },
+    {
+      "nc-icon-glyph arrows-3_circle-right": "Arrows 3 circle-right"
+    },
+    {
+      "nc-icon-glyph arrows-3_circle-simple-down": "Arrows 3 circle-simple-down"
+    },
+    {
+      "nc-icon-glyph arrows-3_circle-simple-left": "Arrows 3 circle-simple-left"
+    },
+    {
+      "nc-icon-glyph arrows-3_circle-simple-right": "Arrows 3 circle-simple-right"
+    },
+    {
+      "nc-icon-glyph arrows-3_circle-simple-up": "Arrows 3 circle-simple-up"
+    },
+    {
+      "nc-icon-glyph arrows-3_circle-up": "Arrows 3 circle-up"
+    },
+    {
+      "nc-icon-glyph arrows-3_cloud-refresh": "Arrows 3 cloud-refresh"
+    },
+    {
+      "nc-icon-glyph arrows-3_separate": "Arrows 3 separate"
+    },
+    {
+      "nc-icon-glyph arrows-3_small-down": "Arrows 3 small-down"
+    },
+    {
+      "nc-icon-glyph arrows-3_small-up": "Arrows 3 small-up"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-corner-down-left": "Arrows 3 square-corner-down-left"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-corner-down-right": "Arrows 3 square-corner-down-right"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-corner-up-left": "Arrows 3 square-corner-up-left"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-corner-up-right": "Arrows 3 square-corner-up-right"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-down-06": "Arrows 3 square-down-06"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-down-22": "Arrows 3 square-down-22"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-enlarge": "Arrows 3 square-enlarge"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-left-04": "Arrows 3 square-left-04"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-left-20": "Arrows 3 square-left-20"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-right-03": "Arrows 3 square-right-03"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-right-19": "Arrows 3 square-right-19"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-simple-down": "Arrows 3 square-simple-down"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-simple-left": "Arrows 3 square-simple-left"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-simple-right": "Arrows 3 square-simple-right"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-simple-up": "Arrows 3 square-simple-up"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-up-05": "Arrows 3 square-up-05"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-up-21": "Arrows 3 square-up-21"
+    },
+    {
+      "nc-icon-glyph arrows-3_square-zoom": "Arrows 3 square-zoom"
+    },
+    {
+      "nc-icon-glyph arrows-3_super-bold-down": "Arrows 3 super-bold-down"
+    },
+    {
+      "nc-icon-glyph arrows-3_super-bold-left": "Arrows 3 super-bold-left"
+    },
+    {
+      "nc-icon-glyph arrows-3_super-bold-right": "Arrows 3 super-bold-right"
+    },
+    {
+      "nc-icon-glyph arrows-3_super-bold-up": "Arrows 3 super-bold-up"
+    },
+    {
+      "nc-icon-glyph arrows-4_block-bottom-left": "Arrows 4 block-bottom-left"
+    },
+    {
+      "nc-icon-glyph arrows-4_block-bottom-right": "Arrows 4 block-bottom-right"
+    },
+    {
+      "nc-icon-glyph arrows-4_block-top-left": "Arrows 4 block-top-left"
+    },
+    {
+      "nc-icon-glyph arrows-4_block-top-right": "Arrows 4 block-top-right"
+    },
+    {
+      "nc-icon-glyph arrows-4_centralize": "Arrows 4 centralize"
+    },
+    {
+      "nc-icon-glyph arrows-4_compare": "Arrows 4 compare"
+    },
+    {
+      "nc-icon-glyph arrows-4_contrast": "Arrows 4 contrast"
+    },
+    {
+      "nc-icon-glyph arrows-4_cross": "Arrows 4 cross"
+    },
+    {
+      "nc-icon-glyph arrows-4_diag-bottom-left": "Arrows 4 diag-bottom-left"
+    },
+    {
+      "nc-icon-glyph arrows-4_diag-bottom-right": "Arrows 4 diag-bottom-right"
+    },
+    {
+      "nc-icon-glyph arrows-4_diag-top-left": "Arrows 4 diag-top-left"
+    },
+    {
+      "nc-icon-glyph arrows-4_diag-top-right": "Arrows 4 diag-top-right"
+    },
+    {
+      "nc-icon-glyph arrows-4_disperse": "Arrows 4 disperse"
+    },
+    {
+      "nc-icon-glyph arrows-4_download": "Arrows 4 download"
+    },
+    {
+      "nc-icon-glyph arrows-4_enlarge-45": "Arrows 4 enlarge-45"
+    },
+    {
+      "nc-icon-glyph arrows-4_enlarge-46": "Arrows 4 enlarge-46"
+    },
+    {
+      "nc-icon-glyph arrows-4_export": "Arrows 4 export"
+    },
+    {
+      "nc-icon-glyph arrows-4_format-left": "Arrows 4 format-left"
+    },
+    {
+      "nc-icon-glyph arrows-4_format-right": "Arrows 4 format-right"
+    },
+    {
+      "nc-icon-glyph arrows-4_input-12": "Arrows 4 input-12"
+    },
+    {
+      "nc-icon-glyph arrows-4_input-21": "Arrows 4 input-21"
+    },
+    {
+      "nc-icon-glyph arrows-4_invert": "Arrows 4 invert"
+    },
+    {
+      "nc-icon-glyph arrows-4_launch-11": "Arrows 4 launch-11"
+    },
+    {
+      "nc-icon-glyph arrows-4_launch-47": "Arrows 4 launch-47"
+    },
+    {
+      "nc-icon-glyph arrows-4_logout": "Arrows 4 logout"
+    },
+    {
+      "nc-icon-glyph arrows-4_loop-30": "Arrows 4 loop-30"
+    },
+    {
+      "nc-icon-glyph arrows-4_loop-34": "Arrows 4 loop-34"
+    },
+    {
+      "nc-icon-glyph arrows-4_merge": "Arrows 4 merge"
+    },
+    {
+      "nc-icon-glyph arrows-4_open-in-browser": "Arrows 4 open-in-browser"
+    },
+    {
+      "nc-icon-glyph arrows-4_priority-high": "Arrows 4 priority-high"
+    },
+    {
+      "nc-icon-glyph arrows-4_priority-low": "Arrows 4 priority-low"
+    },
+    {
+      "nc-icon-glyph arrows-4_redo-10": "Arrows 4 redo-10"
+    },
+    {
+      "nc-icon-glyph arrows-4_redo-26": "Arrows 4 redo-26"
+    },
+    {
+      "nc-icon-glyph arrows-4_reply-all": "Arrows 4 reply-all"
+    },
+    {
+      "nc-icon-glyph arrows-4_reply": "Arrows 4 reply"
+    },
+    {
+      "nc-icon-glyph arrows-4_restore": "Arrows 4 restore"
+    },
+    {
+      "nc-icon-glyph arrows-4_share": "Arrows 4 share"
+    },
+    {
+      "nc-icon-glyph arrows-4_shuffle-01": "Arrows 4 shuffle-01"
+    },
+    {
+      "nc-icon-glyph arrows-4_shuffle-35": "Arrows 4 shuffle-35"
+    },
+    {
+      "nc-icon-glyph arrows-4_split-33": "Arrows 4 split-33"
+    },
+    {
+      "nc-icon-glyph arrows-4_split-37": "Arrows 4 split-37"
+    },
+    {
+      "nc-icon-glyph arrows-4_stre-down": "Arrows 4 stre-down"
+    },
+    {
+      "nc-icon-glyph arrows-4_stre-left": "Arrows 4 stre-left"
+    },
+    {
+      "nc-icon-glyph arrows-4_stre-right": "Arrows 4 stre-right"
+    },
+    {
+      "nc-icon-glyph arrows-4_stre-up": "Arrows 4 stre-up"
+    },
+    {
+      "nc-icon-glyph arrows-4_swap-horizontal": "Arrows 4 swap-horizontal"
+    },
+    {
+      "nc-icon-glyph arrows-4_swap-vertical": "Arrows 4 swap-vertical"
+    },
+    {
+      "nc-icon-glyph arrows-4_system-update": "Arrows 4 system-update"
+    },
+    {
+      "nc-icon-glyph arrows-4_undo-25": "Arrows 4 undo-25"
+    },
+    {
+      "nc-icon-glyph arrows-4_undo-29": "Arrows 4 undo-29"
+    },
+    {
+      "nc-icon-glyph arrows-4_upload": "Arrows 4 upload"
+    }
+  ],
+  "Business & Finance": [
+    {
+      "nc-icon-glyph business_agenda": "Business agenda"
+    },
+    {
+      "nc-icon-glyph business_atm": "Business atm"
+    },
+    {
+      "nc-icon-glyph business_award-48": "Business award 48"
+    },
+    {
+      "nc-icon-glyph business_award-49": "Business award 49"
+    },
+    {
+      "nc-icon-glyph business_award-74": "Business award 74"
+    },
+    {
+      "nc-icon-glyph business_badge": "Business badge"
+    },
+    {
+      "nc-icon-glyph business_bank": "Business bank"
+    },
+    {
+      "nc-icon-glyph business_board-27": "Business board 27"
+    },
+    {
+      "nc-icon-glyph business_board-28": "Business board 28"
+    },
+    {
+      "nc-icon-glyph business_board-29": "Business board 29"
+    },
+    {
+      "nc-icon-glyph business_board-30": "Business board 30"
+    },
+    {
+      "nc-icon-glyph business_books": "Business books"
+    },
+    {
+      "nc-icon-glyph business_briefcase-24": "Business briefcase 24"
+    },
+    {
+      "nc-icon-glyph business_briefcase-25": "Business briefcase 25"
+    },
+    {
+      "nc-icon-glyph business_briefcase-26": "Business briefcase 26"
+    },
+    {
+      "nc-icon-glyph business_building": "Business building"
+    },
+    {
+      "nc-icon-glyph business_bulb-61": "Business bulb 61"
+    },
+    {
+      "nc-icon-glyph business_bulb-62": "Business bulb 62"
+    },
+    {
+      "nc-icon-glyph business_bulb-63": "Business bulb 63"
+    },
+    {
+      "nc-icon-glyph business_business-contact-85": "Business business contact-85"
+    },
+    {
+      "nc-icon-glyph business_business-contact-86": "Business business contact-86"
+    },
+    {
+      "nc-icon-glyph business_business-contact-87": "Business business contact-87"
+    },
+    {
+      "nc-icon-glyph business_business-contact-88": "Business business contact-88"
+    },
+    {
+      "nc-icon-glyph business_business-contact-89": "Business business contact-89"
+    },
+    {
+      "nc-icon-glyph business_businessman-03": "Business businessman 03"
+    },
+    {
+      "nc-icon-glyph business_businessman-04": "Business businessman 04"
+    },
+    {
+      "nc-icon-glyph business_calculator": "Business calculator"
+    },
+    {
+      "nc-icon-glyph business_chair": "Business chair"
+    },
+    {
+      "nc-icon-glyph business_chart-bar-32": "Business chart bar-32"
+    },
+    {
+      "nc-icon-glyph business_chart-bar-33": "Business chart bar-33"
+    },
+    {
+      "nc-icon-glyph business_chart-growth": "Business chart growth"
+    },
+    {
+      "nc-icon-glyph business_chart-pie-35": "Business chart pie-35"
+    },
+    {
+      "nc-icon-glyph business_chart-pie-36": "Business chart pie-36"
+    },
+    {
+      "nc-icon-glyph business_chart": "Business chart"
+    },
+    {
+      "nc-icon-glyph business_cheque": "Business cheque"
+    },
+    {
+      "nc-icon-glyph business_coins": "Business coins"
+    },
+    {
+      "nc-icon-glyph business_connect": "Business connect"
+    },
+    {
+      "nc-icon-glyph business_contacts": "Business contacts"
+    },
+    {
+      "nc-icon-glyph business_currency-dollar": "Business currency dollar"
+    },
+    {
+      "nc-icon-glyph business_currency-euro": "Business currency euro"
+    },
+    {
+      "nc-icon-glyph business_currency-pound": "Business currency pound"
+    },
+    {
+      "nc-icon-glyph business_currency-yen": "Business currency yen"
+    },
+    {
+      "nc-icon-glyph business_factory": "Business factory"
+    },
+    {
+      "nc-icon-glyph business_globe": "Business globe"
+    },
+    {
+      "nc-icon-glyph business_goal-64": "Business goal 64"
+    },
+    {
+      "nc-icon-glyph business_goal-65": "Business goal 65"
+    },
+    {
+      "nc-icon-glyph business_gold": "Business gold"
+    },
+    {
+      "nc-icon-glyph business_hammer": "Business hammer"
+    },
+    {
+      "nc-icon-glyph business_handout": "Business handout"
+    },
+    {
+      "nc-icon-glyph business_handshake": "Business handshake"
+    },
+    {
+      "nc-icon-glyph business_hat": "Business hat"
+    },
+    {
+      "nc-icon-glyph business_hierarchy-53": "Business hierarchy 53"
+    },
+    {
+      "nc-icon-glyph business_hierarchy-54": "Business hierarchy 54"
+    },
+    {
+      "nc-icon-glyph business_hierarchy-55": "Business hierarchy 55"
+    },
+    {
+      "nc-icon-glyph business_hierarchy-56": "Business hierarchy 56"
+    },
+    {
+      "nc-icon-glyph business_laptop-71": "Business laptop 71"
+    },
+    {
+      "nc-icon-glyph business_laptop-72": "Business laptop 72"
+    },
+    {
+      "nc-icon-glyph business_laptop-91": "Business laptop 91"
+    },
+    {
+      "nc-icon-glyph business_law": "Business law"
+    },
+    {
+      "nc-icon-glyph business_math": "Business math"
+    },
+    {
+      "nc-icon-glyph business_money-11": "Business money 11"
+    },
+    {
+      "nc-icon-glyph business_money-12": "Business money 12"
+    },
+    {
+      "nc-icon-glyph business_money-13": "Business money 13"
+    },
+    {
+      "nc-icon-glyph business_money-bag": "Business money bag"
+    },
+    {
+      "nc-icon-glyph business_money-coins": "Business money coins"
+    },
+    {
+      "nc-icon-glyph business_money-growth": "Business money growth"
+    },
+    {
+      "nc-icon-glyph business_money-time": "Business money time"
+    },
+    {
+      "nc-icon-glyph business_net": "Business net"
+    },
+    {
+      "nc-icon-glyph business_notes": "Business notes"
+    },
+    {
+      "nc-icon-glyph business_payment": "Business payment"
+    },
+    {
+      "nc-icon-glyph business_percentage-38": "Business percentage 38"
+    },
+    {
+      "nc-icon-glyph business_percentage-39": "Business percentage 39"
+    },
+    {
+      "nc-icon-glyph business_pig": "Business pig"
+    },
+    {
+      "nc-icon-glyph business_pin": "Business pin"
+    },
+    {
+      "nc-icon-glyph business_plug": "Business plug"
+    },
+    {
+      "nc-icon-glyph business_progress": "Business progress"
+    },
+    {
+      "nc-icon-glyph business_round-dollar": "Business round dollar"
+    },
+    {
+      "nc-icon-glyph business_round-euro": "Business round euro"
+    },
+    {
+      "nc-icon-glyph business_round-pound": "Business round pound"
+    },
+    {
+      "nc-icon-glyph business_round-yen": "Business round yen"
+    },
+    {
+      "nc-icon-glyph business_safe": "Business safe"
+    },
+    {
+      "nc-icon-glyph business_scale": "Business scale"
+    },
+    {
+      "nc-icon-glyph business_sign": "Business sign"
+    },
+    {
+      "nc-icon-glyph business_signature": "Business signature"
+    },
+    {
+      "nc-icon-glyph business_stock": "Business stock"
+    },
+    {
+      "nc-icon-glyph business_strategy": "Business strategy"
+    },
+    {
+      "nc-icon-glyph business_tie-01": "Business tie 01"
+    },
+    {
+      "nc-icon-glyph business_tie-02": "Business tie 02"
+    },
+    {
+      "nc-icon-glyph business_wallet-43": "Business wallet 43"
+    },
+    {
+      "nc-icon-glyph business_wallet-44": "Business wallet 44"
+    },
+    {
+      "nc-icon-glyph business_wallet-90": "Business wallet 90"
+    }
+  ],
+  "Clothes & Accessories": [
+    {
+      "nc-icon-glyph clothes_baby": "Clothes baby"
+    },
+    {
+      "nc-icon-glyph clothes_backpack": "Clothes backpack"
+    },
+    {
+      "nc-icon-glyph clothes_bag-21": "Clothes bag 21"
+    },
+    {
+      "nc-icon-glyph clothes_bag-22": "Clothes bag 22"
+    },
+    {
+      "nc-icon-glyph clothes_belt": "Clothes belt"
+    },
+    {
+      "nc-icon-glyph clothes_boot-woman": "Clothes boot woman"
+    },
+    {
+      "nc-icon-glyph clothes_boot": "Clothes boot"
+    },
+    {
+      "nc-icon-glyph clothes_bra": "Clothes bra"
+    },
+    {
+      "nc-icon-glyph clothes_button": "Clothes button"
+    },
+    {
+      "nc-icon-glyph clothes_cap": "Clothes cap"
+    },
+    {
+      "nc-icon-glyph clothes_coat": "Clothes coat"
+    },
+    {
+      "nc-icon-glyph clothes_corset": "Clothes corset"
+    },
+    {
+      "nc-icon-glyph clothes_dress-man": "Clothes dress man"
+    },
+    {
+      "nc-icon-glyph clothes_dress-woman": "Clothes dress woman"
+    },
+    {
+      "nc-icon-glyph clothes_flip": "Clothes flip"
+    },
+    {
+      "nc-icon-glyph clothes_glasses": "Clothes glasses"
+    },
+    {
+      "nc-icon-glyph clothes_gloves": "Clothes gloves"
+    },
+    {
+      "nc-icon-glyph clothes_hat-top": "Clothes hat top"
+    },
+    {
+      "nc-icon-glyph clothes_hat": "Clothes hat"
+    },
+    {
+      "nc-icon-glyph clothes_hoodie": "Clothes hoodie"
+    },
+    {
+      "nc-icon-glyph clothes_iron-dont": "Clothes iron dont"
+    },
+    {
+      "nc-icon-glyph clothes_iron": "Clothes iron"
+    },
+    {
+      "nc-icon-glyph clothes_jeans-41": "Clothes jeans 41"
+    },
+    {
+      "nc-icon-glyph clothes_jeans-43": "Clothes jeans 43"
+    },
+    {
+      "nc-icon-glyph clothes_jeans-pocket": "Clothes jeans pocket"
+    },
+    {
+      "nc-icon-glyph clothes_kitchen": "Clothes kitchen"
+    },
+    {
+      "nc-icon-glyph clothes_long-sleeve": "Clothes long sleeve"
+    },
+    {
+      "nc-icon-glyph clothes_makeup": "Clothes makeup"
+    },
+    {
+      "nc-icon-glyph clothes_needle": "Clothes needle"
+    },
+    {
+      "nc-icon-glyph clothes_pajamas": "Clothes pajamas"
+    },
+    {
+      "nc-icon-glyph clothes_ring": "Clothes ring"
+    },
+    {
+      "nc-icon-glyph clothes_scarf": "Clothes scarf"
+    },
+    {
+      "nc-icon-glyph clothes_shirt-business": "Clothes shirt business"
+    },
+    {
+      "nc-icon-glyph clothes_shirt-buttons": "Clothes shirt buttons"
+    },
+    {
+      "nc-icon-glyph clothes_shirt-neck": "Clothes shirt neck"
+    },
+    {
+      "nc-icon-glyph clothes_shirt": "Clothes shirt"
+    },
+    {
+      "nc-icon-glyph clothes_shoe-man": "Clothes shoe man"
+    },
+    {
+      "nc-icon-glyph clothes_shoe-sport": "Clothes shoe sport"
+    },
+    {
+      "nc-icon-glyph clothes_shoe-woman": "Clothes shoe woman"
+    },
+    {
+      "nc-icon-glyph clothes_skirt": "Clothes skirt"
+    },
+    {
+      "nc-icon-glyph clothes_slacks-12": "Clothes slacks 12"
+    },
+    {
+      "nc-icon-glyph clothes_slacks-13": "Clothes slacks 13"
+    },
+    {
+      "nc-icon-glyph clothes_sock": "Clothes sock"
+    },
+    {
+      "nc-icon-glyph clothes_tie-bow": "Clothes tie bow"
+    },
+    {
+      "nc-icon-glyph clothes_tshirt-53": "Clothes tshirt 53"
+    },
+    {
+      "nc-icon-glyph clothes_tshirt-54": "Clothes tshirt 54"
+    },
+    {
+      "nc-icon-glyph clothes_tshirt-sport": "Clothes tshirt sport"
+    },
+    {
+      "nc-icon-glyph clothes_underwear-man": "Clothes underwear man"
+    },
+    {
+      "nc-icon-glyph clothes_underwear": "Clothes underwear"
+    },
+    {
+      "nc-icon-glyph clothes_vest-sport": "Clothes vest sport"
+    },
+    {
+      "nc-icon-glyph clothes_vest": "Clothes vest"
+    },
+    {
+      "nc-icon-glyph clothes_wash-30": "Clothes wash 30"
+    },
+    {
+      "nc-icon-glyph clothes_wash-60": "Clothes wash 60"
+    },
+    {
+      "nc-icon-glyph clothes_wash-90": "Clothes wash 90"
+    },
+    {
+      "nc-icon-glyph clothes_wash-hand": "Clothes wash hand"
+    },
+    {
+      "nc-icon-glyph clothes_wash": "Clothes wash"
+    }
+  ],
+  "Design & Development": [
+    {
+      "nc-icon-glyph design_album": "Design album"
+    },
+    {
+      "nc-icon-glyph design_align-bottom": "Design align bottom"
+    },
+    {
+      "nc-icon-glyph design_align-center-horizontal": "Design align center-horizontal"
+    },
+    {
+      "nc-icon-glyph design_align-center-vertical": "Design align center-vertical"
+    },
+    {
+      "nc-icon-glyph design_align-left": "Design align left"
+    },
+    {
+      "nc-icon-glyph design_align-right": "Design align right"
+    },
+    {
+      "nc-icon-glyph design_align-top": "Design align top"
+    },
+    {
+      "nc-icon-glyph design_app": "Design app"
+    },
+    {
+      "nc-icon-glyph design_artboard": "Design artboard"
+    },
+    {
+      "nc-icon-glyph design_blend": "Design blend"
+    },
+    {
+      "nc-icon-glyph design_book-bookmark": "Design book bookmark"
+    },
+    {
+      "nc-icon-glyph design_book-open": "Design book open"
+    },
+    {
+      "nc-icon-glyph design_brush": "Design brush"
+    },
+    {
+      "nc-icon-glyph design_bug": "Design bug"
+    },
+    {
+      "nc-icon-glyph design_bullet-list-67": "Design bullet list-67"
+    },
+    {
+      "nc-icon-glyph design_bullet-list-68": "Design bullet list-68"
+    },
+    {
+      "nc-icon-glyph design_bullet-list-69": "Design bullet list-69"
+    },
+    {
+      "nc-icon-glyph design_bullet-list-70": "Design bullet list-70"
+    },
+    {
+      "nc-icon-glyph design_clone": "Design clone"
+    },
+    {
+      "nc-icon-glyph design_code-editor": "Design code editor"
+    },
+    {
+      "nc-icon-glyph design_code": "Design code"
+    },
+    {
+      "nc-icon-glyph design_collection": "Design collection"
+    },
+    {
+      "nc-icon-glyph design_command": "Design command"
+    },
+    {
+      "nc-icon-glyph design_compass": "Design compass"
+    },
+    {
+      "nc-icon-glyph design_contrast": "Design contrast"
+    },
+    {
+      "nc-icon-glyph design_copy": "Design copy"
+    },
+    {
+      "nc-icon-glyph design_crop": "Design crop"
+    },
+    {
+      "nc-icon-glyph design_cursor-48": "Design cursor 48"
+    },
+    {
+      "nc-icon-glyph design_cursor-49": "Design cursor 49"
+    },
+    {
+      "nc-icon-glyph design_design-dev": "Design design dev"
+    },
+    {
+      "nc-icon-glyph design_design": "Design design"
+    },
+    {
+      "nc-icon-glyph design_distribute-horizontal": "Design distribute horizontal"
+    },
+    {
+      "nc-icon-glyph design_distribute-vertical": "Design distribute vertical"
+    },
+    {
+      "nc-icon-glyph design_drag": "Design drag"
+    },
+    {
+      "nc-icon-glyph design_eraser-32": "Design eraser 32"
+    },
+    {
+      "nc-icon-glyph design_eraser-33": "Design eraser 33"
+    },
+    {
+      "nc-icon-glyph design_eraser-46": "Design eraser 46"
+    },
+    {
+      "nc-icon-glyph design_flip-horizontal": "Design flip horizontal"
+    },
+    {
+      "nc-icon-glyph design_flip-vertical": "Design flip vertical"
+    },
+    {
+      "nc-icon-glyph design_image": "Design image"
+    },
+    {
+      "nc-icon-glyph design_magnet": "Design magnet"
+    },
+    {
+      "nc-icon-glyph design_marker": "Design marker"
+    },
+    {
+      "nc-icon-glyph design_measure-02": "Design measure 02"
+    },
+    {
+      "nc-icon-glyph design_measure-17": "Design measure 17"
+    },
+    {
+      "nc-icon-glyph design_measure-big": "Design measure big"
+    },
+    {
+      "nc-icon-glyph design_mobile-design": "Design mobile design"
+    },
+    {
+      "nc-icon-glyph design_mobile-dev": "Design mobile dev"
+    },
+    {
+      "nc-icon-glyph design_mouse-08": "Design mouse 08"
+    },
+    {
+      "nc-icon-glyph design_mouse-09": "Design mouse 09"
+    },
+    {
+      "nc-icon-glyph design_mouse-10": "Design mouse 10"
+    },
+    {
+      "nc-icon-glyph design_newsletter-dev": "Design newsletter dev"
+    },
+    {
+      "nc-icon-glyph design_note-code": "Design note code"
+    },
+    {
+      "nc-icon-glyph design_paint-16": "Design paint 16"
+    },
+    {
+      "nc-icon-glyph design_paint-37": "Design paint 37"
+    },
+    {
+      "nc-icon-glyph design_paint-38": "Design paint 38"
+    },
+    {
+      "nc-icon-glyph design_paint-bucket-39": "Design paint bucket-39"
+    },
+    {
+      "nc-icon-glyph design_paint-bucket-40": "Design paint bucket-40"
+    },
+    {
+      "nc-icon-glyph design_palette": "Design palette"
+    },
+    {
+      "nc-icon-glyph design_pantone": "Design pantone"
+    },
+    {
+      "nc-icon-glyph design_paper-design": "Design paper design"
+    },
+    {
+      "nc-icon-glyph design_paper-dev": "Design paper dev"
+    },
+    {
+      "nc-icon-glyph design_patch-19": "Design patch 19"
+    },
+    {
+      "nc-icon-glyph design_patch-34": "Design patch 34"
+    },
+    {
+      "nc-icon-glyph design_path-exclude": "Design path exclude"
+    },
+    {
+      "nc-icon-glyph design_path-intersect": "Design path intersect"
+    },
+    {
+      "nc-icon-glyph design_path-minus": "Design path minus"
+    },
+    {
+      "nc-icon-glyph design_path-unite": "Design path unite"
+    },
+    {
+      "nc-icon-glyph design_pen-01": "Design pen 01"
+    },
+    {
+      "nc-icon-glyph design_pen-23": "Design pen 23"
+    },
+    {
+      "nc-icon-glyph design_pen-tool": "Design pen tool"
+    },
+    {
+      "nc-icon-glyph design_phone": "Design phone"
+    },
+    {
+      "nc-icon-glyph design_photo-editor": "Design photo editor"
+    },
+    {
+      "nc-icon-glyph design_responsive": "Design responsive"
+    },
+    {
+      "nc-icon-glyph design_scissors-dashed": "Design scissors dashed"
+    },
+    {
+      "nc-icon-glyph design_scissors": "Design scissors"
+    },
+    {
+      "nc-icon-glyph design_shape-adjust": "Design shape adjust"
+    },
+    {
+      "nc-icon-glyph design_shape-circle": "Design shape circle"
+    },
+    {
+      "nc-icon-glyph design_shape-polygon": "Design shape polygon"
+    },
+    {
+      "nc-icon-glyph design_shape-square": "Design shape square"
+    },
+    {
+      "nc-icon-glyph design_shape-triangle": "Design shape triangle"
+    },
+    {
+      "nc-icon-glyph design_shapes": "Design shapes"
+    },
+    {
+      "nc-icon-glyph design_sharpener": "Design sharpener"
+    },
+    {
+      "nc-icon-glyph design_slice": "Design slice"
+    },
+    {
+      "nc-icon-glyph design_spray": "Design spray"
+    },
+    {
+      "nc-icon-glyph design_stamp": "Design stamp"
+    },
+    {
+      "nc-icon-glyph design_tablet-mobile": "Design tablet mobile"
+    },
+    {
+      "nc-icon-glyph design_tablet": "Design tablet"
+    },
+    {
+      "nc-icon-glyph design_text": "Design text"
+    },
+    {
+      "nc-icon-glyph design_todo": "Design todo"
+    },
+    {
+      "nc-icon-glyph design_usb": "Design usb"
+    },
+    {
+      "nc-icon-glyph design_vector": "Design vector"
+    },
+    {
+      "nc-icon-glyph design_wand-11": "Design wand 11"
+    },
+    {
+      "nc-icon-glyph design_wand-99": "Design wand 99"
+    },
+    {
+      "nc-icon-glyph design_watch-dev": "Design watch dev"
+    },
+    {
+      "nc-icon-glyph design_web-design": "Design web design"
+    },
+    {
+      "nc-icon-glyph design_webpage": "Design webpage"
+    },
+    {
+      "nc-icon-glyph design_window-code": "Design window code"
+    },
+    {
+      "nc-icon-glyph design_window-dev": "Design window dev"
+    },
+    {
+      "nc-icon-glyph design_window-paragraph": "Design window paragraph"
+    },
+    {
+      "nc-icon-glyph design_window-responsive": "Design window responsive"
+    },
+    {
+      "nc-icon-glyph design-2_3d-28": "Design 2 3d-28"
+    },
+    {
+      "nc-icon-glyph design-2_3d-29": "Design 2 3d-29"
+    },
+    {
+      "nc-icon-glyph design-2_android": "Design 2 android"
+    },
+    {
+      "nc-icon-glyph design-2_angle": "Design 2 angle"
+    },
+    {
+      "nc-icon-glyph design-2_animation-14": "Design 2 animation-14"
+    },
+    {
+      "nc-icon-glyph design-2_animation-31": "Design 2 animation-31"
+    },
+    {
+      "nc-icon-glyph design-2_animation-32": "Design 2 animation-32"
+    },
+    {
+      "nc-icon-glyph design-2_apple": "Design 2 apple"
+    },
+    {
+      "nc-icon-glyph design-2_browser-chrome": "Design 2 browser-chrome"
+    },
+    {
+      "nc-icon-glyph design-2_browser-edge": "Design 2 browser-edge"
+    },
+    {
+      "nc-icon-glyph design-2_browser-firefox": "Design 2 browser-firefox"
+    },
+    {
+      "nc-icon-glyph design-2_browser-ie": "Design 2 browser-ie"
+    },
+    {
+      "nc-icon-glyph design-2_browser-opera": "Design 2 browser-opera"
+    },
+    {
+      "nc-icon-glyph design-2_browser-safari": "Design 2 browser-safari"
+    },
+    {
+      "nc-icon-glyph design-2_bucket": "Design 2 bucket"
+    },
+    {
+      "nc-icon-glyph design-2_button": "Design 2 button"
+    },
+    {
+      "nc-icon-glyph design-2_canvas": "Design 2 canvas"
+    },
+    {
+      "nc-icon-glyph design-2_css3": "Design 2 css3"
+    },
+    {
+      "nc-icon-glyph design-2_cursor-add": "Design 2 cursor-add"
+    },
+    {
+      "nc-icon-glyph design-2_cursor-grab": "Design 2 cursor-grab"
+    },
+    {
+      "nc-icon-glyph design-2_cursor-load": "Design 2 cursor-load"
+    },
+    {
+      "nc-icon-glyph design-2_cursor-menu": "Design 2 cursor-menu"
+    },
+    {
+      "nc-icon-glyph design-2_cursor-not-allowed": "Design 2 cursor-not-allowed"
+    },
+    {
+      "nc-icon-glyph design-2_cursor-pointer": "Design 2 cursor-pointer"
+    },
+    {
+      "nc-icon-glyph design-2_cursor-text": "Design 2 cursor-text"
+    },
+    {
+      "nc-icon-glyph design-2_divider": "Design 2 divider"
+    },
+    {
+      "nc-icon-glyph design-2_filter-organization": "Design 2 filter-organization"
+    },
+    {
+      "nc-icon-glyph design-2_form": "Design 2 form"
+    },
+    {
+      "nc-icon-glyph design-2_frame": "Design 2 frame"
+    },
+    {
+      "nc-icon-glyph design-2_group": "Design 2 group"
+    },
+    {
+      "nc-icon-glyph design-2_html5": "Design 2 html5"
+    },
+    {
+      "nc-icon-glyph design-2_image": "Design 2 image"
+    },
+    {
+      "nc-icon-glyph design-2_layers": "Design 2 layers"
+    },
+    {
+      "nc-icon-glyph design-2_layout-11": "Design 2 layout-11"
+    },
+    {
+      "nc-icon-glyph design-2_layout-25": "Design 2 layout-25"
+    },
+    {
+      "nc-icon-glyph design-2_microsoft": "Design 2 microsoft"
+    },
+    {
+      "nc-icon-glyph design-2_mirror": "Design 2 mirror"
+    },
+    {
+      "nc-icon-glyph design-2_move-down": "Design 2 move-down"
+    },
+    {
+      "nc-icon-glyph design-2_move-up": "Design 2 move-up"
+    },
+    {
+      "nc-icon-glyph design-2_paint-brush": "Design 2 paint-brush"
+    },
+    {
+      "nc-icon-glyph design-2_ruler-pencil": "Design 2 ruler-pencil"
+    },
+    {
+      "nc-icon-glyph design-2_scale-down": "Design 2 scale-down"
+    },
+    {
+      "nc-icon-glyph design-2_scale-up": "Design 2 scale-up"
+    },
+    {
+      "nc-icon-glyph design-2_scale": "Design 2 scale"
+    },
+    {
+      "nc-icon-glyph design-2_selection": "Design 2 selection"
+    },
+    {
+      "nc-icon-glyph design-2_slider": "Design 2 slider"
+    },
+    {
+      "nc-icon-glyph design-2_text": "Design 2 text"
+    },
+    {
+      "nc-icon-glyph design-2_transform-origin": "Design 2 transform-origin"
+    },
+    {
+      "nc-icon-glyph design-2_transform": "Design 2 transform"
+    },
+    {
+      "nc-icon-glyph design-2_ungroup": "Design 2 ungroup"
+    }
+  ],
+  "Emoticons": [
+    {
+      "nc-icon-glyph emoticons_alien": "Emoticons alien"
+    },
+    {
+      "nc-icon-glyph emoticons_angry-10": "Emoticons angry 10"
+    },
+    {
+      "nc-icon-glyph emoticons_angry-44": "Emoticons angry 44"
+    },
+    {
+      "nc-icon-glyph emoticons_big-eyes": "Emoticons big eyes"
+    },
+    {
+      "nc-icon-glyph emoticons_big-smile": "Emoticons big smile"
+    },
+    {
+      "nc-icon-glyph emoticons_bigmouth": "Emoticons bigmouth"
+    },
+    {
+      "nc-icon-glyph emoticons_bleah": "Emoticons bleah"
+    },
+    {
+      "nc-icon-glyph emoticons_blind": "Emoticons blind"
+    },
+    {
+      "nc-icon-glyph emoticons_bomb": "Emoticons bomb"
+    },
+    {
+      "nc-icon-glyph emoticons_bored": "Emoticons bored"
+    },
+    {
+      "nc-icon-glyph emoticons_cake": "Emoticons cake"
+    },
+    {
+      "nc-icon-glyph emoticons_cry-15": "Emoticons cry 15"
+    },
+    {
+      "nc-icon-glyph emoticons_cry-57": "Emoticons cry 57"
+    },
+    {
+      "nc-icon-glyph emoticons_cute": "Emoticons cute"
+    },
+    {
+      "nc-icon-glyph emoticons_devil": "Emoticons devil"
+    },
+    {
+      "nc-icon-glyph emoticons_disgusted": "Emoticons disgusted"
+    },
+    {
+      "nc-icon-glyph emoticons_fist": "Emoticons fist"
+    },
+    {
+      "nc-icon-glyph emoticons_ghost": "Emoticons ghost"
+    },
+    {
+      "nc-icon-glyph emoticons_hannibal": "Emoticons hannibal"
+    },
+    {
+      "nc-icon-glyph emoticons_happy-sun": "Emoticons happy sun"
+    },
+    {
+      "nc-icon-glyph emoticons_kid": "Emoticons kid"
+    },
+    {
+      "nc-icon-glyph emoticons_kiss": "Emoticons kiss"
+    },
+    {
+      "nc-icon-glyph emoticons_laugh-17": "Emoticons laugh 17"
+    },
+    {
+      "nc-icon-glyph emoticons_laugh-35": "Emoticons laugh 35"
+    },
+    {
+      "nc-icon-glyph emoticons_like-no": "Emoticons like no"
+    },
+    {
+      "nc-icon-glyph emoticons_like": "Emoticons like"
+    },
+    {
+      "nc-icon-glyph emoticons_mad-12": "Emoticons mad 12"
+    },
+    {
+      "nc-icon-glyph emoticons_mad-58": "Emoticons mad 58"
+    },
+    {
+      "nc-icon-glyph emoticons_malicious": "Emoticons malicious"
+    },
+    {
+      "nc-icon-glyph emoticons_manga-62": "Emoticons manga 62"
+    },
+    {
+      "nc-icon-glyph emoticons_manga-63": "Emoticons manga 63"
+    },
+    {
+      "nc-icon-glyph emoticons_monster": "Emoticons monster"
+    },
+    {
+      "nc-icon-glyph emoticons_nerd-22": "Emoticons nerd 22"
+    },
+    {
+      "nc-icon-glyph emoticons_nerd-23": "Emoticons nerd 23"
+    },
+    {
+      "nc-icon-glyph emoticons_ninja": "Emoticons ninja"
+    },
+    {
+      "nc-icon-glyph emoticons_no-words": "Emoticons no words"
+    },
+    {
+      "nc-icon-glyph emoticons_parrot": "Emoticons parrot"
+    },
+    {
+      "nc-icon-glyph emoticons_penguin": "Emoticons penguin"
+    },
+    {
+      "nc-icon-glyph emoticons_pirate": "Emoticons pirate"
+    },
+    {
+      "nc-icon-glyph emoticons_poop": "Emoticons poop"
+    },
+    {
+      "nc-icon-glyph emoticons_puzzled": "Emoticons puzzled"
+    },
+    {
+      "nc-icon-glyph emoticons_quite-happy": "Emoticons quite happy"
+    },
+    {
+      "nc-icon-glyph emoticons_robot": "Emoticons robot"
+    },
+    {
+      "nc-icon-glyph emoticons_rock": "Emoticons rock"
+    },
+    {
+      "nc-icon-glyph emoticons_sad": "Emoticons sad"
+    },
+    {
+      "nc-icon-glyph emoticons_satisfied": "Emoticons satisfied"
+    },
+    {
+      "nc-icon-glyph emoticons_shark": "Emoticons shark"
+    },
+    {
+      "nc-icon-glyph emoticons_shy": "Emoticons shy"
+    },
+    {
+      "nc-icon-glyph emoticons_sick": "Emoticons sick"
+    },
+    {
+      "nc-icon-glyph emoticons_silly": "Emoticons silly"
+    },
+    {
+      "nc-icon-glyph emoticons_skull": "Emoticons skull"
+    },
+    {
+      "nc-icon-glyph emoticons_sleep": "Emoticons sleep"
+    },
+    {
+      "nc-icon-glyph emoticons_sloth": "Emoticons sloth"
+    },
+    {
+      "nc-icon-glyph emoticons_smart": "Emoticons smart"
+    },
+    {
+      "nc-icon-glyph emoticons_smile": "Emoticons smile"
+    },
+    {
+      "nc-icon-glyph emoticons_soldier": "Emoticons soldier"
+    },
+    {
+      "nc-icon-glyph emoticons_speechless": "Emoticons speechless"
+    },
+    {
+      "nc-icon-glyph emoticons_spiteful": "Emoticons spiteful"
+    },
+    {
+      "nc-icon-glyph emoticons_sunglasses-48": "Emoticons sunglasses 48"
+    },
+    {
+      "nc-icon-glyph emoticons_sunglasses-49": "Emoticons sunglasses 49"
+    },
+    {
+      "nc-icon-glyph emoticons_surprise": "Emoticons surprise"
+    },
+    {
+      "nc-icon-glyph emoticons_upset-13": "Emoticons upset 13"
+    },
+    {
+      "nc-icon-glyph emoticons_upset-14": "Emoticons upset 14"
+    },
+    {
+      "nc-icon-glyph emoticons_virus": "Emoticons virus"
+    },
+    {
+      "nc-icon-glyph emoticons_what": "Emoticons what"
+    },
+    {
+      "nc-icon-glyph emoticons_whiskers": "Emoticons whiskers"
+    },
+    {
+      "nc-icon-glyph emoticons_wink-06": "Emoticons wink 06"
+    },
+    {
+      "nc-icon-glyph emoticons_wink-11": "Emoticons wink 11"
+    },
+    {
+      "nc-icon-glyph emoticons_wink-69": "Emoticons wink 69"
+    }
+  ],
+  "Energy & Environment": [
+    {
+      "nc-icon-glyph envir_bulb-saver": "Envir bulb saver"
+    },
+    {
+      "nc-icon-glyph envir_bulb": "Envir bulb"
+    },
+    {
+      "nc-icon-glyph envir_car": "Envir car"
+    },
+    {
+      "nc-icon-glyph envir_fuel-electric": "Envir fuel electric"
+    },
+    {
+      "nc-icon-glyph envir_fuel": "Envir fuel"
+    },
+    {
+      "nc-icon-glyph envir_home": "Envir home"
+    },
+    {
+      "nc-icon-glyph envir_level": "Envir level"
+    },
+    {
+      "nc-icon-glyph envir_panel": "Envir panel"
+    },
+    {
+      "nc-icon-glyph envir_radiation": "Envir radiation"
+    },
+    {
+      "nc-icon-glyph envir_recycling": "Envir recycling"
+    },
+    {
+      "nc-icon-glyph envir_save-planet": "Envir save planet"
+    },
+    {
+      "nc-icon-glyph envir_waste-danger": "Envir waste danger"
+    },
+    {
+      "nc-icon-glyph envir_waste-recycling": "Envir waste recycling"
+    },
+    {
+      "nc-icon-glyph envir_waste": "Envir waste"
+    },
+    {
+      "nc-icon-glyph envir_water-hand": "Envir water hand"
+    },
+    {
+      "nc-icon-glyph envir_water-sink": "Envir water sink"
+    },
+    {
+      "nc-icon-glyph envir_water": "Envir water"
+    },
+    {
+      "nc-icon-glyph envir_wind": "Envir wind"
+    }
+  ],
+  "Files & Folders": [
+    {
+      "nc-icon-glyph files_add": "Files add"
+    },
+    {
+      "nc-icon-glyph files_archive-3d-check": "Files archive 3d-check"
+    },
+    {
+      "nc-icon-glyph files_archive-3d-content": "Files archive 3d-content"
+    },
+    {
+      "nc-icon-glyph files_archive-check": "Files archive check"
+    },
+    {
+      "nc-icon-glyph files_archive-content": "Files archive content"
+    },
+    {
+      "nc-icon-glyph files_archive-paper-check": "Files archive paper-check"
+    },
+    {
+      "nc-icon-glyph files_archive-paper": "Files archive paper"
+    },
+    {
+      "nc-icon-glyph files_archive": "Files archive"
+    },
+    {
+      "nc-icon-glyph files_audio": "Files audio"
+    },
+    {
+      "nc-icon-glyph files_book-07": "Files book 07"
+    },
+    {
+      "nc-icon-glyph files_book-08": "Files book 08"
+    },
+    {
+      "nc-icon-glyph files_bookmark": "Files bookmark"
+    },
+    {
+      "nc-icon-glyph files_box": "Files box"
+    },
+    {
+      "nc-icon-glyph files_chart-bar": "Files chart bar"
+    },
+    {
+      "nc-icon-glyph files_chart-pie": "Files chart pie"
+    },
+    {
+      "nc-icon-glyph files_check": "Files check"
+    },
+    {
+      "nc-icon-glyph files_cloud": "Files cloud"
+    },
+    {
+      "nc-icon-glyph files_copy": "Files copy"
+    },
+    {
+      "nc-icon-glyph files_dev": "Files dev"
+    },
+    {
+      "nc-icon-glyph files_download": "Files download"
+    },
+    {
+      "nc-icon-glyph files_drawer": "Files drawer"
+    },
+    {
+      "nc-icon-glyph files_edit": "Files edit"
+    },
+    {
+      "nc-icon-glyph files_exclamation": "Files exclamation"
+    },
+    {
+      "nc-icon-glyph files_folder-13": "Files folder 13"
+    },
+    {
+      "nc-icon-glyph files_folder-14": "Files folder 14"
+    },
+    {
+      "nc-icon-glyph files_folder-15": "Files folder 15"
+    },
+    {
+      "nc-icon-glyph files_folder-16": "Files folder 16"
+    },
+    {
+      "nc-icon-glyph files_folder-17": "Files folder 17"
+    },
+    {
+      "nc-icon-glyph files_folder-18": "Files folder 18"
+    },
+    {
+      "nc-icon-glyph files_folder-19": "Files folder 19"
+    },
+    {
+      "nc-icon-glyph files_folder-add": "Files folder add"
+    },
+    {
+      "nc-icon-glyph files_folder-audio": "Files folder audio"
+    },
+    {
+      "nc-icon-glyph files_folder-chart-bar": "Files folder chart-bar"
+    },
+    {
+      "nc-icon-glyph files_folder-chart-pie": "Files folder chart-pie"
+    },
+    {
+      "nc-icon-glyph files_folder-check": "Files folder check"
+    },
+    {
+      "nc-icon-glyph files_folder-cloud": "Files folder cloud"
+    },
+    {
+      "nc-icon-glyph files_folder-dev": "Files folder dev"
+    },
+    {
+      "nc-icon-glyph files_folder-download": "Files folder download"
+    },
+    {
+      "nc-icon-glyph files_folder-edit": "Files folder edit"
+    },
+    {
+      "nc-icon-glyph files_folder-exclamation": "Files folder exclamation"
+    },
+    {
+      "nc-icon-glyph files_folder-gallery": "Files folder gallery"
+    },
+    {
+      "nc-icon-glyph files_folder-heart": "Files folder heart"
+    },
+    {
+      "nc-icon-glyph files_folder-image": "Files folder image"
+    },
+    {
+      "nc-icon-glyph files_folder-info": "Files folder info"
+    },
+    {
+      "nc-icon-glyph files_folder-link-87": "Files folder link-87"
+    },
+    {
+      "nc-icon-glyph files_folder-link-88": "Files folder link-88"
+    },
+    {
+      "nc-icon-glyph files_folder-locked": "Files folder locked"
+    },
+    {
+      "nc-icon-glyph files_folder-money": "Files folder money"
+    },
+    {
+      "nc-icon-glyph files_folder-music": "Files folder music"
+    },
+    {
+      "nc-icon-glyph files_folder-no-access": "Files folder no-access"
+    },
+    {
+      "nc-icon-glyph files_folder-play": "Files folder play"
+    },
+    {
+      "nc-icon-glyph files_folder-question": "Files folder question"
+    },
+    {
+      "nc-icon-glyph files_folder-refresh": "Files folder refresh"
+    },
+    {
+      "nc-icon-glyph files_folder-remove": "Files folder remove"
+    },
+    {
+      "nc-icon-glyph files_folder-search": "Files folder search"
+    },
+    {
+      "nc-icon-glyph files_folder-settings-81": "Files folder settings-81"
+    },
+    {
+      "nc-icon-glyph files_folder-settings-97": "Files folder settings-97"
+    },
+    {
+      "nc-icon-glyph files_folder-shared": "Files folder shared"
+    },
+    {
+      "nc-icon-glyph files_folder-star": "Files folder star"
+    },
+    {
+      "nc-icon-glyph files_folder-time": "Files folder time"
+    },
+    {
+      "nc-icon-glyph files_folder-upload": "Files folder upload"
+    },
+    {
+      "nc-icon-glyph files_folder-user": "Files folder user"
+    },
+    {
+      "nc-icon-glyph files_folder-vector": "Files folder vector"
+    },
+    {
+      "nc-icon-glyph files_gallery": "Files gallery"
+    },
+    {
+      "nc-icon-glyph files_heart": "Files heart"
+    },
+    {
+      "nc-icon-glyph files_image": "Files image"
+    },
+    {
+      "nc-icon-glyph files_info": "Files info"
+    },
+    {
+      "nc-icon-glyph files_link": "Files link"
+    },
+    {
+      "nc-icon-glyph files_locked": "Files locked"
+    },
+    {
+      "nc-icon-glyph files_money": "Files money"
+    },
+    {
+      "nc-icon-glyph files_music": "Files music"
+    },
+    {
+      "nc-icon-glyph files_no-access": "Files no access"
+    },
+    {
+      "nc-icon-glyph files_notebook": "Files notebook"
+    },
+    {
+      "nc-icon-glyph files_paper": "Files paper"
+    },
+    {
+      "nc-icon-glyph files_play": "Files play"
+    },
+    {
+      "nc-icon-glyph files_question": "Files question"
+    },
+    {
+      "nc-icon-glyph files_refresh": "Files refresh"
+    },
+    {
+      "nc-icon-glyph files_remove": "Files remove"
+    },
+    {
+      "nc-icon-glyph files_replace-folder": "Files replace folder"
+    },
+    {
+      "nc-icon-glyph files_replace": "Files replace"
+    },
+    {
+      "nc-icon-glyph files_search": "Files search"
+    },
+    {
+      "nc-icon-glyph files_settings-46": "Files settings 46"
+    },
+    {
+      "nc-icon-glyph files_settings-99": "Files settings 99"
+    },
+    {
+      "nc-icon-glyph files_shared": "Files shared"
+    },
+    {
+      "nc-icon-glyph files_single-content-02": "Files single content-02"
+    },
+    {
+      "nc-icon-glyph files_single-content-03": "Files single content-03"
+    },
+    {
+      "nc-icon-glyph files_single-copies": "Files single copies"
+    },
+    {
+      "nc-icon-glyph files_single-copy-04": "Files single copy-04"
+    },
+    {
+      "nc-icon-glyph files_single-copy-06": "Files single copy-06"
+    },
+    {
+      "nc-icon-glyph files_single-folded-content": "Files single folded-content"
+    },
+    {
+      "nc-icon-glyph files_single-folded": "Files single folded"
+    },
+    {
+      "nc-icon-glyph files_single-paragraph": "Files single paragraph"
+    },
+    {
+      "nc-icon-glyph files_single": "Files single"
+    },
+    {
+      "nc-icon-glyph files_star": "Files star"
+    },
+    {
+      "nc-icon-glyph files_time": "Files time"
+    },
+    {
+      "nc-icon-glyph files_upload": "Files upload"
+    },
+    {
+      "nc-icon-glyph files_user": "Files user"
+    },
+    {
+      "nc-icon-glyph files_vector": "Files vector"
+    },
+    {
+      "nc-icon-glyph files_zip-54": "Files zip 54"
+    },
+    {
+      "nc-icon-glyph files_zip-55": "Files zip 55"
+    },
+    {
+      "nc-icon-glyph files-2_ai-illustrator": "Files 2 ai-illustrator"
+    },
+    {
+      "nc-icon-glyph files-2_avi": "Files 2 avi"
+    },
+    {
+      "nc-icon-glyph files-2_css": "Files 2 css"
+    },
+    {
+      "nc-icon-glyph files-2_csv": "Files 2 csv"
+    },
+    {
+      "nc-icon-glyph files-2_doc": "Files 2 doc"
+    },
+    {
+      "nc-icon-glyph files-2_docx": "Files 2 docx"
+    },
+    {
+      "nc-icon-glyph files-2_epub": "Files 2 epub"
+    },
+    {
+      "nc-icon-glyph files-2_exe": "Files 2 exe"
+    },
+    {
+      "nc-icon-glyph files-2_font": "Files 2 font"
+    },
+    {
+      "nc-icon-glyph files-2_gif": "Files 2 gif"
+    },
+    {
+      "nc-icon-glyph files-2_html": "Files 2 html"
+    },
+    {
+      "nc-icon-glyph files-2_jpg-jpeg": "Files 2 jpg-jpeg"
+    },
+    {
+      "nc-icon-glyph files-2_js-javascript-jquery": "Files 2 js-javascript-jquery"
+    },
+    {
+      "nc-icon-glyph files-3_mov": "Files 3 mov"
+    },
+    {
+      "nc-icon-glyph files-3_mp3": "Files 3 mp3"
+    },
+    {
+      "nc-icon-glyph files-3_mp4": "Files 3 mp4"
+    },
+    {
+      "nc-icon-glyph files-3_pdf": "Files 3 pdf"
+    },
+    {
+      "nc-icon-glyph files-3_png": "Files 3 png"
+    },
+    {
+      "nc-icon-glyph files-3_psd-photoshop": "Files 3 psd-photoshop"
+    },
+    {
+      "nc-icon-glyph files-3_rar": "Files 3 rar"
+    },
+    {
+      "nc-icon-glyph files-3_sketch": "Files 3 sketch"
+    },
+    {
+      "nc-icon-glyph files-3_svg": "Files 3 svg"
+    },
+    {
+      "nc-icon-glyph files-3_txt": "Files 3 txt"
+    },
+    {
+      "nc-icon-glyph files-3_wav": "Files 3 wav"
+    },
+    {
+      "nc-icon-glyph files-3_zip": "Files 3 zip"
+    }
+  ],
+  "Food": [
+    {
+      "nc-icon-glyph food_alcohol": "Food alcohol"
+    },
+    {
+      "nc-icon-glyph food_apple": "Food apple"
+    },
+    {
+      "nc-icon-glyph food_baby": "Food baby"
+    },
+    {
+      "nc-icon-glyph food_bacon": "Food bacon"
+    },
+    {
+      "nc-icon-glyph food_baguette": "Food baguette"
+    },
+    {
+      "nc-icon-glyph food_banana": "Food banana"
+    },
+    {
+      "nc-icon-glyph food_barbecue-02": "Food barbecue 02"
+    },
+    {
+      "nc-icon-glyph food_barbecue-15": "Food barbecue 15"
+    },
+    {
+      "nc-icon-glyph food_barbecue-tools": "Food barbecue tools"
+    },
+    {
+      "nc-icon-glyph food_beer-95": "Food beer 95"
+    },
+    {
+      "nc-icon-glyph food_beer-96": "Food beer 96"
+    },
+    {
+      "nc-icon-glyph food_beverage": "Food beverage"
+    },
+    {
+      "nc-icon-glyph food_bottle-wine": "Food bottle wine"
+    },
+    {
+      "nc-icon-glyph food_bottle": "Food bottle"
+    },
+    {
+      "nc-icon-glyph food_bowl": "Food bowl"
+    },
+    {
+      "nc-icon-glyph food_bread": "Food bread"
+    },
+    {
+      "nc-icon-glyph food_broccoli": "Food broccoli"
+    },
+    {
+      "nc-icon-glyph food_cake-13": "Food cake 13"
+    },
+    {
+      "nc-icon-glyph food_cake-100": "Food cake 100"
+    },
+    {
+      "nc-icon-glyph food_cake-slice": "Food cake slice"
+    },
+    {
+      "nc-icon-glyph food_candle": "Food candle"
+    },
+    {
+      "nc-icon-glyph food_candy": "Food candy"
+    },
+    {
+      "nc-icon-glyph food_carrot": "Food carrot"
+    },
+    {
+      "nc-icon-glyph food_champagne": "Food champagne"
+    },
+    {
+      "nc-icon-glyph food_cheese-24": "Food cheese 24"
+    },
+    {
+      "nc-icon-glyph food_cheese-87": "Food cheese 87"
+    },
+    {
+      "nc-icon-glyph food_cheeseburger": "Food cheeseburger"
+    },
+    {
+      "nc-icon-glyph food_chef-hat": "Food chef hat"
+    },
+    {
+      "nc-icon-glyph food_cherry": "Food cherry"
+    },
+    {
+      "nc-icon-glyph food_chicken": "Food chicken"
+    },
+    {
+      "nc-icon-glyph food_chili": "Food chili"
+    },
+    {
+      "nc-icon-glyph food_chinese": "Food chinese"
+    },
+    {
+      "nc-icon-glyph food_chips": "Food chips"
+    },
+    {
+      "nc-icon-glyph food_chocolate": "Food chocolate"
+    },
+    {
+      "nc-icon-glyph food_cocktail": "Food cocktail"
+    },
+    {
+      "nc-icon-glyph food_coffe-long": "Food coffe long"
+    },
+    {
+      "nc-icon-glyph food_coffee-long": "Food coffee long"
+    },
+    {
+      "nc-icon-glyph food_coffee": "Food coffee"
+    },
+    {
+      "nc-icon-glyph food_cookies": "Food cookies"
+    },
+    {
+      "nc-icon-glyph food_course": "Food course"
+    },
+    {
+      "nc-icon-glyph food_crab": "Food crab"
+    },
+    {
+      "nc-icon-glyph food_croissant": "Food croissant"
+    },
+    {
+      "nc-icon-glyph food_cutlery-75": "Food cutlery 75"
+    },
+    {
+      "nc-icon-glyph food_cutlery-76": "Food cutlery 76"
+    },
+    {
+      "nc-icon-glyph food_cutlery-77": "Food cutlery 77"
+    },
+    {
+      "nc-icon-glyph food_dishwasher": "Food dishwasher"
+    },
+    {
+      "nc-icon-glyph food_donut": "Food donut"
+    },
+    {
+      "nc-icon-glyph food_drink": "Food drink"
+    },
+    {
+      "nc-icon-glyph food_egg": "Food egg"
+    },
+    {
+      "nc-icon-glyph food_energy-drink": "Food energy drink"
+    },
+    {
+      "nc-icon-glyph food_fish": "Food fish"
+    },
+    {
+      "nc-icon-glyph food_fishbone": "Food fishbone"
+    },
+    {
+      "nc-icon-glyph food_fridge": "Food fridge"
+    },
+    {
+      "nc-icon-glyph food_glass": "Food glass"
+    },
+    {
+      "nc-icon-glyph food_grape": "Food grape"
+    },
+    {
+      "nc-icon-glyph food_hob": "Food hob"
+    },
+    {
+      "nc-icon-glyph food_hot-dog": "Food hot dog"
+    },
+    {
+      "nc-icon-glyph food_ice-cream-22": "Food ice cream-22"
+    },
+    {
+      "nc-icon-glyph food_ice-cream-72": "Food ice cream-72"
+    },
+    {
+      "nc-icon-glyph food_jam": "Food jam"
+    },
+    {
+      "nc-icon-glyph food_kettle": "Food kettle"
+    },
+    {
+      "nc-icon-glyph food_kitchen-fan": "Food kitchen fan"
+    },
+    {
+      "nc-icon-glyph food_knife": "Food knife"
+    },
+    {
+      "nc-icon-glyph food_lemon-slice": "Food lemon slice"
+    },
+    {
+      "nc-icon-glyph food_lighter": "Food lighter"
+    },
+    {
+      "nc-icon-glyph food_lobster": "Food lobster"
+    },
+    {
+      "nc-icon-glyph food_matches": "Food matches"
+    },
+    {
+      "nc-icon-glyph food_measuring-cup": "Food measuring cup"
+    },
+    {
+      "nc-icon-glyph food_meat-spit": "Food meat spit"
+    },
+    {
+      "nc-icon-glyph food_microwave": "Food microwave"
+    },
+    {
+      "nc-icon-glyph food_milk": "Food milk"
+    },
+    {
+      "nc-icon-glyph food_moka": "Food moka"
+    },
+    {
+      "nc-icon-glyph food_muffin": "Food muffin"
+    },
+    {
+      "nc-icon-glyph food_mug": "Food mug"
+    },
+    {
+      "nc-icon-glyph food_oven": "Food oven"
+    },
+    {
+      "nc-icon-glyph food_pan": "Food pan"
+    },
+    {
+      "nc-icon-glyph food_pizza-slice": "Food pizza slice"
+    },
+    {
+      "nc-icon-glyph food_pizza": "Food pizza"
+    },
+    {
+      "nc-icon-glyph food_plate": "Food plate"
+    },
+    {
+      "nc-icon-glyph food_pot": "Food pot"
+    },
+    {
+      "nc-icon-glyph food_prosciutto": "Food prosciutto"
+    },
+    {
+      "nc-icon-glyph food_recipe-book-46": "Food recipe book-46"
+    },
+    {
+      "nc-icon-glyph food_recipe-book-47": "Food recipe book-47"
+    },
+    {
+      "nc-icon-glyph food_rolling-pin": "Food rolling pin"
+    },
+    {
+      "nc-icon-glyph food_salt": "Food salt"
+    },
+    {
+      "nc-icon-glyph food_sausage": "Food sausage"
+    },
+    {
+      "nc-icon-glyph food_scale": "Food scale"
+    },
+    {
+      "nc-icon-glyph food_scotch": "Food scotch"
+    },
+    {
+      "nc-icon-glyph food_shrimp": "Food shrimp"
+    },
+    {
+      "nc-icon-glyph food_steak": "Food steak"
+    },
+    {
+      "nc-icon-glyph food_store": "Food store"
+    },
+    {
+      "nc-icon-glyph food_strawberry": "Food strawberry"
+    },
+    {
+      "nc-icon-glyph food_sushi": "Food sushi"
+    },
+    {
+      "nc-icon-glyph food_tacos": "Food tacos"
+    },
+    {
+      "nc-icon-glyph food_tea": "Food tea"
+    },
+    {
+      "nc-icon-glyph food_temperature": "Food temperature"
+    },
+    {
+      "nc-icon-glyph food_vest-07": "Food vest 07"
+    },
+    {
+      "nc-icon-glyph food_vest-31": "Food vest 31"
+    },
+    {
+      "nc-icon-glyph food_watermelon": "Food watermelon"
+    },
+    {
+      "nc-icon-glyph food_whisk": "Food whisk"
+    }
+  ],
+  "Healthcare & Medical": [
+    {
+      "nc-icon-glyph health_ambulance": "Health ambulance"
+    },
+    {
+      "nc-icon-glyph health_apple": "Health apple"
+    },
+    {
+      "nc-icon-glyph health_bag-49": "Health bag 49"
+    },
+    {
+      "nc-icon-glyph health_bag-50": "Health bag 50"
+    },
+    {
+      "nc-icon-glyph health_brain": "Health brain"
+    },
+    {
+      "nc-icon-glyph health_dna-27": "Health dna 27"
+    },
+    {
+      "nc-icon-glyph health_dna-38": "Health dna 38"
+    },
+    {
+      "nc-icon-glyph health_doctor": "Health doctor"
+    },
+    {
+      "nc-icon-glyph health_flask": "Health flask"
+    },
+    {
+      "nc-icon-glyph health_heartbeat-16": "Health heartbeat 16"
+    },
+    {
+      "nc-icon-glyph health_height": "Health height"
+    },
+    {
+      "nc-icon-glyph health_hospital-32": "Health hospital 32"
+    },
+    {
+      "nc-icon-glyph health_hospital-33": "Health hospital 33"
+    },
+    {
+      "nc-icon-glyph health_hospital-34": "Health hospital 34"
+    },
+    {
+      "nc-icon-glyph health_humidity-26": "Health humidity 26"
+    },
+    {
+      "nc-icon-glyph health_humidity-52": "Health humidity 52"
+    },
+    {
+      "nc-icon-glyph health_intestine": "Health intestine"
+    },
+    {
+      "nc-icon-glyph health_lungs": "Health lungs"
+    },
+    {
+      "nc-icon-glyph health_molecule-39": "Health molecule 39"
+    },
+    {
+      "nc-icon-glyph health_molecule-40": "Health molecule 40"
+    },
+    {
+      "nc-icon-glyph health_notebook": "Health notebook"
+    },
+    {
+      "nc-icon-glyph health_nurse": "Health nurse"
+    },
+    {
+      "nc-icon-glyph health_patch-46": "Health patch 46"
+    },
+    {
+      "nc-icon-glyph health_pill-42": "Health pill 42"
+    },
+    {
+      "nc-icon-glyph health_pill-43": "Health pill 43"
+    },
+    {
+      "nc-icon-glyph health_pill-container-44": "Health pill container-44"
+    },
+    {
+      "nc-icon-glyph health_pill-container-47": "Health pill container-47"
+    },
+    {
+      "nc-icon-glyph health_pulse-chart": "Health pulse chart"
+    },
+    {
+      "nc-icon-glyph health_pulse-phone": "Health pulse phone"
+    },
+    {
+      "nc-icon-glyph health_pulse-sleep": "Health pulse sleep"
+    },
+    {
+      "nc-icon-glyph health_pulse-watch": "Health pulse watch"
+    },
+    {
+      "nc-icon-glyph health_pulse": "Health pulse"
+    },
+    {
+      "nc-icon-glyph health_sleep": "Health sleep"
+    },
+    {
+      "nc-icon-glyph health_steps": "Health steps"
+    },
+    {
+      "nc-icon-glyph health_syringe": "Health syringe"
+    },
+    {
+      "nc-icon-glyph health_temperature-23": "Health temperature 23"
+    },
+    {
+      "nc-icon-glyph health_temperature-24": "Health temperature 24"
+    },
+    {
+      "nc-icon-glyph health_tooth": "Health tooth"
+    },
+    {
+      "nc-icon-glyph health_weed": "Health weed"
+    },
+    {
+      "nc-icon-glyph health_weight": "Health weight"
+    },
+    {
+      "nc-icon-glyph health_wheelchair": "Health wheelchair"
+    },
+    {
+      "nc-icon-glyph health_woman": "Health woman"
+    }
+  ],
+  "Holidays": [
+    {
+      "nc-icon-glyph holidays_bat": "Holidays bat"
+    },
+    {
+      "nc-icon-glyph holidays_biscuit": "Holidays biscuit"
+    },
+    {
+      "nc-icon-glyph holidays_bones": "Holidays bones"
+    },
+    {
+      "nc-icon-glyph holidays_boot": "Holidays boot"
+    },
+    {
+      "nc-icon-glyph holidays_candy": "Holidays candy"
+    },
+    {
+      "nc-icon-glyph holidays_cat": "Holidays cat"
+    },
+    {
+      "nc-icon-glyph holidays_cauldron": "Holidays cauldron"
+    },
+    {
+      "nc-icon-glyph holidays_chimney": "Holidays chimney"
+    },
+    {
+      "nc-icon-glyph holidays_cockade": "Holidays cockade"
+    },
+    {
+      "nc-icon-glyph holidays_coffin": "Holidays coffin"
+    },
+    {
+      "nc-icon-glyph holidays_dead-hand": "Holidays dead hand"
+    },
+    {
+      "nc-icon-glyph holidays_decoration": "Holidays decoration"
+    },
+    {
+      "nc-icon-glyph holidays_deer": "Holidays deer"
+    },
+    {
+      "nc-icon-glyph holidays_egg-38": "Holidays egg 38"
+    },
+    {
+      "nc-icon-glyph holidays_egg-39": "Holidays egg 39"
+    },
+    {
+      "nc-icon-glyph holidays_frankenstein": "Holidays frankenstein"
+    },
+    {
+      "nc-icon-glyph holidays_ghost": "Holidays ghost"
+    },
+    {
+      "nc-icon-glyph holidays_gift-exchange": "Holidays gift exchange"
+    },
+    {
+      "nc-icon-glyph holidays_gift": "Holidays gift"
+    },
+    {
+      "nc-icon-glyph holidays_glove": "Holidays glove"
+    },
+    {
+      "nc-icon-glyph holidays_grave": "Holidays grave"
+    },
+    {
+      "nc-icon-glyph holidays_light": "Holidays light"
+    },
+    {
+      "nc-icon-glyph holidays_message": "Holidays message"
+    },
+    {
+      "nc-icon-glyph holidays_mistletoe": "Holidays mistletoe"
+    },
+    {
+      "nc-icon-glyph holidays_owl": "Holidays owl"
+    },
+    {
+      "nc-icon-glyph holidays_pumpkin": "Holidays pumpkin"
+    },
+    {
+      "nc-icon-glyph holidays_rabbit": "Holidays rabbit"
+    },
+    {
+      "nc-icon-glyph holidays_santa-hat": "Holidays santa hat"
+    },
+    {
+      "nc-icon-glyph holidays_sickle": "Holidays sickle"
+    },
+    {
+      "nc-icon-glyph holidays_snow-ball": "Holidays snow ball"
+    },
+    {
+      "nc-icon-glyph holidays_snowman-head": "Holidays snowman head"
+    },
+    {
+      "nc-icon-glyph holidays_snowman": "Holidays snowman"
+    },
+    {
+      "nc-icon-glyph holidays_soak": "Holidays soak"
+    },
+    {
+      "nc-icon-glyph holidays_spider": "Holidays spider"
+    },
+    {
+      "nc-icon-glyph holidays_tree-ball": "Holidays tree ball"
+    },
+    {
+      "nc-icon-glyph holidays_tree": "Holidays tree"
+    },
+    {
+      "nc-icon-glyph holidays_vampire": "Holidays vampire"
+    },
+    {
+      "nc-icon-glyph holidays_witch-hat": "Holidays witch hat"
+    },
+    {
+      "nc-icon-glyph holidays_wolf": "Holidays wolf"
+    },
+    {
+      "nc-icon-glyph holidays_zombie": "Holidays zombie"
+    }
+  ],
+  "Home furniture": [
+    {
+      "nc-icon-glyph furniture_air-conditioner": "Furniture air conditioner"
+    },
+    {
+      "nc-icon-glyph furniture_armchair": "Furniture armchair"
+    },
+    {
+      "nc-icon-glyph furniture_bath-tub": "Furniture bath tub"
+    },
+    {
+      "nc-icon-glyph furniture_bed-09": "Furniture bed 09"
+    },
+    {
+      "nc-icon-glyph furniture_bed-23": "Furniture bed 23"
+    },
+    {
+      "nc-icon-glyph furniture_bed-side": "Furniture bed side"
+    },
+    {
+      "nc-icon-glyph furniture_cabinet": "Furniture cabinet"
+    },
+    {
+      "nc-icon-glyph furniture_cactus": "Furniture cactus"
+    },
+    {
+      "nc-icon-glyph furniture_chair": "Furniture chair"
+    },
+    {
+      "nc-icon-glyph furniture_coat-hanger": "Furniture coat hanger"
+    },
+    {
+      "nc-icon-glyph furniture_coffee": "Furniture coffee"
+    },
+    {
+      "nc-icon-glyph furniture_cradle": "Furniture cradle"
+    },
+    {
+      "nc-icon-glyph furniture_curtain": "Furniture curtain"
+    },
+    {
+      "nc-icon-glyph furniture_desk-drawer": "Furniture desk drawer"
+    },
+    {
+      "nc-icon-glyph furniture_desk": "Furniture desk"
+    },
+    {
+      "nc-icon-glyph furniture_door": "Furniture door"
+    },
+    {
+      "nc-icon-glyph furniture_drawer": "Furniture drawer"
+    },
+    {
+      "nc-icon-glyph furniture_fridge": "Furniture fridge"
+    },
+    {
+      "nc-icon-glyph furniture_hanger-clothes": "Furniture hanger clothes"
+    },
+    {
+      "nc-icon-glyph furniture_hanger": "Furniture hanger"
+    },
+    {
+      "nc-icon-glyph furniture_heater": "Furniture heater"
+    },
+    {
+      "nc-icon-glyph furniture_iron": "Furniture iron"
+    },
+    {
+      "nc-icon-glyph furniture_lamp-floor": "Furniture lamp floor"
+    },
+    {
+      "nc-icon-glyph furniture_lamp": "Furniture lamp"
+    },
+    {
+      "nc-icon-glyph furniture_library": "Furniture library"
+    },
+    {
+      "nc-icon-glyph furniture_light": "Furniture light"
+    },
+    {
+      "nc-icon-glyph furniture_mixer": "Furniture mixer"
+    },
+    {
+      "nc-icon-glyph furniture_oven": "Furniture oven"
+    },
+    {
+      "nc-icon-glyph furniture_shower": "Furniture shower"
+    },
+    {
+      "nc-icon-glyph furniture_sink-wash": "Furniture sink wash"
+    },
+    {
+      "nc-icon-glyph furniture_sink": "Furniture sink"
+    },
+    {
+      "nc-icon-glyph furniture_sofa": "Furniture sofa"
+    },
+    {
+      "nc-icon-glyph furniture_storage-hanger": "Furniture storage hanger"
+    },
+    {
+      "nc-icon-glyph furniture_storage": "Furniture storage"
+    },
+    {
+      "nc-icon-glyph furniture_table": "Furniture table"
+    },
+    {
+      "nc-icon-glyph furniture_toilet-paper": "Furniture toilet paper"
+    },
+    {
+      "nc-icon-glyph furniture_toilet": "Furniture toilet"
+    },
+    {
+      "nc-icon-glyph furniture_tv": "Furniture tv"
+    },
+    {
+      "nc-icon-glyph furniture_wardrobe": "Furniture wardrobe"
+    },
+    {
+      "nc-icon-glyph furniture_wash": "Furniture wash"
+    }
+  ],
+  "Loaders": [
+    {
+      "nc-icon-glyph loader_circle-04": "Loader circle 04"
+    },
+    {
+      "nc-icon-glyph loader_dots-06": "Loader dots 06"
+    },
+    {
+      "nc-icon-glyph loader_gear": "Loader gear"
+    },
+    {
+      "nc-icon-glyph loader_refresh": "Loader refresh"
+    }
+  ],
+  "Maps & Location": [
+    {
+      "nc-icon-glyph location_appointment": "Location appointment"
+    },
+    {
+      "nc-icon-glyph location_bookmark-add": "Location bookmark add"
+    },
+    {
+      "nc-icon-glyph location_bookmark-remove": "Location bookmark remove"
+    },
+    {
+      "nc-icon-glyph location_bookmark": "Location bookmark"
+    },
+    {
+      "nc-icon-glyph location_compass-04": "Location compass 04"
+    },
+    {
+      "nc-icon-glyph location_compass-05": "Location compass 05"
+    },
+    {
+      "nc-icon-glyph location_compass-06": "Location compass 06"
+    },
+    {
+      "nc-icon-glyph location_crosshair": "Location crosshair"
+    },
+    {
+      "nc-icon-glyph location_explore-user": "Location explore user"
+    },
+    {
+      "nc-icon-glyph location_explore": "Location explore"
+    },
+    {
+      "nc-icon-glyph location_flag-complex": "Location flag complex"
+    },
+    {
+      "nc-icon-glyph location_flag-diagonal-33": "Location flag diagonal-33"
+    },
+    {
+      "nc-icon-glyph location_flag-diagonal-34": "Location flag diagonal-34"
+    },
+    {
+      "nc-icon-glyph location_flag-points-31": "Location flag points-31"
+    },
+    {
+      "nc-icon-glyph location_flag-points-32": "Location flag points-32"
+    },
+    {
+      "nc-icon-glyph location_flag-simple": "Location flag simple"
+    },
+    {
+      "nc-icon-glyph location_flag-triangle": "Location flag triangle"
+    },
+    {
+      "nc-icon-glyph location_flag": "Location flag"
+    },
+    {
+      "nc-icon-glyph location_gps": "Location gps"
+    },
+    {
+      "nc-icon-glyph location_map-big": "Location map big"
+    },
+    {
+      "nc-icon-glyph location_map-compass": "Location map compass"
+    },
+    {
+      "nc-icon-glyph location_map-gps": "Location map gps"
+    },
+    {
+      "nc-icon-glyph location_map-marker": "Location map marker"
+    },
+    {
+      "nc-icon-glyph location_map-pin": "Location map pin"
+    },
+    {
+      "nc-icon-glyph location_map": "Location map"
+    },
+    {
+      "nc-icon-glyph location_marker": "Location marker"
+    },
+    {
+      "nc-icon-glyph location_pin-add": "Location pin add"
+    },
+    {
+      "nc-icon-glyph location_pin-copy": "Location pin copy"
+    },
+    {
+      "nc-icon-glyph location_pin-remove": "Location pin remove"
+    },
+    {
+      "nc-icon-glyph location_pin": "Location pin"
+    },
+    {
+      "nc-icon-glyph location_pins": "Location pins"
+    },
+    {
+      "nc-icon-glyph location_position-marker": "Location position marker"
+    },
+    {
+      "nc-icon-glyph location_position-pin": "Location position pin"
+    },
+    {
+      "nc-icon-glyph location_position-user": "Location position user"
+    },
+    {
+      "nc-icon-glyph location_radar": "Location radar"
+    },
+    {
+      "nc-icon-glyph location_road": "Location road"
+    },
+    {
+      "nc-icon-glyph location_route-alert": "Location route alert"
+    },
+    {
+      "nc-icon-glyph location_route-close": "Location route close"
+    },
+    {
+      "nc-icon-glyph location_route-open": "Location route open"
+    },
+    {
+      "nc-icon-glyph location_square-marker": "Location square marker"
+    },
+    {
+      "nc-icon-glyph location_square-pin": "Location square pin"
+    },
+    {
+      "nc-icon-glyph location_treasure-map-21": "Location treasure map-21"
+    },
+    {
+      "nc-icon-glyph location_treasure-map-40": "Location treasure map-40"
+    },
+    {
+      "nc-icon-glyph location_worl-marker": "Location worl marker"
+    },
+    {
+      "nc-icon-glyph location_world-pin": "Location world pin"
+    },
+    {
+      "nc-icon-glyph location_world": "Location world"
+    }
+  ],
+  "Media": [
+    {
+      "nc-icon-glyph media-1_3d": "Media 1 3d"
+    },
+    {
+      "nc-icon-glyph media-1_action-73": "Media 1 action-73"
+    },
+    {
+      "nc-icon-glyph media-1_action-74": "Media 1 action-74"
+    },
+    {
+      "nc-icon-glyph media-1_album": "Media 1 album"
+    },
+    {
+      "nc-icon-glyph media-1_audio-91": "Media 1 audio-91"
+    },
+    {
+      "nc-icon-glyph media-1_audio-92": "Media 1 audio-92"
+    },
+    {
+      "nc-icon-glyph media-1_balance": "Media 1 balance"
+    },
+    {
+      "nc-icon-glyph media-1_brightness-46": "Media 1 brightness-46"
+    },
+    {
+      "nc-icon-glyph media-1_brightness-47": "Media 1 brightness-47"
+    },
+    {
+      "nc-icon-glyph media-1_button-circle-pause": "Media 1 button-circle-pause"
+    },
+    {
+      "nc-icon-glyph media-1_button-circle-play": "Media 1 button-circle-play"
+    },
+    {
+      "nc-icon-glyph media-1_button-circle-stop": "Media 1 button-circle-stop"
+    },
+    {
+      "nc-icon-glyph media-1_button-eject": "Media 1 button-eject"
+    },
+    {
+      "nc-icon-glyph media-1_button-next": "Media 1 button-next"
+    },
+    {
+      "nc-icon-glyph media-1_button-pause": "Media 1 button-pause"
+    },
+    {
+      "nc-icon-glyph media-1_button-play": "Media 1 button-play"
+    },
+    {
+      "nc-icon-glyph media-1_button-power": "Media 1 button-power"
+    },
+    {
+      "nc-icon-glyph media-1_button-previous": "Media 1 button-previous"
+    },
+    {
+      "nc-icon-glyph media-1_button-record": "Media 1 button-record"
+    },
+    {
+      "nc-icon-glyph media-1_button-rewind": "Media 1 button-rewind"
+    },
+    {
+      "nc-icon-glyph media-1_button-skip": "Media 1 button-skip"
+    },
+    {
+      "nc-icon-glyph media-1_button-stop": "Media 1 button-stop"
+    },
+    {
+      "nc-icon-glyph media-1_camera-18": "Media 1 camera-18"
+    },
+    {
+      "nc-icon-glyph media-1_camera-19": "Media 1 camera-19"
+    },
+    {
+      "nc-icon-glyph media-1_camera-20": "Media 1 camera-20"
+    },
+    {
+      "nc-icon-glyph media-1_camera-ban-36": "Media 1 camera-ban-36"
+    },
+    {
+      "nc-icon-glyph media-1_camera-ban-37": "Media 1 camera-ban-37"
+    },
+    {
+      "nc-icon-glyph media-1_camera-compact": "Media 1 camera-compact"
+    },
+    {
+      "nc-icon-glyph media-1_camera-screen": "Media 1 camera-screen"
+    },
+    {
+      "nc-icon-glyph media-1_camera-square-57": "Media 1 camera-square-57"
+    },
+    {
+      "nc-icon-glyph media-1_camera-square-58": "Media 1 camera-square-58"
+    },
+    {
+      "nc-icon-glyph media-1_camera-time": "Media 1 camera-time"
+    },
+    {
+      "nc-icon-glyph media-1_countdown-34": "Media 1 countdown-34"
+    },
+    {
+      "nc-icon-glyph media-1_countdown-35": "Media 1 countdown-35"
+    },
+    {
+      "nc-icon-glyph media-1_edit-color": "Media 1 edit-color"
+    },
+    {
+      "nc-icon-glyph media-1_edit-contrast-42": "Media 1 edit-contrast-42"
+    },
+    {
+      "nc-icon-glyph media-1_edit-contrast-43": "Media 1 edit-contrast-43"
+    },
+    {
+      "nc-icon-glyph media-1_edit-saturation": "Media 1 edit-saturation"
+    },
+    {
+      "nc-icon-glyph media-1_flash-21": "Media 1 flash-21"
+    },
+    {
+      "nc-icon-glyph media-1_flash-24": "Media 1 flash-24"
+    },
+    {
+      "nc-icon-glyph media-1_flash-29": "Media 1 flash-29"
+    },
+    {
+      "nc-icon-glyph media-1_flash-auto-22": "Media 1 flash-auto-22"
+    },
+    {
+      "nc-icon-glyph media-1_flash-auto-25": "Media 1 flash-auto-25"
+    },
+    {
+      "nc-icon-glyph media-1_flash-off-23": "Media 1 flash-off-23"
+    },
+    {
+      "nc-icon-glyph media-1_flash-off-26": "Media 1 flash-off-26"
+    },
+    {
+      "nc-icon-glyph media-1_focus-32": "Media 1 focus-32"
+    },
+    {
+      "nc-icon-glyph media-1_focus-38": "Media 1 focus-38"
+    },
+    {
+      "nc-icon-glyph media-1_focus-40": "Media 1 focus-40"
+    },
+    {
+      "nc-icon-glyph media-1_focus-circle": "Media 1 focus-circle"
+    },
+    {
+      "nc-icon-glyph media-1_frame-12": "Media 1 frame-12"
+    },
+    {
+      "nc-icon-glyph media-1_frame-41": "Media 1 frame-41"
+    },
+    {
+      "nc-icon-glyph media-1_grid": "Media 1 grid"
+    },
+    {
+      "nc-icon-glyph media-1_image-01": "Media 1 image-01"
+    },
+    {
+      "nc-icon-glyph media-1_image-02": "Media 1 image-02"
+    },
+    {
+      "nc-icon-glyph media-1_image-05": "Media 1 image-05"
+    },
+    {
+      "nc-icon-glyph media-1_image-add": "Media 1 image-add"
+    },
+    {
+      "nc-icon-glyph media-1_image-delete": "Media 1 image-delete"
+    },
+    {
+      "nc-icon-glyph media-1_image-location": "Media 1 image-location"
+    },
+    {
+      "nc-icon-glyph media-1_kid": "Media 1 kid"
+    },
+    {
+      "nc-icon-glyph media-1_layers": "Media 1 layers"
+    },
+    {
+      "nc-icon-glyph media-1_lens-31": "Media 1 lens-31"
+    },
+    {
+      "nc-icon-glyph media-1_lens-56": "Media 1 lens-56"
+    },
+    {
+      "nc-icon-glyph media-1_macro": "Media 1 macro"
+    },
+    {
+      "nc-icon-glyph media-1_movie-61": "Media 1 movie-61"
+    },
+    {
+      "nc-icon-glyph media-1_movie-62": "Media 1 movie-62"
+    },
+    {
+      "nc-icon-glyph media-1_night": "Media 1 night"
+    },
+    {
+      "nc-icon-glyph media-1_picture": "Media 1 picture"
+    },
+    {
+      "nc-icon-glyph media-1_play-68": "Media 1 play-68"
+    },
+    {
+      "nc-icon-glyph media-1_play-69": "Media 1 play-69"
+    },
+    {
+      "nc-icon-glyph media-1_player": "Media 1 player"
+    },
+    {
+      "nc-icon-glyph media-1_polaroid-add": "Media 1 polaroid-add"
+    },
+    {
+      "nc-icon-glyph media-1_polaroid-delete": "Media 1 polaroid-delete"
+    },
+    {
+      "nc-icon-glyph media-1_polaroid-multiple": "Media 1 polaroid-multiple"
+    },
+    {
+      "nc-icon-glyph media-1_polaroid-user": "Media 1 polaroid-user"
+    },
+    {
+      "nc-icon-glyph media-1_polaroid": "Media 1 polaroid"
+    },
+    {
+      "nc-icon-glyph media-1_roll": "Media 1 roll"
+    },
+    {
+      "nc-icon-glyph media-1_rotate-left": "Media 1 rotate-left"
+    },
+    {
+      "nc-icon-glyph media-1_rotate-right": "Media 1 rotate-right"
+    },
+    {
+      "nc-icon-glyph media-1_sd": "Media 1 sd"
+    },
+    {
+      "nc-icon-glyph media-1_selfie": "Media 1 selfie"
+    },
+    {
+      "nc-icon-glyph media-1_shake": "Media 1 shake"
+    },
+    {
+      "nc-icon-glyph media-1_speaker": "Media 1 speaker"
+    },
+    {
+      "nc-icon-glyph media-1_sport": "Media 1 sport"
+    },
+    {
+      "nc-icon-glyph media-1_ticket-75": "Media 1 ticket-75"
+    },
+    {
+      "nc-icon-glyph media-1_ticket-76": "Media 1 ticket-76"
+    },
+    {
+      "nc-icon-glyph media-1_touch": "Media 1 touch"
+    },
+    {
+      "nc-icon-glyph media-1_tripod": "Media 1 tripod"
+    },
+    {
+      "nc-icon-glyph media-1_video-64": "Media 1 video-64"
+    },
+    {
+      "nc-icon-glyph media-1_video-65": "Media 1 video-65"
+    },
+    {
+      "nc-icon-glyph media-1_video-66": "Media 1 video-66"
+    },
+    {
+      "nc-icon-glyph media-1_video-67": "Media 1 video-67"
+    },
+    {
+      "nc-icon-glyph media-1_videocamera-71": "Media 1 videocamera-71"
+    },
+    {
+      "nc-icon-glyph media-1_videocamera-72": "Media 1 videocamera-72"
+    },
+    {
+      "nc-icon-glyph media-1_volume-93": "Media 1 volume-93"
+    },
+    {
+      "nc-icon-glyph media-1_volume-97": "Media 1 volume-97"
+    },
+    {
+      "nc-icon-glyph media-1_volume-98": "Media 1 volume-98"
+    },
+    {
+      "nc-icon-glyph media-1_volume-ban": "Media 1 volume-ban"
+    },
+    {
+      "nc-icon-glyph media-1_volume-down": "Media 1 volume-down"
+    },
+    {
+      "nc-icon-glyph media-1_volume-off": "Media 1 volume-off"
+    },
+    {
+      "nc-icon-glyph media-1_volume-up": "Media 1 volume-up"
+    },
+    {
+      "nc-icon-glyph media-2_guitar": "Media 2 guitar"
+    },
+    {
+      "nc-icon-glyph media-2_headphones-mic": "Media 2 headphones-mic"
+    },
+    {
+      "nc-icon-glyph media-2_headphones": "Media 2 headphones"
+    },
+    {
+      "nc-icon-glyph media-2_knob": "Media 2 knob"
+    },
+    {
+      "nc-icon-glyph media-2_mic": "Media 2 mic"
+    },
+    {
+      "nc-icon-glyph media-2_music-album": "Media 2 music-album"
+    },
+    {
+      "nc-icon-glyph media-2_music-cloud": "Media 2 music-cloud"
+    },
+    {
+      "nc-icon-glyph media-2_note-03": "Media 2 note-03"
+    },
+    {
+      "nc-icon-glyph media-2_note-04": "Media 2 note-04"
+    },
+    {
+      "nc-icon-glyph media-2_piano": "Media 2 piano"
+    },
+    {
+      "nc-icon-glyph media-2_radio": "Media 2 radio"
+    },
+    {
+      "nc-icon-glyph media-2_remix": "Media 2 remix"
+    },
+    {
+      "nc-icon-glyph media-2_sound-wave": "Media 2 sound-wave"
+    },
+    {
+      "nc-icon-glyph media-2_speaker-01": "Media 2 speaker-01"
+    },
+    {
+      "nc-icon-glyph media-2_speaker-05": "Media 2 speaker-05"
+    },
+    {
+      "nc-icon-glyph media-2_tape": "Media 2 tape"
+    }
+  ],
+  "Objects": [
+    {
+      "nc-icon-glyph objects_alien-29": "Objects alien 29"
+    },
+    {
+      "nc-icon-glyph objects_alien-33": "Objects alien 33"
+    },
+    {
+      "nc-icon-glyph objects_anchor": "Objects anchor"
+    },
+    {
+      "nc-icon-glyph objects_astronaut": "Objects astronaut"
+    },
+    {
+      "nc-icon-glyph objects_axe": "Objects axe"
+    },
+    {
+      "nc-icon-glyph objects_baby-bottle": "Objects baby bottle"
+    },
+    {
+      "nc-icon-glyph objects_baby": "Objects baby"
+    },
+    {
+      "nc-icon-glyph objects_baloon": "Objects baloon"
+    },
+    {
+      "nc-icon-glyph objects_battery": "Objects battery"
+    },
+    {
+      "nc-icon-glyph objects_bear": "Objects bear"
+    },
+    {
+      "nc-icon-glyph objects_billiard": "Objects billiard"
+    },
+    {
+      "nc-icon-glyph objects_binocular": "Objects binocular"
+    },
+    {
+      "nc-icon-glyph objects_bow": "Objects bow"
+    },
+    {
+      "nc-icon-glyph objects_bowling": "Objects bowling"
+    },
+    {
+      "nc-icon-glyph objects_broom": "Objects broom"
+    },
+    {
+      "nc-icon-glyph objects_cone": "Objects cone"
+    },
+    {
+      "nc-icon-glyph objects_controller": "Objects controller"
+    },
+    {
+      "nc-icon-glyph objects_diamond": "Objects diamond"
+    },
+    {
+      "nc-icon-glyph objects_dice": "Objects dice"
+    },
+    {
+      "nc-icon-glyph objects_globe": "Objects globe"
+    },
+    {
+      "nc-icon-glyph objects_hut": "Objects hut"
+    },
+    {
+      "nc-icon-glyph objects_key-25": "Objects key 25"
+    },
+    {
+      "nc-icon-glyph objects_key-26": "Objects key 26"
+    },
+    {
+      "nc-icon-glyph objects_lamp": "Objects lamp"
+    },
+    {
+      "nc-icon-glyph objects_leaf-36": "Objects leaf 36"
+    },
+    {
+      "nc-icon-glyph objects_leaf-38": "Objects leaf 38"
+    },
+    {
+      "nc-icon-glyph objects_light": "Objects light"
+    },
+    {
+      "nc-icon-glyph objects_pipe": "Objects pipe"
+    },
+    {
+      "nc-icon-glyph objects_planet": "Objects planet"
+    },
+    {
+      "nc-icon-glyph objects_puzzle-09": "Objects puzzle 09"
+    },
+    {
+      "nc-icon-glyph objects_puzzle-10": "Objects puzzle 10"
+    },
+    {
+      "nc-icon-glyph objects_shovel": "Objects shovel"
+    },
+    {
+      "nc-icon-glyph objects_skull": "Objects skull"
+    },
+    {
+      "nc-icon-glyph objects_spaceship": "Objects spaceship"
+    },
+    {
+      "nc-icon-glyph objects_spray": "Objects spray"
+    },
+    {
+      "nc-icon-glyph objects_support-16": "Objects support 16"
+    },
+    {
+      "nc-icon-glyph objects_support-17": "Objects support 17"
+    },
+    {
+      "nc-icon-glyph objects_umbrella-13": "Objects umbrella 13"
+    },
+    {
+      "nc-icon-glyph objects_umbrella-14": "Objects umbrella 14"
+    },
+    {
+      "nc-icon-glyph objects_wool-ball": "Objects wool ball"
+    }
+  ],
+  "School & Education": [
+    {
+      "nc-icon-glyph education_abc": "Education abc"
+    },
+    {
+      "nc-icon-glyph education_agenda-bookmark": "Education agenda bookmark"
+    },
+    {
+      "nc-icon-glyph education_atom": "Education atom"
+    },
+    {
+      "nc-icon-glyph education_award-55": "Education award 55"
+    },
+    {
+      "nc-icon-glyph education_backpack-57": "Education backpack 57"
+    },
+    {
+      "nc-icon-glyph education_backpack-58": "Education backpack 58"
+    },
+    {
+      "nc-icon-glyph education_ball-basket": "Education ball basket"
+    },
+    {
+      "nc-icon-glyph education_ball-soccer": "Education ball soccer"
+    },
+    {
+      "nc-icon-glyph education_board-51": "Education board 51"
+    },
+    {
+      "nc-icon-glyph education_book-39": "Education book 39"
+    },
+    {
+      "nc-icon-glyph education_book-bookmark": "Education book bookmark"
+    },
+    {
+      "nc-icon-glyph education_book-open": "Education book open"
+    },
+    {
+      "nc-icon-glyph education_books-46": "Education books 46"
+    },
+    {
+      "nc-icon-glyph education_chalkboard": "Education chalkboard"
+    },
+    {
+      "nc-icon-glyph education_flask": "Education flask"
+    },
+    {
+      "nc-icon-glyph education_glasses": "Education glasses"
+    },
+    {
+      "nc-icon-glyph education_grammar-check": "Education grammar check"
+    },
+    {
+      "nc-icon-glyph education_hat": "Education hat"
+    },
+    {
+      "nc-icon-glyph education_language": "Education language"
+    },
+    {
+      "nc-icon-glyph education_microscope": "Education microscope"
+    },
+    {
+      "nc-icon-glyph education_molecule": "Education molecule"
+    },
+    {
+      "nc-icon-glyph education_notepad": "Education notepad"
+    },
+    {
+      "nc-icon-glyph education_paper-diploma": "Education paper diploma"
+    },
+    {
+      "nc-icon-glyph education_paper": "Education paper"
+    },
+    {
+      "nc-icon-glyph education_pencil-47": "Education pencil 47"
+    },
+    {
+      "nc-icon-glyph education_school": "Education school"
+    }
+  ],
+  "Shopping": [
+    {
+      "nc-icon-glyph shopping_award": "Shopping award"
+    },
+    {
+      "nc-icon-glyph shopping_bag-09": "Shopping bag 09"
+    },
+    {
+      "nc-icon-glyph shopping_bag-16": "Shopping bag 16"
+    },
+    {
+      "nc-icon-glyph shopping_bag-17": "Shopping bag 17"
+    },
+    {
+      "nc-icon-glyph shopping_bag-20": "Shopping bag 20"
+    },
+    {
+      "nc-icon-glyph shopping_bag-add-18": "Shopping bag add-18"
+    },
+    {
+      "nc-icon-glyph shopping_bag-add-21": "Shopping bag add-21"
+    },
+    {
+      "nc-icon-glyph shopping_bag-edit": "Shopping bag edit"
+    },
+    {
+      "nc-icon-glyph shopping_bag-remove-19": "Shopping bag remove-19"
+    },
+    {
+      "nc-icon-glyph shopping_bag-remove-22": "Shopping bag remove-22"
+    },
+    {
+      "nc-icon-glyph shopping_barcode-scan": "Shopping barcode scan"
+    },
+    {
+      "nc-icon-glyph shopping_barcode": "Shopping barcode"
+    },
+    {
+      "nc-icon-glyph shopping_bardcode-qr": "Shopping bardcode qr"
+    },
+    {
+      "nc-icon-glyph shopping_basket-add": "Shopping basket add"
+    },
+    {
+      "nc-icon-glyph shopping_basket-edit": "Shopping basket edit"
+    },
+    {
+      "nc-icon-glyph shopping_basket-remove": "Shopping basket remove"
+    },
+    {
+      "nc-icon-glyph shopping_basket-simple-add": "Shopping basket simple-add"
+    },
+    {
+      "nc-icon-glyph shopping_basket-simple-remove": "Shopping basket simple-remove"
+    },
+    {
+      "nc-icon-glyph shopping_basket-simple": "Shopping basket simple"
+    },
+    {
+      "nc-icon-glyph shopping_basket": "Shopping basket"
+    },
+    {
+      "nc-icon-glyph shopping_bitcoin": "Shopping bitcoin"
+    },
+    {
+      "nc-icon-glyph shopping_board": "Shopping board"
+    },
+    {
+      "nc-icon-glyph shopping_box-3d-50": "Shopping box 3d-50"
+    },
+    {
+      "nc-icon-glyph shopping_box-3d-67": "Shopping box 3d-67"
+    },
+    {
+      "nc-icon-glyph shopping_box-ribbon": "Shopping box ribbon"
+    },
+    {
+      "nc-icon-glyph shopping_box": "Shopping box"
+    },
+    {
+      "nc-icon-glyph shopping_cart-add": "Shopping cart add"
+    },
+    {
+      "nc-icon-glyph shopping_cart-modern-add": "Shopping cart modern-add"
+    },
+    {
+      "nc-icon-glyph shopping_cart-modern-in": "Shopping cart modern-in"
+    },
+    {
+      "nc-icon-glyph shopping_cart-modern-remove": "Shopping cart modern-remove"
+    },
+    {
+      "nc-icon-glyph shopping_cart-modern": "Shopping cart modern"
+    },
+    {
+      "nc-icon-glyph shopping_cart-remove": "Shopping cart remove"
+    },
+    {
+      "nc-icon-glyph shopping_cart-simple-add": "Shopping cart simple-add"
+    },
+    {
+      "nc-icon-glyph shopping_cart-simple-in": "Shopping cart simple-in"
+    },
+    {
+      "nc-icon-glyph shopping_cart-simple-remove": "Shopping cart simple-remove"
+    },
+    {
+      "nc-icon-glyph shopping_cart-simple": "Shopping cart simple"
+    },
+    {
+      "nc-icon-glyph shopping_cart": "Shopping cart"
+    },
+    {
+      "nc-icon-glyph shopping_cash-register": "Shopping cash register"
+    },
+    {
+      "nc-icon-glyph shopping_chart": "Shopping chart"
+    },
+    {
+      "nc-icon-glyph shopping_credit-card-in": "Shopping credit card-in"
+    },
+    {
+      "nc-icon-glyph shopping_credit-card": "Shopping credit card"
+    },
+    {
+      "nc-icon-glyph shopping_credit-locked": "Shopping credit locked"
+    },
+    {
+      "nc-icon-glyph shopping_delivery-fast": "Shopping delivery fast"
+    },
+    {
+      "nc-icon-glyph shopping_delivery-time": "Shopping delivery time"
+    },
+    {
+      "nc-icon-glyph shopping_delivery-track": "Shopping delivery track"
+    },
+    {
+      "nc-icon-glyph shopping_delivery": "Shopping delivery"
+    },
+    {
+      "nc-icon-glyph shopping_discount": "Shopping discount"
+    },
+    {
+      "nc-icon-glyph shopping_gift": "Shopping gift"
+    },
+    {
+      "nc-icon-glyph shopping_hand-card": "Shopping hand card"
+    },
+    {
+      "nc-icon-glyph shopping_list": "Shopping list"
+    },
+    {
+      "nc-icon-glyph shopping_mobile-card": "Shopping mobile card"
+    },
+    {
+      "nc-icon-glyph shopping_mobile-cart": "Shopping mobile cart"
+    },
+    {
+      "nc-icon-glyph shopping_mobile-touch": "Shopping mobile touch"
+    },
+    {
+      "nc-icon-glyph shopping_newsletter": "Shopping newsletter"
+    },
+    {
+      "nc-icon-glyph shopping_pos": "Shopping pos"
+    },
+    {
+      "nc-icon-glyph shopping_receipt-list-42": "Shopping receipt list-42"
+    },
+    {
+      "nc-icon-glyph shopping_receipt-list-43": "Shopping receipt list-43"
+    },
+    {
+      "nc-icon-glyph shopping_receipt": "Shopping receipt"
+    },
+    {
+      "nc-icon-glyph shopping_shop-location": "Shopping shop location"
+    },
+    {
+      "nc-icon-glyph shopping_shop": "Shopping shop"
+    },
+    {
+      "nc-icon-glyph shopping_stock": "Shopping stock"
+    },
+    {
+      "nc-icon-glyph shopping_tag-content": "Shopping tag content"
+    },
+    {
+      "nc-icon-glyph shopping_tag-cut": "Shopping tag cut"
+    },
+    {
+      "nc-icon-glyph shopping_tag-line": "Shopping tag line"
+    },
+    {
+      "nc-icon-glyph shopping_tag-sale": "Shopping tag sale"
+    },
+    {
+      "nc-icon-glyph shopping_tag": "Shopping tag"
+    },
+    {
+      "nc-icon-glyph shopping_wallet": "Shopping wallet"
+    }
+  ],
+  "Socials": [
+    {
+      "nc-icon-glyph social-1_logo-500px": "Social 1 logo-500px"
+    },
+    {
+      "nc-icon-glyph social-1_logo-angellist": "Social 1 logo-angellist"
+    },
+    {
+      "nc-icon-glyph social-1_logo-behance": "Social 1 logo-behance"
+    },
+    {
+      "nc-icon-glyph social-1_logo-blogger": "Social 1 logo-blogger"
+    },
+    {
+      "nc-icon-glyph social-1_logo-buffer": "Social 1 logo-buffer"
+    },
+    {
+      "nc-icon-glyph social-1_logo-buysellads": "Social 1 logo-buysellads"
+    },
+    {
+      "nc-icon-glyph social-1_logo-codepen": "Social 1 logo-codepen"
+    },
+    {
+      "nc-icon-glyph social-1_logo-creative-market": "Social 1 logo-creative-market"
+    },
+    {
+      "nc-icon-glyph social-1_logo-crunchbase": "Social 1 logo-crunchbase"
+    },
+    {
+      "nc-icon-glyph social-1_logo-deviantart": "Social 1 logo-deviantart"
+    },
+    {
+      "nc-icon-glyph social-1_logo-dribbble": "Social 1 logo-dribbble"
+    },
+    {
+      "nc-icon-glyph social-1_logo-dropbox": "Social 1 logo-dropbox"
+    },
+    {
+      "nc-icon-glyph social-1_logo-envato": "Social 1 logo-envato"
+    },
+    {
+      "nc-icon-glyph social-1_logo-evernote": "Social 1 logo-evernote"
+    },
+    {
+      "nc-icon-glyph social-1_logo-facebook": "Social 1 logo-facebook"
+    },
+    {
+      "nc-icon-glyph social-1_logo-fb-simple": "Social 1 logo-fb-simple"
+    },
+    {
+      "nc-icon-glyph social-1_logo-feedly": "Social 1 logo-feedly"
+    },
+    {
+      "nc-icon-glyph social-1_logo-flickr": "Social 1 logo-flickr"
+    },
+    {
+      "nc-icon-glyph social-1_logo-github": "Social 1 logo-github"
+    },
+    {
+      "nc-icon-glyph social-1_logo-google-plus": "Social 1 logo-google-plus"
+    },
+    {
+      "nc-icon-glyph social-1_logo-instagram": "Social 1 logo-instagram"
+    },
+    {
+      "nc-icon-glyph social-1_logo-lastfm": "Social 1 logo-lastfm"
+    },
+    {
+      "nc-icon-glyph social-1_logo-linkedin": "Social 1 logo-linkedin"
+    },
+    {
+      "nc-icon-glyph social-1_logo-meetup": "Social 1 logo-meetup"
+    },
+    {
+      "nc-icon-glyph social-1_logo-myspace": "Social 1 logo-myspace"
+    },
+    {
+      "nc-icon-glyph social-1_logo-paypal": "Social 1 logo-paypal"
+    },
+    {
+      "nc-icon-glyph social-1_logo-pinterest": "Social 1 logo-pinterest"
+    },
+    {
+      "nc-icon-glyph social-1_logo-product-hunt": "Social 1 logo-product-hunt"
+    },
+    {
+      "nc-icon-glyph social-1_logo-reddit": "Social 1 logo-reddit"
+    },
+    {
+      "nc-icon-glyph social-1_logo-rss": "Social 1 logo-rss"
+    },
+    {
+      "nc-icon-glyph social-1_logo-shopify": "Social 1 logo-shopify"
+    },
+    {
+      "nc-icon-glyph social-1_logo-skype": "Social 1 logo-skype"
+    },
+    {
+      "nc-icon-glyph social-1_logo-slack": "Social 1 logo-slack"
+    },
+    {
+      "nc-icon-glyph social-1_logo-soundcloud": "Social 1 logo-soundcloud"
+    },
+    {
+      "nc-icon-glyph social-1_logo-spotify": "Social 1 logo-spotify"
+    },
+    {
+      "nc-icon-glyph social-1_logo-trello": "Social 1 logo-trello"
+    },
+    {
+      "nc-icon-glyph social-1_logo-tumblr": "Social 1 logo-tumblr"
+    },
+    {
+      "nc-icon-glyph social-1_logo-twitter": "Social 1 logo-twitter"
+    },
+    {
+      "nc-icon-glyph social-1_logo-vimeo": "Social 1 logo-vimeo"
+    },
+    {
+      "nc-icon-glyph social-1_logo-vine": "Social 1 logo-vine"
+    },
+    {
+      "nc-icon-glyph social-1_logo-whatsapp": "Social 1 logo-whatsapp"
+    },
+    {
+      "nc-icon-glyph social-1_logo-wordpress": "Social 1 logo-wordpress"
+    },
+    {
+      "nc-icon-glyph social-1_logo-yelp": "Social 1 logo-yelp"
+    },
+    {
+      "nc-icon-glyph social-1_logo-youtube": "Social 1 logo-youtube"
+    }
+  ],
+  "Sport": [
+    {
+      "nc-icon-glyph sport_badminton": "Sport badminton"
+    },
+    {
+      "nc-icon-glyph sport_baseball-ball": "Sport baseball ball"
+    },
+    {
+      "nc-icon-glyph sport_baseball-bat": "Sport baseball bat"
+    },
+    {
+      "nc-icon-glyph sport_baseball": "Sport baseball"
+    },
+    {
+      "nc-icon-glyph sport_basketball-12": "Sport basketball 12"
+    },
+    {
+      "nc-icon-glyph sport_basketball-13": "Sport basketball 13"
+    },
+    {
+      "nc-icon-glyph sport_boxing": "Sport boxing"
+    },
+    {
+      "nc-icon-glyph sport_cardio": "Sport cardio"
+    },
+    {
+      "nc-icon-glyph sport_cricket": "Sport cricket"
+    },
+    {
+      "nc-icon-glyph sport_crown": "Sport crown"
+    },
+    {
+      "nc-icon-glyph sport_dart": "Sport dart"
+    },
+    {
+      "nc-icon-glyph sport_dumbbells": "Sport dumbbells"
+    },
+    {
+      "nc-icon-glyph sport_energy-drink": "Sport energy drink"
+    },
+    {
+      "nc-icon-glyph sport_energy-supplement": "Sport energy supplement"
+    },
+    {
+      "nc-icon-glyph sport_fencing": "Sport fencing"
+    },
+    {
+      "nc-icon-glyph sport_fishing": "Sport fishing"
+    },
+    {
+      "nc-icon-glyph sport_flag-finish": "Sport flag finish"
+    },
+    {
+      "nc-icon-glyph sport_football-headguard": "Sport football headguard"
+    },
+    {
+      "nc-icon-glyph sport_golf": "Sport golf"
+    },
+    {
+      "nc-icon-glyph sport_helmet": "Sport helmet"
+    },
+    {
+      "nc-icon-glyph sport_hockey": "Sport hockey"
+    },
+    {
+      "nc-icon-glyph sport_kettlebell": "Sport kettlebell"
+    },
+    {
+      "nc-icon-glyph sport_ping-pong": "Sport ping pong"
+    },
+    {
+      "nc-icon-glyph sport_podium-trophy": "Sport podium trophy"
+    },
+    {
+      "nc-icon-glyph sport_podium": "Sport podium"
+    },
+    {
+      "nc-icon-glyph sport_rope": "Sport rope"
+    },
+    {
+      "nc-icon-glyph sport_rugby": "Sport rugby"
+    },
+    {
+      "nc-icon-glyph sport_shaker": "Sport shaker"
+    },
+    {
+      "nc-icon-glyph sport_shoe-run": "Sport shoe run"
+    },
+    {
+      "nc-icon-glyph sport_skateboard": "Sport skateboard"
+    },
+    {
+      "nc-icon-glyph sport_snowboard": "Sport snowboard"
+    },
+    {
+      "nc-icon-glyph sport_soccer-field": "Sport soccer field"
+    },
+    {
+      "nc-icon-glyph sport_steering-wheel": "Sport steering wheel"
+    },
+    {
+      "nc-icon-glyph sport_supplement": "Sport supplement"
+    },
+    {
+      "nc-icon-glyph sport_surf": "Sport surf"
+    },
+    {
+      "nc-icon-glyph sport_tactic": "Sport tactic"
+    },
+    {
+      "nc-icon-glyph sport_tennis-ball": "Sport tennis ball"
+    },
+    {
+      "nc-icon-glyph sport_tennis": "Sport tennis"
+    },
+    {
+      "nc-icon-glyph sport_trophy": "Sport trophy"
+    },
+    {
+      "nc-icon-glyph sport_user-balance": "Sport user balance"
+    },
+    {
+      "nc-icon-glyph sport_user-climb": "Sport user climb"
+    },
+    {
+      "nc-icon-glyph sport_user-meditation": "Sport user meditation"
+    },
+    {
+      "nc-icon-glyph sport_user-run": "Sport user run"
+    },
+    {
+      "nc-icon-glyph sport_user-snowboard": "Sport user snowboard"
+    },
+    {
+      "nc-icon-glyph sport_user-swim": "Sport user swim"
+    },
+    {
+      "nc-icon-glyph sport_volleyball": "Sport volleyball"
+    },
+    {
+      "nc-icon-glyph sport_whistle": "Sport whistle"
+    }
+  ],
+  "Technology": [
+    {
+      "nc-icon-glyph tech_cable-49": "Tech cable 49"
+    },
+    {
+      "nc-icon-glyph tech_cable-50": "Tech cable 50"
+    },
+    {
+      "nc-icon-glyph tech_cd-reader": "Tech cd reader"
+    },
+    {
+      "nc-icon-glyph tech_computer-monitor": "Tech computer monitor"
+    },
+    {
+      "nc-icon-glyph tech_computer-old": "Tech computer old"
+    },
+    {
+      "nc-icon-glyph tech_computer": "Tech computer"
+    },
+    {
+      "nc-icon-glyph tech_controller-modern": "Tech controller modern"
+    },
+    {
+      "nc-icon-glyph tech_controller": "Tech controller"
+    },
+    {
+      "nc-icon-glyph tech_desktop-screen": "Tech desktop screen"
+    },
+    {
+      "nc-icon-glyph tech_desktop": "Tech desktop"
+    },
+    {
+      "nc-icon-glyph tech_disk-reader": "Tech disk reader"
+    },
+    {
+      "nc-icon-glyph tech_disk": "Tech disk"
+    },
+    {
+      "nc-icon-glyph tech_gopro": "Tech gopro"
+    },
+    {
+      "nc-icon-glyph tech_headphones": "Tech headphones"
+    },
+    {
+      "nc-icon-glyph tech_keyboard-mouse": "Tech keyboard mouse"
+    },
+    {
+      "nc-icon-glyph tech_keyboard-wifi": "Tech keyboard wifi"
+    },
+    {
+      "nc-icon-glyph tech_keyboard": "Tech keyboard"
+    },
+    {
+      "nc-icon-glyph tech_laptop-1": "Tech laptop 1"
+    },
+    {
+      "nc-icon-glyph tech_laptop-2": "Tech laptop 2"
+    },
+    {
+      "nc-icon-glyph tech_laptop": "Tech laptop"
+    },
+    {
+      "nc-icon-glyph tech_mobile-button": "Tech mobile button"
+    },
+    {
+      "nc-icon-glyph tech_mobile-camera": "Tech mobile camera"
+    },
+    {
+      "nc-icon-glyph tech_mobile-recharger-08": "Tech mobile recharger-08"
+    },
+    {
+      "nc-icon-glyph tech_mobile-recharger-09": "Tech mobile recharger-09"
+    },
+    {
+      "nc-icon-glyph tech_mobile-toolbar": "Tech mobile toolbar"
+    },
+    {
+      "nc-icon-glyph tech_mobile": "Tech mobile"
+    },
+    {
+      "nc-icon-glyph tech_music": "Tech music"
+    },
+    {
+      "nc-icon-glyph tech_navigation": "Tech navigation"
+    },
+    {
+      "nc-icon-glyph tech_player-19": "Tech player 19"
+    },
+    {
+      "nc-icon-glyph tech_player-48": "Tech player 48"
+    },
+    {
+      "nc-icon-glyph tech_print-fold": "Tech print fold"
+    },
+    {
+      "nc-icon-glyph tech_print-round-fold": "Tech print round-fold"
+    },
+    {
+      "nc-icon-glyph tech_print-round": "Tech print round"
+    },
+    {
+      "nc-icon-glyph tech_print": "Tech print"
+    },
+    {
+      "nc-icon-glyph tech_ram": "Tech ram"
+    },
+    {
+      "nc-icon-glyph tech_remote": "Tech remote"
+    },
+    {
+      "nc-icon-glyph tech_signal": "Tech signal"
+    },
+    {
+      "nc-icon-glyph tech_socket": "Tech socket"
+    },
+    {
+      "nc-icon-glyph tech_sync": "Tech sync"
+    },
+    {
+      "nc-icon-glyph tech_tablet-button": "Tech tablet button"
+    },
+    {
+      "nc-icon-glyph tech_tablet-reader-31": "Tech tablet reader-31"
+    },
+    {
+      "nc-icon-glyph tech_tablet-reader-42": "Tech tablet reader-42"
+    },
+    {
+      "nc-icon-glyph tech_tablet-toolbar": "Tech tablet toolbar"
+    },
+    {
+      "nc-icon-glyph tech_tablet": "Tech tablet"
+    },
+    {
+      "nc-icon-glyph tech_tv-old": "Tech tv old"
+    },
+    {
+      "nc-icon-glyph tech_tv": "Tech tv"
+    },
+    {
+      "nc-icon-glyph tech_watch-circle": "Tech watch circle"
+    },
+    {
+      "nc-icon-glyph tech_watch-time": "Tech watch time"
+    },
+    {
+      "nc-icon-glyph tech_watch": "Tech watch"
+    },
+    {
+      "nc-icon-glyph tech_webcam-38": "Tech webcam 38"
+    },
+    {
+      "nc-icon-glyph tech_webcam-39": "Tech webcam 39"
+    },
+    {
+      "nc-icon-glyph tech_wifi-router": "Tech wifi router"
+    },
+    {
+      "nc-icon-glyph tech_wifi": "Tech wifi"
+    },
+    {
+      "nc-icon-glyph tech-2_cctv": "Tech 2 cctv"
+    },
+    {
+      "nc-icon-glyph tech-2_connection": "Tech 2 connection"
+    },
+    {
+      "nc-icon-glyph tech-2_device-connection": "Tech 2 device-connection"
+    },
+    {
+      "nc-icon-glyph tech-2_dock": "Tech 2 dock"
+    },
+    {
+      "nc-icon-glyph tech-2_firewall": "Tech 2 firewall"
+    },
+    {
+      "nc-icon-glyph tech-2_hdmi": "Tech 2 hdmi"
+    },
+    {
+      "nc-icon-glyph tech-2_headphone": "Tech 2 headphone"
+    },
+    {
+      "nc-icon-glyph tech-2_headset": "Tech 2 headset"
+    },
+    {
+      "nc-icon-glyph tech-2_keyboard-hide": "Tech 2 keyboard-hide"
+    },
+    {
+      "nc-icon-glyph tech-2_keyboard-wireless": "Tech 2 keyboard-wireless"
+    },
+    {
+      "nc-icon-glyph tech-2_l-add": "Tech 2 l-add"
+    },
+    {
+      "nc-icon-glyph tech-2_l-check": "Tech 2 l-check"
+    },
+    {
+      "nc-icon-glyph tech-2_l-location": "Tech 2 l-location"
+    },
+    {
+      "nc-icon-glyph tech-2_l-remove": "Tech 2 l-remove"
+    },
+    {
+      "nc-icon-glyph tech-2_l-search": "Tech 2 l-search"
+    },
+    {
+      "nc-icon-glyph tech-2_l-security": "Tech 2 l-security"
+    },
+    {
+      "nc-icon-glyph tech-2_l-settings": "Tech 2 l-settings"
+    },
+    {
+      "nc-icon-glyph tech-2_l-sync": "Tech 2 l-sync"
+    },
+    {
+      "nc-icon-glyph tech-2_l-system-update": "Tech 2 l-system-update"
+    },
+    {
+      "nc-icon-glyph tech-2_lock-landscape": "Tech 2 lock-landscape"
+    },
+    {
+      "nc-icon-glyph tech-2_lock-portrait": "Tech 2 lock-portrait"
+    },
+    {
+      "nc-icon-glyph tech-2_mic": "Tech 2 mic"
+    },
+    {
+      "nc-icon-glyph tech-2_mobile-landscape": "Tech 2 mobile-landscape"
+    },
+    {
+      "nc-icon-glyph tech-2_p-add": "Tech 2 p-add"
+    },
+    {
+      "nc-icon-glyph tech-2_p-check": "Tech 2 p-check"
+    },
+    {
+      "nc-icon-glyph tech-2_p-edit": "Tech 2 p-edit"
+    },
+    {
+      "nc-icon-glyph tech-2_p-heart": "Tech 2 p-heart"
+    },
+    {
+      "nc-icon-glyph tech-2_p-location": "Tech 2 p-location"
+    },
+    {
+      "nc-icon-glyph tech-2_p-remove": "Tech 2 p-remove"
+    },
+    {
+      "nc-icon-glyph tech-2_p-search": "Tech 2 p-search"
+    },
+    {
+      "nc-icon-glyph tech-2_p-settings": "Tech 2 p-settings"
+    },
+    {
+      "nc-icon-glyph tech-2_p-share": "Tech 2 p-share"
+    },
+    {
+      "nc-icon-glyph tech-2_p-sync": "Tech 2 p-sync"
+    },
+    {
+      "nc-icon-glyph tech-2_p-system-update": "Tech 2 p-system-update"
+    },
+    {
+      "nc-icon-glyph tech-2_p-time": "Tech 2 p-time"
+    },
+    {
+      "nc-icon-glyph tech-2_pci-card": "Tech 2 pci-card"
+    },
+    {
+      "nc-icon-glyph tech-2_rotate-lock": "Tech 2 rotate-lock"
+    },
+    {
+      "nc-icon-glyph tech-2_rotate": "Tech 2 rotate"
+    },
+    {
+      "nc-icon-glyph tech-2_sim-card": "Tech 2 sim-card"
+    },
+    {
+      "nc-icon-glyph tech-2_socket-europe-1": "Tech 2 socket-europe-1"
+    },
+    {
+      "nc-icon-glyph tech-2_socket-europe-2": "Tech 2 socket-europe-2"
+    },
+    {
+      "nc-icon-glyph tech-2_socket-uk": "Tech 2 socket-uk"
+    },
+    {
+      "nc-icon-glyph tech-2_vpn": "Tech 2 vpn"
+    },
+    {
+      "nc-icon-glyph tech-2_wifi-off": "Tech 2 wifi-off"
+    },
+    {
+      "nc-icon-glyph tech-2_wifi-protected": "Tech 2 wifi-protected"
+    },
+    {
+      "nc-icon-glyph tech-2_wifi": "Tech 2 wifi"
+    }
+  ],
+  "Text Editing": [
+    {
+      "nc-icon-glyph text_align-center": "Text align center"
+    },
+    {
+      "nc-icon-glyph text_align-justify": "Text align justify"
+    },
+    {
+      "nc-icon-glyph text_align-left": "Text align left"
+    },
+    {
+      "nc-icon-glyph text_align-right": "Text align right"
+    },
+    {
+      "nc-icon-glyph text_background": "Text background"
+    },
+    {
+      "nc-icon-glyph text_bold": "Text bold"
+    },
+    {
+      "nc-icon-glyph text_capitalize": "Text capitalize"
+    },
+    {
+      "nc-icon-glyph text_caps-all": "Text caps all"
+    },
+    {
+      "nc-icon-glyph text_caps-small": "Text caps small"
+    },
+    {
+      "nc-icon-glyph text_color": "Text color"
+    },
+    {
+      "nc-icon-glyph text_edit": "Text edit"
+    },
+    {
+      "nc-icon-glyph text_italic": "Text italic"
+    },
+    {
+      "nc-icon-glyph text_line-height": "Text line height"
+    },
+    {
+      "nc-icon-glyph text_list-bullet": "Text list bullet"
+    },
+    {
+      "nc-icon-glyph text_list-numbers": "Text list numbers"
+    },
+    {
+      "nc-icon-glyph text_margin-left": "Text margin left"
+    },
+    {
+      "nc-icon-glyph text_margin-right": "Text margin right"
+    },
+    {
+      "nc-icon-glyph text_quote": "Text quote"
+    },
+    {
+      "nc-icon-glyph text_scale-horizontal": "Text scale horizontal"
+    },
+    {
+      "nc-icon-glyph text_scale-vertical": "Text scale vertical"
+    },
+    {
+      "nc-icon-glyph text_size": "Text size"
+    },
+    {
+      "nc-icon-glyph text_strikethrough": "Text strikethrough"
+    },
+    {
+      "nc-icon-glyph text_subscript": "Text subscript"
+    },
+    {
+      "nc-icon-glyph text_superscript": "Text superscript"
+    },
+    {
+      "nc-icon-glyph text_tracking": "Text tracking"
+    },
+    {
+      "nc-icon-glyph text_underline": "Text underline"
+    }
+  ],
+  "Touch Gestures": [
+    {
+      "nc-icon-glyph gestures_2x-drag-down": "Gestures 2x drag-down"
+    },
+    {
+      "nc-icon-glyph gestures_2x-drag-up": "Gestures 2x drag-up"
+    },
+    {
+      "nc-icon-glyph gestures_2x-swipe-down": "Gestures 2x swipe-down"
+    },
+    {
+      "nc-icon-glyph gestures_2x-swipe-left": "Gestures 2x swipe-left"
+    },
+    {
+      "nc-icon-glyph gestures_2x-swipe-right": "Gestures 2x swipe-right"
+    },
+    {
+      "nc-icon-glyph gestures_2x-swipe-up": "Gestures 2x swipe-up"
+    },
+    {
+      "nc-icon-glyph gestures_2x-tap": "Gestures 2x tap"
+    },
+    {
+      "nc-icon-glyph gestures_3x-swipe-left": "Gestures 3x swipe-left"
+    },
+    {
+      "nc-icon-glyph gestures_3x-swipe-right": "Gestures 3x swipe-right"
+    },
+    {
+      "nc-icon-glyph gestures_3x-swipe-up": "Gestures 3x swipe-up"
+    },
+    {
+      "nc-icon-glyph gestures_3x-tap": "Gestures 3x tap"
+    },
+    {
+      "nc-icon-glyph gestures_4x-swipe-left": "Gestures 4x swipe-left"
+    },
+    {
+      "nc-icon-glyph gestures_4x-swipe-right": "Gestures 4x swipe-right"
+    },
+    {
+      "nc-icon-glyph gestures_4x-swipe-up": "Gestures 4x swipe-up"
+    },
+    {
+      "nc-icon-glyph gestures_active-38": "Gestures active 38"
+    },
+    {
+      "nc-icon-glyph gestures_active-40": "Gestures active 40"
+    },
+    {
+      "nc-icon-glyph gestures_camera": "Gestures camera"
+    },
+    {
+      "nc-icon-glyph gestures_double-tap": "Gestures double tap"
+    },
+    {
+      "nc-icon-glyph gestures_drag-21": "Gestures drag 21"
+    },
+    {
+      "nc-icon-glyph gestures_drag-31": "Gestures drag 31"
+    },
+    {
+      "nc-icon-glyph gestures_drag-down": "Gestures drag down"
+    },
+    {
+      "nc-icon-glyph gestures_drag-left": "Gestures drag left"
+    },
+    {
+      "nc-icon-glyph gestures_drag-right": "Gestures drag right"
+    },
+    {
+      "nc-icon-glyph gestures_drag-up": "Gestures drag up"
+    },
+    {
+      "nc-icon-glyph gestures_flick-down": "Gestures flick down"
+    },
+    {
+      "nc-icon-glyph gestures_flick-left": "Gestures flick left"
+    },
+    {
+      "nc-icon-glyph gestures_flick-right": "Gestures flick right"
+    },
+    {
+      "nc-icon-glyph gestures_flick-up": "Gestures flick up"
+    },
+    {
+      "nc-icon-glyph gestures_grab": "Gestures grab"
+    },
+    {
+      "nc-icon-glyph gestures_hold": "Gestures hold"
+    },
+    {
+      "nc-icon-glyph gestures_pin": "Gestures pin"
+    },
+    {
+      "nc-icon-glyph gestures_pinch": "Gestures pinch"
+    },
+    {
+      "nc-icon-glyph gestures_rotate-22": "Gestures rotate 22"
+    },
+    {
+      "nc-icon-glyph gestures_rotate-23": "Gestures rotate 23"
+    },
+    {
+      "nc-icon-glyph gestures_scan": "Gestures scan"
+    },
+    {
+      "nc-icon-glyph gestures_scroll-horitontal": "Gestures scroll horitontal"
+    },
+    {
+      "nc-icon-glyph gestures_scroll-vertical": "Gestures scroll vertical"
+    },
+    {
+      "nc-icon-glyph gestures_stretch": "Gestures stretch"
+    },
+    {
+      "nc-icon-glyph gestures_swipe-bottom": "Gestures swipe bottom"
+    },
+    {
+      "nc-icon-glyph gestures_swipe-left": "Gestures swipe left"
+    },
+    {
+      "nc-icon-glyph gestures_swipe-right": "Gestures swipe right"
+    },
+    {
+      "nc-icon-glyph gestures_swipe-up": "Gestures swipe up"
+    },
+    {
+      "nc-icon-glyph gestures_tap-01": "Gestures tap 01"
+    },
+    {
+      "nc-icon-glyph gestures_tap-02": "Gestures tap 02"
+    }
+  ],
+  "Transportation": [
+    {
+      "nc-icon-glyph transportation_air-baloon": "Transportation air baloon"
+    },
+    {
+      "nc-icon-glyph transportation_bike-sport": "Transportation bike sport"
+    },
+    {
+      "nc-icon-glyph transportation_bike": "Transportation bike"
+    },
+    {
+      "nc-icon-glyph transportation_boat-front": "Transportation boat front"
+    },
+    {
+      "nc-icon-glyph transportation_boat-small-02": "Transportation boat small-02"
+    },
+    {
+      "nc-icon-glyph transportation_boat-small-03": "Transportation boat small-03"
+    },
+    {
+      "nc-icon-glyph transportation_boat": "Transportation boat"
+    },
+    {
+      "nc-icon-glyph transportation_bus-front-10": "Transportation bus front-10"
+    },
+    {
+      "nc-icon-glyph transportation_bus-front-12": "Transportation bus front-12"
+    },
+    {
+      "nc-icon-glyph transportation_bus": "Transportation bus"
+    },
+    {
+      "nc-icon-glyph transportation_car-front": "Transportation car front"
+    },
+    {
+      "nc-icon-glyph transportation_car-simple": "Transportation car simple"
+    },
+    {
+      "nc-icon-glyph transportation_car-sport": "Transportation car sport"
+    },
+    {
+      "nc-icon-glyph transportation_car-taxi": "Transportation car taxi"
+    },
+    {
+      "nc-icon-glyph transportation_car": "Transportation car"
+    },
+    {
+      "nc-icon-glyph transportation_helicopter": "Transportation helicopter"
+    },
+    {
+      "nc-icon-glyph transportation_helmet": "Transportation helmet"
+    },
+    {
+      "nc-icon-glyph transportation_light-traffic": "Transportation light traffic"
+    },
+    {
+      "nc-icon-glyph transportation_moto": "Transportation moto"
+    },
+    {
+      "nc-icon-glyph transportation_plane-17": "Transportation plane 17"
+    },
+    {
+      "nc-icon-glyph transportation_plane-18": "Transportation plane 18"
+    },
+    {
+      "nc-icon-glyph transportation_road": "Transportation road"
+    },
+    {
+      "nc-icon-glyph transportation_skateboard": "Transportation skateboard"
+    },
+    {
+      "nc-icon-glyph transportation_tractor": "Transportation tractor"
+    },
+    {
+      "nc-icon-glyph transportation_train-speed": "Transportation train speed"
+    },
+    {
+      "nc-icon-glyph transportation_train": "Transportation train"
+    },
+    {
+      "nc-icon-glyph transportation_tram": "Transportation tram"
+    },
+    {
+      "nc-icon-glyph transportation_truck-front": "Transportation truck front"
+    },
+    {
+      "nc-icon-glyph transportation_vespa-front": "Transportation vespa front"
+    },
+    {
+      "nc-icon-glyph transportation_vespa": "Transportation vespa"
+    }
+  ],
+  "Travel": [
+    {
+      "nc-icon-glyph travel_axe": "Travel axe"
+    },
+    {
+      "nc-icon-glyph travel_backpack": "Travel backpack"
+    },
+    {
+      "nc-icon-glyph travel_bag": "Travel bag"
+    },
+    {
+      "nc-icon-glyph travel_barbecue": "Travel barbecue"
+    },
+    {
+      "nc-icon-glyph travel_beach-umbrella": "Travel beach umbrella"
+    },
+    {
+      "nc-icon-glyph travel_berlin": "Travel berlin"
+    },
+    {
+      "nc-icon-glyph travel_binocular": "Travel binocular"
+    },
+    {
+      "nc-icon-glyph travel_camper": "Travel camper"
+    },
+    {
+      "nc-icon-glyph travel_camping": "Travel camping"
+    },
+    {
+      "nc-icon-glyph travel_castle": "Travel castle"
+    },
+    {
+      "nc-icon-glyph travel_china": "Travel china"
+    },
+    {
+      "nc-icon-glyph travel_church": "Travel church"
+    },
+    {
+      "nc-icon-glyph travel_drink": "Travel drink"
+    },
+    {
+      "nc-icon-glyph travel_explore": "Travel explore"
+    },
+    {
+      "nc-icon-glyph travel_fire": "Travel fire"
+    },
+    {
+      "nc-icon-glyph travel_hotel-bell": "Travel hotel bell"
+    },
+    {
+      "nc-icon-glyph travel_hotel-symbol": "Travel hotel symbol"
+    },
+    {
+      "nc-icon-glyph travel_hotel": "Travel hotel"
+    },
+    {
+      "nc-icon-glyph travel_hut": "Travel hut"
+    },
+    {
+      "nc-icon-glyph travel_igloo": "Travel igloo"
+    },
+    {
+      "nc-icon-glyph travel_info": "Travel info"
+    },
+    {
+      "nc-icon-glyph travel_istanbul": "Travel istanbul"
+    },
+    {
+      "nc-icon-glyph travel_jellyfish": "Travel jellyfish"
+    },
+    {
+      "nc-icon-glyph travel_lamp": "Travel lamp"
+    },
+    {
+      "nc-icon-glyph travel_lighthouse": "Travel lighthouse"
+    },
+    {
+      "nc-icon-glyph travel_london": "Travel london"
+    },
+    {
+      "nc-icon-glyph travel_luggage": "Travel luggage"
+    },
+    {
+      "nc-icon-glyph travel_mosque": "Travel mosque"
+    },
+    {
+      "nc-icon-glyph travel_ny": "Travel ny"
+    },
+    {
+      "nc-icon-glyph travel_octopus": "Travel octopus"
+    },
+    {
+      "nc-icon-glyph travel_paris-tower": "Travel paris tower"
+    },
+    {
+      "nc-icon-glyph travel_passport": "Travel passport"
+    },
+    {
+      "nc-icon-glyph travel_pickaxe": "Travel pickaxe"
+    },
+    {
+      "nc-icon-glyph travel_pool": "Travel pool"
+    },
+    {
+      "nc-icon-glyph travel_pyramid": "Travel pyramid"
+    },
+    {
+      "nc-icon-glyph travel_rackets": "Travel rackets"
+    },
+    {
+      "nc-icon-glyph travel_rio": "Travel rio"
+    },
+    {
+      "nc-icon-glyph travel_road-sign-left": "Travel road sign-left"
+    },
+    {
+      "nc-icon-glyph travel_road-sign-right": "Travel road sign-right"
+    },
+    {
+      "nc-icon-glyph travel_rome": "Travel rome"
+    },
+    {
+      "nc-icon-glyph travel_rowing": "Travel rowing"
+    },
+    {
+      "nc-icon-glyph travel_sea-mask": "Travel sea mask"
+    },
+    {
+      "nc-icon-glyph travel_sf-bridge": "Travel sf bridge"
+    },
+    {
+      "nc-icon-glyph travel_shark": "Travel shark"
+    },
+    {
+      "nc-icon-glyph travel_spa": "Travel spa"
+    },
+    {
+      "nc-icon-glyph travel_sunglasses": "Travel sunglasses"
+    },
+    {
+      "nc-icon-glyph travel_surf": "Travel surf"
+    },
+    {
+      "nc-icon-glyph travel_swimsuit": "Travel swimsuit"
+    },
+    {
+      "nc-icon-glyph travel_swimwear": "Travel swimwear"
+    },
+    {
+      "nc-icon-glyph travel_swiss-knife": "Travel swiss knife"
+    },
+    {
+      "nc-icon-glyph travel_temple-02": "Travel temple 02"
+    },
+    {
+      "nc-icon-glyph travel_temple-25": "Travel temple 25"
+    },
+    {
+      "nc-icon-glyph travel_trolley": "Travel trolley"
+    },
+    {
+      "nc-icon-glyph travel_white-house": "Travel white house"
+    },
+    {
+      "nc-icon-glyph travel_world": "Travel world"
+    },
+    {
+      "nc-icon-glyph travel_worldmap": "Travel worldmap"
+    }
+  ],
+  "User Interface": [
+    {
+      "nc-icon-glyph ui-1_analytics-88": "Ui 1 analytics-88"
+    },
+    {
+      "nc-icon-glyph ui-1_analytics-89": "Ui 1 analytics-89"
+    },
+    {
+      "nc-icon-glyph ui-1_attach-86": "Ui 1 attach-86"
+    },
+    {
+      "nc-icon-glyph ui-1_attach-87": "Ui 1 attach-87"
+    },
+    {
+      "nc-icon-glyph ui-1_bell-53": "Ui 1 bell-53"
+    },
+    {
+      "nc-icon-glyph ui-1_bell-54": "Ui 1 bell-54"
+    },
+    {
+      "nc-icon-glyph ui-1_bell-55": "Ui 1 bell-55"
+    },
+    {
+      "nc-icon-glyph ui-1_bold-add": "Ui 1 bold-add"
+    },
+    {
+      "nc-icon-glyph ui-1_bold-delete": "Ui 1 bold-delete"
+    },
+    {
+      "nc-icon-glyph ui-1_bold-remove": "Ui 1 bold-remove"
+    },
+    {
+      "nc-icon-glyph ui-1_bookmark-add": "Ui 1 bookmark-add"
+    },
+    {
+      "nc-icon-glyph ui-1_bookmark-remove": "Ui 1 bookmark-remove"
+    },
+    {
+      "nc-icon-glyph ui-1_calendar-57": "Ui 1 calendar-57"
+    },
+    {
+      "nc-icon-glyph ui-1_calendar-60": "Ui 1 calendar-60"
+    },
+    {
+      "nc-icon-glyph ui-1_calendar-check-59": "Ui 1 calendar-check-59"
+    },
+    {
+      "nc-icon-glyph ui-1_calendar-check-62": "Ui 1 calendar-check-62"
+    },
+    {
+      "nc-icon-glyph ui-1_calendar-grid-58": "Ui 1 calendar-grid-58"
+    },
+    {
+      "nc-icon-glyph ui-1_calendar-grid-61": "Ui 1 calendar-grid-61"
+    },
+    {
+      "nc-icon-glyph ui-1_check-bold": "Ui 1 check-bold"
+    },
+    {
+      "nc-icon-glyph ui-1_check-circle-07": "Ui 1 check-circle-07"
+    },
+    {
+      "nc-icon-glyph ui-1_check-circle-08": "Ui 1 check-circle-08"
+    },
+    {
+      "nc-icon-glyph ui-1_check-curve": "Ui 1 check-curve"
+    },
+    {
+      "nc-icon-glyph ui-1_check-simple": "Ui 1 check-simple"
+    },
+    {
+      "nc-icon-glyph ui-1_check-small": "Ui 1 check-small"
+    },
+    {
+      "nc-icon-glyph ui-1_check-square-09": "Ui 1 check-square-09"
+    },
+    {
+      "nc-icon-glyph ui-1_check-square-11": "Ui 1 check-square-11"
+    },
+    {
+      "nc-icon-glyph ui-1_check": "Ui 1 check"
+    },
+    {
+      "nc-icon-glyph ui-1_circle-add": "Ui 1 circle-add"
+    },
+    {
+      "nc-icon-glyph ui-1_circle-bold-add": "Ui 1 circle-bold-add"
+    },
+    {
+      "nc-icon-glyph ui-1_circle-bold-remove": "Ui 1 circle-bold-remove"
+    },
+    {
+      "nc-icon-glyph ui-1_circle-delete": "Ui 1 circle-delete"
+    },
+    {
+      "nc-icon-glyph ui-1_circle-remove": "Ui 1 circle-remove"
+    },
+    {
+      "nc-icon-glyph ui-1_dashboard-29": "Ui 1 dashboard-29"
+    },
+    {
+      "nc-icon-glyph ui-1_dashboard-30": "Ui 1 dashboard-30"
+    },
+    {
+      "nc-icon-glyph ui-1_dashboard-half": "Ui 1 dashboard-half"
+    },
+    {
+      "nc-icon-glyph ui-1_dashboard-level": "Ui 1 dashboard-level"
+    },
+    {
+      "nc-icon-glyph ui-1_database": "Ui 1 database"
+    },
+    {
+      "nc-icon-glyph ui-1_drop": "Ui 1 drop"
+    },
+    {
+      "nc-icon-glyph ui-1_edit-71": "Ui 1 edit-71"
+    },
+    {
+      "nc-icon-glyph ui-1_edit-72": "Ui 1 edit-72"
+    },
+    {
+      "nc-icon-glyph ui-1_edit-73": "Ui 1 edit-73"
+    },
+    {
+      "nc-icon-glyph ui-1_edit-74": "Ui 1 edit-74"
+    },
+    {
+      "nc-icon-glyph ui-1_edit-75": "Ui 1 edit-75"
+    },
+    {
+      "nc-icon-glyph ui-1_edit-76": "Ui 1 edit-76"
+    },
+    {
+      "nc-icon-glyph ui-1_edit-77": "Ui 1 edit-77"
+    },
+    {
+      "nc-icon-glyph ui-1_edit-78": "Ui 1 edit-78"
+    },
+    {
+      "nc-icon-glyph ui-1_email-83": "Ui 1 email-83"
+    },
+    {
+      "nc-icon-glyph ui-1_email-84": "Ui 1 email-84"
+    },
+    {
+      "nc-icon-glyph ui-1_email-85": "Ui 1 email-85"
+    },
+    {
+      "nc-icon-glyph ui-1_eye-17": "Ui 1 eye-17"
+    },
+    {
+      "nc-icon-glyph ui-1_eye-19": "Ui 1 eye-19"
+    },
+    {
+      "nc-icon-glyph ui-1_eye-ban-18": "Ui 1 eye-ban-18"
+    },
+    {
+      "nc-icon-glyph ui-1_eye-ban-20": "Ui 1 eye-ban-20"
+    },
+    {
+      "nc-icon-glyph ui-1_flame": "Ui 1 flame"
+    },
+    {
+      "nc-icon-glyph ui-1_home-51": "Ui 1 home-51"
+    },
+    {
+      "nc-icon-glyph ui-1_home-52": "Ui 1 home-52"
+    },
+    {
+      "nc-icon-glyph ui-1_home-minimal": "Ui 1 home-minimal"
+    },
+    {
+      "nc-icon-glyph ui-1_home-simple": "Ui 1 home-simple"
+    },
+    {
+      "nc-icon-glyph ui-1_leaf-80": "Ui 1 leaf-80"
+    },
+    {
+      "nc-icon-glyph ui-1_leaf-81": "Ui 1 leaf-81"
+    },
+    {
+      "nc-icon-glyph ui-1_leaf-edit": "Ui 1 leaf-edit"
+    },
+    {
+      "nc-icon-glyph ui-1_lock-circle-open": "Ui 1 lock-circle-open"
+    },
+    {
+      "nc-icon-glyph ui-1_lock-circle": "Ui 1 lock-circle"
+    },
+    {
+      "nc-icon-glyph ui-1_lock-open": "Ui 1 lock-open"
+    },
+    {
+      "nc-icon-glyph ui-1_lock": "Ui 1 lock"
+    },
+    {
+      "nc-icon-glyph ui-1_notification-69": "Ui 1 notification-69"
+    },
+    {
+      "nc-icon-glyph ui-1_notification-70": "Ui 1 notification-70"
+    },
+    {
+      "nc-icon-glyph ui-1_pencil": "Ui 1 pencil"
+    },
+    {
+      "nc-icon-glyph ui-1_preferences-circle-rotate": "Ui 1 preferences-circle-rotate"
+    },
+    {
+      "nc-icon-glyph ui-1_preferences-circle": "Ui 1 preferences-circle"
+    },
+    {
+      "nc-icon-glyph ui-1_preferences-container-circle-rotate": "Ui 1 preferences-container-circle-rotate"
+    },
+    {
+      "nc-icon-glyph ui-1_preferences-container-circle": "Ui 1 preferences-container-circle"
+    },
+    {
+      "nc-icon-glyph ui-1_preferences-container-rotate": "Ui 1 preferences-container-rotate"
+    },
+    {
+      "nc-icon-glyph ui-1_preferences-container": "Ui 1 preferences-container"
+    },
+    {
+      "nc-icon-glyph ui-1_preferences-rotate": "Ui 1 preferences-rotate"
+    },
+    {
+      "nc-icon-glyph ui-1_preferences": "Ui 1 preferences"
+    },
+    {
+      "nc-icon-glyph ui-1_send": "Ui 1 send"
+    },
+    {
+      "nc-icon-glyph ui-1_settings-gear-63": "Ui 1 settings-gear-63"
+    },
+    {
+      "nc-icon-glyph ui-1_settings-gear-64": "Ui 1 settings-gear-64"
+    },
+    {
+      "nc-icon-glyph ui-1_settings-gear-65": "Ui 1 settings-gear-65"
+    },
+    {
+      "nc-icon-glyph ui-1_settings-tool-66": "Ui 1 settings-tool-66"
+    },
+    {
+      "nc-icon-glyph ui-1_settings-tool-67": "Ui 1 settings-tool-67"
+    },
+    {
+      "nc-icon-glyph ui-1_settings": "Ui 1 settings"
+    },
+    {
+      "nc-icon-glyph ui-1_simple-add": "Ui 1 simple-add"
+    },
+    {
+      "nc-icon-glyph ui-1_simple-delete": "Ui 1 simple-delete"
+    },
+    {
+      "nc-icon-glyph ui-1_simple-remove": "Ui 1 simple-remove"
+    },
+    {
+      "nc-icon-glyph ui-1_trash-round": "Ui 1 trash-round"
+    },
+    {
+      "nc-icon-glyph ui-1_trash-simple": "Ui 1 trash-simple"
+    },
+    {
+      "nc-icon-glyph ui-1_trash": "Ui 1 trash"
+    },
+    {
+      "nc-icon-glyph ui-1_ui-03": "Ui 1 ui-03"
+    },
+    {
+      "nc-icon-glyph ui-1_ui-04": "Ui 1 ui-04"
+    },
+    {
+      "nc-icon-glyph ui-1_zoom-bold-in": "Ui 1 zoom-bold-in"
+    },
+    {
+      "nc-icon-glyph ui-1_zoom-bold-out": "Ui 1 zoom-bold-out"
+    },
+    {
+      "nc-icon-glyph ui-1_zoom-bold": "Ui 1 zoom-bold"
+    },
+    {
+      "nc-icon-glyph ui-1_zoom-in": "Ui 1 zoom-in"
+    },
+    {
+      "nc-icon-glyph ui-1_zoom-out": "Ui 1 zoom-out"
+    },
+    {
+      "nc-icon-glyph ui-1_zoom-split-in": "Ui 1 zoom-split-in"
+    },
+    {
+      "nc-icon-glyph ui-1_zoom-split-out": "Ui 1 zoom-split-out"
+    },
+    {
+      "nc-icon-glyph ui-1_zoom-split": "Ui 1 zoom-split"
+    },
+    {
+      "nc-icon-glyph ui-1_zoom": "Ui 1 zoom"
+    },
+    {
+      "nc-icon-glyph ui-2_alert": "Ui 2 alert"
+    },
+    {
+      "nc-icon-glyph ui-2_alert-": "Ui 2 alert-"
+    },
+    {
+      "nc-icon-glyph ui-2_alert-circle": "Ui 2 alert-circle"
+    },
+    {
+      "nc-icon-glyph ui-2_alert-circle-": "Ui 2 alert-circle-"
+    },
+    {
+      "nc-icon-glyph ui-2_alert-circle-i": "Ui 2 alert-circle-i"
+    },
+    {
+      "nc-icon-glyph ui-2_alert-i": "Ui 2 alert-i"
+    },
+    {
+      "nc-icon-glyph ui-2_alert-square": "Ui 2 alert-square"
+    },
+    {
+      "nc-icon-glyph ui-2_alert-square-": "Ui 2 alert-square-"
+    },
+    {
+      "nc-icon-glyph ui-2_alert-square-i": "Ui 2 alert-square-i"
+    },
+    {
+      "nc-icon-glyph ui-2_archive": "Ui 2 archive"
+    },
+    {
+      "nc-icon-glyph ui-2_ban-bold": "Ui 2 ban-bold"
+    },
+    {
+      "nc-icon-glyph ui-2_ban": "Ui 2 ban"
+    },
+    {
+      "nc-icon-glyph ui-2_battery-81": "Ui 2 battery-81"
+    },
+    {
+      "nc-icon-glyph ui-2_battery-83": "Ui 2 battery-83"
+    },
+    {
+      "nc-icon-glyph ui-2_battery-half": "Ui 2 battery-half"
+    },
+    {
+      "nc-icon-glyph ui-2_battery-low": "Ui 2 battery-low"
+    },
+    {
+      "nc-icon-glyph ui-2_bluetooth": "Ui 2 bluetooth"
+    },
+    {
+      "nc-icon-glyph ui-2_book": "Ui 2 book"
+    },
+    {
+      "nc-icon-glyph ui-2_chart-bar-52": "Ui 2 chart-bar-52"
+    },
+    {
+      "nc-icon-glyph ui-2_chart-bar-53": "Ui 2 chart-bar-53"
+    },
+    {
+      "nc-icon-glyph ui-2_chat-content": "Ui 2 chat-content"
+    },
+    {
+      "nc-icon-glyph ui-2_chat-round-content": "Ui 2 chat-round-content"
+    },
+    {
+      "nc-icon-glyph ui-2_chat-round": "Ui 2 chat-round"
+    },
+    {
+      "nc-icon-glyph ui-2_chat": "Ui 2 chat"
+    },
+    {
+      "nc-icon-glyph ui-2_circle-bold-delete": "Ui 2 circle-bold-delete"
+    },
+    {
+      "nc-icon-glyph ui-2_cloud-25": "Ui 2 cloud-25"
+    },
+    {
+      "nc-icon-glyph ui-2_cloud-26": "Ui 2 cloud-26"
+    },
+    {
+      "nc-icon-glyph ui-2_disk": "Ui 2 disk"
+    },
+    {
+      "nc-icon-glyph ui-2_enlarge-57": "Ui 2 enlarge-57"
+    },
+    {
+      "nc-icon-glyph ui-2_enlarge-58": "Ui 2 enlarge-58"
+    },
+    {
+      "nc-icon-glyph ui-2_enlarge-59": "Ui 2 enlarge-59"
+    },
+    {
+      "nc-icon-glyph ui-2_fat-add": "Ui 2 fat-add"
+    },
+    {
+      "nc-icon-glyph ui-2_fat-delete": "Ui 2 fat-delete"
+    },
+    {
+      "nc-icon-glyph ui-2_fat-remove": "Ui 2 fat-remove"
+    },
+    {
+      "nc-icon-glyph ui-2_favourite-28": "Ui 2 favourite-28"
+    },
+    {
+      "nc-icon-glyph ui-2_favourite-31": "Ui 2 favourite-31"
+    },
+    {
+      "nc-icon-glyph ui-2_favourite-add-29": "Ui 2 favourite-add-29"
+    },
+    {
+      "nc-icon-glyph ui-2_favourite-add-32": "Ui 2 favourite-add-32"
+    },
+    {
+      "nc-icon-glyph ui-2_favourite-remove-30": "Ui 2 favourite-remove-30"
+    },
+    {
+      "nc-icon-glyph ui-2_favourite-remove-33": "Ui 2 favourite-remove-33"
+    },
+    {
+      "nc-icon-glyph ui-2_filter": "Ui 2 filter"
+    },
+    {
+      "nc-icon-glyph ui-2_fullsize": "Ui 2 fullsize"
+    },
+    {
+      "nc-icon-glyph ui-2_grid-45": "Ui 2 grid-45"
+    },
+    {
+      "nc-icon-glyph ui-2_grid-46": "Ui 2 grid-46"
+    },
+    {
+      "nc-icon-glyph ui-2_grid-48": "Ui 2 grid-48"
+    },
+    {
+      "nc-icon-glyph ui-2_grid-49": "Ui 2 grid-49"
+    },
+    {
+      "nc-icon-glyph ui-2_grid-50": "Ui 2 grid-50"
+    },
+    {
+      "nc-icon-glyph ui-2_grid-square": "Ui 2 grid-square"
+    },
+    {
+      "nc-icon-glyph ui-2_hourglass": "Ui 2 hourglass"
+    },
+    {
+      "nc-icon-glyph ui-2_lab": "Ui 2 lab"
+    },
+    {
+      "nc-icon-glyph ui-2_layers": "Ui 2 layers"
+    },
+    {
+      "nc-icon-glyph ui-2_like": "Ui 2 like"
+    },
+    {
+      "nc-icon-glyph ui-2_link-66": "Ui 2 link-66"
+    },
+    {
+      "nc-icon-glyph ui-2_link-67": "Ui 2 link-67"
+    },
+    {
+      "nc-icon-glyph ui-2_link-68": "Ui 2 link-68"
+    },
+    {
+      "nc-icon-glyph ui-2_link-69": "Ui 2 link-69"
+    },
+    {
+      "nc-icon-glyph ui-2_link-71": "Ui 2 link-71"
+    },
+    {
+      "nc-icon-glyph ui-2_link-72": "Ui 2 link-72"
+    },
+    {
+      "nc-icon-glyph ui-2_link-broken-70": "Ui 2 link-broken-70"
+    },
+    {
+      "nc-icon-glyph ui-2_link-broken-73": "Ui 2 link-broken-73"
+    },
+    {
+      "nc-icon-glyph ui-2_menu-34": "Ui 2 menu-34"
+    },
+    {
+      "nc-icon-glyph ui-2_menu-35": "Ui 2 menu-35"
+    },
+    {
+      "nc-icon-glyph ui-2_menu-bold": "Ui 2 menu-bold"
+    },
+    {
+      "nc-icon-glyph ui-2_menu-dots": "Ui 2 menu-dots"
+    },
+    {
+      "nc-icon-glyph ui-2_menu-square": "Ui 2 menu-square"
+    },
+    {
+      "nc-icon-glyph ui-2_node": "Ui 2 node"
+    },
+    {
+      "nc-icon-glyph ui-2_paragraph": "Ui 2 paragraph"
+    },
+    {
+      "nc-icon-glyph ui-2_phone": "Ui 2 phone"
+    },
+    {
+      "nc-icon-glyph ui-2_settings-90": "Ui 2 settings-90"
+    },
+    {
+      "nc-icon-glyph ui-2_settings-91": "Ui 2 settings-91"
+    },
+    {
+      "nc-icon-glyph ui-2_share-bold": "Ui 2 share-bold"
+    },
+    {
+      "nc-icon-glyph ui-2_share": "Ui 2 share"
+    },
+    {
+      "nc-icon-glyph ui-2_small-add": "Ui 2 small-add"
+    },
+    {
+      "nc-icon-glyph ui-2_small-delete": "Ui 2 small-delete"
+    },
+    {
+      "nc-icon-glyph ui-2_small-remove": "Ui 2 small-remove"
+    },
+    {
+      "nc-icon-glyph ui-2_square-add-08": "Ui 2 square-add-08"
+    },
+    {
+      "nc-icon-glyph ui-2_square-add-11": "Ui 2 square-add-11"
+    },
+    {
+      "nc-icon-glyph ui-2_square-delete-10": "Ui 2 square-delete-10"
+    },
+    {
+      "nc-icon-glyph ui-2_square-delete-13": "Ui 2 square-delete-13"
+    },
+    {
+      "nc-icon-glyph ui-2_square-remove-09": "Ui 2 square-remove-09"
+    },
+    {
+      "nc-icon-glyph ui-2_square-remove-12": "Ui 2 square-remove-12"
+    },
+    {
+      "nc-icon-glyph ui-2_target": "Ui 2 target"
+    },
+    {
+      "nc-icon-glyph ui-2_tile-55": "Ui 2 tile-55"
+    },
+    {
+      "nc-icon-glyph ui-2_tile-56": "Ui 2 tile-56"
+    },
+    {
+      "nc-icon-glyph ui-2_time-alarm": "Ui 2 time-alarm"
+    },
+    {
+      "nc-icon-glyph ui-2_time-clock": "Ui 2 time-clock"
+    },
+    {
+      "nc-icon-glyph ui-2_time-countdown": "Ui 2 time-countdown"
+    },
+    {
+      "nc-icon-glyph ui-2_time": "Ui 2 time"
+    },
+    {
+      "nc-icon-glyph ui-2_webpage": "Ui 2 webpage"
+    },
+    {
+      "nc-icon-glyph ui-2_window-add": "Ui 2 window-add"
+    },
+    {
+      "nc-icon-glyph ui-2_window-delete": "Ui 2 window-delete"
+    },
+    {
+      "nc-icon-glyph ui-3_alert": "Ui 3 alert"
+    },
+    {
+      "nc-icon-glyph ui-3_backward": "Ui 3 backward"
+    },
+    {
+      "nc-icon-glyph ui-3_bolt": "Ui 3 bolt"
+    },
+    {
+      "nc-icon-glyph ui-3_bullet-list": "Ui 3 bullet-list"
+    },
+    {
+      "nc-icon-glyph ui-3_calendar-add": "Ui 3 calendar-add"
+    },
+    {
+      "nc-icon-glyph ui-3_card-add": "Ui 3 card-add"
+    },
+    {
+      "nc-icon-glyph ui-3_card-alert": "Ui 3 card-alert"
+    },
+    {
+      "nc-icon-glyph ui-3_chart-bars": "Ui 3 chart-bars"
+    },
+    {
+      "nc-icon-glyph ui-3_chart": "Ui 3 chart"
+    },
+    {
+      "nc-icon-glyph ui-3_chat-33": "Ui 3 chat-33"
+    },
+    {
+      "nc-icon-glyph ui-3_chat-45": "Ui 3 chat-45"
+    },
+    {
+      "nc-icon-glyph ui-3_chat-46": "Ui 3 chat-46"
+    },
+    {
+      "nc-icon-glyph ui-3_chat-reply": "Ui 3 chat-reply"
+    },
+    {
+      "nc-icon-glyph ui-3_check-in": "Ui 3 check-in"
+    },
+    {
+      "nc-icon-glyph ui-3_check-out": "Ui 3 check-out"
+    },
+    {
+      "nc-icon-glyph ui-3_dock-bottom": "Ui 3 dock-bottom"
+    },
+    {
+      "nc-icon-glyph ui-3_dock-left": "Ui 3 dock-left"
+    },
+    {
+      "nc-icon-glyph ui-3_dock-right": "Ui 3 dock-right"
+    },
+    {
+      "nc-icon-glyph ui-3_dock-top": "Ui 3 dock-top"
+    },
+    {
+      "nc-icon-glyph ui-3_filter-check": "Ui 3 filter-check"
+    },
+    {
+      "nc-icon-glyph ui-3_filter-remove": "Ui 3 filter-remove"
+    },
+    {
+      "nc-icon-glyph ui-3_forward": "Ui 3 forward"
+    },
+    {
+      "nc-icon-glyph ui-3_funnel-39": "Ui 3 funnel-39"
+    },
+    {
+      "nc-icon-glyph ui-3_funnel-40": "Ui 3 funnel-40"
+    },
+    {
+      "nc-icon-glyph ui-3_funnel-41": "Ui 3 funnel-41"
+    },
+    {
+      "nc-icon-glyph ui-3_heart-add": "Ui 3 heart-add"
+    },
+    {
+      "nc-icon-glyph ui-3_heart-remove": "Ui 3 heart-remove"
+    },
+    {
+      "nc-icon-glyph ui-3_heart": "Ui 3 heart"
+    },
+    {
+      "nc-icon-glyph ui-3_infinite": "Ui 3 infinite"
+    },
+    {
+      "nc-icon-glyph ui-3_link": "Ui 3 link"
+    },
+    {
+      "nc-icon-glyph ui-3_menu-left": "Ui 3 menu-left"
+    },
+    {
+      "nc-icon-glyph ui-3_menu-right": "Ui 3 menu-right"
+    },
+    {
+      "nc-icon-glyph ui-3_menu": "Ui 3 menu"
+    },
+    {
+      "nc-icon-glyph ui-3_metrics": "Ui 3 metrics"
+    },
+    {
+      "nc-icon-glyph ui-3_phone-call-end": "Ui 3 phone-call-end"
+    },
+    {
+      "nc-icon-glyph ui-3_phone-call": "Ui 3 phone-call"
+    },
+    {
+      "nc-icon-glyph ui-3_phone": "Ui 3 phone"
+    },
+    {
+      "nc-icon-glyph ui-3_playlist": "Ui 3 playlist"
+    },
+    {
+      "nc-icon-glyph ui-3_search": "Ui 3 search"
+    },
+    {
+      "nc-icon-glyph ui-3_security": "Ui 3 security"
+    },
+    {
+      "nc-icon-glyph ui-3_segmentation": "Ui 3 segmentation"
+    },
+    {
+      "nc-icon-glyph ui-3_select": "Ui 3 select"
+    },
+    {
+      "nc-icon-glyph ui-3_send": "Ui 3 send"
+    },
+    {
+      "nc-icon-glyph ui-3_signal": "Ui 3 signal"
+    },
+    {
+      "nc-icon-glyph ui-3_slide-left": "Ui 3 slide-left"
+    },
+    {
+      "nc-icon-glyph ui-3_slide-right": "Ui 3 slide-right"
+    },
+    {
+      "nc-icon-glyph ui-3_table-left": "Ui 3 table-left"
+    },
+    {
+      "nc-icon-glyph ui-3_table-right": "Ui 3 table-right"
+    },
+    {
+      "nc-icon-glyph ui-3_tag": "Ui 3 tag"
+    },
+    {
+      "nc-icon-glyph ui-3_widget": "Ui 3 widget"
+    }
+  ],
+  "Users": [
+    {
+      "nc-icon-glyph users_add-27": "Users add 27"
+    },
+    {
+      "nc-icon-glyph users_add-29": "Users add 29"
+    },
+    {
+      "nc-icon-glyph users_badge-13": "Users badge 13"
+    },
+    {
+      "nc-icon-glyph users_badge-14": "Users badge 14"
+    },
+    {
+      "nc-icon-glyph users_badge-15": "Users badge 15"
+    },
+    {
+      "nc-icon-glyph users_circle-08": "Users circle 08"
+    },
+    {
+      "nc-icon-glyph users_circle-09": "Users circle 09"
+    },
+    {
+      "nc-icon-glyph users_circle-10": "Users circle 10"
+    },
+    {
+      "nc-icon-glyph users_contacts": "Users contacts"
+    },
+    {
+      "nc-icon-glyph users_delete-28": "Users delete 28"
+    },
+    {
+      "nc-icon-glyph users_delete-30": "Users delete 30"
+    },
+    {
+      "nc-icon-glyph users_man-20": "Users man 20"
+    },
+    {
+      "nc-icon-glyph users_man-23": "Users man 23"
+    },
+    {
+      "nc-icon-glyph users_man-glasses": "Users man glasses"
+    },
+    {
+      "nc-icon-glyph users_mobile-contact": "Users mobile contact"
+    },
+    {
+      "nc-icon-glyph users_multiple-11": "Users multiple 11"
+    },
+    {
+      "nc-icon-glyph users_multiple-19": "Users multiple 19"
+    },
+    {
+      "nc-icon-glyph users_network": "Users network"
+    },
+    {
+      "nc-icon-glyph users_parent": "Users parent"
+    },
+    {
+      "nc-icon-glyph users_single-01": "Users single 01"
+    },
+    {
+      "nc-icon-glyph users_single-02": "Users single 02"
+    },
+    {
+      "nc-icon-glyph users_single-03": "Users single 03"
+    },
+    {
+      "nc-icon-glyph users_single-04": "Users single 04"
+    },
+    {
+      "nc-icon-glyph users_single-05": "Users single 05"
+    },
+    {
+      "nc-icon-glyph users_single-body": "Users single body"
+    },
+    {
+      "nc-icon-glyph users_single-position": "Users single position"
+    },
+    {
+      "nc-icon-glyph users_square-31": "Users square 31"
+    },
+    {
+      "nc-icon-glyph users_square-32": "Users square 32"
+    },
+    {
+      "nc-icon-glyph users_square-33": "Users square 33"
+    },
+    {
+      "nc-icon-glyph users_woman-21": "Users woman 21"
+    },
+    {
+      "nc-icon-glyph users_woman-24": "Users woman 24"
+    },
+    {
+      "nc-icon-glyph users_woman-25": "Users woman 25"
+    },
+    {
+      "nc-icon-glyph users_woman-man": "Users woman man"
+    },
+    {
+      "nc-icon-glyph users-2_a-add": "Users 2 a-add"
+    },
+    {
+      "nc-icon-glyph users-2_a-check": "Users 2 a-check"
+    },
+    {
+      "nc-icon-glyph users-2_a-delete": "Users 2 a-delete"
+    },
+    {
+      "nc-icon-glyph users-2_a-edit": "Users 2 a-edit"
+    },
+    {
+      "nc-icon-glyph users-2_a-heart": "Users 2 a-heart"
+    },
+    {
+      "nc-icon-glyph users-2_a-location": "Users 2 a-location"
+    },
+    {
+      "nc-icon-glyph users-2_a-remove": "Users 2 a-remove"
+    },
+    {
+      "nc-icon-glyph users-2_a-search": "Users 2 a-search"
+    },
+    {
+      "nc-icon-glyph users-2_a-security": "Users 2 a-security"
+    },
+    {
+      "nc-icon-glyph users-2_a-share": "Users 2 a-share"
+    },
+    {
+      "nc-icon-glyph users-2_a-star": "Users 2 a-star"
+    },
+    {
+      "nc-icon-glyph users-2_a-sync": "Users 2 a-sync"
+    },
+    {
+      "nc-icon-glyph users-2_a-time": "Users 2 a-time"
+    },
+    {
+      "nc-icon-glyph users-2_accessibility": "Users 2 accessibility"
+    },
+    {
+      "nc-icon-glyph users-2_b-add": "Users 2 b-add"
+    },
+    {
+      "nc-icon-glyph users-2_b-check": "Users 2 b-check"
+    },
+    {
+      "nc-icon-glyph users-2_b-location": "Users 2 b-location"
+    },
+    {
+      "nc-icon-glyph users-2_b-love": "Users 2 b-love"
+    },
+    {
+      "nc-icon-glyph users-2_b-meeting": "Users 2 b-meeting"
+    },
+    {
+      "nc-icon-glyph users-2_b-remove": "Users 2 b-remove"
+    },
+    {
+      "nc-icon-glyph users-2_b-security": "Users 2 b-security"
+    },
+    {
+      "nc-icon-glyph users-2_child": "Users 2 child"
+    },
+    {
+      "nc-icon-glyph users-2_contacts-44": "Users 2 contacts-44"
+    },
+    {
+      "nc-icon-glyph users-2_contacts-45": "Users 2 contacts-45"
+    },
+    {
+      "nc-icon-glyph users-2_couple-gay": "Users 2 couple-gay"
+    },
+    {
+      "nc-icon-glyph users-2_couple-lesbian": "Users 2 couple-lesbian"
+    },
+    {
+      "nc-icon-glyph users-2_disabled": "Users 2 disabled"
+    },
+    {
+      "nc-icon-glyph users-2_exchange": "Users 2 exchange"
+    },
+    {
+      "nc-icon-glyph users-2_family": "Users 2 family"
+    },
+    {
+      "nc-icon-glyph users-2_focus": "Users 2 focus"
+    },
+    {
+      "nc-icon-glyph users-2_home": "Users 2 home"
+    },
+    {
+      "nc-icon-glyph users-2_man-down": "Users 2 man-down"
+    },
+    {
+      "nc-icon-glyph users-2_man-up": "Users 2 man-up"
+    },
+    {
+      "nc-icon-glyph users-2_man": "Users 2 man"
+    },
+    {
+      "nc-icon-glyph users-2_meeting": "Users 2 meeting"
+    },
+    {
+      "nc-icon-glyph users-2_mickey-mouse": "Users 2 mickey-mouse"
+    },
+    {
+      "nc-icon-glyph users-2_multiple": "Users 2 multiple"
+    },
+    {
+      "nc-icon-glyph users-2_pin": "Users 2 pin"
+    },
+    {
+      "nc-icon-glyph users-2_police": "Users 2 police"
+    },
+    {
+      "nc-icon-glyph users-2_search": "Users 2 search"
+    },
+    {
+      "nc-icon-glyph users-2_standing-man": "Users 2 standing-man"
+    },
+    {
+      "nc-icon-glyph users-2_standing-woman": "Users 2 standing-woman"
+    },
+    {
+      "nc-icon-glyph users-2_voice-record": "Users 2 voice-record"
+    },
+    {
+      "nc-icon-glyph users-2_wc": "Users 2 wc"
+    },
+    {
+      "nc-icon-glyph users-2_woman-down": "Users 2 woman-down"
+    },
+    {
+      "nc-icon-glyph users-2_woman-up": "Users 2 woman-up"
+    },
+    {
+      "nc-icon-glyph users-2_woman": "Users 2 woman"
+    }
+  ],
+  "Weather": [
+    {
+      "nc-icon-glyph weather_celsius": "Weather celsius"
+    },
+    {
+      "nc-icon-glyph weather_cloud-13": "Weather cloud 13"
+    },
+    {
+      "nc-icon-glyph weather_cloud-14": "Weather cloud 14"
+    },
+    {
+      "nc-icon-glyph weather_cloud-drop": "Weather cloud drop"
+    },
+    {
+      "nc-icon-glyph weather_cloud-fog-31": "Weather cloud fog-31"
+    },
+    {
+      "nc-icon-glyph weather_cloud-fog-32": "Weather cloud fog-32"
+    },
+    {
+      "nc-icon-glyph weather_cloud-hail": "Weather cloud hail"
+    },
+    {
+      "nc-icon-glyph weather_cloud-light": "Weather cloud light"
+    },
+    {
+      "nc-icon-glyph weather_cloud-moon": "Weather cloud moon"
+    },
+    {
+      "nc-icon-glyph weather_cloud-rain": "Weather cloud rain"
+    },
+    {
+      "nc-icon-glyph weather_cloud-rainbow": "Weather cloud rainbow"
+    },
+    {
+      "nc-icon-glyph weather_cloud-snow-34": "Weather cloud snow-34"
+    },
+    {
+      "nc-icon-glyph weather_cloud-snow-42": "Weather cloud snow-42"
+    },
+    {
+      "nc-icon-glyph weather_cloud-sun-17": "Weather cloud sun-17"
+    },
+    {
+      "nc-icon-glyph weather_cloud-sun-19": "Weather cloud sun-19"
+    },
+    {
+      "nc-icon-glyph weather_compass": "Weather compass"
+    },
+    {
+      "nc-icon-glyph weather_drop-12": "Weather drop 12"
+    },
+    {
+      "nc-icon-glyph weather_drop-15": "Weather drop 15"
+    },
+    {
+      "nc-icon-glyph weather_drops": "Weather drops"
+    },
+    {
+      "nc-icon-glyph weather_eclipse": "Weather eclipse"
+    },
+    {
+      "nc-icon-glyph weather_fahrenheit": "Weather fahrenheit"
+    },
+    {
+      "nc-icon-glyph weather_fog": "Weather fog"
+    },
+    {
+      "nc-icon-glyph weather_forecast": "Weather forecast"
+    },
+    {
+      "nc-icon-glyph weather_hurricane-44": "Weather hurricane 44"
+    },
+    {
+      "nc-icon-glyph weather_hurricane-45": "Weather hurricane 45"
+    },
+    {
+      "nc-icon-glyph weather_moon-cloud-drop": "Weather moon cloud-drop"
+    },
+    {
+      "nc-icon-glyph weather_moon-cloud-fog": "Weather moon cloud-fog"
+    },
+    {
+      "nc-icon-glyph weather_moon-cloud-hail": "Weather moon cloud-hail"
+    },
+    {
+      "nc-icon-glyph weather_moon-cloud-light": "Weather moon cloud-light"
+    },
+    {
+      "nc-icon-glyph weather_moon-cloud-rain": "Weather moon cloud-rain"
+    },
+    {
+      "nc-icon-glyph weather_moon-cloud-snow-61": "Weather moon cloud-snow-61"
+    },
+    {
+      "nc-icon-glyph weather_moon-cloud-snow-62": "Weather moon cloud-snow-62"
+    },
+    {
+      "nc-icon-glyph weather_moon-fog": "Weather moon fog"
+    },
+    {
+      "nc-icon-glyph weather_moon-full": "Weather moon full"
+    },
+    {
+      "nc-icon-glyph weather_moon-stars": "Weather moon stars"
+    },
+    {
+      "nc-icon-glyph weather_moon": "Weather moon"
+    },
+    {
+      "nc-icon-glyph weather_rain-hail": "Weather rain hail"
+    },
+    {
+      "nc-icon-glyph weather_rain": "Weather rain"
+    },
+    {
+      "nc-icon-glyph weather_rainbow": "Weather rainbow"
+    },
+    {
+      "nc-icon-glyph weather_snow": "Weather snow"
+    },
+    {
+      "nc-icon-glyph weather_sun-cloud-drop": "Weather sun cloud-drop"
+    },
+    {
+      "nc-icon-glyph weather_sun-cloud-fog": "Weather sun cloud-fog"
+    },
+    {
+      "nc-icon-glyph weather_sun-cloud-hail": "Weather sun cloud-hail"
+    },
+    {
+      "nc-icon-glyph weather_sun-cloud-light": "Weather sun cloud-light"
+    },
+    {
+      "nc-icon-glyph weather_sun-cloud-rain": "Weather sun cloud-rain"
+    },
+    {
+      "nc-icon-glyph weather_sun-cloud-snow-54": "Weather sun cloud-snow-54"
+    },
+    {
+      "nc-icon-glyph weather_sun-cloud-snow-55": "Weather sun cloud-snow-55"
+    },
+    {
+      "nc-icon-glyph weather_sun-cloud": "Weather sun cloud"
+    },
+    {
+      "nc-icon-glyph weather_sun-fog-29": "Weather sun fog-29"
+    },
+    {
+      "nc-icon-glyph weather_sun-fog-30": "Weather sun fog-30"
+    },
+    {
+      "nc-icon-glyph weather_sun-fog-43": "Weather sun fog-43"
+    },
+    {
+      "nc-icon-glyph weather_sun": "Weather sun"
+    },
+    {
+      "nc-icon-glyph weather_wind": "Weather wind"
+    }
+  ]
+}

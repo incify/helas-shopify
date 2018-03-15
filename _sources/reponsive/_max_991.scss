@@ -1,0 +1,662 @@
+@media (max-width: 991px) {
+  .nova_row_gap_65,
+  .nova_row_gap_80 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .btn-button.large, .spr-button.large {
+    padding: 15px 35px;
+  }
+  /*============================================================================
+  #Header
+  ==============================================================================*/
+  .header-container.style1 .header .header-wrapper {
+      padding: 0 15px;
+  }
+  .header-container.style1 .header-left-area,
+  .header-container.style1 .header-middle-area-2,
+  .header-container.style1 .header-right-area
+   {
+      padding: 30px 0 20px 0;
+  }
+  .header-container.type2 .header {
+      margin: 30px 15px;
+  }
+  .header-container.style1.sticky-header .header-wrapper {
+    padding: 0 15px !important;
+  }
+  .header-container.type6 .header-left-area,
+  .header-container.type2 .header-left-area,
+  .header-container.style1.header__layout-style2 .header-middle-area-2,
+  .header-container.style1 .header-left-area {
+    width: 100%;
+    position: relative;
+    .menu-icon {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      -webkit-transform: translate(0%, -50%);
+      -moz-transform: translate(0%, -50%);
+      -ms-transform: translate(0%, -50%);
+      -o-transform: translate(0%, -50%);
+      transform: translate(0%, -50%);
+      a {
+        width: 30px;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        line-height: 30px;
+        height: 30px;
+      }
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+
+    }
+  }
+  .header-transparent-enable {
+    position: static;
+    .header-container {
+      background: #fff !important;
+    }
+  }
+  .page.page-have-header-vertical {
+    width: 100%;
+  }
+  .header-container.type6 .header-left-area {
+    padding: 15px 0;
+  }
+  /*============================================================================
+  #Slideshow
+  ==============================================================================*/
+  .slideshow-section .slideshow .item {
+    height: 50vh !important;
+  }
+  .slideshow-section .slideshow .content.content-slider {
+    text-align: left;
+    left: 10%;
+  }
+  .slideshow-section .slideshow .content .content-area .text-slider-1 {
+    margin-bottom: 20px;
+    font-size: 5em;
+    line-height: 1;
+  }
+  .slideshow-section .slideshow .content .content-area .text-slider-2{
+    font-size: 5em;
+    line-height: 1;
+  }
+  .slideshow-section .content-slider-1 .btn-button {
+    &.large {
+        padding: 10px 30px;
+    }
+  }
+  .slideshow-section .slideshow .content-slider-2-1 {
+    text-align: center !important;
+    left: 0 !important;
+    h1 {
+     font-size: 3em;
+    line-height: 1.4;
+   }
+  }
+  .slideshow-section .content-slider-2-2 {
+    text-align: center !important;
+    left: 0 !important;
+    h3 {
+      font-size: 28px;
+    }
+    h1 {
+      font-size: 7em;
+      line-height: 2;
+    }
+  }
+  .slideshow-section .content-slider-3-1 {
+    h1 {
+      font-size: 5em;
+      line-height: 1.4;
+    }
+  }
+  .slideshow-section .content-slider-13-1 h1,
+  .slideshow-section .content-slider-13-2 h1,
+  .slideshow-section .content-slider-13-3 h1 {
+    font-size: 5rem;
+    line-height: 1.4;
+  }
+  .slideshow-section .content-slider-13-1 h4,
+  .slideshow-section .content-slider-13-2 h4,
+  .slideshow-section .content-slider-13-3 h4 {
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0;
+  }
+  .slideshow-section .slideshow .content.content-slider-14-1 {
+    left: 0;
+    text-align: center;
+  }
+  .slideshow-section .content-slider-14-1 h2 {
+    font-size: 7rem;
+    line-height: 1;
+  }
+  .slideshow-section .slideshow .content.content-slider.content-slider-15-1 {
+    text-align: center;
+    left: 0;
+  }
+  .slideshow-section .content-slider-15-1 h1 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+  .slideshow-section .content-slider-15-2 {
+    right: 10%;
+    h1 {
+      font-size: 28px;
+      line-height: 1.4;
+    }
+    h3 {
+      font-size: 16px;
+      line-height: 1.4
+    }
+     p {
+       font-size: 14px;
+     }
+  }
+  .slideshow-section .content-slider-15-3 {
+    text-align: center !important;
+  }
+  /*============================================================================
+  #Tile Section
+  ==============================================================================*/
+  .style_1 .section-title span {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .style_1 .section-title {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .top-collection-section .collection-banner-content {
+    margin-top: 15px;
+  }
+  .style_9 .section-title span {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .style_9.sub-title-enable .section-sub-title {
+    margin-bottom: 30px;
+  }
+  .style_2 .section-title
+  {
+    margin-bottom: 0;
+    span {
+     font-size: 28px;
+     line-height: 28px;
+   }
+  }
+  .style_3 .section-title {
+    padding: 20px 40px;
+    margin-bottom: 30px;
+    span {
+      letter-spacing: 0;
+    }
+  }
+  .style_4 .section-title span,
+  .style_6 .section-title span,
+  .style_7 .section-title span,
+  .style_8 .section-title span, {
+    font-size: 28px;
+  }
+  /*============================================================================
+  #Page Header
+  ==============================================================================*/
+  .section_page_header .backdround-image-inner {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  .section_page_header .backdround-image-inner .page-title {
+    font-size: 3em;
+  }
+  .main-container .main-breadcrumbs {
+    font-size: 10px;
+    padding-bottom: 0;
+  }
+  /*============================================================================
+  #Products Tab
+  ==============================================================================*/
+  .h1-section-tab-product {
+    margin-top: 55px;
+    margin-bottom: 45px;
+  }
+  .tab-product-collection .category-list .tab-selector {
+    margin-bottom: 0;
+  }
+  .tab-product-collection {
+    padding-bottom: 30px;
+  }
+  /*============================================================================
+  #Top Collection Section
+  ==============================================================================*/
+  .top-collection-section {
+    margin-top: 45px;
+  }
+  /*============================================================================
+  #Banner Image Section
+  ==============================================================================*/
+  .banner-image-section .box-inner .banner--infor
+  {
+    width: 90%;
+    h1 {
+      font-size: 24px;
+      line-height: 1.4;
+      letter-spacing: 5px;
+    }
+    h3 {
+      line-height: 1.4;
+    }
+  }
+  .banner-image-section.style_3 .banner-image .banner--infor {
+    h1 {
+      display: none;
+    }
+    h3 {
+      display: none;
+    }
+    p {
+      display: none;
+    }
+  }
+  .banner-image-background-section .banner-image .box-inner .banner--infor h2 {
+    font-size: 36px;
+  }
+  .banner-image-background-section .banner-image .box-inner .banner--infor {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .banner-image-background-section .banner-image .box-inner .banner--infor .btn-shopnow {
+    margin-top: 0;
+  }
+  .banner-image-section.style_2.incify-styles {
+    margin: 45px 0 0 !important;
+  }
+  .banner-image-2-section .banner-image-2 .static-banner-inner .banner--informations .spical-text {
+    font-size: 100px;
+    line-height: 80px;
+  }
+  .banner-image-section.style_7 {
+    margin-top: 45px;
+  }
+  .banner-image-section.style_7 .grid-padding-x>.cell {
+    padding-left: 1.40625rem;
+    padding-right: 1.40625rem;
+  }
+  .banner-image-section.style_7.has-space {
+    padding: 0;
+  }
+  .banner-image-section.style_7 .banner-image .banner--infor h1 {
+    letter-spacing: 0;
+  }
+  .banner-image-section.style_10 .banner--infor h1 {
+    letter-spacing: 0;
+  }
+  .banner-image-section.style_10 .banner--infor h3 {
+    font-size: 16px;
+  }
+  .banner-image-section.style_10 .banner--infor .btn-button {
+    margin-top: 10px;
+    &.large {
+      font-size: 12px;
+      line-height: 24px;
+      padding: 10px 20px;
+    }
+  }
+  .section__bike-hover-banner .bike-hover-banner__03 .banner--infor h2,
+  .section__bike-hover-banner .bike-hover-banner__02 .banner--infor h2 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+  .section__bike-hover-banner .bike-hover-banner__03 .banner--infor h3,
+  .section__bike-hover-banner .bike-hover-banner__02 .banner--infor h3 {
+    font-size: 14px;
+  }
+  .section__bike-hover-banner .bike-hover-banner__04,
+  .section__bike-hover-banner .bike-hover-banner__03,
+  .section__bike-hover-banner .bike-hover-banner__02 {
+      .btn-button.large {
+        padding: 5px 15px;
+        font-size: 11px;
+      }
+  }
+  .banner-image-section.style_14 .banner-image .banner--infor h1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  /*============================================================================
+  #Banner Block Section
+  ==============================================================================*/
+  .banner-block .banner-block__content {
+    margin-bottom: 30px;
+  }
+  /*============================================================================
+  #Product List Section
+  ==============================================================================*/
+  .section_product_list {
+      margin-top: 40px;
+  }
+  /*============================================================================
+  #Image Background Section
+  ==============================================================================*/
+  .banner-image-background-section.style_2.incify-styles {
+    margin: 45px 0 0 !important;
+  }
+  .banner-image-background-section .banner-image .box-background {
+    padding-top: 85%;
+  }
+  .banner-image-background-section.style_2 .banner-image .box-background {
+    padding-top: 100%;
+  }
+  .main-6-banner-h1 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+  .has-center-content .background-content__content {
+    padding: 15px 0;
+    text-align: center;
+  }
+  .m9-heading {
+    font-size: 9rem;
+    letter-spacing: 0;
+  }
+  .shortcode-countdown .product-date .no{
+    font-size:28px;
+  }
+  .shortcode-countdown .product-date > div {
+    margin-right: 20px;
+    padding-left: 20px;
+  }
+  /*============================================================================
+  #Product List Section
+  ==============================================================================*/
+  .product-mini-list-section.incify-styles {
+    margin: 45px 0px 0px !important;
+  }
+  .product-mini-list {
+    .cell {
+      margin-bottom: 30px;
+    }
+  }
+  /*============================================================================
+  #Products Tab Section
+  ==============================================================================*/
+  .section-products-tab .main-tab-products {
+    margin-top: 0;
+  }
+  /*============================================================================
+  #Banner Video Section
+  ==============================================================================*/
+  .banner-video-section.incify-styles {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+  /*============================================================================
+  #Brands Section
+  ==============================================================================*/
+  .brand-section {
+    margin-top: 20px;
+  }
+  /*============================================================================
+  #Newsletter Section
+  ==============================================================================*/
+  .subscribe-section.style_1.incify-styles {
+    padding-top: 30px !important;
+    padding-bottom: 20px !important;
+  }
+  .main_section_subscribe {
+    h1 {
+      font-size: 28px;
+    }
+  }
+  /*============================================================================
+  #Testimonial Section
+  ==============================================================================*/
+  .testimonial-section.layout-style_1 .incify-testimonial .testimonial_item--inner .testimonial_item--info .testimonial_item--excerpt {
+    font-size: 28px;
+  }
+  .testimonial-section.layout-style_1.incify-styles {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+  .testimonial-section.layout-style_1.incify-styles,
+  .testimonial-section.layout-style_4.incify-styles {
+    margin-top: 45px !important;
+  }
+  /*============================================================================
+  #Custom Support
+  ==============================================================================*/
+  .custom-support-section {
+    margin-top: 45px;
+  }
+  .custom-support-section .custom-support .icon-boxes-inner {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /*============================================================================
+  #Latest Posts
+  ==============================================================================*/
+  .blog-article-section {
+    margin-top: 45px;
+    .blog_article {
+      margin-top: 15px;
+    }
+  }
+  /*============================================================================
+  #Collection Page
+  ==============================================================================*/
+  .not-container {
+    .sidebar {
+      width: 100%;
+    }
+    .collection_content {
+      width: 100%;
+    }
+  }
+  .category-products .products-grid.flex-grid li.item.product-layout-grid .item-area {
+      margin: 15px 0 10px;
+  }
+  // Metro Shop
+  .shop-metro {
+    margin-top: 45px;
+  }
+  /*============================================================================
+  #Single Product Page
+  ==============================================================================*/
+  .product-main {
+    margin-top: 30px;
+  }
+  .product-shop-wrapper {
+    margin-top: 20px;
+    padding-left: 0;
+  }
+  .product-view .product-collateral {
+    padding-top: 50px;
+  }
+  .product-tabs-content-inner {
+    table {
+      tr {
+        td {
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+  .block_heading .block_heading--title {
+    font-size: 28px;
+  }
+  /*============================================================================
+  #Blog
+  ==============================================================================*/
+  .template-article .blog-style2 .page-title,
+  .template-article .page-title {
+    display: inline;
+    font-size: 3em !important;
+    text-align: center;
+  }
+  .post-layout-list {
+    margin-top: 15px;
+  }
+  .post_layout_grid,
+  .post_layout_mansory {
+    margin-top: 45px;
+  }
+  .post_layout_ziczac,
+  .post_layout_grid-2 {
+    padding-top: 45px;
+  }
+  .post-layout-list .blog-wrapper .postWrapper {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .post_layout_ziczac .blog_item--inner2 {
+    display: block;
+  }
+  .post_layout_ziczac .blog_item--info, .post_layout_ziczac .blog_item--thumbnail {
+    float: none;
+    width: 100%;
+  }
+  .post_layout_ziczac .blog_item--thumbnail>a:before {
+    display: none;
+  }
+  /*============================================================================
+  #Pages
+  ==============================================================================*/
+  // Featured Collections
+  .section__featured-collections {
+    .featured-collections {
+      .featured-collections__item {
+        margin-top: 45px;
+      }
+    }
+  }
+  .form-contact-page {
+    margin: 45px 0;
+  }
+  .faqs-style-2 .faqs-total-title {
+    padding-top: 45px;
+  }
+  .faqs-style-2 .content-faqs-inner {
+    padding: 30px 0;
+  }
+  .faqs-style-2 .content-faqs-inner .item {
+    padding: 13px 0;
+  }
+  #shopify-section-faq_banner_contact .faq-banner-contact .banner--title {
+    font-size: 28px;
+  }
+  /*============================================================================
+  #Content
+  ==============================================================================*/
+  .main-container {
+    padding-bottom: 50px;
+  }
+  .main-content-inner {
+    padding-top: 40px;
+  }
+  .max--with-500 .incify-colum-inner {
+    width: 100%;
+  }
+  .page--content {
+    .incify-member__inner {
+      margin-bottom: 30px;
+      &.style_2 {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .incify--block-title.style_1 h2 {
+    font-size: 28px;
+  }
+
+  /*============================================================================
+  #ShortCodes
+  ==============================================================================*/
+  .margin-back {
+    margin-left: 0;
+  }
+  .service-quote-box {
+    margin-top: 30px;
+    p {
+      font-size: 28px;
+    }
+  }
+  .section__organic-deal-box .organic-deal-box .shortcode-countdown .product-date div {
+    margin-right: 15px;
+    padding-left: 15px;
+  }
+  .section__wine-deal .wine-deal .wine-deal__right-column .shortcode-countdown .product-date > div {
+    margin-right: 20px;
+    padding-left: 20px;
+  }
+  /*============================================================================
+  #Main Bike
+  ==============================================================================*/
+  .bike-fun-stuff .bike-fun-stuff__icon {
+    padding-right: 15px;
+  }
+  .section__bike-fun-stuff.banner-image-section.incify-styles {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+  .bike-fun-stuff .bike-fun-stuff__desc .incify-counter--number {
+    font-size: 24px;
+  }
+  .section__bike-testimonial .bike-testimonial .testimonial_item--inner .testimonial_item--image {
+    position: static;
+    margin-top: 0;
+  }
+  .section__bike-testimonial .bike-testimonial .testimonial_item--inner {
+    padding: 60px;
+  }
+  /*============================================================================
+  #Wine Bike
+  ==============================================================================*/
+  .section__wine-deal .wine-deal .wine-deal__right-column {
+    padding: 70px 15px 70px 0;
+  }
+  .section__wine-deal .wine-deal .wine-deal__left-column .wine-deal__left-column--content blockquote {
+    font-size: 28px;
+  }
+  .section__wine-deal .wine-deal .wine-deal__left-column .wine-deal__left-column--content address {
+    font-size: 14px;
+  }
+  /*============================================================================
+  #Footer
+  ==============================================================================*/
+  #shopify-section-footer {
+    margin-bottom: 40px;
+  }
+  #shopify-section-footer .footer-wrapper.footer-style2 .footer-container {
+    padding: 50px 0;
+    text-align: center;
+    .footer-col-2 {
+      margin-bottom: 30px;
+    }
+    .footer-col-3 {
+      text-align: center;
+      .social-media-link {
+        float: none;
+      }
+    }
+  }
+  #shopify-section-footer .footer-wrapper.footer-style1 .footer-container {
+    padding: 40px 0;
+    .footer-col-1 {
+      margin-bottom: 30px;
+    }
+  }
+  .footer-handheld-footer-bar {
+    display: block;
+  }
+  .searchform-fly-overlay .searchform-fly {
+    font-size: 13px;
+  }
+  .searchform-fly-overlay .search-field {
+    font-size: 16px !important;
+  }
+}

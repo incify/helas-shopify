@@ -1,0 +1,78 @@
+{% case section.settings.logo_width %}
+{% when '' %}
+{%- assign image_logo_width = '' -%}
+{%- assign image_logo_height = '' -%}
+{% else %}
+{%- assign image_logo_width = section.settings.logo_width -%}
+{%- assign image_logo_height = '' -%}
+{% endcase %}
+{% capture image_logo_size %}{{ image_logo_width }}x{{ image_logo_height }}{% endcapture %}
+{% if section.settings.logo_use_image %}
+    {% if section.settings.logo != blank %}
+        {% assign logo = section.settings.logo | img_url: image_logo_size %}
+    {% else %}
+        {% assign logo = 'logo.png' | asset_url %}
+    {% endif %}
+{% endif %}
+
+{% if section.settings.logo_white_use_image %}
+{% if section.settings.logo_white != blank %}
+{% assign logo_white = section.settings.logo_white | img_url: image_logo_size %}
+{% else %}
+{% assign logo_white = 'logo-light.png' | asset_url %}
+{% endif %}
+{% endif %}
+<div class="header-container style1 header__layout-{{section.settings.type}}">
+    <div class="header">
+        <div class="header-wrapper">
+            <div class="container">
+                <div class="header-left-area">
+                    <div class="logo-header">
+                        {% if section.settings.logo_use_image %}
+                        <a href="/" class="logo">
+                            <img class="x1" src="{{ logo }}" alt="{{ shop.name }}" /></a>
+                        {% endif %}
+                        {% if section.settings.logo_white_use_image %}
+                        <a href="/" class="logo-white-specail">
+                            <img class="x1" src="{{ logo_white }}" alt="{{ shop.name }}" />
+                        </a>
+                        {% endif %}
+                    </div>
+                    <div class="menu-icon">
+                        <a href="javascript:;">
+                            <svg class="dlicon-menu2" width="100%" height="100%"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#dlicon-menu2"></use></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="header-middle-area hidden-sm hidden-xs">
+                    <!-- Main Menu -->
+                    {% include 'main-menu' %}
+                    <!-- End Main Menu -->
+                </div>
+
+                <div class="header-right-area hidden-sm hidden-xs">
+
+
+                    <div class="mini-cart">
+                        {% include 'header-cart' %}
+                    </div>
+                    <div class="overlay-background"></div>
+
+                    <div class="search-control">
+                        <a href="javascript:void(0);" class="search-icon"><span><i class="dl-icon-search1"></i></span></a>
+                    </div>
+
+                    <div id="open-aside-header-right"  class="control-otherlinks">
+                        <i class="dl-icon-menu1"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include 'aside-header' %}
+    <div class="overlay-search">
+        {% include 'search-bar' %}
+        <span class="btn-close-search zyra-icon icon-ui-1-simple-remove"></span>
+    </div>
+</div>

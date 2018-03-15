@@ -1,0 +1,44 @@
+.icon-boxes-inner .wrap-icon .box-icon {
+  background-color: #ff9c65;
+  background-image: -webkit-linear-gradient(left, #ff9c65 0%, #93ddff 50%,#ff9c65 100%);
+  background-image: linear-gradient(to right, #ff9c65 0%, #93ddff 50%,#ff9c65 100%);
+  background-size: 200% 100%;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  max-width: 100%;
+  border-radius: 50%;
+
+  transition: all 250ms ease-out;
+  span {
+    display: inline-block;
+    line-height: 20px;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    i {
+      display: block;
+    }
+  }
+}
+.icon-boxes-inner {
+  .box--heading {
+    text-align: center;
+    margin-top: 35px;
+    h5 {
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: bold;
+    }
+  }
+  .box--text {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+  }
+}

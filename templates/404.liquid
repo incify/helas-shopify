@@ -1,0 +1,11 @@
+<!-- /templates/404.liquid -->
+<div class="page-404">
+    <div class="container">
+        <div class="img-404">
+            <img src="{{ '404.png' | asset_url }}">
+        </div>
+        <div class="button-to-home">
+            <a href="/" class="btn-to-home">{% if settings.404_text_button != blank %}{{settings.404_text_button}}{% endif %}</a>
+        </div>
+    </div>
+</div>

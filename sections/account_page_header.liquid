@@ -1,0 +1,56 @@
+{% if section.settings.page_header_image_default != blank %}
+{% assign header_image = section.settings.page_header_image_default | img_url: "master" %}
+{% else %}
+{% assign header_image = 'page-header-bg.jpg' | asset_url %}
+{% endif %}
+{% assign top_space = section.settings.top_space %}
+{% assign bottom_space = section.settings.bottom_space %}
+{% include 'page_header' %}
+
+{% schema %}
+{
+"name": "Page Header",
+"settings": [
+{
+"type": "header",
+"content": "Page Header Settings"
+},
+{
+"type": "image_picker",
+"id": "page_header_image_default",
+"label": "Default Image Background"
+},
+{
+"type": "text",
+"id": "top_space",
+"label": "Top Space"
+},
+{
+"type": "text",
+"id": "bottom_space",
+"label": "Bottom Space"
+},
+{
+"type": "select",
+"id": "enable_breadcrumb",
+"label": "Enable Breadcrumb",
+"options": [
+{
+"value": "yes",
+"label": "Yes"
+},
+{
+"value": "no",
+"label": "No"
+}
+],
+"default": "yes"
+}
+
+],
+"presets": [{
+"name": "Account - Page Header",
+"category": "Customer Page"
+}]
+}
+{% endschema %}

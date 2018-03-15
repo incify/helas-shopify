@@ -1,0 +1,6 @@
+{% capture url %}{% include 'shortcode-render' render:'url' default:'' %}{% endcapture %}
+{% capture title %}{% include 'shortcode-render' render:'title' default:'' %}{% endcapture %}
+{% capture style %}{% include 'shortcode-render' render:'style' default:'' %}{% endcapture %}
+<div class="img-shortcode {{style}}">
+  <img src="{{url}}" alt="{{title}}" />
+</div>

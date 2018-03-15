@@ -1,0 +1,125 @@
+.breadcrumb-single-post{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  .postTitle{
+    h2{
+      a{
+        font-size: 36px !important;
+        font-weight: 300 !important;
+        color: #252634 !important;
+      }
+    }
+  }
+  .main-breadcrumbs{
+    padding-top: 0;
+  }
+}
+.main-breadcrumbs {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 12px;
+  line-height: 1;
+  color: #252634;
+}
+.breadcrumbs {
+  ul {
+    overflow: hidden;
+    margin: 0;
+    li {
+      display: inline-block;
+      a {
+        font-weight: 400;
+        color: #b5b7c4;
+        vertical-align: middle;
+      }
+      .breadcrumbs-split {
+        vertical-align: middle;
+        margin: 0 2px;
+        font-size: 12px;
+        + span {
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+.page-title-breadcrumb{
+  text-align: center;
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(150,155,150,0.30);
+  border-top: 1px solid rgba(150,155,150,0.30);
+  margin-bottom: 70px;
+  h1{
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+  .main-breadcrumbs{
+    margin: 0 !important;
+    padding-bottom: 0;
+  }
+}
+.template-list-collections, .template-blog, .template-collection, .template-product, .template-article, .template-page, .template-customers-account, .template-cart, .template-customers-register, .template-customers-login {
+  .main-container {
+    .main-wrapper {
+      padding-top: 0;
+      .main-breadcrumbs {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+.template-list-collections{
+  .tab-product-collection{
+    position:relative;
+    h3{
+      margin-top:0;
+    }
+    .products-grid{
+      position:static;
+      .item{
+        padding:0;
+      }
+      .owl-nav{
+        div{
+          position: absolute;
+          top: 8px;
+        }
+        .owl-prev{
+          right:26px;
+        }
+        .owl-next{
+          right:0px;
+        }
+      }
+    }
+  }
+}
+.breadcrumb-single-product{
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgba(150,150,150,0.30);
+  border-top: 1px solid rgba(150,150,150,0.30);
+  .product-name-title{
+    padding-top: 30px;
+    font-weight: 300;
+    font-size: 2.5em;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #252634;
+  }
+  .main-breadcrumbs{
+    padding-top: 15px !important;
+    text-align: center !important;
+    margin: 0;
+  }
+}
+.breadcrumb-single-post{
+  text-align: center;
+  padding-bottom: 40px;
+  .main-breadcrumbs{
+    padding-top: 15px !important;
+    text-align: center !important;
+  }
+}

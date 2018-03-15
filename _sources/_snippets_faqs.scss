@@ -1,0 +1,129 @@
+#faqs {
+  .main-container {
+    padding-bottom: 0 !important;
+  }
+}
+.faqs-middle{
+  background-color: #F7F7F7;
+}
+.faqs-style-1{
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 50px;
+  .faqs-total-title{
+    padding-top: 100px;
+    .content-text{
+      text-align: center;
+      h2{
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 30px;
+      }
+      p{
+        font-family: "Playfair Display";
+        font-style: italic;
+        font-size: 14px;
+        color: #9d9d9d;
+      }
+    }
+  }
+  .content-faqs-inner{
+    padding: 70px 0;
+    .item{
+      padding: 13px 30px;
+      border: 1px solid #e5e5e5;
+      border-radius: 5px;
+      background-color: #ffffff;
+      margin: 10px 0;
+      display: inline-block;
+      width: 100%;
+      &.active{
+        box-shadow: 0 0 87px 0 rgba(41,44,58,.1);
+      }
+      .content-faqs{
+        .pertinacia{
+          .faqs2{
+            display: none;
+            color: #62646c;
+            font-size: 12px;
+            margin-top: 30px;
+          }
+          .faqs{
+            cursor: pointer;
+            font-size: 14px;
+            line-height:24px;
+            color: #252634;
+            i{
+              float: right;
+              font-size: 25px;
+            }
+          }
+          p{
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  .title-faqs{
+    font-size: 18px;
+    color: #252634;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+}
+.faqs-style-2{
+  .faqs-total-title{
+    padding-top: 100px;
+    .content-text{
+      text-align: center;
+      h2{
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 30px;
+      }
+      p{
+        font-family: "Playfair Display";
+        font-style: italic;
+        font-size: 14px;
+        color: #9d9d9d;
+      }
+    }
+  }
+  .content-faqs-inner{
+    padding: 70px 0;
+    .item{
+      padding: 13px 30px;
+      margin: 10px 0;
+      display: inline-block;
+      width: 100%;
+      .content-faqs{
+        .pertinacia{
+          .faqs12{
+            font-size: 12px;
+            margin-top: 15px;
+          }
+          .faqs1{
+            font-size: 24px;
+            line-height:1.2;
+            color: #252634;
+            font-weight: 700;
+            position: relative;
+          }
+          p{
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  .title-faqs{
+    font-size: 18px;
+    color: #252634;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+}

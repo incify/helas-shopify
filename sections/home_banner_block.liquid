@@ -1,0 +1,221 @@
+<section data-section-id="{{ section.id }}" data-section-type="section_banner_block" class="section-banner-block lg-mt-100 xs-mt-50{% if section.settings.enable_style == true %} incify-styles{% endif %}"{% if section.settings.enable_style == true %} data-styles='{
+  {% if section.settings.style_top != '' %}
+  "margin-top":"{{ section.settings.style_top }}px",
+  {% endif %}
+  {% if section.settings.style_bottom != '' %}
+  "margin-bottom":"{{ section.settings.style_bottom }}px",
+  {% endif %}
+  {% if section.settings.style_left != '' %}
+  "margin-left":"{{ section.settings.style_left }}px",
+  {% endif %}
+  {% if section.settings.style_right != '' %}
+  "margin-right":"{{ section.settings.style_right }}px"
+  {% endif %}
+}'{% endif %}>
+{% if section.settings.title !='' %}
+  <div class="container {{ section.settings.preset_section_title }}">
+      <div class="row">
+          <div class="col-sm-12">
+              <div class="section-title">
+                  {% if settings.language_enable %}
+                  <span class="lang1">{{ section.settings.title | split: '|' | first }}</span>
+                  <span class="lang2">{{ section.settings.title | split: '|' | last }}</span>
+                  {% else %}
+                  <span>{{ section.settings.title | split: '|' | first }}</span>
+                  {% endif %}
+              </div>
+          </div>
+      </div>
+  </div>
+  {% endif %}
+  {% if section.blocks.size > 0 %}
+  <div class="nova_row_max_width_1920 nova_row_gap_80">
+  {% for block in section.blocks %}
+    <div class="row banner-block lg-mt-70 lg-mb-70 sm-mt-25 sm-mb-25 xs-mt-10 xs-mb-10">
+      <div class="col-md-6">
+        {% if block.settings.image_postion == 'left' %}
+        <div class="banner-block__image">
+          <img src="{{ block.settings.image | img_url: 'master' }}">
+        </div>
+        {% else %}
+        <div class="banner-block__content md-pt-50 xs-pt-30">
+          {% include 'shortcode' load: block.settings.text %}
+        </div>
+        {% endif %}
+      </div>
+      <div class="col-md-6">
+        {% if block.settings.image_postion == 'right' %}
+        <div class="banner-block__image">
+          <img src="{{ block.settings.image | img_url: 'master' }}">
+        </div>
+        {% else %}
+        <div class="banner-block__content lg-pt-50 sm-pt-30">
+          {% include 'shortcode' load: block.settings.text %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+  {% if section.settings.readmore_url !='' %}
+  <div class="section-banner-block__readmore">
+    <a href="{{ section.settings.readmore_url }}"><u>{{ section.settings.readmore_text }}</u></a>
+  </div>
+  {% endif %}
+{% endif %}
+</section>
+
+{% schema %}
+{
+"name": "Banner Block",
+"settings": [
+  {
+  "type": "select",
+  "id": "preset_section_title",
+  "label": "Preset Section Title",
+  "options": [
+  {
+  "value": "style_1",
+  "label": "Style 1"
+  },
+  {
+  "value": "style_2",
+  "label": "Style 2"
+  },
+  {
+  "value": "style_3",
+  "label": "Style 3"
+  },
+  {
+  "value": "style_4",
+  "label": "Style 4"
+  },
+  {
+  "value": "style_5",
+  "label": "Style 5"
+  },
+  {
+  "value": "style_6",
+  "label": "Style 6"
+  },
+  {
+  "value": "style_7",
+  "label": "Style 7"
+  },
+  {
+  "value": "style_8",
+  "label": "Style 8"
+  }
+  ],
+  "default": "style_1"
+  },
+  {
+  "type": "text",
+  "id": "title",
+  "label": "Title"
+  },
+  {
+    "type": "header",
+    "content": "Read More Settings"
+  },
+  {
+    "type": "url",
+    "id": "readmore_url",
+    "label": "Read More Url"
+  },
+  {
+    "type": "text",
+    "id": "readmore_text",
+    "label": "Read More Text"
+  },
+  {
+    "type": "header",
+    "content": "Styles Settings"
+  },
+  {
+   "type": "checkbox",
+   "id": "enable_style",
+   "default": false,
+   "label": "Enable Style Settings"
+  },
+  {
+      "type":      "range",
+      "id":        "style_top",
+      "min":       0,
+      "max":        500,
+      "step":       5,
+      "unit":       "px",
+      "label":     "Space Top",
+      "default":   0
+  },
+  {
+      "type":      "range",
+      "id":        "style_bottom",
+      "min":       0,
+      "max":        500,
+      "step":       5,
+      "unit":       "px",
+      "label":     "Space Bottom",
+      "default":   0
+  },
+  {
+      "type":      "range",
+      "id":        "style_left",
+      "min":       0,
+      "max":        500,
+      "step":       5,
+      "unit":       "px",
+      "label":     "Space Left",
+      "default":   0
+  },
+  {
+      "type":      "range",
+      "id":        "style_right",
+      "min":       0,
+      "max":        500,
+      "step":       5,
+      "unit":       "px",
+      "label":     "Space Right",
+      "default":   0
+  }
+],
+"blocks": [
+    {
+    "type": "text_block",
+    "name": "Banner Item",
+    "settings": [
+        {
+        "type": "select",
+        "id": "image_postion",
+        "label": "Image Postion",
+        "options": [
+        {
+        "value": "left",
+        "label": "Left"
+        },
+        {
+        "value": "right",
+        "label": "Right"
+        }
+        ],
+        "default": "left"
+        },
+        {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Banner Image"
+        },
+        {
+        "type": "textarea",
+        "id": "text",
+        "label": "Banner Text"
+        }
+    ]
+}
+],
+"presets": [{
+"name": "Banner Block",
+"category": "Banner Image"
+}]
+}
+{% endschema %}

@@ -1,0 +1,181 @@
+<div data-section-id="{{ section.id }}" data-section-type="banner-image-background-section" class="banner-image-background-section {% if section.settings.preset == '' %}style_1{% endif %}{{section.settings.preset}}{% if section.settings.enable_style == true %} incify-styles{% endif %}"{% if section.settings.enable_style == true %} data-styles='{
+  {% if section.settings.style_top != '' %}
+  "margin-top":"{{ section.settings.style_top }}px",
+  {% endif %}
+  {% if section.settings.style_bottom != '' %}
+  "margin-bottom":"{{ section.settings.style_bottom }}px",
+  {% endif %}
+  {% if section.settings.style_left != '' %}
+  "margin-left":"{{ section.settings.style_left }}px",
+  {% endif %}
+  {% if section.settings.style_right != '' %}
+  "margin-right":"{{ section.settings.style_right }}px"
+  {% endif %}
+}'{% endif %}{% if section.settings.bg_color != '' %} style="background-color:{{section.settings.bg_color}}"{% endif %}>
+    {% case section.settings.preset%}
+    {% when 'style_2' %}
+    <div class="banner-image">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-7 no-padding">
+                    <div class="box-inner">
+                        {% if section.settings.text_banner_background != blank %}
+                        <div class="banner--infor">
+                            {{ section.settings.text_banner_background }}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="col-sm-5 no-padding">
+                    <div class="box-background" style="background-image: url({{ section.settings.image_banner_background_bg | img_url: 'master' }})"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% when 'style_3' %}
+    <div class="banner-image">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 banner-column img-col">
+                    <img src="{{ section.settings.image_banner_background_bg | img_url: 'master' }}" />
+                </div>
+                <div class="col-sm-6 banner-column content-col">
+                    <div class="box-inner">
+                        {% if section.settings.text_banner_background != blank %}
+                        <div class="banner--infor">
+                            {% include 'shortcode' load: section.settings.text_banner_background %}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <div class="banner-image">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 no-padding">
+                    <div class="box-background" style="background-image: url({{ section.settings.image_banner_background_bg | img_url: 'master' }})"></div>
+                </div>
+                <div class="col-sm-6 no-padding">
+                    <div class="box-inner">
+                        {% if section.settings.text_banner_background != blank %}
+                        <div class="banner--infor">
+                            {{ section.settings.text_banner_background }}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endcase %}
+</div>
+{% schema %}
+{
+"name": "Background Full Width",
+"settings": [
+    {
+    "type": "header",
+    "content": "Background Full Width"
+    },
+    {
+    "type": "select",
+    "id": "preset",
+    "label": "Preset",
+    "options": [
+    {
+      "value": "",
+      "label": "Style 1"
+    },
+    {
+      "value": "style_2",
+      "label": "Style 2"
+    },
+    {
+      "value": "style_3",
+      "label": "Style 3"
+    }
+    ],
+    "default": ""
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#e6e5e3"
+    },
+    {
+    "type": "image_picker",
+    "id": "image_banner_background_bg",
+    "label": "Image Background"
+    },
+    {
+    "type": "textarea",
+    "id": "text_banner_background",
+    "label": "Text"
+    },
+    {
+      "type": "header",
+      "content": "Styles Settings"
+    },
+    {
+     "type": "checkbox",
+     "id": "enable_style",
+     "default": false,
+     "label": "Enable Style Settings"
+    },
+    {
+        "type":      "range",
+        "id":        "style_top",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Top",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_bottom",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Bottom",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_left",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Left",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_right",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Right",
+        "default":   0
+    }
+	],
+	"presets": [{
+      "name": "Background Full Width",
+      "category": "Banner Image"
+  	}]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,14 @@
+<div class="searchform-fly-overlay">
+  <a href="javascript:;" class="btn-close-search">
+    <svg class="dlicon-close" width="26px" height="26px">
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#dlicon-close"></use>
+    </svg>
+  </a>
+  <div class="searchform-fly">
+    <p>{{ 'general.search.search_note' | t }}</p>
+    <form method="get" class="search-form" action="/search">
+      <input type="search" class="search-field" value="{{ search.terms | escape }}" {% if settings.language_enable %}data-translate="general.search.placeholder"{% endif %} placeholder="{{ 'general.search.placeholder' | t }}" name="q" title="{{ 'general.search.placeholder' | t }}">
+      <button class="search-button" type="submit"><i class="dl-icon-search1"></i></button>
+      <input type="hidden" name="post_type" value="product"></form>
+    </div>
+  </div>

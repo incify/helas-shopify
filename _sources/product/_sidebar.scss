@@ -1,0 +1,133 @@
+.sidebar-product{
+  .block{
+    margin-bottom: 30px;
+  }
+  .block-title{
+    margin: 5px 0 10px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px 0;
+    line-height: 1;
+    color: #313131;
+    text-transform: uppercase;
+  }
+  #categories_nav{
+    .collapse{
+      display: none;
+    }
+    .expand{
+      display: none;
+    }
+    ul{
+      display: block;
+    }
+    li a{
+      color: #727883;
+    }
+  }
+  .custom-block{
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    background: url(bkg_4.png) bottom no-repeat;
+  }
+  .custom-block-1{
+    padding-bottom: 20px;
+    > div{
+      min-height: 50px;
+      margin-bottom: 20px;
+      clear: both;
+      i{
+        font-size: 30px;
+        color: #000;
+        float: left;
+        width: 50px;
+        height: 50px;
+        line-height: 48px;
+        border: 1px solid #bbb;
+        border-radius: 50%;
+        text-align: center;
+        margin-right: 10px;
+      }
+      h3{
+        color: #313131;
+        font-size: 16px;
+        margin: 0;
+        line-height: 1.5;
+        margin-left: 50px;
+        padding-top: 4px;
+        font-weight:600;
+      }
+      p{
+        font-size: 12px;
+        margin: 0;
+        margin-left: 50px;
+        line-height: 1;
+      }
+    }
+  }
+  .bestseller_product{
+    position:relative;
+    .sidebar-content {
+      .products-grid{
+        position:static;
+        .item{
+          padding:0;
+          .item-area{
+            margin: 10px 0 15px;
+            position: relative;
+            &:before{
+              display: none;
+            }
+            .product-figure{
+              padding: 1px!important;
+              .product-image{
+
+                border-radius:0px;
+              }
+            }
+            .product-details{
+              padding:0;
+              text-align:left;
+              h2{
+                margin: 10px 0;
+                font-size: 1em;
+                font-weight: 400;
+                line-height:1.5;
+                display:block;
+                padding-right:10px;
+              }
+              .ratings{
+                font-size: 11px;
+                line-height: 1.25;
+                margin: 3px 0;
+                height:14px;
+                background:none;
+              }
+              .price{
+                display: inline-block;
+                vertical-align: middle;
+                opacity: 1;
+                visibility: visible;
+              }
+            }
+          }
+        }
+        .owl-nav{
+          div{
+            position: absolute;
+            top: 10px;
+            i{
+              font-size:13px;
+            }
+          }
+          .owl-prev{
+            right:26px;
+          }
+          .owl-next{
+            right:4px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+.searchform-fly-overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(255,255,255,.9);
+    text-align: center;
+    transition: all ease-in-out .25s;
+    z-index: 999;
+    color: #232324;
+    &:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      margin-right: -.25em;
+    }
+    .btn-close-search {
+      font-size: 40px;
+      display: block;
+      position: absolute;
+      top: 20%;
+      right: 10%;
+      line-height: 40px;
+      height: 40px;
+      transition: all .3s;
+    }
+    .searchform-fly {
+      display: inline-block;
+      max-width: 90%;
+      vertical-align: middle;
+      text-align: center;
+      font-size: 18px;
+      transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      -webkit-transform: scale(0.9);
+      opacity: 0;
+      visibility: hidden;
+      transition: all ease-in-out .3s;
+      .search-form {
+        position: relative;
+      }
+      .search-field {
+        width: 800px;
+        background-color: transparent;
+        border: 0;
+        border-bottom: 2px solid #232324;
+        text-align: center;
+        font-size: 30px;
+        padding: 10px;
+        transition: all .3s ease-out;
+        font-weight: 300;
+        max-width: 100%;
+        border-radius: 0;
+        &::placeholder {
+          color: #232324;
+        }
+      }
+      .search-button {
+        position: absolute;
+        display: block;
+        right: 5px;
+        border: 0;
+        color: #000;
+        background: none;
+        padding: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+      }
+    }
+}
+.open-search-form .searchform-fly-overlay {
+    visibility: visible;
+    opacity: 1;
+}
+.open-search-form .searchform-fly {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+}

@@ -1,0 +1,33 @@
+.section__organic-background-content {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  .organic-background-content {
+    position: static;
+    &:before {
+      content: "";
+      position: absolute;
+      background: #fff;
+      width: 110%;
+      height: 300px;
+      left: -5%;
+      border-radius: 100%;
+      top: -200px;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      background: #fff;
+      width: 110%;
+      height: 300px;
+      left: -5%;
+      border-radius: 100%;
+      bottom: -200px;
+    }
+    .organic-background-content__desc {
+      h2 {
+        font-size: 46px;
+      }
+    }
+  }
+}

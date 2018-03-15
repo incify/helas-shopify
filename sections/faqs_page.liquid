@@ -1,0 +1,252 @@
+<div class="faqs-style-2">
+    <section class="faqs-top">
+        <div class="faqs-total-title">
+            <div class="container">
+                <div class="row">
+                    <div class="content-text">
+                        <h2>
+                            {% if section.settings.title_faqs_total != blank %}
+                            {{ section.settings.title_faqs_total }}
+                            {% endif %}
+                        </h2>
+                        <p>
+                            {% if section.settings.sub_title_faqs_total != blank %}
+                            {{ section.settings.sub_title_faqs_total }}
+                            {% endif %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-faqs-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        {% if section.blocks.size > 0 %}
+                        {% for block in section.blocks %}
+                        {% if block.settings.questions_faqs != blank and block.settings.answer_faqs != blank %}
+                        <div class="item">
+                            <div class="content">
+                                <div class="content-faqs">
+                                    <div class="pertinacia">
+                                        {% if block.settings.questions_faqs != blank %}
+                                        <p class="faqs1"> {{ block.settings.questions_faqs }}</p>
+                                        {% endif %}
+                                        {% if block.settings.answer_faqs != blank %}
+                                        <p class="faqs12">{{ block.settings.answer_faqs }}</p>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                        {% endif %}
+                    </div>
+                    <div class="col-sm-6">
+                        {% if section.blocks.size > 0 %}
+                        {% for block in section.blocks %}
+                        {% if block.settings.questions_faqs1 != blank and block.settings.answer_faqs1 != blank %}
+                        <div class="item">
+                            <div class="content">
+                                <div class="content-faqs">
+                                    <div class="pertinacia">
+                                        {% if block.settings.questions_faqs1 != blank %}
+                                        <p class="faqs1"> {{ block.settings.questions_faqs1 }}</p>
+                                        {% endif %}
+                                        {% if block.settings.answer_faqs1 != blank %}
+                                        <p class="faqs12">{{ block.settings.answer_faqs1 }}</p>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faqs-middle">
+        <div class="faqs-total-title">
+            <div class="container">
+                <div class="row">
+                    <div class="content-text">
+                        <h2>
+                            {% if section.settings.title_faqs_total_2 != blank %}
+                            {{ section.settings.title_faqs_total_2 }}
+                            {% endif %}
+                        </h2>
+                        <p>
+                            {% if section.settings.sub_title_faqs_total_2 != blank %}
+                            {{ section.settings.sub_title_faqs_total_2 }}
+                            {% endif %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-faqs-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        {% if section.blocks.size > 0 %}
+                        {% for block in section.blocks %}
+                        {% if block.settings.questions_faqs2 != blank and block.settings.answer_faqs2 != blank %}
+                        <div class="item">
+                            <div class="content">
+                                <div class="content-faqs">
+                                    <div class="pertinacia">
+                                        {% if block.settings.questions_faqs2 != blank %}
+                                        <p class="faqs1"> {{ block.settings.questions_faqs2 }}</p>
+                                        {% endif %}
+                                        {% if block.settings.answer_faqs2 != blank %}
+                                        <p class="faqs12">{{ block.settings.answer_faqs2 }}</p>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                        {% endif %}
+                    </div>
+                    <div class="col-sm-6">
+                        {% if section.blocks.size > 0 %}
+                        {% for block in section.blocks %}
+                        {% if block.settings.questions_faqs3 != blank and block.settings.answer_faqs3 != blank %}
+                        <div class="item">
+                            <div class="content">
+                                <div class="content-faqs">
+                                    <div class="pertinacia">
+                                        {% if block.settings.questions_faqs3 != blank %}
+                                        <p class="faqs1"> {{ block.settings.questions_faqs3 }}</p>
+                                        {% endif %}
+                                        {% if block.settings.answer_faqs3 != blank %}
+                                        <p class="faqs12">{{ block.settings.answer_faqs3 }}</p>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{% schema %}
+{
+"name": "FAQs Content",
+"max_blocks": 20,
+"settings": [
+{
+"type": "header",
+"content": "Section 1"
+},
+{
+"type": "text",
+"id": "title_faqs_total",
+"label": "Title "
+},
+{
+"type": "text",
+"id": "sub_title_faqs_total",
+"label": "Sub Title "
+},
+{
+"type": "header",
+"content": "Section 2"
+},
+{
+"type": "text",
+"id": "title_faqs_total_2",
+"label": "Title "
+},
+{
+"type": "text",
+"id": "sub_title_faqs_total_2",
+"label": "Sub Title "
+}
+],
+"blocks": [
+{
+"type": "text",
+"name": "Text FAQs",
+"settings": [
+{
+"type": "header",
+"content": "Custom FAQs Section 1"
+},
+{
+"type": "text",
+"id": "questions_faqs",
+"label": "Questions content left"
+},
+{
+"type": "text",
+"id": "answer_faqs",
+"label": "Answer content left"
+},
+{
+"type": "text",
+"id": "questions_faqs1",
+"label": "Questions content right"
+},
+{
+"type": "text",
+"id": "answer_faqs1",
+"label": "Answer content right"
+},
+{
+"type": "header",
+"content": "Custom FAQs Section 2"
+},
+{
+"type": "text",
+"id": "questions_faqs2",
+"label": "Questions content left"
+},
+{
+"type": "text",
+"id": "answer_faqs2",
+"label": "Answer content left"
+},
+{
+"type": "text",
+"id": "questions_faqs3",
+"label": "Questions content right"
+},
+{
+"type": "text",
+"id": "answer_faqs3",
+"label": "Answer content right"
+}
+]
+}
+],
+"presets": [{
+"name": "FAQs Content",
+"category": "FAQs Page",
+"settings": {
+
+},
+"blocks": [
+{
+"type": "text"
+}
+]
+}]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

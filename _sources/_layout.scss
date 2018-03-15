@@ -1,0 +1,192 @@
+body.boxed{
+  background-color: #000;
+  .wrapper{
+    padding-top: 24px;
+    padding-bottom: 17px;
+    .page{
+      width: 1180px;
+      margin-left: auto;
+      margin-right: auto;
+      .header-wrapper{
+
+      }
+    }
+  }
+}
+.wrapper{
+  position: relative;
+  left: 0;
+  transition: left 0.3s;
+}
+.overlay{
+  background-color: #000;
+  opacity: .55;
+  filter: alpha(opacity=55);
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.main-container{
+  position: relative;
+  z-index: 2;
+  padding-bottom: 100px;
+  .main-wrapper {
+    padding-top: 0;
+    .page {
+      .title {
+        h2 {
+          margin: 0 0 30px;
+        }
+      }
+    }
+  }
+}
+.template-index {
+  .main-container {
+    padding-bottom: 0;
+  }
+}
+.main-content-inner {
+  padding-top: 70px;
+}
+.block_heading {
+  text-align: center;
+  .block_heading--title {
+      font-weight: normal;
+      font-size: 48px;
+      text-transform: uppercase;
+      &:after {
+        content: "";
+        border-top: 2px solid;
+        width: 60px;
+        display: block;
+        margin: 20px auto 30px;
+      }
+  }
+}
+.nova_row_max_width_1920 {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+.nova_row_gap_65 {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+.nova_row_gap_80 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.font-family-satisfy {
+    font-family: 'Satisfy',cursive;
+    font-weight: 400;
+}
+.la-overlay-global {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #232324;
+    z-index: 9;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 250ms ease-out;
+}
+.open-overlay .la-overlay-global {
+    visibility: visible;
+    opacity: .95;
+}
+body.side-header {
+  overflow-x: hidden;
+  .top-newsletter {
+    margin-left: 256px;
+    > .container {
+      max-width: 100%;
+    }
+  }
+  .main-container, .footer-wrapper {
+    margin-left: 256px;
+    .main-breadcrumbs.fixed-position {
+      position: fixed;
+      width: 100%;
+      z-index: 999;
+      top: 0;
+    }
+    .main-breadcrumbs > .container {
+      max-width: 100%;
+    }
+    .main .container {
+      max-width: 100%;
+    }
+    .footer-middle > .container, .footer-top > .container, .footer-bottom > .container {
+      max-width: 100%;
+    }
+  }
+}
+/*============================================================================
+# paralax box
+==============================================================================*/
+.parallax-box{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*============================================================================
+# Preloading
+==============================================================================*/
+.nova-preloading {
+    opacity: 0;
+    position: fixed;
+    z-index: 999999;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    visibility: hidden;
+    .spinner  {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 50px;
+      width: 50px;
+      margin-top: -25px !important;
+      margin-left: -25px;
+      text-align: center;
+      font-size: 10px;
+      .circle {
+        margin: 0 auto;
+        border-bottom: 2.5px solid transparent !important;
+        border-left: 2.5px solid #3b3b3b;
+        border-right: 2.5px solid #3b3b3b;
+        border-top: 2.5px solid #3b3b3b;
+        border-radius: 100%;
+        height: 32px!important;
+        width: 32px!important;
+        -webkit-animation: circlespin .8s infinite linear;
+        -moz-animation: circlespin .6s infinite linear;
+        -ms-animation: circlespin .6s infinite linear;
+        -o-animation: circlespin .6s infinite linear;
+        animation: circlespin .8s infinite linear;
+      }
+    }
+}
+.site-loading .nova-preloading {
+    opacity: 1;
+    visibility: visible;
+}
+.custom-styles-css {
+  display: none;
+}

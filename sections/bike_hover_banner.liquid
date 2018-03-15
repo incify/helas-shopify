@@ -1,0 +1,196 @@
+<section data-section-id="{{ section.id }}" data-section-type="section_bike_hover_banner" class="section__bike-hover-banner banner-image-section xs-mt-30{% if section.settings.enable_style == true %} incify-styles{% endif %}"{% if section.settings.enable_style == true %} data-styles='{
+  {% if section.settings.style_top != '' %}
+  "margin-top":"{{ section.settings.style_top }}px",
+  {% endif %}
+  {% if section.settings.style_bottom != '' %}
+  "margin-bottom":"{{ section.settings.style_bottom }}px",
+  {% endif %}
+  {% if section.settings.style_left != '' %}
+  "margin-left":"{{ section.settings.style_left }}px",
+  {% endif %}
+  {% if section.settings.style_right != '' %}
+  "margin-right":"{{ section.settings.style_right }}px"
+  {% endif %}
+}'{% endif %}>
+<div class="row">
+  <div class="col-sm-3">
+    <div class="box-inner bike-hover-banner__01">
+        <div class="banner--image incify-lazyload-image banner-background-1" data-background-image="{{ section.settings.banner_image_1 | img_url: 'master' }}" data-auto-padding="true"></div>
+        {% if section.settings.banner_text_1 != blank %}
+        <div class="banner--infor">
+          {% include 'shortcode' load: section.settings.banner_text_1 %}
+        </div>
+        {% endif %}
+        {% if section.settings.banner_url_1 != blank %}<a class="link-shop-overlay" href="{{section.settings.banner_url_1}}"></a>{% endif %}
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="box-inner xs-mb-30 bike-hover-banner__02">
+        <div class="banner--image incify-lazyload-image banner-background-1" data-background-image="{{ section.settings.banner_image_2 | img_url: 'master' }}" data-auto-padding="true"></div>
+        {% if section.settings.banner_text_2 != blank %}
+        <div class="banner--infor">
+          {% include 'shortcode' load: section.settings.banner_text_2 %}
+        </div>
+        {% endif %}
+        {% if section.settings.banner_url_2 != blank %}<a class="link-shop-overlay" href="{{section.settings.banner_url_2}}"></a>{% endif %}
+    </div>
+    <div class="box-inner bike-hover-banner__03">
+        <div class="banner--image incify-lazyload-image banner-background-1" data-background-image="{{ section.settings.banner_image_3 | img_url: 'master' }}" data-auto-padding="true"></div>
+        {% if section.settings.banner_text_3 != blank %}
+        <div class="banner--infor">
+          {% include 'shortcode' load: section.settings.banner_text_3 %}
+        </div>
+        {% endif %}
+        {% if section.settings.banner_url_3 != blank %}<a class="link-shop-overlay" href="{{section.settings.banner_url_3}}"></a>{% endif %}
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="box-inner bike-hover-banner__04">
+        <div class="banner--image incify-lazyload-image banner-background-1" data-background-image="{{ section.settings.banner_image_4 | img_url: 'master' }}" data-auto-padding="true"></div>
+        {% if section.settings.banner_text_4 != blank %}
+        <div class="banner--infor">
+          {% include 'shortcode' load: section.settings.banner_text_4 %}
+        </div>
+        {% endif %}
+        {% if section.settings.banner_url_4 != blank %}<a class="link-shop-overlay" href="{{section.settings.banner_url_4}}"></a>{% endif %}
+    </div>
+  </div>
+</div>
+</section>
+{% schema %}
+{
+"name": "Hover Banners",
+"settings": [
+  {
+    "type": "header",
+    "content": "Banner 1 Settings"
+  },
+  {
+    "type": "image_picker",
+    "id": "banner_image_1",
+    "label": "Banner Image"
+  },
+  {
+    "type": "textarea",
+    "id": "banner_text_1",
+    "label": "Banner Text"
+  },
+  {
+    "type": "url",
+    "id": "banner_url_1",
+    "label": "Banner Url"
+  },
+  {
+    "type": "header",
+    "content": "Banner 2 Settings"
+  },
+  {
+    "type": "image_picker",
+    "id": "banner_image_2",
+    "label": "Banner Image"
+  },
+  {
+    "type": "textarea",
+    "id": "banner_text_2",
+    "label": "Banner Text"
+  },
+  {
+    "type": "url",
+    "id": "banner_url_2",
+    "label": "Banner Url"
+  },
+  {
+    "type": "header",
+    "content": "Banner 3 Settings"
+  },
+  {
+    "type": "image_picker",
+    "id": "banner_image_3",
+    "label": "Banner Image"
+  },
+  {
+    "type": "textarea",
+    "id": "banner_text_3",
+    "label": "Banner Text"
+  },
+  {
+    "type": "url",
+    "id": "banner_url_3",
+    "label": "Banner Url"
+  },
+  {
+    "type": "header",
+    "content": "Banner 4 Settings"
+  },
+  {
+    "type": "image_picker",
+    "id": "banner_image_4",
+    "label": "Banner Image"
+  },
+  {
+    "type": "textarea",
+    "id": "banner_text_4",
+    "label": "Banner Text"
+  },
+  {
+    "type": "url",
+    "id": "banner_url_4",
+    "label": "Banner Url"
+  },
+  {
+    "type": "header",
+    "content": "Styles Settings"
+  },
+  {
+     "type": "checkbox",
+     "id": "enable_style",
+     "default": false,
+     "label": "Enable Style Settings"
+  },
+  {
+      "type":      "range",
+      "id":        "style_top",
+      "min":       0,
+      "max":        500,
+      "step":       5,
+      "unit":       "px",
+      "label":     "Space Top",
+      "default":   0
+  },
+  {
+      "type":      "range",
+      "id":        "style_bottom",
+      "min":       0,
+      "max":        500,
+      "step":       5,
+      "unit":       "px",
+      "label":     "Space Bottom",
+      "default":   0
+  },
+  {
+      "type":      "range",
+      "id":        "style_left",
+      "min":       0,
+      "max":        500,
+      "step":       5,
+      "unit":       "px",
+      "label":     "Space Left",
+      "default":   0
+  },
+  {
+      "type":      "range",
+      "id":        "style_right",
+      "min":       0,
+      "max":        500,
+      "step":       5,
+      "unit":       "px",
+      "label":     "Space Right",
+      "default":   0
+  }
+],
+"presets": [{
+"name": "Hover Banners",
+"category": "Main Bike"
+}]
+}
+{% endschema %}

@@ -1,0 +1,90 @@
+.section__bike-testimonial {
+  .bike-testimonial {
+    .bike-testimonial__grid-item {
+      padding: 10px;
+    }
+    .testimonial_item--inner {
+      position: relative;
+      background-color: #fff;
+      padding: 60px 60px 60px 140px;
+      margin-bottom: 0;
+      text-align: left;
+      .testimonial_item--image {
+        position: absolute;
+        left: 45px;
+        top: 50%;
+        margin-top: -45px;
+        span {
+          width: 64px;
+          height: 64px;
+          display: block;
+          margin: 0 auto;
+          border-radius: 50%;
+          overflow: hidden;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+      }
+      .testimonial_item--info {
+        .testimonial_item--excerpt {
+          font-size: 16px;
+          line-height: 2;
+          margin-bottom: 15px;
+        }
+      }
+      .testimonial_item--bottom {
+        .testimonial_item--title-role {
+          &:before {
+            display: none;
+          }
+          .testimonial_item--title {
+            text-transform: uppercase;
+            font-weight: 700;
+          }
+          .item--rating {
+            .star-rating {
+              display: inline-block;
+              overflow: hidden;
+              position: relative;
+              height: 12px;
+              line-height: 12px;
+              letter-spacing: 5px;
+              font-size: 12px;
+              width: 77px;
+              margin-top: 10px;
+              font-family: fontawesome;
+              text-rendering: auto;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale;
+              color: #d5d6d8;
+              &:before {
+                content: "\f005\f005\f005\f005\f005";
+                float: left;
+                top: 0;
+                left: 0;
+                position: absolute;
+              }
+              span {
+                color: #f5b223;
+                overflow: hidden;
+                float: left;
+                top: 0;
+                left: 0;
+                position: absolute;
+                padding-top: 15px;
+                height: 0;
+                &:before {
+                  content: "\f005\f005\f005\f005\f005";
+                  top: 0;
+                  position: absolute;
+                  left: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

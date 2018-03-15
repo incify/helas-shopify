@@ -1,0 +1,8 @@
+{% capture title %}{% include 'shortcode-render' render:'title' default:'' %}{% endcapture %}
+{% capture data %}{% include 'shortcode-render' render:'data' default:'' %}{% endcapture %}
+<div class="progress-title">{{title}}
+    <div class="progress-percent" data-progress="{{data}}">{{data}}%</div>
+</div>
+<div class="progress">
+    <div class="progress-bar" data-progress="{{data}}"></div>
+</div>

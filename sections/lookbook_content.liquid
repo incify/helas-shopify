@@ -1,0 +1,66 @@
+{% if section.blocks.size > 0 %}
+<div class="lookbook-content-layout">
+    <div class="container">
+        <div class="row no-gutters">
+            {% for block in section.blocks %}
+            {% assign lb_image = block.settings.lookbook_image | img_url: "master" %}
+            {% assign lb_name = block.settings.lookbook_name %}
+            {% assign lb_url = block.settings.lookbook_url %}
+            <div class="col-md-3">
+                <div class="lookbook_item">
+                    <div class="lookbook_item--thumbnail">
+                        <a href="{{ lb_url }}">
+                            <img src="{{ lb_image }}">
+                            <div class="item--overlay"></div>
+                            <div class="item--name">
+                                <span>{{ lb_name }}</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
+
+
+{% schema %}
+{
+"name": "Lookbook Content",
+"blocks": [
+    {
+    "type": "text_block",
+    "name": "Lookbook Item",
+    "settings": [
+        {
+        "type": "image_picker",
+        "id": "lookbook_image",
+        "label": "Lookbook Image"
+        },
+        {
+        "type": "text",
+        "id": "lookbook_url",
+        "label": "LookBook Url"
+        },
+        {
+        "type": "text",
+        "id": "lookbook_name",
+        "label": "LookBook Name"
+        }
+    ]
+}
+],
+"presets": [{
+"name": "Lookbook Content",
+"category": "Lookbook Page"
+}]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

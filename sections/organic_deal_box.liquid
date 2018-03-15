@@ -1,0 +1,128 @@
+<div class="section__organic-deal-box">
+  <div class="container">
+    <div class="organic-deal-box">
+      <div class="{{ section.settings.preset_section_title }} {% if section.settings.sub_title != blank %}sub-title-enable{% endif %}">
+          <div class="row">
+              <div class="col-sm-12">
+                  <div class="section-title">
+                      {% if settings.language_enable %}
+                      <span class="lang1">{{ section.settings.title | split: '|' | first }}</span>
+                      <span class="lang2">{{ section.settings.title | split: '|' | last }}</span>
+                      {% else %}
+                      <span>{{ section.settings.title | split: '|' | first }}</span>
+                      {% endif %}
+                  </div>
+                  {% if section.settings.preset_section_title == 'style_7' %}
+                  <div class="sub-image">
+                      <img src="{{ 'leaf.png' | asset_url }}" alt="sub-image">
+                  </div>
+                  {% endif %}
+                  {% if section.settings.sub_title != blank %}
+                  {% if section.settings.preset_section_title == 'style_8' %}
+                  <div class="sub-image">
+                      <img src="{{ 'm15-i1.png' | asset_url }}" alt="sub-image">
+                  </div>
+                  {% endif %}
+                  <div class="section-sub-title">
+                      {{ section.settings.sub_title }}
+                  </div>
+                  {% endif %}
+              </div>
+          </div>
+      </div>
+      <div class="organic-deal-box__inner">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="organic-deal-box__image">
+                <img src="{{ section.settings.image | img_url: 'master' }}" />
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="organic-deal-box__content">
+              {% include 'shortcode' load: section.settings.content %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+"name": "Deal Box",
+"settings": [
+    {
+    "type": "header",
+    "content": "Title Settings"
+    },
+    {
+    "type": "select",
+    "id": "preset_section_title",
+    "label": "Preset Section Title",
+    "options": [
+    {
+    "value": "style_1",
+    "label": "Style 1"
+    },
+    {
+    "value": "style_2",
+    "label": "Style 2"
+    },
+    {
+    "value": "style_3",
+    "label": "Style 3"
+    },
+    {
+    "value": "style_4",
+    "label": "Style 4"
+    },
+    {
+    "value": "style_5",
+    "label": "Style 5"
+    },
+    {
+    "value": "style_6",
+    "label": "Style 6"
+    },
+    {
+    "value": "style_7",
+    "label": "Style 7"
+    },
+    {
+    "value": "style_8",
+    "label": "Style 8"
+    }
+    ],
+    "default": "style_1"
+    },
+    {
+    "type": "text",
+    "id": "title",
+    "label": "Deal Title"
+    },
+    {
+    "type": "text",
+    "id": "sub_title",
+    "label": "Deal Sub Title"
+    },
+    {
+    "type": "header",
+    "content": "Content Settings"
+    },
+    {
+    "type": "image_picker",
+    "id": "image",
+    "label": "Deal Image"
+    },
+    {
+      "type": "textarea",
+      "id": "content",
+      "label": "Content"
+    }
+	],
+	"presets": [{
+      "name": "Deal Box",
+      "category": "Main Organic"
+  	}]
+}
+{% endschema %}

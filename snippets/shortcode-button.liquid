@@ -1,0 +1,4 @@
+{% capture link %}{% include 'shortcode-render' render:'link' default:'#' %}{% endcapture %}
+{% capture title %}{% include 'shortcode-render' render:'title' default:'' %}{% endcapture %}
+{% capture style %}{% include 'shortcode-render' render:'style' default:'' %}{% endcapture %}
+<a class="btn-button {{style}}" href="{{link}}">{{title}}</a>

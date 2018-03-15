@@ -1,0 +1,207 @@
+{% assign delayTime = settings.time_lazy_load | times : 4 %}
+{% case section.settings.logo_width %}
+{% when '' %}
+{%- assign image_logo_width = '' -%}
+{%- assign image_logo_height = '' -%}
+{% else %}
+{%- assign image_logo_width = section.settings.logo_width -%}
+{%- assign image_logo_height = '' -%}
+{% endcase %}
+{% capture image_logo_size %}{{ image_logo_width }}x{{ image_logo_height }}{% endcapture %}
+{% if section.settings.logo_use_image %}
+{% if section.settings.footer_logo != blank %}
+{% assign footer_logo = section.settings.footer_logo | img_url: image_logo_size %}
+{% else %}
+{% assign footer_logo = 'logo.png' | asset_url %}
+{% endif %}
+{% endif %}
+{% if section.settings.logo_white != blank %}
+{% assign footer_logo_white = section.settings.logo_white | img_url: image_logo_size %}
+{% else %}
+{% assign footer_logo_white = 'logo-light.png' | asset_url %}
+{% endif %}
+<footer class="footer-wrapper footer-{{section.settings.typefooter}} footer-{{section.settings.footer_preset}}" {% if section.settings.footer_background_image != blank %} style='background-image: url({{ section.settings.footer_background_image | img_url: "master" }});background-repeat: no-repeat;background-position: center center;background-size: cover;'{% endif%}>
+
+    <div class="footer-container">
+        {% if section.settings.typefooter == 'style1' %}
+        {% include 'footer_style_1' %}
+        {% endif %}
+        {% if section.settings.typefooter == 'style2' %}
+        {% include 'footer_style_2' %}
+        {% endif %}
+        {% if section.settings.typefooter == 'style3' %}
+        {% include 'footer_style_3' %}
+        {% endif %}
+    </div>
+
+    <div id="back-top" class="hidden-phone">
+        <a href="#top">
+            <div class="sticker-wrapper">
+                <div class="sticker">
+                    <i class="zyra-icon icon-arrows-4-stre-up"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+</footer>
+{% schema %}
+{
+"name": "Footer",
+"settings": [
+{
+"type": "select",
+"id": "typefooter",
+"label": "Footer Type",
+"info": "choose footer type",
+"options": [
+{
+"value": "style1",
+"label": "Footer Style 1"
+},
+{
+"value": "style2",
+"label": "Footer Style 2"
+},
+{
+"value": "style3",
+"label": "Footer Style 3"
+}
+],
+"default": "style3"
+},
+{
+"type": "header",
+"content": "Footer"
+},
+{
+"type": "image_picker",
+"id": "footer_background_image",
+"label": "Footer Background Image"
+},
+{
+"type": "checkbox",
+"id": "logo_use_image",
+"label": "Use Logo"
+},
+{
+"type": "text",
+"id": "logo_width",
+"label": "Logo Width"
+},
+{
+"type": "image_picker",
+"id": "footer_logo",
+"label": "Logo Image Src for Footer"
+},
+{
+"type": "image_picker",
+"id": "logo_white",
+"label": "Logo White",
+"info": "Maximum logo dimensions are 400px wide by 100px high. The uploaded file will be resized to fit within those constraints."
+},
+{
+"type": "select",
+"id": "footer_preset",
+"label": "Footer Preset",
+"options": [
+{
+"value": "light",
+"label": "Light"
+},
+{
+"value": "dark",
+"label": "Dark"
+}
+],
+"default": "light"
+},
+{
+"type": "textarea",
+"id": "footer_social_share",
+"label": "Footer Social Share"
+},
+{
+"type": "textarea",
+"id": "footer_bottom_copyright",
+"label": "Footer Text Copyright"
+},
+{
+"type": "header",
+"content": "Footer - Type1"
+},
+{
+"type": "text",
+"id": "footer_title_col2_type1",
+"label": "Custom Title Column2"
+},
+{
+"type": "link_list",
+"id": "footer_linklist_1_type1",
+"label": "Footer Link List."
+},
+{
+"type": "text",
+"id": "footer_title_col3_type1",
+"label": "Custom Title Column3"
+},
+{
+"type": "link_list",
+"id": "footer_linklist_2_type1",
+"label": "Footer Link List."
+},
+{
+"type": "text",
+"id": "footer_title_col4_type1",
+"label": "Custom Title Column4"
+},
+{
+"type": "link_list",
+"id": "footer_linklist_3_type1",
+"label": "Footer Link List."
+},
+{
+"type": "text",
+"id": "footer_title_col5_type1",
+"label": "Custom Title Column5"
+},
+{
+"type": "select",
+"id": "column_5_content",
+"label": "Footer Column 5 Content Type",
+"info": "Choose Content Type",
+"options": [
+{
+"value": "instagram",
+"label": "Instagram"
+},
+{
+"value": "map",
+"label": "Map"
+}
+],
+"default": "instagram"
+},
+{
+  "type": "text",
+  "id": "hashtag",
+  "label": "Instagram Hashtag",
+  "placeholder": "add hashtag without # symbol"
+},
+{
+"type": "header",
+"content": "Footer - Type2"
+},
+{
+"type": "link_list",
+"id": "footer_linklist_type2",
+"label": "Footer Link List."
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

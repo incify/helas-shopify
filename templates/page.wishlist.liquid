@@ -1,0 +1,22 @@
+{% section 'page_header' %}
+<div class="container wishlist-container">
+    <!-- Product Tile Grid -->
+    <div class="wishlist-grid">
+
+        {% for product in collections.all.products %}
+        {% include 'product-tile' %}
+        {% endfor %}
+
+
+        <div class="wishlist-grid--empty-list">
+            <div class="empty-list--info">
+                <h6 class="empty-list--text black"{% if settings.language_enable %} data-translate="wishlist.general.empty"{% endif %}>{{ 'wishlist.general.empty' | t }}</h6>
+                <a class="btn empty-list--btn" href="/collections/all"{% if settings.language_enable %} data-translate="wishlist.general.start_shopping"{% endif %}>{{ 'wishlist.general.start_shopping' | t }}</a>
+            </div>
+        </div>
+    </div>
+    <!-- Loader -->
+    <div class="wishlist-loader">
+        <p class="wishlist-loader--text"{% if settings.language_enable %} data-translate="wishlist.general.loading"{% endif %}>{{ 'wishlist.general.loading' | t }}</p>
+    </div>
+</div>

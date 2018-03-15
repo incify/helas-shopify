@@ -1,0 +1,23 @@
+{% capture image %}{% include 'shortcode-render' render:'image' %}{% endcapture %}
+{% capture title %}{% include 'shortcode-render' render:'title' %}{% endcapture %}
+{% capture class %}{% include 'shortcode-render' render:'class' %}{% endcapture %}
+<div class="nova-icon-box {{class}}">
+  <div class="icon-box-inner">
+    <div class="box-icon-left">
+      <div class="box-icon-inner type-img">
+        <div class="wrap-icon">
+          <div class="box-icon box-icon-style-simple">
+            <span>
+              <img src="{{image}}" />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box-contents">
+      <div class="box-heading">
+        <h5>{{title}}</h5>
+      </div>
+    </div>
+  </div>
+</div>

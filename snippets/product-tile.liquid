@@ -1,0 +1,73 @@
+<div class="product-tile-container wishlist-tile-container" data-product-id="{{ product.id }}" data-product-handle="{{ product.handle }}">
+    <div class="product-tile wishlist-tile">
+        <div class="product-tile--tile-actions">
+            {% assign page_tmp = pages[settings.wishlist_page] %}
+            <a class="action--wishlist tile-actions--btn flex wishlist-btn" href="{{page_tmp.url}}" value="Refresh Page" onClick="window.location.reload()" data-product-handle="{{ product.handle }}">
+                <span class="nc-icon-outline ui-1_trash"></span>
+            </a>
+        </div>
+        <div class="product-tile--tile-media">
+            <a class="tile-media--media-link" href="{{ product.url }}">
+                <div class="media-link--image" style="background-image: url({{ product.featured_image | product_img_url: 'master' }})">
+                    <img class="image--main" src="{{ product.featured_image | product_img_url: 'master' }}" alt="{{ product.title }}" style="display: none">
+                </div>
+            </a>
+        </div>
+        <div class="product-tile--tile-content">
+            <div class="tile-content--text">
+                <p class="text--title black">{{ product.title }}</p>
+                {% if product.compare_at_price > product.price %}
+                <p class="text--price">
+                    <span class="price--compare strike-through">{{ product.compare_at_price | money }}</span> <span class="price--sale">{{ product.price | money }}</span>
+                </p>
+                {% else %}
+                <p class="text--price">{{ product.price | money }}</p>
+                {% endif %}
+            </div>
+            <div class="product-type-main">
+                <form class="product-form" id="product-form" action="/cart/add" method="post" enctype="multipart/form-data" data-product-id="{{product.id}}" data-id="{{ product.handle }}">
+                    <div id="product-variants" class="product-options" {% if product.options.size == 1 and product.options.first == 'Title' %}style="display: none;"{% endif %}>
+                    <select id="product-select" name="id" >
+                        {% for variant in product.variants %}
+                        {% if variant.available %}
+                        <option {% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %} value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money_with_currency }}</option>
+                        {% else %}
+                        <option disabled="disabled">
+                            {{ variant.title }} - {{'products.product.sold_out' | t}}
+                        </option>
+                        {% endif %}
+                        {% endfor %}
+                    </select>
+            </div>
+            <div class="product-options-bottom">
+                <div class="add-to-cart-box">
+                    <div class="actions">
+                        <div class="action-list addtocart">
+                            <div class="button-wrapper">
+                                {% if product.available %}
+                                <div class="button-wrapper-content">
+                                    <button type="submit" name="add" class="btn-cart add-to-cart bordered uppercase">
+                                      <span>
+                                        <span {% if settings.language_enable %}data-translate="products.product.add_to_cart"{% endif %}>{{ 'products.product.add_to_cart' | t }}</span>
+                                      </span>
+                                    </button>
+                                </div>
+                                {% else %}
+                                <div class="button-wrapper-content">
+                                    <button href="javascript:;" class="btn-cart add-to-cart">
+                                      <span>
+                                        <span {% if settings.language_enable %}data-translate="products.product.sold_out"{% endif %}>{{ 'products.product.sold_out' | t }}</span>
+                                      </span>
+                                    </button>
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>

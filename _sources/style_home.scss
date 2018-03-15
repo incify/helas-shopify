@@ -1,0 +1,30 @@
+//home page 1
+@import "home/home1/_h1_slide_show";
+//reponsive
+@import "home/reponsive";
+.main-6-banner-p {
+  font-size: 16px;
+  color: #232324;
+  text-align: left;
+}
+.main-6-banner-h1 {
+  font-size: 250px;
+  line-height: 200px;
+  font-weight: 700;
+  &.gradient-1 {
+    color: #fabb98;
+    background-image: -moz-linear-gradient(180deg,star 0,#fabb98 100%);
+    background-image: -webkit-linear-gradient(180deg,#93ddff 0,#fabb98 100%);
+    background-image: -ms-linear-gradient(180deg,#93ddff 0,#fabb98 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  &.gradient-2 {
+    color: #ea5f72;
+    background-image: -moz-linear-gradient(180deg,star 0,#fabb98 100%);
+    background-image: -webkit-linear-gradient(180deg,#ea5f72 0,#fabb98 100%);
+    background-image: -ms-linear-gradient(180deg,#ea5f72 0,#fabb98 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

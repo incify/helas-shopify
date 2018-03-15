@@ -1,0 +1,7 @@
+{% capture title %}{% include 'shortcode-render' render:'title' default:'' %}{% endcapture %}
+{% capture number %}{% include 'shortcode-render' render:'number' default:'100' %}{% endcapture %}
+{% capture class %}{% include 'shortcode-render' render:'class' default:'' %}{% endcapture %}
+<div class="incify-counter {{class}}">
+    <h2 class="incify-counter--number">{{number}}</h2>
+    <div class="incify-counter--title">{{title}}</div>
+</div>

@@ -1,0 +1,131 @@
+{% if section.settings.play_icon != blank %}
+{% assign button = section.settings.play_icon | img_url: "master" %}
+{% else %}
+{% assign button = 'home-icon-play.png' | asset_url %}
+{% endif %}
+<div data-section-id="{{ section.id }}" data-section-type="background-content-section" class="background-content-section{% if section.settings.center_content %} has-center-content{% endif %}{% if section.settings.enable_parallax == true %} parallax-box{% endif %}{{section.settings.banner_preset}} incify-styles" data-styles='{
+  {% if section.settings.enable_style == true %}
+    {% if section.settings.style_top != '' %}
+    "margin-top":"{{ section.settings.style_top }}px",
+    {% endif %}
+    {% if section.settings.style_bottom != '' %}
+    "margin-bottom":"{{ section.settings.style_bottom }}px",
+    {% endif %}
+    {% if section.settings.style_left != '' %}
+    "margin-left":"{{ section.settings.style_left }}px",
+    {% endif %}
+    {% if section.settings.style_right != '' %}
+    "margin-right":"{{ section.settings.style_right }}px",
+    {% endif %}
+  {% endif %}
+  {% if section.settings.background %}
+  "background-image":"url({{ section.settings.background | img_url: 'master' }})",
+  "background-repeat": "no-repeat",
+  "background-position": "50% 50%",
+  "background-size": "cover",
+  {% endif %}
+  "height": "{{  section.settings.box_height }}vh"
+}'>
+  <div class="background-content">
+      <div class="background-content__content">
+        {% include 'shortcode' load: section.settings.content %}
+      </div>
+  </div>
+</div>
+{% schema %}
+{
+"name": "Backgound Content",
+"settings": [
+    {
+    "type": "header",
+    "content": "Backgound Content Settings"
+    },
+    {
+     "type": "checkbox",
+     "id": "enable_parallax",
+     "default": false,
+     "label": "Enable Parallax Background"
+    },
+    {
+    "type": "image_picker",
+    "id": "background",
+    "label": "Banner Background"
+    },
+    {
+        "type":      "range",
+        "id":        "box_height",
+        "min":       10,
+        "max":        100,
+        "step":       1,
+        "unit":       "vh",
+        "label":     "Box Height",
+        "default":   60
+    },
+    {
+      "type": "textarea",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+     "type": "checkbox",
+     "id": "center_content",
+     "default": false,
+     "label": "Center Content"
+    },
+    {
+      "type": "header",
+      "content": "Styles Settings"
+    },
+    {
+     "type": "checkbox",
+     "id": "enable_style",
+     "default": false,
+     "label": "Enable Style Settings"
+    },
+    {
+        "type":      "range",
+        "id":        "style_top",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Top",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_bottom",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Bottom",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_left",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Left",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_right",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Right",
+        "default":   0
+    }
+	],
+	"presets": [{
+      "name": "Backgound Content",
+      "category": "Banner"
+  	}]
+}
+{% endschema %}

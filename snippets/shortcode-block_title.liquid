@@ -1,0 +1,8 @@
+{% capture title %}{% include 'shortcode-render' render:'title' default:'' %}{% endcapture %}
+{% capture style %}{% include 'shortcode-render' render:'style' default:'style_1' %}{% endcapture %}
+<div class="incify--block-title {{style}}">
+    <h2>
+        {{title}}
+    </h2>
+    <div class="under--line"></div>
+</div>

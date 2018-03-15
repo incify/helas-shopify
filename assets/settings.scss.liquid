@@ -1,0 +1,14 @@
+@media (max-width: 480px){
+{% if settings.negan_settings_category_grid_one_column_mobile != blank %}
+  .category-products .products-grid.columns4 li.item{
+    width:100%!important;
+  }
+{% endif %}
+}
+
+//disable product zoom
+{% if settings.product_zoom_disable =='off' %}
+.zoomContainer {
+  display: none !important;
+}
+{% endif %}

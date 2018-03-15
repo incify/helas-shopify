@@ -1,0 +1,23 @@
+{% capture title %}{% include 'shortcode-render' render:'title' default:'' %}{% endcapture %}
+{% capture text %}{% include 'shortcode-render' render:'text' default:'' %}{% endcapture %}
+<div class="icon-boxes-inner">
+    <div class="box-icon-top">
+        <div class="box-icon-inner type-icon">
+            <div class="wrap-icon text-center">
+                <div class="box-icon box-icon-style-circle">
+                    <span>
+                        <i class="nc-icon-glyph {{variable[0]}}"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box-contents">
+        <div class="box--heading">
+            <h5>{{title}} </h5>
+        </div>
+        <div class="box--text">
+            <p>{{text}}</p>
+        </div>
+    </div>
+</div>

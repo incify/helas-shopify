@@ -1,0 +1,24 @@
+.section_page_header {
+  .backdround-image-inner {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 160px;
+    .page-title {
+      font-size: 110px;
+      font-weight: normal;
+    }
+    .pages_breadcrumb {
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 1px;
+      .breadcrumbs ul li a {
+        font-weight: 700;
+      }
+    }
+  }
+  &.preset-dark {
+    * {
+      color: #fff;
+    }
+  }
+}

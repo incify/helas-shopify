@@ -1,0 +1,47 @@
+.top-container{
+  .category-banner{
+    .full-width-image-banner{
+      position:relative;
+      .content{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        color: #fff;
+        text-align: center;
+        z-index: 2;
+        margin-top: -36px;
+        h2{
+          margin: 0;
+          font-size: 45px;
+          line-height: 1.1;
+          color: #fff;
+          font-weight: 600;
+        }
+        p{
+          margin: 0;
+          font-size: 16px;
+          color: #fff;
+          font-weight: 300;
+        }
+      }
+      &:after{
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background-color: #393733;
+        opacity: .65;
+      }
+    }
+    .move-below-header {
+      display: block;
+    }
+    .category-content {
+      margin: 0;
+    }
+  }
+}

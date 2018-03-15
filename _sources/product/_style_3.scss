@@ -1,0 +1,42 @@
+.single-product-type3{
+  .product-view{
+    .product-collateral{
+      margin-left: -100%;
+      margin-right: -100%;
+      border-bottom: 1px solid #e5e5e5;
+      padding-top: 0;
+      border-top: 1px solid #e5e5e5;
+      margin-top: 70px;
+      padding-bottom: 30px;
+      .product-description{
+        width: 100%;
+        .product-tabs{
+          max-width: 1170px;
+          margin: 0 auto;
+          width: 100%;
+          border: none;
+          ul{
+            text-align: center;
+            margin-top: 60px;
+            li{
+              &.active{
+                a{
+                  font-weight: 700;
+                  color: #343538 !important;
+                  border-width: 2px;
+                }
+              }
+              a{
+                font-size: 12px;
+                padding: 10px 0;
+              }
+            }
+          }
+          .tab-content{
+            box-shadow: none;
+          }
+        }
+      }
+    }
+  }
+}

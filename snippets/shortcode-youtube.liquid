@@ -1,0 +1,6 @@
+{% capture video_id %}{% include 'shortcode-render' render:'video_id' default:'6v2L2UGZJAM' %}{% endcapture %}
+{% capture button %}{% include 'shortcode-render' render:'button' default:'' %}{% endcapture %}
+{% capture class %}{% include 'shortcode-render' render:'class' default:'' %}{% endcapture %}
+<div class="incify-video-popup {{class}}">
+    <a href="//www.youtube.com/embed/{{video_id}}?version=3" data-rel="lightcase"><img src="{{button}}" alt="" /></a>
+</div>

@@ -1,0 +1,52 @@
+.section__organic-deal-box {
+  .organic-deal-box {
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 0px 38px 0px rgba(41, 44, 58, 0.1);
+    background: #fff;
+    margin: -250px 0 0;
+    border-radius: 10px;
+    padding: 4%;
+    .organic-deal-box__inner {
+      .organic-deal-box__image {
+        display: inline-block;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .organic-deal-box__content {
+        h2 {
+          font-size: 46px;
+          text-align: left;
+        }
+        p {
+          font-size: 14px;
+          margin: 0 0 15px;
+        }
+      }
+    }
+    .shortcode-countdown {
+      text-align: left;
+      margin-bottom: 20px;
+      .product-date {
+        display: inline-block;
+        background-color: #eede56;
+        padding: 20px 10px;
+        > div {
+          margin-right: 30px;
+          padding-left: 30px;
+          &:before {
+            display: none;
+          }
+        }
+        .no {
+          font-size: 18px;
+          font-weight: bold;
+        }
+        .text {
+          font-size: 12px;
+          font-style: normal;
+        }
+      }
+    }
+  }
+}

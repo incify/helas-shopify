@@ -1,0 +1,33 @@
+<div class="instagram-image">
+    <div class="content-image-intagram">
+        <ul id="footer_instafeed"></ul>
+    </div>
+</div>
+{% if settings.token_intagram != blank %}
+<script>
+    var token = '{{ settings.token_intagram }}',
+        {% if section.settings.hashtag != '' %}
+        hashtag = "{{ section.settings.hashtag }}", // hashtag without # symbol
+        {% endif %}
+        num_photos = 6;
+
+    $.ajax({
+        {% if section.settings.hashtag != '' %}
+        url: 'https://api.instagram.com/v1/tags/' + hashtag + '/media/recent',
+        {% else %}
+        url: 'https://api.instagram.com/v1/users/self/media/recent',
+        {% endif %}
+        dataType: 'jsonp',
+        type: 'GET',
+        data: {access_token: token, count: num_photos},
+        success: function(data){
+            for( x in data.data ){
+                $('#footer_instafeed').append('<li><a target="_blank" href="' + data.data[x].link + '"><span class="item--overlay"><i class="fa fa-instagram"></i></span><img src="'+data.data[x].images.thumbnail.url+'"></a></li>');
+            }
+        },
+        error: function(data){
+            console.log(data);
+        }
+    });
+</script>
+{% endif %}

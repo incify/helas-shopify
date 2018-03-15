@@ -1,0 +1,48 @@
+<!-- /templates/collection.liquid -->
+{% if settings.collection_columns != '5' %}
+{% assign col = 12 | divided_by: settings.collection_columns %}
+{% else %}
+{% assign col = settings.collection_columns %}
+{% endif %}
+{% paginate collection.products by collection.all_products_count %}
+{% section 'collection_page_header' %}
+<div class="not-container layout-masonry shop-metro">
+    <div class="row">
+        <div class="col-sm-12">
+            {% if collection.description != blank %}
+            <div class="collection-main-banner">
+                {% if settings.language_enable %}
+                <div class="lang1">{{ collection.description | split: '[lang2]' | first }}</div>
+                <div class="lang2">{{ collection.description | split: '[lang2]' | last }}</div>
+                {% else %}
+                {{ collection.description | split: '[lang2]' | first }}
+                {% endif %}
+            </div>
+            {% endif %}
+            <div id="collection-main">
+                <div class="category-products products-style-2-list">
+                    <ul id="products-grid" class="products-grid columns3 masonry-grid metro-masonry-grid" data-item-width="550" data-item-height="400" data-md-col="2" data-sm-col="2" data-xs-col="1" data-mb-col="1">
+                        {% assign i = 0 %}
+                        {% for product in collection.products %}
+                        {% assign i = i | plus: 1 %}
+                        <li class="item product product-layout-grid count-{{i}}"{% if i == 4 or i == 11 %} data-width="2" data-height="2"{% else %} data-width="1" data-height="1"{% endif %}>
+                          {% include 'product-style-3-grid-item' %}
+                        </li>
+                        {% else %}
+                        {% if collection.handle == 'all' and current_tags == '' %}
+                        {% unless emptyState %}
+                        {{ 'theme-onboarding.css' | global_asset_url | stylesheet_tag }}
+                        {% assign emptyState = true %}
+                        {% endunless %}
+                        {% include 'onboarding-empty-collection' %}
+                        {% else %}
+                        <li><p>{{ 'collections.general.no_matches' | t }}</p> </li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endpaginate %}

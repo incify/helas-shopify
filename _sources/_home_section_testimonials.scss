@@ -1,0 +1,269 @@
+.testimonial-section{
+  &.layout-style_1{
+    .incify-testimonial{
+      .slick-arrow{
+        display: none !important;
+      }
+      .slick-dots{
+        li{
+          button{
+            &:before{
+              font-size: 10px;
+            }
+          }
+          &.slick-active{
+            button{
+              color: #ffffff;
+              &:before{
+                color: inherit;
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+      .testimonial_item--inner{
+        .testimonial_item--image {
+          display: none;
+        }
+        .testimonial_item--info{
+          .testimonial_item--excerpt{
+            font-family: Prata;
+            margin: 0 auto;
+            font-size: 48px;
+            line-height: 1.5;
+            color: #ffffff;
+          }
+        }
+        .testimonial_item--bottom{
+          .testimonial_item--title-role{
+            background-color: #ea5f72;
+            background-image: -moz-linear-gradient(180deg,star 0,#fabb98 100%);
+            background-image: -webkit-linear-gradient(180deg,#ea5f72 0,#fabb98 100%);
+            background-image: -ms-linear-gradient(180deg,#ea5f72 0,#fabb98 100%);
+            margin-top: 30px;
+            display: inline-block;
+            padding: 6px 25px;
+            color: #fff;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            &:before{
+              display: none;
+            }
+            .testimonial_item--title{
+              display: inline-block;
+            }
+            .testimonial_item--role{
+              display: inline-block;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+
+  }
+  &.layout-style_2{
+    .incify-testimonial{
+      .testimonial-content {
+          margin-top: -50px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .slick-arrow{
+        display: none !important;
+      }
+      .testimonial_item--inner{
+        .testimonial_item--image {
+          span {
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+        }
+        .testimonial_item--info{
+          .testimonial_item--excerpt{
+              color: #fff;
+              font-size: 24px;
+              line-height: 1.5;
+              margin-bottom: 15px;
+              font-weight: bold;
+              margin-top: 40px;
+          }
+        }
+        .testimonial_item--bottom{
+          .testimonial_item--title-role{
+            &:before {
+              display: none;
+            }
+            .testimonial_item--title{
+              color: #fff;
+              display: inline-block;
+              font-size: 14px;
+              text-transform: none;
+              &:before {
+                content: "-";
+              }
+              &:after {
+                content: "-";
+              }
+            }
+            .testimonial_item--role{
+              display: none;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+    .slick-dots {
+      bottom: 0;
+      li {
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+        button {
+          color: #ffffff;
+          width: 10px;
+          height: 10px;
+          &:before {
+            font-size: 8px;
+            width: 10px;
+            height: 10px;
+          }
+        }
+        &.slick-active{
+          button{
+            &:before{
+              color: inherit;
+              font-size: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.layout-style_3{
+    .incify-testimonial{
+      position: relative;
+      overflow: hidden;
+      padding-top: 190px;
+      padding-bottom: 140px;
+      &:before {
+        content: "";
+        position: absolute;
+        background: #fff;
+        width: 110%;
+        height: 300px;
+        left: -5%;
+        border-radius: 100%;
+        top: -200px;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        background: #fff;
+        width: 110%;
+        height: 300px;
+        left: -5%;
+        border-radius: 100%;
+        bottom: -200px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .slick-arrow{
+        display: none !important;
+      }
+      .testimonial_item--inner{
+        .testimonial_item--image {
+          span {
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+        }
+        .testimonial_item--info{
+          .testimonial_item--excerpt{
+              color: #fff;
+              font-size: 24px;
+              line-height: 1.5;
+              margin-bottom: 15px;
+              font-weight: bold;
+              margin-top: 40px;
+          }
+        }
+        .testimonial_item--bottom{
+          .testimonial_item--title-role{
+            &:before {
+              display: none;
+            }
+            .testimonial_item--title{
+              color: #fff;
+              display: inline-block;
+              font-size: 14px;
+              text-transform: none;
+              &:before {
+                content: "-";
+              }
+              &:after {
+                content: "-";
+              }
+            }
+            .testimonial_item--role{
+              display: none;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+    .slick-dots {
+      bottom: 0;
+      li {
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+        button {
+          color: #ffffff;
+          width: 10px;
+          height: 10px;
+          &:before {
+            font-size: 8px;
+            width: 10px;
+            height: 10px;
+          }
+        }
+        &.slick-active{
+          button{
+            &:before{
+              color: inherit;
+              font-size: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.layout-style_4 {
+    .testimonial_item--inner {
+      padding: 15px;
+    }
+  }
+}

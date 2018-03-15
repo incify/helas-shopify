@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "dl-icon";
+  src:url("dl-icon.eot");
+  src:url("dl-icon.eot?#iefix") format("embedded-opentype"),
+    url("dl-icon.woff") format("woff"),
+    url("dl-icon.ttf") format("truetype"),
+    url("dl-icon.svg#dl-icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "dl-icon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="dl-icon-"]:before,
+[class*=" dl-icon-"]:before {
+  font-family: "dl-icon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dl-icon-heart:before {
+  content: "\61";
+}
+.dl-icon-search1:before {
+  content: "\62";
+}
+.dl-icon-cart1:before {
+  content: "\63";
+}
+.dl-icon-menu1:before {
+  content: "\64";
+}
+.dl-icon-heart2:before {
+  content: "\65";
+}
+.dl-icon-compare1:before {
+  content: "\66";
+}
+.dl-icon-compare2:before {
+  content: "\67";
+}
+.dl-icon-compare3:before {
+  content: "\68";
+}
+.dl-icon-compare4:before {
+  content: "\69";
+}
+.dl-icon-menu2:before {
+  content: "\6a";
+}
+.dl-icon-cart2:before {
+  content: "\6b";
+}
+.dl-icon-search3:before {
+  content: "\6c";
+}
+.dl-icon-search2:before {
+  content: "\6d";
+}
+.dl-icon-close:before {
+  content: "\6e";
+}
+.dl-icon-clock:before {
+  content: "\6f";
+}
+.dl-icon-stats1:before {
+  content: "\70";
+}
+.dl-icon-search4:before {
+  content: "\71";
+}
+.dl-icon-search5:before {
+  content: "\72";
+}
+.dl-icon-search6:before {
+  content: "\73";
+}
+.dl-icon-search7:before {
+  content: "\74";
+}
+.dl-icon-search8:before {
+  content: "\75";
+}
+.dl-icon-search9:before {
+  content: "\76";
+}
+.dl-icon-comment1:before {
+  content: "\77";
+}
+.dl-icon-cart3:before {
+  content: "\78";
+}
+.dl-icon-cart4:before {
+  content: "\79";
+}
+.dl-icon-cart5:before {
+  content: "\7a";
+}
+.dl-icon-cart6:before {
+  content: "\41";
+}
+.dl-icon-cart7:before {
+  content: "\42";
+}
+.dl-icon-cart8:before {
+  content: "\43";
+}
+.dl-icon-cart9:before {
+  content: "\44";
+}
+.dl-icon-cart10:before {
+  content: "\45";
+}
+.dl-icon-cart11:before {
+  content: "\46";
+}
+.dl-icon-cart12:before {
+  content: "\47";
+}
+.dl-icon-cart13:before {
+  content: "\48";
+}
+.dl-icon-cart14:before {
+  content: "\49";
+}
+.dl-icon-cart15:before {
+  content: "\4a";
+}
+.dl-icon-cart16:before {
+  content: "\4b";
+}
+.dl-icon-cart17:before {
+  content: "\4c";
+}
+.dl-icon-cart18:before {
+  content: "\4d";
+}
+.dl-icon-cart19:before {
+  content: "\4e";
+}
+.dl-icon-cart20:before {
+  content: "\4f";
+}
+.dl-icon-cart21:before {
+  content: "\50";
+}
+.dl-icon-cart22:before {
+  content: "\51";
+}
+.dl-icon-cart23:before {
+  content: "\52";
+}
+.dl-icon-cart24:before {
+  content: "\53";
+}
+.dl-icon-cart24-1:before {
+  content: "\54";
+}
+.dl-icon-cart26:before {
+  content: "\55";
+}
+.dl-icon-heart3:before {
+  content: "\56";
+}
+.dl-icon-outline-32:before {
+  content: "\57";
+}
+.dl-icon-user1:before {
+  content: "\58";
+}
+.dl-icon-user2:before {
+  content: "\59";
+}
+.dl-icon-user3:before {
+  content: "\5a";
+}
+.dl-icon-user4:before {
+  content: "\30";
+}
+.dl-icon-user5:before {
+  content: "\31";
+}
+.dl-icon-user6:before {
+  content: "\32";
+}
+.dl-icon-user7:before {
+  content: "\33";
+}
+.dl-icon-user8:before {
+  content: "\34";
+}
+.dl-icon-user9:before {
+  content: "\35";
+}
+.dl-icon-user10:before {
+  content: "\36";
+}
+.dl-icon-user111:before {
+  content: "\37";
+}
+.dl-icon-dress:before {
+  content: "\38";
+}
+.dl-icon-pumps:before {
+  content: "\39";
+}
+.dl-icon-tshirt:before {
+  content: "\21";
+}
+.dl-icon-diamon:before {
+  content: "\22";
+}
+.dl-icon-key:before {
+  content: "\23";
+}

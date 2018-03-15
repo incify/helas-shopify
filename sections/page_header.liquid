@@ -1,0 +1,172 @@
+{% if section.settings.enable_custom_background == 'yes' %}
+    {% assign page_handle = page.handle %}
+    {% if section.blocks.size > 0 %}
+        {% for block in section.blocks %}
+            <!--/ ONLY print specific page data -->
+            {% if block.settings.page_handle == page_handle %}
+                {% if block.settings.enble_page_header == true %}
+                    {% if block.settings.page_header_image != blank %}
+                        {% assign header_image = block.settings.page_header_image | img_url: "master" %}
+                    {% else %}
+                        {% assign header_image = 'page-header-bg.jpg' | asset_url %}
+                    {% endif %}
+                    {% assign top_space = block.settings.top_space %}
+                    {% assign preset = block.settings.page_header_preset %}
+                    {% assign bottom_space = block.settings.bottom_space %}
+                    {% include 'page_header' %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    {% else %}
+        {% assign header_image = 'page-header-bg.jpg' | asset_url %}
+        {% assign top_space = block.settings.top_space %}
+        {% assign bottom_space = block.settings.bottom_space %}
+        {% assign preset = block.settings.page_header_preset %}
+        {% include 'page_header' %}
+    {% endif %}
+{% else %}
+    {% if section.settings.page_header_image_default != blank %}
+    {% assign header_image = section.settings.page_header_image_default | img_url: "master" %}
+    {% else %}
+    {% assign header_image = 'page-header-bg.jpg' | asset_url %}
+    {% endif %}
+    {% assign top_space = section.settings.top_space %}
+    {% assign bottom_space = section.settings.bottom_space %}
+    {% assign preset = block.section.page_header_preset %}
+    {% include 'page_header' %}
+{% endif %}
+
+{% schema %}
+{
+"name": "Page Header",
+"settings": [
+{
+"type": "header",
+"content": "Page Header Settings"
+},
+{
+"type": "image_picker",
+"id": "page_header_image_default",
+"label": "Default Image Background"
+},
+{
+"type": "text",
+"id": "top_space",
+"label": "Top Space"
+},
+{
+"type": "text",
+"id": "bottom_space",
+"label": "Bottom Space"
+},
+{
+"type": "select",
+"id": "enable_breadcrumb",
+"label": "Enable Breadcrumb",
+"options": [
+{
+"value": "yes",
+"label": "Yes"
+},
+{
+"value": "no",
+"label": "No"
+}
+],
+"default": "yes"
+},
+{
+"type": "select",
+"id": "page_header_preset",
+"label": "Preset",
+"options": [
+{
+"value": "light",
+"label": "Light"
+},
+{
+"value": "dark",
+"label": "Dark"
+}
+],
+"default": "light"
+},
+{
+"type": "select",
+"id": "enable_custom_background",
+"label": "Enable Custom Background Image For Each Page",
+"options": [
+{
+"value": "yes",
+"label": "Yes"
+},
+{
+"value": "no",
+"label": "No"
+}
+],
+"default": "no"
+}
+
+],
+"blocks": [
+    {
+    "type": "text_block",
+    "name": "Custom Page Header",
+    "settings": [
+        {
+        "type": "page",
+        "id": "page_handle",
+        "label": "Select a page"
+        },
+        {
+        "type": "checkbox",
+        "id": "enble_page_header",
+        "label": "Enable Page Header"
+        },
+        {
+        "type": "image_picker",
+        "id": "page_header_image",
+        "label": "Image Background"
+        },
+        {
+        "type": "text",
+        "id": "top_space",
+        "label": "Top Space"
+        },
+        {
+        "type": "text",
+        "id": "bottom_space",
+        "label": "Bottom Space"
+        },
+        {
+        "type": "select",
+        "id": "page_header_preset",
+        "label": "Preset",
+        "options": [
+        {
+        "value": "light",
+        "label": "Light"
+        },
+        {
+        "value": "dark",
+        "label": "Dark"
+        }
+        ],
+        "default": "light"
+        }
+    ]
+}
+],
+"presets": [{
+"name": "Page Header",
+"category": "Page Header"
+}]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

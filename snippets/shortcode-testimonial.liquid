@@ -1,0 +1,18 @@
+{% capture image %}{% include 'shortcode-render' render:'image' default:'' %}{% endcapture %}
+{% capture name %}{% include 'shortcode-render' render:'name' default:'' %}{% endcapture %}
+{% capture text %}{% include 'shortcode-render' render:'text' default:'' %}{% endcapture %}
+<div class="testimonial_item--inner item-inner">
+    <div class="testimonial_item--image">
+        <span style="background-image: url({{image}});"></span>
+    </div>
+    <div class="testimonial_item--info">
+        <div class="testimonial_item--excerpt">
+            {{text}}
+        </div>
+    </div>
+    <div class="testimonial_item--bottom">
+        <div class="testimonial_item--title-role">
+            <div class="testimonial_item--title">{{name}}</div>
+        </div>
+    </div>
+</div>

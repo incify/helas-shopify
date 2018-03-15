@@ -1,0 +1,85 @@
+/*============================================================================
+#Box popup
+==============================================================================*/
+.box-popup {
+  display: none !important;
+  position: fixed;
+  overflow-x: auto;
+  overflow-y: scroll;
+  top: 35% !important;
+  width: 300px;
+  height: 100%;
+  z-index: 99;
+  margin:auto!important;
+  right:0;
+  left:0;
+  margin:0 auto;
+  font-weight:300;
+  text-align:center;
+  background:white;
+  -webkit-box-shadow: 0 2px 12px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 12px 2px rgba(0,0,0,0.1);
+  &.animate-box {
+    overflow: visible;
+    height: auto;
+    display:none;
+    transition:.4s;
+    &.show {
+      display:block;
+    }
+  }
+  .box-inner {
+    overflow: hidden;
+    box-shadow: 1px 1px 9px 1px rgba(0,0,0,0.2);
+    padding: 20px 15px;
+    .item {
+      .heading {
+        font-weight: 400;
+        display: block;
+        margin-bottom: 10px;
+        font-size: 13px;
+      }
+      .product-info {
+        overflow: hidden;
+        .img {
+
+        }
+        .product-title {
+          font-size: 14px;
+          margin: 5px 0 10px;
+          font-weight:400;
+          a{
+            color:#3b3b3b;
+          }
+        }
+      }
+      .message {
+        padding: 10px 10px;
+      }
+    }
+    .action {
+      margin-top: 15px;
+      .action-content{
+        margin:0 -15px;
+        .cart-text {
+          padding: 9px 10px;
+        }
+        a.btn-button{
+          min-width:135px;
+          text-transform: uppercase;
+          font-weight: 300;
+        }
+        .btn-button{
+          min-width:135px;
+          text-transform: uppercase;
+          font-weight: 300;
+        }
+      }
+      .btn-button{
+        min-width:135px;
+        text-transform: uppercase;
+        font-weight: 300;
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+<div class="blog-post-layout post-layout-list">
+    <div class="container">
+        <div class="row">
+            <div class="{% if settings.blog_sidebar_position == 'none' %}col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-xs-12 no-sidebar{% else %}col-md-9 col-md-push-3{% endif %}">
+                <div class="blog-wrapper">
+                    {% for article in blog.articles %}
+                    <div class="postWrapper">
+                        <div class="entry-thumbnail blog_item--thumbnail-with-effect">
+                            <div class="feature-image">
+                                <a href="{{ article.url }}">
+                                    <img src="{{ article.image.src | img_url: 'master' }}">
+                                    <span class="pf-icon pf-icon-standard"></span>
+                                    <div class="item--overlay"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item-infor">
+                            <div class="postTitle">
+                                <h2>
+                                    <a href="{{ article.url }}">
+                                        {% if settings.language_enable %}
+                                        <span class="lang1">{{ article.title | split: '|' | first }}</span>
+                                        <span class="lang2">{{ article.title | split: '|' | last }}</span>
+                                        {% else %}
+                                        {{ article.title | split: '|' | first }}
+                                        {% endif %}
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="date_comment">
+                                <div class="author_post">
+                                    <span>{{ article.author }}</span>
+                                </div>
+                                <div class="post-date">
+                                    <span class="day">{{ article.published_at | date: '%d' }}</span>
+                                    <span class="month">{{ article.published_at | date: '%b' }}, </span>
+                                    <span class="year">{{ article.published_at | date: '%Y' }}</span>
+                                </div>
+                                <!--                                {% assign number_of_comments = article.comments_count %}-->
+                                <!--                                <div class="post-count-comment">-->
+                                <!--                                    <span class="numb-comments" {% if settings.language_enable %}data-translate="blogs.comments.comments_with_count|count:{{number_of_comments}}"{%endif%}>{{ 'blogs.comments.comments_with_count' | t: count: number_of_comments }}</span>-->
+                                <!--                                </div>-->
+                            </div>
+                            <div class="postBanner">
+                                {{ article.excerpt }}
+                            </div>
+                            <div class="postContent">
+                                <p>
+                                    {% if settings.language_enable %}
+                                    <span class="lang1">{{ article.content | strip_html | split: '[lang2]' | first | truncatewords: 50 }}</span>
+                                    <span class="lang2">{{ article.content | strip_html | split: '[lang2]' | last | truncatewords: 50 }}</span>
+                                    {% else %}
+                                    {{ article.content | strip_html | split: '[lang2]' | first | truncatewords: 50}}
+                                    {% endif %}
+                                </p>
+                                <a class="btn-button readmore" href="{{ article.url }}" {% if settings.language_enable %}data-translate="blogs.article.read_more"{% endif %}>{{ 'blogs.article.read_more' | t }}</a>
+                                <div class="nova-sharing-posts">
+                                    <span><i class="fa fa-share-alt"></i><span>Share post</span></span>
+                                    <div class="social--sharing">
+                                        <a class="share-post-face facebook" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');return false;" href="https://www.facebook.com/sharer/sharer.php?u={{shop.url}}{{ article.url }}"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a class="share-post-twitter twitter" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');return false;" href="https://twitter.com/home?status={{shop.url}}{{ article.url }}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        <a class="share-post-linkedin linkedin" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');return false;" href="https://www.linkedin.com/shareArticle?mini=true&url={{shop.url}}{{ article.url }}&title={{ article.title }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        <a class="share-post-google google-plus" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');return false;" href="https://plus.google.com/share?url={{shop.url}}{{ article.url }}"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        <a class="share-post-pinterest pinterest" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');return false;" href="https://pinterest.com/pin/create/button/?url={{shop.url}}{{ article.url }}&media={{ settings.share_post_links }}{{ article.url }}&description={{ article.title }}"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="postDetails hidden">
+                                {% capture author %}{{ article.author }}{% endcapture %}
+
+                                {% capture date %}<time datetime='{{ article.published_at | date: '%Y-%m-%d' }}'>{{ article.published_at | date: format: 'month_day_year' }}</time>{% endcapture %}
+                                <span class="blog_author" {% if settings.language_enable %}data-translate="blogs.article.author_on_date_html|date:{{date}},author:{{author}}" translate-item="blog-date-author"{%endif%}>
+              <i class="icon-calendar"></i>
+              {{ 'blogs.article.author_on_date_html' | t: date: date, author: author }}
+            </span>
+                                <span class="blog_author" {% if settings.language_enable %}data-translate="blogs.article.by_admin|author:{{author}}" translate-item="blog-date-author"{%endif%}>
+              <i class="icon-user"></i>
+              {{ 'blogs.article.by_admin' | t: author: author }}
+            </span>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% if paginate.pages > 1 %}
+                    <div class="pagenav-wrap">
+                        <div class="pagination">
+                            {% include 'pagination' %}
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% if settings.blog_sidebar_position == 'left' %}
+            <div class="col-md-3 col-md-pull-9 sidebar">
+                {% include 'blog-sidebar' %}
+            </div>
+            {% endif %}
+            {% if settings.blog_sidebar_position == 'right' %}
+            <div class="col-md-3 sidebar">
+                {% include 'blog-sidebar' %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

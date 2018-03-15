@@ -1,0 +1,253 @@
+<section data-section-id="{{ section.id }}" data-section-type="section_bike_fun_stuff" class="section__bike-fun-stuff banner-image-section xs-mt-30{% if section.settings.enable_parallax == true %} parallax-box{% endif %} incify-styles" data-styles='{
+  {% if section.settings.style_top != '' %}
+  "margin-top":"{{ section.settings.style_top }}px",
+  {% endif %}
+  {% if section.settings.style_bottom != '' %}
+  "margin-bottom":"{{ section.settings.style_bottom }}px",
+  {% endif %}
+  {% if section.settings.style_left != '' %}
+  "margin-left":"{{ section.settings.style_left }}px",
+  {% endif %}
+  {% if section.settings.style_right != '' %}
+  "margin-right":"{{ section.settings.style_right }}px",
+  {% endif %}
+  {% if section.settings.background != blank %}
+  "background-image":"url({{ section.settings.background | img_url: 'master' }})",
+  "background-repeat": "no-repeat",
+  "background-position": "50% 50%",
+  "background-size": "cover",
+  {% endif %}
+  {% if section.settings.padding_top != '' %}
+  "padding-top":"{{ section.settings.padding_top }}px",
+  {% endif %}
+  "padding-bottom":"{{ section.settings.padding_bottom }}px"
+}'>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="incify-counter bike-fun-stuff">
+        <div class="bike-fun-stuff__icon">
+          <div class="box-icon box-icon-style-circle">
+            <span><img src="{{ section.settings.icon_1 | img_url: 'master' }}"></span>
+          </div>
+        </div>
+          <div class="bike-fun-stuff__desc">
+            <h2 class="incify-counter--number">{{section.settings.number_1}}</h2>
+            <div class="incify-counter--title">{{section.settings.title_1}}</div>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="incify-counter bike-fun-stuff">
+        <div class="bike-fun-stuff__icon">
+          <div class="box-icon box-icon-style-circle">
+            <span><img src="{{ section.settings.icon_2 | img_url: 'master' }}"></span>
+          </div>
+        </div>
+          <div class="bike-fun-stuff__desc">
+            <h2 class="incify-counter--number">{{section.settings.number_2}}</h2>
+            <div class="incify-counter--title">{{section.settings.title_2}}</div>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="incify-counter bike-fun-stuff">
+        <div class="bike-fun-stuff__icon">
+          <div class="box-icon box-icon-style-circle">
+            <span><img src="{{ section.settings.icon_3 | img_url: 'master' }}"></span>
+          </div>
+        </div>
+          <div class="bike-fun-stuff__desc">
+            <h2 class="incify-counter--number">{{section.settings.number_3}}</h2>
+            <div class="incify-counter--title">{{section.settings.title_3}}</div>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="incify-counter bike-fun-stuff">
+        <div class="bike-fun-stuff__icon">
+          <div class="box-icon box-icon-style-circle">
+            <span><img src="{{ section.settings.icon_4 | img_url: 'master' }}"></span>
+          </div>
+        </div>
+          <div class="bike-fun-stuff__desc">
+            <h2 class="incify-counter--number">{{section.settings.number_4}}</h2>
+            <div class="incify-counter--title">{{section.settings.title_4}}</div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+{% schema %}
+{
+"name": "Fun Stuff",
+"settings": [
+  {
+    "type": "header",
+    "content": "Box Settings"
+  },
+  {
+     "type": "checkbox",
+     "id": "enable_parallax",
+     "default": true,
+     "label": "Enable Parallax Background"
+  },
+  {
+    "type": "image_picker",
+    "id": "background",
+    "label": "Box  Background"
+  },
+  {
+      "type":      "range",
+      "id":        "padding_top",
+      "min":       50,
+      "max":        500,
+      "step":       10,
+      "unit":       "px",
+      "label":     "Padding Top",
+      "default":   150
+  },
+  {
+      "type":      "range",
+      "id":        "padding_bottom",
+      "min":       50,
+      "max":        500,
+      "step":       10,
+      "unit":       "px",
+      "label":     "Padding Bottom",
+      "default":   150
+  },
+  {
+    "type": "header",
+    "content": "Stuff 1 Settings"
+  },
+  {
+    "type": "image_picker",
+    "id": "icon_1",
+    "label": "Stuff Icon"
+  },
+  {
+    "type": "text",
+    "id": "number_1",
+    "label": "Stuff Nummber"
+  },
+  {
+    "type": "text",
+    "id": "title_1",
+    "label": "Stuff Title"
+  },
+  {
+    "type": "header",
+    "content": "Stuff 2 Settings"
+  },
+  {
+    "type": "image_picker",
+    "id": "icon_2",
+    "label": "Stuff Icon"
+  },
+  {
+    "type": "text",
+    "id": "number_2",
+    "label": "Stuff Nummber"
+  },
+  {
+    "type": "text",
+    "id": "title_2",
+    "label": "Stuff Title"
+  },
+  {
+    "type": "header",
+    "content": "Stuff 3 Settings"
+  },
+  {
+    "type": "image_picker",
+    "id": "icon_3",
+    "label": "Stuff Icon"
+  },
+  {
+    "type": "text",
+    "id": "number_3",
+    "label": "Stuff Nummber"
+  },
+  {
+    "type": "text",
+    "id": "title_3",
+    "label": "Stuff Title"
+  },
+  {
+    "type": "header",
+    "content": "Stuff 4 Settings"
+  },
+  {
+    "type": "image_picker",
+    "id": "icon_4",
+    "label": "Stuff Icon"
+  },
+  {
+    "type": "text",
+    "id": "number_4",
+    "label": "Stuff Nummber"
+  },
+  {
+    "type": "text",
+    "id": "title_4",
+    "label": "Stuff Title"
+  },
+  {
+    "type": "header",
+    "content": "Styles Settings"
+  },
+  {
+     "type": "checkbox",
+     "id": "enable_style",
+     "default": false,
+     "label": "Enable Style Settings"
+  },
+  {
+      "type":      "range",
+      "id":        "style_top",
+      "min":       0,
+      "max":        500,
+      "step":       5,
+      "unit":       "px",
+      "label":     "Space Top",
+      "default":   0
+  },
+  {
+      "type":      "range",
+      "id":        "style_bottom",
+      "min":       0,
+      "max":        500,
+      "step":       5,
+      "unit":       "px",
+      "label":     "Space Bottom",
+      "default":   0
+  },
+  {
+      "type":      "range",
+      "id":        "style_left",
+      "min":       0,
+      "max":        500,
+      "step":       5,
+      "unit":       "px",
+      "label":     "Space Left",
+      "default":   0
+  },
+  {
+      "type":      "range",
+      "id":        "style_right",
+      "min":       0,
+      "max":        500,
+      "step":       5,
+      "unit":       "px",
+      "label":     "Space Right",
+      "default":   0
+  }
+],
+"presets": [{
+"name": "Fun Stuff",
+"category": "Main Bike"
+}]
+}
+{% endschema %}

@@ -1,0 +1,45 @@
+{% comment %}
+This page represents the /collections and /products pages.
+It is an optional, but highly recommended, template for your theme.
+
+More info:
+- http://docs.shopify.com/manual/configuration/store-customization/taking-control-of-collections-listing
+{% endcomment %}
+
+<section class="pages_title_breadcrumb" style="margin-bottom: 10px">
+    <div class="container">
+        <div class="row">
+            <div class="pages_title">
+                <h1>
+                    {% include 'title-all' %}
+                </h1>
+            </div>
+            <div class="pages_breadcrumb">
+                {% include 'breadcrumb' %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="main-collection row">
+    {% comment %}
+    Loop through each collection, except 'frontpage'
+    {% endcomment %}
+    <div class=" collection_content col-sm-12">
+        <div class="row">
+            <div class="category-products">
+                <ul id="products-grid" class="products-grid columns3">
+
+                    {% for collection in collections %}
+                    {% if collection.handle != 'frontpage' and collection.all_products_count > 0 %}
+                    <li class="item product product-layout-grid">
+                        {% include 'collection-grid-item' %}
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,335 @@
+<div data-section-id="{{ section.id }}" data-section-type="header-section">
+  <header class="main-section-header {% if section.settings.enable_header_transparent == 'yes' %}header-transparent-enable{%endif%} header--preset_{{section.settings.header_preset}}">
+    {% if section.settings.type == 'style1' %} {% include 'header_style_1' %} {% endif %} {% if section.settings.type == 'style2' %} {% include 'header_style_2' %} {% endif %} {% if section.settings.type == 'style3' %} {% include 'header_style_3' %} {% endif
+    %} {% if section.settings.type == 'style4' %} {% include 'header_style_4' %} {% endif %} {% if section.settings.type == 'style5' %} {% include 'header_style_5' %} {% endif %} {% if section.settings.type == 'style6' %} {% include 'header_style_6' %}
+    {% endif %} {% if section.settings.type == 'style7' %} {% include 'header_style_7' %} {% endif %} {% if section.settings.sticky_header_enable == 'enable'%}
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var scrolled = false;
+        var heiheader = $('.header-container').innerHeight();
+        var heisub = heiheader - 80;
+        var heisub1 = heiheader - 60;
+        $(window).scroll(function() {
+          if (heiheader < $(window).scrollTop() && !scrolled) {
+            if ($('.header-container').hasClass('style1') || $('.header-container').hasClass('type4') || $('.header-container').hasClass('type5') || $('.header-container').hasClass('type6')) {
+              $('.header-container').addClass('sticky-header');
+            }
+            $('.header-container .main-nav').addClass('container');
+            scrolled = true;
+          }
+          if ($('.header-container').hasClass('type4')) {
+            if (heisub1 > $(window).scrollTop() && scrolled) {
+              $('.header-container').removeClass('sticky-header');
+              $('.header-container .main-nav').removeClass('container');
+              scrolled = false;
+            }
+          } else {
+            if (heisub > $(window).scrollTop() && scrolled) {
+              $('.header-container').removeClass('sticky-header');
+              $('.header-container .main-nav').removeClass('container');
+              scrolled = false;
+            }
+          }
+        })
+      });
+    </script>
+    {% endif %}
+    <div class="mobile-nav">
+      {% include 'mobile-menu' %}
+    </div>
+    <div class="mobile-nav-overlay"></div>
+  </header>
+</div>
+{% schema %} {
+  "name": "Header",
+  "settings": [
+    {
+      "type": "select",
+      "id": "type",
+      "label": "Header Type",
+      "info": "choose header type",
+      "options": [
+        {
+          "value": "style1",
+          "label": "Header Style 1"
+        },
+        {
+          "value": "style2",
+          "label": "Header Style 2"
+        },
+        {
+          "value": "style3",
+          "label": "Header Style 3"
+        },
+        {
+          "value": "style4",
+          "label": "Header Style 4"
+        },
+        {
+          "value": "style5",
+          "label": "Header Style 5"
+        },
+        {
+          "value": "style6",
+          "label": "Header Style 6"
+        },
+        {
+          "value": "style7",
+          "label": "Header Style 7"
+        }
+      ],
+      "default": "style1"
+    },
+    {
+      "type": "select",
+      "id": "language_flag",
+      "label": "Show Flags in Language Switcher",
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes"
+        },
+        {
+          "value": "no",
+          "label": "No"
+        }
+      ],
+      "default": "yes"
+    },
+    {
+      "type": "select",
+      "id": "enable_header_transparent",
+      "label": "Enable Header Transparent",
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes"
+        },
+        {
+          "value": "no",
+          "label": "No"
+        }
+      ],
+      "default": "yes"
+    },
+    {
+      "type": "select",
+      "id": "header_preset",
+      "label": "Header Preset",
+      "options": [
+        {
+          "value": "light",
+          "label": "Light"
+        },
+        {
+          "value": "dark",
+          "label": "Dark"
+        }
+      ],
+      "default": "light"
+    },
+    {
+      "type": "header",
+      "content": "Header Aside Config"
+    },
+    {
+      "type": "textarea",
+      "id": "custom_block_header_aside_top",
+      "label": "Custom Block Top"
+    },
+    {
+      "type": "textarea",
+      "id": "custom_block_header_aside_bottom",
+      "label": "Custom Block Bottom"
+    },
+    {
+      "type": "header",
+      "content": "Logo"
+    },
+    {
+      "type": "checkbox",
+      "id": "logo_use_image",
+      "label": "Use Logo"
+    },
+    {
+      "type": "text",
+      "id": "logo_width",
+      "label": "Logo Width"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo",
+      "info": "Maximum logo dimensions are 400px wide by 100px high. The uploaded file will be resized to fit within those constraints."
+    },
+    {
+      "type": "checkbox",
+      "id": "logo_white_use_image",
+      "label": "Use Logo White"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo_white",
+      "label": "Logo White",
+      "info": "Maximum logo dimensions are 400px wide by 100px high. The uploaded file will be resized to fit within those constraints."
+    },
+    {
+      "type": "header",
+      "content": "Header Sticky"
+    },
+    {
+      "type": "select",
+      "id": "sticky_header_enable",
+      "label": "Enable sticky header",
+      "options": [
+        {
+          "value": "enable",
+          "label": "Enable"
+        },
+        {
+          "value": "disable",
+          "label": "Disable"
+        }
+      ],
+      "default": "enable"
+    },
+    {
+      "type": "header",
+      "content": "Custum Header Top"
+    },
+    {
+      "type": "header",
+      "content": "Custom Header\nStyle 5"
+    },
+    {
+      "type": "checkbox",
+      "id": "style_5_enable_social",
+      "label": "Enable Social Share"
+    },
+    {
+      "type": "textarea",
+      "id": "style_5_social_share",
+      "label": "Social Share Content"
+    },
+    {
+      "type": "checkbox",
+      "id": "style_5_enable_map",
+      "label": "Enable\nMap"
+    },
+    {
+      "type": "header",
+      "content": "Custom Header Style 6"
+    },
+    {
+      "type": "checkbox",
+      "id": "style_6_enable_notice",
+      "label": "Enable Notice Messages"
+    },
+    {
+      "type": "textarea",
+      "id": "style_6_notice_content",
+      "label": "Notice Messages"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "menu_item",
+      "name": "Vertical Menu Item",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Menu"
+        },
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "header",
+          "content": "Sub Menu"
+        },
+        {
+          "type": "select",
+          "id": "sub_menu",
+          "label": "Sub Menu",
+          "options": [
+            {
+              "value": "0",
+              "label": "No Sub Menu"
+            },
+            {
+              "value": "1",
+              "label": "Style 1"
+            },
+            {
+              "value": "2",
+              "label": "Style 2"
+            }
+          ],
+          "default": "0"
+        },
+        {
+          "type": "collection",
+          "id": "product_style_1",
+          "label": "Product #1"
+        },
+        {
+          "type": "text",
+          "id": "limit_1",
+          "label": "Product #1 Limit",
+          "default":"6"
+        },
+        {
+          "type": "collection",
+          "id": "product_style_2",
+          "label": "Product #2"
+        },
+        {
+          "type": "text",
+          "id": "title_2",
+          "label": "Product #2 Title"
+        },
+        {
+          "type": "text",
+          "id": "limit_2",
+          "label": "Product #2 Limit",
+          "default":"2"
+        },
+        {
+          "type": "text",
+          "id": "viewmore_text_2",
+          "label": "View More Text",
+          "default": "VIEW ALL PRODUCTS"
+        },
+        {
+          "type": "url",
+          "id": "viewmore_url_2",
+          "label": "View More Url"
+        },
+        {
+          "type": "collection",
+          "id": "product_style_3",
+          "label": "Product #3"
+        },
+        {
+          "type": "text",
+          "id": "title_3",
+          "label": "Product #3 Title"
+        },
+        {
+          "type": "text",
+          "id": "limit_3",
+          "label": "Product #3 Limit",
+          "default":"2"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

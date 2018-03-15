@@ -1,0 +1,22 @@
+.single-product-type2{
+  .product-shop {
+    position: static;
+  }
+  .product-image{
+    a{
+      display: inline-block;
+      margin-bottom: 30px;
+    }
+  }
+  .product-collateral{
+    border: none;
+    margin-top: 0;
+    .product-description{
+      width: 100%;
+    }
+    .image-right{
+      width: 100%;
+      margin-top: 30px;
+    }
+  }
+}

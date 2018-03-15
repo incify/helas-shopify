@@ -1,0 +1,135 @@
+<div class="item-area">
+    <div class="col-sm-6">
+        <div class="product-figure">
+            <a href="{{ product.url | within: collection }}" class="product-image">
+                <img src="{{ product.featured_image.src | img_url: '800x800' }}" alt="{{ product.featured_image.alt | escape }}" >
+            </a>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="product-details">
+            <h2 class="product-name">
+                <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
+                    {% if settings.language_enable %}
+                    <span class="lang1">{{ product.title | split: '|' | first }}</span>
+                    <span class="lang2">{{ product.title | split: '|' | last }}</span>
+                    {% else %}
+                    {{ product.title | split: '|' | first }}
+                    {% endif %}
+                </a>
+            </h2>
+            <div class="rating-box">
+                <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+            </div>
+            <div class="price-box">
+                <div class="price">
+                    {% if on_sale %}
+                    {% if product.price_varies %}
+                    {% assign sale_price = product.price | money %}
+                    <span class="money">{{ 'products.product.on_sale_from_html' | t: price: sale_price }}</span>
+                    {% else %}
+                    <div class="special-price">
+                        <span class="money">{{ product.price | money }}</span>
+                    </div>
+                    {% endif %}
+                    {% else %}
+                    {% if product.price_varies %}
+                    {% assign price = product.price | money %}
+                    <span class="money">{{ 'products.general.from_text_html' | t: price: price }}</span>
+                    {% else %}
+                    <span class="money">{{ product.price | money }}</span>
+                    {% endif %}
+                    {% endif %}
+                    {% if sold_out %}
+                    <span class="money">{{ 'products.product.sold_out' | t }}</span>
+                    {% endif %}
+                    {% if on_sale %}
+                    <div class="compare-price">
+                        <span class="money">{{ product.compare_at_price | money }}</span>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="product-short-desc">
+                {% if product.description contains '[countdown]' %}
+                {% assign des = product.description | split:'[/countdown]' | last %}
+                {% if des contains '[/size]' %}
+                {% assign des2 = des | split:'[size]' | first %}
+                {% if settings.language_enable %}
+                <span class="lang1">{{ des2 | strip_html | split: '[lang2]' | first | truncatewords: 30 }}</span>
+                <span class="lang2">{{ des2 | strip_html | split: '[lang2]' | last | truncatewords: 30 }}</span>
+                {% else %}
+                {{ des2 | strip_html | split: '[lang2]' | first | truncatewords: 30 }}
+                {% endif %}
+                {% else %}
+                {% if settings.language_enable %}
+                <span class="lang1">{{ des | strip_html | split: '[lang2]' | first | truncatewords: 30 }}</span>
+                <span class="lang2">{{ des | strip_html | split: '[lang2]' | last | truncatewords: 30 }}</span>
+                {% else %}
+                {{ des | strip_html | split: '[lang2]' | first | truncatewords: 30 }}
+                {% endif %}
+                {% endif %}
+                {% else %}
+                {% if product.description contains '[/size]' %}
+                {% assign des = product.description | split:'[size]' | first %}
+                {% if settings.language_enable %}
+                <span class="lang1">{{ des | strip_html | split: '[lang2]' | first | truncatewords: 30 }}</span>
+                <span class="lang2">{{ des | strip_html | split: '[lang2]' | last | truncatewords: 30 }}</span>
+                {% else %}
+                {{ des | strip_html | split: '[lang2]' | first | truncatewords: 30 }}
+                {% endif %}
+                {% else %}
+                {% if settings.language_enable %}
+                <span class="lang1">{{ product.content | strip_html | split: '[lang2]' | first | truncatewords: 30 }}</span>
+                <span class="lang2">{{ product.content | strip_html | split: '[lang2]' | last | truncatewords: 30 }}</span>
+                {% else %}
+                {{ product.content | strip_html | split: '[lang2]' | first | truncatewords: 30 }}
+                {% endif %}
+                {% endif %}
+                {% endif %}
+            </div>
+            {% if product.description contains '[countdown]' %}
+            {% assign count_down_first = product.description | split:'[/countdown]' | first %}
+            {% assign count_down_final = count_down_first | split:'[countdown]' | last %}
+            <div class="product-countdown countdown-deal">
+                <div class="product-date" data-date="{{ count_down_final }}"></div>
+            </div>
+            {% endif %}
+            {% if settings.collection_actions != blank %}
+            <div class="actions">
+                {% if settings.collection_show_addtocart != blank %}
+                <div class="action-list addtocart">
+                    {% if product.available %}
+                    {% if product.variants.size > 1 %}
+                    <a href="{{ product.url | within: collection }}" class="btn-cart select-options">
+                        <span {% if settings.language_enable %}data-translate="products.product.add_to_cart"{% endif %}>{{ 'products.product.add_to_cart' | t }}</span>
+                        <i class="nc-icon-outline arrows-1_tail-right"></i>
+                    </a>
+                    {% else %}
+                    <form action="/cart/add" method="post" enctype="multipart/form-data">
+                        <input type="hidden" name="quantity" value="1" />
+                        <select class="hide" name="id">
+                            {% for variant in product.variants %}
+                            <option value="{{ variant.id }}">{{ variant.title | escape }} - {{ variant.price | money }}</option>
+                            {% endfor %}
+                        </select>
+                        <button type="submit" class="btn-cart add-to-cart">
+                            <span {% if settings.language_enable %}data-translate="products.product.add_to_cart"{% endif %}>{{ 'products.product.add_to_cart' | t }}</span>
+                            <i class="nc-icon-outline arrows-1_tail-right"></i>
+                        </button>
+                    </form>
+                    {% endif %}
+                    {% else %}
+                    <a href="{{ product.url | within: collection }}" class="btn-cart">
+                        <span {% if settings.language_enable %}data-translate="products.product.sold_out"{% endif %}>{{ 'products.product.sold_out' | t }}</span>
+                        <i class="nc-icon-outline arrows-1_tail-right"></i>
+                    </a>
+                    {% endif %}
+                </div>
+                {% endif %}
+                <a href="{{ product.url | within: collection }}" class="view-detail" {% if settings.language_enable %}data-translate="products.product.view_detail"{% endif %}>{{ 'products.product.view_detail' | t }}</a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

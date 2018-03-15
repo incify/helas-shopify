@@ -1,0 +1,49 @@
+.banner-image-2-section {
+  .banner-image-2 {
+    .static-banner-inner {
+      padding-left: 8%;
+      .banner--image {
+        .banner--background {
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          height: 40vh;
+        }
+      }
+      .banner--informations {
+        display: table;
+        height: 40vh;
+        h3 {
+          letter-spacing: -1px;
+          margin: 15px 0;
+        }
+        p {
+          font-size: 24px;
+          margin-bottom: 40px;
+        }
+        .spical-text {
+          font-size: 250px;
+          line-height: 160px;
+          font-weight: 700;
+          z-index: 2;
+          &.primary--text {
+            margin-bottom: 50px;
+            z-index: 1;
+          }
+        }
+        .banner--infor {
+          display: table-cell;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+  .grid-padding-x>.cell {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .grid-padding-y>.cell {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}

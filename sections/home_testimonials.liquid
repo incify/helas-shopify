@@ -1,0 +1,351 @@
+<div data-section-id="{{ section.id }}" data-section-type="testimonial-section" class="testimonial-section layout-{{section.settings.preset}} {% if section.settings.enable_parallax == true %}parallax-box{% endif %}">
+  <div class="incify-testimonial">
+      <div class="container">
+          {% if section.settings.title != blank %}
+        <div class="{{ section.settings.preset_section_title }} {% if section.settings.sub_title != blank %}sub-title-enable{% endif %}">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        {% if settings.language_enable %}
+                        <span class="lang1">{{ section.settings.title | split: '|' | first }}</span>
+                        <span class="lang2">{{ section.settings.title | split: '|' | last }}</span>
+                        {% else %}
+                        <span>{{ section.settings.title | split: '|' | first }}</span>
+                        {% endif %}
+                    </div>
+                    {% if section.settings.preset_section_title == 'style_7' %}
+                    <div class="sub-image">
+                        <img src="{{ 'leaf.png' | asset_url }}" alt="sub-image">
+                    </div>
+                    {% endif %}
+                    {% if section.settings.sub_title != blank %}
+                    {% if section.settings.preset_section_title == 'style_8' %}
+                    <div class="sub-image">
+                        <img src="{{ 'm15-i1.png' | asset_url }}" alt="sub-image">
+                    </div>
+                    {% endif %}
+                    <div class="section-sub-title">
+                        {{ section.settings.sub_title }}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        <div class="slick-carousel testimonial-content" data-slick='{"slidesToShow": {{ section.settings.sides_show }}, "slidesToScroll": {{ section.settings.sides_show }}, "dots": true, "autoplaySpeed":5000, "speed":300 ,"responsive":[{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"infinite":false}'>
+              {% for block in section.blocks limit: section.blocks.size %}
+              <div class="testimonial_item--inner item-inner">
+                  <div class="testimonial_item--image">
+                    <span style="background-image: url({{ block.settings.testimonial_avt | img_url: 'master' }});"></span>
+                  </div>
+                  <div class="testimonial_item--info">
+                      {% if block.settings.testimonial_text != blank %}
+                      <div class="testimonial_item--excerpt">{{ block.settings.testimonial_text }}</div>
+                      {% endif %}
+                  </div>
+                  <div class="testimonial_item--bottom">
+                      <div class="testimonial_item--title-role">
+                          {% if block.settings.testimonial_text_author != blank %}
+                          <div class="testimonial_item--title">{{ block.settings.testimonial_text_author }}</div>
+                          {% endif %}
+                          {% if block.settings.testimonial_text_job != blank %}
+                          <p class="testimonial_item--role">{{ block.settings.testimonial_text_job }}</p>
+                          {% endif %}
+                      </div>
+                  </div>
+              </div>
+              {% endfor %}
+          </div>
+      </div>
+  </div>
+</div>
+<span class="custom-styles-css">
+body div[data-section-id="{{ section.id }}"]{
+  {% if section.settings.enable_style == true %}
+    {% if section.settings.style_top != '' %}
+    margin-top:{{ section.settings.style_top }}px;
+    {% endif %}
+    {% if section.settings.style_bottom != '' %}
+    margin-bottom:{{ section.settings.style_bottom }}px;
+    {% endif %}
+    {% if section.settings.style_left != '' %}
+    margin-left:{{ section.settings.style_left }}px;
+    {% endif %}
+    {% if section.settings.style_right != '' %}
+    margin-right:"{{ section.settings.style_right }}px;
+    {% endif %}
+  {% endif %}
+  {% if section.settings.gradient_bg != blank %}
+  background: -moz-linear-gradient(left, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%);
+  background: -webkit-linear-gradient(left, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%);
+  background: linear-gradient(to right, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%);
+  {% endif %}
+  {% if section.settings.background %}
+  background-image:url({{ section.settings.background | img_url: 'master' }});
+  background-repeat: "{{ section.settings.background_repeat }};
+  {% if section.settings.background_repeat == 'repeat' %}
+    background-size: auto;
+  {% else %}
+    background-size: cover;
+  {% endif %}
+  background-position: 50% 50%;
+  {% endif %}
+  {% if section.settings.padding_top != '' %}
+  padding-top:{{ section.settings.padding_top }}px;
+  {% endif %}
+  padding-bottom:{{ section.settings.padding_bottom }}px;
+}
+</span>
+{% schema %}
+{
+  "name": "Testimonial",
+  "max_blocks": 12,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Title Settings"
+    },
+    {
+      "type": "select",
+      "id": "preset_section_title",
+      "label": "Preset Section Title",
+      "options": [
+        {
+          "value": "style_1",
+          "label": "Style 1"
+        },
+        {
+          "value": "style_2",
+          "label": "Style 2"
+        },
+        {
+          "value": "style_3",
+          "label": "Style 3"
+        },
+        {
+          "value": "style_4",
+          "label": "Style 4"
+        },
+        {
+          "value": "style_5",
+          "label": "Style 5"
+        },
+        {
+          "value": "style_6",
+          "label": "Style 6"
+        },
+        {
+          "value": "style_7",
+          "label": "Style 7"
+        },
+        {
+          "value": "style_8",
+          "label": "Style 8"
+        }
+      ],
+      "default": "style_1"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Title"
+    },
+    {
+      "type": "header",
+      "content": "Testimonial Settings"
+    },
+    {
+      "type": "select",
+      "id": "preset",
+      "label": "Preset",
+      "options": [
+        {
+          "value": "style_1",
+          "label": "Style 1"
+        },
+        {
+          "value": "style_2",
+          "label": "Style 2"
+        },
+        {
+          "value": "style_3",
+          "label": "Style 3"
+        }
+      ],
+      "default": "style_1"
+    },
+    {
+      "type": "header",
+      "content": "Gradient Background"
+    },
+    {
+      "type": "checkbox",
+      "id": "gradient_bg",
+      "default": false,
+      "label": "Use Gradient Background"
+    },
+    {
+      "type": "color",
+      "id": "gradient_left",
+      "label": "Gradient Left Color",
+      "default": "#f9bd9d"
+    },
+    {
+      "type": "color",
+      "id": "gradient_right",
+      "label": "Gradient Right Color",
+      "default": "#94ddfe"
+    },
+    {
+      "type": "header",
+      "content": "Image Background"
+    },
+    {
+      "type": "select",
+      "id": "background_repeat",
+      "label": "Background Repeat",
+      "options": [
+        {
+          "value": "no-repeat",
+          "label": "No Reapeat"
+        },
+        {
+          "value": "repeat",
+          "label": "Repeat"
+        }
+      ],
+      "default": "no-repeat"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_parallax",
+      "default": true,
+      "label": "Enable Parallax Background"
+    },
+    {
+      "type": "image_picker",
+      "id": "background",
+      "label": "Banner Background"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 500,
+      "step": 10,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 150
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 500,
+      "step": 10,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 150
+    },
+    {
+      "type": "range",
+      "id": "sides_show",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "unit": "px",
+      "label": "Sides To Show",
+      "default": 1
+    },
+    {
+      "type": "header",
+      "content": "Styles Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_style",
+      "default": false,
+      "label": "Enable Style Settings"
+    },
+    {
+      "type": "range",
+      "id": "style_top",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "style_bottom",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "style_left",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Left",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "style_right",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Right",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial_content",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "testimonial_avt",
+          "label": "Avatar"
+        },
+        {
+          "type": "textarea",
+          "id": "testimonial_text",
+          "label": "Testimonial Text"
+        },
+        {
+          "type": "text",
+          "id": "testimonial_text_author",
+          "label": "Name Author"
+        },
+        {
+          "type": "text",
+          "id": "testimonial_text_job",
+          "label": "Name Job"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonial",
+      "category": "Testimonial"
+    }
+  ]
+}
+{% endschema %}

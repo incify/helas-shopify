@@ -1,0 +1,69 @@
+<div class="blog-post-layout post_layout_grid">
+    <div class="container blog-wrapper">
+        <div class="row">
+            {% for article in blog.articles %}
+            <div class="{% if settings.number_column_grid != blank %}col-md-{{ settings.number_column_grid }}{% endif %} col-sm-12 itempost-grid">
+                <div class="postWrapper">
+                    <div class="entry-content-inner">
+                        <div class="feature-image blog_item--thumbnail-with-effect" style="background-image: url({{ article.image.src | img_url: '1000x800'}})">
+                            <a href="{{ article.url }}">
+                                <img src="{{ article.image.src | img_url: 'master' }}">
+                                <span class="pf-icon pf-icon-standard"></span>
+                                <div class="item--overlay"></div>
+                            </a>
+                        </div>
+                        <div class="item-content">
+                            <div class="postTitle">
+                                <h2>
+                                    <a href="{{ article.url }}">
+                                        {% if settings.language_enable %}
+                                        <span class="lang1">{{ article.title | split: '|' | first }}</span>
+                                        <span class="lang2">{{ article.title | split: '|' | last }}</span>
+                                        {% else %}
+                                        {{ article.title | split: '|' | first }}
+                                        {% endif %}
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="date_comment">
+                                <div class="author_post">
+                                    <span>{{ article.author }}</span>
+                                </div>
+                                <div class="post-date">
+                                    <span class="day">{{ article.published_at | date: '%d' }}</span>
+                                    <span class="month">{{ article.published_at | date: '%b' }}, </span>
+                                    <span class="year">{{ article.published_at | date: '%Y' }}</span>
+                                </div>
+                                <!--                                {% assign number_of_comments = article.comments_count %}-->
+                                <!--                                <div class="post-count-comment">-->
+                                <!--                                    <span class="numb-comments" {% if settings.language_enable %}data-translate="blogs.comments.comments_with_count|count:{{number_of_comments}}"{%endif%}>{{ 'blogs.comments.comments_with_count' | t: count: number_of_comments }}</span>-->
+                                <!--                                </div>-->
+                            </div>
+                            <div class="infor-bottom">
+                                <div class="postContent">
+                                    <p>
+                                        {% if settings.language_enable %}
+                                        <span class="lang1">{{ article.content | strip_html | split: '[lang2]' | first | truncatewords: 24 }}</span>
+                                        <span class="lang2">{{ article.content | strip_html | split: '[lang2]' | last | truncatewords: 24 }}</span>
+                                        {% else %}
+                                        {{ article.content | strip_html | split: '[lang2]' | first | truncatewords: 24}}
+                                        {% endif %}
+                                    </p>
+                                </div>
+                                <a class="btn-button bordered gradien_hover" href="{{ article.url }}" {% if settings.language_enable %}data-translate="blogs.article.read_more"{% endif %}>{{ 'blogs.article.read_more' | t }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% if paginate.pages > 1 %}
+        <div class="pagenav-wrap">
+            <div class="pagination">
+                {% include 'pagination' %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>

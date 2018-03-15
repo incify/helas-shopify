@@ -1,0 +1,17 @@
+{% capture grid %}{% include 'shortcode-render' render:'action' %}{% endcapture %}
+{% capture small_col %}{% include 'shortcode-render' render:'small_col' default:'' %}{% endcapture %}
+{% capture medium_col %}{% include 'shortcode-render' render:'medium_col' default:'' %}{% endcapture %}
+{% capture large_col %}{% include 'shortcode-render' render:'large_col' default:'' %}{% endcapture %}
+{% capture class %}{% include 'shortcode-render' render:'class' default:'' %}{% endcapture %}
+{% capture space %}{% include 'shortcode-render' render:'space' default:'yes' %}{% endcapture %}
+{% case grid %}
+{% when 'new grid' %}
+<div class="grid-x {% if space == 'yes' %}grid-padding-x grid-padding-y{% endif %} {% if small_col != blank %}small-up-{{small_col}}{% endif %} {% if medium_col != blank %}medium-up-{{medium_col}}{% endif %} {% if large_col != blank %}large-up-{{large_col}}{% endif %} {{class}}">
+{% when 'end grid' %}
+</div>
+{% when 'new cell' %}
+<div class="cell">
+    {% when 'end cell' %}
+</div>
+{% else %}
+{% endcase %}

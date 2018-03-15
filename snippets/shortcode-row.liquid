@@ -1,0 +1,20 @@
+{% capture row %}{% include 'shortcode-render' render:'action' %}{% endcapture %}
+{% capture container %}{% include 'shortcode-render' render:'container' default:'container' %}{% endcapture %}
+{% capture colum %}{% include 'shortcode-render' render:'col' default:'6' %}{% endcapture %}
+{% capture size %}{% include 'shortcode-render' render:'size' default:'md' %}{% endcapture %}
+{% capture class %}{% include 'shortcode-render' render:'class' default:'' %}{% endcapture %}
+{% case row %}
+{% when 'new row' %}
+<div class="{{container}}">
+    <div class="row">
+        {% when 'end row' %}
+    </div>
+</div>
+{% when 'new column' %}
+<div class="col-{{size}}-{{colum}} {{class}}">
+    <div class="incify-colum-inner">
+    {% when 'end column' %}
+    </div>
+</div>
+{% else %}
+{% endcase %}

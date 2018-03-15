@@ -1,0 +1,31 @@
+<div class="block block-nav sidebar-cate-toogle">
+  <div class="block-title">
+    <span {% if settings.language_enable %}data-translate="collections.sidebar.categories"{% endif %}>{{ 'collections.sidebar.categories' | t }}</span>
+  </div>
+  <div class="sidebar-content block-content">
+    {% include 'menu-category' %}
+  </div>
+</div>
+{% if settings.sidebar_collection_user != blank %}
+<div class="block bestseller sidebar-cate-toogle" style="margin-top:40px">
+  <div class="block-title">
+    {% if settings.language_enable %}
+    <span class="lang1">{{ settings.sidebar_collection_title | split: '|' | first }}</span>
+    <span class="lang2">{{ settings.sidebar_collection_title | split: '|' | last }}</span>
+    {% else %}
+    {{ settings.sidebar_collection_title | split: '|' | first }}
+    {% endif %}
+  </div>
+  <div class="sidebar-content block-content">
+    {% include 'bestseller-collection' %}
+  </div>
+</div>
+{% endif %}
+<div>
+{% if settings.language_enable %}
+<div class="lang1">{{ settings.html_siderbar_collection| split: '|' | first }}</div>
+<div class="lang2">{{ settings.html_siderbar_collection | split: '|' | last }}</div>
+{% else %}
+{{ settings.html_siderbar_collection | split: '|' | first }}
+{% endif %}
+</div>

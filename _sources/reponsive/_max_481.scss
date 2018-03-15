@@ -1,0 +1,197 @@
+@media (max-width: 481px) {
+  .input-text, input.input-full {
+    height: 40px;
+  }
+  /*============================================================================
+  #Banner Image Background Section
+  ==============================================================================*/
+  .banner-image-background-section .banner-image .box-inner .banner--infor {
+    padding: 50px 15px;
+  }
+  /*============================================================================
+  #Collection Page
+  ==============================================================================*/
+  .wc-toolbar-left {
+    .wc-view-count {
+      margin-bottom: 15px;
+    }
+  }
+  .collection-sorting-row .wc-toolbar-right {
+    float: left;
+  }
+  .control-filter-sidebar {
+    position: absolute;
+    right: 15px;
+    top:40px;
+  }
+  /*============================================================================
+  #Products Tab Section
+  ==============================================================================*/
+  .section-products-tab .main-tab-products {
+    margin-top: 0;
+  }
+  .sky-tabs-pos-left>label, .sky-tabs-pos-right>label {
+    float: none;
+    width: 100%;
+  }
+  .section-products-tab .nova-products-tab-vertical .sky-tabs__border--bottom, .section-products-tab .nova-products-tab-vertical .sky-tabs__border--top {
+    width: 100%;
+  }
+  .sky-tabs-pos-left>ul {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .section-products-tab .nova-products-tab-vertical>ul>li {
+    padding: 0;
+  }
+  /*============================================================================
+  #Single Product Page
+  ==============================================================================*/
+  .product-view .product-tabs>ul {
+    display: block;
+    text-align:  center;
+  }
+  .product-view .product-tabs>ul li {
+    margin-bottom: 15px;
+  }
+  .product-view .product-tabs>ul li,
+  .product-view .product-tabs>ul li a {
+    display: block;
+  }
+  .product-tabs-content-inner {
+    table {
+      tr {
+        td {
+          display: block;
+          padding: 15px 0;
+          width: 100% !important;
+        }
+      }
+    }
+  }
+  /*============================================================================
+  #Shopping Cart
+  ==============================================================================*/
+  .cart-table {
+    .btn-button {
+      width: 100%;
+    }
+  }
+  .checkout-cart .cart-table tfoot td {
+    padding: 15px 0 0 0;
+  }
+  .btn-continue--shopping {
+    margin-bottom: 10px;
+  }
+  .btn-empty--cart {
+    margin-right: 0;
+  }
+  /*============================================================================
+  #Account Pages
+  ==============================================================================*/
+  .account-dashboard.address-form .page-title p {
+    float: left;
+    margin-top: 15px;
+  }
+  /*============================================================================
+  #Blog
+  ==============================================================================*/
+  .postContent {
+    h1 {
+      font-size: 2.5em;
+    }
+    table {
+      tr {
+        td {
+          display: block;
+          width: 100% !important;
+        }
+      }
+    }
+  }
+  .blog-wrapper .author-info {
+    padding: 15px;
+  }
+  .blog-wrapper .author-info .author-info__avatar {
+    display: block;
+    text-align: center;
+  }
+  .blog-wrapper .author-info .author-info__avatar .author-info__avatar-inner {
+    margin: 0 auto;
+  }
+  .blog-wrapper .author-info .author-info__description .author-info__bio, .blog-wrapper .author-info .author-info__description .author-info__title {
+    display: block;
+    text-align: center;
+  }
+  .post_layout_grid .blog-wrapper .itempost-grid .postWrapper .entry-content-inner .feature-image {
+    height: 250px;
+  }
+  /*============================================================================
+  #ShortCodes
+  ==============================================================================*/
+  .incify-counter {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  /*============================================================================
+  #Pages
+  ==============================================================================*/
+  .faqs-style-2 .faqs-total-title .content-text {
+    padding: 0 15px;
+  }
+  #shopify-section-faq_banner_contact .faq-banner-contact .banner--button-act {
+    float: left;
+    text-align: left;
+  }
+  .coming-soon-page {
+    padding-top: 10vh;
+  }
+  .coming-soon-page .text-coming-soon h2 {
+    font-size: 28px;
+  }
+  /*============================================================================
+  #Slideshow
+  ==============================================================================*/
+  .slideshow-section .slideshow .content .content-area {
+    padding: 0 15px;
+  }
+  .slideshow-section .content-slider-2-2 h1 {
+    font-size: 5em;
+    line-height: 1.4
+  }
+  .slideshow-section .content-slider-2-3 h1 {
+    font-size: 3em;
+    line-height: 1.4;
+  }
+  .btn-button.bordered-2.x3, .spr-button.bordered-2.x3 {
+    padding: 10px 30px;
+  }
+  .slideshow-section .content-slider-3-1 {
+    h1 {
+      font-size: 3em;
+      line-height: 1.4;
+    }
+  }
+  .slideshow-section .content-slider-11-1 h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    &:after,
+    &:before {
+      height: 5px;
+    }
+  }
+  .section__wine-deal .wine-deal .wine-deal__inner {
+    display: block;
+    .wine-deal__left-column {
+      padding-bottom: 70%;
+    }
+  }
+  /*============================================================================
+  #Footer
+  ==============================================================================*/
+  #shopify-section-footer .footer-wrapper.footer-style2 .footer-container .footer-menu li {
+    display: block;
+    margin: 15px;
+  }
+
+}

@@ -1,0 +1,6 @@
+{% capture video_id %}{% include 'shortcode-render' render:'video_id' default:'172601404' %}{% endcapture %}
+{% capture button %}{% include 'shortcode-render' render:'button' default:'' %}{% endcapture %}
+{% capture class %}{% include 'shortcode-render' render:'class' default:'' %}{% endcapture %}
+<div class="incify-video-popup {{class}}">
+    <a href="https://player.vimeo.com/video/{{video_id}}?autoplay=1" data-rel="lightcase"><img src="{{button}}" alt="" /></a>
+</div>

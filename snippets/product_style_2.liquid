@@ -1,0 +1,320 @@
+<div class="product-main single-product-{{settings.type_detail}}">
+    <div class="container">
+        <div class="row">
+            {% if settings.product_sidebar_display != blank %}
+            <div class="col-sm-3 sidebar-product">
+                <div class="block block-nav">
+                    <div class="block-title">
+                        <span {% if settings.language_enable %}data-translate="collections.sidebar.categories"{% endif %}>{{ 'collections.sidebar.categories' | t }}</span>
+                    </div>
+                    <div class="sidebar-content block-content">
+                        {% include 'menu-product' %}
+                    </div>
+                </div>
+                {% if settings.product_sidebar_content != '' %}
+                <div class="custom-block custom-block-1">
+                    {{settings.product_sidebar_content}}
+                </div>
+                {% endif %}
+                {% if settings.bestseller_product_enable != blank %}
+                <div class="block bestseller_product sidebar-cate-toogle">
+                    <div class="block-title">
+                        {% if settings.language_enable %}
+                        <span class="lang1">{{ settings.sidebar_product_title | split: '|' | first }}</span>
+                        <span class="lang2">{{ settings.sidebar_product_title | split: '|' | last }}</span>
+                        {% else %}
+                        {{ settings.sidebar_product_title | split: '|' | first }}
+                        {% endif %}
+                    </div>
+                    <div class="sidebar-content block-content">
+                        {% include 'bestseller-product' %}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+            {% endif %}
+            {% if settings.product_sidebar_display != blank %}
+            <div class="col-sm-9">
+                {% else %}
+                <div class="col-sm-12">
+                    {% endif %}
+                    <div class="product-view product">
+                        <div class="product-essential">
+                            <div class="row product--sticky">
+                                <div class="product-img-box col-sm-{{media_col}}">
+                                    <div class="product-img-list">
+                                        {% include 'media1' %}
+                                    </div>
+                                </div>
+                                <div class="product-shop col-sm-{{main_col}}">
+                                  <div class="product--summary">
+                                      <div class="product-shop-wrapper">
+                                        {% if settings.product_prev_next != blank %}
+                                        <div class="prev-next-products">
+                                            {% if collection %}
+                                            {% if collection.previous_product or collection.next_product %}
+                                            {% if collection.previous_product %}
+                                            <div class="product-nav product-prev">
+                                                <a href="{{ collection.previous_product }}" title="Previous Product">
+                                                    {{ settings.product_prev_text }}
+                                                </a>
+                                                {% assign words = collection.previous_product | split:'/' %}
+                                                {% assign word = words.last %}
+                                                <div class="product-pop theme-border-color" data-with-product="{{word}}">
+                                                    <script type="text/template">
+                                                        <img class="product-image" src="[img:medium]" alt="[title]"/>
+                                                        <h3 class="product-name">[title]</h3>
+                                                    </script>
+                                                </div>
+                                            </div>
+                                            {% endif %}
+                                            {% if collection.next_product %}
+                                            <div class="product-nav product-next">
+                                                <a class="product-next" href="{{ collection.next_product }}" title="Next Product">
+                                                    {{ settings.product_next_text }}
+                                                </a>
+                                                {% assign words = collection.next_product | split:'/' %}
+                                                {% assign word = words.last %}
+                                                <div class="product-pop theme-border-color" data-with-product="{{word}}">
+                                                    <script type="text/template">
+                                                        <img class="product-image" src="[img:medium]" alt="[title]"/>
+                                                        <h3 class="product-name">[title]</h3>
+                                                    </script>
+                                                </div>
+                                            </div>
+                                            {% endif %}
+                                            {% endif %}
+                                            {% endif %}
+                                        </div>
+                                        {% endif %}
+                                        <div class="product-name top-product-detail">
+                                            <h2>
+                                                <a href="{{ product.url | within: collection }}">
+                                                    {% if settings.language_enable %}
+                                                    <span class="lang1">{{ product.title | split: '|' | first }}</span>
+                                                    <span class="lang2">{{ product.title | split: '|' | last }}</span>
+                                                    {% else %}
+                                                    {{ product.title | split: '|' | first }}
+                                                    {% endif %}
+                                                </a>
+                                            </h2>
+                                        </div>
+                                        <div class="review-product-details">
+                                            <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+                                        </div>
+                                        <div class="product-type-data">
+                                            <div class="price-box">
+                                                <div id="price" class="detail-price" itemprop="price">
+                                                    {% if variant_tmp.compare_at_price > variant_tmp.price %}
+                                                    <s class="old-price"> {{ variant_tmp.compare_at_price | money }}</s>
+                                                    <!--span class="price_percentage">-{{ variant_tmp.compare_at_price | minus: variant_tmp.price | times: 100.0 | divided_by: variant_tmp.compare_at_price | money_without_currency | times: 100 | remove: '.0'}}%</span-->
+                                                    {% endif %}
+                                                    <div class="price">{{ variant_tmp.price | money }}</div>
+                                                </div>
+                                                <meta itemprop="priceCurrency" content="{{ shop.currency }}" />
+                                                {% if product.available %}
+                                                <link itemprop="availability" href="http://schema.org/InStock" />
+                                                {% else %}
+                                                <link itemprop="availability" href="http://schema.org/OutOfStock" />
+                                                {% endif %}
+                                            </div>
+                                        </div>
+                                        {% if settings.product_short_desc %}
+                                        <div class="short-description-detail">
+                                            {% if settings.product_short_desc %}
+                                            <div class="short-description-detail">
+                                                <div class="short-description">
+                                                    {%if settings.product_short_desc == '1'%}
+                                                    {% if product.description contains '[countdown]' %}
+                                                    {% assign des = product.description | split:'[/countdown]' | last %}
+                                                    {% if settings.language_enable %}
+                                                    <span class="lang1">{{ des | strip_html | split: '[lang2]' | first | truncatewords: 30 }}</span>
+                                                    <span class="lang2">{{ des | strip_html | split: '[lang2]' | last | truncatewords: 30 }}</span>
+                                                    {% else %}
+                                                    {{ des | strip_html | split: '[lang2]' | first | truncatewords: 30 }}
+                                                    {% endif %}
+                                                    {% else %}
+                                                    {% if settings.language_enable %}
+                                                    <span class="lang1">{{ product.content | strip_html | split: '[lang2]' | first | truncatewords: 30 }}</span>
+                                                    <span class="lang2">{{ product.content | strip_html | split: '[lang2]' | last | truncatewords: 30 }}</span>
+                                                    {% else %}
+                                                    {{ product.content | strip_html | split: '[lang2]' | first | truncatewords: 30 }}
+                                                    {% endif %}
+                                                    {% endif %}
+                                                    {%endif%}
+                                                    {%if settings.product_short_desc == '2'%}
+                                                    {% if product.description contains '[countdown]' %}
+                                                    {% assign des = product.description | split:'[/countdown]' | last %}
+                                                    {% if settings.language_enable %}
+                                                    <div class="lang1">{{ des | split: '[lang2]' | first }}</div>
+                                                    <div class="lang2">{{ des | split: '[lang2]' | last }}</div>
+                                                    {% else %}
+                                                    {{ des | split: '[lang2]' | first }}
+                                                    {% endif %}
+                                                    {% else %}
+                                                    {% if settings.language_enable %}
+                                                    <div class="lang1">{{ product.description | split: '[lang2]' | first }}</div>
+                                                    <div class="lang2">{{ product.description | split: '[lang2]' | last }}</div>
+                                                    {% else %}
+                                                    {{ product.description | strip_html | split: '[lang2]' | first }}
+                                                    {% endif %}
+                                                    {% endif %}
+                                                    {%endif%}
+                                                </div>
+                                            </div>
+                                            {% endif %}
+                                        </div>
+                                        {% endif %}
+                                        {% if settings.product_sample_vendor %}
+                                        <div class="sample-vendor"><span>{{ product.vendor }}</span></div>
+                                        {% endif %}
+                                        <div class="middle-product-detail">
+                                            {% if settings.product_availability %}
+                                            <div class="product-inventory">
+                                                <span {% if settings.language_enable %}data-translate="products.product.availability"{% endif %}>{{ 'products.product.availability' | t }} </span>
+                                                <span class="in-stock">
+                                                  {% if product.selected_or_first_available_variant.inventory_management %}
+                                                  {% assign first_inventory = product.selected_or_first_available_variant.inventory_quantity %}
+                                                  {% if first_inventory > 0 %}
+                                                  {{first_inventory}} {{ 'products.product.in_stock' | t }}
+                                                  {% else %}
+                                                  {{ 'products.product.out_of_stock' | t }}
+                                                  {% endif %}
+                                                  {% else %}
+                                                  {{ 'products.product.many_in_stock' | t }}
+                                                  {% endif %}
+                                                </span>
+                                            </div>
+                                            {% endif %}
+                                            {% if settings.product_sku %}
+                                            <div class="product-sku"><span {% if settings.language_enable %}data-translate="products.product.sku"{% endif %}>{{ 'products.product.sku' | t }} </span><span class="sku">{{ product.sku }}</span></div>
+                                            {% endif %}
+                                            {% if settings.product_type %}
+                                            <div class="product-type">
+                                                <label {% if settings.language_enable %}data-translate="products.product.product_type"{% endif %}>{{ 'products.product.product_type' | t }} </label>
+                                                <span>{{ product.type }}</span>
+                                            </div>
+                                            {% endif %}
+                                            {% if settings.product_vendor %}
+                                            <div class="product-vendor">
+                                                <label {% if settings.language_enable %}data-translate="products.product.product_vendor"{% endif %}>{{ 'products.product.product_vendor' | t }} </label>
+                                                <span>{{ product.vendor }}</span>
+                                            </div>
+                                            {% endif %}
+                                        </div>
+                                        <div class="product-type-main">
+                                            <form class="product-form" id="product-form" action="/cart/add" method="post" enctype="multipart/form-data" data-product-id="{{product.id}}" data-id="{{ product.handle }}">
+                                                <div id="product-variants" class="product-options" {% if product.options.size == 1 and product.options.first == 'Title' %}style="display: none;"{% endif %}>
+                                                  <select id="product-select" name="id" style="display: none;">
+                                                      {% for variant in product.variants %}
+                                                      {% if variant.available %}
+                                                      <option {% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %} value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money_with_currency }}</option>
+                                                      {% else %}
+                                                      <option disabled="disabled">
+                                                          {{ variant.title }} - {{'products.product.sold_out' | t}}
+                                                      </option>
+                                                      {% endif %}
+                                                      {% endfor %}
+                                                  </select>
+                                                </div>
+                                                <div class="product-options-bottom">
+                                                    <div class="add-to-cart-box">
+                                                        <div class="input-box pull-left">
+                                                            <input type="text" id="qty" name="quantity" value="1" min="1" class="quantity-selector">
+                                                            <div class="plus-minus">
+                                                                <div class="increase items" onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN( qty )) result.value++;return false;">
+                                                                    <i class="zyra-icon icon-ui-1-simple-add"></i>
+                                                                </div>
+                                                                <div class="reduced items" onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN( qty ) &amp;&amp; qty > 1 ) result.value--;return false;">
+                                                                    <i class="zyra-icon icon-ui-1-simple-delete"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="actions">
+                                                            <div class="action-list addtocart">
+                                                                <div class="button-wrapper">
+                                                                    {% if product.available %}
+                                                                    <div class="button-wrapper-content">
+                                                                        <button type="submit" name="add" class="btn-cart add-to-cart bordered uppercase">
+                                                                          <span>
+                                                                            <span {% if settings.language_enable %}data-translate="products.product.add_to_cart"{% endif %}>{{ 'products.product.add_to_cart' | t }}</span>
+                                                                          </span>
+                                                                        </button>
+                                                                    </div>
+                                                                    {% else %}
+                                                                    <div class="button-wrapper-content">
+                                                                        <button href="javascript:;" class="btn-cart add-to-cart">
+                                                                          <span>
+                                                                            <span {% if settings.language_enable %}data-translate="products.product.sold_out"{% endif %}>{{ 'products.product.sold_out' | t }}</span>
+                                                                          </span>
+                                                                        </button>
+                                                                    </div>
+                                                                    {% endif %}
+                                                                </div>
+                                                            </div>
+                                                            <div class="action-list wishlist wishlist-{{product.id}}">
+                                                                {% include 'wishlist-button'%}
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        {% if settings.size_chart_disable =='on' %}
+                                        <p><img src="{{ 'f-size-chart-icon.svg' | asset_url }}" style="max-width:25px;margin-right:5px;"><a class="fancy_click size-chart" href="{{ 'tab_size_chart.png' | asset_url }}">Sizing Chart</a></p>
+                                        {% endif %}
+                                        {% if settings.product_tags %}
+                                        <div class="tags">
+                                            <i class="icon-tags" {% if settings.language_enable %}data-translate="blogs.article.tags"{%endif%}>{{ 'blogs.article.tags' | t }}</i>
+                                            {% for tag in product.tags %}
+                                            <span class="separator">/</span>
+                                            <a href="/collections/all/{{ tag | handle }}" rel="tag">{{ tag }}</a>
+                                            {% endfor %}
+                                        </div>
+                                        {% endif %}
+                                        <div class="social--sharing">
+                                            <a class="share-post-face" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');return false;" href="https://www.facebook.com/sharer/sharer.php?u={{shop.url}}{{ product.url }}"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                <a class="share-post-twitter" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');return false;" href="https://twitter.com/home?status={{shop.url}}{{ product.url }}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                                <a class="share-post-linkedin" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');return false;" href="https://www.linkedin.com/shareArticle?mini=true&url={{shop.url}}{{ product.url }}&title={{ product.title }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                                <a class="share-post-google" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');return false;" href="https://plus.google.com/share?url={{shop.url}}{{ product.url }}"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                                <a class="share-post-pinterest" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');return false;" href="https://pinterest.com/pin/create/button/?url={{shop.url}}{{ product.url }}&media={{ product.featured_image | product_img_url: 'master' }}&description={{ product.title }}"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                        $(".product-shop-wrapper").stick_in_parent({
+                          parent: ".product--sticky",
+                          offset_top:170
+                        });
+                      </script>
+                    </div>
+                    <div class="product-collateral">
+                        <div class="product-description rte" itemprop="description">
+                            {% include 'product-page-tab' %}
+                        </div>
+                    </div>
+                    {% if settings.related_product_display %}
+                    <div class="products-related">
+                        {% if settings.related_product_type == "tags" %}
+                        {% include 'related-products-by-tags' %}
+                        {% else %}
+                        {% include 'related-products' %}
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        productsObj.id{{product.id}} = {{product | json}};
+        $(document).ready(function() {
+            {% if settings.move_product_tab != blank %}
+            $(".product-shop .middle-product-detail").before($(".product-tabs"));
+            $(".product-shop .middle-product-detail").before($(".product-tab-accordion"));
+            {% endif %}
+        });
+    </script>
+</div>

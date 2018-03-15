@@ -1,0 +1,21 @@
+<!-- /snippets/collection-sorting.liquid -->
+<div class="collection-sorting-row"> 
+  {% if settings.collection_infinite_scrolling != blank %}
+    {% if paginate.next %}    
+      <div class="infinite-loader">
+        <span class="loading" style="display: none;">
+          <i class="ajax-loader small animate-spin"></i><span {% if settings.enable_multilang %}data-translate="collections.general.loading"{% endif %}>{{ 'collections.general.loading' | t}} ...</span>
+        </span>
+        <a href="{{ paginate.next.url }}" class="btn-load-more" style="display: inline;" {% if settings.enable_multilang %}data-translate="collections.general.show_more"{% endif %}>{{ 'collections.general.show_more' | t}} ...</a> 
+      </div>
+    {% endif %}
+   {% else %}
+    {% if paginate.pages > 1 %} 
+      <div class="pagenav-wrap">
+        <div class="pagination">
+          {% include 'pagination-page' %}
+        </div>
+      </div>
+    {% endif %} 
+  {% endif %}
+</div>   

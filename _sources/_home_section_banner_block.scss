@@ -1,0 +1,23 @@
+.banner-block {
+  .banner-block__content {
+    width: 570px;
+    max-width: 100%;
+    h2 {
+      font-size: 40px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 14px;
+      line-height: 24px;
+      margin: 0 0 15px;
+    }
+  }
+}
+.section-banner-block__readmore {
+  text-align: center;
+  a {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}

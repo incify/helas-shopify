@@ -1,0 +1,18 @@
+.page-404 {
+  text-align: center;
+  min-height: 300px;
+  padding: 70px 0 130px;
+  background-color: #F4F4F4;
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  .button-to-home{
+    .btn-to-home{
+      color: #ffffff;
+      text-transform: uppercase;
+      padding: 15px 35px;
+      line-height: 26px;
+      background-color: #343538;
+      display: inline-block;
+    }
+  }
+}

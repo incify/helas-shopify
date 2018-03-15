@@ -1,0 +1,21 @@
+<section class="section_page_header preset-{{ preset }}">
+    <div class="backdround-image-inner" style="background-image: url('{{ header_image }}'); background-repeat: no-repeat; background-position: center top; background-size: cover; padding-top:{{top_space}}; padding-bottom:{{bottom_space}};">
+        <h3 class="page-title special-font">
+            {% if template == 'article' %}
+                {% if settings.language_enable %}
+                <span class="lang1">{{ article.title | split: '|' | first }}</span>
+                <span class="lang2">{{ article.title | split: '|' | last }}</span>
+                {% else %}
+                {{ article.title | split: '|' | first }}
+                {% endif %}
+            {% else %}
+                {% include 'title-all' %}
+            {% endif %}
+        </h3>
+        {% if section.settings.enable_breadcrumb == 'yes' %}
+        <div class="pages_breadcrumb">
+            {% include 'breadcrumb' %}
+        </div>
+        {% endif %}
+    </div>
+</section>

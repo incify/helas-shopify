@@ -1,0 +1,27 @@
+<div class="top-newsletter">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 a-left-sm">
+        {% if settings.language_enable %}
+        <span class="lang1">{{ settings.notice_text_1 | split: '[lang2]' | first }}</span>
+        <span class="lang2">{{ settings.notice_text_1 | split: '[lang2]' | last }}</span>
+        {% else %}
+        {{ settings.notice_text_1 | split: '[lang2]' | first }}
+        {% endif %}  
+      </div>
+      <div class="col-sm-6 a-right-sm">
+        <div style="display: inline-block; vertical-align: middle;">
+          {% if settings.language_enable %}
+        <span class="lang1">{{ settings.notice_text_2 | split: '[lang2]' | first }}</span>
+        <span class="lang2">{{ settings.notice_text_2 | split: '[lang2]' | last }}</span>
+        {% else %}
+        {{ settings.notice_text_1 | split: '[lang2]' | first }}
+        {% endif %}           
+        </div>
+        <div style="display: inline-block; vertical-align: middle; padding-left: 20px; position: relative;">
+          {% include 'header_newsletter' %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

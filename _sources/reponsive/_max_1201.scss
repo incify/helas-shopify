@@ -1,0 +1,12 @@
+@media (max-width: 1201px) {
+  .not-container {
+    padding: 0 15px;
+    .sidebar {
+      max-width: 100%;
+    }
+    .collection_content {
+      max-width: 100%;
+      width: 75%;
+    }
+  }
+}

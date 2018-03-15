@@ -1,0 +1,224 @@
+<div data-section-id="{{ section.id }}" data-section-type="slideshow-section"{% if section.settings.row_gap == 'yes' %} class="EL_row_padding_65"{% endif %}>
+  {% if section.blocks.size > 0 %}
+  <div class="slideshow-section {% if section.settings.slide_fullscreen == '1' %}full-screen-slider{% endif %}">
+    <div class="data-slideshow"
+         data-auto="{{ section.settings.auto_speed }}"
+         data-paging="{{ section.settings.slide_pagination }}"
+         data-nav="{{ section.settings.slide_navigation }}"
+         data-transition="{{ section.settings.slide_transition }}"
+         data-prev='{{ section.settings.slide_nav_prev }}'
+         data-next='{{ section.settings.slide_nav_next }}' style="display: none;"></div>
+    <div class="slideshow owl-carousel">
+      {% for block in section.blocks %}
+      <div class="item item-mousemove-translate" style="background: url({{ block.settings.background_image | img_url: 'master' }}) center center no-repeat;background-size: cover; height: {{  section.settings.slider_height }}vh;">
+        <div class="container" style="position:relative; height: 100%">
+          <div class="content {{ block.settings.class_content }}">
+              {% if block.settings.use_content_image %}
+              <div class="content-image">
+                <img src="{{ block.settings.content_image_slider | img_url: 'master' }}">
+              </div>
+              {% endif %}
+            <div class="content-area">
+              {% if settings.language_enable %}
+              <div class="lang1">{{ block.settings.content1 | split: '[lang2]' | first }}</div>
+              <div class="lang2">{{ block.settings.content1 | split: '[lang2]' | last }}</div>
+              {% else %}
+              {{ block.settings.content1 | split: '[lang2]' | first }}
+              {% endif %}
+              {% if settings.language_enable %}
+              <div class="lang1">{{ block.settings.content2 | split: '[lang2]' | first }}</div>
+              <div class="lang2">{{ block.settings.content2 | split: '[lang2]' | last }}</div>
+              {% else %}
+              {{ block.settings.content2 | split: '[lang2]' | first }}
+              {% endif %}
+              {% if settings.language_enable %}
+              <div class="lang1">{{ block.settings.content3 | split: '[lang2]' | first }}</div>
+              <div class="lang2">{{ block.settings.content3 | split: '[lang2]' | last }}</div>
+              {% else %}
+              {{ block.settings.content3 | split: '[lang2]' | first }}
+              {% endif %}
+              {% if settings.language_enable %}
+              <div class="lang1">{{ block.settings.button_content | split: '[lang2]' | first }}</div>
+              <div class="lang2">{{ block.settings.button_content | split: '[lang2]' | last }}</div>
+              {% else %}
+              {{ block.settings.button_content | split: '[lang2]' | first }}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</div>
+{% schema %}
+{
+"name": "Slideshow",
+"class": "index-section index-section--flush",
+"max_blocks": 4,
+"settings": [
+    {
+    "type": "select",
+    "id": "row_gap",
+    "label": "Row Gap",
+    "options": [
+    {
+      "value": "yes",
+      "label": "Yes"
+    },
+    {
+      "value": "no",
+      "label": "No"
+    }
+    ],
+      "default": "no"
+    },
+    {
+        "type":      "range",
+        "id":        "slider_height",
+        "min":       10,
+        "max":        100,
+        "step":       1,
+        "unit":       "vh",
+        "label":     "Slider Height",
+        "default":   65
+    },
+    {
+    "type": "text",
+    "id": "auto_speed",
+    "label": "Autoplay",
+    "info": "If you would like the slider to auto-rotate, then set the autoplay rotate time in ms here. I.e. you would enter '5000' for the slider to rotate every 5 seconds.",
+    "default": "5000"
+    },
+    {
+    "type": "select",
+    "id": "slide_transition",
+    "label": "Transition",
+    "options": [
+    {
+    "value": "slide",
+    "label": "Slide"
+    },
+    {
+    "value": "fade",
+    "label": "Fade"
+    }
+    ],
+    "default": "slide"
+    },
+    {
+    "type": "select",
+    "id": "slide_navigation",
+    "label": "Navigation",
+    "info": "Choose if you would like to display the left\/right arrows on the slider.",
+    "options": [
+    {
+    "value": "1",
+    "label": "Yes"
+    },
+    {
+    "value": "0",
+    "label": "No"
+    }
+    ],
+    "default": "1"
+    },
+    {
+    "type": "select",
+    "id": "slide_pagination",
+    "label": "Pagination",
+    "info": "Choose if you would like to display the slider pagination.",
+    "options": [
+    {
+    "value": "1",
+    "label": "Yes"
+    },
+    {
+    "value": "0",
+    "label": "No"
+    }
+    ],
+    "default": "1"
+    },
+    {
+    "type": "text",
+    "id": "slide_nav_prev",
+    "label": "Prev Navigation",
+    "default": "<i class=\"icon-chevron-left\"></i>"
+    },
+    {
+    "type": "text",
+    "id": "slide_nav_next",
+    "label": "Next Navigation",
+    "default": "<i class=\"icon-chevron-right\"></i>"
+    }
+],
+"blocks": [
+{
+"type": "image",
+"name": "Image slide",
+"settings": [
+    {
+    "type": "image_picker",
+    "id": "background_image",
+    "label": "Background Image"
+    },
+    {
+    "type":"text",
+    "id":"class_content",
+    "label":"Class Content"
+    },
+    {
+    "type": "checkbox",
+    "id": "use_content_image",
+    "label": "Use content Image"
+    },
+    {
+    "type": "image_picker",
+    "id": "content_image_slider",
+    "label": "Content Image"
+    },
+    {
+    "type": "textarea",
+    "id": "content1",
+    "label": "Content 1"
+    },
+    {
+    "type": "textarea",
+    "id": "content2",
+    "label": "Content 2"
+    },
+    {
+    "type": "textarea",
+    "id": "content3",
+    "label": "Content 3"
+    },
+    {
+    "type": "textarea",
+    "id": "button_content",
+    "label": "Button content"
+    }
+]
+}
+],
+"presets": [{
+"name": "Slideshow",
+"category": "Slideshow",
+"settings": {
+"auto_speed": "5000"
+},
+"blocks": [
+{
+"type": "image"
+}
+]
+}]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,90 @@
+<!-- /templates/collection.liquid -->
+{% if settings.collection_columns != '5' %}
+{% assign col = 12 | divided_by: settings.collection_columns %}
+{% else %}
+{% assign col = settings.collection_columns %}
+{% endif %}
+{% paginate collection.products by 15 %}
+{% section 'collection_page_header' %}
+
+<div class="main-content-inner">
+    <div class="{% if settings.collection_page_fullwidth %}not-container{% else %}container{% endif %}">
+        <div class="row">
+            <div class="{% if settings.collection_sidebar_position != 'none' %}col-sm-9 collection_content{% else %}col-sm-12{% endif %} {% if settings.collection_sidebar_position == 'left' %}f-right{%endif%}">
+                {% if collection.description != blank %}
+                <div class="collection-main-banner">
+                    {% if settings.language_enable %}
+                    <div class="lang1">{{ collection.description | split: '[lang2]' | first }}</div>
+                    <div class="lang2">{{ collection.description | split: '[lang2]' | last }}</div>
+                    {% else %}
+                    {{ collection.description | split: '[lang2]' | first }}
+                    {% endif %}
+                </div>
+                {% endif %}
+                <div id="collection-main">
+                    <div class="toolbar toolbar-top">
+                        {% include 'collection-sorting' %}
+                    </div>
+                    <div class="sidebar-special">
+                        {% include 'collection-filter-top' %}
+                    </div>
+                    <script type="text/javascript">
+                        $(document).ready(function(){
+                            $('.control-filter-sidebar').click(function () {
+                                if($(this).parent().parent().parent().children('.sidebar-special').hasClass('active')){
+                                    $(this).parent().parent().parent().children('.sidebar-special').removeClass('active').slideUp('300');
+                                }else {
+                                    $(this).parent().parent().parent().children('.sidebar-special').addClass('active').slideDown('300');
+                                }
+                                if($(this).children('.nc-icon-outline').hasClass('ui-1_simple-add')){
+                                    $(this).children('.nc-icon-outline').removeClass('ui-1_simple-add').addClass('ui-1_simple-delete');
+                                }else {
+                                    $(this).children('.nc-icon-outline').addClass('ui-1_simple-add').removeClass('ui-1_simple-delete');
+                                }
+                                if($(this).hasClass('active')){
+                                    $(this).removeClass('active');
+                                }else {
+                                    $(this).addClass('active');
+                                }
+                            });
+                        });
+                    </script>
+                    <div class="category-products">
+                        <ul id="products-grid" class="products-grid columns{{settings.collection_columns}} {% if settings.collection_grid_style =='flex' %}flex-grid{% endif %} {% if settings.collection_grid_style =='masonry' %}masonry-grid{% endif %}">
+                            {% for product in collection.products %}
+                            {% assign productIndex = forloop.index | minus:1 %}
+                            {% assign delayTime = settings.time_lazy_load | times : productIndex %}
+                            <li class="item product product-layout-grid">
+                                <div class="item-effect">
+                                    {% include 'product-grid-item' %}
+                                </div>
+                            </li>
+                            {% else %}
+                            {% if collection.handle == 'all' and current_tags == '' %}
+                            {% unless emptyState %}
+                            {{ 'theme-onboarding.css' | global_asset_url | stylesheet_tag }}
+                            {% assign emptyState = true %}
+                            {% endunless %}
+                            {% include 'onboarding-empty-collection' %}
+                            {% else %}
+                            <li><p>{{ 'collections.general.no_matches' | t }}</p> </li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="toolbar-bottom">
+                        <div class="toolbar">
+                            {% include 'collection-sorting-bottom' %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% if settings.collection_sidebar_position != 'none' %}
+            <div class="col-sm-3 sidebar {% if settings.collection_sidebar_position == 'left' %}f-left{% endif %}">
+                {% include 'collection-sidebar' %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% endpaginate %}
+</div>
