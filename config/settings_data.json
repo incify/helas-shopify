@@ -590,7 +590,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "type": "style1",
+          "type": "style6",
           "language_flag": "yes",
           "enable_header_transparent": "no",
           "header_preset": "light",
@@ -601,14 +601,66 @@
           "logo": "",
           "logo_white_use_image": true,
           "logo_white": "",
-          "sticky_header_enable": "enable",
+          "sticky_header_enable": "disable",
           "custum_block_style_4": "<span class=\"three-font-family\">Spring Summer<\/span>\r\n<p> Sale off 50% <\/p>\r\n<a href=\"#\" class=\"btn-shopping\">SHOPPING NOW<\/a>",
           "style_5_enable_social": true,
           "style_5_social_share": "<a href=\"https://www.facebook.com/\" class=\"facebook\" title=\"Facebook\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-facebook\"></i></a><a href=\"https://twitter.com/\" class=\"twitter\" title=\"Twitter\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-twitter\"></i></a><a href=\"https://www.linkedin.com\" class=\"linkedin\" title=\"LinkedIn\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-linkedin-square\"></i></a><a href=\"https://www.youtube.com\" class=\"youtube\" title=\"Youtube\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-youtube-play\"></i></a><a href=\"https://vimeo.com\" class=\"vimeo\" title=\"Vime\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-vimeo-square\"></i></a>",
           "style_5_enable_map": true,
           "style_6_enable_notice": true,
           "style_6_notice_content": "<span class=\"padding-right-20\"><i class=\"special-font\">End of Season</i></span><span class=\"font-weight-500\">Sale off 50%</span>"
-        }
+        },
+        "blocks": {
+          "vertical_item_01": {
+            "type":"menu_item",
+            "settings": {
+              "collection": "man",
+              "icon": "shopify:\/\/shop_images\/tshirt.png",
+              "sub_menu": "1",
+              "product_style_1": "man"
+            }
+          },
+          "vertical_item_02": {
+            "type":"menu_item",
+            "settings": {
+              "collection": "woman",
+              "icon": "shopify:\/\/shop_images\/dress.png",
+              "sub_menu": "2",
+              "product_style_2": "man",
+              "title_2": "TOP SALE",
+              "viewmore_url_2": "#",
+              "product_style_3": "woman",
+              "title_3": "SALE OFF"
+            }
+          },
+          "vertical_item_03": {
+            "type":"menu_item",
+            "settings": {
+              "collection": "shoes",
+              "icon": "shopify:\/\/shop_images\/pump.png"
+            }
+          },
+          "vertical_item_04": {
+            "type":"menu_item",
+            "settings": {
+              "collection": "bags",
+              "icon": "shopify:\/\/shop_images\/bag.png"
+            }
+          },
+          "vertical_item_05": {
+            "type":"menu_item",
+            "settings": {
+              "collection": "accessories",
+              "icon": "shopify:\/\/shop_images\/diamon.png"
+            }
+          }
+        },
+        "block_order": [
+          "vertical_item_01",
+          "vertical_item_02",
+          "vertical_item_03",
+          "vertical_item_04",
+          "vertical_item_05"
+        ]
       },
       "footer": {
         "type": "footer",
@@ -1135,40 +1187,207 @@
         "settings": {
         }
       },
+      "banner-video": {
+        "type": "home_video_banner",
+        "settings": {
+          "enable_parallax": true,
+          "background": "shopify:\/\/shop_images\/slider-08-1.jpg",
+          "content": "[img url=\"https://cdn.shopify.com/s/files/1/2573/5730/files/m8-slider-e-1.png\"]",
+          "video_source": "vimeo",
+          "video_id": "172601404",
+          "padding_top": 200,
+          "padding_bottom": 200
+        }
+      },
+      "top-trend": {
+        "type": "home_products_tab",
+        "blocks": {
+          "top-trend-0": {
+            "type": "tab_item",
+            "settings": {
+              "title": "All",
+              "collection": "man"
+            }
+          },
+          "top-trend-1": {
+            "type": "tab_item",
+            "settings": {
+              "title": "New In",
+              "collection": "all"
+            }
+          },
+          "top-trend-2": {
+            "type": "tab_item",
+            "settings": {
+              "title": "Top Trend",
+              "collection": "woman"
+            }
+          },
+          "top-trend-3": {
+            "type": "tab_item",
+            "settings": {
+              "title": "Woman",
+              "collection": "man"
+            }
+          },
+          "top-trend-4": {
+            "type": "tab_item",
+            "settings": {
+              "title": "Man",
+              "collection": "all"
+            }
+          },
+          "top-trend-5": {
+            "type": "tab_item",
+            "settings": {
+              "title": "ACCESSORIES",
+              "collection": "woman"
+            }
+          },
+          "top-trend-6": {
+            "type": "tab_item",
+            "settings": {
+              "title": "Kid",
+              "collection": "man"
+            }
+          },
+          "top-trend-7": {
+            "type": "tab_item",
+            "settings": {
+              "title": "Shoes",
+              "collection": "all"
+            }
+          },
+          "top-trend-8": {
+            "type": "tab_item",
+            "settings": {
+              "title": "Bags",
+              "collection": "woman"
+            }
+          }
+        },
+        "block_order": [
+          "top-trend-0",
+          "top-trend-1",
+          "top-trend-2",
+          "top-trend-3",
+          "top-trend-4",
+          "top-trend-5",
+          "top-trend-6",
+          "top-trend-7",
+          "top-trend-8"
+        ],
+        "settings": {
+          "preset_section_title": "style_4",
+          "width_layout": "boxed",
+          "title": "Top Trend",
+          "sub_title": "Cras imperdiet mi ac varius facilisis. Maecenas pellentesque quam et quam blandit,<br> vitae laoreet nunc euismod."
+        }
+      },
       "banner-1": {
         "type": "home_background_content",
         "settings": {
-          "background": "shopify:\/\/shop_images\/m9-s1.jpg",
-          "box_height": 100,
-          "content": "<div class=\"m9-heading m9-heading-01\">new<\/div>\r\n<div class=\"m9-heading m9-heading-02\">design<\/div>\r\n [button style=\"bordered x2 large xs-mt-45\" link=\"#\" title=\"Shop Now\"]",
-          "center_content": true
+          "background": "shopify:\/\/shop_images\/m8-bg2.jpg",
+          "box_height": 40,
+          "content": "[row action=\"new row\"][row action=\"new column\" col=\"6\"][row action=\"end column\"] [row action=\"new column\" col=\"6\"]<h3 class=\"m8-banner-h3 lg-mt-100 xs-mt-40 xs-mb-30\" style=\"text-align: center\">Slingback check shoes<\/h3><p class=\"m8-banner-p\" style=\"text-align: center\">Freeshipping all orders items*<\/p><p class=\"text-center\"><a class=\"icon-button\" href=\"#\">Shop Now<\/a><\/p>[row action=\"end column\"][row action=\"end row\"] "
         }
       },
       "banner-2": {
-        "type": "home_background_content",
+        "type": "home_banner_image",
+        "blocks": {
+          "home-banner-image-1": {
+            "type": "banner_item",
+            "settings": {
+              "image_banner": "shopify:\/\/shop_images\/m8-b1.jpg",
+              "text_banner": "PRINTED DRESS WITH LONG SLEEVES",
+              "text_banner_2": "Sale<br>20%",
+              "link_banner": "#",
+              "banner_button": "Shop Now"
+            }
+          },
+          "home-banner-image-2": {
+            "type": "banner_item",
+            "settings": {
+              "image_banner": "shopify:\/\/shop_images\/m8-b2.jpg",
+              "text_banner": "POLO NECK SWEATER",
+              "text_banner_2": "Sale<br>70%",
+              "link_banner": "#",
+              "banner_button": "Shop Now"
+            }
+          }
+        },
+        "block_order": [
+          "home-banner-image-1",
+          "home-banner-image-2",
+          "home-banner-image-3"
+        ],
         "settings": {
-          "background": "shopify:\/\/shop_images\/m9-s2.jpg",
-          "box_height": 100,
-          "content": "<div class=\"text-center\"><div class=\"m9-heading m9-heading-01\">dezeg<\/div>\r\n<div class=\"m9-heading m9-heading-02\">lamp<\/div>\r\n [button style=\"bordered x2 large xs-mt-45\" link=\"#\" title=\"Shop Now\"]<\/div>",
-          "center_content": true
+          "banner_preset": "style_7",
+          "banner_space": "no",
+          "grid": "2",
+          "grid_2": "2",
+          "enable_style": true,
+          "style_top":0
         }
       },
-      "banner-3": {
-        "type": "home_background_content",
+      "mini-lists": {
+        "type": "home_product_mini_list",
+        "blocks": {
+          "mini-lists-001": {
+            "type": "mini_collection",
+            "settings": {
+              "title": "TOP SALE",
+              "collection": "man",
+              "product_number": 2,
+              "viewmore_text": "VIEW ALL PRODUCTS",
+              "viewmore_url": "https://oc-stores.myshopify.com/collections/all"
+            }
+          },
+          "mini-lists-002": {
+            "type": "mini_collection",
+            "settings": {
+              "title": "TOP RATED",
+              "collection": "woman",
+              "product_number": 2,
+              "viewmore_text": "VIEW ALL PRODUCTS",
+              "viewmore_url": "https://oc-stores.myshopify.com/collections/all"
+            }
+          },
+          "mini-lists-003": {
+            "type": "mini_collection",
+            "settings": {
+              "title": "SALE OFF",
+              "collection": "all",
+              "product_number": 2,
+              "viewmore_text": "VIEW ALL PRODUCTS",
+              "viewmore_url": "https://oc-stores.myshopify.com/collections/all"
+            }
+          }
+        },
+        "block_order": [
+          "mini-lists-001",
+          "mini-lists-002",
+          "mini-lists-003"
+        ],
         "settings": {
-          "background": "shopify:\/\/shop_images\/m9-s3.jpg",
-          "box_height": 100,
-          "content": "<div class=\"m9-heading m9-heading-01 m9-heading-text-left\">Ply<\/div>\r\n<div class=\"m9-heading m9-heading-02 m9-heading-text-left\">Table<\/div>\r\n [button style=\"bordered x2 large xs-mt-45\" link=\"#\" title=\"Shop Now\"]",
-          "center_content": true
+          "grid": 3,
+          "enable_style": true,
+          "style_top": 75
         }
       },
-      "banner-4": {
-        "type": "home_background_content",
+      "newsletter-box": {
+        "type": "home_subscribe",
         "settings": {
-          "background": "shopify:\/\/shop_images\/m9-s4.jpg",
-          "box_height": 100,
-          "content": "<div class=\"text-center\"><div class=\"m9-heading m9-heading-01\">Little<\/div>\r\n<div class=\"m9-heading m9-heading-02\">Brother<\/div>\r\n [button style=\"bordered x2 large xs-mt-45\" link=\"#\" title=\"Shop Now\"]<\/div>",
-          "center_content": true
+          "preset": "style_2",
+          "title": "Join our newsletter save 10% off",
+          "sub_title": "Cras imperdiet mi ac varius facilisis. Maecenas pellentesque quam <br/> et quam blandit, vitae laoreet nunc euismod.",
+          "background_color": "#f7f7f7",
+          "background": "shopify:\/\/shop_images\/m3-bg1.jpg",
+          "enable_parallax": false,
+          "padding_top": 70,
+          "padding_bottom": 70,
+          "enable_style": true,
+          "style_top": 55
         }
       },
       "featured_collections": {
@@ -1219,10 +1438,12 @@
       }
     },
     "content_for_index": [
+      "banner-video",
+      "top-trend",
       "banner-1",
       "banner-2",
-      "banner-3",
-      "banner-4"
+      "mini-lists",
+      "newsletter-box"
     ]
   },
   "presets": {

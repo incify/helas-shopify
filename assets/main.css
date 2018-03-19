@@ -18750,6 +18750,14 @@ div.sort-by .bootstrap-select .selectize-dropdown {
         .section__wine-deal .wine-deal .wine-deal__right-column .shortcode-countdown .product-date > div:before {
           opacity: 1; }
 
+#infiniteoptions-container label {
+  display: block; }
+  #infiniteoptions-container label input[type=checkbox] {
+    margin-right: 15px; }
+
+.category-products #infiniteoptions-container {
+  display: none; }
+
 /*============================================================================
 #Footer
 ==============================================================================*/

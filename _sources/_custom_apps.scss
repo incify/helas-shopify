@@ -1,0 +1,13 @@
+#infiniteoptions-container {
+  label {
+    display: block;
+    input[type=checkbox] {
+      margin-right: 15px;
+    }
+  }
+}
+.category-products {
+  #infiniteoptions-container {
+    display: none;
+  }
+}
