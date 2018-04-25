@@ -1,0 +1,36 @@
+.section__about-us-v1-content-box {
+  .aboutus-v1__content-box {
+    .aboutus-v1__content-box--image {
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+    .aboutus-v1__content-box--content {
+      max-width: 750px;
+      margin-left:auto;
+      margin-right: auto;
+      h1 {
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+.section__about-us-v2-content-box {
+  .aboutus-v2__content-box {
+    .aboutus-v2__content-box--image {
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+    .aboutus-v2__content-box--content {
+      max-width: 750px;
+      margin-left:auto;
+      margin-right: auto;
+      h1 {
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

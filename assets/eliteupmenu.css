@@ -73,10 +73,14 @@
   display: block;
 }
 .top-navigation a {
-  font-size: 14px;
   margin: 0;
   outline: medium none;
   outline: none;
+}
+.top-navigation li ul li > a {
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 .banner-sub-top{
   padding: 0 5px;
@@ -134,12 +138,10 @@
   right: 10px !important;
 }
 .top-navigation li.level0 a.level-top {
-  font-size:12px;
-  font-weight: bold;
-  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 400;
   line-height: 1;
   color: #fff;
-  text-transform: uppercase;
   padding: 17px 0px;
   margin: 0 20px;
 }
@@ -359,10 +361,48 @@ li.level0 > a > span > .pin-bottom:before {
   width: 100%;
 }
 /*Dropdown classic*/
+div.main-navigation ul.top-navigation .menu-wrap-sub {
+  margin:20px auto 0 auto;
+  position:absolute;
+  text-align:left;
+  z-index:99999;
+  top: auto;
+  max-width:1140px;
+  opacity: 0; filter:alpha(opacity = 0);
+  visibility: hidden;
+  left: 0;
+  width: 75vw;
+  min-width:230px;
+}
+div.main-navigation ul.top-navigation .menu-wrap-sub .container{
+	padding:0;
+  	width:auto;
+  max-width: 1140px;
+}
+div.main-navigation ul.top-navigation .menu-wrap-sub .container .mega-columns.row{
+	margin: 0;
+}
+div.main-navigation ul.top-navigation .dropdown.menu-wrap-sub .container .mega-columns.row{
+	margin:0!important;
+}
+/*add new*/
+div.main-navigation ul.top-navigation li.static-dropdown .menu-wrap-sub{
+  padding: 10px 15px;
+}
+.top-navigation li.level0.static-dropdown .mega-columns ul.level0 li.level1.groups.item:hover{
+  background-color: transparent;
+}
+.top-navigation li.level0.static-dropdown .mega-columns ul.level0 li.level1.groups.item:hover >a{
+  color: #000 !important;
+}
+.top-navigation li.level0.static-dropdown .mega-columns ul.level0 li.level1.groups.item:hover ul.level1 li a{
+  color: #8a8c98 !important;
+}
 .top-navigation .dropdown .menu-wrap-sub {
   background:#fff;
   box-shadow: 0 0 38px 0 rgba(41, 44, 58, 0.09);
   padding: 50px;
+  border-bottom: #000 solid 2px;
 }
 .top-navigation .dropdown .content-menu-inner {
   padding: 50px 0;
@@ -402,9 +442,6 @@ li.level0 > a > span > .pin-bottom:before {
 
 }
 .top-navigation .m-dropdown .dropdown ul li a{
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0;
   float: none;
   line-height: 1;
 }

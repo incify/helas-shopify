@@ -7,44 +7,6 @@ div.main-navigation ul.top-navigation li:hover .menu-wrap-sub li .menu-wrap-sub{
   -moz-transition: margin .1s linear .3s,visibility .1s linear .3s,opacity .1s linear .3s;
   transition: margin .1s linear .3s,visibility .1s linear .3s,opacity .1s linear .3s;
 }
-div.main-navigation ul.top-navigation .menu-wrap-sub {
-  border:0;
-  margin:20px auto 0 auto;
-  position:absolute;
-  text-align:left;
-  z-index:99999;
-  top: auto;
-  max-width:1140px;
-  opacity: 0; filter:alpha(opacity = 0);
-  visibility: hidden;
-  left: 0;
-  width: 75vw;
-  min-width:230px;
-}
-div.main-navigation ul.top-navigation .menu-wrap-sub .container{
-	padding:0;
-  	width:auto;
-  max-width: 1140px;
-}
-div.main-navigation ul.top-navigation .menu-wrap-sub .container .mega-columns.row{
-	margin: 0;
-}
-div.main-navigation ul.top-navigation .dropdown.menu-wrap-sub .container .mega-columns.row{
-	margin:0!important;
-}
-/*add new*/
-div.main-navigation ul.top-navigation li.static-dropdown .menu-wrap-sub{
-  padding: 10px 15px;
-}
-.top-navigation li.level0.static-dropdown .mega-columns ul.level0 li.level1.groups.item:hover{
-  background-color: transparent;
-}
-.top-navigation li.level0.static-dropdown .mega-columns ul.level0 li.level1.groups.item:hover >a{
-  color: #000 !important;
-}
-.top-navigation li.level0.static-dropdown .mega-columns ul.level0 li.level1.groups.item:hover ul.level1 li a{
-  color: #8a8c98 !important;
-}
 .top-navigation li.level0.static-dropdown .mega-columns ul.level0 li.level1.groups.item > a:before{
   left: 5px;
   -webkit-transform: translateX(0);

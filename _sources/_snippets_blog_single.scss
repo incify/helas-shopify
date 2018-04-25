@@ -2,7 +2,6 @@
   .page-title {
     width: 830px;
     margin:  0 auto;
-    font-size: 80px !important;
   }
   .blog-style2 {
     .page-title {
@@ -20,6 +19,12 @@
       width: 700px;
       max-width: 100%;
     }
+  }
+}
+.single-post-style2 {
+  margin-top: 50px;
+  .blog-wrapper {
+    margin-left: 45px;
   }
 }
 .blog-wrapper {
@@ -144,7 +149,6 @@
           font-size: 24px;
           font-weight: 500;
           line-height: 24px;
-          color: #000000;
         }
       }
     }
@@ -208,6 +212,10 @@
     }
     .post-comment{
       padding-top: 30px;
+      .numb-comments {
+        font-size: 16px;
+        font-weight: 400;
+      }
       #Comments{
         .form-success {
           span {
@@ -243,7 +251,9 @@
         }
         #AddCommentTitle{
           margin-bottom: 30px;
-          font-weight: 700;
+          text-transform: uppercase;
+          font-weight: 400;
+          letter-spacing: 5px;
           font-size: 24px;
           color: #252634;
         }
@@ -253,6 +263,11 @@
         .btn-button.bordered{
           text-transform: uppercase;
         }
+      }
+      .btn-button {
+        width: 100%;
+        text-transform: uppercase;
+        letter-spacing: 0;
       }
     }
     .entry-thumbnail{
@@ -315,9 +330,6 @@
           margin: 0 0 10px;
           font-size: 24px;
           padding: 0;
-          a{
-            color: #000000;
-          }
         }
       }
       .postContent {
@@ -338,16 +350,20 @@
     }
   }
   .author-info {
+    position: relative;
     float: left;
     margin-bottom: 70px;
-    border: 1px solid #e5e5e5;
-    padding: 50px;
+    padding-left: 35px;
+    .author-info--inner {
+      background:#f7faff;
+      padding-left: 50px;
+    }
     .author-info__avatar {
-      display: table-cell;
-      vertical-align: top;
+      position: absolute;
+      left: 0;
+      top: 30px;
       .author-info__avatar-inner {
-        margin-right: 30px;
-        width: 90px;
+        width: 70px;
         img.avatar {
           width: 100%;
           border-radius: 50%;
@@ -355,7 +371,7 @@
       }
     }
     .author-info__description {
-      display: table-cell;
+      padding: 30px;
       font-size: 14px;
       .author-info__bio, .author-info__title {
         display: inline-block;

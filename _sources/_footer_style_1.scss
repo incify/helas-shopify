@@ -32,14 +32,14 @@
                 position: relative;
                 display: block;
                 input{
-                  background: #fff;
+                  background: transparent;
                   outline: 0 !important;
                   width: 100%;
                   font-size: 12px;
-                  line-height: 32px;
-                  padding: 10px 120px 10px 20px;
+                  line-height: 24px;
+                  padding: 10px 100px 10px 20px;
                   margin: 0;
-                  border: 2px solid rgba(51,51,51,.1);
+                  border: 1px solid rgba(51,51,51,.1);
                 }
                 .btn-button{
                   position: absolute;
@@ -47,12 +47,10 @@
                   top: 0;
                   padding: 9px 20px;
                   background-color: transparent;
+                  font-weight: 400;
+                  letter-spacing: 0;
                   color: #343538;
-                  text-transform: uppercase;
                   font-size: 12px;
-                  &:hover{
-                    background-color: #343538 ;
-                  }
                 }
               }
             }

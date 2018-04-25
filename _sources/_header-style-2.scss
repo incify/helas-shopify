@@ -1,53 +1,18 @@
 .header__layout-style2 {
   .header-left-area-2 {
     width: 43%;
-    padding: 40px 0;
+    padding: 30px 0;
     float: left;
-    .main-navigation{
-      .top-navigation{
-        text-align: left;
-        li.level0{
-          a.level-top{
-            position: relative;
-            &:before{
-              content: '';
-              height: 1px;
-              width: 0;
-              position: absolute;
-              left: auto;
-              bottom: 15px;
-              right: 0px;
-              background-color: #232324;
-
-              webkit-transition: width 500ms ease 0s, left 500ms ease 0s;
-              transition: width 500ms ease 0s, left 500ms ease 0s;
-            }
-            &:hover{
-              &:before{
-                width: 100%;
-                left: 0;
-                right: auto;
-              }
-            }
-          }
-          .menu-wrap-sub{
-            // left: 50%;
-            // padding-top: 54px;
-            // -webkit-transform: translateX(-50%);
-            // -moz-transform: translateX(-50%);
-            // -ms-transform: translateX(-50%);
-            // -o-transform: translateX(-50%);
-            // transform: translateX(-50%);
-          }
-        }
-      }
+    .header-2-left-text {
+      font-size: 12px;
+      margin-right: 20px;
     }
   }
   .header-middle-area-2 {
     display: inline-block;
     float: left;
     width: 14%;
-    padding: 40px 0;
+    padding: 30px 0;
     text-align: center;
   }
   &.sticky-header {

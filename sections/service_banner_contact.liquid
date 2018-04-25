@@ -1,0 +1,75 @@
+{% if section.settings.enable == true %}
+<div data-section-id="{{ section.id }}" class="section__service-banner-contact">
+  <div class="service-banner-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2 class="banner--title">{{ section.settings.banner_title }}</h2>
+          <p class="banner--sub-title">{{ section.settings.text }}</p>
+          {% if section.settings.banner_button != blank and section.settings.banner_button_url != blank %}
+            <a class="btn-button bordered uppercase" href="{{ section.settings.banner_button_url }}">{{ section.settings.banner_button }}</a>
+          {% endif %}
+        </div>
+        <div class="col-sm-6"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="custom-styles-css">
+  body div[data-section-id="{{ section.id }}"] .service-banner-contact {
+    background-image:url({{ section.settings.image | img_url: 'master' }});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+</span>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Banner Contact",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Banner Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable",
+      "label": "Enable Banner",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image Background"
+    },
+    {
+      "type": "text",
+      "id": "banner_title",
+      "label": "Banner Title"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Content"
+    },
+    {
+      "type": "text",
+      "id": "banner_button",
+      "label": "Banner Button"
+    },
+    {
+      "type": "text",
+      "id": "banner_button_url",
+      "label": "Banner Button URL"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner Contact",
+      "category": "Services Page"
+    }
+  ]
+}
+{% endschema %}

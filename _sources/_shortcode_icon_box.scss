@@ -1,99 +1,51 @@
-.icon-boxes-inner .wrap-icon .box-icon {
-  background-color: #ff9c65;
-  background-image: -webkit-linear-gradient(left, #ff9c65 0%, #93ddff 50%,#ff9c65 100%);
-  background-image: linear-gradient(to right, #ff9c65 0%, #93ddff 50%,#ff9c65 100%);
-  background-size: 200% 100%;
-  display: inline-block;
-  vertical-align: middle;
-  overflow: hidden;
-  max-width: 100%;
-  border-radius: 50%;
+.incify-icon-box {
+  margin-top: 55px;
 
-  transition: all 250ms ease-out;
-  span {
-    display: inline-block;
-    line-height: 20px;
-    font-size: 20px;
-    width: 60px;
-    height: 60px;
-    padding: 20px;
-    color: #ffffff;
-    text-align: center;
-    vertical-align: middle;
-    i {
-      display: block;
-    }
-  }
-}
-.icon-boxes-inner {
-  .box--heading {
-    text-align: center;
-    margin-top: 35px;
-    h5 {
-      font-size: 16px;
-      line-height: 20px;
-      font-weight: bold;
-    }
-  }
-  .box--text {
-    display: block;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 14px;
-  }
-}
-.nova-icon-box {
-  margin-bottom: 30px;
-  .icon-box-inner {
-    .box-icon-left {
-      display: table-cell;
-      line-height: 0;
-      vertical-align: top;
-      padding-top: 5px;
-      padding-right: 30px;
-    }
-    .wrap-icon {
-      display: inline-block;
-      .box-icon {
-        display: inline-block;
+  .icon-boxes-inner {
+    margin-top: 25px;
+
+    .box-heading-top {
+      .box-icon-heading {
+        display: table-cell;
         vertical-align: middle;
-        overflow: hidden;
-        max-width: 100%;
-        span {
-          display: inline-block;
-          height: auto !important;
-          line-height: 0 !important;
-          text-align: center;
-          max-width: 100%;
-          vertical-align: middle;
-          transition: all 250ms ease-out;
-          img {
-              width: auto;
-              vertical-align: top;
+        padding-right: 20px;
+
+        .box-icon-inner {
+          .wrap-icon {
+            .box-icon {
+              display: inline-block;
+              vertical-align: middle;
+              overflow: hidden;
+              max-width: 100%;
+              transition: all 250ms ease-out;
+
+              span {
+                width: 35px;
+                text-align: center;
+                max-width: 100%;
+              }
+            }
           }
         }
       }
-    }
-    .box-contents {
-      display: table-cell;
-      vertical-align: middle;
+
       .box-heading {
-        h5 {
-          padding-top: 20px;
-          font-size: 30px;
+        display: table-cell;
+        vertical-align: middle;
+
+        .icon-heading {
+          font-size: 14px;
+          letter-spacing: 2px;
         }
       }
     }
-  }
-  &.organic-style {
-    h5 {
-      font-family: 'Satisfy',cursive;
-      font-weight: 400;
+
+    .box-contents {
+      .box-description {}
     }
   }
-  &.text-white {
-    h5 {
-      color: #fff;
-    }
+
+  .icon-pos-top .icon-heading {
+    margin-top: 15px;
   }
 }

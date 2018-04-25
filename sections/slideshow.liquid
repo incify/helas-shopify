@@ -12,12 +12,12 @@
       {% for block in section.blocks %}
       <div class="item item-mousemove-translate" style="background: url({{ block.settings.background_image | img_url: 'master' }}) center center no-repeat;background-size: cover; height: {{  section.settings.slider_height }}vh;">
         <div class="container" style="position:relative; height: 100%">
-          <div class="content {{ block.settings.class_content }}">
-              {% if block.settings.use_content_image %}
-              <div class="content-image">
-                <img src="{{ block.settings.content_image_slider | img_url: 'master' }}">
-              </div>
-              {% endif %}
+          {% if block.settings.use_content_image %}
+          <div class="slider-content-image img-{{ block.settings.class_content }}">
+            <img src="{{ block.settings.content_image_slider | img_url: 'master' }}">
+          </div>
+          {% endif %}
+          <div class="content content-slider {{ block.settings.class_content }}">
             <div class="content-area">
               {% if settings.language_enable %}
               <div class="lang1">{{ block.settings.content1 | split: '[lang2]' | first }}</div>

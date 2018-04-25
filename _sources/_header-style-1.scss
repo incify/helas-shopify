@@ -4,7 +4,7 @@
   position: relative;
   &.sticky-header {
     .header-wrapper {
-      padding: 0 70px !important;
+      padding: 0 80px !important;
       box-shadow: 0 1px 2px rgba(0,0,0,0.1);
       .header-left-area,
       .header-right-area {
@@ -127,14 +127,14 @@
   }
   .header{
     .header-top{
-      padding: 0 70px;
+      padding: 0 80px;
     }
     .header-wrapper {
       border: 0;
       display: inline-block;
       margin: 0;
       width: 100%;
-      padding: 0 70px;
+      padding: 0 80px;
       position: relative;
     }
   }
@@ -153,7 +153,7 @@
   .header-left-area{
     display: inline-block;
     width: 10%;
-    padding: 40px 0;
+    padding: 30px 0;
     float: left;
   }
   .header-middle-area {
@@ -174,11 +174,11 @@
             position: relative;
             &:before{
               content: '';
-              height: 1px;
+              height: 2px;
               width: 0;
               position: absolute;
               left: auto;
-              bottom: 15px;
+              bottom: 8px;
               right: 0px;
               background-color: #232324;
 
@@ -195,7 +195,7 @@
           }
           .menu-wrap-sub{
             left: 50%;
-            padding-top: 48px;
+            padding-top: 25px;
             -webkit-transform: translateX(-50%);
             -moz-transform: translateX(-50%);
             -ms-transform: translateX(-50%);
@@ -217,9 +217,8 @@
   .header-right-area {
     display: inline-block;
     float: right;
-    padding: 40px 0;
+    padding: 24px 0;
     text-align: right;
-
     .setting-account{
       display: inline-block;
       position: relative;
@@ -325,7 +324,7 @@
       .cart-total {
         padding: 0px 3px;
         position: absolute;
-        top: 0;
+        top: 4px;
         width: 13px;
         height: 13px;
         border-radius: 50%;
@@ -343,18 +342,13 @@
 
   .control-otherlinks{
     display: inline-block;
-    background: #232324;
-    width: 58px;
-    height: 58px;
-    line-height: 58px;
-    margin-left: 5px;
     position: relative;
     text-align: center;
     cursor: pointer;
     font-size: 16px;
-    color:#fff;
-    border-radius: 50%;
-    margin-left: 25px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
     i {
       position: relative;
       top:3px;

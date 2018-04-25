@@ -1,0 +1,24 @@
+.section__faq-content {
+  padding: 70px 0 150px 0;
+  .faq-box-inner {
+    h3 {
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+    }
+    .content-faqs {
+      .pertinacia {
+        margin-top: 20px;
+        border-bottom: #e1e2e4 solid 1px;
+        .faqs {
+          cursor: pointer;
+          i {
+            position: relative;
+            top: 4px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{% if section.settings.enable == true %}
+<div data-section-id="{{ section.id }}" class="section__service-counter-box">
+  <div class="container">
+    <div class="row">
+      <div class="grid-x grid-padding-x small-up-1 medium-up-2 large-up-{{ section.settings.columns }}">
+        {% for block in section.blocks limit: section.blocks.size %}
+        <div class="cell">
+          <div class="incify-counter text-center">
+              <h2 class="incify-counter--number">{{block.settings.number}}</h2>
+              <div class="incify-counter--title">{{block.settings.title}}</div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+<span class="custom-styles-css">
+body div[data-section-id="{{ section.id }}"]{
+  background-color: {{ section.settings.background_color }}
+  {% if section.settings.gradient_bg != false %}
+  background: -moz-linear-gradient(left, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%);
+  background: -webkit-linear-gradient(left, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%);
+  background: linear-gradient(to right, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%);
+  padding-top: 90px;
+  padding-bottom: 90px;
+  {% endif %}
+}
+</span>
+{% endif %}
+{% schema %}
+{
+  "name": "Counter Box",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content Box Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable",
+      "label": "Enable Content Box",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Background Settings"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#fff8f7"
+    },
+    {
+      "type": "checkbox",
+      "id": "gradient_bg",
+      "default": true,
+      "label": "Use Gradient Background"
+    },
+    {
+      "type": "color",
+      "id": "gradient_left",
+      "label": "Gradient Left Color",
+      "default": "#F6F0E8"
+    },
+    {
+      "type": "color",
+      "id": "gradient_right",
+      "label": "Gradient Right Color",
+      "default": "#FDF1F1"
+    },
+    {
+      "type": "header",
+      "content": "Columns Settings"
+    },
+    {
+      "type": "text",
+      "id": "columns",
+      "label": "Columns",
+      "default": "4"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "counter_item",
+      "name": "Counter Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "number",
+          "label": "Number"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Counter Box",
+      "category": "Services Page"
+    }
+  ]
+}
+{% endschema %}

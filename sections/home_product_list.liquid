@@ -5,51 +5,8 @@
 {% assign col = section.settings.product_list_column %}
 {% endif %}
 {% assign product_limitation = 0 %}
-<section data-section-id="{{ section.id }}" data-section-type="section_product_list" class="section_product_list{% if section.settings.enable_style == true %} incify-styles{% endif %}"{% if section.settings.enable_style == true %} data-styles='{
-  {% if section.settings.style_top != '' %}
-  "margin-top":"{{ section.settings.style_top }}px",
-  {% endif %}
-  {% if section.settings.style_bottom != '' %}
-  "margin-bottom":"{{ section.settings.style_bottom }}px",
-  {% endif %}
-  {% if section.settings.style_left != '' %}
-  "margin-left":"{{ section.settings.style_left }}px",
-  {% endif %}
-  {% if section.settings.style_right != '' %}
-  "margin-right":"{{ section.settings.style_right }}px"
-  {% endif %}
-}'{% endif %}>
-    {% if section.settings.product_list_title !='' %}
-    <div class="container {{ section.settings.preset_section_title }} {% if section.settings.sub_title != blank %}sub-title-enable{% endif %}">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="section-title">
-                    {% if settings.language_enable %}
-                    <span class="lang1">{{ section.settings.product_list_title | split: '|' | first }}</span>
-                    <span class="lang2">{{ section.settings.product_list_title | split: '|' | last }}</span>
-                    {% else %}
-                    <span>{{ section.settings.product_list_title | split: '|' | first }}</span>
-                    {% endif %}
-                </div>
-                {% if section.settings.product_list_sub_title != blank %}
-                <div class="section-sub-title">
-                    {{ section.settings.product_list_sub_title }}
-                </div>
-                {% endif %}
-                {% if section.settings.preset_section_title == 'style_7' %}
-                <div class="sub-image">
-                    <img src="{{ 'leaf.png' | asset_url }}" alt="sub-image">
-                </div>
-                {% endif %}
-                {% if section.settings.preset_section_title == 'style_8' %}
-                <div class="sub-image">
-                    <img src="{{ 'm15-i1.png' | asset_url }}" alt="sub-image">
-                </div>
-                {% endif %}
-            </div>
-        </div>
-    </div>
-    {% endif %}
+<section data-section-id="{{ section.id }}" class="section_product_list">
+    {% include "block_title" %}
     {% if section.settings.preset == 'style_1' %}
     <div class="container-fluid EL_row_padding_65">
         <div class="main-tab-products">
@@ -77,11 +34,6 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="more-product">
-            <a href="{% if section.settings.product_list_link_all_product != blank %}{{section.settings.product_list_link_all_product}}{% else %}#{% endif %}" class="btn-all-product">{% if section.settings.product_list_view_all_product != blank %}{{ section.settings.product_list_view_all_product }}{% endif %}</a>
-        </div>
-    </div>
     {% endif %}
     {% if section.settings.preset == 'style_2' %}
     <div class="products-style-2-list">
@@ -101,6 +53,24 @@
     </div>
     {% endif %}
 </section>
+<span class="custom-styles-css">
+body div[data-section-id="{{ section.id }}"]{
+  {% if section.settings.enable_style == true %}
+    {% if section.settings.style_top != '' %}
+    margin-top:{{ section.settings.style_top }}px;
+    {% endif %}
+    {% if section.settings.style_bottom != '' %}
+    margin-bottom:{{ section.settings.style_bottom }}px;
+    {% endif %}
+    {% if section.settings.style_left != '' %}
+    margin-left:{{ section.settings.style_left }}px;
+    {% endif %}
+    {% if section.settings.style_right != '' %}
+    margin-right:{{ section.settings.style_right }}px;
+    {% endif %}
+  {% endif %}
+}
+</span>
 {% schema %}
 {
 "name": "Product List",
@@ -128,6 +98,10 @@
 }
 ],
 "default": "style_1"
+},
+{
+"type": "header",
+"content": "Title Settings"
 },
 {
 "type": "select",
@@ -171,23 +145,17 @@
 },
 {
 "type": "text",
-"id": "product_list_title",
+"id": "title",
 "label": "Collection title"
 },
 {
 "type": "text",
-"id": "product_list_sub_title",
+"id": "sub_title",
 "label": "Collection Sub title"
 },
 {
-"type": "text",
-"id": "product_list_view_all_product",
-"label": "Text View All Product"
-},
-{
-"type": "url",
-"id": "product_list_link_all_product",
-"label": "Custom Link"
+"type": "header",
+"content": "Content Settings"
 },
 {
 "type": "text",

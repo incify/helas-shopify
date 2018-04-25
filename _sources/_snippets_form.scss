@@ -16,8 +16,7 @@ input.input-full, textarea,select{
   padding: 2px 8px;
   height: 26px;
   color: #777;
-  font-size: 11px;
-  text-transform: uppercase;
+  font-size: 12px;
   border-radius: 0px;
 }
 input.input-full, textarea,.input-text{
@@ -28,8 +27,7 @@ input.input-full, textarea,.input-text{
   margin-bottom:10px;
   padding: 15px 30px;
   &::placeholder{
-    text-transform: uppercase;
-    font-size: 11px;
+    font-size: 12px;
   }
   &:focus {
     border: 1px solid #000;

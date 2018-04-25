@@ -1,14 +1,22 @@
-<div class="blog-post-layout post_layout_grid-2 enable-main-fullwidth">
-    <div class="container blog-wrapper">
+<div class="blog-post-layout post-layout-list thumbnail-left-position">
+    <div class="container">
         <div class="row">
-            {% for article in blog.articles %}
-            <div class="{% if settings.number_column_grid != blank %}col-md-{{ settings.number_column_grid }}{% endif %} col-sm-6 itempost-grid">
-                <div class="blog_item--inner item-inner">
-                    <div class="blog_item--inner2 item-inner-wrap">
-                        <div class="thumb-overlay" style="background-image:url({{ article.image.src | img_url: '1000x800'}})"></div>
-                        <div class="blog_item--info clearfix">
-                            <header class="blog_item--title entry-header">
-                                <h2 class="entry-title">
+            <div class="{% if settings.blog_sidebar_position == 'none' %}col-md-12 no-sidebar{% else %}col-md-9 col-md-push-3{% endif %}">
+                <div class="blog-wrapper">
+                    {% for article in blog.articles %}
+                    <div class="postWrapper">
+                        <div class="entry-thumbnail blog_item--thumbnail-with-effect">
+                            <div class="feature-image">
+                                <a href="{{ article.url }}">
+                                    <img src="{{ article.image.src | img_url: '570x370',crop: 'center' }}">
+                                    <span class="pf-icon pf-icon-standard"></span>
+                                    <div class="item--overlay"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item-infor">
+                            <div class="postTitle">
+                                <h2>
                                     <a href="{{ article.url }}">
                                         {% if settings.language_enable %}
                                         <span class="lang1">{{ article.title | split: '|' | first }}</span>
@@ -18,42 +26,70 @@
                                         {% endif %}
                                     </a>
                                 </h2>
-                            </header>
-                            <div class="blog_item--meta entry-meta clearfix">
-                                <div class="date_comment">
-                                    <div class="author_post">
-                                        <span>{{ article.author }}</span>
-                                    </div>
-                                    <div class="post-date">
-                                        <span class="day">{{ article.published_at | date: '%d' }}</span>
-                                        <span class="month">{{ article.published_at | date: '%b' }}, </span>
-                                        <span class="year">{{ article.published_at | date: '%Y' }}</span>
-                                    </div>
+                            </div>
+                            <div class="date_comment">
+                                <div class="author_post">
+                                    <span>{{ article.author }}</span>
                                 </div>
+                                <div class="post-date">
+                                    <span class="day">{{ article.published_at | date: '%d' }}</span>
+                                    <span class="month">{{ article.published_at | date: '%b' }}, </span>
+                                    <span class="year">{{ article.published_at | date: '%Y' }}</span>
+                                </div>
+                                <!--                                {% assign number_of_comments = article.comments_count %}-->
+                                <!--                                <div class="post-count-comment">-->
+                                <!--                                    <span class="numb-comments" {% if settings.language_enable %}data-translate="blogs.comments.comments_with_count|count:{{number_of_comments}}"{%endif%}>{{ 'blogs.comments.comments_with_count' | t: count: number_of_comments }}</span>-->
+                                <!--                                </div>-->
                             </div>
-                            <div class="blog_item--excerpt entry-excerpt">
-                                {% if settings.language_enable %}
-                                <span class="lang1">{{ article.content | strip_html | split: '[lang2]' | first | truncatewords: 24 }}</span>
-                                <span class="lang2">{{ article.content | strip_html | split: '[lang2]' | last | truncatewords: 24 }}</span>
-                                {% else %}
-                                {{ article.content | strip_html | split: '[lang2]' | first | truncatewords: 24}}
-                                {% endif %}
+                            <div class="postBanner">
+                                {{ article.excerpt }}
                             </div>
-                            <footer class="blog_item--meta-footer clearfix">
-                                <a class="btn-button bordered gradien_hover" href="{{ article.url }}" {% if settings.language_enable %}data-translate="blogs.article.read_more"{% endif %}>{{ 'blogs.article.read_more' | t }}</a>
-                            </footer>
+                            <div class="postContent">
+                                <p>
+                                    {% if settings.language_enable %}
+                                    <span class="lang1">{{ article.content | strip_html | split: '[lang2]' | first | truncatewords: 50 }}</span>
+                                    <span class="lang2">{{ article.content | strip_html | split: '[lang2]' | last | truncatewords: 50 }}</span>
+                                    {% else %}
+                                    {{ article.content | strip_html | split: '[lang2]' | first | truncatewords: 50}}
+                                    {% endif %}
+                                </p>
+                                <a class="btn-button readmore" href="{{ article.url }}" {% if settings.language_enable %}data-translate="blogs.article.read_more"{% endif %}>{{ 'blogs.article.read_more' | t }}</a>
+                            </div>
+                            <div class="postDetails hidden">
+                                {% capture author %}{{ article.author }}{% endcapture %}
+
+                                {% capture date %}<time datetime='{{ article.published_at | date: '%Y-%m-%d' }}'>{{ article.published_at | date: format: 'month_day_year' }}</time>{% endcapture %}
+                                <span class="blog_author" {% if settings.language_enable %}data-translate="blogs.article.author_on_date_html|date:{{date}},author:{{author}}" translate-item="blog-date-author"{%endif%}>
+              <i class="icon-calendar"></i>
+              {{ 'blogs.article.author_on_date_html' | t: date: date, author: author }}
+            </span>
+                                <span class="blog_author" {% if settings.language_enable %}data-translate="blogs.article.by_admin|author:{{author}}" translate-item="blog-date-author"{%endif%}>
+              <i class="icon-user"></i>
+              {{ 'blogs.article.by_admin' | t: author: author }}
+            </span>
+                            </div>
                         </div>
                     </div>
+                    {% endfor %}
+                    {% if paginate.pages > 1 %}
+                    <div class="pagenav-wrap">
+                        <div class="pagination">
+                            {% include 'pagination' %}
+                        </div>
+                    </div>
+                    {% endif %}
                 </div>
             </div>
-            {% endfor %}
-        </div>
-        {% if paginate.pages > 1 %}
-        <div class="pagenav-wrap">
-            <div class="pagination">
-                {% include 'pagination' %}
+            {% if settings.blog_sidebar_position == 'left' %}
+            <div class="col-md-3 col-md-pull-9 sidebar">
+                {% include 'blog-sidebar' %}
             </div>
+            {% endif %}
+            {% if settings.blog_sidebar_position == 'right' %}
+            <div class="col-md-3 sidebar">
+                {% include 'blog-sidebar' %}
+            </div>
+            {% endif %}
         </div>
-        {% endif %}
     </div>
 </div>

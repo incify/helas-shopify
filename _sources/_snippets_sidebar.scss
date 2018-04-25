@@ -137,9 +137,8 @@
       }
       dt {
         padding: 10px 0;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 700;
-        text-transform: uppercase;
         color: #252634;
         position: relative;
         border-radius: 0;
@@ -378,7 +377,6 @@
       padding: 10px 0;
       font-size: 18px;
       font-weight: 700;
-      text-transform: uppercase;;
       color: #252634;
       position: relative;
       cursor: pointer;
@@ -500,9 +498,8 @@
 .bestseller{
   position:relative;
   .block-title{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
-    text-transform: uppercase;
     margin-bottom: 20px;
     color: #313131;
     line-height: 1;
@@ -554,13 +551,10 @@
                 padding-top: 5px;
                 padding-bottom: 7px;
                 h2.product-name{
-                  font-size:16px;
+                  font-size:14px;
                   margin: 0 0 3px;
                   font-weight:400;
                   display:block;
-                  a{
-                    color: #252634;
-                  }
                 }
                 .ratings{
                   background: transparent;

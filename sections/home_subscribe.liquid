@@ -1,47 +1,57 @@
-<div data-section-id="{{ section.id }}" data-section-type="subscribe-section" class="subscribe-section {{section.settings.preset}} {% if section.settings.enable_parallax == true %}parallax-box{% endif %} {{section.settings.banner_preset}} incify-styles" data-styles='{
+<div data-section-id="{{ section.id }}" class="subscribe-section {{section.settings.preset}} {% if section.settings.enable_parallax == true %}parallax-box{% endif %} {{section.settings.banner_preset}}">
+  <div class="incify-subscribe">
+    <div class="container">
+      {% include 'main_subscribe' %}
+      <div class="social-media-link style-default m1_social_link text-center">
+        <a href="#" class="facebook" title="Facebook" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="twitter" title="Twitter" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="linked-in" title="Linked In" target="_blank" rel="nofollow"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="youtube" title="Youtube" target="_blank" rel="nofollow"><i class="fa fa-youtube-play"></i></a>
+        <a href="#" class="vimeo" title="Vimeo" target="_blank" rel="nofollow"><i class="fa fa-vimeo-square"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="custom-styles-css">
+  body div[data-section-id="{{ section.id }}"]{
   {% if section.settings.enable_style == true %}
     {% if section.settings.style_top != '' %}
-    "margin-top":"{{ section.settings.style_top }}px",
+    margin-top:{{ section.settings.style_top }}px;
     {% endif %}
     {% if section.settings.style_bottom != '' %}
-    "margin-bottom":"{{ section.settings.style_bottom }}px",
+    margin-bottom:{{ section.settings.style_bottom }}px;
     {% endif %}
     {% if section.settings.style_left != '' %}
-    "margin-left":"{{ section.settings.style_left }}px",
+    margin-left:{{ section.settings.style_left }}px;
     {% endif %}
     {% if section.settings.style_right != '' %}
-    "margin-right":"{{ section.settings.style_right }}px",
+    margin-right:{{ section.settings.style_right }}px;
     {% endif %}
   {% endif %}
   {% if section.settings.background_color != blank %}
-    "background-color": "{{ section.settings.background_color }}",
+    background-color: {{ section.settings.background_color }};
   {% endif %}
   {% if section.settings.gradient_bg != blank %}
-  "background": "-moz-linear-gradient(left, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%)",
-  "background": "-webkit-linear-gradient(left, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%)",
-  "background": "linear-gradient(to right, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%)",
+  background: -moz-linear-gradient(left, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%);
+  background: -webkit-linear-gradient(left, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%);
+  background: linear-gradient(to right, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%);
   {% endif %}
   {% if section.settings.background %}
-  "background-image":"url({{ section.settings.background | img_url: 'master' }})",
-  "background-repeat": "{{ section.settings.background_repeat }}",
+  background-image:url({{ section.settings.background | img_url: 'master' }});
+  background-repeat: {{ section.settings.background_repeat }};
   {% if section.settings.background_repeat == 'repeat' %}
-    "background-size": "auto",
+    background-size: auto;
   {% else %}
-    "background-size": "cover",
+    background-size: cover;
   {% endif %}
-  "background-position": "50% 50%",
+  background-position: 50% 50%;
   {% endif %}
   {% if section.settings.padding_top != '' %}
-  "padding-top":"{{ section.settings.padding_top }}px",
+  padding-top:{{ section.settings.padding_top }}px;
   {% endif %}
-  "padding-bottom":"{{ section.settings.padding_bottom }}px"
-}'>
-  <div class="incify-subscribe">
-      <div class="container">
-          {% include 'main_subscribe' %}
-      </div>
-  </div>
-</div>
+  padding-bottom:{{ section.settings.padding_bottom }}px;
+}
+</span>
 {% schema %}
 {
 "name": "Subscribe",
@@ -113,7 +123,7 @@
       "type": "color",
       "id": "background_color",
       "label": "Background Color",
-      "default": "#f7f7f7"
+      "default": "#fff"
     },
     {
     "type": "image_picker",

@@ -32,7 +32,7 @@
             </div>
         </div>
         {% endif %}
-        <div class="slick-carousel testimonial-content" data-slick='{"slidesToShow": {{ section.settings.sides_show }}, "slidesToScroll": {{ section.settings.sides_show }}, "dots": true, "autoplaySpeed":5000, "speed":300 ,"responsive":[{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"infinite":false}'>
+        <div class="slick-carousel testimonial-content hidden-dots" data-slick='{"slidesToShow":{{ section.settings.sides_show }},"slidesToScroll":{{ section.settings.sides_show }},"dots":false,"autoplaySpeed":5000,"speed":300,"infinite":false,"arrows":false,"swipe":true,"draggable":true,"touchMove":true,"pauseOnHover":false,"responsive":[{"breakpoint":1824,"settings":{"slidesToShow":{{ section.settings.sides_show }},"slidesToScroll":{{ section.settings.sides_show }}}},{"breakpoint":1200,"settings":{"slidesToShow":{{ section.settings.sides_show }},"slidesToScroll":{{ section.settings.sides_show }}}},{"breakpoint":992,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":768,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"pauseOnDotsHover":true}'>
               {% for block in section.blocks limit: section.blocks.size %}
               <div class="testimonial_item--inner item-inner">
                   <div class="testimonial_item--image">
@@ -82,7 +82,7 @@ body div[data-section-id="{{ section.id }}"]{
   {% endif %}
   {% if section.settings.background %}
   background-image:url({{ section.settings.background | img_url: 'master' }});
-  background-repeat: "{{ section.settings.background_repeat }};
+  background-repeat: {{ section.settings.background_repeat }};
   {% if section.settings.background_repeat == 'repeat' %}
     background-size: auto;
   {% else %}
@@ -193,13 +193,13 @@ body div[data-section-id="{{ section.id }}"]{
       "type": "color",
       "id": "gradient_left",
       "label": "Gradient Left Color",
-      "default": "#f9bd9d"
+      "default": "#FFEEBB"
     },
     {
       "type": "color",
       "id": "gradient_right",
       "label": "Gradient Right Color",
-      "default": "#94ddfe"
+      "default": "#95FFE3"
     },
     {
       "type": "header",

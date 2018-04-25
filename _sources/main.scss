@@ -1,4 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i);
+@font-face{
+  font-family:"LucidaGrande";
+  src:url(LucidaGrande.ttf);
+  font-weight:400
+}
+@font-face{
+  font-family:"LucidaGrande";
+  src:url(LucidaGrandeBold.ttf);
+  font-weight:700
+}
 @import "snippets_reset";
 @import "snippets_mixins";
 @import "snippets_base_grid";
@@ -10,9 +19,8 @@
 @import "header";
 @import "header-style-1";
 @import "header-style-2";
-@import "header-style-5";
-@import "header_style_6";
-@import "header_style_7";
+@import "header-style-3";
+@import "header_style_4";
 @import "nova-menu";
 @import "page-title";
 
@@ -20,6 +28,7 @@
 @import "snippets_social_link";
 @import "snippets_blog_layout";
 @import "snippets_blog_single";
+@import "snippets_article_navigation";
 @import "snippets_lookbook";
 @import "snippets_faqs";
 @import "snippets_sky_tabs";
@@ -46,10 +55,13 @@
 @import "shortcode_counter";
 @import "shortcode_testimonial";
 @import "shortcode_countdown";
+@import "shortcode_accordion";
+
+@import "block_team_member";
 
 @import "snippets_page";
-@import "page_shop_metro";
 @import "page_collection";
+@import "page_shop_metro";
 @import "page_product";
 @import "page_customer";
 @import "page_cart";
@@ -59,7 +71,13 @@
 @import "page_wishlist";
 
 
-@import "section_faq_banner_contact";
+@import "section_about_1_content_box";
+@import "section_about_1_accordion_box";
+@import "section_about_services_box";
+@import "section_about_team_member";
+@import "section_services_box";
+@import "section_service_banner_contact";
+@import "section_faq_content";
 
 @import "home_section_collection_list";
 @import "home_section_banner_image";
@@ -79,7 +97,8 @@
 @import "home_section_instagram";
 @import "home_section_subscribe";
 @import "home_section_banner_block";
-@import "bike_hover_banner";
+@import "home_icon_box";
+@import "helas_banner_image";
 @import "bike_fun_stuff";
 @import "bike_testimonial";
 @import "organic_background_content";
@@ -93,4 +112,6 @@
 @import "footer_style_1";
 @import "footer_style_2";
 @import "footer_style_3";
+@import "footer_style_4";
+@import "footer_style_5";
 @import "footer_handheld_bar";

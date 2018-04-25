@@ -1,0 +1,28 @@
+.panel-group {
+  .panel {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+    .panel-heading {
+      padding: 10px 0;
+      border-bottom: 1px solid #ccc !important;
+      .panel-title {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+  border-top: 0;
+}
+.panel-default>.panel-heading {
+  background: none;
+}
+.panel-body {
+    padding: 25px 0;
+}

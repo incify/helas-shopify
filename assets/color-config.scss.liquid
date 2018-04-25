@@ -37,8 +37,6 @@ $StickyHeaderBackgroundColor: {{ settings.sticky_header_background_basic_color }
 $HeaderBorderColor:{{ settings.header_border_color }};
 $HeaderTextColor:{{ settings.header_text_basic_color }};
 $HeaderLinksColor:{{ settings.header_links_color }};
-$HeaderBackgroundImage: url({{ 'header_background_image.jpg' | asset_url }});
-$PageHeaderImage: url({{ 'page_header_image.jpg' | asset_url }});
 //Header - Top
 $TopLinksBlockBackgroundColor: {{ settings.top_links_block_background_color }};
 $TopLinksBlockFontColor:{{ settings.top_links_block_font_color }};
@@ -114,7 +112,7 @@ $h4: {{ settings.h4_font_size }}px;
 $h5: {{ settings.h5_font_size }}px;
 $h6: {{ settings.h6_font_size }}px;
 // special font
-{% if settings.basic_font == 'google'%}
+{% if settings.special_font == 'google'%}
 $s_fontFamily: {{ settings.special_google_font }};
 {% else %}
 $s_fontFamily: {{ settings.special_family_font }};
@@ -156,6 +154,7 @@ body {
     font-family: $headingFontFamily;
     color: $HeadingColor;
   }
+  #shopify-section-footer .footer-wrapper.footer-style5 .footer-container .content-text,
   .section__wine-deal .wine-deal .wine-deal__left-column .wine-deal__left-column--content
   {
     font-family: $headingFontFamily;
@@ -167,36 +166,19 @@ body {
     {% endif %}
   }
 }
-.page--content h1,
-.page--content h2,
-.page--content h3,
-.blog-wrapper .postContent .postDesc h1,
-.blog-wrapper .postContent .postDesc h2,
-.blog-wrapper .postContent .postDesc h3,
-.blog-wrapper .postContent .postDesc h4,
-.blog-wrapper .postContent .postDesc h5,
-.main-container .sidebar .block-nav .block-title,
-.template-article .block .block-title, .template-blog .block .block-title,
-#shopify-section-faq_banner_contact .faq-banner-contact .banner--title,
-.incify-member__inner.style_1 .incify-member__info .incify-member__info-role,
-.style_1 .testimonial_item--inner .testimonial_item--info .testimonial_item--excerpt,
-.service-quote-box p,
-.service-quote-box h4,
-.form-contact-page .contact-form-top .title-form-contact h3,
-.coming-soon-page .text-coming-soon h2,
-.coming-soon-page #countdown .item .days, .coming-soon-page #countdown .item .hours, .coming-soon-page #countdown .item .minutes, .coming-soon-page #countdown .item .seconds,
-.faqs-style-2 .faqs-total-title .content-text p,
-.main-container .sidebar .block .narrow-by-list dt,
-.bestseller .block-title,
-.product-view .product-tabs>ul li a,
-.block_heading .block_heading--title,
-.banner-image-background-section.style_1 .box-inner .banner--infor h2,
-.product-mini-list-section .product-mini-list h3.title,
-.subscribe-section.style_1 h3,
+.blog-wrapper .postWrapper .item-infor .postTitle h2 a,
+.post_layout_grid .blog-wrapper .itempost-grid .postWrapper .entry-content-inner .item-content .postTitle h2 a,
+.post_layout_ziczac .blog_item--info .blog_item--title .entry-title a,
+.article-navigation .post-title,
+.author-info__bio p,
+.section__about-us-v1-content-box .aboutus-v1__content-box .aboutus-v1__content-box--content h1,
+.section__about-us-v2-content-box .aboutus-v2__content-box .aboutus-v2__content-box--content h1,
+.section__about-us-service-box .aboutus__services-box .aboutus__services-box--content h1,
+.section__service-box .services-box .services-box__content h1,
+.section__service-banner-contact .service-banner-contact .banner--title,
+.helas-icon-box .icon-boxes-inner .box-heading-top .box-heading .icon-heading,
+.style_1 .section-title,
 .subscribe-section.style_2 h1,
-.subscribe-section.style_3 h1,
-.style_8 .section-title,
-.style_9 .section-title,
 .special-font {
   font-family: $s_fontFamily, arial, serif ;
 }
@@ -242,6 +224,12 @@ a, a:hover,
 .product-view .product-options-bottom .actions .wishlist-btn.is-active,
 .top-collection-section .collection-banner-content.slide_2 .slick-dots li.slick-active button:before,
 .menu--vertical .nav-inner .top-navigation li.level0 a.level-top:hover,
+.top-navigation li.level0 a.level-top:hover,
+#shopify-section-footer .footer-wrapper.footer-style1 .footer-container .footer-inner .footer-column.footer-col-5 .footer_newsletter_subscribe .input-group .btn-button:hover,
+#shopify-section-footer .footer-wrapper.footer-style4 .footer-container .footer-col-2 .footer-4-text i,
+.header-container.type2 .header-vertical .nav-header-vertical .main-top-nav .main-navigation .top-navigation li.level0 a.level-top:hover,
+.article-navigation .nav-links a span:hover,
+.section__about-us-v1-content-box .aboutus-v1__content-box .aboutus-v1__content-box--content h1,
 .btn-close-aside-header:hover
 {
   color: $ThemeColor;
@@ -265,6 +253,12 @@ button, .btn-button, .spr-button, .spr-button:hover,.btn-shopnow:hover,
 .header--preset_dark .header-container:not(.sticky-header) .header-middle-area .main-navigation .top-navigation li.level0 a.level-top:before,
 .btn-button.black:hover, .spr-button.black:hover,
 .footer-handheld-footer-bar .la_compt_iem .component-target-badget,
+.header-container.style1 .header-middle-area .main-navigation .top-navigation li.level0 a.level-top:before,
+.header-container.type6 .header-bottom .main-navigation .top-navigation li.level0 > a.level-top:before,
+.rollover--style-1 .action-icon.is-active, .rollover--style-1 .action-icon:hover,
+.products-style-2-list .product_item--inner .product_item--thumbnail .product_item--action .action-icon.is-active,
+.products-style-2-list .product_item--inner .product_item--thumbnail .product_item--action .action-icon:hover,
+.style_1 .section-title:after,
 .main-container .main-collection .collection_content .row .products-grid li .product-top span.thumb-info-title span.thumb-info-type
 {
   background-color: $ThemeColor;
@@ -288,6 +282,8 @@ button, .btn-button, .spr-button, .spr-button:hover,.btn-shopnow:hover,
 .btn-button.bordered-2.x3:hover, .spr-button.bordered-2.x3:hover,
 .btn-button.bordered-2.gray:hover, .spr-button.bordered-2.gray:hover,
 .btn-button.white:hover, .spr-button.white:hover,
+.content-menu-inner,
+div.main-navigation ul.top-navigation .menu-wrap-sub,
 .category-products .products-grid .item .item-area .product-details .configurable-swatch-list li a:hover i
 {
   border-color: $ThemeColor;
@@ -363,6 +359,8 @@ div.main-navigation ul.top-navigation .menu-wrap-sub,
 .btn-button.bottom-line.white:hover, .spr-button.bottom-line.white:hover,
 .header--preset_dark .header-container:not(.sticky-header) .main-navigation .top-navigation>li.level0>a:hover,
 .header--preset_dark .header-container:not(.sticky-header) .mini-cart .icon-cart-header i:hover, .header--preset_dark .header-container:not(.sticky-header) .search-icon i:hover,
+.btn-button.readmore:hover, .spr-button.readmore:hover,
+.text-color-primary,
 .btn-forgot-create button span span{
   color: $ThemeColor !important;
 }
@@ -406,9 +404,6 @@ div.main-navigation ul.top-navigation .menu-wrap-sub,
 .template-index .custum-block-style3 .share-style3 .social-icons a:hover,
 .about_section_1 .content-about-section-1 .content-text .text-about-box .line-about-1,
 .actions .action-list:hover,
-.main-container .post_layout_mansory .blog-wrapper .item-masonry .postWrapper .entry-content-inner .infor-bottom .readmore:hover,
-.main-container .post-layout-list .blog-wrapper .postWrapper .item-infor .postContent .readmore:hover,
-.main-container .post-layout-classic .blog-wrapper .postWrapper .entry-content-inner .infor-bottom .readmore:hover,
 .faqs-style-1 .content-faqs-inner .item.active,
 .product-view .product-shop .actions .add-to-links li a.link-wishlist:hover,
 .header-transparent-about-contact .header-container .control-otherlinks:hover span{
@@ -438,10 +433,6 @@ div.main-navigation ul.top-navigation .menu-wrap-sub,
 .wishlist-container .wishlist-grid.is_visible .wishlist-tile-container .wishlist-tile .product-tile--tile-content .product-type-main .button-wrapper .add-to-cart:hover,
 .category-products .products-grid.move-action .item .item-area .product-figure .actions .action-list.addtocart .btn-cart:hover,
 .category-products .products-grid.move-action .item .item-area .product-figure .actions .product-wishlist .link-wishlist:hover,
-.main-container .post_layout_grid .blog-wrapper .itempost-grid .postWrapper .entry-content-inner .infor-bottom .readmore:hover,
-.main-container .post_layout_mansory .blog-wrapper .item-masonry .postWrapper .entry-content-inner .infor-bottom .readmore:hover,
-.main-container .post-layout-list .blog-wrapper .postWrapper .item-infor .postContent .readmore:hover,
-.main-container .post-layout-classic .blog-wrapper .postWrapper .entry-content-inner .infor-bottom .readmore:hover,
 .template-index .header-container.type2 .header-vertical .nav-header-vertical .main-top-nav .main-navigation .top-navigation>li>a span span:after,
 .section__wine-hover-box .wine-hover-box .wine-hover-box__inner,
 .btn-button.bordered-2.x3:hover,
@@ -449,16 +440,15 @@ div.main-navigation ul.top-navigation .menu-wrap-sub,
   background-color: $ThemeColor !important;
 }
 input.input-full, textarea,select {
-  color: $HeadingColor;
+  color: $BasicTextColor;
   &::placeholder {
-    color: $HeadingColor;
+    color: $BasicTextColor;
   }
 }
 .heading--text,
 .sidebar .nav-accordion li span.collapse:after,
 .collection-sorting-row .wc-view-count ul li a:hover,
 .collection-sorting-row .wc-view-count ul li.active a,
-.category-products .products-grid .item .item-area .product-details .price,
 .product-view .product-shop .review-product-details .spr-badge-caption,
 .product-view .product-shop .product-type-data .price-box .price,
 .product-view .product-options .swatch .header,
@@ -468,8 +458,6 @@ ul.form-list li label,
 .banner-image-background-section.style_2 .box-inner .banner--infor span.price ins,
 .subscribe-section button,
 .subscribe-section input,
-.subscribe-section.style_2 * ,
-.subscribe-section.style_2 input::placeholder,
 .btn-button.bordered-2.gray, .spr-button.bordered-2.gray,
 .banner-image-2-section .banner-image-2 .static-banner-inner .banner--informations p,
 .section_product_list .products-style-2-list .product_item--inner .product_item--thumbnail .product_item--action .action-icon,
@@ -484,6 +472,16 @@ ul.form-list li label,
 .header-container .mini-cart .cart-wrapper .btn-close-cart-wrapper,
 .product-view .product-options-bottom .add-to-cart-box .input-box .plus-minus .items i,
 .menu--vertical .nav-inner .action-icon:after,
+.blog-wrapper .postWrapper .postTitle h2 a,
+.article-navigation .post-title,
+.author-info__bio p,
+.form-contact-page .contact-left-text .contact-left-text-inner .la-contact-info .la-contact-item,
+.section__about-us-v1-content-box .aboutus-v1__content-box .aboutus-v1__content-box--content p,
+.section__about-us-v2-content-box .aboutus-v2__content-box .aboutus-v2__content-box--content p,
+.testimonial-section.layout-style_2 .incify-testimonial .testimonial_item--inner .testimonial_item--bottom .testimonial_item--title-role .testimonial_item--title,
+.section__about-us-service-box .aboutus__services-box .aboutus__services-box--content p.desc,
+.section__faq-content .faq-box-inner .content-faqs .pertinacia .faqs,
+.style_1 .section-sub-title,
 .sidebar .nav-accordion li span.expand:after {
   color: $HeadingColor;
 }
@@ -491,13 +489,13 @@ ul.form-list li label,
 .product-mini-list-section .product-mini-list h3.title:after,
 .section_product_list .products-style-2-list .product_item--inner .item--overlay,
 .btn-button.black, .spr-button.black,
+.blog-post-layout .blog_item--thumbnail-with-effect .pf-icon:hover,
 .toolbar .view-mode span.layout-opt span:hover {
-  background: $HeadingColor;;
+  background: $HeadingColor;
 }
 .toolbar .view-mode span.layout-opt.active span,
 .product-view .product-tabs>ul li.active a,
 .product-view .product-tabs>ul li a:hover,
-.subscribe-section.style_2 input,
 .toolbar .view-mode span.layout-opt span:hover {
   border-color: $HeadingColor;
 }
@@ -674,10 +672,6 @@ a:hover {
 .header-container {
   &.type1,&.type2,&.style1,&.type4,&.type5,&.type6,&.type7,&.type8,&.type9,&.type10 {
     background-color: $HeaderBackgroundColor;
-    {%if settings.header_background_image_use != blank %}
-    background-image: $HeaderBackgroundImage;
-    background-repeat: repeat;
-    {% endif %}
     .main-nav {
       ul.top-navigation {
         > li {
@@ -1064,21 +1058,9 @@ a:hover {
   }
 }
 //end header style 7
-.header--preset_dark .header-container:not(.sticky-header) {
-  background: $HeadingColor;
-}
 //************* Footer *************/
-#shopify-section-footer{
-  .footer-dark {
-    background: $HeadingColor;
-  }
-}
-//************* Page header*************/
-{% if settings.page_header == 'yes' %}
-.page-header{
-  background: $PageHeaderImage;
-}
-{% endif %}
+
+
 //************* Page *************/
 {% if settings.custom_page == 'yes' %}
 .page {
@@ -1108,10 +1090,16 @@ a:hover {
     }
   }
 }
-//************* Buttons *************/
-.btn-button.readmore, .spr-button.readmore {
-  background: $HeadingColor;
+//************* Link Color Basic *************/
+#shopify-section-footer .footer-list li a,
+#shopify-section-footer .footer-wrapper.footer-style2 .footer-container .footer-inner .footer-column.footer-col-1 .footer-area-socials .social-media-link a {
+  color: $BasicTextColor;
+  &:hover {
+    color: $ThemeColor;
+  }
 }
+//************* Buttons *************/
+.btn-button.readmore, .spr-button.readmore,
 .btn-button.bordered, .spr-button.bordered {
   color: $HeadingColor;
 }
@@ -1131,9 +1119,6 @@ a:hover {
 .incify--block-title.style_1 .under--line {
   border-color: $HeadingColor;
 }
-.incify-member__inner .incify-member__info .incify-member__info-title,
-.incify-member__inner.style_2 .incify-member__info .incify-member__info-role,
-.testimonial_item--inner,
 .service-quote-box p,
 .progress-title
 {

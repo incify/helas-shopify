@@ -1,14 +1,4 @@
 //header style 6
-.site-header-notice {
-  &.use-custom-html {
-    background-color: #93ddff;
-    background-image: -moz-linear-gradient(180deg, star 0%, #fabb98 100%);
-    background-image: -webkit-linear-gradient(180deg, #93ddff 0%, #fabb98 100%);
-    background-image: -ms-linear-gradient(180deg, #93ddff 0%, #fabb98 100%);
-    padding-top: 14px;
-    padding-bottom: 14px;
-  }
-}
 .header-container.type6{
   background-color: #1e1e1e;
   border: 0;
@@ -36,17 +26,6 @@
     .header-top-right{
       text-align: right;
       padding: 15px 0;
-      .links-aside{
-        display: inline-block;
-        li{
-          display: inline-block;
-          margin-left: 15px;
-          a{
-            font-size: 11px;
-            text-transform: uppercase;
-          }
-        }
-      }
       .lang-current-aside{
         display: inline-block;
         .currency-wrapper{
@@ -138,9 +117,6 @@
       margin: 0;
       width: 100%;
       text-align: center;
-      .content-inner{
-        padding-top: 15px;
-      }
     }
   }
   .logo-header{
@@ -157,46 +133,51 @@
 
   .header-left-area{
     display: inline-block;
-    width: 10%;
-    padding: 50px 0;
+    width: 33%;
+    padding: 30px 0;
     float: left;
     text-align: left;
-  }
-  .header-middle-area{
-    display: inline-block;
-    width: 50%;
-    padding: 42px 0;
     #search_mini_form{
       .form-search{
         position: relative;
+        display: inline-block;
         input{
           margin: 0;
-          border: 1px solid #e8e8e8;
+          border: 1px solid #e1e1e1;
           box-shadow: none;
           font-size: 14px;
-          padding-left: 25px;
-          height: 52px;
-          border-radius: 28px;
+          padding: 5px 15px;
+          height: 35px;
+          width: 213px;
+          &::placeholder {
+            text-transform: none;
+          }
         }
         .search-button{
           position: absolute;
-          right: 12px;
-          top:10px;
+          right: 0;
+          top:0;
           background-color: transparent;
           span{
             i{
-              color: #303030;
-              font-size: 16px;
+              color: #808080;
+              font-size: 13px;
             }
           }
         }
       }
     }
   }
+  .header-middle-area{
+    display: inline-block;
+    width: 33%;
+    padding: 30px 0;
+  }
   .header-right-area {
     display: inline-block;
+    width: 33%;
     float: right;
-    padding: 50px 0;
+    padding: 30px 0;
     text-align: right;
 
     .setting-account{
@@ -261,14 +242,10 @@
           width: 0;
           position: absolute;
           transition: width 300ms ease-out;
-
-          height: 3px;
+          height: 2px;
           border: none;
           bottom: 0;
           background-color: #93ddff;
-          background-image: -moz-linear-gradient(180deg,star 0%,#fabb98 100%);
-          background-image: -webkit-linear-gradient(180deg,#93ddff 0%,#fabb98 100%);
-          background-image: -ms-linear-gradient(180deg,#93ddff 0%,#fabb98 100%);
         }
       }
       &:first-child{
@@ -280,6 +257,7 @@
         > a:before {
           left: 0;
           right: auto;
+          bottom: -1px;
           width: 100%;
           transition: width 300ms ease-in;
         }
@@ -349,7 +327,7 @@
       i {
         position: relative;
         top: 2px;
-        font-size: 20px;
+        font-size: 16px;
 
       }
       span {
@@ -380,11 +358,12 @@
 
   .control-otherlinks{
     display: inline-block;
-    width: 35px;
-    height: 21px;
-    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 0;
     position: relative;
-    text-align: right;
+    text-align: center;
     cursor: pointer;
     span{
       width: 75%;
@@ -415,35 +394,15 @@
       }
     }
   }
-}
-.header__layout-style6 {
   .navigation-wrapper {
-    float: left;
-  }
-  .site-category-nav {
-    float: left;
-    width: auto;
-    position: relative;
-    .toggle-category-menu {
-      display: inline-block;
-      line-height: 30px;
-      padding: 21px 30px 21px 0;
-      text-transform: uppercase;
-      font-weight: bold;
-      letter-spacing: 1px;
-      position: relative;
-      cursor: pointer;
-      margin-right: 50px;
-      &:before {
-        content: "";
-        position: absolute;
-        right: 0;
-        border-left: 5px solid transparent;
-        border-right: 5px solid transparent;
-        border-top: 6px solid;
-        border-top-color: inherit;
-        top: 27px;
-        margin-top: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-top: #dedede solid 1px;
+    border-bottom: #dedede solid 1px;
+    .main-navigation {
+      text-align: center;
+      .top-navigation {
+        display: inline-block;
       }
     }
   }

@@ -1,0 +1,89 @@
+{% if section.settings.enable == true %}
+<div data-section-id="{{ section.id }}" class="section__about-us-v1-accordion-box">
+  <div class="container">
+    <div class="aboutus-v1__accordion-box row">
+      <div class="nova-column col-md-6">
+      </div>
+      <div class="nova-column col-md-6">
+        <div class="aboutus-v1__accordion-box--content colunm-inner lg-mt-100 md-mt-80 xs-mt-30 lg-mb-100 md-mb-80 xs-mb-30">
+          <div class="panel-group about-us-style" id="accordion" role="tablist" aria-multiselectable="true">
+            {% assign block_id = 0 %}
+            {% for block in section.blocks limit: section.blocks.size %}
+            {% assign block_id = block_id | plus: 1 %}
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading-{{ block_id }}">
+                <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-{{ block_id }}" aria-expanded="{% if block_id == 1 %}true{% else %}false{% endif %}" aria-controls="collapse-{{ block_id }}">
+                    {{ block.settings.title }}
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse-{{ block_id }}" class="panel-collapse collapse{% if block_id == 1 %} in{% endif %}" role="tabpanel" aria-labelledby="heading-{{ block_id }}">
+                <div class="panel-body">
+                  {{ block.settings.text }}
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="custom-styles-css">
+body div[data-section-id="{{ section.id }}"]{
+  background-image:url({{ section.settings.image | img_url: 'master' }});
+  background-repeat:no-repeat;
+  background-size: auto;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+</span>
+{% endif %}
+{% schema %}
+{
+  "name": "Accordion Box",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content Box Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable",
+      "label": "Enable Content Box",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Box Background"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "accordion",
+      "name": "Accordion",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Accordion Box",
+      "category": "About Us V1"
+    }
+  ]
+}
+{% endschema %}

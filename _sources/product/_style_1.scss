@@ -919,9 +919,9 @@
           width: 100%;
           line-height: 30px;
           color: #fff;
-          font-size: 14px;
+          font-size: 12px;
           padding: 15px 50px;
-          font-weight: 600;
+          font-weight: 700;
           border-radius:0px;
           text-decoration: none;
           border:0;
@@ -929,6 +929,7 @@
           -webkit-transition: all 300ms ease;
           -o-transition: all 300ms ease;
           transition: all 300ms ease;
+          text-transform: uppercase;
           span {
             height: auto;
             line-height: 33px;
@@ -1014,7 +1015,6 @@
         a {
           display: inline-block;
           margin: 0 10px;
-          font-size: 18px;
           padding: 22px 40px;
           line-height: 24px;
           font-weight: 400;

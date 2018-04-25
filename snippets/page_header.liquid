@@ -1,6 +1,6 @@
 <section class="section_page_header preset-{{ preset }}">
-    <div class="backdround-image-inner" style="background-image: url('{{ header_image }}'); background-repeat: no-repeat; background-position: center top; background-size: cover; padding-top:{{top_space}}; padding-bottom:{{bottom_space}};">
-        <h3 class="page-title special-font">
+    <div class="backdround-image-inner">
+        <h3 class="page-title">
             {% if template == 'article' %}
                 {% if settings.language_enable %}
                 <span class="lang1">{{ article.title | split: '|' | first }}</span>
@@ -18,4 +18,16 @@
         </div>
         {% endif %}
     </div>
+    <span class="custom-styles-css">
+      .section_page_header .backdround-image-inner {
+        background-color: {{ background_color }};
+        {% if header_image != 'none' %}
+        background-image: url('{{ header_image }}');
+        background-repeat: no-repeat;
+        background-position: center top; background-size: cover;
+        {% endif %}
+        padding-top:{{top_space}};
+        padding-bottom:{{bottom_space}};
+      }
+    </span>
 </section>

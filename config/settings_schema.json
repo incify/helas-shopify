@@ -4484,20 +4484,15 @@
         "type": "link_list",
         "id": "sidebar_menu_categories",
         "label": "Menu categories"
-      }
-    ]
-  },
-  {
-    "name": "Sidebar Bestseller Collection",
-    "settings": [
+      },
       {
         "type": "header",
-        "content": "Sidebar Collection"
+        "content": "Products List"
       },
       {
         "type": "checkbox",
         "id": "sidebar_collection_user",
-        "label": "Sidebar Bestseller Collection Use?",
+        "label": "Enable Bestseller ?",
         "default": true
       },
       {
@@ -4879,13 +4874,6 @@
         "default": "6"
       },
       {
-        "type": "text",
-        "id": "embed_link_instargram_snapppt",
-        "label": "Link Shop Instargram Snapppt",
-        "default": "1234567890",
-        "info": "Insert Embed Link Shop Instargram Snapppt"
-      },
-      {
         "type": "header",
         "content": "Twitter Feed"
       },
@@ -4898,6 +4886,41 @@
         "type": "text",
         "id": "twitter_screen_name",
         "label": "Screen Name"
+      }
+    ]
+  },
+  {
+    "name": "Social Links",
+    "settings": [
+      {
+        "type": "url",
+        "id": "fb_link",
+        "label": "Facebook Link"
+      },
+      {
+        "type": "url",
+        "id": "tw_link",
+        "label": "Twitter Link"
+      },
+      {
+        "type": "url",
+        "id": "linkedin_link",
+        "label": "LinkedIn Link"
+      },
+      {
+        "type": "url",
+        "id": "instagram_link",
+        "label": "Instagram Link"
+      },
+      {
+        "type": "url",
+        "id": "youtube_link",
+        "label": "Youtube Link"
+      },
+      {
+        "type": "url",
+        "id": "vimeo_link",
+        "label": "Vimeo Link"
       }
     ]
   },
@@ -5005,31 +5028,6 @@
         "id": "custom_style_2",
         "label": "Custom Style 2",
         "info": "Type in your custom styles , e.g.: .page { padding: 0; margin: 0; } .main { font-size: 14px; font-weight:400; }"
-      }
-    ]
-  },
-  {
-    "name": "Login Popup",
-    "settings": [
-      {
-        "type": "image",
-        "id": "logo_login.jpg",
-        "label": "Logo image",
-        "max-width": 300,
-        "info": "300px wide required"
-      },
-      {
-        "type": "image",
-        "id": "login_popup.jpg",
-        "label": "Background image",
-        "max-width": 800,
-        "info": "800px wide required"
-      },
-      {
-        "type": "textarea",
-        "id": "login_text",
-        "label": "Description Login Popup:",
-        "default": "Premium Shopify Theme, all you need for your shop !"
       }
     ]
   }

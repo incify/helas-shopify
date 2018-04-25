@@ -1,0 +1,59 @@
+{% if section.settings.enable == true %}
+<div data-section-id="{{ section.id }}" class="section__about-us-v2-content-box lg-pt-95 md-pt-50 xs-pt-35 lg-pb-95 md-pb-50 xs-pb-35">
+  <div class="container">
+    <div class="aboutus-v2__content-box row">
+      <div class="nova-column col-md-6">
+        <div class="colunm-inner aboutus-v2__content-box--image">
+          <img src="{{ section.settings.image | img_url: 'master' }}" />
+        </div>
+      </div>
+      <div class="nova-column col-md-6">
+        <div class="aboutus-v2__content-box--content text-center colunm-inner">
+          <h1>{{ section.settings.content_title }}</h1>
+          <p>
+            {{ section.settings.content_text }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% schema %}
+{
+  "name": "Content Box",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content Box Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable",
+      "label": "Enable Content Box",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Box Image"
+    },
+    {
+      "type": "text",
+      "id": "content_title",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "content_text",
+      "label": "Content"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Content Box",
+      "category": "About Us V2"
+    }
+  ]
+}
+{% endschema %}

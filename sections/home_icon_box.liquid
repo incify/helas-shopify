@@ -1,0 +1,150 @@
+<div data-section-id="{{ section.id }}" class="section__icon_box lg-mt-130 md-mt-100 sm-mt-60 xs-mt-50">
+  <div class="container incify-icon-box helas-icon-box">
+    <div class="row">
+      <div class="grid-x grid-padding-y grid-padding-x small-up-1 medium-up-3 large-up-{{section.settings.grid}}">
+        {% for block in section.blocks limit: section.blocks.size %}
+        <div class="cell">
+          <div class="icon-boxes-inner">
+            <div class="box-heading-top">
+              <div class="box-icon-heading">
+                <div class="box-icon-inner type-img">
+                  <div class="wrap-icon">
+                    <div class="box-icon box-icon-style-simple">
+                      <span>
+                        <img src="{{ block.settings.image | img_url: 'master'}}">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="box-heading">
+                <h5 class="icon-heading">{{ block.settings.title }}</h5>
+              </div>
+            </div>
+            <div class="box-contents">
+              <div class="box-description">
+                <p>{{ block.settings.text }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+<span class="custom-styles-css">
+  body div[data-section-id="{{ section.id }}"]{
+    {% if section.settings.enable_style == true %}
+    {% if section.settings.style_top != '' %}
+    margin-top:{{ section.settings.style_top }}px;
+    {% endif %}
+    {% if section.settings.style_bottom != '' %}
+    margin-bottom:{{ section.settings.style_bottom }}px;
+    {% endif %}
+    {% if section.settings.style_left != '' %}
+    margin-left:{{ section.settings.style_left }}px;
+    {% endif %}
+    {% if section.settings.style_right != '' %}
+    margin-right:{{ section.settings.style_right }}px;
+    {% endif %}
+    {% endif %}
+  }
+</span>
+{% schema %}
+{
+"name": "Icon Box",
+"settings": [
+    {
+      "type": "header",
+      "content": "Grid Settings"
+    },
+    {
+        "type":      "range",
+        "id":        "grid",
+        "min":       2,
+        "max":        5,
+        "step":       1,
+        "label":     "Grid",
+        "default":   3
+    },
+    {
+      "type": "header",
+      "content": "Styles Settings"
+    },
+    {
+     "type": "checkbox",
+     "id": "enable_style",
+     "default": false,
+     "label": "Enable Style Settings"
+    },
+    {
+        "type":      "range",
+        "id":        "style_top",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Top",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_bottom",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Bottom",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_left",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Left",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_right",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Right",
+        "default":   0
+    }
+	],
+  "blocks": [
+    {
+      "type": "icon_box",
+      "name": "Icon Box",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Icon Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Content"
+        }
+      ]
+    }
+  ],
+	"presets": [{
+      "name": "Icon Box",
+      "category": "Icon Box"
+  	}]
+}
+{% endschema %}

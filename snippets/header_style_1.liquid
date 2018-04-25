@@ -44,7 +44,7 @@
                 </div>
             </div>
 
-            <div class="header-middle-area hidden-sm hidden-xs">
+            <div class="header-middle-area hidden-sm hidden-xs{% if section.settings.header_menu == 'uppercase' %} menu-uppercase{% endif %}">
                 <!-- Main Menu -->
                 {% include 'main-menu' %}
                 <!-- End Main Menu -->
@@ -52,19 +52,17 @@
 
             <div class="header-right-area hidden-sm hidden-xs">
 
-
-                <div class="mini-cart">
-                    {% include 'header-cart' %}
+                <div id="open-aside-header-right"  class="control-otherlinks">
+                    <i class="dl-icon-menu1"></i>
                 </div>
-                <div class="overlay-background"></div>
 
                 <div class="search-control">
                     <a href="javascript:void(0);" class="search-icon"><span><i class="dl-icon-search1"></i></span></a>
                 </div>
-
-                <div id="open-aside-header-right"  class="control-otherlinks">
-                    <i class="dl-icon-menu1"></i>
+                <div class="mini-cart">
+                    {% include 'header-cart' %}
                 </div>
+                <div class="overlay-background"></div>
             </div>
         </div>
     </div>

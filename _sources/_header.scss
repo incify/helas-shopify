@@ -14,11 +14,6 @@
       color: #ffffff;
     }
   }
-  .header-container.type8:not(.sticky-header){
-    .search-area .search-bar .form-search .search-button:after{
-      color: #ffffff;
-    }
-  }
   .logo{
     display: none !important;
     &.logo-white-specail{
@@ -1412,7 +1407,7 @@
 #Header Preset */
 .header--preset_dark {
   .header-container:not(.sticky-header) {
-    background: #333;
+    background: #0e1219;
     .logo {
       display: none;
     }
@@ -1421,16 +1416,12 @@
     }
     .search-icon i,
     .mini-cart .icon-cart-header i,
+    .control-otherlinks,
     .main-navigation .top-navigation > li.level0 > a {
       color: #fff !important;
       &:hover {
         color: red !important;
       }
-    }
-    .control-otherlinks {
-      background: #fff !important;
-      color: #333 !important;
-
     }
     .header-middle-area .main-navigation .top-navigation li.level0 a.level-top:before {
       background:red;

@@ -1,0 +1,44 @@
+//footer style 4
+#shopify-section-footer {
+  .footer-wrapper.footer-style4 {
+    .footer-container {
+      padding: 60px 70px 20px 70px;
+      .footer_middle_logo {
+        margin-top: -23px;
+      }
+      .content-text{
+        margin-top: 10px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 25px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      .footer-col-2 {
+        text-align: center;
+        font-size: 10px;
+        margin-top: 15px;
+        .footer-4-text {
+          margin-right: 30px;
+          i {
+            font-size: 12px;
+            margin-right: 10px;
+          }
+        }
+      }
+      .footer-col-3 {
+        margin-top: 15px;
+      }
+      .social-media-link {
+        float: right;
+        a {
+          i {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+//end footer style 4

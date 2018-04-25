@@ -95,6 +95,17 @@
       border: 3px solid;
     }
   }
+  &.bordered-black {
+    position: relative;
+    overflow: visible;
+    color: #000;
+    letter-spacing: 0.5px;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: #000 solid 1px;
+    &:hover {
+      background-color: #000 !important;
+    }
+  }
   &.bottom-line {
     position: relative;
     overflow: visible;
@@ -211,17 +222,18 @@
     }
   }
   &.readmore {
-    background: #222222;
-    letter-spacing: 0.5px;
+    background: none !important;
     text-transform: none !important;
-    &:focus,
-    &:active,
+    padding: 0;
     &:hover {
-      color: #fff;
-      background-color: #93ddff;
-      background-image: -moz-linear-gradient(180deg,star 0%,#fabb98 100%);
-      background-image: -webkit-linear-gradient(180deg,#93ddff 0%,#fabb98 100%);
-      background-image: -ms-linear-gradient(180deg,#93ddff 0%,#fabb98 100%);
+      background: none !important;
+    }
+    &:after {
+      content: "\f105";
+      font-family: FontAwesome;
+      padding-left: 5px;
+      font-size: 14px;
+      color: inherit;
     }
   }
   &.sf-icon-reveal {

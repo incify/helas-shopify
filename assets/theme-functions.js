@@ -498,14 +498,14 @@ var NW = NW || {};
             $('.pertinacia .faqs').click(function(){
                 $(this).parent().parent().parent().parent().parent().find('.faqs2').removeClass('active').slideUp(400);
                 $(this).parent().parent().parent().parent().parent().find('.item').removeClass('active');
-                $(this).parent().parent().parent().parent().parent().find('.ui-2_small-delete').addClass('ui-2_small-add').removeClass('ui-2_small-delete');
+                $(this).parent().parent().parent().parent().parent().find('.icon-ui-2-small-delete').addClass('icon-ui-2-small-add').removeClass('icon-ui-2-small-delete');
                 if ($(this).parent().find('.faqs2').is(":hidden")){
                     $(this).parent().find('.faqs2').addClass('active').slideDown(400);
-                    $(this).parent().find('.ui-2_small-add').addClass('ui-2_small-delete').removeClass('ui-2_small-add');
+                    $(this).parent().find('.icon-ui-2-small-add').addClass('icon-ui-2-small-delete').removeClass('icon-ui-2-small-add');
                     $(this).parent().parent().parent().parent('.item').addClass('active');
                 }else{
                     $(this).parent().find('.faqs2').removeClass('active').slideUp(400);
-                    $(this).parent().find('.ui-2_small-delete').addClass('ui-2_small-add').removeClass('ui-2_small-delete');
+                    $(this).parent().find('.icon-ui-2-small-delete').addClass('icon-ui-2-small-add').removeClass('icon-ui-2-small-delete');
                     $(this).parent().parent().parent().parent('.item').removeClass('active');
                 }
 
@@ -865,6 +865,9 @@ var NW = NW || {};
                     $('.filter-option-group').addClass('open');
                 }
             });
+          /* ToolTip*/
+          $('[data-toggle="tooltip"]').tooltip();
+
           /* moving action links into product image area */
             $("[data-with-product]").each(function(){
                 NW.collection.prevNextProductData($(this));

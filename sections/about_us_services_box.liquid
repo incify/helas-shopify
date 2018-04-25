@@ -1,0 +1,124 @@
+{% if section.settings.enable == true %}
+<div data-section-id="{{ section.id }}" class="section__about-us-service-box">
+  <div class="container">
+    <div class="aboutus__services-box row">
+      <div class="nova-column col-md-6">
+        <div class="aboutus__services-box--content colunm-inner lg-mt-60 md-mt-50 xs-mt-30 lg-mb-100 md-mb-80 xs-mb-30">
+          {% if section.settings.title != blank %}
+          <h1>{{ section.settings.title }}</h1>
+          {% endif %}
+          {% if section.settings.text != blank %}
+          <p class="desc">
+            {{ section.settings.text }}
+          </p>
+          {% endif %}
+          <div class="incify-icon-box">
+            {% for block in section.blocks limit: section.blocks.size %}
+            <div class="icon-boxes-inner">
+              <div class="box-heading-top">
+                <div class="box-icon-heading">
+                  <div class="box-icon-inner type-img">
+                    <div class="wrap-icon">
+                      <div class="box-icon box-icon-style-simple">
+                        <span>
+                          <img src="{{ block.settings.image | img_url: '35x35'}}">
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-heading">
+                  <h5 class="icon-heading">{{ block.settings.title }}</h5>
+                </div>
+              </div>
+              <div class="box-contents">
+                <div class="box-description">
+                  <p>{{ block.settings.text }}</p>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="nova-column col-md-6">
+          <div class="aboutus__services-box--image colunm-inner">
+            <img src="{{ section.settings.image | img_url: 'master' }}" />
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="custom-styles-css">
+body div[data-section-id="{{ section.id }}"]{
+  background-color: {{ section.settings.background_color }}
+}
+</span>
+{% endif %}
+{% schema %}
+{
+  "name": "Services Box",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content Box Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable",
+      "label": "Enable Content Box",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#fff8f7"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Content"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Box Image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "icon_box",
+      "name": "Icon Box",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Icon Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Services Box",
+      "category": "About Us V2"
+    }
+  ]
+}
+{% endschema %}

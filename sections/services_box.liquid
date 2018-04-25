@@ -1,0 +1,107 @@
+{% if section.settings.enable == true %}
+<div data-section-id="{{ section.id }}" class="section__service-box lg-mt-60 md-mt-50 xs-mt-30 lg-mb-100 md-mb-80 xs-mb-30">
+  <div class="container">
+    <div class="services-box row">
+      <div class="services-box__content colunm-inner">
+        <div class="nova-column col-sm-10 col-md-offset-2 col-md-8 col-sm-offset-1 text-center">
+          {% if section.settings.title != blank %}
+          <h1>{{ section.settings.title }}</h1> {% endif %} {% if section.settings.text != blank %}
+          <p class="desc">
+            {{ section.settings.text }}
+          </p>
+          {% endif %}
+        </div>
+        <div class="nova-column col-sm-12">
+          <div class="incify-icon-box">
+            <div class="grid-x grid-padding-x small-up-1 medium-up-2 large-up-{{ section.settings.columns }}">
+              {% for block in section.blocks limit: section.blocks.size %}
+              <div class="cell icon-pos-top text-center">
+                <div class="icon-boxes-inner">
+                  <div class="box-icon-top">
+                    <div class="box-icon-inner type-img">
+                      <div class="wrap-icon">
+                        <div class="box-icon box-icon-style-simple"><span><img src="{{ block.settings.image | img_url: '35x35'}}"></span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box-contents">
+                    <div class="box-heading"><h5 class="icon-heading">{{ block.settings.title }}</h5></div>
+                    <div class="box-description">
+                      <p>{{ block.settings.text }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="custom-styles-css">
+</span>
+{% endif %}
+{% schema %}
+{
+  "name": "Services Box",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content Box Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable",
+      "label": "Enable Content Box",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Content"
+    },
+    {
+      "type": "text",
+      "id": "columns",
+      "label": "Columns",
+      "default": "3"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "icon_box",
+      "name": "Icon Box",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Icon Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Services Box",
+      "category": "Services Page"
+    }
+  ]
+}
+{% endschema %}

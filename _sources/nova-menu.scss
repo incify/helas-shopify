@@ -31,6 +31,7 @@
   background-repeat: no-repeat;
   background-position: right center;
   background-size: contain;
+  border-bottom: #000 solid 2px;
 }
 .ulmenu-block {
 
@@ -81,5 +82,13 @@
  display: inline-block !important;
   &:after {
     bottom: 3px;
+  }
+}
+// Menu Styles
+.menu-uppercase {
+  .main-navigation .top-navigation li.level0 a.level-top {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
   }
 }

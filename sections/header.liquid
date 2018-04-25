@@ -64,18 +64,6 @@
         {
           "value": "style4",
           "label": "Header Style 4"
-        },
-        {
-          "value": "style5",
-          "label": "Header Style 5"
-        },
-        {
-          "value": "style6",
-          "label": "Header Style 6"
-        },
-        {
-          "value": "style7",
-          "label": "Header Style 7"
         }
       ],
       "default": "style1"
@@ -127,6 +115,61 @@
         }
       ],
       "default": "light"
+    },
+    {
+      "type": "select",
+      "id": "header_menu",
+      "label": "Main Menu Style",
+      "options": [
+        {
+          "value": "uppercase",
+          "label": "Uppercase"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        }
+      ],
+      "default": "normal"
+    },
+    {
+      "type": "header",
+      "content": "Header Style 2"
+    },
+    {
+      "type": "textarea",
+      "id": "header_2_left_text",
+      "label": "Left Text"
+    },
+    {
+      "type": "header",
+      "content": "Header Style 3"
+    },
+    {
+      "type": "color",
+      "id": "header_3_background_color",
+      "label": "Background Color",
+      "default": "#f1f1f1"
+    },
+    {
+      "type": "checkbox",
+      "id": "style_3_enable_social",
+      "label": "Enable Social Share"
+    },
+    {
+      "type": "textarea",
+      "id": "style_3_social_share",
+      "label": "Social Share Content"
+    },
+    {
+      "type": "checkbox",
+      "id": "style_3_enable_map",
+      "label": "Enable\nMap"
+    },
+    {
+      "type": "textarea",
+      "id": "style_3_copyright_text",
+      "label": "Copyright Text"
     },
     {
       "type": "header",
@@ -192,143 +235,6 @@
         }
       ],
       "default": "enable"
-    },
-    {
-      "type": "header",
-      "content": "Custum Header Top"
-    },
-    {
-      "type": "header",
-      "content": "Custom Header\nStyle 5"
-    },
-    {
-      "type": "checkbox",
-      "id": "style_5_enable_social",
-      "label": "Enable Social Share"
-    },
-    {
-      "type": "textarea",
-      "id": "style_5_social_share",
-      "label": "Social Share Content"
-    },
-    {
-      "type": "checkbox",
-      "id": "style_5_enable_map",
-      "label": "Enable\nMap"
-    },
-    {
-      "type": "header",
-      "content": "Custom Header Style 6"
-    },
-    {
-      "type": "checkbox",
-      "id": "style_6_enable_notice",
-      "label": "Enable Notice Messages"
-    },
-    {
-      "type": "textarea",
-      "id": "style_6_notice_content",
-      "label": "Notice Messages"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "menu_item",
-      "name": "Vertical Menu Item",
-      "settings": [
-        {
-          "type": "header",
-          "content": "Menu"
-        },
-        {
-          "type": "collection",
-          "id": "collection",
-          "label": "Collection"
-        },
-        {
-          "type": "image_picker",
-          "id": "icon",
-          "label": "Icon"
-        },
-        {
-          "type": "header",
-          "content": "Sub Menu"
-        },
-        {
-          "type": "select",
-          "id": "sub_menu",
-          "label": "Sub Menu",
-          "options": [
-            {
-              "value": "0",
-              "label": "No Sub Menu"
-            },
-            {
-              "value": "1",
-              "label": "Style 1"
-            },
-            {
-              "value": "2",
-              "label": "Style 2"
-            }
-          ],
-          "default": "0"
-        },
-        {
-          "type": "collection",
-          "id": "product_style_1",
-          "label": "Product #1"
-        },
-        {
-          "type": "text",
-          "id": "limit_1",
-          "label": "Product #1 Limit",
-          "default":"6"
-        },
-        {
-          "type": "collection",
-          "id": "product_style_2",
-          "label": "Product #2"
-        },
-        {
-          "type": "text",
-          "id": "title_2",
-          "label": "Product #2 Title"
-        },
-        {
-          "type": "text",
-          "id": "limit_2",
-          "label": "Product #2 Limit",
-          "default":"2"
-        },
-        {
-          "type": "text",
-          "id": "viewmore_text_2",
-          "label": "View More Text",
-          "default": "VIEW ALL PRODUCTS"
-        },
-        {
-          "type": "url",
-          "id": "viewmore_url_2",
-          "label": "View More Url"
-        },
-        {
-          "type": "collection",
-          "id": "product_style_3",
-          "label": "Product #3"
-        },
-        {
-          "type": "text",
-          "id": "title_3",
-          "label": "Product #3 Title"
-        },
-        {
-          "type": "text",
-          "id": "limit_3",
-          "label": "Product #3 Limit",
-          "default":"2"
-        }
-      ]
     }
   ]
 }

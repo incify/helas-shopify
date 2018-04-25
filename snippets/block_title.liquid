@@ -1,0 +1,31 @@
+{% if section.settings.title !='' %}
+<div class="container {{ section.settings.preset_section_title }} {% if section.settings.sub_title != blank %}sub-title-enable{% endif %}">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 class="section-title">
+                {% if settings.language_enable %}
+                <span class="lang1">{{ section.settings.title | split: '|' | first }}</span>
+                <span class="lang2">{{ section.settings.title | split: '|' | last }}</span>
+                {% else %}
+                <span>{{ section.settings.title | split: '|' | first }}</span>
+                {% endif %}
+            </h1>
+            {% if section.settings.sub_title != blank %}
+            <div class="section-sub-title">
+                {{ section.settings.sub_title }}
+            </div>
+            {% endif %}
+            {% if section.settings.preset_section_title == 'style_7' %}
+            <div class="sub-image">
+                <img src="{{ 'leaf.png' | asset_url }}" alt="sub-image">
+            </div>
+            {% endif %}
+            {% if section.settings.preset_section_title == 'style_8' %}
+            <div class="sub-image">
+                <img src="{{ 'm15-i1.png' | asset_url }}" alt="sub-image">
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endif %}

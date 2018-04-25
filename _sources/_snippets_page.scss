@@ -57,14 +57,16 @@
 }
 
 .form-contact-page{
-  margin: 80px 0;
+  margin: 65px 0;
   .contact-form-top{
     text-align: center;
+    margin-bottom: 50px;
     .title-form-contact{
       h3{
-        font-size: 32px;
         font-weight: 400;
         font-style: normal;
+        text-transform: uppercase;
+        letter-spacing: 5px;
       }
     }
     .line-contact1{
@@ -78,6 +80,64 @@
       margin-bottom: 30px;
       p{
         font-size: 14px;
+      }
+    }
+  }
+  .contact-left-text {
+    .contact-left-text-inner {
+      max-width: 470px;
+      .la-contact-info{
+        margin-top: 30px;
+        .la-contact-item {
+          padding-left: 35px;
+          position: relative;
+          margin-bottom: 20px;
+          font-weight: bold;
+          &:before {
+            font-family: FontAwesome;
+            position: absolute;
+            left: 0;
+            font-size: 1.15em;
+            top: -.1em;
+          }
+          &.la-contact-address:before {
+            content: "\f041";
+          }
+          &.la-contact-phone:before {
+            content: "\f095";
+          }
+          &.la-contact-email:before {
+            content: "\f0e0";
+          }
+        }
+      }
+      .social-media-link {
+        margin-top: 30px;
+      }
+      .social-media-link {
+        a {
+          margin: 0 5px;
+          &:first-child {
+            margin-left: 0;
+          }
+        }
+        &.no-bg {
+          a:not(:hover) {
+            background-color: transparent;
+            border: 1px solid #e9e9ed;
+            color: #b5b7c4;
+          }
+        }
+        &.style-round a,
+        &.style-square a,
+        &.style-circle a {
+          width: 30px;
+          height: 30px;
+          line-height: 30px;
+          color: #fff;
+          text-align: center;
+          display: inline-block;
+        }
       }
     }
   }
@@ -181,9 +241,6 @@
         border-right: none;
         border-bottom: 1px solid #343538;
         color: #343538;
-        &::placeholder{
-          color: #343538;
-        }
       }
       .btn-button{
         position: absolute;
@@ -213,9 +270,6 @@
         border-right: none;
         border-bottom: 1px solid #000;
         background-color: transparent;
-        &::placeholder{
-          color: #8a8a8a;
-        }
       }
       input[type="submit"]{
         position: absolute;
@@ -224,7 +278,6 @@
         border: none;
         background-color: transparent;
         font-size: 12px;
-        text-transform: uppercase;
         color: #343538;
         line-height: 26px;
         padding: 10px 0 10px 30px;

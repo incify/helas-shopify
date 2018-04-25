@@ -10,6 +10,11 @@
                     <img src="{{ footer_logo_white }}" alt=""/>
                 </a>
                 {% endif %}
+                {% if section.settings.footer_text != '' %}
+                <div class="content-text">
+                    {{ section.settings.footer_text }}
+                </div>
+                {% endif %}
             </div>
         </div>
         <div class="col-sm-12">
@@ -34,7 +39,7 @@
         <div class="col-sm-12">
             <div class="footer-column footer-col-3">
                 {% if section.settings.footer_bottom_copyright != '' %}
-                <div class="content-text">
+                <div class="copyright-text">
                     {{ section.settings.footer_bottom_copyright }}
                 </div>
                 {% endif %}

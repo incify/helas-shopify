@@ -1,34 +1,18 @@
-<!-- /templates/article.liquid --> 
+<!-- /templates/article.liquid -->
 {% assign number_of_comments = article.comments_count %}
-{% if settings.blog_single_post_layout == 'style1' %}
 {% section 'blog_page_header' %}
-{% else %}
-<section class="section_page_header blog-{{ settings.blog_single_post_layout }}">
-  <div class="backdround-image-inner" style="background-image: url('{{ article.image.src | img_url: 'master' }}'); background-repeat: no-repeat; background-position: center top; background-size: cover; padding-top:300px; padding-bottom:300px;">
-    <h3 class="page-title special-font">
-      {% if settings.language_enable %}
-      <span class="lang1">{{ article.title | split: '|' | first }}</span>
-      <span class="lang2">{{ article.title | split: '|' | last }}</span>
-      {% else %}
-      {{ article.title | split: '|' | first }}
-      {% endif %}
-    </h3>
-    <div class="blog-aricle-excerpt">
-      {% if settings.language_enable %}
-      <span class="lang1">{{ article.excerpt | split: '|' | first }}</span>
-      <span class="lang2">{{ article.excerpt | split: '|' | last }}</span>
-      {% else %}
-      {{ article.excerpt | split: '|' | first }}
-      {% endif %}
-    </div>
-  </div>
-</section>
-{% endif %}
-<div class="container">
+<div class="container single-post-{{ settings.blog_single_post_layout }} md-mb-100 xs-mb-50">
   <div class="row">
-    <div class="col-sm-12">
-      <div class="blog-wrapper single-post-style1">
+    <div class="{% if settings.blog_single_post_layout == 'style1' %}col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-xs-12{% else %}col-md-9 col-md-push-3{% endif %}">
+      <div class="blog-wrapper">
         <div class="postWrapper">
+          <div class="entry-thumbnail blog_item--thumbnail-with-effect">
+              <div class="feature-image">
+                  <a href="{{ article.url }}">
+                      <img src="{{ article.image.src | img_url: '1170x500',crop: 'center' }}">
+                  </a>
+              </div>
+          </div>
             <div class="date_comment">
                 <div class="author_post">
                     <span>{{ article.author }}</span>
@@ -50,7 +34,7 @@
               <div class="lang2">{{ article.content | split: '[lang2]' | last }}</div>
               {% else %}
               {{ article.content | split: '[lang2]' | first }}
-              {% endif %} 
+              {% endif %}
             </div>
               {% include 'tags-article' %}
               <div class="post-share">
@@ -65,6 +49,8 @@
                       <li><a class="share-post-pinterest" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');return false;" href="https://pinterest.com/pin/create/button/?url={{shop.url}}{{ article.url }}&media={{shop.url}}{{ article.url }}&description={{ article.title }}"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
+
+            {% include "article_nav" %}
             <div class="author-info">
               <div class="author-info--inner">
                 {% if article.user.image %}
@@ -82,23 +68,7 @@
               </div>
             </div>
             <div class="post-comment">
-
-              {% if blog.next_article or blog.previous_article %}  
-              <p style="overflow: hidden;">
-                {% if blog.previous_article %}
-                <span class="left" {% if settings.language_enable %}data-translate="blogs.article.older_post|link_to:{{blog.previous_article}}"{%endif%}>
-                  &larr; {{ 'blogs.article.older_post' | t | link_to: blog.previous_article }}
-                </span>
-                {% endif %}
-                {% if blog.next_article %}
-                <span class="right" {% if settings.language_enable %}data-translate="blogs.article.newer_post|link_to:{{blog.next_article}}"{%endif%}>
-                  {{ 'blogs.article.newer_post' | t | link_to: blog.next_article }} &rarr;
-                </span>
-                {% endif %}
-              </p>
-              {% endif %}
-
-              {% if blog.comments_enabled? %} 
+              {% if blog.comments_enabled? %}
               <h3 class="numb-comments" {% if settings.language_enable %}data-translate="blogs.comments.comments_with_count|count:{{number_of_comments}}"{%endif%}>{{ 'blogs.comments.comments_with_count' | t: count: number_of_comments }}</h3>
               {% comment %}
               Just like blog.liquid page, define how many comments should be on each page.
@@ -110,12 +80,12 @@
               <div id="Comments">
 
                 {% if comment and comment.created_at %}
-                <p class="note form-success"> 
+                <p class="note form-success">
                   {% if blog.moderated? %}
                   <span {% if settings.language_enable %}data-translate="blogs.comments.success_moderated"{%endif%}>{{ 'blogs.comments.success_moderated' | t }}</span>
                   {% else %}
                   <span {% if settings.language_enable %}data-translate="blogs.comments.success"{%endif%}>{{ 'blogs.comments.success' | t }}</span>
-                  {% endif %} 
+                  {% endif %}
                 </p>
                 {% endif %}
 
@@ -131,15 +101,15 @@
                   {% for comment in article.comments %}
                   <li id="{{ comment.id }}" class="comment{% unless number_of_comments > article.comments_count %}{% if forloop.first %} first{% endif %}{% endunless %}{% if forloop.last %} last {% endif %}">
                     {% include 'comment' %}
-                  </li> 
+                  </li>
                   {% endfor %}
                 </ul>
 
-                {% if paginate.pages > 1 %} 
+                {% if paginate.pages > 1 %}
                 <div class="pagination">
                   {{ paginate | default_pagination | replace: '&laquo; Previous', '&larr;' | replace: 'Next &raquo;', '&rarr;' }}
                 </div>
-                {% endif %} 
+                {% endif %}
 
                 {% endif %}
 
@@ -165,7 +135,7 @@
                         </div>
                     </div>
 
-                    <div class="grid__item large--one-half"> 
+                    <div class="grid__item large--one-half">
                       <textarea name="comment[body]" id="CommentBody" class="input-full{% if form.errors contains 'body' %} error{% endif %}" placeholder="{{ 'blogs.comments.message' | t }}">{{ form.body }}</textarea>
                     </div>
 
@@ -194,14 +164,14 @@
               </div>
               {% endpaginate %}
               {% endif %}
-            </div> 
-          </div>   
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    {% if settings.blog_sidebar_position == 'right' %}
-    <div class="col-sm-3 sidebar"> 
-      {% include 'blog-sidebar' %} 
+    {% if settings.blog_single_post_layout != 'style1' %}
+    <div class="col-md-3 col-md-pull-9 sidebar">
+        {% include 'blog-sidebar' %}
     </div>
     {% endif %}
   </div>

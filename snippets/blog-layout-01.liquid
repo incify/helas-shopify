@@ -1,14 +1,14 @@
 <div class="blog-post-layout post-layout-list">
     <div class="container">
         <div class="row">
-            <div class="{% if settings.blog_sidebar_position == 'none' %}col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-xs-12 no-sidebar{% else %}col-md-9 col-md-push-3{% endif %}">
-                <div class="blog-wrapper">
+            <div class="{% if settings.blog_sidebar_position == 'none' %}col-md-12 no-sidebar{% else %}col-md-9 col-md-push-3{% endif %}">
+                <div class="blog-wrapper text-center">
                     {% for article in blog.articles %}
                     <div class="postWrapper">
                         <div class="entry-thumbnail blog_item--thumbnail-with-effect">
                             <div class="feature-image">
                                 <a href="{{ article.url }}">
-                                    <img src="{{ article.image.src | img_url: 'master' }}">
+                                    <img src="{{ article.image.src | img_url: '1170x500',crop: 'center' }}">
                                     <span class="pf-icon pf-icon-standard"></span>
                                     <div class="item--overlay"></div>
                                 </a>
@@ -54,16 +54,6 @@
                                     {% endif %}
                                 </p>
                                 <a class="btn-button readmore" href="{{ article.url }}" {% if settings.language_enable %}data-translate="blogs.article.read_more"{% endif %}>{{ 'blogs.article.read_more' | t }}</a>
-                                <div class="nova-sharing-posts">
-                                    <span><i class="fa fa-share-alt"></i><span>Share post</span></span>
-                                    <div class="social--sharing">
-                                        <a class="share-post-face facebook" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');return false;" href="https://www.facebook.com/sharer/sharer.php?u={{shop.url}}{{ article.url }}"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                        <a class="share-post-twitter twitter" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');return false;" href="https://twitter.com/home?status={{shop.url}}{{ article.url }}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                        <a class="share-post-linkedin linkedin" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');return false;" href="https://www.linkedin.com/shareArticle?mini=true&url={{shop.url}}{{ article.url }}&title={{ article.title }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                        <a class="share-post-google google-plus" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');return false;" href="https://plus.google.com/share?url={{shop.url}}{{ article.url }}"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                        <a class="share-post-pinterest pinterest" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');return false;" href="https://pinterest.com/pin/create/button/?url={{shop.url}}{{ article.url }}&media={{ settings.share_post_links }}{{ article.url }}&description={{ article.title }}"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
                             </div>
                             <div class="postDetails hidden">
                                 {% capture author %}{{ article.author }}{% endcapture %}

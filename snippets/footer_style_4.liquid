@@ -1,0 +1,35 @@
+<div class="footer-inner">
+    <div class="row">
+        <div class="col-md-4 col-sm-12">
+            <div class="footer-column footer-col-1">
+                {% if section.settings.logo_use_image %}
+                <a class="footer_middle_logo light" href="/">
+                    <img src="{{ footer_logo }}" alt=""/>
+                </a>
+                <a class="footer_middle_logo dark" href="/">
+                    <img src="{{ footer_logo_white }}" alt=""/>
+                </a>
+                {% endif %}
+                {% if section.settings.footer_bottom_copyright != '' %}
+                <div class="content-text">
+                    {{ section.settings.footer_bottom_copyright }}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="footer-column footer-col-2">
+              {{ section.settings.footer_4_text }}
+            </div>
+        </div>
+        {% if section.settings.footer_social_share != '' %}
+        <div class="col-md-4 col-sm-12">
+            <div class="footer-column footer-col-3">
+                <div class="social-media-link style-default">
+                        {{ section.settings.footer_social_share }}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>

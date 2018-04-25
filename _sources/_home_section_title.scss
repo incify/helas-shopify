@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Satisfy');
 //secsion title
 .sub-title-enable{
   .section-title{
@@ -10,18 +9,13 @@
   .section-title{
     text-align: center;
     position: relative;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-    font-family: Prata;
-    font-weight: 400;
-    text-transform: uppercase;
     &:after{
       content: '';
       position: absolute;
       left: 50%;
       bottom: 0;
-      height: 2px;
-      width: 60px;
+      height: 1px;
+      width: 50px;
       background: #232324;
       transform: translateX(-50%);
     }
@@ -33,10 +27,8 @@
   }
   .section-sub-title{
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 30px;
-    font-size: 12px;
-    line-height: 24px;
-    color: #8a8a8a;
   }
 }
 .style_2{
@@ -45,7 +37,6 @@
     position: relative;
     margin-bottom: 30px;
     padding-bottom: 30px;
-    font-family: Prata;
     font-weight: 400;
     text-transform: uppercase;
     &:after{

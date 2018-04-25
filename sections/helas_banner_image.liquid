@@ -1,0 +1,183 @@
+<div data-section-id="{{ section.id }}" class="section__helas-banner-image lg-mt-130 md-mt-100 sm-mt-60 xs-mt-50">
+  <div class="container helas-banner-image">
+    <div class="row">
+      <div class="col-sm-6">
+        {% if section.settings.preset == "2" %}
+          <div class="helas-banner-image__content style_2 xlg-mt-190 lg-mt-150 sm-mt-50 xs-mt-0">
+            {% if section.settings.label != blank %}
+            <span class="banner-label">{{ section.settings.label }}</span>
+            {% endif %}
+            {% if section.settings.title != blank %}
+            <h1 class="special-font">{{ section.settings.title }}</h1>
+            {% endif %}
+            {% if section.settings.text != blank %}
+            <p>
+              {{ section.settings.text }}
+            </p>
+            {% endif %}
+            {% if section.settings.btn_title != blank %}
+            <a href="{{ section.settings.link }}" class="btn-button bordered-black uppercase">{{ section.settings.btn_title }}</a>
+            {% endif %}
+          </div>
+        {% else %}
+          <img src="{{ section.settings.image | img_url: 'master' }}" />
+        {% endif %}
+      </div>
+      <div class="col-sm-6">
+        {% if section.settings.preset == "2" %}
+          <img src="{{ section.settings.image | img_url: 'master' }}" />
+        {% else %}
+          <div class="helas-banner-image__content xlg-mt-190 lg-mt-150 sm-mt-50 xs-mt-0">
+            {% if section.settings.label != blank %}
+            <span class="banner-label">{{ section.settings.label }}</span>
+            {% endif %}
+            {% if section.settings.title != blank %}
+            <h1 class="special-font">{{ section.settings.title }}</h1>
+            {% endif %}
+            {% if section.settings.text != blank %}
+            <p>
+              {{ section.settings.text }}
+            </p>
+            {% endif %}
+            {% if section.settings.btn_title != blank %}
+            <a href="{{ section.settings.link }}" class="btn-button bordered-black uppercase">{{ section.settings.btn_title }}</a>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+<span class="custom-styles-css">
+  body div[data-section-id="{{ section.id }}"]{
+    {% if section.settings.enable_style == true %}
+    {% if section.settings.style_top != '' %}
+    margin-top:{{ section.settings.style_top }}px;
+    {% endif %}
+    {% if section.settings.style_bottom != '' %}
+    margin-bottom:{{ section.settings.style_bottom }}px;
+    {% endif %}
+    {% if section.settings.style_left != '' %}
+    margin-left:{{ section.settings.style_left }}px;
+    {% endif %}
+    {% if section.settings.style_right != '' %}
+    margin-right:{{ section.settings.style_right }}px;
+    {% endif %}
+    {% endif %}
+  }
+</span>
+{% schema %}
+{
+"name": "Helas Banner Image",
+"settings": [
+    {
+    "type": "header",
+    "content": "Banner Preset Settings"
+    },
+    {
+      "type": "select",
+      "id": "preset",
+      "label": "Preset",
+      "options": [
+        {
+          "value": "1",
+          "label": "Style 1"
+        },
+        {
+          "value": "2",
+          "label": "Style 2"
+        }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "header",
+      "content": "Content Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Label"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Content"
+    },
+    {
+      "type": "url",
+      "id": "btn_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "text",
+      "id": "btn_title",
+      "label": "Button Title"
+    },
+    {
+      "type": "header",
+      "content": "Styles Settings"
+    },
+    {
+     "type": "checkbox",
+     "id": "enable_style",
+     "default": false,
+     "label": "Enable Style Settings"
+    },
+    {
+        "type":      "range",
+        "id":        "style_top",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Top",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_bottom",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Bottom",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_left",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Left",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_right",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Right",
+        "default":   0
+    }
+	],
+	"presets": [{
+      "name": "Helas Banner Image",
+      "category": "Banner Image"
+  	}]
+}
+{% endschema %}

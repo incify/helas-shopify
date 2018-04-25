@@ -127,8 +127,10 @@
                         {% endif %}
                         {% if section.settings.column_5_content == 'instagram' %}
                             {% include 'footer_instagram' %}
-                        {% else %}
+                        {% elsif section.settings.column_5_content == 'map'  %}
                             {% include 'footer_map' %}
+                        {% else %}
+                            {% include 'footer_newsletter_subscribe' %}
                         {% endif %}
                     </div>
                 </div>

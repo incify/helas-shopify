@@ -440,7 +440,7 @@
       "compare_at": "Compare at",
       "quantity": "Quantity",
       "add_to_cart": "Add to Cart",
-      "quick_view": "Quick View",
+      "quick_view": "Quick Shop",
       "select_options": "Select Options",
       "tab_title_description": "More Information",
       "tab_title_review": "Reviews",
@@ -452,7 +452,8 @@
       "many_in_stock": "Many In Stock",
       "product_type": "Product Type:",
       "product_vendor": "Vendor:",
-      "count_down": "Limited-Time Offers, End in:"
+      "count_down": "Limited-Time Offers, End in:",
+      "add_to_wishlist": "Add to Wishlist"
     }
   },
   "gift_cards": {

@@ -1,0 +1,37 @@
+.article-navigation {
+    border-top: 1px solid #ebebeb;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    .nav-links {
+      a {
+        color: inherit;
+        display: inline-block;
+        span {
+            display: block;
+        }
+      }
+      .nav-next,
+      .nav-previous {
+        float: left;
+        width: 50%;
+        text-align: left;
+      }
+      .nav-previous {
+        padding-left: 30px;
+        background: url(arrows-stre-left.png) no-repeat left center;
+      }
+      .nav-next {
+        float: right;
+        text-align: right;
+        padding-right: 30px;
+        background: url(arrows-stre-right.png) no-repeat right center;
+      }
+    }
+    .post-title {
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .meta-nav {
+      font-size: 12px;
+    }
+}

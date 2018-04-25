@@ -1,0 +1,34 @@
+{% assign current_found = false %}
+{% assign done = false %}
+{% for a in blog.articles %}
+  {% if current_found and done == false %}
+    {% assign next_article = a %}
+    {% assign done = true %}
+  {% endif %}
+  {% unless done %}
+    {% if a.id == article.id %}
+      {% assign current_found = true %}
+    {% else %}
+      {% assign prev_article = a %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+<nav class="navigation article-navigation" role="navigation">
+  <div class="nav-links clearfix">
+    {% if prev_article %}
+    <div class="nav-previous">
+      <a href="{{ prev_article.url }}" rel="prev">
+        <span class="post-title">{{ prev_article.title }}</span>
+        <span class="meta-nav" aria-hidden="true">{{ 'blogs.article.older_post' | t }}</span></a>
+      </div>
+    {% endif %}
+    {% if next_article %}
+    <div class="nav-next">
+      <a href="{{ next_article.url }}" rel="next">
+        <span class="post-title">{{ next_article.title }}</span>
+        <span class="meta-nav" aria-hidden="true">{{ 'blogs.article.newer_post' | t }}</span>
+      </a>
+    </div>
+    {% endif %}
+  </div>
+</nav>

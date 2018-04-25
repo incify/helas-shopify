@@ -1,11 +1,13 @@
+{% assign background_color = section.settings.page_header_background_color %}
 {% if section.settings.page_header_image_default != blank %}
 {% assign header_image = section.settings.page_header_image_default | img_url: "master" %}
 {% else %}
-{% assign header_image = 'page-header-bg.jpg' | asset_url %}
+{% assign header_image = 'none' %}
 {% endif %}
 {% assign top_space = section.settings.top_space %}
 {% assign bottom_space = section.settings.bottom_space %}
 {% include 'page_header' %}
+
 {% schema %}
 {
 "name": "Page Header",
@@ -13,6 +15,12 @@
 {
 "type": "header",
 "content": "Page Header Settings"
+},
+{
+  "type": "color",
+  "id": "page_header_background_color",
+  "label": "Background Color",
+  "default": "#f7e6e5"
 },
 {
 "type": "image_picker",

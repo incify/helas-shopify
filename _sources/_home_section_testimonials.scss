@@ -46,8 +46,6 @@
             padding: 6px 25px;
             color: #fff;
             font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: .5px;
             &:before{
               display: none;
             }
@@ -55,8 +53,7 @@
               display: inline-block;
             }
             .testimonial_item--role{
-              display: inline-block;
-              margin: 0;
+              font-size: 12px;
             }
           }
         }
@@ -66,21 +63,28 @@
   }
   &.layout-style_2{
     .incify-testimonial{
-      .testimonial-content {
-          margin-top: -50px;
-      }
-      .container {
-        max-width: 800px;
-        margin: 0 auto;
-      }
       .slick-arrow{
         display: none !important;
       }
       .testimonial_item--inner{
+        background: #fff;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #dedede;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 40px;
+        padding: 60px 35px 30px;
         .testimonial_item--image {
+          position: absolute;
+          width: 80px;
+          height: 80px;
+          left: 50%;
+          top: -40px;
+          margin-left: -40px;
           span {
-            width: 100px;
-            height: 100px;
+            width: 80px;
+            height: 80px;
             display: block;
             margin: 0 auto;
             border-radius: 50%;
@@ -92,12 +96,8 @@
         }
         .testimonial_item--info{
           .testimonial_item--excerpt{
-              color: #fff;
-              font-size: 24px;
-              line-height: 1.5;
-              margin-bottom: 15px;
-              font-weight: bold;
-              margin-top: 40px;
+              font-size: 12px;
+              line-height: 2;
           }
         }
         .testimonial_item--bottom{
@@ -106,20 +106,21 @@
               display: none;
             }
             .testimonial_item--title{
-              color: #fff;
-              display: inline-block;
-              font-size: 14px;
-              text-transform: none;
+              font-size: 18px;
+              line-height: normal;
+              padding-bottom: 5px;
               &:before {
-                content: "-";
-              }
-              &:after {
-                content: "-";
+                content: "";
+                width: 25px;
+                display: block;
+                height: 3px;
+                margin: 25px auto 15px;
+                background-image: linear-gradient(90deg,#d1ecff 0,#efcdcd 100%);
               }
             }
             .testimonial_item--role{
-              display: none;
-              margin: 0;
+              font-size: 12px;
+              margin-bottom: 0;
             }
           }
         }

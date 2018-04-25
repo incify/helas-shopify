@@ -22,57 +22,62 @@
 {% assign logo_white = 'logo-light.png' | asset_url %}
 {% endif %}
 {% endif %}
-<div class="header-container style1 header__layout-{{section.settings.type}}">
+<div class="header-container type6 header__layout-{{section.settings.type}}">
     <div class="header">
         <div class="header-wrapper">
-            <div class="header-left-area">
-                <div class="logo-header">
-                    {% if section.settings.logo_use_image %}
-                    <a href="/" class="logo">
-                        <img class="x1" src="{{ logo }}" alt="{{ shop.name }}" /></a>
-                    {% endif %}
-                    {% if section.settings.logo_white_use_image %}
-                    <a href="/" class="logo-white-specail">
-                        <img class="x1" src="{{ logo_white }}" alt="{{ shop.name }}" />
-                    </a>
-                    {% endif %}
-                </div>
-                <div class="search-area hidden hidden-sm hidden-xs">
-                    <div class="icon-search-header"><span class="nc-icon-outline ui-1_zoom"></span></div>
+            <div class="container content-inner">
+                <div class="header-left-area  hidden-sm hidden-xs">
                     {% include 'search-bar' %}
                 </div>
-                <div class="menu-icon">
-                    <a href="javascript:;">
-                        <svg class="dlicon-menu2" width="100%" height="100%"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#dlicon-menu2"></use></svg>
-                    </a>
+
+                <div class="header-middle-area">
+                  <div class="logo-header">
+                      {% if section.settings.logo_use_image %}
+                      <a href="/" class="logo">
+                          <img class="x1" src="{{ logo }}" alt="{{ shop.name }}" />
+                      </a>
+                      {% endif %}
+                      {% if section.settings.logo_white_use_image %}
+                      <a href="/" class="logo logo-white-specail">
+                          <img class="x1" src="{{ logo_white }}" alt="{{ shop.name }}" />
+                      </a>
+                      {% endif %}
+                  </div>
+                  <div class="search-area hidden hidden-sm hidden-xs">
+                      <div class="icon-search-header"><span class="nc-icon-outline ui-1_zoom"></span></div>
+                      {% include 'search-bar' %}
+                  </div>
+                  <div class="menu-icon">
+                      <a href="javascript:;">
+                          <svg class="dlicon-menu2" width="100%" height="100%"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#dlicon-menu2"></use></svg>
+                      </a>
+                  </div>
                 </div>
+
+                <div class="header-right-area hidden-sm hidden-xs">
+
+                    <div id="open-aside-header-right"  class="control-otherlinks">
+                        <i class="dl-icon-menu1"></i>
+                    </div>
+
+                    <div class="search-control">
+                        <a href="javascript:void(0);" class="search-icon"><span><i class="dl-icon-search1"></i></span></a>
+                    </div>
+                    <div class="mini-cart">
+                        {% include 'header-cart' %}
+                    </div>
+                    <div class="overlay-background"></div>
+                </div>
+
             </div>
-
-
-            <div class="header-right-area hidden-sm hidden-xs">
-
-
-                <div class="mini-cart">
-                    {% include 'header-cart' %}
-                </div>
-                <div class="overlay-background"></div>
-
-                <div class="search-control">
-                    <a href="javascript:void(0);" class="search-icon"><span><i class="dl-icon-search1"></i></span></a>
-                </div>
-
-                <div id="open-aside-header-left" class="control-otherlinks">
-                    <i class="dl-icon-menu1"></i>
+            <div class="header-bottom hidden-sm hidden-xs">
+                <div class="container">
+                    <!-- Main Menu -->
+                    {% include 'main-menu' %}
+                    <!-- End Main Menu -->
                 </div>
             </div>
         </div>
     </div>
-    <div class="overlay-search">
-        {% include 'search-bar' %}
-        <span class="btn-close-search zyra-icon icon-ui-1-simple-remove"></span>
-    </div>
-    <div class="overlay-menu">
-        {% include 'mobile-menu' %}
-        <span class="btn-close-menu zyra-icon icon-ui-1-simple-remove"></span>
-    </div>
+{% include 'aside-header' %}
 </div>

@@ -1,0 +1,35 @@
+.section__helas-banner-image {
+  .helas-banner-image {
+    .helas-banner-image__content {
+      padding-left: 50px;
+      h1 {
+        margin-left: -200px;
+      }
+      p {
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+      .banner-label {
+        padding-top: 12px !important;
+        padding-right: 30px !important;
+        padding-bottom: 10px !important;
+        padding-left: 30px !important;
+        background-color: #c34f46 !important;
+        font-size: 12px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      &.style_2 {
+        padding-left: 0;
+        padding-right: 50px;
+        h1 {
+          white-space: pre;
+          position: relative;
+          z-index: 3;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

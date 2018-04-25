@@ -52,7 +52,7 @@
                 {% if settings.collection_show_addtocart != blank %}
                     {% if product.available %}
                     {% if product.variants.size > 1 %}
-                    <a href="{{ product.url | within: collection }}" class="action-icon btn-act-addtocart">
+                    <a href="{{ product.url | within: collection }}" class="action-icon btn-act-addtocart" data-toggle="tooltip" title="{{ 'products.product.select_options' | t }}">
                         <span class="text-cart" {% if settings.language_enable %}data-translate="products.product.add_to_cart"{% endif %}>{{ 'products.product.select_options' | t }} </span>
                     </a>
                     {% else %}
@@ -63,19 +63,19 @@
                             <option value="{{ variant.id }}">{{ variant.title | escape }} - {{ variant.price | money }}</option>
                             {% endfor %}
                         </select>
-                        <button type="submit" class="action-icon add-to-cart btn-act-addtocart">
+                        <button type="submit" class="action-icon add-to-cart btn-act-addtocart" data-toggle="tooltip" title="{{ 'products.product.add_to_cart' | t }}">
                             <span class="text-cart" {% if settings.language_enable %}data-translate="products.product.add_to_cart"{% endif %}>{{ 'products.product.add_to_cart' | t }} </span>
                         </button>
                     </form>
                     {% endif %}
                     {% else %}
-                    <a href="{{ product.url | within: collection }}" class="action-icon btn-act-addtocart">
+                    <a href="{{ product.url | within: collection }}" class="action-icon btn-act-addtocart" data-toggle="tooltip" title="{{ 'products.product.add_to_cart' | t }}">
                         <span class="text-cart" {% if settings.language_enable %}data-translate="products.product.add_to_cart"{% endif %}>{{ 'products.product.add_to_cart' | t }} </span>
                     </a>
                     {% endif %}
                 {% endif %}
-                <a href="javascript:void(0);" class="action-icon quickview-icon quickview">
-                    <span class="text-cart" {% if settings.language_enable %}data-translate="products.product.quick_view"{% endif %}>{{ 'products.product.quick_view' | t }} </span>
+                <a href="javascript:void(0);" class="action-icon quickview-icon quickview" data-toggle="tooltip" title="{{ 'products.product.quick_view' | t }}">
+                    <span class="text-cart" {% if settings.language_enable %}data-translate="products.product.quick_view"{% endif %}>{{ 'products.product.quick_view' | t }}</span>
                 </a>
                 {% if settings.wishlist_enable %}
                     {% include 'wishlist-button'%}

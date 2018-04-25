@@ -31,8 +31,8 @@
     margin: 0 100px;
   }
   .header-vertical{
-    text-align: center;
-    padding: 100px 30px 80px 30px;
+    text-align: left;
+    padding: 70px 80px;
     position: fixed;
     left: 0;
     top: 0;
@@ -254,8 +254,8 @@
       }
     }
     .main-navigation ul.top-navigation li.level0 .menu-wrap-sub{
-      left: 305px !important;
-      padding-left: 35px !important;
+      left: 290px !important;
+      padding-left: 0 !important;
       top: 0;
     }
     .main-navigation ul.top-navigation li.level1 .menu-wrap-sub{
@@ -268,7 +268,8 @@
       width: 100%;
       margin: 0 auto;
       float: none;
-      margin-bottom: 80px;
+      margin-bottom: 50px;
+      margin-left: 0;
       &.logo-white-specail{
         display: none;
       }
@@ -276,18 +277,18 @@
     .nav-header-vertical{
       margin-left: 0;
       width: 100%;
-      margin-top: 60px;
+      margin-top: 30px;
       .main-top-nav{
         .main-navigation{
           .top-navigation{
-            text-align: center;
+            text-align: left;
             li.level0{
               display: block;
               width: 100%;
-              text-align: center;
+              text-align: left;
               padding: 12px 0;
               a.level-top{
-                font-size: 14px;
+                font-size: 16px;
                 padding: 10px 0;
                 font-weight: 700;
                 color: #000;
