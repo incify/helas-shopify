@@ -2409,7 +2409,7 @@ body.side-header {
       flex-direction: column; }
 
 .btn-button, .spr-button {
-  padding: 10px 40px;
+  padding: 10px 50px;
   line-height: 30px;
   letter-spacing: 0.5px;
   font-size: 12px;
@@ -16417,7 +16417,11 @@ div.sort-by .bootstrap-select .selectize-dropdown {
       padding-bottom: 20px; }
 
 .section__featured-collections .featured-collections .featured-collections__item {
-  margin-top: 95px; }
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  .section__featured-collections .featured-collections .featured-collections__item .category-products {
+    padding: 100px 0; }
 
 .main-collection .collection_content.col-sm-12 {
   padding-left: 15px; }
@@ -16799,6 +16803,25 @@ div.sort-by .bootstrap-select .selectize-dropdown {
         position: relative;
         top: 4px;
         font-size: 20px; }
+
+.section__collection-banner .collection-banner__content {
+  text-align: center; }
+  .section__collection-banner .collection-banner__content h4 {
+    font-size: 12px;
+    letter-spacing: 5px; }
+  .section__collection-banner .collection-banner__content h1 {
+    font-size: 90px;
+    line-height: 60px;
+    margin-bottom: 30px; }
+    .section__collection-banner .collection-banner__content h1 small {
+      font-weight: bold; }
+  .section__collection-banner .collection-banner__content .btn-button {
+    margin-top: 15px; }
+
+.section__collection-banner .collection-banner__image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
 
 .top-collection-section {
   margin-top: 95px; }

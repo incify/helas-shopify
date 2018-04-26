@@ -1,0 +1,62 @@
+{% if section.settings.enable == true %}
+<div data-section-id="{{ section.id }}" class="section__collection-banner">
+  <div class="container">
+    <div class="row display-flex">
+      <div class="nova-column col-sm-6">
+        <div class="collection-banner__content lg-mt-90 md-mt-50 xs-mt-30 lg-mb-90 md-mb-50 xs-mb-30">
+          {{ section.settings.text }}
+        </div>
+      </div>
+      <div class="nova-column col-sm-6">
+        <div class="colunm-inner collection-banner__image incify-lazyload-image" data-background-image="{{ section.settings.image | img_url: 'master' }}" data-auto-padding="false"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="custom-styles-css">
+body div[data-section-id="{{ section.id }}"]{
+  {% if section.settings.background_color != blank %}
+  background-color: {{ section.settings.background_color }};
+  {% endif %}
+}
+</span>
+{% endif %}
+{% schema %}
+{
+  "name": "Banner Contact",
+  "settings": [
+    {
+     "type": "checkbox",
+     "id": "enable",
+     "default": false,
+     "label": "Enable Section"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#e2f9ee"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Background Image"
+    },
+    {
+      "type": "header",
+      "content": "Banner Settings"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Banner Content"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner Contact",
+      "category": "FAQs Page"
+    }
+  ]
+}
+{% endschema %}

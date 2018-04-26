@@ -429,6 +429,13 @@
     "number_photo_show_instagram": "16",
     "twitter_name": "TwitterDev",
     "twitter_screen_name": "TwitterDev",
+    "fb_link": "#",
+    "tw_link": "#",
+    "linkedin_link": "#",
+    "instagram_link": "#",
+    "pin_link": "#",
+    "youtube_link": "#",
+    "vimeo_link": "#",
     "newsletter_footer_content": "",
     "newsletter_form_action": "\/\/themedeux.us15.list-manage.com\/subscribe\/post?u=e85984667fbb81c0c6aec2bb8&amp;id=0865c9fef2",
     "newsletter_enable": "0",
@@ -719,8 +726,19 @@
               "page_handle": "wishlist",
               "enble_page_header": true,
               "page_header_image": "",
-              "top_space": "200px",
-              "bottom_space": "160px",
+              "top_space": "150px",
+              "bottom_space": "50px",
+              "page_header_preset": "light"
+            }
+          },
+          "page_header_09": {
+            "type": "text_block",
+            "settings": {
+              "page_handle": "featured-collections",
+              "enble_page_header": true,
+              "page_header_image": "shopify:\/\/shop_images\/page-title-bg.jpg",
+              "top_space": "150px",
+              "bottom_space": "50px",
               "page_header_preset": "light"
             }
           }
@@ -733,7 +751,8 @@
           "page_header_05",
           "page_header_06",
           "page_header_07",
-          "page_header_08"
+          "page_header_08",
+          "page_header_09"
         ],
         "settings": {
           "page_header_image_default": "",
@@ -1244,7 +1263,7 @@
             "counter-01": {
               "type": "counter_item",
               "settings": {
-                "title": "Cup of Coffe",
+                "title": "Cup of Coffee",
                 "number": "2524"
               }
             },
@@ -1536,6 +1555,41 @@
         "settings": {
         }
       },
+      "featured_collections": {
+        "type": "featured_collections",
+        "blocks": {
+          "featured-collections-001": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/shop-fc-bg-1.jpg",
+              "collection": "featured-collection-01"
+            }
+          },
+          "featured-collections-002": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/shop-fc-bg-2.jpg",
+              "position": "right",
+              "collection": "featured-collection-02"
+            }
+          }
+        },
+        "block_order": [
+          "featured-collections-001",
+          "featured-collections-002"
+        ],
+        "settings": {
+          "grid": 5
+        }
+      },
+      "collection_banner": {
+        "type": "collection_banner",
+        "settings": {
+          "enable": false,
+          "text": "<h4>POLO NECK SWEATER<\/h4>\r\n<h1>50<small style=\"font-size:30px;\">%</small><\/h1>\r\n<p>Fusce quis porta neque. Suspendisse potenti. Ut<br>finibus, eros vel ullamcorper tempus<\/p>\r\n<a href=\"#\" class=\"btn-button bordered uppercase\">Shop Now<\/a>",
+          "image": "shopify:\/\/shop_images\/m7-bg-1.jpg"
+        }
+      },
       "home-slideshow": {
         "type": "slideshow",
         "blocks": {
@@ -1585,8 +1639,8 @@
           "slide_navigation": "1",
           "slide_pagination": "0",
           "slider_height": "80",
-          "slide_nav_prev": "<i class=\"icon-chevron-left\"><\/i>",
-          "slide_nav_next": "<i class=\"icon-chevron-right\"><\/i>"
+          "slide_nav_prev": "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"><\/i>",
+          "slide_nav_next": "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"><\/i>"
         }
       },
       "home-banner-1": {
@@ -1667,53 +1721,8 @@
           "title": "Sign up for newsletter and <strong class=\"text-color-primary\"><i>get 10%<\/i><\/strong> offers / weeks",
           "enable_parallax": false,
           "padding_top": 70,
-          "padding_bottom": 70
-        }
-      },
-      "featured_collections": {
-        "type": "featured_collections",
-        "blocks": {
-          "featured-collections-001": {
-            "type": "item",
-            "settings": {
-              "title": "Woman",
-              "sub_title": "Donec laoreet bibendum rutrum. Nulla facilisi. Proin in lacinia dolor. Cras arcu lacus, pulvinar at molestie luctus, <br> blandit at libero. Vivamus semper congue mauris, et lobortis mauris ultrices nec",
-              "collection": "woman"
-            }
-          },
-          "featured-collections-002": {
-            "type": "item",
-            "settings": {
-              "title": "Man",
-              "sub_title": "Donec laoreet bibendum rutrum. Nulla facilisi. Proin in lacinia dolor. Cras arcu lacus, pulvinar at molestie luctus, <br> blandit at libero. Vivamus semper congue mauris, et lobortis mauris ultrices nec",
-              "collection": "man"
-            }
-          },
-          "featured-collections-003": {
-            "type": "item",
-            "settings": {
-              "title": "Kids",
-              "sub_title": "Donec laoreet bibendum rutrum. Nulla facilisi. Proin in lacinia dolor. Cras arcu lacus, pulvinar at molestie luctus, <br> blandit at libero. Vivamus semper congue mauris, et lobortis mauris ultrices nec",
-              "collection": "main-10"
-            }
-          },
-          "featured-collections-004": {
-            "type": "item",
-            "settings": {
-              "title": "Accessories",
-              "sub_title": "Donec laoreet bibendum rutrum. Nulla facilisi. Proin in lacinia dolor. Cras arcu lacus, pulvinar at molestie luctus, <br> blandit at libero. Vivamus semper congue mauris, et lobortis mauris ultrices nec",
-              "collection": "main-14"
-            }
-          }
-        },
-        "block_order": [
-          "featured-collections-001",
-          "featured-collections-002",
-          "featured-collections-003",
-          "featured-collections-004"
-        ],
-        "settings": {
-          "grid": 5
+          "padding_bottom": 70,
+          "enable_social": true
         }
       }
     },

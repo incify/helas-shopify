@@ -1,0 +1,25 @@
+.section__collection-banner {
+  .collection-banner__content {
+    text-align: center;
+    h4 {
+      font-size: 12px;
+      letter-spacing: 5px;
+    }
+    h1 {
+      font-size: 90px;
+      line-height: 60px;
+      margin-bottom: 30px;
+      small {
+        font-weight: bold;
+      }
+    }
+    .btn-button {
+      margin-top: 15px;
+    }
+  }
+  .collection-banner__image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}

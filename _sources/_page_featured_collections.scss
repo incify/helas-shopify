@@ -1,7 +1,12 @@
 .section__featured-collections {
   .featured-collections {
     .featured-collections__item {
-      margin-top: 95px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      .category-products {
+        padding: 100px 0;
+      }
     }
   }
 }

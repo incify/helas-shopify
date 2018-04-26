@@ -2,13 +2,31 @@
   <div class="incify-subscribe">
     <div class="container">
       {% include 'main_subscribe' %}
+      {% if section.settings.enable_social == true %}
       <div class="social-media-link style-default m1_social_link text-center">
-        <a href="#" class="facebook" title="Facebook" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a>
-        <a href="#" class="twitter" title="Twitter" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="linked-in" title="Linked In" target="_blank" rel="nofollow"><i class="fa fa-linkedin"></i></a>
-        <a href="#" class="youtube" title="Youtube" target="_blank" rel="nofollow"><i class="fa fa-youtube-play"></i></a>
-        <a href="#" class="vimeo" title="Vimeo" target="_blank" rel="nofollow"><i class="fa fa-vimeo-square"></i></a>
+        {% if settings.fb_link != blank %}
+        <a href="{{ settings.fb_link }}" class="facebook" title="Facebook" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a>
+        {% endif %}
+        {% if settings.tw_link != blank %}
+        <a href="{{ settings.tw_link }}" class="twitter" title="Twitter" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a>
+        {% endif %}
+        {% if settings.linkedin_link != blank %}
+        <a href="{{ settings.linkedin_link }}" class="linked-in" title="Linked In" target="_blank" rel="nofollow"><i class="fa fa-linkedin"></i></a>
+        {% endif %}
+        {% if settings.instagram_link != blank %}
+        <a href="{{ settings.instagram_link }}" class="instagram" title="Instagram" target="_blank" rel="nofollow"><i class="fa fa-instagram"></i></a>
+        {% endif %}
+        {% if settings.pin_link != blank %}
+        <a href="{{ settings.pin_link }}" class="pinterest" title="Pinterest" target="_blank" rel="nofollow"><i class="fa fa-pinterest"></i></a>
+        {% endif %}
+        {% if settings.youtube_link != blank %}
+        <a href="{{ settings.youtube_link }}" class="youtube" title="Youtube" target="_blank" rel="nofollow"><i class="fa fa-youtube-play"></i></a>
+        {% endif %}
+        {% if settings.vimeo_link != blank %}
+        <a href="{{ settings.vimeo_link }}" class="vimeo" title="Vimeo" target="_blank" rel="nofollow"><i class="fa fa-vimeo-square"></i></a>
+        {% endif %}
       </div>
+      {% endif %}
     </div>
   </div>
 </div>
@@ -165,6 +183,16 @@
         "unit":       "px",
         "label":     "Padding Bottom",
         "default":   50
+    },
+    {
+      "type": "header",
+      "content": "Content Settings"
+    },
+    {
+     "type": "checkbox",
+     "id": "enable_social",
+     "default": false,
+     "label": "Enable Social Links"
     },
     {
       "type": "header",

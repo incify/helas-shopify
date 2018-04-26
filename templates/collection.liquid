@@ -10,8 +10,8 @@
 <div class="main-content-inner">
 <div class="{% if settings.collection_page_fullwidth %}not-container{% else %}container{% endif %}">
   <div class="row">
-    <div class="{% if settings.collection_sidebar_position != 'none' %}col-sm-9 collection_content{% else %}col-sm-12{% endif %} {% if settings.collection_sidebar_position == 'left' %}f-right{%endif%}"> 
-      {% if collection.description != blank %} 
+    <div class="{% if settings.collection_sidebar_position != 'none' %}col-sm-9 collection_content{% else %}col-sm-12{% endif %} {% if settings.collection_sidebar_position == 'left' %}f-right{%endif%}">
+      {% if collection.description != blank %}
       <div class="collection-main-banner">
         {% if settings.language_enable %}
         <div class="lang1">{{ collection.description | split: '[lang2]' | first }}</div>
@@ -51,24 +51,24 @@
           </script>
         <div class="category-products">
           <ul id="products-grid" class="products-grid columns{{settings.collection_columns}} {% if settings.collection_grid_style =='flex' %}flex-grid{% endif %} {% if settings.collection_grid_style =='masonry' %}masonry-grid{% endif %}">
-            {% for product in collection.products %} 
+            {% for product in collection.products %}
             {% assign productIndex = forloop.index | minus:1 %}
-            {% assign delayTime = settings.time_lazy_load | times : productIndex %} 
+            {% assign delayTime = settings.time_lazy_load | times : productIndex %}
             <li class="item product product-layout-grid">
               <div class="item-effect">
                   {% include 'product-grid-item' %}
-              </div>  
-            </li> 
+              </div>
+            </li>
             {% else %}
-            {% if collection.handle == 'all' and current_tags == '' %}  
+            {% if collection.handle == 'all' and current_tags == '' %}
             {% unless emptyState %}
             {{ 'theme-onboarding.css' | global_asset_url | stylesheet_tag }}
             {% assign emptyState = true %}
             {% endunless %}
-            {% include 'onboarding-empty-collection' %} 
-            {% else %}  
+            {% include 'onboarding-empty-collection' %}
+            {% else %}
             <li><p>{{ 'collections.general.no_matches' | t }}</p> </li>
-            {% endif %} 
+            {% endif %}
             {% endfor %}
           </ul>
         </div>
@@ -82,9 +82,10 @@
     {% if settings.collection_sidebar_position != 'none' %}
     <div class="col-sm-3 sidebar {% if settings.collection_sidebar_position == 'left' %}f-left{% endif %}">
       {% include 'collection-sidebar' %}
-    </div> 
+    </div>
     {% endif %}
   </div>
 </div>
 {% endpaginate %}
 </div>
+{% section 'collection_banner' %}

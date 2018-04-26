@@ -4914,6 +4914,11 @@
       },
       {
         "type": "url",
+        "id": "pin_link",
+        "label": "Pinterest Link"
+      },
+      {
+        "type": "url",
         "id": "youtube_link",
         "label": "Youtube Link"
       },
