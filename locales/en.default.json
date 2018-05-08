@@ -87,6 +87,7 @@
       "newer_post": "Newer Post",
       "tags": "Tags",
       "comment_meta_html": "{{ author }} on {{ date }}",
+      "by": "by",
       "read_more": "Read more"
     },
     "comments": {

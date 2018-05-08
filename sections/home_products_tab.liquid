@@ -19,35 +19,7 @@
   "margin-right":"{{ section.settings.style_right }}px"
   {% endif %}
 }'{% endif %}>
-    <div class="container {{ section.settings.preset_section_title }} {% if section.settings.sub_title != blank %}sub-title-enable{% endif %}">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="section-title">
-                    {% if settings.language_enable %}
-                    <span class="lang1">{{ section.settings.title | split: '|' | first }}</span>
-                    <span class="lang2">{{ section.settings.title | split: '|' | last }}</span>
-                    {% else %}
-                    <span>{{ section.settings.title | split: '|' | first }}</span>
-                    {% endif %}
-                </div>
-                {% if section.settings.sub_title != blank %}
-                <div class="section-sub-title">
-                    {{ section.settings.sub_title }}
-                </div>
-                {% endif %}
-                {% if section.settings.preset_section_title == 'style_7' %}
-                <div class="sub-image">
-                    <img src="{{ 'leaf.png' | asset_url }}" alt="sub-image">
-                </div>
-                {% endif %}
-                {% if section.settings.preset_section_title == 'style_8' %}
-                <div class="sub-image">
-                    <img src="{{ 'm15-i1.png' | asset_url }}" alt="sub-image">
-                </div>
-                {% endif %}
-            </div>
-        </div>
-    </div>
+    {% include "block_title" %}
     <div class="{% if section.settings.width_layout == 'boxed' %}container{% else %}container-fluid{% endif %}">
         <div class="main-tab-products">
             {% if section.blocks.size > 0 %}

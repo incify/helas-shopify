@@ -1,64 +1,5 @@
-<div data-section-id="{{ section.id }}" data-section-type="blog-article-section" class="blog-article-section layout-{{ section.settings.preset }}{% if section.settings.enable_parallax == true %} parallax-box{% endif %} incify-styles" data-styles='{
-  {% if section.settings.enable_style == true %}
-    {% if section.settings.style_top != '' %}
-    "margin-top":"{{ section.settings.style_top }}px",
-    {% endif %}
-    {% if section.settings.style_bottom != '' %}
-    "margin-bottom":"{{ section.settings.style_bottom }}px",
-    {% endif %}
-    {% if section.settings.style_left != '' %}
-    "margin-left":"{{ section.settings.style_left }}px",
-    {% endif %}
-    {% if section.settings.style_right != '' %}
-    "margin-right":"{{ section.settings.style_right }}px"
-    {% endif %}
-  {% endif %}
-  {% if section.settings.background %}
-  "background-image":"url({{ section.settings.background | img_url: 'master' }})",
-  "background-repeat": "{{ section.settings.background_repeat }}",
-  {% if section.settings.background_repeat == 'repeat' %}
-    "background-size": "auto",
-  {% else %}
-    "background-size": "cover",
-  {% endif %}
-  "background-position": "50% 50%",
-  {% endif %}
-  {% if section.settings.padding_top != '' %}
-  "padding-top":"{{ section.settings.padding_top }}px",
-  {% endif %}
-  "padding-bottom":"{{ section.settings.padding_bottom }}px"
-
-}'>
-    <div class="container {{ section.settings.preset_section_title }} {% if section.settings.sub_title != blank %}sub-title-enable{% endif %}">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="section-title">
-                    {% if settings.language_enable %}
-                    <span class="lang1">{{ section.settings.title | split: '|' | first }}</span>
-                    <span class="lang2">{{ section.settings.title | split: '|' | last }}</span>
-                    {% else %}
-                    <span>{{ section.settings.title | split: '|' | first }}</span>
-
-                    {% endif %}
-                </div>
-                {% if section.settings.preset_section_title == 'style_7' %}
-                <div class="sub-image">
-                    <img src="{{ 'leaf.png' | asset_url }}" alt="sub-image">
-                </div>
-                {% endif %}
-                {% if section.settings.preset_section_title == 'style_8' %}
-                <div class="sub-image">
-                    <img src="{{ 'm15-i1.png' | asset_url }}" alt="sub-image">
-                </div>
-                {% endif %}
-                {% if section.settings.sub_title != blank %}
-                <div class="section-sub-title">
-                    {{ section.settings.sub_title }}
-                </div>
-                {% endif %}
-            </div>
-        </div>
-    </div>
+<div data-section-id="{{ section.id }}" class="blog-article-section layout-{{ section.settings.preset }}{% if section.settings.enable_parallax == true %} parallax-box{% endif %}">
+    {% include "block_title" %}
     <div class="container">
         <div class="row">
             <div class="blog_article">
@@ -69,47 +10,13 @@
                         <div class="slick-carousel" data-slick='{"slidesToShow":{{ section.settings.number_columns_blog_show }},"slidesToScroll":{{ section.settings.number_columns_blog_show }},"dots":false,"autoplaySpeed":5000,"speed":300,"infinite":false,"arrows":false,"swipe":true,"draggable":true,"touchMove":true,"pauseOnHover":false,"responsive":[{"breakpoint":1824,"settings":{"slidesToShow":{{ section.settings.number_columns_blog_show }},"slidesToScroll":{{ section.settings.number_columns_blog_show }}}},{"breakpoint":1200,"settings":{"slidesToShow":{{ section.settings.number_columns_blog_show }},"slidesToScroll":{{ section.settings.number_columns_blog_show }}}},{"breakpoint":992,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":768,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"pauseOnDotsHover":true}'>
                             {% for article in blog.articles limit:section.settings.blog_article_limit %}
                                 <div class="item">
-                                  <div class="latest-posts__inner">
-                                    <div class="feature-image-blog">
-                                        {% if article.image %}
-                                        <a href="{{ article.url }}" class="article-image">
-                                            <div class="post-image" style="background-image: url({{ article | img_url: 'master' }})"><span class="ico-view-image"></span></div>
-                                        </a>
-                                        {% endif %}
-                                    </div>
-                                    <div class="content-detail-blog">
-                                        <div class="postTitle">
-                                            <h2>
-                                                <a href="{{ article.url }}">
-                                                    {% if settings.language_enable %}
-                                                    <span class="lang1">{{ article.title | split: '|' | first }}</span>
-                                                    <span class="lang2">{{ article.title | split: '|' | last }}</span>
-                                                    {% else %}
-                                                    {{ article.title | split: '|' | first }}
-                                                    {% endif %}
-                                                </a>
-                                            </h2>
-                                        </div>
-                                        <div class="date_comment">
-                                            <div class="author_post">
-                                                <span>{{ article.author }}</span>
-                                            </div>
-                                            <div class="post-date">
-                                                <span class="day">{{ article.published_at | date: '%d' }}</span>
-                                                <span class="month">{{ article.published_at | date: '%b' }}, </span>
-                                                <span class="year">{{ article.published_at | date: '%Y' }}</span>
-                                            </div>
-                                        </div>
-                                        <div class="post-content">
-                                          {% if settings.language_enable %}
-                                          <span class="lang1">{{ article.content | strip_html | split: '[lang2]' | first | truncatewords: 20 }}</span>
-                                          <span class="lang2">{{ article.content | strip_html | split: '[lang2]' | last | truncatewords: 20 }}</span>
-                                          {% else %}
-                                          {{ article.content | strip_html | split: '[lang2]' | first | truncatewords: 20}}
-                                          {% endif %}
-                                        </div>
-                                    </div>
-                                  </div>
+                                  {% assign preset = section.settings.preset %}
+                                  {% case preset %}
+                                  {% when 'style_2' %}
+                                    {% include 'home_article_item_2' %}
+                                  {% else %}
+                                    {% include 'home_article_item' %}
+                                  {% endcase %}
                                 </div>
                             {% endfor %}
                         </div>
@@ -120,6 +27,38 @@
         </div>
     </div>
 </div>
+<span class="custom-styles-css">
+body div[data-section-id="{{ section.id }}"]{
+  {% if section.settings.enable_style == true %}
+    {% if section.settings.style_top != '' %}
+    margin-top:{{ section.settings.style_top }}px;
+    {% endif %}
+    {% if section.settings.style_bottom != '' %}
+    margin-bottom:{{ section.settings.style_bottom }}px;
+    {% endif %}
+    {% if section.settings.style_left != '' %}
+    margin-left:{{ section.settings.style_left }}px;
+    {% endif %}
+    {% if section.settings.style_right != '' %}
+    margin-right:{{ section.settings.style_right }}px;
+    {% endif %}
+  {% endif %}
+  {% if section.settings.background %}
+  background-image:url({{ section.settings.background | img_url: 'master' }});
+  background-repeat: {{ section.settings.background_repeat }};
+  {% if section.settings.background_repeat == 'repeat' %}
+    background-size: auto;
+  {% else %}
+    background-size: cover;
+  {% endif %}
+  background-position: 50% 50%;
+  {% endif %}
+  {% if section.settings.padding_top != '' %}
+  padding-top:{{ section.settings.padding_top }}px;
+  {% endif %}
+  padding-bottom:{{ section.settings.padding_bottom }}px;
+}
+</span>
 {% schema %}
 {
 "name": "Blog Article",
@@ -137,10 +76,6 @@
 {
 "value": "style_2",
 "label": "Style 2"
-},
-{
-"value": "style_3",
-"label": "Style 3"
 }
 ],
 "default": "style_1"

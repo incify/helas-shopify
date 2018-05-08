@@ -1,0 +1,119 @@
+<div data-section-id="{{ section.id }}" class="section__about-us-content-box lg-mt-100 md-mt-70 xs-mt-50">
+  <div class="container">
+    <div class="aboutus-content-box row">
+      <div class="col-sm-6">
+        <div class="aboutus-content=box__image">
+          <img src="{{ section.settings.image | img_url: 'master' }}" />
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-offset-1 col-md-5">
+        <div class="aboutus-content-box__content text-left lg-mt-100 md-mt-70 xs-mt-50 lg-mb-100 md-mb-80 xs-mb-30">
+          <h1>{{ section.settings.content_title }}</h1>
+          <p>
+            {{ section.settings.content_text }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% if section.settings.enable_style == true %}
+<span class="custom-styles-css">
+body div[data-section-id="{{ section.id }}"]{
+  {% if section.settings.style_top != '' %}
+  margin-top:{{ section.settings.style_top }}px;
+  {% endif %}
+  {% if section.settings.style_bottom != '' %}
+  margin-bottom:{{ section.settings.style_bottom }}px;
+  {% endif %}
+  {% if section.settings.style_left != '' %}
+  margin-left:{{ section.settings.style_left }}px;
+  {% endif %}
+  {% if section.settings.style_right != '' %}
+  margin-right:{{ section.settings.style_right }}px;
+  {% endif %}
+}
+</span>
+{% endif %}
+{% schema %}
+{
+  "name": "Content Box",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content Box Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Box Image"
+    },
+    {
+      "type": "text",
+      "id": "content_title",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "content_text",
+      "label": "Content"
+    },
+    {
+      "type": "header",
+      "content": "Styles Settings"
+    },
+    {
+     "type": "checkbox",
+     "id": "enable_style",
+     "default": false,
+     "label": "Enable Style Settings"
+    },
+    {
+        "type":      "range",
+        "id":        "style_top",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Top",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_bottom",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Bottom",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_left",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Left",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_right",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Right",
+        "default":   0
+    }
+  ],
+  "presets": [
+    {
+      "name": "AboutUs Box",
+      "category": "Content"
+    }
+  ]
+}
+{% endschema %}

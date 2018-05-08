@@ -306,7 +306,7 @@
     "wishlist_enable": true,
     "wishlist_page": "wishlist",
     "allow_share_wishlist": true,
-    "type_detail": "type2",
+    "type_detail": "type1",
     "product_countdown": true,
     "product_sample_vendor": false,
     "product_availability": true,
@@ -525,7 +525,7 @@
     "instagram_user_id": "",
     "instagram_limit": "3",
     "sidebar_banner_use": true,
-    "sidebar_banner_title_1": "xfdgsf",
+    "sidebar_banner_title_1": "",
     "sidebar_banner_content_1": "",
     "sidebar_banner_link_1": "",
     "sidebar_banner_button_text_1": "",
@@ -594,10 +594,10 @@
         "settings": {
           "type": "style1",
           "language_flag": "yes",
-          "enable_header_transparent": "yes",
+          "enable_header_transparent": "no",
           "header_preset": "light",
           "header_menu": "normal",
-          "header_2_left_text":"<span class=\"header-2-left-text\"><i class=\"fa fa-phone\"><\/i> +56.653.534<\/span>\n<span class=\"header-2-left-text\"><a href=\"mailto:INFO@DOMAIN.COM\"><i class=\"fa fa-envelope-o\"><\/i> INFO@DOMAIN.COM<\/a><\/span>\n<span class=\"header-2-left-text\"><i class=\"dl-icon-clock\"><\/i> MON-SAT:8AM TO 9PM<\/span>",
+          "header_2_left_text": "<span class=\"header-2-left-text\"><i class=\"fa fa-phone\"><\/i> +56.653.534<\/span>\n<span class=\"header-2-left-text\"><a href=\"mailto:INFO@DOMAIN.COM\"><i class=\"fa fa-envelope-o\"><\/i> INFO@DOMAIN.COM<\/a><\/span>\n<span class=\"header-2-left-text\"><i class=\"dl-icon-clock\"><\/i> MON-SAT:8AM TO 9PM<\/span>",
           "custom_block_header_aside_top": "<p class=\"header-text\">Curabitur placerat urna augue, id luctus sem imperdiet id. Nunc congue ac libero ut lacinia. In ultrices elementum ipsum, in tempus enim accumsan...<\/p>\n<div class=\"social-media-link\">\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-facebook\"><\/i><\/a>\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-twitter\"><\/i><\/a>\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-pinterest\"><\/i><\/a>\n<\/div>",
 
           "logo_use_image": true,
@@ -649,8 +649,8 @@
               "page_handle": "lookbook",
               "enble_page_header": true,
               "page_header_image": "shopify:\/\/shop_images\/page-title-lookbook.jpg",
-              "top_space": "200px",
-              "bottom_space": "160px",
+              "top_space": "100px",
+              "bottom_space": "50px",
               "page_header_preset": "light"
             }
           },
@@ -660,7 +660,7 @@
               "page_handle": "faqs",
               "enble_page_header": true,
               "page_header_image": "shopify:\/\/shop_images\/page-title-bg-faq.jpg",
-              "top_space": "150px",
+              "top_space": "100px",
               "bottom_space": "50px",
               "page_header_preset": "light"
             }
@@ -671,7 +671,7 @@
               "page_handle": "about-us-01",
               "enble_page_header": true,
               "page_header_image": "",
-              "top_space": "150px",
+              "top_space": "100px",
               "bottom_space": "50px",
               "page_header_preset": "light"
             }
@@ -682,7 +682,7 @@
               "page_handle": "about-us-02",
               "enble_page_header": true,
               "page_header_image": "",
-              "top_space": "150px",
+              "top_space": "100px",
               "bottom_space": "50px",
               "page_header_preset": "light"
             }
@@ -693,7 +693,7 @@
               "page_handle": "our-services",
               "enble_page_header": true,
               "page_header_image": "",
-              "top_space": "150px",
+              "top_space": "100px",
               "bottom_space": "50px",
               "page_header_preset": "light"
             }
@@ -704,7 +704,7 @@
               "page_handle": "contact-us",
               "enble_page_header": true,
               "page_header_image": "",
-              "top_space": "150px",
+              "top_space": "100px",
               "bottom_space": "50px",
               "page_header_preset": "light"
             }
@@ -715,8 +715,8 @@
               "page_handle": "collections",
               "enble_page_header": true,
               "page_header_image": "shopify:\/\/shop_images\/page-title-collection_b2792328-8e0b-43e5-8971-5492e8471549.jpg",
-              "top_space": "200px",
-              "bottom_space": "200px",
+              "top_space": "100px",
+              "bottom_space": "50px",
               "page_header_preset": "light"
             }
           },
@@ -726,7 +726,7 @@
               "page_handle": "wishlist",
               "enble_page_header": true,
               "page_header_image": "",
-              "top_space": "150px",
+              "top_space": "100px",
               "bottom_space": "50px",
               "page_header_preset": "light"
             }
@@ -737,7 +737,7 @@
               "page_handle": "featured-collections",
               "enble_page_header": true,
               "page_header_image": "shopify:\/\/shop_images\/page-title-bg.jpg",
-              "top_space": "150px",
+              "top_space": "100px",
               "bottom_space": "50px",
               "page_header_preset": "light"
             }
@@ -926,34 +926,34 @@
       "about_us_accordion_box": {
         "type": "about_us_accordion_box",
         "blocks": {
-            "about_us_accordion_box_01": {
-              "type": "accordion",
-              "settings": {
-                "title": "OUR VALUES",
-                "text": "Duis tincidunt non tellus ut auctor. In vitae eros turpis. Curabitur eu venenatis magna, vitae lobortis nulla. Pellentesque quis diam dolor. Quisque quis justo ut ipsum ornare consequat. Nullam congue tristique lacinia. Praesent libero sapien, mattis quis elit sit amet, accumsan congue"
-              }
-            },
-            "about_us_accordion_box_02": {
-              "type": "accordion",
-              "settings": {
-                "title": "OUR MISSION",
-                "text": "Duis tincidunt non tellus ut auctor. In vitae eros turpis. Curabitur eu venenatis magna, vitae lobortis nulla. Pellentesque quis diam dolor. Quisque quis justo ut ipsum ornare consequat. Nullam congue tristique lacinia. Praesent libero sapien, mattis quis elit sit amet, accumsan congue"
-              }
-            },
-            "about_us_accordion_box_03": {
-              "type": "accordion",
-              "settings": {
-                "title": "OUR BUSINESS",
-                "text": "Duis tincidunt non tellus ut auctor. In vitae eros turpis. Curabitur eu venenatis magna, vitae lobortis nulla. Pellentesque quis diam dolor. Quisque quis justo ut ipsum ornare consequat. Nullam congue tristique lacinia. Praesent libero sapien, mattis quis elit sit amet, accumsan congue"
-              }
-            },
-            "about_us_accordion_box_04": {
-              "type": "accordion",
-              "settings": {
-                "title": "OUR PHILOSOPHY",
-                "text": "Duis tincidunt non tellus ut auctor. In vitae eros turpis. Curabitur eu venenatis magna, vitae lobortis nulla. Pellentesque quis diam dolor. Quisque quis justo ut ipsum ornare consequat. Nullam congue tristique lacinia. Praesent libero sapien, mattis quis elit sit amet, accumsan congue"
-              }
+          "about_us_accordion_box_01": {
+            "type": "accordion",
+            "settings": {
+              "title": "OUR VALUES",
+              "text": "Duis tincidunt non tellus ut auctor. In vitae eros turpis. Curabitur eu venenatis magna, vitae lobortis nulla. Pellentesque quis diam dolor. Quisque quis justo ut ipsum ornare consequat. Nullam congue tristique lacinia. Praesent libero sapien, mattis quis elit sit amet, accumsan congue"
             }
+          },
+          "about_us_accordion_box_02": {
+            "type": "accordion",
+            "settings": {
+              "title": "OUR MISSION",
+              "text": "Duis tincidunt non tellus ut auctor. In vitae eros turpis. Curabitur eu venenatis magna, vitae lobortis nulla. Pellentesque quis diam dolor. Quisque quis justo ut ipsum ornare consequat. Nullam congue tristique lacinia. Praesent libero sapien, mattis quis elit sit amet, accumsan congue"
+            }
+          },
+          "about_us_accordion_box_03": {
+            "type": "accordion",
+            "settings": {
+              "title": "OUR BUSINESS",
+              "text": "Duis tincidunt non tellus ut auctor. In vitae eros turpis. Curabitur eu venenatis magna, vitae lobortis nulla. Pellentesque quis diam dolor. Quisque quis justo ut ipsum ornare consequat. Nullam congue tristique lacinia. Praesent libero sapien, mattis quis elit sit amet, accumsan congue"
+            }
+          },
+          "about_us_accordion_box_04": {
+            "type": "accordion",
+            "settings": {
+              "title": "OUR PHILOSOPHY",
+              "text": "Duis tincidunt non tellus ut auctor. In vitae eros turpis. Curabitur eu venenatis magna, vitae lobortis nulla. Pellentesque quis diam dolor. Quisque quis justo ut ipsum ornare consequat. Nullam congue tristique lacinia. Praesent libero sapien, mattis quis elit sit amet, accumsan congue"
+            }
+          }
         },
         "block_order": [
           "about_us_accordion_box_01",
@@ -1003,7 +1003,7 @@
         ],
         "settings": {
           "preset_section_title": "style_1",
-          "title":"",
+          "title": "",
           "sub_title": "",
           "preset": "style_2",
           "background": "",
@@ -1011,7 +1011,7 @@
           "gradient_bg": true,
           "padding_top": 100,
           "padding_bottom": 100,
-          "sides_show":"3",
+          "sides_show": "3",
           "enable_style": true,
           "style_top": 0
         }
@@ -1094,30 +1094,30 @@
       "about_us_services_box": {
         "type": "about_us_services_box",
         "blocks": {
-            "01": {
-              "type": "icon_box",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/about2-icon-1.png",
-                "title": "FASHION LUXURY",
-                "text": "Vestibulum faucibus porta odio, id suscipit nibh. Nullam in iaculis <br>ipsum. Mauris hendrerit finibus nunc at e"
-              }
-            },
-            "02": {
-              "type": "icon_box",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/about2-icon-2.png",
-                "title": "CREATIVE DESIGN",
-                "text": "Vestibulum faucibus porta odio, id suscipit nibh."
-              }
-            },
-            "03": {
-              "type": "icon_box",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/about2-icon-3.png",
-                "title": "MADE WITH LOVE",
-                "text": "Vestibulum faucibus porta odio, id suscipit nibh. Nullam in iaculis <br> ipsum. Mauris hendrerit finibus"
-              }
+          "01": {
+            "type": "icon_box",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about2-icon-1.png",
+              "title": "FASHION LUXURY",
+              "text": "Vestibulum faucibus porta odio, id suscipit nibh. Nullam in iaculis <br>ipsum. Mauris hendrerit finibus nunc at e"
             }
+          },
+          "02": {
+            "type": "icon_box",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about2-icon-2.png",
+              "title": "CREATIVE DESIGN",
+              "text": "Vestibulum faucibus porta odio, id suscipit nibh."
+            }
+          },
+          "03": {
+            "type": "icon_box",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about2-icon-3.png",
+              "title": "MADE WITH LOVE",
+              "text": "Vestibulum faucibus porta odio, id suscipit nibh. Nullam in iaculis <br> ipsum. Mauris hendrerit finibus"
+            }
+          }
         },
         "block_order": [
           "01",
@@ -1133,42 +1133,42 @@
       "about_us_team_member": {
         "type": "about_us_team_member",
         "blocks": {
-            "member-01": {
-              "type": "team_member",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/about2-m-1.jpg",
-                "name": "Craig Schultz",
-                "postion": "CEO",
-                "fb": "#",
-                "tw": "#",
-                "pin": "#",
-                "gp": "#"
-              }
-            },
-            "member-02": {
-              "type": "team_member",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/about2-m-2.jpg",
-                "name": "Lillie Lowe",
-                "postion": "Art Director",
-                "fb": "#",
-                "tw": "#",
-                "pin": "#",
-                "gp": "#"
-              }
-            },
-            "member-03": {
-              "type": "team_member",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/about2-m-3.jpg",
-                "name": "Estella Fisher",
-                "postion": "Marketing Manager",
-                "fb": "#",
-                "tw": "#",
-                "pin": "#",
-                "gp": "#"
-              }
-            },
+          "member-01": {
+            "type": "team_member",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about2-m-1.jpg",
+              "name": "Craig Schultz",
+              "postion": "CEO",
+              "fb": "#",
+              "tw": "#",
+              "pin": "#",
+              "gp": "#"
+            }
+          },
+          "member-02": {
+            "type": "team_member",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about2-m-2.jpg",
+              "name": "Lillie Lowe",
+              "postion": "Art Director",
+              "fb": "#",
+              "tw": "#",
+              "pin": "#",
+              "gp": "#"
+            }
+          },
+          "member-03": {
+            "type": "team_member",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about2-m-3.jpg",
+              "name": "Estella Fisher",
+              "postion": "Marketing Manager",
+              "fb": "#",
+              "tw": "#",
+              "pin": "#",
+              "gp": "#"
+            }
+          },
           "member-04": {
             "type": "team_member",
             "settings": {
@@ -1195,54 +1195,54 @@
       "services_box": {
         "type": "services_box",
         "blocks": {
-            "services_box-01": {
-              "type": "icon_box",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/about2-icon-1.png",
-                "title": "DIAMON DESIGN",
-                "text": "Vestibulum faucibus porta odio, id suscipit nibh. Nullam in iaculis ipsum. Maurinunc at"
-              }
-            },
-            "services_box-02": {
-              "type": "icon_box",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/about2-icon-2.png",
-                "title": "FASHION DESIGN",
-                "text": "Vestibulum faucibus porta odio, id suscipit nibh. Nullam in iaculis ipsum. Maurinunc at"
-              }
-            },
-            "services_box-03": {
-              "type": "icon_box",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/about2-icon-3.png",
-                "title": "TAILOR DESIGN",
-                "text": "Vestibulum faucibus porta odio, id suscipit nibh. Nullam in iaculis ipsum. Maurinunc at"
-              }
-            },
-            "services_box-04": {
-              "type": "icon_box",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/about2-icon-4.png",
-                "title": "PHOTOGRAPHY",
-                "text": "Vestibulum faucibus porta odio, id suscipit nibh. Nullam in iaculis ipsum. Maurinunc at"
-              }
-            },
-            "services_box-05": {
-              "type": "icon_box",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/about2-icon-5.png",
-                "title": "WEB DESIGN",
-                "text": "Vestibulum faucibus porta odio, id suscipit nibh. Nullam in iaculis ipsum. Maurinunc at"
-              }
-            },
-            "services_box-06": {
-              "type": "icon_box",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/about2-icon-6.png",
-                "title": "MARKETING ONLINE",
-                "text": "Vestibulum faucibus porta odio, id suscipit nibh. Nullam in iaculis ipsum. Maurinunc at"
-              }
+          "services_box-01": {
+            "type": "icon_box",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about2-icon-1.png",
+              "title": "DIAMON DESIGN",
+              "text": "Vestibulum faucibus porta odio, id suscipit nibh. Nullam in iaculis ipsum. Maurinunc at"
             }
+          },
+          "services_box-02": {
+            "type": "icon_box",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about2-icon-2.png",
+              "title": "FASHION DESIGN",
+              "text": "Vestibulum faucibus porta odio, id suscipit nibh. Nullam in iaculis ipsum. Maurinunc at"
+            }
+          },
+          "services_box-03": {
+            "type": "icon_box",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about2-icon-3.png",
+              "title": "TAILOR DESIGN",
+              "text": "Vestibulum faucibus porta odio, id suscipit nibh. Nullam in iaculis ipsum. Maurinunc at"
+            }
+          },
+          "services_box-04": {
+            "type": "icon_box",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about2-icon-4.png",
+              "title": "PHOTOGRAPHY",
+              "text": "Vestibulum faucibus porta odio, id suscipit nibh. Nullam in iaculis ipsum. Maurinunc at"
+            }
+          },
+          "services_box-05": {
+            "type": "icon_box",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about2-icon-5.png",
+              "title": "WEB DESIGN",
+              "text": "Vestibulum faucibus porta odio, id suscipit nibh. Nullam in iaculis ipsum. Maurinunc at"
+            }
+          },
+          "services_box-06": {
+            "type": "icon_box",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/about2-icon-6.png",
+              "title": "MARKETING ONLINE",
+              "text": "Vestibulum faucibus porta odio, id suscipit nibh. Nullam in iaculis ipsum. Maurinunc at"
+            }
+          }
         },
         "block_order": [
           "services_box-01",
@@ -1260,34 +1260,34 @@
       "service_counter_box": {
         "type": "service_counter_box",
         "blocks": {
-            "counter-01": {
-              "type": "counter_item",
-              "settings": {
-                "title": "Cup of Coffee",
-                "number": "2524"
-              }
-            },
-            "counter-02": {
-              "type": "counter_item",
-              "settings": {
-                "title": "Portfolio Layouts",
-                "number": "165"
-              }
-            },
-            "counter-03": {
-              "type": "counter_item",
-              "settings": {
-                "title": "Amazing Elements",
-                "number": "176"
-              }
-            },
-            "counter-04": {
-              "type": "counter_item",
-              "settings": {
-                "title": "Working Hours",
-                "number": "254"
-              }
+          "counter-01": {
+            "type": "counter_item",
+            "settings": {
+              "title": "Cup of Coffee",
+              "number": "2524"
             }
+          },
+          "counter-02": {
+            "type": "counter_item",
+            "settings": {
+              "title": "Portfolio Layouts",
+              "number": "165"
+            }
+          },
+          "counter-03": {
+            "type": "counter_item",
+            "settings": {
+              "title": "Amazing Elements",
+              "number": "176"
+            }
+          },
+          "counter-04": {
+            "type": "counter_item",
+            "settings": {
+              "title": "Working Hours",
+              "number": "254"
+            }
+          }
         },
         "block_order": [
           "counter-01",
@@ -1295,13 +1295,12 @@
           "counter-03",
           "counter-04"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "service_banner_contact": {
         "type": "service_banner_contact",
         "settings": {
-          "image":"shopify:\/\/shop_images\/about2-bg-3.jpg",
+          "image": "shopify:\/\/shop_images\/about2-bg-3.jpg",
           "banner_title": "Let's talk",
           "text": "Nulla facilisi. Vestibulum venenatis ipsum ut ligula lobortis, vitae consectetur lacus gravida. Proin ac turpis eget nunc pellentesque finibus nec eu metus. Nullam interdum lorem augue, non fringilla augue auctor sed.",
           "banner_button": "Contact Us",
@@ -1321,8 +1320,8 @@
           "contact_form_sub_title": "",
           "contact_summary_text": "If you would like to discuss your requirements, or indeed would like us to assist defining the requirements of your website users then please contact us.",
           "contact_addresss": "66 McKenzie Turnpike Apt. 745, South Margarete",
-          "contact_phone":"(+61 2) 9251 5600",
-          "contact_email":"info@domain.com",
+          "contact_phone": "(+61 2) 9251 5600",
+          "contact_email": "info@domain.com",
           "contact_socials_link": "<a href=\"#\" class=\"facebook\" title=\"Facebook\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-facebook\"><\/i><\/a><a href=\"#\" class=\"twitter\" title=\"Twitter\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-twitter\"><\/i><\/a><a href=\"#\" class=\"linked-in\" title=\"Linked In\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-linkedin\"><\/i><\/a><a href=\"#\" class=\"youtube\" title=\"Youtube\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-youtube-play\"><\/i><\/a><a href=\"#\" class=\"vimeo\" title=\"Vimeo\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-vimeo-square\"></i></a>"
         }
       },
@@ -1552,8 +1551,7 @@
           "0000005",
           "0000006"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "featured_collections": {
         "type": "featured_collections",
@@ -1596,35 +1594,38 @@
           "home-slideshow-0": {
             "type": "image",
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/slider-m01-1-1.jpg",
-              "class_content": "content-slider-1",
-              "use_content_image": true,
-              "content_image_slider": "shopify:\/\/shop_images\/slider-mockup-m01-1-1.png",
-              "content1": "<h1 class=\"special-font\">Slim-fit unstructured blazer<\/h1>",
-              "content2": "<p>$89.99<\/p>",
-              "button_content": "<a href=\"#\" class=\"btn-button large bordered uppercase\">Shop now<\/a>"
+              "background_image": "shopify:\/\/shop_images\/slider-m04-1.jpg",
+              "class_content": "content-slider-3",
+              "use_content_image": false,
+              "content_image_slider": "",
+              "content1": "<h3>Winter treats<\/h3>",
+              "content2": "<p>$79.99<\/p>",
+              "button_content": "<a href=\"#\" class=\"btn-button black uppercase\">Shop now<\/a>"
             }
           },
           "home-slideshow-1": {
             "type": "image",
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/slider-m01-2-1.jpg",
-              "class_content": "content-slider-1-2",
-              "use_content_image": true,
-              "content_image_slider": "shopify:\/\/shop_images\/slider-mockup-m01-2-1.png",
-              "button_content": "<a href=\"#\" class=\"btn-button large bordered uppercase\">Shop now<\/a>"
+              "background_image": "shopify:\/\/shop_images\/slider-m04-2.jpg",
+              "class_content": "content-slider-3-2",
+              "use_content_image": false,
+              "content_image_slider": "",
+              "content1": "<h2>London FW<\/h2>",
+              "content2": "<h5>UP TO 30% SELECTED ITEMS<\/h5>",
+              "button_content": "<a href=\"#\" class=\"btn-button black uppercase\">Shop now<\/a>"
             }
           },
           "home-slideshow-2": {
             "type": "image",
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/slider-m01-3-1.jpg",
-              "class_content": "content-slider-1",
-              "use_content_image": true,
-              "content_image_slider": "shopify:\/\/shop_images\/slider-mockup-m01-3-1.png",
-              "content1": "<h1 class=\"special-font\">Velvet Tube Dress<\/h1>",
-              "content2": "<p>$89.99<\/p>",
-              "button_content": "<a href=\"#\" class=\"btn-button large bordered uppercase\">Shop now<\/a>"
+              "background_image": "shopify:\/\/shop_images\/slider-m04-3.jpg",
+              "class_content": "content-slider-3-3",
+              "use_content_image": false,
+              "content_image_slider": "",
+              "content1": "<h2>CORDUROY TROUSERS<\/h2>",
+              "content2": "<p>4317/388 - Color: navy blue<\/p>",
+              "content3": "<h5>$45.99<\/h5>",
+              "button_content": "<a href=\"#\" class=\"btn-button black uppercase\">Shop now<\/a>"
             }
           }
         },
@@ -1638,80 +1639,150 @@
           "slide_transition": "slide",
           "slide_navigation": "1",
           "slide_pagination": "0",
-          "slider_height": "80",
+          "slider_height": "65",
           "slide_nav_prev": "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"><\/i>",
           "slide_nav_next": "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"><\/i>"
         }
       },
-      "home-banner-1": {
-        "type": "helas_banner_image",
+      "home-products-tab": {
+        "type": "home_tab_collection",
         "settings": {
-          "image": "shopify:\/\/shop_images\/m1-bg-1.jpg",
-          "title": "Metallic Blazer Dress",
-          "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus. Phasellus vitae feugiat magna.",
-          "btn_link": "#",
-          "btn_title": "Shop Now"
+          "preset_section_title": "style_3",
+          "title": "New <span class=\"special-font\">Arrival<\/span>",
+          "tab_collection_view_all_product": "VIEW ALL PRODUCTS",
+          "tab_collection_link_all_product": "#",
+          "tab_collection_limit": "8",
+          "tab_collection_column": "4",
+          "tab_collection_title_1": "all",
+          "tab_collection_1": "main-02",
+          "tab_collection_title_2": "Man",
+          "tab_collection_2": "main-01",
+          "tab_collection_title_3": "Woman",
+          "tab_collection_3": "main-03",
+          "tab_collection_title_4": "Kids",
+          "tab_collection_4": "main-04",
+          "tab_collection_title_5": "ACCESSORIES",
+          "tab_collection_5": "main-01"
         }
       },
-      "home-banner-2": {
-        "type": "helas_banner_image",
-        "settings": {
-          "preset": "2",
-          "image": "shopify:\/\/shop_images\/m1-bg-2.jpg",
-          "label": "Hot",
-          "title": "Slim-fit patterned suit blazer",
-          "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus. Phasellus vitae feugiat magna.",
-          "btn_link": "#",
-          "btn_title": "Shop Now"
-        }
-      },
-      "home-icon-box": {
-        "type": "home_icon_box",
+      "home-collection-list": {
+        "type": "home_collection_list",
         "blocks": {
-          "home-icon-box-001": {
-            "type": "icon_box",
+          "conllection-list-0": {
+            "type": "featured_collection",
             "settings": {
-              "image": "shopify:\/\/shop_images\/boat.png",
-              "title": "Free Deliver",
-              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper"
+              "collection": "smartwatch",
+              "sub_title": "$9.99"
             }
           },
-          "home-icon-box-002": {
-            "type": "icon_box",
+          "conllection-list-1": {
+            "type": "featured_collection",
             "settings": {
-              "image": "shopify:\/\/shop_images\/customer-support.png",
-              "title": "Expert Support",
-              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper"
+              "collection": "ribbed-skirt"
             }
           },
-          "home-icon-box-003": {
-            "type": "icon_box",
+          "conllection-list-2": {
+            "type": "featured_collection",
             "settings": {
-              "image": "shopify:\/\/shop_images\/lock.png",
-              "title": "Buyer Protection",
-              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper"
+              "collection": "man-collection"
+            }
+          },
+          "conllection-list-3": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "women-collection"
+            }
+          },
+          "conllection-list-4": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "glass-collection"
             }
           }
         },
         "block_order": [
-          "home-icon-box-001",
-          "home-icon-box-002",
-          "home-icon-box-003"
+          "conllection-list-1",
+          "conllection-list-2",
+          "conllection-list-3",
+          "conllection-list-4"
         ],
         "settings": {
-          "grid": 3,
-          "enable_style": true,
-          "style_top": 75
+          "title": "Top <span class=\"special-font\">Categories<\/span>",
+          "preset_section_title": "style_3",
+          "top_collection_width_screen": "full",
+          "top_collection_display": "grid",
+          "grid": 2
         }
       },
-      "home-product-list": {
-        "type": "home_product_list",
+      "home-special-offers": {
+        "type": "home_special_offers",
+        "blocks": {
+          "offer-1": {
+            "type": "offer_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m4-pp-1.jpg",
+              "discount_percent": "-52.6%",
+              "price": "$75.99",
+              "price_discount": "$35.99",
+              "title": "Pointed heel ankle boot",
+              "sub_title": "REF. 13045012 - MAITE",
+              "button_url": "#"
+            }
+          }
+        },
+        "block_order": [
+          "offer-1"
+        ],
         "settings": {
-          "title": "Top Sale",
-          "sub_title": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper<br> tempus, nibh lorem congue lectus, ut pharetra torto",
-          "product_list_limit": "4",
-          "product_list_column": "4",
-          "product_list_collection_use": "home-01-list"
+          "title": "Special <span class=\"special-font\">Offers<\/span>",
+          "preset_section_title": "style_3"
+        }
+      },
+      "main-blog-list": {
+        "type": "home_article_list",
+        "settings": {
+          "preset": "style_2",
+          "preset_section_title": "style_3",
+          "title": "Our <span class=\"special-font\">Blog<\/span>",
+          "blog": "main-03",
+          "blog_article_limit": "3",
+          "number_columns_blog_show": "3"
+        }
+      },
+      "main-testimonial": {
+        "type": "home_testimonials",
+        "blocks": {
+          "main-testimonial01": {
+            "type": "testimonial_content",
+            "settings": {
+              "testimonial_avt": "shopify:\/\/shop_images\/m2-mem-1.jpg",
+              "testimonial_text": "\"Curabitur lacinia metus vitae odio euismod, sit amet cursus ipsum tincidunt. Pellentesm, id vestibulum\"",
+              "testimonial_text_author": "Eugene Watkins",
+              "testimonial_text_job": "Happy Client"
+            }
+          },
+          "main-testimonial02": {
+            "type": "testimonial_content",
+            "settings": {
+              "testimonial_avt": "shopify:\/\/shop_images\/m2-mem-1.jpg",
+              "testimonial_text": "\"Curabitur lacinia metus vitae odio euismod, sit amet cursus ipsum tincidunt. Pellentesm, id vestibulum\"",
+              "testimonial_text_author": "Jon Snow",
+              "testimonial_text_job": "Happy Client"
+            }
+          }
+        },
+        "block_order": [
+          "main-testimonial01",
+          "main-testimonial02"
+        ],
+        "settings": {
+          "preset": "style_2",
+          "enable_parallax": false,
+          "background": "shopify:\/\/shop_images\/m3-bg-3.jpg",
+          "padding_top": 70,
+          "padding_bottom": 70,
+          "enable_style": true,
+          "style_top": 75
         }
       },
       "newsletter-box": {
@@ -1728,15 +1799,16 @@
     },
     "content_for_index": [
       "home-slideshow",
-      "home-banner-1",
-      "home-banner-2",
-      "home-icon-box",
+      "home-products-tab",
+      "home-collection-list",
+      "home-special-offers",
       "home-product-list",
+      "main-blog-list",
+      "main-testimonial",
       "newsletter-box"
     ]
   },
   "presets": {
-    "Default": {
-    }
+    "Default": {}
   }
 }

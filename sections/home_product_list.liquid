@@ -8,7 +8,7 @@
 <section data-section-id="{{ section.id }}" class="section_product_list">
     {% include "block_title" %}
     {% if section.settings.preset == 'style_1' %}
-    <div class="container-fluid EL_row_padding_65">
+    <div class="{% if section.settings.layout == 'full_width' %}container-fluid EL_row_padding_65{% else %}container{% endif %}">
         <div class="main-tab-products">
             <div class="tab-product-collection">
                 <div class="category-detail ">
@@ -98,6 +98,22 @@ body div[data-section-id="{{ section.id }}"]{
 }
 ],
 "default": "style_1"
+},
+{
+  "type": "select",
+  "id": "layout",
+  "label": "Layout",
+  "options": [
+{
+  "value": "boxed",
+  "label": "Boxed"
+},
+{
+  "value": "full_width",
+  "label": "Full Width"
+}
+],
+"default": "full_width"
 },
 {
 "type": "header",

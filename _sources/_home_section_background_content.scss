@@ -1,13 +1,47 @@
-.has-center-content  {
+.background-content-section  {
   position: relative;
-  .background-content__content {
-    position: absolute;
-    left: 50%;
-    top:50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  &.style_1 {
+    .backhground-content__inner {
+      background-image: url(bg-white-radius.png);
+      background-repeat: no-repeat;
+      background-position: top center;
+      background-attachment: scroll;
+      padding-top: 60px;
+      padding-bottom: 0px;
+    }
+    .background-content__content {
+      position: absolute;
+      left: 50%;
+      top:50%;
+      text-align: center;
+      @include translate-all;
+      .text-1 {
+        font-size: 12px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #fff;
+      }
+      .text-2 {
+        font-size: 86px;
+        line-height: 90px;
+        color: #fff;
+      }
+      .btn-button {
+        margin-top: 45px;
+      }
+    }
+  }
+  &.content_preset_light {
+    .background-content__content {
+      .text-1 {
+        color: #fff;
+      }
+      .text-2 {
+        color: #fff;
+      }
+      .text-3 {
+        color: #fff;
+      }
+    }
   }
 }

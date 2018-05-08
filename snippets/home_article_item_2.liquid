@@ -1,0 +1,35 @@
+<div class="blog_item--inner item-inner">
+  <div class="blog_item--inner2 item-inner-wrap">
+    <div class="thumb-overlay" style="background-image:url({{ article | img_url: 'master'}})"></div>
+    <div class="blog_item--info clearfix">
+      <header class="blog_item--title entry-header">
+        <h3 class="entry-title"><a href="{{ article.url }}" tabindex="0">
+          {% if settings.language_enable %}
+          <span class="lang1">{{ article.title | split: '|' | first }}</span>
+          <span class="lang2">{{ article.title | split: '|' | last }}</span>
+          {% else %}
+          {{ article.title | split: '|' | first }}
+          {% endif %}
+        </a></h3> </header>
+        <div class="date_comment">
+            <div class="author_post">
+                <span><span{% if settings.language_enable %} data-translate="blogs.article.by"{% endif %}>{{ 'blogs.article.by' | t }}</span> {{ article.author }}</span>
+            </div>
+            <div class="post-date">
+                <span class="day">{{ article.published_at | date: '%d' }}</span>
+                <span class="month">{{ article.published_at | date: '%b' }}, </span>
+                <span class="year">{{ article.published_at | date: '%Y' }}</span>
+            </div>
+        </div>
+      <div class="blog_item--excerpt entry-excerpt">
+        {% if settings.language_enable %}
+        <span class="lang1">{{ article.content | strip_html | split: '[lang2]' | first | truncatewords: 10 }}</span>
+        <span class="lang2">{{ article.content | strip_html | split: '[lang2]' | last | truncatewords: 10 }}</span>
+        {% else %}
+        {{ article.content | strip_html | split: '[lang2]' | first | truncatewords: 10}}
+        {% endif %}
+      </div>
+      <footer class="blog_item--meta-footer clearfix"> <a class="btn-readmore" href="{{ article.url }}" tabindex="0"{% if settings.language_enable %} data-translate="blogs.article.read_more"{% endif %}>{{ 'blogs.article.read_more' | t }}</a> </footer>
+    </div>
+  </div>
+</div>

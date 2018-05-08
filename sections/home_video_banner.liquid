@@ -1,34 +1,9 @@
 {% if section.settings.play_icon != blank %}
 {% assign button = section.settings.play_icon | img_url: "master" %}
 {% else %}
-{% assign button = 'home-icon-play.png' | asset_url %}
+{% assign button = 'm3-icon-play.png' | asset_url %}
 {% endif %}
-<div data-section-id="{{ section.id }}" data-section-type="banner-video-section" class="banner-video-section {% if section.settings.enable_parallax == true %}parallax-box{% endif %} {{section.settings.banner_preset}} incify-styles" data-styles='{
-  {% if section.settings.enable_style == true %}
-    {% if section.settings.style_top != '' %}
-    "margin-top":"{{ section.settings.style_top }}px",
-    {% endif %}
-    {% if section.settings.style_bottom != '' %}
-    "margin-bottom":"{{ section.settings.style_bottom }}px",
-    {% endif %}
-    {% if section.settings.style_left != '' %}
-    "margin-left":"{{ section.settings.style_left }}px",
-    {% endif %}
-    {% if section.settings.style_right != '' %}
-    "margin-right":"{{ section.settings.style_right }}px",
-    {% endif %}
-  {% endif %}
-  {% if section.settings.background != '' %}
-  "background-image":"url({{ section.settings.background | img_url: 'master' }})",
-  "background-repeat": "no-repeat",
-  "background-position": "50% 50%",
-  "background-size": "cover",
-  {% endif %}
-  {% if section.settings.padding_top != '' %}
-  "padding-top":"{{ section.settings.padding_top }}px",
-  {% endif %}
-  "padding-bottom":"{{ section.settings.padding_bottom }}px"
-}'>
+<div data-section-id="{{ section.id }}" class="banner-video-section lg-mt-75 md-mt-50 xs-mt-30 {% if section.settings.enable_parallax == true %}parallax-box{% endif %} {{section.settings.banner_preset}}">
   <div class="incify-video-popup">
       <div class="incify-video-popup__content md-mb-50 xs-mb-20">
         {% include 'shortcode' load: section.settings.content %}
@@ -40,6 +15,34 @@
       {% endif %}
   </div>
 </div>
+<span class="custom-styles-css">
+body div[data-section-id="{{ section.id }}"]{
+  {% if section.settings.enable_style == true %}
+    {% if section.settings.style_top != '' %}
+    margin-top:{{ section.settings.style_top }}px;
+    {% endif %}
+    {% if section.settings.style_bottom != '' %}
+    margin-bottom:{{ section.settings.style_bottom }}px;
+    {% endif %}
+    {% if section.settings.style_left != '' %}
+    margin-left:{{ section.settings.style_left }}px;
+    {% endif %}
+    {% if section.settings.style_right != '' %}
+    margin-right:{{ section.settings.style_right }}px;
+    {% endif %}
+  {% endif %}
+  {% if section.settings.background != '' %}
+  background-image:url({{ section.settings.background | img_url: 'master' }});
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  {% endif %}
+  {% if section.settings.padding_top != '' %}
+  padding-top:{{ section.settings.padding_top }}px;
+  {% endif %}
+  padding-bottom:{{ section.settings.padding_bottom }}px;
+}
+</span>
 {% schema %}
 {
 "name": "Video Banner",

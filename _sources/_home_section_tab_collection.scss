@@ -23,16 +23,16 @@
         li{
           display: inline-block;
           float: none;
-          padding-bottom: 5px;
-          margin: 0 15px;
+          padding: 9px 25px;
+          border: transparent solid 1px;
+          margin-right: 10px;
           a{
             border:0;
             padding:0;
-            color: #232324;
             font-size:12px;
             font-weight:400;
             text-transform: uppercase;
-
+            letter-spacing: 1px;
             &:hover{
               background:#fff;
               text-decoration:none;
@@ -44,6 +44,10 @@
               padding: 0;
               border: 0;
             }
+          }
+          &:hover,
+          &.active {
+            border: #dedede solid 1px;
           }
         }
       }

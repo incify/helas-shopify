@@ -1,61 +1,32 @@
-<div data-section-id="{{ section.id }}" data-section-type="banner-image-section" class="banner-image-section {{section.settings.banner_preset}}{% if section.settings.banner_space == 'yes' %} has-space{% endif %} {% if section.settings.enable_style == true %}incify-styles{% endif %}" {% if section.settings.enable_style == true %}data-styles='{
-  {% if section.settings.style_top != '' %}
-  "margin-top":"{{ section.settings.style_top }}px",
-  {% endif %}
-  {% if section.settings.style_bottom != '' %}
-  "margin-bottom":"{{ section.settings.style_bottom }}px",
-  {% endif %}
-  {% if section.settings.style_left != '' %}
-  "margin-left":"{{ section.settings.style_left }}px",
-  {% endif %}
-  {% if section.settings.style_right != '' %}
-  "margin-right":"{{ section.settings.style_right }}px"
-  {% endif %}
-}'{% endif %}>
+<div data-section-id="{{ section.id }}" class="banner-image-section {{section.settings.banner_preset}}{% if section.settings.banner_space == 'yes' %} has-space{% endif %}">
     <div class="banner-image{% if section.settings.width_layout == 'boxed' %} container{% endif %}">
       <div{% if section.settings.width_layout == 'boxed' %} class="row"{% endif %}>
-        <div class="grid-x{% if section.settings.banner_space == 'yes' %} grid-padding-y grid-padding-x{% endif %}{% if section.settings.show_content_when_hover %} content-visible-when-hover{% endif %} small-up-1 medium-up-{{section.settings.grid_2}} large-up-{{section.settings.grid}}">
+        <div class="grid-x{% if section.settings.banner_space == 'yes' %} grid-padding-y grid-padding-x{% endif %}{% if section.settings.banner_space == 'small' %} small-space{% endif %}{% if section.settings.show_content_when_hover %} content-visible-when-hover{% endif %} small-up-1 medium-up-{{section.settings.grid_2}} large-up-{{section.settings.grid}}">
           {% for block in section.blocks %}
           <div class="cell">
             <div class="box-inner">
-                <div class="banner--image incify-lazyload-image banner-background-1" data-background-image="{{ block.settings.image_banner | img_url: 'master' }}" data-auto-padding="true"></div>
-                {% if block.settings.text_banner != blank %}
-                <div class="banner--infor">
+                <div class="banner--image spcial-hover-effect incify-lazyload-image banner-background-1" data-background-image="{{ block.settings.image_banner | img_url: 'master' }}" data-auto-padding="true"></div>
+                <div class="banner--infor content-position-{{ block.settings.text_position }}">
                     {% case section.settings.banner_preset %}
                     {% when 'style_3' %}
-                    <h3{% if block.settings.text_banner_color != '' %} style="color:{{ block.settings.text_banner_color }}"{% endif %}>{{ block.settings.text_banner }}</h3>
-                    <h1{% if block.settings.text_banner_color_2 != '' %} style="color:{{ block.settings.text_banner_color_2 }}"{% endif %}>{{ block.settings.text_banner_2 }}</h1>
-                    <p{% if block.settings.text_banner_color_3 != '' %} style="color:{{ block.settings.text_banner_color_3 }}"{% endif %}>{{ block.settings.text_banner_3 }}</p>
-                    {% if block.settings.banner_button != '' %}
-                    <a class="btn-button bordered-2 x3" href="{% if section.settings.link_banner != blank %}{{section.settings.link_banner}}{% else %}#{% endif %}">{{ block.settings.banner_button }}</a>
-                    {% endif %}
-                    {% when 'style_7' %}
-                    <h3{% if block.settings.text_banner_color != '' %} style="color:{{ block.settings.text_banner_color }}"{% endif %}>{{ block.settings.text_banner }}</h3>
-                    <h1{% if block.settings.text_banner_color_2 != '' %} style="color:{{ block.settings.text_banner_color_2 }}"{% endif %}>{{ block.settings.text_banner_2 }}</h1>
-                    {% if block.settings.banner_button != '' %}
-                    <a class="icon-button" href="{% if section.settings.link_banner != blank %}{{section.settings.link_banner}}{% else %}#{% endif %}">{{ block.settings.banner_button }}</a>
-                    {% endif %}
-                    {% when 'style_10' %}
-                    <h3{% if block.settings.text_banner_color != '' %} style="color:{{ block.settings.text_banner_color }}"{% endif %}>{{ block.settings.text_banner }}</h3>
-                    <h1{% if block.settings.text_banner_color_2 != '' %} style="color:{{ block.settings.text_banner_color_2 }}"{% endif %}>{{ block.settings.text_banner_2 }}</h1>
-                    {% if block.settings.banner_button != '' %}
-                    <a class="btn-button large bordered x2" href="{% if section.settings.link_banner != blank %}{{section.settings.link_banner}}{% else %}#{% endif %}">{{ block.settings.banner_button }}</a>
-                    {% endif %}
-                    {% when 'style_14_2' %}
-                    <h3{% if block.settings.text_banner_color != '' %} style="color:{{ block.settings.text_banner_color }}"{% endif %}>{{ block.settings.text_banner }}</h3>
-                    <h1{% if block.settings.text_banner_color_2 != '' %} style="color:{{ block.settings.text_banner_color_2 }}"{% endif %}>{{ block.settings.text_banner_2 }}</h1>
-                    {% if block.settings.banner_button != '' %}
-                    <a class="btn-button small black uppercase" href="{% if section.settings.link_banner != blank %}{{section.settings.link_banner}}{% else %}#{% endif %}">{{ block.settings.banner_button }}</a>
-                    {% endif %}
                     {% else %}
-                      <h1{% if block.settings.text_banner_color != '' %} style="color:{{ block.settings.text_banner_color }}"{% endif %}>{{ block.settings.text_banner }}</h1>
-                      {% if block.settings.banner_button != '' %}
-                      <a class="btn-button bordered-2 x3" href="{% if section.settings.link_banner != blank %}{{section.settings.link_banner}}{% else %}#{% endif %}">{{ block.settings.banner_button }}</a>
+                      {% if block.settings.text_banner != blank %}
+                        <div class="banner--infor__text_1 {{ block.settings.text_class }}">{{ block.settings.text_banner }}</div>
+                      {% endif %}
+                      {% if block.settings.text_banner_2 != blank %}
+                        <div class="banner--infor__text_2 {{ block.settings.text_class_2 }}">{{ block.settings.text_banner_2 }}</div>
+                      {% endif %}
+                      {% if block.settings.text_banner_3 != blank %}
+                        <div class="banner--infor__text_3 {{ block.settings.text_class_3 }}">{{ block.settings.text_banner_3 }}</div>
+                      {% endif %}
+                      {% if block.settings.link_banner and block.settings.banner_button and section.settings.banner_preset == 'style_2' %}
+                      <a href="{{ block.settings.link_banner }}" class="btn-button bordered uppercase">{{ block.settings.banner_button }}</a>
                       {% endif %}
                     {% endcase %}
                 </div>
-                {% endif %}
-                <a class="link-shop-overlay" href="{% if section.settings.link_banner != blank %}{{section.settings.link_banner}}{% else %}#{% endif %}"></a>
+                <a class="link-shop-overlay" href="{% if section.settings.link_banner != blank %}{{section.settings.link_banner}}{% else %}#{% endif %}">
+                  <span><span>{{ block.settings.banner_button }}</span></span>
+                </a>
             </div>
           </div>
           {% endfor %}
@@ -63,6 +34,24 @@
       </div>
     </div>
 </div>
+{% if section.settings.enable_style == true %}
+<span class="custom-styles-css">
+  body div[data-section-id="{{ section.id }}"]{
+    {% if section.settings.style_top != '' %}
+    margin-top:{{ section.settings.style_top }}px;
+    {% endif %}
+    {% if section.settings.style_bottom != '' %}
+    margin-bottom:{{ section.settings.style_bottom }}px;
+    {% endif %}
+    {% if section.settings.style_left != '' %}
+    margin-left:{{ section.settings.style_left }}px;
+    {% endif %}
+    {% if section.settings.style_right != '' %}
+    margin-right:{{ section.settings.style_right }}px;
+    {% endif %}
+  }
+</span>
+{% endif %}
 {% schema %}
 {
 "name": "Banner Image",
@@ -84,26 +73,6 @@
     {
       "value": "style_2",
       "label": "Style 2"
-    },
-    {
-      "value": "style_3",
-      "label": "Style 3"
-    },
-    {
-      "value": "style_7",
-      "label": "Style 7"
-    },
-    {
-      "value": "style_10",
-      "label": "Style 10"
-    },
-    {
-      "value": "style_14",
-      "label": "Style 14"
-    },
-    {
-      "value": "style_14_2",
-      "label": "Style 14 2"
     }
     ],
     "default": "style_1"
@@ -122,7 +91,7 @@
     "label": "Boxed"
     }
     ],
-    "default": "full"
+    "default": "boxed"
     },
     {
       "type": "select",
@@ -132,6 +101,10 @@
         {
           "value": "yes",
           "label": "Yes"
+        },
+        {
+          "value": "small",
+          "label": "Small"
         },
         {
           "value": "no",
@@ -226,6 +199,26 @@
           "label": "Banner Image"
         },
         {
+          "type": "select",
+          "id": "text_position",
+          "label": "Content Position",
+          "options": [
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "left"
+        },
+        {
         "type": "header",
         "content": "Banner Text Settings"
         },
@@ -235,9 +228,9 @@
           "label": "Text"
         },
         {
-          "type": "color",
-          "id": "text_banner_color",
-          "label": "Color"
+          "type": "text",
+          "id": "text_class",
+          "label": "Extra Class"
         },
         {
         "type": "header",
@@ -249,9 +242,9 @@
           "label": "Text"
         },
         {
-          "type": "color",
-          "id": "text_banner_color_2",
-          "label": "Color"
+          "type": "text",
+          "id": "text_class_2",
+          "label": "Extra Class"
         },
         {
         "type": "header",
@@ -263,9 +256,9 @@
           "label": "Text"
         },
         {
-          "type": "color",
-          "id": "text_banner_color_3",
-          "label": "Color"
+          "type": "text",
+          "id": "text_class_3",
+          "label": "Extra Class"
         },
         {
         "type": "header",

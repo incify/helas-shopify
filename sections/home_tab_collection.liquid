@@ -19,35 +19,7 @@
   "margin-right":"{{ section.settings.style_right }}px"
   {% endif %}
 }'{% endif %}>
-    <div class="container {{ section.settings.preset_section_title }} {% if section.settings.sub_title != blank %}sub-title-enable{% endif %}">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="section-title">
-                    {% if settings.language_enable %}
-                    <span class="lang1">{{ section.settings.title | split: '|' | first }}</span>
-                    <span class="lang2">{{ section.settings.title | split: '|' | last }}</span>
-                    {% else %}
-                    <span>{{ section.settings.title | split: '|' | first }}</span>
-                    {% endif %}
-                </div>
-                {% if section.settings.sub_title != blank %}
-                <div class="section-sub-title">
-                    {{ section.settings.sub_title }}
-                </div>
-                {% endif %}
-                {% if section.settings.preset_section_title == 'style_7' %}
-                <div class="sub-image">
-                    <img src="{{ 'leaf.png' | asset_url }}" alt="sub-image">
-                </div>
-                {% endif %}
-                {% if section.settings.preset_section_title == 'style_8' %}
-                <div class="sub-image">
-                    <img src="{{ 'm15-i1.png' | asset_url }}" alt="sub-image">
-                </div>
-                {% endif %}
-            </div>
-        </div>
-    </div>
+    {% include "block_title" %}
     <div class="{% if section.settings.width_layout == 'boxed' %}container{% else %}container-fluid{% endif %}">
         <div class="main-tab-products">
             <div class="tab-product-collection">
@@ -98,6 +70,18 @@
                                     <span class="lang2">{{ section.settings.tab_collection_title_4 | split: '|' | last }}</span>
                                     {% else %}
                                     {{ section.settings.tab_collection_title_4 | split: '|' | first }}
+                                    {% endif %}
+                                </a>
+                            </li>
+                            {% endif %}
+                            {% if section.settings.tab_collection_5 !='' %}
+                            <li>
+                                <a href="#collection5" data-toggle="tab">
+                                    {% if settings.language_enable %}
+                                    <span class="lang1">{{ section.settings.tab_collection_title_5 | split: '|' | first }}</span>
+                                    <span class="lang2">{{ section.settings.tab_collection_title_5 | split: '|' | last }}</span>
+                                    {% else %}
+                                    {{ section.settings.tab_collection_title_5 | split: '|' | first }}
                                     {% endif %}
                                 </a>
                             </li>
@@ -157,9 +141,22 @@
                         <div class="tab-pane" id="collection4">
                             <div class="category-products">
                                 {% assign collection4 = collections[section.settings.tab_collection_4] %}
-                                {%- assign collection = collections[section.settings.collection] -%}
                                 <ul class="products-grid columns{{section.settings.tab_collection_column}} flex-grid">
                                     {% for product in collection4.products limit: section.settings.tab_collection_limit %}
+                                    <li class="item product product-layout-grid">
+                                        {% include 'product-tab-grid-item' %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% if section.settings.tab_collection_5 !='' %}
+                        <div class="tab-pane" id="collection5">
+                            <div class="category-products">
+                                {% assign collection5 = collections[section.settings.tab_collection_5] %}
+                                <ul class="products-grid columns{{section.settings.tab_collection_column}} flex-grid">
+                                    {% for product in collection5.products limit: section.settings.tab_collection_limit %}
                                     <li class="item product product-layout-grid">
                                         {% include 'product-tab-grid-item' %}
                                     </li>
@@ -329,6 +326,20 @@
         {
         "type": "collection",
         "id": "tab_collection_4",
+        "label": "Collection use:"
+        },
+        {
+        "type": "header",
+        "content": "Tab Collection 5"
+        },
+        {
+        "type": "text",
+        "id": "tab_collection_title_5",
+        "label": "Collection title"
+        },
+        {
+        "type": "collection",
+        "id": "tab_collection_5",
         "label": "Collection use:"
         },
         {

@@ -13,13 +13,9 @@
            {{ 'collection-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
          </div>
        {% else %}
-          <div class="banner--image" style="background-image: url({{ collection_image | img_url: 'master' }})"></div>
+          <div class="banner--image incify-lazyload-image" data-background-image="{{ collection_image | img_url: 'master' }}" data-auto-padding="true"></div>
        {% endif %}
         {% if collection.title != blank %}
-        <div class="banner-desc">
-          <div class="b-title b-title1">{{ collection.title }}</div>
-          <div class="b-title b-title2">{{ block.settings.sub_title }}</div>
-        </div>
         <div class="banner--infor">
             <p>{{ collection.title }}</p>
         </div>

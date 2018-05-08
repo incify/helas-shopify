@@ -306,7 +306,7 @@
     "wishlist_enable": true,
     "wishlist_page": "wishlist",
     "allow_share_wishlist": true,
-    "type_detail": "type2",
+    "type_detail": "type1",
     "product_countdown": true,
     "product_sample_vendor": false,
     "product_availability": true,

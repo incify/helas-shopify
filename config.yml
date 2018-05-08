@@ -8,7 +8,31 @@ development:
 
 demo_2:
   password: 1a57a5fe7458e5e74ac7a27fb123f395
-  theme_id: "13478035503"
+  theme_id: "15954280495"
+  store: helas-store.myshopify.com
+  ignore_files:
+  - config/settings_data.json
+  - _sources/*.scss
+
+demo_3:
+  password: 1a57a5fe7458e5e74ac7a27fb123f395
+  theme_id: "16998105135"
+  store: helas-store.myshopify.com
+  ignore_files:
+  - config/settings_data.json
+  - _sources/*.scss
+
+demo_4:
+  password: 1a57a5fe7458e5e74ac7a27fb123f395
+  theme_id: "17452367919"
+  store: helas-store.myshopify.com
+  ignore_files:
+  - config/settings_data.json  
+  - _sources/*.scss
+
+demo_5:
+  password: 1a57a5fe7458e5e74ac7a27fb123f395
+  theme_id: "17495687215"
   store: helas-store.myshopify.com
   ignore_files:
   - _sources/*.scss

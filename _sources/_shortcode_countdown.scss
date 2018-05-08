@@ -8,31 +8,20 @@
       position: relative;
       display: inline-block;
       float: left;
-      margin-right: 40px;
-      padding-left: 40px;
-      &:before {
-        content:"";
-        border-left:2px solid;
-        position:absolute;
-        left:-1px;
-        height:20px;
-        opacity:.3;
-        border-color:#000;
-        width:0;
-        top:50%;
-        transform:translate(0,-50%);
-        -ms-transform:translate(0,-50%);
-        -webkit-transform:translate(0,-50%)
-      }
-      &:first-child:before {
-        display: none;
-      }
+      margin-right: 20px;
+      text-align: center;
+      border: #ccc solid 1px;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
     }
     .no {
       display: block;
       line-height: 1;
-      font-size: 36px;
-      font-weight: 500
+      font-size: 18px;
+      font-weight: 700;
+      text-align:center;
+      margin-top: 21px;
     }
     .text {
       display: block;

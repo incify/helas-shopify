@@ -1,49 +1,6 @@
-<div data-section-id="{{ section.id }}" data-section-type="top-collection-section" class="top-collection-section{% if section.settings.enable_style == true %} incify-styles{% endif %}"{% if section.settings.enable_style == true %} data-styles='{
-  {% if section.settings.style_top != '' %}
-  "margin-top":"{{ section.settings.style_top }}px",
-  {% endif %}
-  {% if section.settings.style_bottom != '' %}
-  "margin-bottom":"{{ section.settings.style_bottom }}px",
-  {% endif %}
-  {% if section.settings.style_left != '' %}
-  "margin-left":"{{ section.settings.style_left }}px",
-  {% endif %}
-  {% if section.settings.style_right != '' %}
-  "margin-right":"{{ section.settings.style_right }}px"
-  {% endif %}
-}'{% endif %}>
-    {% if section.settings.title != ''%}
-    <div class="container {{ section.settings.preset_section_title }} {% if section.settings.sub_title != blank %}sub-title-enable{% endif %}">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="section-title">
-                    {% if settings.language_enable %}
-                    <span class="lang1">{{ section.settings.title | split: '|' | first }}</span>
-                    <span class="lang2">{{ section.settings.title | split: '|' | last }}</span>
-                    {% else %}
-                    <span>{{ section.settings.title | split: '|' | first }}</span>
-                    {% endif %}
-                </div>
-                {% if section.settings.sub_title != blank %}
-                <div class="section-sub-title">
-                    {{ section.settings.sub_title }}
-                </div>
-                {% endif %}
-                {% if section.settings.preset_section_title == 'style_7' %}
-                <div class="sub-image">
-                    <img src="{{ 'leaf.png' | asset_url }}" alt="sub-image">
-                </div>
-                {% endif %}
-                {% if section.settings.preset_section_title == 'style_8' %}
-                <div class="sub-image">
-                    <img src="{{ 'm15-i1.png' | asset_url }}" alt="sub-image">
-                </div>
-                {% endif %}
-            </div>
-        </div>
-    </div>
-    {% endif %}
-    <div class="{% if section.settings.top_collection_width_screen == 'full' %}container-fluid{% else %}container{% endif %}">
+<div data-section-id="{{ section.id }}" class="top-collection-section">
+    {% include "block_title" %}
+    <div class="{% if section.settings.top_collection_width_screen == 'full' %}container-fluid EL_row_padding_65{% else %}container{% endif %}">
       <div class="row">
         {% if section.settings.top_collection_display == 'slide' %}
         <div class="slick-carousel collection-banner-content" data-slick='{"slidesToShow": {{ section.settings.grid }}, "slidesToScroll": {{ section.settings.grid }}, "dots": true, "autoplaySpeed":5000, "speed":300 ,"responsive":[{"breakpoint":1824,"settings":{"slidesToShow":{{ section.settings.grid }},"slidesToScroll":{{ section.settings.grid }}}},{"breakpoint":1200,"settings":{"slidesToShow":{{ section.settings.grid }},"slidesToScroll":{{ section.settings.grid }}}},{"breakpoint":992,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":768,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"infinite":false}'>
@@ -54,25 +11,8 @@
             {% endfor %}
         </div>
         {% endif %}
-        {% if section.settings.top_collection_display == 'slide_2' %}
-        <div class="slick-carousel collection-banner-content slide_2" data-slick='{"slidesToShow": {{ section.settings.grid }}, "slidesToScroll": {{ section.settings.grid }}, "dots": true, "autoplaySpeed":5000, "speed":300 ,"responsive":[{"breakpoint":1824,"settings":{"slidesToShow":{{ section.settings.grid }},"slidesToScroll":{{ section.settings.grid }}}},{"breakpoint":1200,"settings":{"slidesToShow":{{ section.settings.grid }},"slidesToScroll":{{ section.settings.grid }}}},{"breakpoint":992,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":768,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"infinite":false}'>
-
-            {% for block in section.blocks limit: section.blocks.size %}
-            {%- assign collection = collections[block.settings.collection] -%}
-            {% include 'collection-slider-item' %}
-            {% endfor %}
-        </div>
-        {% endif %}
         {% if section.settings.top_collection_display == 'grid' %}
-        <div class="collection-banner-content collection-grid">
-            {% for block in section.blocks limit: section.blocks.size %}
-            {%- assign collection = collections[block.settings.collection] -%}
-            {% include 'collection-slider-item' %}
-            {% endfor %}
-        </div>
-        {% endif %}
-        {% if section.settings.top_collection_display == 'grid_2' %}
-        <div class="grid-x grid-padding-y grid-padding-x small-up-1 medium-up-2 large-up-{{section.settings.grid}} collection-banner-content collection-grid-2">
+        <div class="collection-banner-content grid-x grid-padding-y grid-padding-x small-up-1 medium-up-{{section.settings.grid}} large-up-{{section.settings.grid}} content-visible-when-hover">
             {% for block in section.blocks limit: section.blocks.size %}
             {%- assign collection = collections[block.settings.collection] -%}
             {% include 'collection-grid-2-item' %}
@@ -82,6 +22,24 @@
     </div>
   </div>
 </div>
+<span class="custom-styles-css">
+body div[data-section-id="{{ section.id }}"]{
+  {% if section.settings.enable_style == true %}
+    {% if section.settings.style_top != '' %}
+    margin-top:{{ section.settings.style_top }}px;
+    {% endif %}
+    {% if section.settings.style_bottom != '' %}
+    margin-bottom:{{ section.settings.style_bottom }}px;
+    {% endif %}
+    {% if section.settings.style_left != '' %}
+    margin-left:{{ section.settings.style_left }}px;
+    {% endif %}
+    {% if section.settings.style_right != '' %}
+    margin-right:{{ section.settings.style_right }}px;
+    {% endif %}
+  {% endif %}
+}
+</span>
 {% schema %}
 {
 "name": "Collection Slider",
@@ -143,10 +101,10 @@
     "type": "range",
     "id": "grid",
     "label": "Collections per row",
-    "min": 3,
+    "min": 2,
     "max": 6,
     "step": 1,
-    "default": 6
+    "default": 2
   },
     {
     "type": "select",
@@ -158,16 +116,8 @@
       "label": "Grid"
     },
     {
-      "value": "grid_2",
-      "label": "Grid Style 2"
-    },
-    {
       "value": "slide",
-      "label": "Slide"
-    },
-    {
-      "value": "slide_2",
-      "label": "Slide Style 2"
+      "label": "Slider"
     }
     ],
     "default": "slide"
