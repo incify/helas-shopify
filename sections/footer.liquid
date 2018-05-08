@@ -20,8 +20,8 @@
 {% else %}
 {% assign footer_logo_white = 'logo-light.png' | asset_url %}
 {% endif %}
+{% if section.settings.typefooter != 'no' %}
 <footer class="footer-wrapper footer-{{section.settings.typefooter}} footer-{{section.settings.footer_preset}}" {% if section.settings.footer_background_image != blank %} style='background-image: url({{ section.settings.footer_background_image | img_url: "master" }});background-repeat: no-repeat;background-position: center center;background-size: cover;'{% endif%}>
-
     <div class="footer-container">
       {% case section.settings.typefooter %}
       {% when 'style1' %}
@@ -47,6 +47,7 @@
         </a>
     </div>
 </footer>
+{% endif %}
 {% schema %}
 {
   "name": "Footer",
@@ -76,6 +77,10 @@
         {
           "value": "style5",
           "label": "Footer Style 5"
+        },
+        {
+          "value": "no",
+          "label": "No footer"
         }
       ],
       "default": "style3"

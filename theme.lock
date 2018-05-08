@@ -3,6 +3,7 @@ assets/color-config.scss.liquid:
   demo_2: 2018-05-03T04:56:10-04:00   1af7f50cf284f3bba1fbbe86b8ea161c
   demo_3: 2018-05-06T04:43:50-04:00   815e4a48dae82aab9b6aa596cd1a2ece
   demo_4: 2018-05-08T04:27:11-04:00   b50bafd70dff2790331a41d2d7a414c7
+  demo_5: 2018-05-08T04:38:40-04:00   ecf67cf9b34f2fa4760a315bd540aee4
 assets/m2-sale50.png:
   demo_2: 2018-04-28T05:51:19-04:00   c15669e62cf4488615bb5fd69ccd77a5
 assets/m3-icon-play.png:
@@ -11,15 +12,18 @@ assets/main.css:
   demo_2: 2018-05-03T04:59:47-04:00   399cf81be82439162eab6925fa1d17c6
   demo_3: 2018-05-06T21:35:07-04:00   da168c06f635c8d59be6862cb53f4961
   demo_4: 2018-05-08T04:26:53-04:00   aba06458007647dd7425b3cb40c04f74
+  demo_5: 2018-05-08T04:46:05-04:00   da521f4c49950bacac137e062d89a3da
   development: 2018-04-26T10:57:31-04:00   4529c578d22eb9ea14e13e365c958e4e
 assets/style_home.css:
   demo_2: 2018-05-02T22:51:43-04:00   ff9690be78de6c4ac03cc70c1f8446f8
   demo_3: 2018-05-03T12:01:21-04:00   f38592ae1e84cb47c1f84d0e315e829d
   demo_4: 2018-05-06T22:41:10-04:00   89bc08b94e1a77f851718f5b06687e11
+  demo_5: 2018-05-08T05:56:33-04:00   57cc2dcc94671d01f0d78dc8eaba40e5
 config/settings_data.json:
   demo_2: 2018-05-03T08:06:01-04:00   2a8d30e38d8faa3dc91fda2bfaa5fe6a
   demo_3: 2018-05-06T21:35:44-04:00   ee67df0a5d700835f330b5ca0c06f7b7
   demo_4: 2018-05-08T04:32:17-04:00   04dc3c91834c26d591bc23a8250f6412
+  demo_5: 2018-05-08T05:51:31-04:00   0ef91d4ed77ba6c922c84a73d22b12c2
   development: 2018-04-26T10:59:15-04:00   35c7d76a5ceecf99a1d11954c87e7bf8
 config/settings_data_1.json:
   demo_2: 2018-04-26T13:42:05-04:00   35c7d76a5ceecf99a1d11954c87e7bf8
@@ -32,10 +36,14 @@ config/settings_data_3.json:
   demo_3: 2018-05-06T21:39:39-04:00   ee67df0a5d700835f330b5ca0c06f7b7
 config/settings_data_4.json:
   demo_4: 2018-05-08T04:32:59-04:00   04dc3c91834c26d591bc23a8250f6412
+config/settings_data_5.json:
+  demo_5: 2018-05-08T05:57:00-04:00   0ef91d4ed77ba6c922c84a73d22b12c2
 locales/en.default.json:
   demo_3: 2018-05-06T04:12:47-04:00   f4b756c78ccd95b50796e7049d2b8ad3
 sections/featured_collections.liquid:
   development: 2018-04-26T10:54:18-04:00   1e30856185b5460c4b302e1935a06e7f
+sections/footer.liquid:
+  demo_5: 2018-05-08T05:53:42-04:00   638dbe55813853de4592966463f01096
 sections/home_aboutus_box.liquid:
   demo_3: 2018-05-04T04:18:41-04:00   943051e97960db58d9c12012f067b563
 sections/home_article_list.liquid:
