@@ -1,53 +1,26 @@
-<div data-section-id="{{ section.id }}" data-section-type="instagram-photos-section" class="instagram-photos-section{% if section.settings.enable_style == true %} incify-styles{% endif %}"{% if section.settings.enable_style == true %} data-styles='{
-  {% if section.settings.style_top != '' %}
-  "margin-top":"{{ section.settings.style_top }}px",
-  {% endif %}
-  {% if section.settings.style_bottom != '' %}
-  "margin-bottom":"{{ section.settings.style_bottom }}px",
-  {% endif %}
-  {% if section.settings.style_left != '' %}
-  "margin-left":"{{ section.settings.style_left }}px",
-  {% endif %}
-  {% if section.settings.style_right != '' %}
-  "margin-right":"{{ section.settings.style_right }}px"
-  {% endif %}
-}'{% endif %}>
-    {% if section.settings.title != blank %}
-    <div class="container {{ section.settings.preset_section_title }} {% if section.settings.sub_title != blank %}sub-title-enable{% endif %}">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="section-title">
-                    {% if settings.language_enable %}
-                    <span class="lang1">{{ section.settings.title | split: '|' | first }}</span>
-                    <span class="lang2">{{ section.settings.title | split: '|' | last }}</span>
-                    {% else %}
-                    <span>{{ section.settings.title | split: '|' | first }}</span>
-
-                    {% endif %}
-                </div>
-                {% if section.settings.sub_title != blank %}
-                <div class="section-sub-title">
-                    {{ section.settings.sub_title }}
-                </div>
-                {% endif %}
-                {% if section.settings.preset_section_title == 'style_7' %}
-                <div class="sub-image">
-                    <img src="{{ 'leaf.png' | asset_url }}" alt="sub-image">
-                </div>
-                {% endif %}
-                {% if section.settings.preset_section_title == 'style_8' %}
-                <div class="sub-image">
-                    <img src="{{ 'm15-i1.png' | asset_url }}" alt="sub-image">
-                </div>
-                {% endif %}
-            </div>
-        </div>
-    </div>
-    {% endif %}
+<div data-section-id="{{ section.id }}" class="instagram-photos-section">
     <div class="instagram-img">
         {% include 'instagram' %}
     </div>
 </div>
+{% if section.settings.enable_style == true %}
+<span class="custom-styles-css">
+  body div[data-section-id="{{ section.id }}"]{
+    {% if section.settings.style_top != '' %}
+    margin-top:{{ section.settings.style_top }}px;
+    {% endif %}
+    {% if section.settings.style_bottom != '' %}
+    margin-bottom:{{ section.settings.style_bottom }}px;
+    {% endif %}
+    {% if section.settings.style_left != '' %}
+    margin-left:{{ section.settings.style_left }}px;
+    {% endif %}
+    {% if section.settings.style_right != '' %}
+    margin-right:{{ section.settings.style_right }}px;
+    {% endif %}
+  }
+</span>
+{% endif %}
 {% schema %}
 {
 "name": "Instagram Photos",

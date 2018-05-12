@@ -2,6 +2,12 @@
   .instagram-img {
     .cell {
       position: relative;
+      a {
+          display: block;
+          padding-bottom: 75%;
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
       .item--overlay {
         z-index: 2;
         background-color: rgba(35,35,36,.6);

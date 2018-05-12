@@ -4,6 +4,7 @@ assets/color-config.scss.liquid:
   demo_3: 2018-05-06T04:43:50-04:00   815e4a48dae82aab9b6aa596cd1a2ece
   demo_4: 2018-05-08T04:27:11-04:00   b50bafd70dff2790331a41d2d7a414c7
   demo_5: 2018-05-08T04:38:40-04:00   ecf67cf9b34f2fa4760a315bd540aee4
+  demo_6: 2018-05-12T04:46:48-04:00   78fb11e4ffd3dce0df2ee0aebc39afb8
 assets/m2-sale50.png:
   demo_2: 2018-04-28T05:51:19-04:00   c15669e62cf4488615bb5fd69ccd77a5
 assets/m3-icon-play.png:
@@ -13,17 +14,20 @@ assets/main.css:
   demo_3: 2018-05-06T21:35:07-04:00   da168c06f635c8d59be6862cb53f4961
   demo_4: 2018-05-08T04:26:53-04:00   aba06458007647dd7425b3cb40c04f74
   demo_5: 2018-05-08T04:46:05-04:00   da521f4c49950bacac137e062d89a3da
+  demo_6: 2018-05-12T05:19:51-04:00   d8cad9d67ca0e0025945375a784665ef
   development: 2018-04-26T10:57:31-04:00   4529c578d22eb9ea14e13e365c958e4e
 assets/style_home.css:
   demo_2: 2018-05-02T22:51:43-04:00   ff9690be78de6c4ac03cc70c1f8446f8
   demo_3: 2018-05-03T12:01:21-04:00   f38592ae1e84cb47c1f84d0e315e829d
   demo_4: 2018-05-06T22:41:10-04:00   89bc08b94e1a77f851718f5b06687e11
   demo_5: 2018-05-08T05:56:33-04:00   57cc2dcc94671d01f0d78dc8eaba40e5
+  demo_6: 2018-05-12T00:05:12-04:00   cfb79ab6bc9fe547022875e528548643
 config/settings_data.json:
   demo_2: 2018-05-03T08:06:01-04:00   2a8d30e38d8faa3dc91fda2bfaa5fe6a
   demo_3: 2018-05-06T21:35:44-04:00   ee67df0a5d700835f330b5ca0c06f7b7
   demo_4: 2018-05-08T04:32:17-04:00   04dc3c91834c26d591bc23a8250f6412
   demo_5: 2018-05-08T05:51:31-04:00   0ef91d4ed77ba6c922c84a73d22b12c2
+  demo_6: 2018-05-12T05:24:28-04:00   0c60af695094f1a2a47f1a7e9689c232
   development: 2018-04-26T10:59:15-04:00   35c7d76a5ceecf99a1d11954c87e7bf8
 config/settings_data_1.json:
   demo_2: 2018-04-26T13:42:05-04:00   35c7d76a5ceecf99a1d11954c87e7bf8
@@ -37,7 +41,10 @@ config/settings_data_3.json:
 config/settings_data_4.json:
   demo_4: 2018-05-08T04:32:59-04:00   04dc3c91834c26d591bc23a8250f6412
 config/settings_data_5.json:
+  demo_4: 2018-05-11T23:48:08-04:00   0ef91d4ed77ba6c922c84a73d22b12c2
   demo_5: 2018-05-08T05:57:00-04:00   0ef91d4ed77ba6c922c84a73d22b12c2
+config/settings_data_6.json:
+  demo_6: 2018-05-12T05:26:24-04:00   0c60af695094f1a2a47f1a7e9689c232
 locales/en.default.json:
   demo_3: 2018-05-06T04:12:47-04:00   f4b756c78ccd95b50796e7049d2b8ad3
 sections/featured_collections.liquid:
@@ -54,8 +61,13 @@ sections/home_background_content.liquid:
 sections/home_banner_image.liquid:
   demo_2: 2018-04-28T06:14:42-04:00   57252cf936f0114ab4780c31e66cdd59
   demo_3: 2018-05-04T02:47:23-04:00   0f1c795a82e68747ad5f090ea4231964
+sections/home_brands.liquid:
+  demo_6: 2018-05-12T05:01:39-04:00   292f930547edefe259b7ff8914117975
 sections/home_collection_list.liquid:
   demo_4: 2018-05-07T04:19:26-04:00   735953c8209bc5063fe16241fb14a41d
+  demo_6: 2018-05-12T04:35:26-04:00   278afe47162b0a1b080631eae1ece153
+sections/home_instagram.liquid:
+  demo_6: 2018-05-12T05:26:01-04:00   09cc3e55b11a66789f47ebcc7e61cda1
 sections/home_product_list.liquid:
   demo_3: 2018-05-04T04:22:53-04:00   30c6d110a28ee8ba7db0bd18a31fd7d1
 sections/home_products_tab.liquid:
@@ -73,10 +85,14 @@ snippets/block_title.liquid:
   demo_2: 2018-04-28T07:54:49-04:00   9378a5482b7ad0f9562d50f1213bffa7
 snippets/collection-grid-2-item.liquid:
   demo_4: 2018-05-06T23:38:59-04:00   857e782d07281caf6aaaf360ff12193a
+snippets/collection-grid-item.liquid:
+  demo_6: 2018-05-12T00:30:03-04:00   857e782d07281caf6aaaf360ff12193a
 snippets/home_article_item.liquid:
   demo_4: 2018-05-08T03:57:37-04:00   cd0e0113f1bf92c3c2eb8e2349c2b05e
 snippets/home_article_item_2.liquid:
   demo_4: 2018-05-08T04:03:43-04:00   331f362318965a2029fa19ed3817346c
+snippets/instagram.liquid:
+  demo_6: 2018-05-12T05:18:01-04:00   db01d93c1c620a95d70310cf79530b8b
 snippets/product-featured-collection.liquid:
   development: 2018-04-26T10:47:03-04:00   e5de96a34de01e1d0c3114456050daed
 templates/cart.liquid:

@@ -31,6 +31,32 @@
       }
     }
   }
+  &.style_2 {
+    .background-content__content {
+      position: absolute;
+      left: 50%;
+      top:50%;
+      text-align: center;
+      @include translate-all;
+      .text-1 {
+        font-size: 14px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        color: #fff;
+      }
+      .text-2 {
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: 700;
+        letter-spacing: -3px;
+        color: #fff;
+      }
+      .btn-button {
+        margin-top: 45px;
+      }
+    }
+  }
   &.content_preset_light {
     .background-content__content {
       .text-1 {

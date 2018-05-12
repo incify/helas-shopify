@@ -23,7 +23,7 @@
         success: function(data){
             console.log(data);
             for( x in data.data ){
-                $('#rudr_instafeed').append('<li class="cell"><a target="_blank" href="' + data.data[x].link + '"><span class="item--overlay"><i class="fa fa-instagram"></i></span><img src="'+data.data[x].images.standard_resolution.url+'"></a></li>');
+                $('#rudr_instafeed').append('<li class="cell"><a style="background-image:url('+data.data[x].images.standard_resolution.url+');" target="_blank" href="' + data.data[x].link + '"><span class="item--overlay"><i class="fa fa-instagram"></i></span></a></li>');
             }
         },
         error: function(data){

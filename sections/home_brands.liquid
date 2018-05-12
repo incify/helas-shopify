@@ -1,5 +1,5 @@
 <div data-section-id="{{ section.id }}" class="sections__brands">
-    <div class="featured-brands{% if section.settings.width_layout == 'boxed' %} container{% else %} container-fluid{% endif %}">
+    <div class="featured-brands{% if section.settings.width_layout == 'boxed' %} container{% elsif section.settings.width_layout == 'max-1500' %} container-fluid column-wrapper--maxwidth--1500{% else %} container-fluid{% endif %}">
       <div class="slick-carousel" data-slick='{"slidesToShow":{{ section.settings.columns }},"slidesToScroll":{{ section.settings.columns }},"dots":false,"autoplaySpeed":5000,"speed":300,"infinite":false,"arrows":false,"swipe":true,"draggable":true,"touchMove":true,"pauseOnHover":false,"responsive":[{"breakpoint":1824,"settings":{"slidesToShow":{{ section.settings.columns }},"slidesToScroll":{{ section.settings.columns }}}},{"breakpoint":1200,"settings":{"slidesToShow":{{ section.settings.columns }},"slidesToScroll":{{ section.settings.columns }}}},{"breakpoint":992,"settings":{"slidesToShow":3,"slidesToScroll":3}},{"breakpoint":768,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":480,"settings":{"slidesToShow":2,"slidesToScroll":2}}],"pauseOnDotsHover":true}'>
         {% for block in section.blocks %}
           <div class="item">
@@ -9,29 +9,38 @@
       </div>
   </div>
 </div>
-{% if section.settings.enable_style == true %}
+
 <span class="custom-styles-css">
   body div[data-section-id="{{ section.id }}"]{
-    {% if section.settings.style_top != '' %}
-    margin-top:{{ section.settings.style_top }}px;
+    {% if section.settings.background_color != blank %}
+    background-color: {{ section.settings.background_color }};
     {% endif %}
-    {% if section.settings.style_bottom != '' %}
-    margin-bottom:{{ section.settings.style_bottom }}px;
-    {% endif %}
-    {% if section.settings.style_left != '' %}
-    margin-left:{{ section.settings.style_left }}px;
-    {% endif %}
-    {% if section.settings.style_right != '' %}
-    margin-right:{{ section.settings.style_right }}px;
+    {% if section.settings.enable_style == true %}
+      {% if section.settings.style_top != '' %}
+      margin-top:{{ section.settings.style_top }}px;
+      {% endif %}
+      {% if section.settings.style_bottom != '' %}
+      margin-bottom:{{ section.settings.style_bottom }}px;
+      {% endif %}
+      {% if section.settings.style_left != '' %}
+      margin-left:{{ section.settings.style_left }}px;
+      {% endif %}
+      {% if section.settings.style_right != '' %}
+      margin-right:{{ section.settings.style_right }}px;
+      {% endif %}
     {% endif %}
   }
 </span>
-{% endif %}
 {% schema %}
 {
 "name": "Featured Brands",
 "class": "index-section",
 "settings": [
+{
+  "type": "color",
+  "id": "background_color",
+  "label": "Backgound Color"
+},
 {
 "type": "select",
 "id": "width_layout",
@@ -40,6 +49,10 @@
 {
 "value": "full",
 "label": "Full Width"
+},
+{
+"value": "max-1500",
+"label": "1500px"
 },
 {
 "value": "boxed",

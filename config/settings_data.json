@@ -592,10 +592,10 @@
       "header": {
         "type": "header",
         "settings": {
-          "type": "style3",
+          "type": "style1",
           "language_flag": "yes",
           "enable_header_transparent": "no",
-          "header_preset": "light",
+          "header_preset": "dark",
           "header_menu": "normal",
           "header_2_left_text": "<span class=\"header-2-left-text\"><i class=\"fa fa-phone\"><\/i> +56.653.534<\/span>\n<span class=\"header-2-left-text\"><a href=\"mailto:INFO@DOMAIN.COM\"><i class=\"fa fa-envelope-o\"><\/i> INFO@DOMAIN.COM<\/a><\/span>\n<span class=\"header-2-left-text\"><i class=\"dl-icon-clock\"><\/i> MON-SAT:8AM TO 9PM<\/span>",
           "custom_block_header_aside_top": "<p class=\"header-text\">Curabitur placerat urna augue, id luctus sem imperdiet id. Nunc congue ac libero ut lacinia. In ultrices elementum ipsum, in tempus enim accumsan...<\/p>\n<div class=\"social-media-link\">\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-facebook\"><\/i><\/a>\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-twitter\"><\/i><\/a>\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-pinterest\"><\/i><\/a>\n<\/div>",
@@ -616,15 +616,15 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "typefooter": "no",
+          "typefooter": "style1",
           "footer_background_image": "",
           "logo_use_image": true,
           "logo_width": "94",
           "footer_logo": "",
           "logo_white": "",
-          "footer_preset": "light",
+          "footer_preset": "dark",
           "footer_social_share": "<a href=\"https://www.facebook.com/\" class=\"facebook\" title=\"Facebook\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-facebook\"></i></a><a href=\"https://twitter.com/\" class=\"twitter\" title=\"Twitter\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-twitter\"></i></a><a href=\"https://www.linkedin.com\" class=\"linkedin\" title=\"LinkedIn\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-linkedin-square\"></i></a><a href=\"https://www.youtube.com\" class=\"youtube\" title=\"Youtube\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-youtube-play\"></i></a><a href=\"https://vimeo.com\" class=\"vimeo\" title=\"Vimeo\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-vimeo-square\"></i></a>",
-          "footer_bottom_copyright": "© HELAS THEME BY THEMEDEUX. ALL RIGHT RESERVED 2018.",
+          "footer_bottom_copyright": "",
           "footer_text": "Donec ligula sapien, lacinia sed ligula sit amet, tincidunt laoreet nibh. Cras tempus, <br> unc ac egestas porta, tellus mi veh",
           "footer_title_col2_type1": "COMPANY",
           "footer_linklist_1_type1": "useful-link",
@@ -633,7 +633,7 @@
           "footer_title_col4_type1": "Profiles",
           "footer_linklist_3_type1": "profiles",
           "footer_title_col5_type1": "GET 10% OFF COUPON",
-          "column_5_content": "newsletter",
+          "column_5_content": "map",
           "hashtag": "OCSTORE3",
           "footer_linklist_type2": "footer",
           "footer_4_text": "<span class=\"footer-4-text\"><i class=\"fa fa-phone\"><\/i> +56.653.534<\/span>\n<span class=\"footer-4-text\"><a href=\"mailto:INFO@DOMAIN.COM\"><i class=\"fa fa-envelope-o\"><\/i> INFO@DOMAIN.COM<\/a><\/span>\n<span class=\"footer-4-text\"><i class=\"dl-icon-clock\"><\/i> MON-SAT:8AM TO 9PM<\/span>",
@@ -1594,58 +1594,218 @@
           "home-slideshow-0": {
             "type": "image",
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/m5-s-1.jpg",
-              "class_content": "content-slider-5",
-              "use_content_image": true,
-              "content_image_slider": "shopify:\/\/shop_images\/m5-s-1-1.png",
-              "content1": "<h3 class=\"special-font\">Grey Leather Boots With Buckles<\/h3>",
-              "content2": "<p>$129.99<\/p>",
-              "button_content": "<a href=\"#\" class=\"btn-button bordered uppercase\">Shop now<\/a>"
+              "background_image": "shopify:\/\/shop_images\/slider-m06-1.jpg",
+              "class_content": "content-slider-6",
+              "use_content_image": false,
+              "content_image_slider": "",
+              "content1": "<p>UP TO 30% SELECTED ITEMS<\/p>",
+              "content2": "<h1 class=\"special-font\">A NEW ROUTINE<\/h1>",
+              "button_content": "<a href=\"#\" class=\"btn-button bordered white uppercase\">Shop now<\/a>"
             }
           },
           "home-slideshow-1": {
             "type": "image",
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/m5-s-2.jpg",
-              "class_content": "content-slider-5",
-              "use_content_image": true,
-              "content_image_slider": "shopify:\/\/shop_images\/m5-s-2-1.png",
-              "content1": "<h3 class=\"special-font\">Velvet Suit Blazer<\/h3>",
-              "content2": "<p>$139.99<\/p>",
-              "button_content": "<a href=\"#\" class=\"btn-button bordered uppercase\">Shop now<\/a>"
-            }
-          },
-          "home-slideshow-2": {
-            "type": "image",
-            "settings": {
-              "background_image": "shopify:\/\/shop_images\/m5-s-3.jpg",
-              "class_content": "content-slider-5-3",
-              "use_content_image": true,
-              "content_image_slider": "shopify:\/\/shop_images\/m5-s-3-1.png",
-              "content1": "<h3 class=\"special-font\">Velvet Suit Blazer<\/h3>",
-              "content2": "<p>$139.99<\/p>",
-              "button_content": "<a href=\"#\" class=\"btn-button bordered uppercase\">Shop now<\/a>"
+              "background_image": "shopify:\/\/shop_images\/slider-m06-2.jpg",
+              "class_content": "content-slider-6-2",
+              "use_content_image": false,
+              "content_image_slider": "",
+              "content1": "<p>UP TO 30% SELECTED ITEMS<\/p>",
+              "content2": "<h1 class=\"special-font\">A NEW BOHO<\/h1>",
+              "button_content": "<a href=\"#\" class=\"btn-button bordered white uppercase\">Shop now<\/a>"
             }
           }
         },
         "block_order": [
           "home-slideshow-0",
-          "home-slideshow-1",
-          "home-slideshow-2"
+          "home-slideshow-1"
         ],
         "settings": {
           "auto_speed": "8000",
           "slide_transition": "slide",
           "slide_navigation": "1",
           "slide_pagination": "0",
-          "slider_height": "100",
+          "slider_height": "70",
           "slide_nav_prev": "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"><\/i>",
           "slide_nav_next": "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"><\/i>"
+        }
+      },
+      "home-collection-list": {
+        "type": "home_collection_list",
+        "blocks": {
+          "conllection-list-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "woman"
+            }
+          },
+          "conllection-list-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "man"
+            }
+          },
+          "conllection-list-3": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "bags"
+            }
+          },
+          "conllection-list-4": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "mans-shoes"
+            }
+          }
+        },
+        "block_order": [
+          "conllection-list-1",
+          "conllection-list-2",
+          "conllection-list-3",
+          "conllection-list-4"
+        ],
+        "settings": {
+          "background": "shopify:\/\/shop_images\/m6-bg-1.jpg",
+          "title": "TRENDING",
+          "preset_section_title": "style_3",
+          "top_collection_width_screen": "full",
+          "top_collection_display": "slide",
+          "grid": 4,
+          "enable_style": true,
+          "style_top": 0
+        }
+      },
+      "home-products-tab": {
+        "type": "home_tab_collection",
+        "settings": {
+          "preset_section_title": "style_1",
+          "title": "NEW ARRIVAL",
+          "tab_collection_view_all_product": "VIEW ALL PRODUCTS",
+          "tab_collection_link_all_product": "#",
+          "tab_collection_limit": "8",
+          "tab_collection_column": "4",
+          "tab_collection_title_1": "all",
+          "tab_collection_1": "main-02",
+          "tab_collection_title_2": "Man",
+          "tab_collection_2": "main-01",
+          "tab_collection_title_3": "Woman",
+          "tab_collection_3": "main-03",
+          "tab_collection_title_4": "Kids",
+          "tab_collection_4": "main-04",
+          "tab_collection_title_5": "ACCESSORIES",
+          "tab_collection_5": "main-01"
+        }
+      },
+      "home-banner-background": {
+        "type": "home_background_content",
+        "settings": {
+          "preset": "style_2",
+          "background": "shopify:\/\/shop_images\/m6-bg-2.jpg",
+          "enable_parallax": true,
+          "box_height": 45,
+          "text_1": "#FASION WEEK 2018",
+          "text_2": "KNIT TRENDS",
+          "button_link": "",
+          "button_title": ""
+        }
+      },
+      "home-product-list": {
+        "type": "home_product_list",
+        "settings": {
+          "title": "POPULAR THIS WEEK",
+          "product_list_limit": "4",
+          "product_list_column": "4",
+          "product_list_collection_use": "home-01-list"
+        }
+      },
+      "home-brands": {
+        "type": "home_brands",
+        "blocks": {
+          "b-001": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m2-brand-1.png",
+              "link": ""
+            }
+          },
+          "b-002": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m2-brand-2.png",
+              "link": ""
+            }
+          },
+          "b-003": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m2-brand-3.png",
+              "link": ""
+            }
+          },
+          "b-004": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m2-brand-4.png",
+              "link": ""
+            }
+          },
+          "b-005": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m2-brand-5.png",
+              "link": ""
+            }
+          },
+          "b-006": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m2-brand-6.png",
+              "link": ""
+            }
+          },
+          "b-007": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m2-brand-3.png",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "b-001",
+          "b-002",
+          "b-003",
+          "b-004",
+          "b-005",
+          "b-006",
+          "b-007"
+        ],
+        "settings": {
+          "background_color": "#f7f7f7",
+          "width_layout":"max-1500",
+          "preset": "style_1",
+          "columns": "7",
+          "enable_style": true,
+          "style_top": 45
+        }
+      },
+      "instagram-list": {
+        "type": "home_instagram",
+        "settings": {
+          "grid": 4,
+          "limit": 4,
+          "hashtag": "HELAS6"
         }
       }
     },
     "content_for_index": [
-      "home-slideshow"
+      "home-slideshow",
+      "home-collection-list",
+      "home-products-tab",
+      "home-banner-background",
+      "home-product-list",
+      "home-brands",
+      "instagram-list"
     ]
   },
   "presets": {

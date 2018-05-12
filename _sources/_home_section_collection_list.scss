@@ -74,4 +74,13 @@
     background-color: #232324;
     z-index: 1;
   }
+  &.layout-slide {
+    padding: 50px 0;
+    .slick-dots li button:before {
+      color: #fdfdfd;
+    }
+    .slick-dots li.slick-active button:before {
+      color: #fff;
+    }
+  }
 }

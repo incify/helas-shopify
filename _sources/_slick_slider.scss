@@ -8,7 +8,7 @@
     }
   }
 }
-.slick-carousel.slick-initialized:not(.slick-vertical):not([aria-autowidth]) .slick-slide {
+.slick-carousel:not(.full-width-slide).slick-initialized:not(.slick-vertical):not([aria-autowidth]) .slick-slide {
     animation-duration: 1s;
     -webkit-animation-duration: 1s;
     animation-fill-mode: both;
