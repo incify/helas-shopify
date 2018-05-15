@@ -5,7 +5,7 @@
 {% assign col = section.settings.product_list_column %}
 {% endif %}
 {% assign product_limitation = 0 %}
-<section data-section-id="{{ section.id }}" class="section_product_list">
+<section data-section-id="{{ section.id }}" class="section_product_list {{ section.id }}">
     {% include "block_title" %}
     {% if section.settings.preset == 'style_1' %}
     <div class="{% if section.settings.layout == 'full_width' %}container-fluid EL_row_padding_65{% else %}container{% endif %}">
@@ -17,7 +17,6 @@
                         <div class="tab-pane active" id="collection1">
                             <div class="category-products">
                                 {% assign collection1 = collections[section.settings.product_list_collection_use] %}
-                                {%- assign collection = collections[section.settings.collection] -%}
                                 <ul class="products-grid columns{{section.settings.product_list_column}} flex-grid" style="margin:0 -10px;">
                                     {% for product in collection1.products limit: section.settings.product_list_limit %}
                                     <li class="item product product-layout-grid">
@@ -36,25 +35,24 @@
     </div>
     {% endif %}
     {% if section.settings.preset == 'style_2' %}
-    <div class="products-style-2-list">
-      <div class="products-list-inner">
-        {% if section.settings.product_list_collection_use !='' %}
-        {% assign collection1 = collections[section.settings.product_list_collection_use] %}
-        {%- assign collection = collections[section.settings.collection] -%}
-        <ul class="slick-carousel" data-slick='{"slidesToShow":{{ section.settings.product_list_column }},"slidesToScroll":{{ section.settings.product_list_column }},"dots":false,"autoplaySpeed":5000,"speed":300,"infinite":false,"arrows":false,"swipe":true,"draggable":true,"touchMove":true,"pauseOnHover":false,"responsive":[{"breakpoint":1824,"settings":{"slidesToShow":{{ section.settings.product_list_column }},"slidesToScroll":{{ section.settings.product_list_column }}}},{"breakpoint":1200,"settings":{"slidesToShow":{{ section.settings.product_list_column }},"slidesToScroll":{{ section.settings.product_list_column }}}},{"breakpoint":992,"settings":{"slidesToShow":3,"slidesToScroll":3}},{"breakpoint":768,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"pauseOnDotsHover":true}'>
-            {% for product in collection1.products limit: section.settings.product_list_limit %}
-            <li class="item product">
-              {% include 'product-style-2-grid-item' %}
-            </li>
-            {% endfor %}
-        </ul>
-        {% endif %}
+    <div class="shop-metro">
+      <div class="category-products products-style-2-list">
+          <ul id="products-grid" class="products-grid masonry-grid metro-masonry-grid" data-item-width="480" data-item-height="550" data-md-col="3" data-sm-col="2" data-xs-col="2" data-mb-col="1">
+              {% assign i = 0 %}
+              {% assign collection1 = collections[section.settings.product_list_collection_use] %}
+              {% for product in collection1.products limit: section.settings.product_list_limit %}
+              {% assign i = i | plus: 1 %}
+              <li class="item product product-layout-grid count-{{i}}"{% if i == 3 %} data-width="2" data-height="2"{% else %} data-width="1" data-height="1"{% endif %}>
+                {% include 'product-masonry-grid-item' %}
+              </li>
+              {% endfor %}
+          </ul>
       </div>
     </div>
     {% endif %}
 </section>
 <span class="custom-styles-css">
-body div[data-section-id="{{ section.id }}"]{
+.section_product_list.{{ section.id }}{
   {% if section.settings.enable_style == true %}
     {% if section.settings.style_top != '' %}
     margin-top:{{ section.settings.style_top }}px;

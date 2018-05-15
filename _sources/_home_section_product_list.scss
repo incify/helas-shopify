@@ -1,5 +1,11 @@
 .section_product_list {
   margin-top: 75px;
+  .shop-metro  {
+    margin-top: 0 !important;
+  }
+  .shop-metro .category-products .products-grid .item {
+    padding: 0 !important;
+  }
 }
 .products-style-2-list {
   .product_item--inner {

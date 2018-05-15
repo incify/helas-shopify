@@ -2550,7 +2550,7 @@ body.side-header {
     .btn-button.bordered.white, .spr-button.bordered.white {
       color: #fff !important; }
       .btn-button.bordered.white:hover, .spr-button.bordered.white:hover {
-        color: #222 !important; }
+        color: #fff !important; }
     .btn-button.bordered.black, .spr-button.bordered.black {
       border-width: 1px;
       border-style: solid;
@@ -12753,6 +12753,28 @@ button {
 .column-wrapper--maxwidth--1500 {
   max-width: 1500px; }
 
+.section__icon_box.style_2 .incify-icon-box {
+  margin-top: 0;
+  text-align: center; }
+  .section__icon_box.style_2 .incify-icon-box .icon-boxes-inner {
+    display: inline-block;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 20px; }
+    .section__icon_box.style_2 .incify-icon-box .icon-boxes-inner .box-icon-left {
+      display: table-cell;
+      line-height: 0;
+      vertical-align: top;
+      padding-top: 5px;
+      padding-right: 20px; }
+    .section__icon_box.style_2 .incify-icon-box .icon-boxes-inner .box-contents {
+      display: table-cell;
+      vertical-align: middle; }
+      .section__icon_box.style_2 .incify-icon-box .icon-boxes-inner .box-contents h5 {
+        font-size: 16px; }
+      .section__icon_box.style_2 .incify-icon-box .icon-boxes-inner .box-contents p {
+        font-style: italic; }
+
 .incify-icon-box {
   margin-top: 55px; }
   .incify-icon-box .icon-boxes-inner {
@@ -17431,6 +17453,10 @@ div.sort-by .bootstrap-select .selectize-dropdown {
 
 .section_product_list {
   margin-top: 75px; }
+  .section_product_list .shop-metro {
+    margin-top: 0 !important; }
+  .section_product_list .shop-metro .category-products .products-grid .item {
+    padding: 0 !important; }
 
 .products-style-2-list .product_item--inner {
   position: relative;

@@ -43,4 +43,12 @@ demo_6:
   theme_id: "17496342575"
   store: helas-store.myshopify.com
   ignore_files:
+  - config/settings_data.json  
+  - _sources/*.scss
+
+demo_7:
+  password: 1a57a5fe7458e5e74ac7a27fb123f395
+  theme_id: "17546641455"
+  store: helas-store.myshopify.com
+  ignore_files:
   - _sources/*.scss

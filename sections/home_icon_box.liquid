@@ -1,31 +1,16 @@
-<div data-section-id="{{ section.id }}" class="section__icon_box lg-mt-130 md-mt-100 sm-mt-60 xs-mt-50">
-  <div class="container incify-icon-box helas-icon-box">
+<div data-section-id="{{ section.id }}" class="section__icon_box {{section.settings.preset}} lg-mt-130 md-mt-100 sm-mt-60 xs-mt-50">
+  <div class="{% if section.settings.enable_full == true %}container-fluid{% else %}container{% endif %} incify-icon-box helas-icon-box">
     <div class="row">
-      <div class="grid-x grid-padding-y grid-padding-x small-up-1 medium-up-3 large-up-{{section.settings.grid}}">
+      <div class="grid-x{% if section.settings.enable_space == true %} grid-padding-y grid-padding-x{% endif %} small-up-1 medium-up-3 large-up-{{section.settings.grid}}">
         {% for block in section.blocks limit: section.blocks.size %}
-        <div class="cell">
+        <div class="cell"{% if block.settings.background_color != blank %} style="background-color: {{ block.settings.background_color }}"{% endif %}>
           <div class="icon-boxes-inner">
-            <div class="box-heading-top">
-              <div class="box-icon-heading">
-                <div class="box-icon-inner type-img">
-                  <div class="wrap-icon">
-                    <div class="box-icon box-icon-style-simple">
-                      <span>
-                        <img src="{{ block.settings.image | img_url: 'master'}}">
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="box-heading">
-                <h5 class="icon-heading">{{ block.settings.title }}</h5>
-              </div>
-            </div>
-            <div class="box-contents">
-              <div class="box-description">
-                <p>{{ block.settings.text }}</p>
-              </div>
-            </div>
+            {% case .section.settings.preset %}
+            {% when 'style_2' %}
+            {% include "icon_box_style_2" %}
+            {% else %}
+            {% include "icon_box_style_1" %}
+            {% endcase %}
           </div>
         </div>
         {% endfor %}
@@ -57,6 +42,26 @@
 "settings": [
     {
       "type": "header",
+      "content": "Preset Settings"
+    },
+    {
+    "type": "select",
+    "id": "preset",
+    "label": "Preset",
+    "options": [
+    {
+    "value": "style_1",
+    "label": "Style 1"
+    },
+    {
+    "value": "style_2",
+    "label": "Style 2"
+    }
+    ],
+    "default": "style_1"
+    },
+    {
+      "type": "header",
       "content": "Grid Settings"
     },
     {
@@ -67,6 +72,18 @@
         "step":       1,
         "label":     "Grid",
         "default":   3
+    },
+    {
+     "type": "checkbox",
+     "id": "enable_full",
+     "default": false,
+     "label": "Enable Full Width"
+    },
+    {
+     "type": "checkbox",
+     "id": "enable_space",
+     "default": true,
+     "label": "Enable Space"
     },
     {
       "type": "header",
@@ -124,6 +141,12 @@
       "type": "icon_box",
       "name": "Icon Box",
       "settings": [
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "Background Color",
+          "info": "Just apply for Preset Style 2"
+        },
         {
           "type": "image_picker",
           "id": "image",

@@ -1,3 +1,40 @@
+.section__icon_box {
+  &.style_2 {
+    .incify-icon-box {
+      margin-top: 0;
+      text-align: center;
+
+      .icon-boxes-inner {
+        display: inline-block;
+        text-align: left;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        
+        .box-icon-left {
+          display: table-cell;
+          line-height: 0;
+          vertical-align: top;
+          padding-top: 5px;
+          padding-right: 20px;
+        }
+
+        .box-contents {
+          display: table-cell;
+          vertical-align: middle;
+
+          h5 {
+            font-size: 16px;
+          }
+
+          p {
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+}
+
 .incify-icon-box {
   margin-top: 55px;
 

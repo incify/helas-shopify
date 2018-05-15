@@ -592,10 +592,10 @@
       "header": {
         "type": "header",
         "settings": {
-          "type": "style1",
+          "type": "style2",
           "language_flag": "yes",
           "enable_header_transparent": "no",
-          "header_preset": "dark",
+          "header_preset": "light",
           "header_menu": "normal",
           "header_2_left_text": "<span class=\"header-2-left-text\"><i class=\"fa fa-phone\"><\/i> +56.653.534<\/span>\n<span class=\"header-2-left-text\"><a href=\"mailto:INFO@DOMAIN.COM\"><i class=\"fa fa-envelope-o\"><\/i> INFO@DOMAIN.COM<\/a><\/span>\n<span class=\"header-2-left-text\"><i class=\"dl-icon-clock\"><\/i> MON-SAT:8AM TO 9PM<\/span>",
           "custom_block_header_aside_top": "<p class=\"header-text\">Curabitur placerat urna augue, id luctus sem imperdiet id. Nunc congue ac libero ut lacinia. In ultrices elementum ipsum, in tempus enim accumsan...<\/p>\n<div class=\"social-media-link\">\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-facebook\"><\/i><\/a>\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-twitter\"><\/i><\/a>\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-pinterest\"><\/i><\/a>\n<\/div>",
@@ -1594,25 +1594,27 @@
           "home-slideshow-0": {
             "type": "image",
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/slider-m06-1.jpg",
-              "class_content": "content-slider-6",
+              "background_image": "shopify:\/\/shop_images\/slider-m07-1.jpg",
+              "class_content": "content-slider-7",
               "use_content_image": false,
               "content_image_slider": "",
-              "content1": "<p>UP TO 30% SELECTED ITEMS<\/p>",
-              "content2": "<h1 class=\"special-font\">A NEW ROUTINE<\/h1>",
-              "button_content": "<a href=\"#\" class=\"btn-button bordered white uppercase\">Shop now<\/a>"
+              "content1": "<h5>#FASION WEEK 2018<\/h5>",
+              "content2": "<h1 class=\"special-font\">ONCE UPON A TIME<\/h1>",
+              "content3": "<p>Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus.<\/p>",
+              "button_content": "<a href=\"#\" class=\"btn-button white uppercase\">Shop now<\/a>"
             }
           },
           "home-slideshow-1": {
             "type": "image",
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/slider-m06-2.jpg",
-              "class_content": "content-slider-6-2",
+              "background_image": "shopify:\/\/shop_images\/slider-m07-2.jpg",
+              "class_content": "content-slider-7",
               "use_content_image": false,
               "content_image_slider": "",
-              "content1": "<p>UP TO 30% SELECTED ITEMS<\/p>",
-              "content2": "<h1 class=\"special-font\">A NEW BOHO<\/h1>",
-              "button_content": "<a href=\"#\" class=\"btn-button bordered white uppercase\">Shop now<\/a>"
+              "content1": "<h5>#FASION WEEK 2018<\/h5>",
+              "content2": "<h1 class=\"special-font\">KNIT TRENDS<\/h1>",
+              "content3": "<p>Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus.<\/p>",
+              "button_content": "<a href=\"#\" class=\"btn-button white uppercase\">Shop now<\/a>"
             }
           }
         },
@@ -1630,182 +1632,88 @@
           "slide_nav_next": "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"><\/i>"
         }
       },
-      "home-collection-list": {
-        "type": "home_collection_list",
-        "blocks": {
-          "conllection-list-1": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "woman"
-            }
-          },
-          "conllection-list-2": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "man"
-            }
-          },
-          "conllection-list-3": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "bags"
-            }
-          },
-          "conllection-list-4": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "mans-shoes"
-            }
-          }
-        },
-        "block_order": [
-          "conllection-list-1",
-          "conllection-list-2",
-          "conllection-list-3",
-          "conllection-list-4"
-        ],
+      "main-product-list": {
+        "type": "home_product_list",
         "settings": {
-          "background": "shopify:\/\/shop_images\/m6-bg-1.jpg",
-          "title": "TRENDING",
-          "preset_section_title": "style_3",
-          "top_collection_width_screen": "full",
-          "top_collection_display": "slide",
-          "grid": 4,
+          "preset": "style_2",
+          "product_list_limit": "9",
+          "product_list_column": "4",
+          "product_list_collection_use": "fashion",
           "enable_style": true,
           "style_top": 0
         }
       },
-      "home-products-tab": {
-        "type": "home_tab_collection",
+      "home-collection-banner": {
+        "type": "collection_banner",
         "settings": {
-          "preset_section_title": "style_1",
-          "title": "NEW ARRIVAL",
-          "tab_collection_view_all_product": "VIEW ALL PRODUCTS",
-          "tab_collection_link_all_product": "#",
-          "tab_collection_limit": "8",
-          "tab_collection_column": "4",
-          "tab_collection_title_1": "all",
-          "tab_collection_1": "main-02",
-          "tab_collection_title_2": "Man",
-          "tab_collection_2": "main-01",
-          "tab_collection_title_3": "Woman",
-          "tab_collection_3": "main-03",
-          "tab_collection_title_4": "Kids",
-          "tab_collection_4": "main-04",
-          "tab_collection_title_5": "ACCESSORIES",
-          "tab_collection_5": "main-01"
+          "enable": true,
+          "text": "<h4>POLO NECK SWEATER<\/h4>\r\n<h1>50<small style=\"font-size:30px;\">%</small><\/h1>\r\n<p>Fusce quis porta neque. Suspendisse potenti. Ut<br>finibus, eros vel ullamcorper tempus<\/p>\r\n<a href=\"#\" class=\"btn-button bordered uppercase\">Shop Now<\/a>",
+          "image": "shopify:\/\/shop_images\/m7-bg-1.jpg"
         }
       },
-      "home-banner-background": {
-        "type": "home_background_content",
-        "settings": {
-          "preset": "style_2",
-          "background": "shopify:\/\/shop_images\/m6-bg-2.jpg",
-          "enable_parallax": true,
-          "box_height": 45,
-          "text_1": "#FASION WEEK 2018",
-          "text_2": "KNIT TRENDS",
-          "button_link": "",
-          "button_title": ""
-        }
-      },
-      "home-product-list": {
-        "type": "home_product_list",
-        "settings": {
-          "title": "POPULAR THIS WEEK",
-          "product_list_limit": "4",
-          "product_list_column": "4",
-          "product_list_collection_use": "home-01-list"
-        }
-      },
-      "home-brands": {
-        "type": "home_brands",
+      "home-icon-box": {
+        "type": "home_icon_box",
         "blocks": {
-          "b-001": {
-            "type": "image",
+          "home-icon-box-001": {
+            "type": "icon_box",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-1.png",
-              "link": ""
+              "background_color": "#e6de9d",
+              "image": "shopify:\/\/shop_images\/m7_boat.png",
+              "title": "Free Deliver",
+              "text": "In convallis nulla et magna congue"
             }
           },
-          "b-002": {
-            "type": "image",
+          "home-icon-box-002": {
+            "type": "icon_box",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-2.png",
-              "link": ""
+              "background_color": "#f9f1e2",
+              "image": "shopify:\/\/shop_images\/m7_customer-support.png",
+              "title": "Expert Support",
+              "text": "In convallis nulla et magna congue"
             }
           },
-          "b-003": {
-            "type": "image",
+          "home-icon-box-003": {
+            "type": "icon_box",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-3.png",
-              "link": ""
-            }
-          },
-          "b-004": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-4.png",
-              "link": ""
-            }
-          },
-          "b-005": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-5.png",
-              "link": ""
-            }
-          },
-          "b-006": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-6.png",
-              "link": ""
-            }
-          },
-          "b-007": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-3.png",
-              "link": ""
+              "background_color": "#e2d5d5",
+              "image": "shopify:\/\/shop_images\/m7_lock.png",
+              "title": "Buyer Protection",
+              "text": "In convallis nulla et magna congue"
             }
           }
         },
         "block_order": [
-          "b-001",
-          "b-002",
-          "b-003",
-          "b-004",
-          "b-005",
-          "b-006",
-          "b-007"
+          "home-icon-box-001",
+          "home-icon-box-002",
+          "home-icon-box-003"
         ],
         "settings": {
-          "background_color": "#f7f7f7",
-          "width_layout":"max-1500",
-          "preset": "style_1",
-          "columns": "7",
+          "preset": "style_2",
+          "enable_full": true,
+          "enable_space": false,
+          "grid": 3,
           "enable_style": true,
-          "style_top": 45
+          "style_top": 0
         }
       },
-      "instagram-list": {
-        "type": "home_instagram",
+      "newsletter-box": {
+        "type": "home_subscribe",
         "settings": {
-          "grid": 4,
-          "limit": 4,
-          "hashtag": "HELAS6"
+          "preset": "style_2",
+          "title": "Sign up for newsletter and <strong class=\"text-color-primary\"><i>get 10%<\/i><\/strong> offers / weeks",
+          "enable_parallax": false,
+          "padding_top": 70,
+          "padding_bottom": 70,
+          "enable_social": false
         }
       }
     },
     "content_for_index": [
       "home-slideshow",
-      "home-collection-list",
-      "home-products-tab",
-      "home-banner-background",
-      "home-product-list",
-      "home-brands",
-      "instagram-list"
+      "main-product-list",
+      "home-collection-banner",
+      "home-icon-box",
+      "newsletter-box"
     ]
   },
   "presets": {
