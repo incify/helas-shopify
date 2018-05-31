@@ -57,6 +57,34 @@
       }
     }
   }
+  &.style_3 {
+    .backhground-content__inner {
+      position: relative;
+    }
+    .background-content__content {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      text-align: center;
+      @include translate-y;
+      .text-1 {
+        font-size: 36px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        font-weight: bold;
+        color: #fff;
+      }
+      .text-2 {
+        font-size: 30px;
+        line-height: 30px;
+        color: #fff;
+      }
+      .btn-button {
+        margin-top: 45px;
+      }
+    }
+  }
   &.content_preset_light {
     .background-content__content {
       .text-1 {

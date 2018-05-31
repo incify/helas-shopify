@@ -10,7 +10,7 @@
               </div>
               {%- endif -%}
               {%- if  section.settings.text_2 !=blank -%}
-              <div class="text-2 special-font">
+              <div class="text-2{% if section.settings.preset != 'style_3' %} special-font{% endif %}">
                 {{ section.settings.text_2 }}
               </div>
               {%- endif -%}
@@ -20,7 +20,11 @@
               </div>
               {%- endif -%}
               {%- if  section.settings.button_link !=blank -%}
-              <a href="{{section.settings.button_link}}" class="btn-button white uppercase">{{section.settings.button_title}}</a>
+                {%- if section.settings.preset == 'style_3' -%}
+                  <a href="{{section.settings.button_link}}" class="btn-button bordered white uppercase">{{section.settings.button_title}}</a>
+                {%- else -%}
+                  <a href="{{section.settings.button_link}}" class="btn-button white uppercase">{{section.settings.button_title}}</a>
+                {%- endif -%}
               {%- endif -%}
             </div>
         </div>
@@ -52,6 +56,9 @@ body div[data-section-id="{{ section.id }}"]{
   {% endif %}
   height: {{  section.settings.box_height }}vh;
 }
+body div[data-section-id="{{ section.id }}"] .backhground-content__inner {
+  height: {{  section.settings.box_height }}vh;
+}
 </span>
 {% schema %}
 {
@@ -61,13 +68,18 @@ body div[data-section-id="{{ section.id }}"]{
       "id": "preset",
       "label": "Preset",
       "options": [{
-        "value": "style_1",
-        "label": "Style 1"
-      },
-      "options": [{
-        "value": "style_2",
-        "label": "Style 2"
-      }],
+          "value": "style_1",
+          "label": "Style 1"
+        },
+        {
+          "value": "style_2",
+          "label": "Style 2"
+        },
+        {
+          "value": "style_3",
+          "label": "Style 3"
+        }
+      ],
       "default": "style_1"
     },
     {
@@ -103,15 +115,14 @@ body div[data-section-id="{{ section.id }}"]{
       "type": "select",
       "id": "content_preset",
       "label": "Content Preset",
-      "options": [
-      {
-        "value": "content_preset_light",
-        "label": "Light"
-      },
-      {
-        "value": "content_preset_dark",
-        "label": "Dark"
-      }
+      "options": [{
+          "value": "content_preset_light",
+          "label": "Light"
+        },
+        {
+          "value": "content_preset_dark",
+          "label": "Dark"
+        }
       ],
       "default": "content_preset_light"
     },

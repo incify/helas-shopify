@@ -5,20 +5,7 @@
 {% assign col = section.settings.tab_collection_column %}
 {% endif %}
 {% assign product_limitation = 0 %}
-<section class="h1-section-tab-product EL_row_padding_65{% if section.settings.enable_style == true %} incify-styles{% endif %}"{% if section.settings.enable_style == true %} data-styles='{
-  {% if section.settings.style_top != '' %}
-  "margin-top":"{{ section.settings.style_top }}px",
-  {% endif %}
-  {% if section.settings.style_bottom != '' %}
-  "margin-bottom":"{{ section.settings.style_bottom }}px",
-  {% endif %}
-  {% if section.settings.style_left != '' %}
-  "margin-left":"{{ section.settings.style_left }}px",
-  {% endif %}
-  {% if section.settings.style_right != '' %}
-  "margin-right":"{{ section.settings.style_right }}px"
-  {% endif %}
-}'{% endif %}>
+<section data-section-id="{{ section.id }}" class="h1-section-tab-product {{ section.id }} EL_row_padding_65{% if section.settings.background_color != blank %} lg-pt-75 lg-pb-75 xs-pt-50 xs-pb-50{% endif %}">
     {% include "block_title" %}
     <div class="{% if section.settings.width_layout == 'boxed' %}container{% else %}container-fluid{% endif %}">
         <div class="main-tab-products">
@@ -176,6 +163,27 @@
         </div>
     </div>
 </section>
+<span class="custom-styles-css">
+  .h1-section-tab-product.{{ section.id }} {
+  {% if section.settings.background_color != blank %}
+  background-color: {{ section.settings.background_color }};
+  {% endif %}
+  {% if section.settings.enable_style == true %}
+    {% if section.settings.style_top != '' %}
+    margin-top:{{ section.settings.style_top }}px;
+    {% endif %}
+    {% if section.settings.style_bottom != '' %}
+    margin-bottom:{{ section.settings.style_bottom }}px;
+    {% endif %}
+    {% if section.settings.style_left != '' %}
+    margin-left:{{ section.settings.style_left }}px;
+    {% endif %}
+    {% if section.settings.style_right != '' %}
+    margin-right:{{ section.settings.style_right }}px;
+    {% endif %}
+  {% endif %}
+  }
+</span>
 {% schema %}
   {
     "name": "Tab Collection",
@@ -223,6 +231,11 @@
     }
     ],
     "default": "style_1"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Backgound Color"
     },
     {
     "type": "select",

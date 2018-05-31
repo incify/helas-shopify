@@ -89,6 +89,23 @@
     margin-bottom: 30px;
   }
 }
+.style_4{
+  .section-title{
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+    span{
+      font-size: 47px;
+      line-height: 47px;
+      font-weight: 400;
+    }
+  }
+  .section-sub-title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
 @media (max-width: 767px){
   .section-title{
     margin-bottom: 15px;

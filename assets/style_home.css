@@ -633,6 +633,31 @@ slider show
   .slideshow-section .slideshow .content.content-slider.content-slider-7 .btn-button {
     margin-top: 30px; }
 
+.slideshow-section .slideshow .content.content-slider.content-slider-8 {
+  left: auto;
+  right: 0;
+  top: 50%;
+  bottom: auto;
+  max-width: 599px;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%); }
+  .slideshow-section .slideshow .content.content-slider.content-slider-8 p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 20px; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-8 h1 {
+    font-size: 72px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #fff; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-8 .btn-button {
+    margin-top: 30px; }
+
 .slider-content-image {
   position: absolute;
   bottom: 0;

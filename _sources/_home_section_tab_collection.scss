@@ -19,7 +19,6 @@
       ul{
         border-bottom: 0;
         display: inline-block;
-        background: white;
         li{
           display: inline-block;
           float: none;
@@ -34,7 +33,7 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             &:hover{
-              background:#fff;
+              background: none;
               text-decoration:none;
             }
           }
@@ -48,6 +47,9 @@
           &:hover,
           &.active {
             border: #dedede solid 1px;
+            a {
+              background: none;
+            }
           }
         }
       }

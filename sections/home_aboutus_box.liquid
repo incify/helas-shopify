@@ -1,6 +1,7 @@
-<div data-section-id="{{ section.id }}" class="section__about-us-content-box lg-mt-100 md-mt-70 xs-mt-50">
+<div data-section-id="{{ section.id }}" class="section__about-us-content-box {{ section.settings.preset }} lg-mt-100 md-mt-70 xs-mt-50">
   <div class="container">
     <div class="aboutus-content-box row">
+      {% if section.settings.preset == 'style_1' %}
       <div class="col-sm-6">
         <div class="aboutus-content=box__image">
           <img src="{{ section.settings.image | img_url: 'master' }}" />
@@ -14,6 +15,23 @@
           </p>
         </div>
       </div>
+      {% else %}
+      {% if section.settings.image != blank %}
+      <div class="col-sm-12">
+        <div class="aboutus-content=box__image xs-mb-30">
+          <img src="{{ section.settings.image | img_url: 'master' }}" />
+        </div>
+      </div>
+      {% endif %}
+      <div class="col-sm-12">
+        <div class="aboutus-content-box__content">
+          <h1 class="special-font">{{ section.settings.content_title }}</h1>
+          <p>
+            {{ section.settings.content_text }}
+          </p>
+        </div>
+      </div>
+      {% endif %}
     </div>
   </div>
 </div>
@@ -42,6 +60,22 @@ body div[data-section-id="{{ section.id }}"]{
     {
       "type": "header",
       "content": "Content Box Settings"
+    },
+    {
+    "type": "select",
+    "id": "preset",
+    "label": "Preset",
+    "options": [
+    {
+    "value": "style_1",
+    "label": "Style 1"
+    },
+    {
+    "value": "style_2",
+    "label": "Style 2"
+    }
+    ],
+    "default": "style_1"
     },
     {
       "type": "image_picker",

@@ -16,6 +16,7 @@
                         <span style="background-image: url({{ block.settings.testimonial_avt | img_url: 'master' }});"></span>
                       </div>
                       <div class="testimonial_item--info">
+                          <i class="fa fa-quote-left" aria-hidden="true"></i>
                           {% if block.settings.testimonial_text != blank %}
                           <div class="testimonial_item--excerpt">{{ block.settings.testimonial_text }}</div>
                           {% endif %}

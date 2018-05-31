@@ -122,9 +122,11 @@
           }
         }
       }
+
       .slick-dotted.slick-slider {
         margin-bottom: 0;
       }
+
       .testimonial_item--inner {
         text-align: left;
 
@@ -160,6 +162,97 @@
             .testimonial_item--role {
               font-style: italic;
               display: inline-block;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.layout-style_3 {
+    .incify-testimonial {
+      .slick-arrow {
+        display: none !important;
+      }
+
+      .slick-dots {
+        bottom: 0;
+        text-align: center;
+
+        li {
+          button {
+            &:before {
+              font-size: 10px;
+              color: #fff;
+            }
+          }
+
+          &.slick-active {
+            button {
+              color: #000;
+
+              &:before {
+                color: inherit;
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+
+      .slick-dotted.slick-slider {
+        margin-bottom: 0;
+      }
+
+      .testimonial_item--inner {
+        text-align: center;
+
+        .testimonial_item--image {
+          display: none;
+        }
+
+        .testimonial_item--info {
+          i {
+            font-size: 30px;
+          }
+          .testimonial_item--excerpt {
+            margin: 0 auto;
+            font-size: 40px;
+            line-height: 1.5;
+          }
+        }
+
+        .testimonial_item--bottom {
+          .testimonial_item--title-role {
+            margin-top: 30px;
+            display: inline-block;
+            font-size: 14px;
+
+            &:before {
+              display: none;
+            }
+
+            .testimonial_item--title {
+              display: inline-block;
+              font-size: 12px;
+              text-transform: uppercase;
+              letter-spacing: 4px;
+              font-weight: 700;
+              color: #fff;
+            }
+
+            .testimonial_item--role {
+              display: inline-block;
+              font-size: 12px;
+              text-transform: uppercase;
+              letter-spacing: 4px;
+              font-weight: 700;
+              color: #fff;
+
+              &:before {
+                content: "-";
+                padding: 0 5px;
+              }
             }
           }
         }

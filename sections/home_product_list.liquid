@@ -5,7 +5,7 @@
 {% assign col = section.settings.product_list_column %}
 {% endif %}
 {% assign product_limitation = 0 %}
-<section data-section-id="{{ section.id }}" class="section_product_list {{ section.id }}">
+<section data-section-id="{{ section.id }}" class="section_product_list {{ section.id }}{% if section.settings.background_color != blank %} lg-pt-75 lg-pb-75 xs-pt-50 xs-pb-50{% endif %}">
     {% include "block_title" %}
     {% if section.settings.preset == 'style_1' %}
     <div class="{% if section.settings.layout == 'full_width' %}container-fluid EL_row_padding_65{% else %}container{% endif %}">
@@ -53,6 +53,9 @@
 </section>
 <span class="custom-styles-css">
 .section_product_list.{{ section.id }}{
+  {% if section.settings.background_color != blank %}
+  background-color: {{ section.settings.background_color }};
+  {% endif %}
   {% if section.settings.enable_style == true %}
     {% if section.settings.style_top != '' %}
     margin-top:{{ section.settings.style_top }}px;
@@ -96,6 +99,11 @@
 }
 ],
 "default": "style_1"
+},
+{
+  "type": "color",
+  "id": "background_color",
+  "label": "Backgound Color"
 },
 {
   "type": "select",
