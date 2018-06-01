@@ -69,9 +69,15 @@
     color: #8a8a8a;
     letter-spacing: 0.5px;
     background-color: rgba(0, 0, 0, 0) !important;
-    border-color: rgba(255, 255, 255, 0.5);
     &.white {
+      border: #fff solid 1px;
       color: #fff;
+      &:hover {
+        border-color: #fff !important;
+        background-color: #fff !important;
+
+        color: #222;
+      }
     }
     &.black {
       color: #232324;

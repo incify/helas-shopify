@@ -85,6 +85,100 @@
       }
     }
   }
+  &.style_4 {
+    .background-content__content {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      text-align: center;
+      @include translate-all;
+      .text-1 {
+        font-size: 72px;
+        line-height: 1.2;
+        color: #fff;
+        letter-spacing: -2px;
+      }
+      .text-2 {
+        color: #fff !important;
+      }
+      .btn-button {
+        margin-top: 45px;
+      }
+    }
+  }
+  &.style_5 {
+    .background-content__content {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      text-align: center;
+      @include translate-all;
+      .text-1 {
+        font-size: 12px;
+        line-height: 1.2;
+        color: #fff;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+      }
+      .text-2 {
+        font-size: 72px;
+        line-height: 72px;
+        font-weight: 700;
+        color: #fff !important;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+      }
+      .text-3 {
+        border-top-width: 1px !important;
+        border-bottom-width: 1px !important;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        border-top-color: rgba(255,255,255,0.5) !important;
+        border-top-style: solid !important;
+        border-bottom-color: rgba(255,255,255,0.5) !important;
+        border-bottom-style: solid !important;
+      }
+      .text-3 {
+        display: inline-block;
+        font-size: 12px;
+        color: #ffffff;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .btn-button {
+        margin-top: 45px;
+      }
+    }
+  }
+  &.style_6 {
+    .background-content__content {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      text-align: center;
+      @include translate-all;
+      .text-1 {
+        font-size: 72px;
+        line-height: 1.2;
+        color: #fff;
+        text-transform: uppercase;
+      }
+      .text-2 {
+        font-size: 12px;
+        color: #fff !important;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+      }
+      .banner-button {
+        display: block;
+      }
+      .btn-button {
+        margin-top: 45px;
+      }
+    }
+  }
   &.content_preset_light {
     .background-content__content {
       .text-1 {
@@ -97,5 +191,9 @@
         color: #fff;
       }
     }
+  }
+  .button-play {
+    display: block;
+    margin-top: 45px;
   }
 }

@@ -1,3 +1,8 @@
+{% if section.settings.play_icon != blank %}
+{% assign button = section.settings.play_icon | img_url: "master" %}
+{% else %}
+{% assign button = 'm3-icon-play.png' | asset_url %}
+{% endif %}
 <div data-section-id="{{ section.id }}" class="background-content-section {{ section.settings.preset }} {{ section.settings.content_preset }} {% if section.settings.enable_parallax == true %} parallax-box{% endif %}">
   <div class="background-content">
     <div class="container">
@@ -10,7 +15,7 @@
               </div>
               {%- endif -%}
               {%- if  section.settings.text_2 !=blank -%}
-              <div class="text-2{% if section.settings.preset != 'style_3' %} special-font{% endif %}">
+              <div class="text-2{% if section.settings.preset == 'style_1' or section.settings.preset == 'style_2' %} special-font{% endif %}">
                 {{ section.settings.text_2 }}
               </div>
               {%- endif -%}
@@ -19,13 +24,22 @@
                 {{ section.settings.text_3 }}
               </div>
               {%- endif -%}
-              {%- if  section.settings.button_link !=blank -%}
-                {%- if section.settings.preset == 'style_3' -%}
-                  <a href="{{section.settings.button_link}}" class="btn-button bordered white uppercase">{{section.settings.button_title}}</a>
-                {%- else -%}
-                  <a href="{{section.settings.button_link}}" class="btn-button white uppercase">{{section.settings.button_title}}</a>
+              <div class="banner-button">
+                {%- if  section.settings.button_link !=blank -%}
+                  {%- if section.settings.preset == 'style_3' or section.settings.preset == 'style_4' -%}
+                    <a href="{{section.settings.button_link}}" class="btn-button bordered-2 white uppercase">{{section.settings.button_title}}</a>
+                  {%- else -%}
+                    <a href="{{section.settings.button_link}}" class="btn-button white uppercase">{{section.settings.button_title}}</a>
+                  {%- endif -%}
                 {%- endif -%}
-              {%- endif -%}
+                {% if section.settings.video_id != blank %}
+                  {% if section.settings.video_source == 'vimeo' %}
+                  <a class="button-play" href="https://player.vimeo.com/video/{{section.settings.video_id}}?autoplay=1" data-rel="lightcase"><img src="{{button}}" alt="" /></a>
+                  {% else %}
+                  <a class="button-play" href="//www.youtube.com/embed/{{video_id}}?version=3" data-rel="lightcase"><img src="{{button}}" alt="" /></a>
+                  {% endif %}
+                {% endif %}
+              </div>
             </div>
         </div>
       </div>
@@ -78,6 +92,18 @@ body div[data-section-id="{{ section.id }}"] .backhground-content__inner {
         {
           "value": "style_3",
           "label": "Style 3"
+        },
+        {
+          "value": "style_4",
+          "label": "Style 4"
+        },
+        {
+          "value": "style_5",
+          "label": "Style 5"
+        },
+        {
+          "value": "style_6",
+          "label": "Style 6"
         }
       ],
       "default": "style_1"
@@ -150,6 +176,37 @@ body div[data-section-id="{{ section.id }}"] .backhground-content__inner {
       "type": "text",
       "id": "button_title",
       "label": "Button Label"
+    },
+    {
+      "type": "header",
+      "content": "Video Settings"
+    },
+    {
+    "type": "select",
+    "id": "video_source",
+    "label": "Video Source",
+    "options": [
+    {
+    "value": "youtube",
+    "label": "Youtube"
+    },
+    {
+    "value": "vimeo",
+    "label": "Vimeo"
+    }
+    ],
+    "default": "youtube"
+    },
+    {
+      "type": "text",
+      "id": "video_id",
+      "label": "Video",
+      "placeholder": "Vimeo or Youtube video ID"
+    },
+    {
+      "type": "image_picker",
+      "id": "play_icon",
+      "label": "Custom Play Icon"
     },
     {
       "type": "header",

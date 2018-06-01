@@ -7,6 +7,7 @@ assets/color-config.scss.liquid:
   demo_6: 2018-05-12T04:46:48-04:00   78fb11e4ffd3dce0df2ee0aebc39afb8
   demo_7: 2018-05-15T06:52:46-04:00   32ad52d0f75a6242aad4b52172296d73
   demo_8: 2018-05-31T13:37:44-04:00   7955d478ad97418113264aaf32a440ca
+  demo_9: 2018-06-01T01:02:31-04:00   29f0a1218195feea7f01df47b093f34c
 assets/favicon.ico:
   demo_6: 2018-05-12T05:41:22-04:00   5d5ed3df5fb95c18079b87bb5d2e5b1c
 assets/m2-sale50.png:
@@ -21,6 +22,7 @@ assets/main.css:
   demo_6: 2018-05-13T00:37:46-04:00   83fd8b4dadc1479412cbdf04c860fd6c
   demo_7: 2018-05-15T06:54:24-04:00   d9d2bf3bffa28484ae8744647eb393cb
   demo_8: 2018-05-31T13:37:33-04:00   1b7b4f84c0828198ddfb05eb67c0b5a5
+  demo_9: 2018-06-01T01:04:45-04:00   76e043a858386326ed60eff74965d641
   development: 2018-04-26T10:57:31-04:00   4529c578d22eb9ea14e13e365c958e4e
 assets/style_home.css:
   demo_2: 2018-05-02T22:51:43-04:00   ff9690be78de6c4ac03cc70c1f8446f8
@@ -38,6 +40,7 @@ config/settings_data.json:
   demo_6: 2018-05-12T05:24:28-04:00   0c60af695094f1a2a47f1a7e9689c232
   demo_7: 2018-05-15T06:55:43-04:00   453beb9a2c3bd7ccd05523f3d252c58b
   demo_8: 2018-05-31T13:30:16-04:00   51bdc58d963466eea7130e3f7e105f67
+  demo_9: 2018-06-01T00:44:42-04:00   7a92732996542646bea529290340e2a1
   development: 2018-04-26T10:59:15-04:00   35c7d76a5ceecf99a1d11954c87e7bf8
 config/settings_data_1.json:
   demo_2: 2018-04-26T13:42:05-04:00   35c7d76a5ceecf99a1d11954c87e7bf8
@@ -61,6 +64,8 @@ config/settings_data_7.json:
   demo_7: 2018-05-15T06:56:07-04:00   453beb9a2c3bd7ccd05523f3d252c58b
 config/settings_data_8.json:
   demo_8: 2018-05-31T13:38:56-04:00   51bdc58d963466eea7130e3f7e105f67
+config/settings_data_9.json:
+  demo_9: 2018-06-01T01:06:09-04:00   7a92732996542646bea529290340e2a1
 locales/en.default.json:
   demo_3: 2018-05-06T04:12:47-04:00   f4b756c78ccd95b50796e7049d2b8ad3
 sections/featured_collections.liquid:
@@ -77,6 +82,7 @@ sections/home_article_list.liquid:
 sections/home_background_content.liquid:
   demo_2: 2018-05-03T04:06:33-04:00   00eeb0ef05a9785787beb22eef433084
   demo_8: 2018-05-31T05:52:24-04:00   75bb94500250a602fd8995fa5a742dc1
+  demo_9: 2018-06-01T01:04:09-04:00   afcf020a5517daef3fecade22c0a7262
 sections/home_banner_image.liquid:
   demo_2: 2018-04-28T06:14:42-04:00   57252cf936f0114ab4780c31e66cdd59
   demo_3: 2018-05-04T02:47:23-04:00   0f1c795a82e68747ad5f090ea4231964

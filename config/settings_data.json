@@ -1589,96 +1589,58 @@
           "image": "shopify:\/\/shop_images\/m7-bg-1.jpg"
         }
       },
-      "home-slideshow": {
-        "type": "slideshow",
-        "blocks": {
-          "home-slideshow-0": {
-            "type": "image",
-            "settings": {
-              "background_image": "shopify:\/\/shop_images\/slider-m08-1.jpg",
-              "class_content": "content-slider-8",
-              "use_content_image": false,
-              "content_image_slider": "",
-              "content1": "<h1 class=\"special-font\">TOMBOY STYLE<\/h1>",
-              "content2": "<p>Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus.<\/p>",
-              "button_content": "<a href=\"#\" class=\"btn-button white uppercase\">Shop now<\/a>"
-            }
-          }
-        },
-        "block_order": [
-          "home-slideshow-0"
-        ],
-        "settings": {
-          "auto_speed": "8000",
-          "slide_transition": "slide",
-          "slide_navigation": "1",
-          "slide_pagination": "0",
-          "slider_height": "70",
-          "slide_nav_prev": "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"><\/i>",
-          "slide_nav_next": "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"><\/i>"
-        }
-      },
-      "main-aboutus-box": {
-        "type": "home_aboutus_box",
-        "settings": {
-          "preset": "style_2",
-          "content_title": "Welcome to Helas Store",
-          "content_text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus. Phasellus vitae feugiat magna. Nunc dictum magna molestie convallis commodo. Curabitur eget orci diam. Quisque leo leo, faucibus cons",
-          "enable_style": true,
-          "style_top": 50,
-          "style_bottom": 50
-        }
-      },
-      "home-product-list": {
-        "type": "home_product_list",
-        "settings": {
-          "background_color": "#f7f7f7",
-          "layout": "boxed",
-          "preset_section_title": "style_4",
-          "title": "New Arrival",
-          "product_list_limit": "12",
-          "product_list_column": "4",
-          "product_list_collection_use": "fashion"
-        }
-      },
-      "home-products-tab": {
-        "type": "home_tab_collection",
-        "settings": {
-          "background_color": "#f7f7f7",
-          "preset_section_title": "style_4",
-          "width_layout": "boxed",
-          "title": "New Arrival",
-          "tab_collection_view_all_product": "VIEW ALL PRODUCTS",
-          "tab_collection_link_all_product": "#",
-          "tab_collection_limit": "12",
-          "tab_collection_column": "4",
-          "tab_collection_title_1": "all",
-          "tab_collection_1": "fashion",
-          "tab_collection_title_2": "Man",
-          "tab_collection_2": "main-01",
-          "tab_collection_title_3": "Woman",
-          "tab_collection_3": "main-03",
-          "tab_collection_title_4": "Kids",
-          "tab_collection_4": "main-04",
-          "tab_collection_title_5": "ACCESSORIES",
-          "tab_collection_5": "main-01",
-          "enable_style": true,
-          "style_bottom": 0
-        }
-      },
       "home-banner-background": {
         "type": "home_background_content",
         "settings": {
-          "preset": "style_3",
-          "background": "shopify:\/\/shop_images\/m8-bg-1.jpg",
+          "preset": "style_4",
+          "background": "shopify:\/\/shop_images\/m9-bg-1.jpg",
           "enable_parallax": true,
-          "box_height": 55,
-          "text_1": "VELVET BLAZER<br>WITH CONTRASTING DETAIL",
-          "text_2": "$150.99",
+          "box_height": 100,
+          "text_1": "JACQUARD BLAZER",
+          "text_2": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh<br> lorem congue lectus, ut pharetra tortor odio et purus.",
           "button_link": "#",
-          "button_title": "Shop Now",
-          "enable_style": true,
-          "style_top": 0
+          "button_title": "Shop Now"
+        }
+      },
+      "home-banner-background-2": {
+        "type": "home_background_content",
+        "settings": {
+          "preset": "style_5",
+          "background": "shopify:\/\/shop_images\/m9-bg-2.jpg",
+          "enable_parallax": true,
+          "box_height": 100,
+          "text_1": "#FASHION WEEK",
+          "text_2": "ONCE UPON A TIME",
+          "text_3": "FUSCE QUIS PORTA NEQUESUSPENDISSE",
+          "video_source": "vimeo",
+          "video_id": "172601404"
+        }
+      },
+      "home-banner-background-3": {
+        "type": "home_background_content",
+        "settings": {
+          "preset": "style_6",
+          "background": "shopify:\/\/shop_images\/m9-bg-3.jpg",
+          "enable_parallax": true,
+          "box_height": 100,
+          "text_1": "SUMMER SALE 2018",
+          "text_2": "UP TO 30% OFF SELECTED ITEMS",
+          "button_link": "#",
+          "button_title": "Shop Now"
+        }
+      },
+      "home-banner-background-4": {
+        "type": "home_background_content",
+        "settings": {
+          "preset": "style_5",
+          "background": "shopify:\/\/shop_images\/m9-bg-4.jpg",
+          "enable_parallax": true,
+          "box_height": 100,
+          "text_1": "#FASHION WEEK",
+          "text_2": "TRULY LOVE",
+          "text_3": "FUSCE QUIS PORTA NEQUESUSPENDISSE",
+          "button_link": "#",
+          "button_title": "Shop Now"
         }
       },
       "newsletter-box": {
@@ -1691,62 +1653,14 @@
           "padding_bottom": 70,
           "enable_social": false
         }
-      },
-      "home-testimonials": {
-        "type": "home_testimonials",
-        "blocks": {
-          "home-testimonials-01": {
-            "type": "testimonial_content",
-            "settings": {
-              "testimonial_avt": "shopify:\/\/shop_images\/m15-t-1.jpg",
-              "testimonial_text": "Sed auctor eros eu metus dignissim porta. Praesent pulvinar at egestas",
-              "testimonial_text_author": "Robert Elliott",
-              "testimonial_text_job": "CEO Adobe"
-            }
-          },
-          "home-testimonials-02": {
-            "type": "testimonial_content",
-            "settings": {
-              "testimonial_avt": "shopify:\/\/shop_images\/m15-t-2.jpg",
-              "testimonial_text": "Sed auctor eros eu metus dignissim porta. Praesent pulvinar at egestas",
-              "testimonial_text_author": "Gilbert Norton",
-              "testimonial_text_job": "CEO Apple"
-            }
-          },
-          "home-testimonials-03": {
-            "type": "testimonial_content",
-            "settings": {
-              "testimonial_avt": "shopify:\/\/shop_images\/m15-t-3.jpg",
-              "testimonial_text": "Sed auctor eros eu metus dignissim porta. Praesent pulvinar at egestas",
-              "testimonial_text_author": "Eva Powers",
-              "testimonial_text_job": "CEO Microsoft"
-            }
-          }
-        },
-        "block_order": [
-          "home-testimonials-01",
-          "home-testimonials-02",
-          "home-testimonials-03"
-        ],
-        "settings": {
-          "preset": "style_3",
-          "background": "shopify:\/\/shop_images\/m8-bg-2.jpg",
-          "enable_parallax": false,
-          "padding_top": 100,
-          "padding_bottom": 100,
-          "sides_show": "1",
-          "enable_style": true,
-          "style_top": 0
-        }
       }
     },
     "content_for_index": [
-      "home-slideshow",
-      "main-aboutus-box",
-      "home-products-tab",
       "home-banner-background",
-      "newsletter-box",
-      "home-testimonials"
+      "home-banner-background-2",
+      "home-banner-background-3",
+      "home-banner-background-4",
+      "newsletter-box"
     ]
   },
   "presets": {
