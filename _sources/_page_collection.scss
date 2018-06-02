@@ -1188,7 +1188,6 @@ div.sort-by {
           overflow: hidden;
           border: 1px solid #e3e3e3 !important;
           background-color: #fff;
-          border-radius: 10px;
           transition: all 250ms ease-out;
           .product-details {
             .product-name {
@@ -1210,8 +1209,8 @@ div.sort-by {
           .item--overlay {
             background: rgba(0, 0, 0, 0) !important;
           }
-          &:hover {
-            box-shadow: -4px -5px 30px rgba(41,44,58,.07);
+          .rollover--style-1 .action-icon {
+            background-color: #ebebeb;
           }
         }
       }

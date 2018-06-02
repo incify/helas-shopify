@@ -2484,6 +2484,8 @@ body.side-header {
         background-color: #e4e4e4;
         border-color: #e4e4e4;
         color: #fff; }
+    .btn-button.bordered-2.x2, .spr-button.bordered-2.x2 {
+      border: 2px solid; }
     .btn-button.bordered-2.x3, .spr-button.bordered-2.x3 {
       font-size: 14px;
       padding: 15px 45px;
@@ -14310,7 +14312,6 @@ div.sort-by .bootstrap-select .selectize-dropdown {
       overflow: hidden;
       border: 1px solid #e3e3e3 !important;
       background-color: #fff;
-      border-radius: 10px;
       -webkit-transition: all 250ms ease-out;
       -o-transition: all 250ms ease-out;
       transition: all 250ms ease-out; }
@@ -14329,9 +14330,8 @@ div.sort-by .bootstrap-select .selectize-dropdown {
         padding-top: 10px; }
       .category-products .products-grid .item .item-area.style_3 .item--overlay {
         background: transparent !important; }
-      .category-products .products-grid .item .item-area.style_3:hover {
-        -webkit-box-shadow: -4px -5px 30px rgba(41, 44, 58, 0.07);
-        box-shadow: -4px -5px 30px rgba(41, 44, 58, 0.07); }
+      .category-products .products-grid .item .item-area.style_3 .rollover--style-1 .action-icon {
+        background-color: #ebebeb; }
   .category-products .products-grid .item:not(.product-layout-list) .item-area.item-masonry:hover .action-in-image .action-list {
     opacity: 1;
     visibility: visible; }
@@ -17480,6 +17480,41 @@ div.sort-by .bootstrap-select .selectize-dropdown {
   margin-top: 20px;
   margin-bottom: 30px; }
 
+.style_5 .section-title {
+  text-align: center;
+  position: relative;
+  padding-bottom: 15px; }
+  .style_5 .section-title:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 2px;
+    width: 45px;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #d3b48c), to(#f5bbbb));
+    background-image: -webkit-linear-gradient(left, #d3b48c 0, #f5bbbb 100%);
+    background-image: -o-linear-gradient(left, #d3b48c 0, #f5bbbb 100%);
+    background-image: linear-gradient(90deg, #d3b48c 0, #f5bbbb 100%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .style_5 .section-title span {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #232324; }
+
+.style_5 .section-sub-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+.style_5.sub-title-enable .section-title {
+  margin-bottom: 0 !important;
+  padding-bottom: 10px !important; }
+
 @media (max-width: 767px) {
   .section-title {
     margin-bottom: 15px;
@@ -18551,6 +18586,46 @@ div.sort-by .bootstrap-select .selectize-dropdown {
       position: relative;
       z-index: 3;
       margin-left: 0; }
+
+.section__watch-content-box .watch__content-box .watch__content-box--image {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.section__watch-content-box .watch__content-box .watch__content-box--content {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto; }
+  .section__watch-content-box .watch__content-box .watch__content-box--content h1 {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+    letter-spacing: 5px; }
+  .section__watch-content-box .watch__content-box .watch__content-box--content .la-line {
+    width: 45px;
+    height: 2px;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #d3b48c), to(#f5bbbb));
+    background-image: -webkit-linear-gradient(left, #d3b48c 0, #f5bbbb 100%);
+    background-image: -o-linear-gradient(left, #d3b48c 0, #f5bbbb 100%);
+    background-image: linear-gradient(90deg, #d3b48c 0, #f5bbbb 100%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; }
+  .section__watch-content-box .watch__content-box .watch__content-box--content p {
+    margin-bottom: 75px; }
+
+.section__watch-content-box .home-10-divider-gradient {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding-top: 20px;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #d3b48c), to(#f5bbbb));
+  background-image: -webkit-linear-gradient(left, #d3b48c 0, #f5bbbb 100%);
+  background-image: -o-linear-gradient(left, #d3b48c 0, #f5bbbb 100%);
+  background-image: linear-gradient(90deg, #d3b48c 0, #f5bbbb 100%); }
 
 .bike-fun-stuff .bike-fun-stuff__icon {
   display: table-cell;

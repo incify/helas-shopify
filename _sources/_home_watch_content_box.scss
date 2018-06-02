@@ -1,0 +1,44 @@
+.section__watch-content-box {
+  .watch__content-box {
+    .watch__content-box--image {
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+    .watch__content-box--content {
+      max-width: 750px;
+      margin-left:auto;
+      margin-right: auto;
+      h1 {
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: bold;
+        margin-bottom: 13px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+      }
+      .la-line {
+        width: 45px;
+        height: 2px;
+        background-image: linear-gradient(90deg,#d3b48c 0,#f5bbbb 100%);
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+      }
+      p {
+        margin-bottom: 75px;
+      }
+      .btn-button {
+
+      }
+    }
+  }
+  .home-10-divider-gradient {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding-top: 20px;
+    background-image: linear-gradient(90deg,#d3b48c 0,#f5bbbb 100%);
+  }
+}

@@ -668,6 +668,26 @@ slider show
       margin-top: 30px;
     }
   }
+  &.content-slider-10 {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    @include translate_all;
+    h1 {
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 9px;
+      text-transform: uppercase;
+    }
+    .btn-button {
+      margin-top: 45px;
+    }
+  }
 }
 
 .slider-content-image {

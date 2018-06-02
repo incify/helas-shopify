@@ -348,7 +348,7 @@
     "related_product_limit": "8",
     "collection_grid_style": "flex",
     "collection_page_fullwidth": true,
-    "collection_item_preset": "style_2",
+    "collection_item_preset": "style_3",
     "collection_alternative_image": true,
     "collection_aspect_ratio": "0",
     "collection_ratio_width": "600",
@@ -594,7 +594,7 @@
         "settings": {
           "type": "style1",
           "language_flag": "yes",
-          "enable_header_transparent": "yes",
+          "enable_header_transparent": "no",
           "header_preset": "dark",
           "header_menu": "normal",
           "header_2_left_text": "<span class=\"header-2-left-text\"><i class=\"fa fa-phone\"><\/i> +56.653.534<\/span>\n<span class=\"header-2-left-text\"><a href=\"mailto:INFO@DOMAIN.COM\"><i class=\"fa fa-envelope-o\"><\/i> INFO@DOMAIN.COM<\/a><\/span>\n<span class=\"header-2-left-text\"><i class=\"dl-icon-clock\"><\/i> MON-SAT:8AM TO 9PM<\/span>",
@@ -616,8 +616,8 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "typefooter": "style4",
-          "footer_background_color": "#121220",
+          "typefooter": "style1",
+          "footer_background_color": "#232324",
           "footer_background_image": "",
           "logo_use_image": true,
           "logo_width": "94",
@@ -633,7 +633,7 @@
           "footer_linklist_2_type1": "recent-posts",
           "footer_title_col4_type1": "Profiles",
           "footer_linklist_3_type1": "profiles",
-          "footer_title_col5_type1": "GET 10% OFF COUPON",
+          "footer_title_col5_type1": "",
           "column_5_content": "map",
           "hashtag": "OCSTORE3",
           "footer_linklist_type2": "footer",
@@ -1589,78 +1589,179 @@
           "image": "shopify:\/\/shop_images\/m7-bg-1.jpg"
         }
       },
-      "home-banner-background": {
-        "type": "home_background_content",
+      "home-slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "home-slideshow-0": {
+            "type": "image",
+            "settings": {
+              "background_image": "shopify:\/\/shop_images\/slider-m10-1.jpg",
+              "class_content": "content-slider-10",
+              "use_content_image": false,
+              "content_image_slider": "",
+              "content1": "<h1>RM11-02 Jet Black Ntpt<\/h1>",
+              "button_content": "<a href=\"#\" class=\"btn-button bordered-2 x2 white uppercase\">Shop now<\/a>"
+            }
+          },
+          "home-slideshow-1": {
+            "type": "image",
+            "settings": {
+              "background_image": "shopify:\/\/shop_images\/slider-m10-2.jpg",
+              "class_content": "content-slider-10",
+              "use_content_image": false,
+              "content_image_slider": "",
+              "content1": "<h1>Hublot Classic Fusion \"ForbiddenX\"<\/h1>",
+              "button_content": "<a href=\"#\" class=\"btn-button bordered-2 x2 white uppercase\">Shop now<\/a>"
+            }
+          },
+          "home-slideshow-2": {
+            "type": "image",
+            "settings": {
+              "background_image": "shopify:\/\/shop_images\/slider-m10-3.jpg",
+              "class_content": "content-slider-10",
+              "use_content_image": false,
+              "content_image_slider": "",
+              "content1": "<h1>NEW COLLECTIONS IWATCH 2018<\/h1>",
+              "button_content": "<a href=\"#\" class=\"btn-button bordered-2 x2 white uppercase\">Shop now<\/a>"
+            }
+          }
+        },
+        "block_order": [
+          "home-slideshow-0",
+          "home-slideshow-1",
+          "home-slideshow-2"
+        ],
         "settings": {
-          "preset": "style_4",
-          "background": "shopify:\/\/shop_images\/m9-bg-1.jpg",
-          "enable_parallax": true,
-          "box_height": 100,
-          "text_1": "JACQUARD BLAZER",
-          "text_2": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh<br> lorem congue lectus, ut pharetra tortor odio et purus.",
+          "auto_speed": "8000",
+          "slide_transition": "slide",
+          "slide_navigation": "1",
+          "slide_pagination": "0",
+          "slider_height": "70",
+          "slide_nav_prev": "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"><\/i>",
+          "slide_nav_next": "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"><\/i>"
+        }
+      },
+      "home-content-box": {
+        "type": "watch_content_box",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/m10-b-1.jpg",
+          "content_title": "MEN WATCH",
+          "content_text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus vitae feugiat magna.",
           "button_link": "#",
           "button_title": "Shop Now"
         }
       },
-      "home-banner-background-2": {
-        "type": "home_background_content",
+      "home-content-box-2": {
+        "type": "watch_content_box",
         "settings": {
-          "preset": "style_5",
-          "background": "shopify:\/\/shop_images\/m9-bg-2.jpg",
-          "enable_parallax": true,
-          "box_height": 100,
-          "text_1": "#FASHION WEEK",
-          "text_2": "ONCE UPON A TIME",
-          "text_3": "FUSCE QUIS PORTA NEQUESUSPENDISSE",
-          "video_source": "vimeo",
-          "video_id": "172601404"
-        }
-      },
-      "home-banner-background-3": {
-        "type": "home_background_content",
-        "settings": {
-          "preset": "style_6",
-          "background": "shopify:\/\/shop_images\/m9-bg-3.jpg",
-          "enable_parallax": true,
-          "box_height": 100,
-          "text_1": "SUMMER SALE 2018",
-          "text_2": "UP TO 30% OFF SELECTED ITEMS",
+          "image": "shopify:\/\/shop_images\/m10-b-2.jpg",
+          "image_right": true,
+          "content_title": "WOMAN WATCH",
+          "content_text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus vitae feugiat magna.",
           "button_link": "#",
           "button_title": "Shop Now"
         }
       },
-      "home-banner-background-4": {
-        "type": "home_background_content",
+      "home-content-box-3": {
+        "type": "watch_content_box",
         "settings": {
-          "preset": "style_5",
-          "background": "shopify:\/\/shop_images\/m9-bg-4.jpg",
-          "enable_parallax": true,
-          "box_height": 100,
-          "text_1": "#FASHION WEEK",
-          "text_2": "TRULY LOVE",
-          "text_3": "FUSCE QUIS PORTA NEQUESUSPENDISSE",
+          "image": "shopify:\/\/shop_images\/m10-b-3.jpg",
+          "content_title": "SPORT WATCH",
+          "content_text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus vitae feugiat magna.",
           "button_link": "#",
           "button_title": "Shop Now"
         }
       },
-      "newsletter-box": {
-        "type": "home_subscribe",
+      "home-product-list": {
+        "type": "home_product_list",
         "settings": {
-          "preset": "style_4",
-          "title": "Sign up for newsletter and <strong class=\"text-color-primary\"><i>get 10%<\/i><\/strong> offers / weeks",
-          "enable_parallax": false,
-          "padding_top": 70,
-          "padding_bottom": 70,
-          "enable_social": false
+          "preset_section_title": "style_5",
+          "title": "FEATURES PRODUCTS",
+          "sub_title": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper<br> tempus, nibh lorem congue lectus, ut pharetra torto",
+          "product_list_limit": "4",
+          "product_list_column": "4",
+          "product_list_collection_use": "watches"
+        }
+      },
+      "home-brands": {
+        "type": "home_brands",
+        "blocks": {
+          "b-001": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m2-brand-1.png",
+              "link": ""
+            }
+          },
+          "b-002": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m2-brand-2.png",
+              "link": ""
+            }
+          },
+          "b-003": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m2-brand-3.png",
+              "link": ""
+            }
+          },
+          "b-004": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m2-brand-4.png",
+              "link": ""
+            }
+          },
+          "b-005": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m2-brand-5.png",
+              "link": ""
+            }
+          },
+          "b-006": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m2-brand-6.png",
+              "link": ""
+            }
+          },
+          "b-007": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m2-brand-3.png",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "b-001",
+          "b-002",
+          "b-003",
+          "b-004",
+          "b-005",
+          "b-006",
+          "b-007"
+        ],
+        "settings": {
+          "background_color": "#f7f7f7",
+          "width_layout":"full",
+          "preset": "style_1",
+          "columns": "7",
+          "enable_style": true,
+          "style_top": 45
         }
       }
     },
     "content_for_index": [
-      "home-banner-background",
-      "home-banner-background-2",
-      "home-banner-background-3",
-      "home-banner-background-4",
-      "newsletter-box"
+      "home-slideshow",
+      "home-content-box",
+      "home-content-box-2",
+      "home-content-box-3",
+      "home-product-list",
+      "home-brands"
     ]
   },
   "presets": {
