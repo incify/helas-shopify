@@ -1,13 +1,23 @@
 {% if section.settings.enable == true %}
-<div data-section-id="{{ section.id }}" class="section__service-counter-box">
+<div data-section-id="{{ section.id }}" class="section__service-counter-box layout-{{ section.settings.preset }}">
   <div class="container">
     <div class="row">
       <div class="grid-x grid-padding-x small-up-1 medium-up-2 large-up-{{ section.settings.columns }}">
         {% for block in section.blocks limit: section.blocks.size %}
         <div class="cell">
           <div class="incify-counter text-center">
-              <h2 class="incify-counter--number">{{block.settings.number}}</h2>
-              <div class="incify-counter--title">{{block.settings.title}}</div>
+              {% if block.settings.image != blank %}
+              <div class="incify-counter__image">
+                <img src="{{ block.settings.image | img_url: 'master' }}" />
+              </div>
+              {% endif %}
+              <div class="incify-counter__content">
+                <h2 class="incify-counter--number">{{ block.settings.number }}</h2>
+                <div class="incify-counter--title">{{ block.settings.title }}</div>
+                {% if block.settings.text != blank %}
+                  <div class="incify-counter--text">{{ block.settings.text }}</div>
+                {% endif %}
+              </div>
           </div>
         </div>
         {% endfor %}
@@ -17,13 +27,11 @@
 </div>
 <span class="custom-styles-css">
 body div[data-section-id="{{ section.id }}"]{
-  background-color: {{ section.settings.background_color }}
+  background-color: {{ section.settings.background_color }};
   {% if section.settings.gradient_bg != false %}
   background: -moz-linear-gradient(left, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%);
   background: -webkit-linear-gradient(left, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%);
   background: linear-gradient(to right, {{section.settings.gradient_left}} 0%, {{section.settings.gradient_right}} 100%);
-  padding-top: 90px;
-  padding-bottom: 90px;
   {% endif %}
 }
 </span>
@@ -41,6 +49,21 @@ body div[data-section-id="{{ section.id }}"]{
       "id": "enable",
       "label": "Enable Content Box",
       "default": true
+    },
+    {
+      "type": "select",
+      "id": "preset",
+      "label": "Preset",
+      "options": [{
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "spa",
+          "label": "Main Spa"
+        }
+      ],
+      "default": "default"
     },
     {
       "type": "header",
@@ -87,9 +110,19 @@ body div[data-section-id="{{ section.id }}"]{
       "name": "Counter Item",
       "settings": [
         {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image Icon"
+        },
+        {
           "type": "text",
           "id": "title",
           "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Content"
         },
         {
           "type": "text",
@@ -102,7 +135,7 @@ body div[data-section-id="{{ section.id }}"]{
   "presets": [
     {
       "name": "Counter Box",
-      "category": "Services Page"
+      "category": "Content"
     }
   ]
 }

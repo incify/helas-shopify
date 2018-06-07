@@ -1,0 +1,215 @@
+<div data-section-id="{{ section.id }}" class="spa-image-section{% if section.settings.banner_space == 'yes' %} has-space{% endif %}">
+    <div class="spa-banner-image{% if section.settings.width_layout == 'boxed' %} container{% else %} container-fluid EL_row_padding_65{% endif %}">
+      <div{% if section.settings.width_layout == 'boxed' %} class="row"{% endif %}>
+        <div class="grid-x{% if section.settings.banner_space == 'yes' %} grid-padding-y grid-padding-x{% endif %}{% if section.settings.banner_space == 'small' %} small-space{% endif %} small-up-1 medium-up-{{section.settings.grid_2}} large-up-{{section.settings.grid}}">
+          {% for block in section.blocks %}
+          <div class="cell">
+            <div class="la-spa-service-box">
+              <div class="box-inner">
+                <div class="banner--image">
+                  <div class="incify-lazyload-image" data-background-image="{{ block.settings.image_banner | img_url: 'master' }}" data-auto-padding="true"></div>
+                </div>
+                <div class="banner--info" style="background-color: {{ block.settings.background_color }};">
+                  <div class="js-el b-title b-title1">{{ block.settings.title }}</div>
+                  <div class="banner--info-content">
+                    <div class="b-title b-title2">
+                      <p>{{ block.settings.text }}</p>
+                      {% if block.settings.link_banner != blank %}
+                      <p><a class="banner--btn" href="{{ block.settings.link_banner }}" title="{{ block.settings.banner_button }}">{{ block.settings.banner_button }}</a></p>
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+</div>
+{% if section.settings.enable_style == true %}
+<span class="custom-styles-css">
+  body div[data-section-id="{{ section.id }}"]{
+    {% if section.settings.style_top != '' %}
+    margin-top:{{ section.settings.style_top }}px;
+    {% endif %}
+    {% if section.settings.style_bottom != '' %}
+    margin-bottom:{{ section.settings.style_bottom }}px;
+    {% endif %}
+    {% if section.settings.style_left != '' %}
+    margin-left:{{ section.settings.style_left }}px;
+    {% endif %}
+    {% if section.settings.style_right != '' %}
+    margin-right:{{ section.settings.style_right }}px;
+    {% endif %}
+  }
+</span>
+{% endif %}
+{% schema %}
+{
+"name": "Banner Image",
+"max_blocks": 12,
+"settings": [
+    {
+    "type": "header",
+    "content": "Banner Image Settings"
+    },
+    {
+    "type": "select",
+    "id": "width_layout",
+    "label": "Display Full Width / Boxed",
+    "options": [
+    {
+    "value": "full",
+    "label": "Full Width"
+    },
+    {
+    "value": "boxed",
+    "label": "Boxed"
+    }
+    ],
+    "default": "boxed"
+    },
+    {
+      "type": "select",
+      "id": "banner_space",
+      "label": "Banner Space",
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes"
+        },
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "no",
+          "label": "No"
+        }
+      ],
+      "default": "no"
+    },
+    {
+      "type": "range",
+      "id": "grid",
+      "label": "Banner per row (Desktop View)",
+      "min": 2,
+      "max": 6,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "grid_2",
+      "label": "Banner per row (Tablet View)",
+      "min": 2,
+      "max": 6,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "header",
+      "content": "Styles Settings"
+    },
+    {
+     "type": "checkbox",
+     "id": "enable_style",
+     "default": false,
+     "label": "Enable Style Settings"
+    },
+    {
+        "type":      "range",
+        "id":        "style_top",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Top",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_bottom",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Bottom",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_left",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Left",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_right",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Right",
+        "default":   0
+    }
+	],
+  "blocks": [
+    {
+      "type": "banner_item",
+      "name": "Banner Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_banner",
+          "label": "Banner Image"
+        },
+        {
+        "type": "header",
+        "content": "Banner Text Settings"
+        },
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "Content Background Color",
+          "default": "#ffc7d4"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Content"
+        },
+        {
+        "type": "header",
+        "content": "Banner Button Settings"
+        },
+        {
+          "type": "url",
+          "id": "link_banner",
+          "label": "Banner Link"
+        },
+        {
+          "type": "text",
+          "id": "banner_button",
+          "label": "Banner Button"
+        }
+      ]
+    }
+  ],
+	"presets": [{
+      "name": "Banner Image",
+      "category": "Main Spa"
+  	}]
+}
+{% endschema %}

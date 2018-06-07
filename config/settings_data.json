@@ -348,7 +348,7 @@
     "related_product_limit": "8",
     "collection_grid_style": "flex",
     "collection_page_fullwidth": true,
-    "collection_item_preset": "style_3",
+    "collection_item_preset": "style_4",
     "collection_alternative_image": true,
     "collection_aspect_ratio": "0",
     "collection_ratio_width": "600",
@@ -592,17 +592,17 @@
       "header": {
         "type": "header",
         "settings": {
-          "type": "style1",
+          "type": "style2",
           "language_flag": "yes",
           "enable_header_transparent": "no",
-          "header_preset": "dark",
+          "header_preset": "light",
           "header_menu": "normal",
           "header_2_left_text": "<span class=\"header-2-left-text\"><i class=\"fa fa-phone\"><\/i> +56.653.534<\/span>\n<span class=\"header-2-left-text\"><a href=\"mailto:INFO@DOMAIN.COM\"><i class=\"fa fa-envelope-o\"><\/i> INFO@DOMAIN.COM<\/a><\/span>\n<span class=\"header-2-left-text\"><i class=\"dl-icon-clock\"><\/i> MON-SAT:8AM TO 9PM<\/span>",
           "custom_block_header_aside_top": "<p class=\"header-text\">Curabitur placerat urna augue, id luctus sem imperdiet id. Nunc congue ac libero ut lacinia. In ultrices elementum ipsum, in tempus enim accumsan...<\/p>\n<div class=\"social-media-link\">\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-facebook\"><\/i><\/a>\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-twitter\"><\/i><\/a>\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-pinterest\"><\/i><\/a>\n<\/div>",
 
           "logo_use_image": true,
-          "logo_width": "94",
-          "logo": "",
+          "logo_width": "280",
+          "logo": "shopify:\/\/shop_images\/m11-logo.png",
           "logo_white_use_image": true,
           "logo_white": "",
           "sticky_header_enable": "enable",
@@ -616,8 +616,8 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "typefooter": "style1",
-          "footer_background_color": "#232324",
+          "typefooter": "style4",
+          "footer_background_color": "#121220",
           "footer_background_image": "",
           "logo_use_image": true,
           "logo_width": "94",
@@ -633,7 +633,7 @@
           "footer_linklist_2_type1": "recent-posts",
           "footer_title_col4_type1": "Profiles",
           "footer_linklist_3_type1": "profiles",
-          "footer_title_col5_type1": "",
+          "footer_title_col5_type1": "GET 10% OFF COUPON",
           "column_5_content": "map",
           "hashtag": "OCSTORE3",
           "footer_linklist_type2": "footer",
@@ -1003,10 +1003,7 @@
           "testimonial03"
         ],
         "settings": {
-          "preset_section_title": "style_1",
-          "title": "",
-          "sub_title": "",
-          "preset": "style_2",
+          "preset": "style_4",
           "background": "",
           "enable_parallax": false,
           "gradient_bg": true,
@@ -1595,41 +1592,31 @@
           "home-slideshow-0": {
             "type": "image",
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/slider-m10-1.jpg",
-              "class_content": "content-slider-10",
+              "background_image": "shopify:\/\/shop_images\/slider-m11-1.jpg",
+              "class_content": "content-slider-11",
               "use_content_image": false,
               "content_image_slider": "",
-              "content1": "<h1>RM11-02 Jet Black Ntpt<\/h1>",
-              "button_content": "<a href=\"#\" class=\"btn-button bordered-2 x2 white uppercase\">Shop now<\/a>"
+              "content1": "<h1>LUXURY BEAUTY SPA<\/h1>",
+              "content2": "<p>Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus.</p>",
+              "button_content": "<a href=\"#\" class=\"btn-button white uppercase\">Shop now<\/a>"
             }
           },
           "home-slideshow-1": {
             "type": "image",
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/slider-m10-2.jpg",
-              "class_content": "content-slider-10",
+              "background_image": "shopify:\/\/shop_images\/slider-m11-2.jpg",
+              "class_content": "content-slider-11-2",
               "use_content_image": false,
               "content_image_slider": "",
-              "content1": "<h1>Hublot Classic Fusion \"ForbiddenX\"<\/h1>",
-              "button_content": "<a href=\"#\" class=\"btn-button bordered-2 x2 white uppercase\">Shop now<\/a>"
-            }
-          },
-          "home-slideshow-2": {
-            "type": "image",
-            "settings": {
-              "background_image": "shopify:\/\/shop_images\/slider-m10-3.jpg",
-              "class_content": "content-slider-10",
-              "use_content_image": false,
-              "content_image_slider": "",
-              "content1": "<h1>NEW COLLECTIONS IWATCH 2018<\/h1>",
-              "button_content": "<a href=\"#\" class=\"btn-button bordered-2 x2 white uppercase\">Shop now<\/a>"
+              "content1": "<h1>INSTANT<span class=\"satisfy-font\">Facelift<\/span><\/h1>",
+              "content2": "<p>Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus.</p>",
+              "button_content": "<a href=\"#\" class=\"btn-button white uppercase\">Shop now<\/a>"
             }
           }
         },
         "block_order": [
           "home-slideshow-0",
-          "home-slideshow-1",
-          "home-slideshow-2"
+          "home-slideshow-1"
         ],
         "settings": {
           "auto_speed": "8000",
@@ -1641,127 +1628,516 @@
           "slide_nav_next": "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"><\/i>"
         }
       },
-      "home-content-box": {
-        "type": "watch_content_box",
+      "main-aboutus-box": {
+        "type": "home_aboutus_box",
         "settings": {
-          "image": "shopify:\/\/shop_images\/m10-b-1.jpg",
-          "content_title": "MEN WATCH",
-          "content_text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus vitae feugiat magna.",
-          "button_link": "#",
-          "button_title": "Shop Now"
+          "preset": "style_3",
+          "content_title": "WELCOME TO HELAS BEAUTY CENTER",
+          "content_text": "<img src=\"https://i1.wp.com/helas.la-studioweb.com/wp-content/uploads/2018/01/m11-mockup-1.png\" /><p>Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus. Phasellus vitae feugiat magna. Nunc dictum magna molestie convallis commodo.</p><img src=\"https://i0.wp.com/helas.la-studioweb.com/wp-content/uploads/2018/01/m11-mockup-2.png?fit=335%2C73\" /><div style=\"font-size: 14px;color: #36393e;line-height: 1;text-align: center; margin-top:25px;\">Ella Morales - Beauty Manager</div>",
+          "enable_style": true,
+          "style_top": 50,
+          "style_bottom": 50
         }
       },
-      "home-content-box-2": {
-        "type": "watch_content_box",
-        "settings": {
-          "image": "shopify:\/\/shop_images\/m10-b-2.jpg",
-          "image_right": true,
-          "content_title": "WOMAN WATCH",
-          "content_text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus vitae feugiat magna.",
-          "button_link": "#",
-          "button_title": "Shop Now"
-        }
-      },
-      "home-content-box-3": {
-        "type": "watch_content_box",
-        "settings": {
-          "image": "shopify:\/\/shop_images\/m10-b-3.jpg",
-          "content_title": "SPORT WATCH",
-          "content_text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus vitae feugiat magna.",
-          "button_link": "#",
-          "button_title": "Shop Now"
-        }
-      },
-      "home-product-list": {
-        "type": "home_product_list",
-        "settings": {
-          "preset_section_title": "style_5",
-          "title": "FEATURES PRODUCTS",
-          "sub_title": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper<br> tempus, nibh lorem congue lectus, ut pharetra torto",
-          "product_list_limit": "4",
-          "product_list_column": "4",
-          "product_list_collection_use": "watches"
-        }
-      },
-      "home-brands": {
-        "type": "home_brands",
+      "home-banner-image": {
+        "type": "spa_banner_image",
         "blocks": {
-          "b-001": {
-            "type": "image",
+          "m11-b1-1": {
+            "type": "banner_item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-1.png",
-              "link": ""
+              "image_banner": "shopify:\/\/shop_images\/m11-b-1.jpg",
+              "background_color": "#ffc7d4",
+              "title": "Skincare",
+              "text": "Aliquam scelerisque tincidunt commodo. Etiam ut quam nec ligula commodo faucib",
+              "link_banner": "#",
+              "banner_button": "READ MORE SKINCARE"
             }
           },
-          "b-002": {
-            "type": "image",
+          "m11-b1-2": {
+            "type": "banner_item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-2.png",
-              "link": ""
+              "image_banner": "shopify:\/\/shop_images\/m11-b-2.jpg",
+              "background_color": "#eef48f",
+              "title": "Massage",
+              "text": "Aliquam scelerisque tincidunt commodo. Etiam ut quam nec ligula commodo faucib",
+              "link_banner": "#",
+              "banner_button": "READ MORE Massage"
             }
           },
-          "b-003": {
-            "type": "image",
+          "m11-b1-3": {
+            "type": "banner_item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-3.png",
-              "link": ""
+              "image_banner": "shopify:\/\/shop_images\/m11-b-3.jpg",
+              "background_color": "#a7adbc",
+              "title": "Luxury Beauty",
+              "text": "Aliquam scelerisque tincidunt commodo. Etiam ut quam nec ligula commodo faucib",
+              "link_banner": "#",
+              "banner_button": "READ MORE Luxury Beauty"
             }
           },
-          "b-004": {
-            "type": "image",
+          "m11-b1-4": {
+            "type": "banner_item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-4.png",
-              "link": ""
+              "image_banner": "shopify:\/\/shop_images\/m11-b-4.jpg",
+              "background_color": "#9fc539",
+              "title": "Aromatheraphy",
+              "text": "Aliquam scelerisque tincidunt commodo. Etiam ut quam nec ligula commodo faucib",
+              "link_banner": "#",
+              "banner_button": "READ MORE Aromatheraphy"
             }
           },
-          "b-005": {
-            "type": "image",
+          "m11-b1-5": {
+            "type": "banner_item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-5.png",
-              "link": ""
+              "image_banner": "shopify:\/\/shop_images\/m11-b-5.jpg",
+              "background_color": "#baf2ef",
+              "title": "Spa Treatment",
+              "text": "Aliquam scelerisque tincidunt commodo. Etiam ut quam nec ligula commodo faucib",
+              "link_banner": "#",
+              "banner_button": "READ MORE Spa Treatment"
             }
           },
-          "b-006": {
-            "type": "image",
+          "m11-b1-6": {
+            "type": "banner_item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-6.png",
-              "link": ""
+              "image_banner": "shopify:\/\/shop_images\/m11-b-6.jpg",
+              "background_color": "#b6f4d2",
+              "title": "Beauty Products",
+              "text": "Aliquam scelerisque tincidunt commodo. Etiam ut quam nec ligula commodo faucib",
+              "link_banner": "#",
+              "banner_button": "READ MORE Beauty Products"
             }
           },
-          "b-007": {
-            "type": "image",
+          "m11-b1-7": {
+            "type": "banner_item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-3.png",
-              "link": ""
+              "image_banner": "shopify:\/\/shop_images\/m11-b-7.jpg",
+              "background_color": "#2ec4b6",
+              "title": "Physical Therapy",
+              "text": "Aliquam scelerisque tincidunt commodo. Etiam ut quam nec ligula commodo faucib",
+              "link_banner": "#",
+              "banner_button": "READ MORE Physical Therapy"
+            }
+          },
+          "m11-b1-8": {
+            "type": "banner_item",
+            "settings": {
+              "image_banner": "shopify:\/\/shop_images\/m11-b-8.jpg",
+              "background_color": "#ffcb65",
+              "title": "Facial",
+              "text": "Aliquam scelerisque tincidunt commodo. Etiam ut quam nec ligula commodo faucib",
+              "link_banner": "#",
+              "banner_button": "READ MORE Facial"
             }
           }
         },
         "block_order": [
-          "b-001",
-          "b-002",
-          "b-003",
-          "b-004",
-          "b-005",
-          "b-006",
-          "b-007"
+          "m11-b1-1",
+          "m11-b1-2",
+          "m11-b1-3",
+          "m11-b1-4",
+          "m11-b1-5",
+          "m11-b1-6",
+          "m11-b1-7",
+          "m11-b1-8"
         ],
         "settings": {
-          "background_color": "#f7f7f7",
-          "width_layout":"full",
-          "preset": "style_1",
-          "columns": "7",
+          "width_layout": "full",
+          "banner_space": "no",
+          "grid": "4",
+          "grid_2": "4"
+        }
+      },
+      "main11-counter-box": {
+        "type": "service_counter_box",
+        "blocks": {
+          "m11-counter-01": {
+            "type": "counter_item",
+            "settings": {
+              "title": "Beauty Products",
+              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibusfe.",
+              "image": "shopify:\/\/shop_images\/m11-icon-1.png",
+              "number": "2584"
+            }
+          },
+          "m11-counter-02": {
+            "type": "counter_item",
+            "settings": {
+              "title": "Happy Clients",
+              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibusfe.",
+              "image": "shopify:\/\/shop_images\/m11-icon-2.png",
+              "number": "2684"
+            }
+          },
+          "m11-counter-03": {
+            "type": "counter_item",
+            "settings": {
+              "title": "Spa Luxury",
+              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibusfe.",
+              "image": "shopify:\/\/shop_images\/m11-icon-3.png",
+              "number": "24"
+            }
+          }
+        },
+        "block_order": [
+          "m11-counter-01",
+          "m11-counter-02",
+          "m11-counter-03"
+        ],
+        "settings": {
+          "preset": "spa",
+          "background_color": "#ffffff",
+          "gradient_bg": false,
+          "columns": 3
+        }
+      },
+      "main-banner-video": {
+        "type": "home_video_banner",
+        "settings": {
+          "preset": "spa",
+          "enable_parallax": true,
+          "background": "shopify:\/\/shop_images\/m11-bg-1.jpg",
+          "content": "<h3>WATCH OUR STORY<\/h3><p>#Helas Beauty26<\/p>",
+          "video_source": "vimeo",
+          "video_id": "172601404",
+          "play_icon":"shopify:\/\/shop_images\/icon-play2.png",
+          "padding_top": 150,
+          "padding_bottom": 150,
+          "enable_style": true
+        }
+      },
+      "home-service-list": {
+        "type": "spa_service_list",
+        "blocks": {
+          "m11-s-1": {
+            "type": "service",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m11-s-1.jpg",
+              "title": "100% NATURE",
+              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus. Phasellus vitae feugiat mag",
+              "link_banner": "#",
+              "banner_button": "DISCOVER MORE"
+            }
+          },
+          "m11-s-2": {
+            "type": "service",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m11-s-2.jpg",
+              "title": "LUXURY SERVICES",
+              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus. Phasellus vitae feugiat mag",
+              "link_banner": "#",
+              "banner_button": "DISCOVER MORE"
+            }
+          },
+          "m11-s-3": {
+            "type": "service",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m11-s-3.jpg",
+              "title": "REST & RELAX",
+              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus. Phasellus vitae feugiat mag",
+              "link_banner": "#",
+              "banner_button": "DISCOVER MORE"
+            }
+          }
+        },
+        "block_order": [
+          "m11-s-1",
+          "m11-s-2",
+          "m11-s-3"
+        ],
+        "settings": {
+          "preset_section_title": "style_6",
+          "title": "WHY CHOOSE US ?",
+          "width_layout": "full",
+          "banner_space": "yes",
+          "grid": "3",
+          "grid_2": "3"
+        }
+      },
+      "home-testimonials": {
+        "type": "home_testimonials",
+        "blocks": {
+          "home-testimonials-01": {
+            "type": "testimonial_content",
+            "settings": {
+              "testimonial_avt": "shopify:\/\/shop_images\/m15-t-1.jpg",
+              "testimonial_text": "\"Curabitur lacinia metus vitae odio euismod, sit amet cursus ipsum tincidunt. Pellentesm, id vestibulum\"",
+              "testimonial_text_author": "Robert Elliott",
+              "testimonial_text_job": "CEO Adobe"
+            }
+          },
+          "home-testimonials-02": {
+            "type": "testimonial_content",
+            "settings": {
+              "testimonial_avt": "shopify:\/\/shop_images\/m15-t-2.jpg",
+              "testimonial_text": "\"Curabitur lacinia metus vitae odio euismod, sit amet cursus ipsum tincidunt. Pellentesm, id vestibulum\"",
+              "testimonial_text_author": "Gilbert Norton",
+              "testimonial_text_job": "CEO Apple"
+            }
+          },
+          "home-testimonials-03": {
+            "type": "testimonial_content",
+            "settings": {
+              "testimonial_avt": "shopify:\/\/shop_images\/m15-t-3.jpg",
+              "testimonial_text": "\"Curabitur lacinia metus vitae odio euismod, sit amet cursus ipsum tincidunt. Pellentesm, id vestibulum\"",
+              "testimonial_text_author": "Eva Powers",
+              "testimonial_text_job": "CEO Microsoft"
+            }
+          }
+        },
+        "block_order": [
+          "home-testimonials-01",
+          "home-testimonials-02",
+          "home-testimonials-03"
+        ],
+        "settings": {
+          "preset": "style_4",
+          "preset_section_title": "style_6",
+          "title": "HAPPY CLIENTS",
+          "background": "shopify:\/\/shop_images\/m11-bg-1-1.jpg",
+          "enable_parallax": false,
+          "padding_top": 80,
+          "padding_bottom": 80,
+          "sides_show": "1",
           "enable_style": true,
-          "style_top": 45
+          "style_top": 75
+        }
+      },
+      "home-products-tab": {
+        "type": "home_tab_collection",
+        "settings": {
+          "preset_section_title": "style_6",
+          "title": "Hot Products",
+          "tab_collection_view_all_product": "VIEW ALL PRODUCTS",
+          "tab_collection_link_all_product": "#",
+          "tab_collection_limit": "5",
+          "tab_collection_column": "5",
+          "tab_collection_title_1": "all",
+          "tab_collection_1": "spa",
+          "tab_collection_title_2": "Skin Care",
+          "tab_collection_2": "watches",
+          "tab_collection_title_3": "MakeUp",
+          "tab_collection_3": "spa",
+          "tab_collection_title_4": "HairCare",
+          "tab_collection_4": "watchs",
+          "tab_collection_title_5": "ACCESSORIES",
+          "tab_collection_5": "spa"
+        }
+      },
+      "home-banner-image-2": {
+        "type": "home_banner_image",
+        "blocks": {
+          "m11-b-4-1": {
+            "type": "banner_item",
+            "settings": {
+              "image_banner": "shopify:\/\/shop_images\/m11-b-9.jpg",
+              "link_banner": "#",
+              "banner_button": "Shop Now"
+            }
+          },
+          "m11-b-4-2": {
+            "type": "banner_item",
+            "settings": {
+              "image_banner": "shopify:\/\/shop_images\/m11-b-10.jpg",
+              "link_banner": "#",
+              "banner_button": "Shop Now"
+            }
+          },
+          "m11-b-4-3": {
+            "type": "banner_item",
+            "settings": {
+              "image_banner": "shopify:\/\/shop_images\/m11-b-11.jpg",
+              "text_banner": "Natural Beauty",
+              "text_class": "special-font font-size-24 text-uppercase letter-spacing-2 font-weight-bold",
+              "link_banner": "#",
+              "text_banner_2": "50<small>%<\/small>",
+              "text_class_2": "special-font font-size-90 m01-banner-title2",
+              "banner_button": "Shop Now"
+            }
+          }
+        },
+        "block_order": [
+          "m11-b-4-1",
+          "m11-b-4-2",
+          "m11-b-4-3"
+        ],
+        "settings": {
+          "banner_preset": "style_3",
+          "width_layout": "full",
+          "banner_space": "no",
+          "grid": "3",
+          "grid_2": "3",
+          "enable_style": true,
+          "style_top": "0",
+          "style_bottom": "0"
+        }
+      },
+      "home-event-box": {
+        "type": "spa_event_box",
+        "blocks": {
+          "event-1": {
+            "type": "event_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m11-s-4.png",
+              "title": "BEAUTIFUL WOMAN DAY 2018",
+              "content": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus. Phasellus vitae feugiat mag",
+              "button_url": "#"
+            }
+          }
+        },
+        "block_order": [
+          "event-1"
+        ],
+        "settings": {
+          "title": "UPCOMING EVENTS",
+          "preset_section_title": "style_6",
+          "background": "shopify:\/\/shop_images\/m11-bg-2.jpg"
+        }
+      },
+      "home-team-member": {
+        "type": "about_us_team_member",
+        "blocks": {
+            "m11-member-01": {
+              "type": "team_member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/m11-m-1.jpg",
+                "name": "Charlotte Clayton",
+                "desc": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ull",
+                "postion": "CEO - Founder",
+                "fb": "#",
+                "tw": "#",
+                "pin": "#",
+                "gp": "#"
+              }
+            },
+            "m11-member-02": {
+              "type": "team_member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/m11-m-2.jpg",
+                "name": "Ellen Thornton",
+                "desc": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ull",
+                "postion": "Spa Manager",
+                "fb": "#",
+                "tw": "#",
+                "pin": "#",
+                "gp": "#"
+              }
+            },
+            "m11-member-03": {
+              "type": "team_member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/m11-m-3.jpg",
+                "name": "Milton Marsh",
+                "desc": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ull",
+                "postion": "Marketing Manager",
+                "fb": "#",
+                "tw": "#",
+                "pin": "#",
+                "gp": "#"
+              }
+            },
+          "m11-member-04": {
+            "type": "team_member",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m11-m-4.jpg",
+              "name": "Amy Moran",
+              "desc": "Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ull",
+              "postion": "Product Manager",
+              "fb": "#",
+              "tw": "#",
+              "pin": "#",
+              "gp": "#"
+            }
+          }
+        },
+        "block_order": [
+          "m11-member-01",
+          "m11-member-02",
+          "m11-member-03",
+          "m11-member-04"
+        ],
+        "settings": {
+          "preset": "spa",
+          "title": "MEET OUR TEAM"
+        }
+      },
+      "newsletter-box": {
+        "type": "home_subscribe",
+        "settings": {
+          "preset": "style_4",
+          "title": "Sign up for newsletter and <strong class=\"text-color-heading\"><i>get 10%<\/i><\/strong> offers / weeks",
+          "enable_parallax": true,
+          "background": "shopify:\/\/shop_images\/m11-bg-2.jpg",
+          "padding_top": 70,
+          "padding_bottom": 70,
+          "enable_social": false
+        }
+      },
+      "blog-list": {
+        "type": "home_article_list",
+        "settings": {
+          "preset_section_title": "style_6",
+          "title": "LATEST BLOG",
+          "blog": "news",
+          "blog_article_limit": "2",
+          "number_columns_blog_show": "2"
+        }
+      },
+      "home-banner-image-3": {
+        "type": "home_banner_image",
+        "blocks": {
+          "m11-b-5-1": {
+            "type": "banner_item",
+            "settings": {
+              "image_banner": "shopify:\/\/shop_images\/m11-bg-3.jpg",
+              "text_position": "center",
+              "text_banner": "BE A VIP MEMBER <br/> GET 10% OFF",
+              "link_banner": "#",
+              "banner_button": "Shop Now"
+            }
+          },
+          "m11-b-5-2": {
+            "type": "banner_item",
+            "settings": {
+              "image_banner": "shopify:\/\/shop_images\/m11-bg-4.jpg",
+              "text_position": "center",
+              "text_banner": "BOOK YOUR PLACE AT THE <br/> SPA NOW!",
+              "link_banner": "#",
+              "banner_button": "Shop Now"
+            }
+          }
+        },
+        "block_order": [
+          "m11-b-5-1",
+          "m11-b-5-2"
+        ],
+        "settings": {
+          "banner_preset": "style_4",
+          "width_layout": "full",
+          "banner_space": "no",
+          "grid": "2",
+          "grid_2": "2",
+          "enable_style": true,
+          "style_top": "45",
+          "style_bottom": "0"
         }
       }
     },
     "content_for_index": [
       "home-slideshow",
-      "home-content-box",
-      "home-content-box-2",
-      "home-content-box-3",
-      "home-product-list",
-      "home-brands"
+      "main-aboutus-box",
+      "home-banner-image",
+      "main11-counter-box",
+      "main-banner-video",
+      "home-service-list",
+      "home-testimonials",
+      "home-products-tab",
+      "home-banner-image-2",
+      "home-event-box",
+      "home-team-member",
+      "newsletter-box",
+      "blog-list",
+      "home-banner-image-3"
     ]
   },
   "presets": {

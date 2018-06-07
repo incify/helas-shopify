@@ -1,0 +1,230 @@
+<div data-section-id="{{ section.id }}" class="section__spa-event-box parallax-box">
+  {% include "block_title" %}
+  <div class="spa-event-box">
+    <div class="container">
+      <div class="row">
+          <div class="slick-carousel" data-slick='{"slidesToShow":1, "slidesToScroll":1, "dots": false, "autoplaySpeed":5000, "speed":300,"infinite":false}'>
+            {% for block in section.blocks %}
+            <div class="spa-event-item row">
+              <div class="col-sm-10 col-lg-offset-2 col-lg-8 col-sm-offset-1">
+                <img src="{{ block.settings.image | img_url: 'master' }}" />
+              </div>
+              <div class="col-sm-10 col-lg-offset-2 col-lg-8 col-sm-offset-1 lg-pt-30 xs-pb-50">
+                <h2>{{ block.settings.title }}</h2>
+                <div class="shortcode-countdown">
+                  <div class="product-date clearfix" data-date="{{ block.settings.to_date }}"></div>
+                </div>
+                <p>{{ block.settings.content }}</p>
+                {%- if block.settings.button_url != blank -%}
+                  <a href="{{ block.settings.button_url }}" class="btn-button black uppercase">{{ block.settings.button_text }}</a>
+                {%- endif -%}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="custom-styles-css">
+body div[data-section-id="{{ section.id }}"]{
+  {% if section.settings.background %}
+  background-image:url({{ section.settings.background | img_url: 'master' }});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  {% endif %}
+  {% if section.settings.enable_style == true %}
+    {% if section.settings.style_top != '' %}
+    margin-top:{{ section.settings.style_top }}px;
+    {% endif %}
+    {% if section.settings.style_bottom != '' %}
+    margin-bottom:{{ section.settings.style_bottom }}px;
+    {% endif %}
+    {% if section.settings.style_left != '' %}
+    margin-left:{{ section.settings.style_left }}px;
+    {% endif %}
+    {% if section.settings.style_right != '' %}
+    margin-right:{{ section.settings.style_right }}px;
+    {% endif %}
+  {% endif %}
+}
+body div[data-section-id="{{ section.id }}"] .special-offters-box {
+  background-color: {{ section.settings.background_color }}
+}
+</span>
+{% schema %}
+{
+  "name": "Special Offers",
+  "settings": [
+  {
+  "type": "header",
+  "content": "Title Settings"
+  },
+  {
+  "type": "select",
+  "id": "preset_section_title",
+  "label": "Preset Section Title",
+  "options": [
+  {
+  "value": "style_1",
+  "label": "Style 1"
+  },
+  {
+  "value": "style_2",
+  "label": "Style 2"
+  },
+  {
+  "value": "style_3",
+  "label": "Style 3"
+  },
+  {
+  "value": "style_4",
+  "label": "Style 4"
+  },
+  {
+  "value": "style_5",
+  "label": "Style 5"
+  },
+  {
+  "value": "style_6",
+  "label": "Style 6"
+  },
+  {
+  "value": "style_7",
+  "label": "Style 7"
+  },
+  {
+  "value": "style_8",
+  "label": "Style 8"
+  }
+  ],
+  "default": "style_1"
+  },
+  {
+  "type": "text",
+  "id": "title",
+  "label": "Box title"
+  },
+  {
+  "type": "text",
+  "id": "sub_title",
+  "label": "Box Sub title"
+  },
+  {
+      "type": "select",
+      "id": "preset",
+      "label": "Preset",
+      "options": [{
+        "value": "style_1",
+        "label": "Style 1"
+      }],
+      "default": "style_1"
+    },
+    {
+      "type": "header",
+      "content": "Backgound Content Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "background",
+      "label": "Backgound Image"
+    },
+    {
+      "type": "header",
+      "content": "Styles Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_style",
+      "default": false,
+      "label": "Enable Style Settings"
+    },
+    {
+      "type": "range",
+      "id": "style_top",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "style_bottom",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "style_left",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Left",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "style_right",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Right",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "event_item",
+      "name": "Event Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "content",
+          "label": "Content"
+        },
+        {
+          "type": "text",
+          "id": "to_date",
+          "label": "Event To Date",
+          "default": "2019/12/10 10:30:00",
+          "placeholder": "2019/12/10 10:30:00"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text",
+          "default": "Join Now"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "Button Url"
+        }
+      ]
+    }
+  ],
+  "presets": [{
+    "name": "Event",
+    "category": "Main Spa"
+  }]
+}
+{% endschema %}

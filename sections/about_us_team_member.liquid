@@ -1,17 +1,31 @@
 {% if section.settings.enable == true %}
-<div data-section-id="{{ section.id }}" class="section__about-us-team-member">
+<div data-section-id="{{ section.id }}" class="section__about-us-team-member layout-preset-{{ section.settings.preset }}">
+  {% if section.settings.preset == 'spa' %}
+  <div class="container style_6 ">
+    <div class="row">
+        <div class="col-sm-12">
+                <h1 class="section-title">
+                    <span class="lang1">{{ section.settings.title }}</span>
+                </h1>
+                <div class="custom-line-with-dot" style="height:1px"><span class="la-line"></span></div>
+        </div>
+    </div>
+  </div>
+  {% endif %}
   <div class="container">
+    {% if section.settings.preset == 'default' %}
     <div class="row">
       <div class="col-md-12">
         <h3 class="title">{{ section.settings.title }}</h3>
       </div>
     </div>
+    {% endif %}
     <div class="row nova-team-member">
       <div class="col-md-12">
         <div class="slick-carousel" data-slick='{"slidesToShow":{{ section.settings.columns }},"slidesToScroll":{{ section.settings.columns }},"dots":false,"autoplaySpeed":5000,"speed":300,"infinite":false,"arrows":false,"swipe":true,"draggable":true,"touchMove":true,"pauseOnHover":false,"responsive":[{"breakpoint":1824,"settings":{"slidesToShow":{{ section.settings.columns }},"slidesToScroll":{{ section.settings.columns }}}},{"breakpoint":1200,"settings":{"slidesToShow":{{ section.settings.columns }},"slidesToScroll":{{ section.settings.columns }}}},{"breakpoint":992,"settings":{"slidesToShow":3,"slidesToScroll":3}},{"breakpoint":768,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":480,"settings":{"slidesToShow":2,"slidesToScroll":2}}],"pauseOnDotsHover":true}'>
           {% for block in section.blocks %}
           <div class="item">
-            <div class="la-member__inner item-inner">
+            <div class="la-member__inner item-inner {% if block.settings.desc == blank %}not-desc{% endif %}">
               <div class="la-member__image"><img src="{{ block.settings.image | img_url: 'master' }}"><div class="item--overlay"></div></div>
               <div class="la-member__info">
                 <div class="la-member__info-title-role">
@@ -35,6 +49,9 @@
                   <a class="social-google-plus google-plus" href="{{ block.settings.gp }}" tabindex="0"><i class="fa fa-google-plus"></i></a>
                   {% endif %}
                 </div>
+                {% if block.settings.desc != blank %}
+                <p class="la-member__info-desc">{{ block.settings.desc  }}</p>
+                {% endif %}
               </div>
             </div>
           </div>
@@ -63,6 +80,22 @@
       "default": true
     },
     {
+    "type": "select",
+    "id": "preset",
+    "label": "Preset",
+    "options": [
+    {
+    "value": "default",
+    "label": "Default"
+    },
+    {
+    "value": "spa",
+    "label": "Main Spa"
+    }
+    ],
+    "default": "default"
+    },
+    {
       "type": "text",
       "id": "title",
       "label": "Title"
@@ -88,6 +121,11 @@
           "type": "text",
           "id": "name",
           "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "desc",
+          "label": "Description"
         },
         {
           "type": "textarea",

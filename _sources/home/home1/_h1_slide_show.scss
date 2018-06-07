@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
 /*============================================================================
 slider show
 ==============================================================================*/
@@ -687,6 +688,67 @@ slider show
     .btn-button {
       margin-top: 45px;
     }
+  },
+  &.content-slider-11 {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    @include translate_all;
+    h1 {
+      font-size: 70px;
+      line-height: 80px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 20px;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+    }
+    p {
+      min-width: 615px;
+      max-width: 615px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 14px;
+      line-height: 24px;
+      color: #fff;
+    }
+    .btn-button {
+      margin-top: 45px;
+    }
+  }
+  &.content-slider-11-2 {
+    right: 0;
+    top: 50% !important;
+    bottom: auto;
+    text-align: center;
+    @include translate_y;
+    h1 {
+      font-size: 70px;
+      line-height: 80px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      letter-spacing: 0;
+      color: #222;
+      text-transform: none;
+      span {
+        display: inline-block;
+        margin-left: 10px;
+        font-weight: 400;
+      }
+    }
+    p {
+      min-width: 615px;
+      max-width: 615px;
+      font-size: 14px;
+      line-height: 24px;
+      color: #222;
+    }
+    .btn-button {
+      margin-top: 45px;
+    }
   }
 }
 
@@ -728,4 +790,7 @@ slider show
     text-align: right;
     @include translate_y;
   }
+}
+.satisfy-font {
+  font-family: Satisfy;
 }

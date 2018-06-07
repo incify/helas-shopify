@@ -1,11 +1,11 @@
 <div data-section-id="{{ section.id }}" data-section-type="testimonial-section" class="testimonial-section layout-{{section.settings.preset}}">
-{% if section.settings.title !='' %}
-  <div class="testimonia-title">
-      {% include "block_title" %}
-  </div>
-  {% endif %}
   <div class="incify-testimonial{% if section.settings.enable_parallax == true %} parallax-box{% endif %}">
     <div class="incify-testimonial__inner">
+      {% if section.settings.title !='' %}
+        <div class="testimonia-title">
+            {% include "block_title" %}
+        </div>
+        {% endif %}
       <div class="container">
         <div class="row">
           <div class="{% if section.settings.preset == 'style_2' %}col-sm-10 col-md-7{% else %}col-sm-10 col-lg-offset-2 col-lg-8 col-sm-offset-1{% endif %}">
@@ -160,6 +160,10 @@ body div[data-section-id="{{ section.id }}"] .incify-testimonial .incify-testimo
         {
           "value": "style_3",
           "label": "Style 3"
+        },
+        {
+          "value": "style_4",
+          "label": "Style 4"
         }
       ],
       "default": "style_1"

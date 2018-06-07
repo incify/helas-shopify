@@ -1,0 +1,28 @@
+.section__spa-event-box {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  .spa-event-box {
+    .spa-event-item {
+      text-align: center;
+      margin-top: 20px;
+      img {
+        margin: 0 auto;
+      }
+      h2 {
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+      .shortcode-countdown {
+        .product-date {
+          > div { border: none; }
+        }
+      }
+      .btn-button {
+        margin-top: 45px;
+      }
+    }
+  }
+}

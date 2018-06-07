@@ -21,4 +21,14 @@
       text-align: center;
     }
   }
+  &.style_3 {
+    text-align: center;
+    .aboutus-content-box__content {
+      text-align: center;
+      h1 {
+        font-size: 40px;
+        font-weight: 400;
+      }
+    }
+  }
 }

@@ -3,7 +3,7 @@
 {% else %}
 {% assign button = 'm3-icon-play.png' | asset_url %}
 {% endif %}
-<div data-section-id="{{ section.id }}" class="banner-video-section lg-mt-75 md-mt-50 xs-mt-30 {% if section.settings.enable_parallax == true %}parallax-box{% endif %} {{section.settings.banner_preset}}">
+<div data-section-id="{{ section.id }}" class="banner-video-section layout-{{ section.settings.preset }} lg-mt-75 md-mt-50 xs-mt-30 {% if section.settings.enable_parallax == true %}parallax-box{% endif %} {{section.settings.banner_preset}}">
   <div class="incify-video-popup">
       <div class="incify-video-popup__content md-mb-50 xs-mb-20">
         {% include 'shortcode' load: section.settings.content %}
@@ -50,6 +50,21 @@ body div[data-section-id="{{ section.id }}"]{
     {
     "type": "header",
     "content": "Video Banner Settings"
+    },
+    {
+      "type": "select",
+      "id": "preset",
+      "label": "Preset",
+      "options": [{
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "spa",
+          "label": "Main Spa"
+        }
+      ],
+      "default": "default"
     },
     {
      "type": "checkbox",

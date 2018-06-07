@@ -26,6 +26,9 @@
                     <span>{{ section.settings.title | split: '|' | first }}</span>
                     {% endif %}
                 </h1>
+                {% if section.settings.preset_section_title == 'style_6' %}
+                <div class="custom-line-with-dot" style="height:1px"><span class="la-line"></span></div>
+                {% endif %}
                 {% if section.settings.sub_title != blank %}
                 <div class="section-sub-title">
                     {{ section.settings.sub_title }}

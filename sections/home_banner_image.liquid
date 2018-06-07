@@ -5,10 +5,10 @@
           {% for block in section.blocks %}
           <div class="cell">
             <div class="box-inner">
-                <div class="banner--image spcial-hover-effect incify-lazyload-image banner-background-1" data-background-image="{{ block.settings.image_banner | img_url: 'master' }}" data-auto-padding="true"></div>
+                <div class="banner--image {% if section.settings.banner_preset != 'style_4' %}spcial-hover-effect{% endif %} incify-lazyload-image banner-background-1" data-background-image="{{ block.settings.image_banner | img_url: 'master' }}" data-auto-padding="true"></div>
                 <div class="banner--infor content-position-{{ block.settings.text_position }}">
                     {% case section.settings.banner_preset %}
-                    {% when 'style_3' %}
+                    {% when 'style_5' %}
                     {% else %}
                       {% if block.settings.text_banner != blank %}
                         <div class="banner--infor__text_1 {{ block.settings.text_class }}">{{ block.settings.text_banner }}</div>
@@ -21,6 +21,12 @@
                       {% endif %}
                       {% if block.settings.link_banner and block.settings.banner_button and section.settings.banner_preset == 'style_2' %}
                       <a href="{{ block.settings.link_banner }}" class="btn-button bordered uppercase">{{ block.settings.banner_button }}</a>
+                      {% endif %}
+                      {% if block.settings.link_banner and block.settings.banner_button and block.settings.text_banner != blank and section.settings.banner_preset == 'style_3' %}
+                      <a href="{{ block.settings.link_banner }}" class="banner--btn">{{ block.settings.banner_button }}</a>
+                      {% endif %}
+                      {% if block.settings.link_banner and block.settings.banner_button and section.settings.banner_preset == 'style_4' %}
+                      <a href="{{ block.settings.link_banner }}" class="banner--btn">{{ block.settings.banner_button }}</a>
                       {% endif %}
                     {% endcase %}
                 </div>
@@ -73,6 +79,10 @@
     {
       "value": "style_2",
       "label": "Style 2"
+    },
+    {
+      "value": "style_3",
+      "label": "Style 3"
     }
     ],
     "default": "style_1"

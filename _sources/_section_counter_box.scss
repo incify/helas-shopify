@@ -1,0 +1,31 @@
+.layout-default {
+  padding: 90px 0;
+}
+.layout-spa {
+  padding: 50px 0;
+  .incify-counter__image {
+    float: left;
+  }
+
+  .incify-counter__content {
+    margin-left: 150px;
+    text-align: left;
+    margin-bottom: 30px;
+    .incify-counter--number {
+      font-size: 24px;
+      line-height: 24px;
+    }
+
+    .incify-counter--title {
+      font-size: 18px;
+      line-height: 24px;
+      font-style: italic!important;
+      margin-bottom: 20px;
+    }
+  }
+}
+@media (min-width: 1500px) {
+  .layout-spa .container {
+      width: 1440px;
+  }
+}

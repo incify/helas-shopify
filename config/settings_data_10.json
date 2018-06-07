@@ -596,7 +596,7 @@
           "language_flag": "yes",
           "enable_header_transparent": "no",
           "header_preset": "dark",
-          "header_menu": "normal",
+          "header_menu": "uppercase",
           "header_2_left_text": "<span class=\"header-2-left-text\"><i class=\"fa fa-phone\"><\/i> +56.653.534<\/span>\n<span class=\"header-2-left-text\"><a href=\"mailto:INFO@DOMAIN.COM\"><i class=\"fa fa-envelope-o\"><\/i> INFO@DOMAIN.COM<\/a><\/span>\n<span class=\"header-2-left-text\"><i class=\"dl-icon-clock\"><\/i> MON-SAT:8AM TO 9PM<\/span>",
           "custom_block_header_aside_top": "<p class=\"header-text\">Curabitur placerat urna augue, id luctus sem imperdiet id. Nunc congue ac libero ut lacinia. In ultrices elementum ipsum, in tempus enim accumsan...<\/p>\n<div class=\"social-media-link\">\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-facebook\"><\/i><\/a>\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-twitter\"><\/i><\/a>\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-pinterest\"><\/i><\/a>\n<\/div>",
 

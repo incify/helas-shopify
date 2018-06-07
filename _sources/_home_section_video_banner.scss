@@ -1,3 +1,11 @@
 .banner-video-section {
-  
+  &.layout-spa {
+    h3 {
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 1.714286;
+      letter-spacing: 15px;
+      margin-bottom: 10px;
+    }
+  }
 }

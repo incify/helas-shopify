@@ -1213,6 +1213,43 @@ div.sort-by {
             background-color: #ebebeb;
           }
         }
+        &.style_4 {
+          text-align: center;
+          overflow: hidden;
+          border: 1px solid #e3e3e3 !important;
+          background-color: #fff;
+          transition: all 250ms ease-out;
+          .product-figure {
+            border-bottom: 1px solid #e3e3e3 !important;
+          }
+          .product-details {
+            margin-bottom: 20px !important;
+            .product-name {
+              display: block;
+              font-size: 14px;
+              font-weight: bold;
+              text-transform: none;
+              text-align: center;
+            }
+            .price {
+              display: block;
+              float: none;
+              font-size: 14px;
+              font-weight: 400;
+              text-align: center;
+              padding-top: 10px;
+            }
+          }
+          .item--overlay {
+            background: rgba(0, 0, 0, 0) !important;
+          }
+          .rollover--style-1 .action-icon {
+            background-color: #ebebeb;
+          }
+          &:hover {
+            box-shadow: 0 0 38px 0 rgba(41,44,58,.09);
+          }
+        }
       }
       &:not(.product-layout-list){
         .item-area {

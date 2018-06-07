@@ -1,0 +1,94 @@
+.la-spa-service-box {
+  .box-inner {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 70px;
+
+    .banner--image {
+      position: relative;
+      overflow: hidden;
+
+      div {
+        display: block;
+        width: 100%;
+        padding-bottom: 35%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: transform 0.35s ease-out;
+        transform: scale(1.01);
+        -ms-transform: scale(1.01);
+        -webkit-transform: scale(1.01);
+      }
+    }
+
+    .banner--info {
+      z-index: 2;
+      text-align: center;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      transition: all 0.35s;
+      padding: 20px 20px 40px;
+      -webkit-transform: translate3d(0,-webkit-calc(100% - 70px),0);
+      transform: translate3d(0,calc(100% - 70px),0);
+      bottom: 0;
+
+      .b-title {
+        display: block;
+      }
+
+      .b-title1 {
+        font-size: 18px;
+        font-weight: 700;
+        position: relative;
+        padding-bottom: 36px;
+
+        &:after {
+          content: "";
+          border-top-width: 1px;
+          border-top-style: solid;
+          border-top-color: transparent;
+          width: 30px;
+          position: absolute;
+          left: 50%;
+          margin-left: -15px;
+          bottom: 15px;
+          transition: all 0.35s;
+        }
+      }
+
+      .banner--info-content {
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.35s;
+
+        .banner--btn {
+          font-weight: 700;
+          font-size: 12px;
+          letter-spacing: 1px;
+          text-decoration: underline;
+          color: inherit;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    .banner--image div {
+      -webkit-transform: scale(1.01) translate3d(0,-50px,0);
+      transform: scale(1.01) translate3d(0,-50px,0);
+    }
+
+    .banner--info {
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+    }
+
+    .banner--info-content {
+      opacity: 1 !important;
+      visibility: visible !important;
+    }
+  }
+}
