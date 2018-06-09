@@ -1,45 +1,62 @@
-<div data-section-id="{{ section.id }}" data-section-type="banner-image-2-section" class="banner-image-2-section {{section.settings.banner_preset}} {% if section.settings.enable_style == true %}incify-styles{% endif %}" {% if section.settings.enable_style == true %}data-styles='{
-  {% if section.settings.style_top != '' %}
-  "margin-top":"{{ section.settings.style_top }}px",
-  {% endif %}
-  {% if section.settings.style_bottom != '' %}
-  "margin-bottom":"{{ section.settings.style_bottom }}px",
-  {% endif %}
-  {% if section.settings.style_left != '' %}
-  "margin-left":"{{ section.settings.style_left }}px",
-  {% endif %}
-  {% if section.settings.style_right != '' %}
-  "margin-right":"{{ section.settings.style_right }}px"
-  {% endif %}
-}'{% endif %}>
-    <div class="banner-image-2">
-      <div class="grid-x{% if section.settings.banner_space == 'yes' %} grid-padding-x grid-padding-y{% endif %}{% if section.settings.banner_space_y == 'yes' %} grid-padding-y{% endif %} small-up-1 medium-up-1 large-up-{{section.settings.grid}}">
-        {% for block in section.blocks %}
-        <div class="cell">
-          <div class="static-banner-inner pos-{{ block.settings.content_position }}" style="background-color:{{ block.settings.background_color }}">
-            <div class="row">
-              <div class="banner--image col-sm-6{% if block.settings.content_position == 'left'%} col-sm-push-6{% endif %}">
-                <div class="banner--background incify-styles" style="background-image:url({{ block.settings.image_banner | img_url: 'master' }});height:{{ block.settings.banner_height }}vh"></div>
-              </div>
-              <div class="banner--informations incify-styles col-sm-6{% if block.settings.content_position == 'left'%} col-sm-pull-6{% endif %}" style="height:{{ block.settings.banner_height }}vh">
-                <div class="banner--infor">
-                  {{ block.settings.text_banner }}
-                  {% if block.settings.link_banner and block.settings.banner_button %}
-                  <a href="{{ block.settings.link_banner }}" class="btn-button bordered-2 x3 gray uppercase">{{ block.settings.banner_button }}</a>
-                  {% endif %}
+<div data-section-id="{{ section.id }}" class="banner-image-2-section {{section.settings.banner_preset}}{% if section.settings.banner_space == 'yes' %} has-space{% endif %}">
+    <div class="banner-image-2{% if section.settings.width_layout == 'boxed' %} container{% endif %}">
+      <div{% if section.settings.width_layout == 'boxed' %} class="row"{% endif %}>
+        <div class="grid-x{% if section.settings.banner_space == 'yes' %} grid-padding-y grid-padding-x{% endif %}{% if section.settings.banner_space == 'small' %} small-space{% endif %}{% if section.settings.show_content_when_hover %} content-visible-when-hover{% endif %} small-up-1 medium-up-{{section.settings.grid_2}} large-up-{{section.settings.grid}}">
+          <div class="cell">
+          {% for block in section.blocks %}
+            {% if block.type == 'banner_item' %}
+            <div class="box-inner">
+                <div class="banner--image {% if section.settings.banner_preset != 'style_4' %}spcial-hover-effect{% endif %} incify-lazyload-image" data-background-image="{{ block.settings.image_banner | img_url: 'master' }}" data-auto-padding="true"></div>
+                <div class="banner--infor content-position-{{ block.settings.text_position }}">
+                    {% case section.settings.banner_preset %}
+                    {% when 'style_5' %}
+                    {% else %}
+                      {% if block.settings.text_banner != blank %}
+                        <div class="banner--infor__text_1 {{ block.settings.text_class }}">{{ block.settings.text_banner }}</div>
+                      {% endif %}
+                      {% if block.settings.text_banner_2 != blank %}
+                        <div class="banner--infor__text_2 {{ block.settings.text_class_2 }}">{{ block.settings.text_banner_2 }}</div>
+                      {% endif %}
+                      {% if block.settings.text_banner_3 != blank %}
+                        <div class="banner--infor__text_3 {{ block.settings.text_class_3 }}">{{ block.settings.text_banner_3 }}</div>
+                      {% endif %}
+                      <a href="{{ block.settings.link_banner }}" class="banner--btn">{{ block.settings.banner_button }}</a>
+                    {% endcase %}
                 </div>
-              </div>
+                <a class="link-shop-overlay" href="{% if section.settings.link_banner != blank %}{{section.settings.link_banner}}{% else %}#{% endif %}">
+                  <span><span>{{ block.settings.banner_button }}</span></span>
+                </a>
             </div>
-          </div>
+            {% elsif block.type == 'column' %}
+            </div><div class="cell">
+            {% endif %}
+          {% endfor %}
         </div>
-        {% endfor %}
+        </div>
       </div>
     </div>
 </div>
+{% if section.settings.enable_style == true %}
+<span class="custom-styles-css">
+  body div[data-section-id="{{ section.id }}"]{
+    {% if section.settings.style_top != '' %}
+    margin-top:{{ section.settings.style_top }}px;
+    {% endif %}
+    {% if section.settings.style_bottom != '' %}
+    margin-bottom:{{ section.settings.style_bottom }}px;
+    {% endif %}
+    {% if section.settings.style_left != '' %}
+    margin-left:{{ section.settings.style_left }}px;
+    {% endif %}
+    {% if section.settings.style_right != '' %}
+    margin-right:{{ section.settings.style_right }}px;
+    {% endif %}
+  }
+</span>
+{% endif %}
 {% schema %}
 {
 "name": "Banner Image 2",
-"max_blocks": 12,
 "settings": [
     {
     "type": "header",
@@ -47,28 +64,52 @@
     },
     {
       "type": "select",
+      "id": "banner_preset",
+      "label": "Preset",
+      "options": [
+    {
+      "value": "style_1",
+      "label": "Style 1"
+    },
+    {
+      "value": "style_2",
+      "label": "Style 2"
+    },
+    {
+      "value": "style_3",
+      "label": "Style 3"
+    }
+    ],
+    "default": "style_1"
+    },
+    {
+    "type": "select",
+    "id": "width_layout",
+    "label": "Display Full Width / Boxed",
+    "options": [
+    {
+    "value": "full",
+    "label": "Full Width"
+    },
+    {
+    "value": "boxed",
+    "label": "Boxed"
+    }
+    ],
+    "default": "boxed"
+    },
+    {
+      "type": "select",
       "id": "banner_space",
-      "label": "Banner X Space",
+      "label": "Banner Space",
       "options": [
         {
           "value": "yes",
           "label": "Yes"
         },
         {
-          "value": "no",
-          "label": "No"
-        }
-      ],
-      "default": "no"
-    },
-    {
-      "type": "select",
-      "id": "banner_space_y",
-      "label": "Banner Y Space",
-      "options": [
-        {
-          "value": "yes",
-          "label": "Yes"
+          "value": "small",
+          "label": "Small"
         },
         {
           "value": "no",
@@ -81,19 +122,25 @@
       "type": "range",
       "id": "grid",
       "label": "Banner per row (Desktop View)",
-      "min": 1,
-      "max": 4,
+      "min": 2,
+      "max": 6,
       "step": 1,
-      "default": 2
+      "default": 3
     },
     {
       "type": "range",
       "id": "grid_2",
       "label": "Banner per row (Tablet View)",
-      "min": 1,
-      "max": 4,
+      "min": 2,
+      "max": 6,
       "step": 1,
-      "default": 2
+      "default": 3
+    },
+    {
+     "type": "checkbox",
+     "id": "show_content_when_hover",
+     "default": false,
+     "label": "Just display content when hover"
     },
     {
       "type": "header",
@@ -152,31 +199,19 @@
       "name": "Banner Item",
       "settings": [
         {
-            "type":      "range",
-            "id":        "banner_height",
-            "min":       10,
-            "max":        100,
-            "step":       1,
-            "unit":       "vh",
-            "label":     "Banner Height",
-            "default":   45
-        },
-        {
-          "type": "color",
-          "id": "background_color",
-          "label": "Background Color",
-          "default": "#f7f7f7"
-        },
-        {
           "type": "image_picker",
           "id": "image_banner",
           "label": "Banner Image"
         },
         {
           "type": "select",
-          "id": "content_position",
+          "id": "text_position",
           "label": "Content Position",
           "options": [
+            {
+              "value": "center",
+              "label": "Center"
+            },
             {
               "value": "left",
               "label": "Left"
@@ -189,9 +224,50 @@
           "default": "left"
         },
         {
-          "type": "textarea",
+        "type": "header",
+        "content": "Banner Text Settings"
+        },
+        {
+          "type": "text",
           "id": "text_banner",
-          "label": "Text Banner"
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "text_class",
+          "label": "Extra Class"
+        },
+        {
+        "type": "header",
+        "content": "Banner Text 2 Settings"
+        },
+        {
+          "type": "text",
+          "id": "text_banner_2",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "text_class_2",
+          "label": "Extra Class"
+        },
+        {
+        "type": "header",
+        "content": "Banner Text 3 Settings"
+        },
+        {
+          "type": "text",
+          "id": "text_banner_3",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "text_class_3",
+          "label": "Extra Class"
+        },
+        {
+        "type": "header",
+        "content": "Banner Button Settings"
         },
         {
           "type": "url",
@@ -203,6 +279,12 @@
           "id": "banner_button",
           "label": "Banner Button"
         }
+      ]
+    },
+    {
+      "type": "column",
+      "name": "Next Column",
+      "settings": [
       ]
     }
   ],

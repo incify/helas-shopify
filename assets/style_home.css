@@ -746,6 +746,62 @@ slider show
   .slideshow-section .slideshow .content.content-slider.content-slider-11-2 .btn-button {
     margin-top: 45px; }
 
+.slideshow-section .slideshow .content.content-slider.content-slider-12 {
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  .slideshow-section .slideshow .content.content-slider.content-slider-12 h1 {
+    position: relative;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    padding-bottom: 20px;
+    text-transform: uppercase; }
+    .slideshow-section .slideshow .content.content-slider.content-slider-12 h1:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      background-color: #36393e;
+      min-height: 1px;
+      min-width: 590px;
+      max-height: 1px;
+      max-width: 590px;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%); }
+  .slideshow-section .slideshow .content.content-slider.content-slider-12 h5 {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-12 p {
+    min-width: 615px;
+    max-width: 615px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    line-height: 24px; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-12 .btn-button {
+    margin-top: 45px; }
+
+.slideshow-section .slideshow .content.content-slider.content-slider-12-2 {
+  bottom: 10%;
+  top: auto !important; }
+
 .slider-content-image {
   position: absolute;
   bottom: 0;
@@ -786,6 +842,15 @@ slider show
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%); }
+  .slider-content-image.img-content-slider-12-2 {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
 
 .satisfy-font {
   font-family: Satisfy; }
