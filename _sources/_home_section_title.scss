@@ -227,6 +227,44 @@
     }
   }
 }
+.style_7 {
+  .section-title {
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      height: 1px;
+      width: 100px;
+      background:#d0d0d0;
+      transform: translateX(-50%);
+    }
+
+    span {
+      font-size: 36px;
+      line-height: 1.2;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
+
+  .section-sub-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  &.sub-title-enable {
+    .section-title {
+      margin-bottom: 0 !important;
+      padding-bottom: 10px !important;
+    }
+  }
+}
 @media (max-width: 767px) {
   .section-title {
     margin-bottom: 15px;

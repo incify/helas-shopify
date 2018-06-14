@@ -14,6 +14,8 @@
                                   {% case preset %}
                                   {% when 'style_2' %}
                                     {% include 'home_article_item_2' %}
+                                  {% when 'style_3' %}
+                                    {% include 'home_article_item_3' %}
                                   {% else %}
                                     {% include 'home_article_item' %}
                                   {% endcase %}
@@ -76,6 +78,10 @@ body div[data-section-id="{{ section.id }}"]{
 {
 "value": "style_2",
 "label": "Style 2"
+},
+{
+"value": "style_3",
+"label": "Style 3"
 }
 ],
 "default": "style_1"

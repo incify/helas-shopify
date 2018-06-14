@@ -16,7 +16,9 @@
                         <span style="background-image: url({{ block.settings.testimonial_avt | img_url: 'master' }});"></span>
                       </div>
                       <div class="testimonial_item--info">
+                          {% if section.settings.preset == 'style_3' or section.settings.preset == 'style_4' %}
                           <i class="fa fa-quote-left" aria-hidden="true"></i>
+                          {% endif %}
                           {% if block.settings.testimonial_text != blank %}
                           <div class="testimonial_item--excerpt">{{ block.settings.testimonial_text }}</div>
                           {% endif %}
@@ -164,6 +166,10 @@ body div[data-section-id="{{ section.id }}"] .incify-testimonial .incify-testimo
         {
           "value": "style_4",
           "label": "Style 4"
+        },
+        {
+          "value": "style_5",
+          "label": "Style 5"
         }
       ],
       "default": "style_1"

@@ -638,7 +638,7 @@
           "hashtag": "OCSTORE3",
           "footer_linklist_type2": "footer",
           "footer_4_text": "<span class=\"footer-4-text\"><i class=\"fa fa-phone\"><\/i> +56.653.534<\/span>\n<span class=\"footer-4-text\"><a href=\"mailto:INFO@DOMAIN.COM\"><i class=\"fa fa-envelope-o\"><\/i> INFO@DOMAIN.COM<\/a><\/span>\n<span class=\"footer-4-text\"><i class=\"dl-icon-clock\"><\/i> MON-SAT:8AM TO 9PM<\/span>",
-          "footer_5_enable_newsletter": false
+          "footer_5_enable_newsletter": true
         }
       },
       "page_header": {
@@ -1709,7 +1709,7 @@
       "home-products-tab": {
         "type": "home_tab_collection",
         "settings": {
-          "preset_section_title": "style_6",
+          "preset_section_title": "style_7",
           "title": "Hot Products",
           "tab_collection_view_all_product": "VIEW ALL PRODUCTS",
           "tab_collection_link_all_product": "#",
@@ -1717,81 +1717,135 @@
           "tab_collection_column": "5",
           "tab_collection_title_1": "all",
           "tab_collection_1": "handmade",
-          "tab_collection_title_2": "Skin Care",
+          "tab_collection_title_2": "Gift",
           "tab_collection_2": "watches",
-          "tab_collection_title_3": "MakeUp",
+          "tab_collection_title_3": "Home&Kitchen",
           "tab_collection_3": "spa",
-          "tab_collection_title_4": "HairCare",
-          "tab_collection_4": "watchs",
-          "tab_collection_title_5": "ACCESSORIES",
-          "tab_collection_5": "spa"
-        }
-      },
-      "blog-list": {
-        "type": "home_article_list",
-        "settings": {
-          "preset_section_title": "style_6",
-          "title": "LATEST BLOG",
-          "blog": "news",
-          "blog_article_limit": "2",
-          "number_columns_blog_show": "2"
+          "tab_collection_title_4": "Wedding",
+          "tab_collection_4": "watches",
+          "tab_collection_title_5": "Jewelry",
+          "tab_collection_5": "handmade"
         }
       },
       "home-banner-image-3": {
         "type": "home_banner_image",
         "blocks": {
-          "m11-b-5-1": {
+          "m12-b-5-1": {
             "type": "banner_item",
             "settings": {
-              "image_banner": "shopify:\/\/shop_images\/m11-bg-3.jpg",
-              "text_position": "center",
-              "text_banner": "BE A VIP MEMBER <br/> GET 10% OFF",
+              "image_banner": "shopify:\/\/shop_images\/m12-b-5.jpg",
               "link_banner": "#",
               "banner_button": "Shop Now"
             }
           },
-          "m11-b-5-2": {
+          "m12-b-5-2": {
             "type": "banner_item",
             "settings": {
-              "image_banner": "shopify:\/\/shop_images\/m11-bg-4.jpg",
-              "text_position": "center",
-              "text_banner": "BOOK YOUR PLACE AT THE <br/> SPA NOW!",
+              "image_banner": "shopify:\/\/shop_images\/m12-b-6.jpg",
+              "link_banner": "#",
+              "banner_button": "Shop Now"
+            }
+          },
+          "m12-b-5-3": {
+            "type": "banner_item",
+            "settings": {
+              "image_banner": "shopify:\/\/shop_images\/m12-b-7.jpg",
+              "link_banner": "#",
+              "banner_button": "Shop Now"
+            }
+          },
+          "m12-b-5-4": {
+            "type": "banner_item",
+            "settings": {
+              "image_banner": "shopify:\/\/shop_images\/m12-b-8.jpg",
               "link_banner": "#",
               "banner_button": "Shop Now"
             }
           }
         },
         "block_order": [
-          "m11-b-5-1",
-          "m11-b-5-2"
+          "m12-b-5-1",
+          "m12-b-5-2",
+          "m12-b-5-3",
+          "m12-b-5-4"
         ],
         "settings": {
-          "banner_preset": "style_4",
+          "banner_preset": "style_3",
           "width_layout": "full",
           "banner_space": "no",
-          "grid": "2",
-          "grid_2": "2",
+          "grid": "4",
+          "grid_2": "3",
           "enable_style": true,
           "style_top": "45",
           "style_bottom": "0"
+        }
+      },
+      "blog-list": {
+        "type": "home_article_list",
+        "settings": {
+          "preset_section_title": "style_7",
+          "title": "OUR BLOG",
+          "preset": "style_3",
+          "blog": "handmade",
+          "blog_article_limit": "3",
+          "number_columns_blog_show": "3"
+        }
+      },
+      "home-testimonials": {
+        "type": "home_testimonials",
+        "blocks": {
+          "home-testimonials-01": {
+            "type": "testimonial_content",
+            "settings": {
+              "testimonial_avt": "shopify:\/\/shop_images\/m15-t-1.jpg",
+              "testimonial_text": "\"Curabitur lacinia metus vitae odio euismod, sit amet cursus ipsum tincidunt. Pellentesm, id vestibulum\"",
+              "testimonial_text_author": "Robert Elliott",
+              "testimonial_text_job": "CEO Adobe"
+            }
+          },
+          "home-testimonials-02": {
+            "type": "testimonial_content",
+            "settings": {
+              "testimonial_avt": "shopify:\/\/shop_images\/m15-t-2.jpg",
+              "testimonial_text": "\"Curabitur lacinia metus vitae odio euismod, sit amet cursus ipsum tincidunt. Pellentesm, id vestibulum\"",
+              "testimonial_text_author": "Gilbert Norton",
+              "testimonial_text_job": "CEO Apple"
+            }
+          },
+          "home-testimonials-03": {
+            "type": "testimonial_content",
+            "settings": {
+              "testimonial_avt": "shopify:\/\/shop_images\/m15-t-3.jpg",
+              "testimonial_text": "\"Curabitur lacinia metus vitae odio euismod, sit amet cursus ipsum tincidunt. Pellentesm, id vestibulum\"",
+              "testimonial_text_author": "Eva Powers",
+              "testimonial_text_job": "CEO Microsoft"
+            }
+          }
+        },
+        "block_order": [
+          "home-testimonials-01",
+          "home-testimonials-02",
+          "home-testimonials-03"
+        ],
+        "settings": {
+          "preset": "style_5",
+          "background": "shopify:\/\/shop_images\/m12-bg-1.jpg",
+          "enable_parallax": false,
+          "padding_top": 80,
+          "padding_bottom": 80,
+          "sides_show": "1",
+          "enable_style": true,
+          "style_top": 75
         }
       }
     },
     "content_for_index": [
       "home-slideshow",
-      "main-aboutus-box",
       "home-banner-image",
-      "main11-counter-box",
-      "main-banner-video",
-      "home-service-list",
-      "home-testimonials",
       "home-products-tab",
-      "home-banner-image-2",
-      "home-event-box",
-      "home-team-member",
-      "newsletter-box",
+      "home-banner-image-3",
       "blog-list",
-      "home-banner-image-3"
+      "home-testimonials"
     ]
   },
   "presets": {
