@@ -20,6 +20,9 @@
 </div>
 <span class="custom-styles-css">
   body div[data-section-id="{{ section.id }}"]{
+    {% if section.settings.background_color != blank %}
+    background-color: {{ section.settings.background_color }};
+    {% endif %}
     {% if section.settings.enable_style == true %}
     {% if section.settings.style_top != '' %}
     margin-top:{{ section.settings.style_top }}px;
@@ -59,6 +62,11 @@
     }
     ],
     "default": "style_1"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background"
     },
     {
       "type": "header",

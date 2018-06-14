@@ -101,13 +101,14 @@
     }
   }
 
-  &.style_1 {
+  &.layout-style_1 {
     .cell {
       width: 28.125%;
 
       &:nth-child(2) {
         width: 43.75%;
       }
+
       .banner--infor {
         color: #fff;
       }
@@ -139,94 +140,9 @@
     }
   }
 
-  &.style_2 {
-    .banner-image {
-      .banner--infor {
-        top: 50%;
-
-        .banner--infor__text_2 {
-          font-size: 24px;
-        }
-
-        .btn-button {
-          margin-top: 45px;
-        }
-      }
-
-      .link-shop-overlay {
-        display: none;
-      }
-    }
-  }
-
-  &.style_3 {
-    .banner-image {
-      .link-shop-overlay {
-        position: absolute;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        opacity: 0;
-        transition: all 250ms ease-out;
-      }
-    }
-
-    .banner--infor {
-      text-align: center;
-    }
-
-    .banner--btn {
-      position: relative;
-      display: inline-block;
-      font-size: 12px;
-      padding: 0 0 2px;
-      color: #36393e;
-      font-weight: 700;
-      border: 1px solid #36393e;
-      border-width: 0 0 1px;
-      text-transform: uppercase;
-      text-align: center;
-    }
-  }
-
-  &.style_4 {
-    .banner-image {
-      .banner--infor {
-        top: 50%;
-
-        .banner--infor__text_1 {
-          font-size: 40px;
-          line-height: 1.15;
-          color: #fff;
-          text-transform: uppercase;
-          letter-spacing: 7px;
-        }
-
-        .banner--btn {
-          border: 2px solid;
-          color: #fff;
-          font-size: 12px;
-          padding: 20px 30px;
-          letter-spacing: 1px;
-          width: 360px;
-          display: block;
-          margin: 45px auto 0;
-          max-width: 100%;
-          transition: all 250ms ease-out;
-          text-transform: uppercase;
-
-          &:hover {
-            background-color: #fff;
-            border-color: #fff;
-            color: #36393e;
-          }
-        }
-      }
-
-      .link-shop-overlay {
-        display: none;
-      }
+  &.layout-style_2 {
+    .banner--infor__text_1 {
+      color: #fff;
     }
   }
 }
@@ -234,6 +150,12 @@
 .small-space {
   .cell {
     padding: 5px;
+  }
+}
+
+.has-space {
+  .box-inner {
+    margin-bottom: 2.8125rem;
   }
 }
 
@@ -248,6 +170,12 @@
       .banner--infor {
         opacity: 1;
         visibility: visible;
+      }
+
+      .link-shop-overlay {
+        opacity: 0.4;
+        background-color: #232324;
+        z-index: 1;
       }
     }
   }

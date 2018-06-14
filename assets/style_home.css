@@ -802,6 +802,37 @@ slider show
   bottom: 10%;
   top: auto !important; }
 
+.slideshow-section .slideshow .content.content-slider.content-slider-13 {
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  .slideshow-section .slideshow .content.content-slider.content-slider-13 h1 {
+    font-size: 200px;
+    line-height: 138px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: -10px;
+    text-transform: uppercase; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-13 .m13-text-gradient {
+    font-style: italic;
+    color: #4cdfbe;
+    background-image: -webkit-gradient(linear, left top, right top, from(#4cdfbe), to(#9fe346));
+    background-image: -webkit-linear-gradient(left, #4cdfbe 0%, #9fe346 100%);
+    background-image: -o-linear-gradient(left, #4cdfbe 0%, #9fe346 100%);
+    background-image: linear-gradient(90deg, #4cdfbe 0%, #9fe346 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-13 .btn-button {
+    margin-top: 20px; }
+
 .slider-content-image {
   position: absolute;
   bottom: 0;

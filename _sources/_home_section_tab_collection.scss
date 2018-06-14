@@ -5,6 +5,7 @@
   .style_5 .section-title {
     margin-bottom: 0;
   }
+
 }
 
 //secsion tab collection
@@ -63,5 +64,18 @@
     text-transform: uppercase;
     text-decoration: underline;
     letter-spacing: 2px;
+  }
+}
+.style-sport .tab-product-collection .category-list .tab-selector ul li:hover,
+.style-sport .tab-product-collection .category-list .tab-selector ul li.active {
+  position: relative;
+  &:after {
+    content: "";
+    height: 3px;
+    background-image: linear-gradient(90deg,#4ddfbd 0,#9ee347 100%);
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
   }
 }

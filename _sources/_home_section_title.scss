@@ -265,6 +265,47 @@
     }
   }
 }
+.style_8 {
+  .section-title {
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      height: 3px;
+      width: 45px;
+      background-image: linear-gradient(90deg,#4ddfbd 0,#9ee347 100%);
+      transform: translateX(-50%);
+    }
+
+    span {
+      font-size: 48px;
+      line-height: 1.2;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
+
+  .section-sub-title {
+    color: #a7adbc;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  &.sub-title-enable {
+    .section-title {
+      margin-bottom: 0 !important;
+      padding-bottom: 10px !important;
+    }
+  }
+}
 @media (max-width: 767px) {
   .section-title {
     margin-bottom: 15px;

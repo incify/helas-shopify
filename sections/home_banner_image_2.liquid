@@ -1,7 +1,8 @@
-<div data-section-id="{{ section.id }}" class="banner-image-2-section {{section.settings.banner_preset}}{% if section.settings.banner_space == 'yes' %} has-space{% endif %}">
+<div data-section-id="{{ section.id }}" class="banner-image-2-section layout-{{section.settings.banner_preset}}{% if section.settings.banner_space == 'yes' %} has-space{% endif %}">
+    {% include "block_title" %}
     <div class="banner-image-2{% if section.settings.width_layout == 'boxed' %} container{% endif %}">
       <div{% if section.settings.width_layout == 'boxed' %} class="row"{% endif %}>
-        <div class="grid-x{% if section.settings.banner_space == 'yes' %} grid-padding-y grid-padding-x{% endif %}{% if section.settings.banner_space == 'small' %} small-space{% endif %}{% if section.settings.show_content_when_hover %} content-visible-when-hover{% endif %} small-up-1 medium-up-{{section.settings.grid_2}} large-up-{{section.settings.grid}}">
+        <div class="grid-x{% if section.settings.banner_space == 'yes' %} grid-padding-x{% endif %}{% if section.settings.banner_space == 'small' %} small-space{% endif %}{% if section.settings.show_content_when_hover %} content-visible-when-hover{% endif %} small-up-1 medium-up-{{section.settings.grid_2}} large-up-{{section.settings.grid}}">
           <div class="cell">
           {% for block in section.blocks %}
             {% if block.type == 'banner_item' %}
@@ -9,7 +10,16 @@
                 <div class="banner--image {% if section.settings.banner_preset != 'style_4' %}spcial-hover-effect{% endif %} incify-lazyload-image" data-background-image="{{ block.settings.image_banner | img_url: 'master' }}" data-auto-padding="true"></div>
                 <div class="banner--infor content-position-{{ block.settings.text_position }}">
                     {% case section.settings.banner_preset %}
-                    {% when 'style_5' %}
+                    {% when 'style_2' %}
+                      {% if block.settings.text_banner != blank %}
+                        <div class="banner--infor__text_1 {{ block.settings.text_class }}">{{ block.settings.text_banner }}</div>
+                      {% endif %}
+                      {% if block.settings.text_banner_2 != blank %}
+                        <div class="banner--infor__text_2 {{ block.settings.text_class_2 }}">{{ block.settings.text_banner_2 }}</div>
+                      {% endif %}
+                      {% if block.settings.text_banner_3 != blank %}
+                        <div class="banner--infor__text_3 {{ block.settings.text_class_3 }}">{{ block.settings.text_banner_3 }}</div>
+                      {% endif %}
                     {% else %}
                       {% if block.settings.text_banner != blank %}
                         <div class="banner--infor__text_1 {{ block.settings.text_class }}">{{ block.settings.text_banner }}</div>
@@ -58,6 +68,60 @@
 {
 "name": "Banner Image 2",
 "settings": [
+{
+  "type": "header",
+  "content": "Title Settings"
+},
+{
+  "type": "select",
+  "id": "preset_section_title",
+  "label": "Preset Section Title",
+  "options": [
+    {
+      "value": "style_1",
+      "label": "Style 1"
+    },
+    {
+      "value": "style_2",
+      "label": "Style 2"
+    },
+    {
+      "value": "style_3",
+      "label": "Style 3"
+    },
+    {
+      "value": "style_4",
+      "label": "Style 4"
+    },
+    {
+      "value": "style_5",
+      "label": "Style 5"
+    },
+    {
+      "value": "style_6",
+      "label": "Style 6"
+    },
+    {
+      "value": "style_7",
+      "label": "Style 7"
+    },
+    {
+      "value": "style_8",
+      "label": "Style 8"
+    }
+  ],
+  "default": "style_1"
+},
+{
+  "type": "text",
+  "id": "title",
+  "label": "Title"
+},
+{
+  "type": "text",
+  "id": "sub_title",
+  "label": "Title"
+},
     {
     "type": "header",
     "content": "Banner Image Settings"

@@ -5,7 +5,7 @@
 {% assign col = section.settings.tab_collection_column %}
 {% endif %}
 {% assign product_limitation = 0 %}
-<section data-section-id="{{ section.id }}" class="h1-section-tab-product {{ section.id }} EL_row_padding_65{% if section.settings.background_color != blank %} lg-pt-75 lg-pb-75 xs-pt-50 xs-pb-50{% endif %}">
+<section data-section-id="{{ section.id }}" class="h1-section-tab-product {{ section.id }} EL_row_padding_65{% if section.settings.background_color != blank %} lg-pt-75 lg-pb-75 xs-pt-50 xs-pb-50{% endif %} style-{{ section.settings.preset }}">
     {% include "block_title" %}
     <div class="{% if section.settings.width_layout == 'boxed' %}container{% else %}container-fluid{% endif %}">
         <div class="main-tab-products">
@@ -191,6 +191,22 @@
     {
     "type": "header",
     "content": "Main Tab Collection"
+    },
+    {
+    "type": "select",
+    "id": "preset",
+    "label": "Style",
+    "options": [
+    {
+    "value": "default",
+    "label": "Default "
+    },
+    {
+    "value": "sport",
+    "label": "Main Sport"
+    }
+    ],
+    "default": "default"
     },
     {
     "type": "select",

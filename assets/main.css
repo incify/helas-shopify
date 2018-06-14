@@ -5288,6 +5288,12 @@ button {
   font-size: 14px;
   letter-spacing: 1px; }
 
+.menu-uppercase-bold .main-navigation .top-navigation li.level0 a.level-top {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0;
+  font-weight: 700; }
+
 .section_page_header .backdround-image-inner {
   text-align: center;
   padding-top: 200px;
@@ -17402,14 +17408,14 @@ div.sort-by .bootstrap-select .selectize-dropdown {
     .banner-image-2-section .box-inner .link-shop-overlay > span {
       display: none; }
 
-.banner-image-2-section.style_1 .cell {
+.banner-image-2-section.layout-style_1 .cell {
   width: 28.125%; }
-  .banner-image-2-section.style_1 .cell:nth-child(2) {
+  .banner-image-2-section.layout-style_1 .cell:nth-child(2) {
     width: 43.75%; }
-  .banner-image-2-section.style_1 .cell .banner--infor {
+  .banner-image-2-section.layout-style_1 .cell .banner--infor {
     color: #fff; }
 
-.banner-image-2-section.style_1 .banner--btn {
+.banner-image-2-section.layout-style_1 .banner--btn {
   position: relative;
   display: inline-block;
   color: #fff;
@@ -17421,7 +17427,7 @@ div.sort-by .bootstrap-select .selectize-dropdown {
   -webkit-transition: all 0.45s ease-out;
   -o-transition: all 0.45s ease-out;
   transition: all 0.45s ease-out; }
-  .banner-image-2-section.style_1 .banner--btn:before {
+  .banner-image-2-section.layout-style_1 .banner--btn:before {
     content: "";
     position: absolute;
     left: 0;
@@ -17435,74 +17441,14 @@ div.sort-by .bootstrap-select .selectize-dropdown {
     -o-transition: all 250ms ease-out;
     transition: all 250ms ease-out; }
 
-.banner-image-2-section.style_2 .banner-image .banner--infor {
-  top: 50%; }
-  .banner-image-2-section.style_2 .banner-image .banner--infor .banner--infor__text_2 {
-    font-size: 24px; }
-  .banner-image-2-section.style_2 .banner-image .banner--infor .btn-button {
-    margin-top: 45px; }
-
-.banner-image-2-section.style_2 .banner-image .link-shop-overlay {
-  display: none; }
-
-.banner-image-2-section.style_3 .banner-image .link-shop-overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  -webkit-transition: all 250ms ease-out;
-  -o-transition: all 250ms ease-out;
-  transition: all 250ms ease-out; }
-
-.banner-image-2-section.style_3 .banner--infor {
-  text-align: center; }
-
-.banner-image-2-section.style_3 .banner--btn {
-  position: relative;
-  display: inline-block;
-  font-size: 12px;
-  padding: 0 0 2px;
-  color: #36393e;
-  font-weight: 700;
-  border: 1px solid #36393e;
-  border-width: 0 0 1px;
-  text-transform: uppercase;
-  text-align: center; }
-
-.banner-image-2-section.style_4 .banner-image .banner--infor {
-  top: 50%; }
-  .banner-image-2-section.style_4 .banner-image .banner--infor .banner--infor__text_1 {
-    font-size: 40px;
-    line-height: 1.15;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 7px; }
-  .banner-image-2-section.style_4 .banner-image .banner--infor .banner--btn {
-    border: 2px solid;
-    color: #fff;
-    font-size: 12px;
-    padding: 20px 30px;
-    letter-spacing: 1px;
-    width: 360px;
-    display: block;
-    margin: 45px auto 0;
-    max-width: 100%;
-    -webkit-transition: all 250ms ease-out;
-    -o-transition: all 250ms ease-out;
-    transition: all 250ms ease-out;
-    text-transform: uppercase; }
-    .banner-image-2-section.style_4 .banner-image .banner--infor .banner--btn:hover {
-      background-color: #fff;
-      border-color: #fff;
-      color: #36393e; }
-
-.banner-image-2-section.style_4 .banner-image .link-shop-overlay {
-  display: none; }
+.banner-image-2-section.layout-style_2 .banner--infor__text_1 {
+  color: #fff; }
 
 .small-space .cell {
   padding: 5px; }
+
+.has-space .box-inner {
+  margin-bottom: 2.8125rem; }
 
 .content-visible-when-hover .box-inner .banner--infor {
   opacity: 0;
@@ -17511,6 +17457,11 @@ div.sort-by .bootstrap-select .selectize-dropdown {
 .content-visible-when-hover .box-inner:hover .banner--infor {
   opacity: 1;
   visibility: visible; }
+
+.content-visible-when-hover .box-inner:hover .link-shop-overlay {
+  opacity: 0.4;
+  background-color: #232324;
+  z-index: 1; }
 
 .background-content-section {
   position: relative; }
@@ -17893,6 +17844,42 @@ div.sort-by .bootstrap-select .selectize-dropdown {
   margin-bottom: 0 !important;
   padding-bottom: 10px !important; }
 
+.style_8 .section-title {
+  text-align: center;
+  position: relative;
+  padding-bottom: 15px; }
+  .style_8 .section-title:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    width: 45px;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #4ddfbd), to(#9ee347));
+    background-image: -webkit-linear-gradient(left, #4ddfbd 0, #9ee347 100%);
+    background-image: -o-linear-gradient(left, #4ddfbd 0, #9ee347 100%);
+    background-image: linear-gradient(90deg, #4ddfbd 0, #9ee347 100%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .style_8 .section-title span {
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase; }
+
+.style_8 .section-sub-title {
+  color: #a7adbc;
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+.style_8.sub-title-enable .section-title {
+  margin-bottom: 0 !important;
+  padding-bottom: 10px !important; }
+
 @media (max-width: 767px) {
   .section-title {
     margin-bottom: 15px;
@@ -17947,6 +17934,22 @@ div.sort-by .bootstrap-select .selectize-dropdown {
     text-transform: uppercase;
     text-decoration: underline;
     letter-spacing: 2px; }
+
+.style-sport .tab-product-collection .category-list .tab-selector ul li:hover,
+.style-sport .tab-product-collection .category-list .tab-selector ul li.active {
+  position: relative; }
+  .style-sport .tab-product-collection .category-list .tab-selector ul li:hover:after,
+  .style-sport .tab-product-collection .category-list .tab-selector ul li.active:after {
+    content: "";
+    height: 3px;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #4ddfbd), to(#9ee347));
+    background-image: -webkit-linear-gradient(left, #4ddfbd 0, #9ee347 100%);
+    background-image: -o-linear-gradient(left, #4ddfbd 0, #9ee347 100%);
+    background-image: linear-gradient(90deg, #4ddfbd 0, #9ee347 100%);
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    right: -1px; }
 
 .section-products-tab .main-tab-products {
   margin-top: 30px; }

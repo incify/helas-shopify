@@ -92,3 +92,11 @@
     letter-spacing: 1px;
   }
 }
+.menu-uppercase-bold {
+  .main-navigation .top-navigation li.level0 a.level-top {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0;
+    font-weight: 700;
+  }
+}

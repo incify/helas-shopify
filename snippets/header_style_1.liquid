@@ -44,7 +44,7 @@
                 </div>
             </div>
 
-            <div class="header-middle-area hidden-sm hidden-xs{% if section.settings.header_menu == 'uppercase' %} menu-uppercase{% endif %}">
+            <div class="header-middle-area hidden-sm hidden-xs{% if section.settings.header_menu == 'uppercase' %} menu-uppercase{% endif %}{% if section.settings.header_menu == 'uppercase_bold' %} menu-uppercase-bold{% endif %}">
                 <!-- Main Menu -->
                 {% include 'main-menu' %}
                 <!-- End Main Menu -->
