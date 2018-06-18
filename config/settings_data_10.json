@@ -1597,7 +1597,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m10-1.jpg",
               "class_content": "content-slider-10",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h1>RM11-02 Jet Black Ntpt<\/h1>",
               "button_content": "<a href=\"#\" class=\"btn-button bordered-2 x2 white uppercase\">Shop now<\/a>"
@@ -1608,7 +1608,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m10-2.jpg",
               "class_content": "content-slider-10",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h1>Hublot Classic Fusion \"ForbiddenX\"<\/h1>",
               "button_content": "<a href=\"#\" class=\"btn-button bordered-2 x2 white uppercase\">Shop now<\/a>"
@@ -1619,7 +1619,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m10-3.jpg",
               "class_content": "content-slider-10",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h1>NEW COLLECTIONS IWATCH 2018<\/h1>",
               "button_content": "<a href=\"#\" class=\"btn-button bordered-2 x2 white uppercase\">Shop now<\/a>"

@@ -1596,7 +1596,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m06-1.jpg",
               "class_content": "content-slider-6",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<p>UP TO 30% SELECTED ITEMS<\/p>",
               "content2": "<h1 class=\"special-font\">A NEW ROUTINE<\/h1>",
@@ -1608,7 +1608,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m06-2.jpg",
               "class_content": "content-slider-6-2",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<p>UP TO 30% SELECTED ITEMS<\/p>",
               "content2": "<h1 class=\"special-font\">A NEW BOHO<\/h1>",

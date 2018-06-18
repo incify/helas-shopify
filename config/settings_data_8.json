@@ -1597,7 +1597,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m08-1.jpg",
               "class_content": "content-slider-8",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h1 class=\"special-font\">TOMBOY STYLE<\/h1>",
               "content2": "<p>Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus.<\/p>",

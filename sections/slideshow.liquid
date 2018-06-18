@@ -12,12 +12,17 @@
       {% for block in section.blocks %}
       <div class="item item-mousemove-translate" style="background: url({{ block.settings.background_image | img_url: 'master' }}) center center no-repeat;background-size: cover; height: {{  section.settings.slider_height }}vh;">
         <div class="container" style="position:relative; height: 100%">
-          {% if block.settings.use_content_image %}
+          {% if block.settings.image_postion == 'absolute' %}
           <div class="slider-content-image img-{{ block.settings.class_content }}">
             <img src="{{ block.settings.content_image_slider | img_url: 'master' }}">
           </div>
           {% endif %}
           <div class="content content-slider {{ block.settings.class_content }}">
+            {% if block.settings.image_postion == 'static'  %}
+            <div class="slider-static-image static-img-{{ block.settings.class_content }}">
+              <img src="{{ block.settings.content_image_slider | img_url: 'master' }}">
+            </div>
+            {% endif %}
             <div class="content-area">
               {% if settings.language_enable %}
               <div class="lang1">{{ block.settings.content1 | split: '[lang2]' | first }}</div>
@@ -170,9 +175,23 @@
     "label":"Class Content"
     },
     {
-    "type": "checkbox",
-    "id": "use_content_image",
-    "label": "Use content Image"
+      "type": "select",
+      "id": "image_postion",
+      "label": "Show Image Postion",
+      "options": [{
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "absolute",
+          "label": "Absolute"
+        },
+        {
+          "value": "static",
+          "label": "Static"
+        }
+      ],
+      "default": "none"
     },
     {
     "type": "image_picker",

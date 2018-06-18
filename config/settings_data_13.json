@@ -1592,7 +1592,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m13-1.jpg",
               "class_content": "content-slider-13",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h1>LIFE IS A<\/h1>",
               "content2": "<h1 class=\"m13-text-gradient\">MARATHON<\/h1>",
@@ -1605,7 +1605,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m13-2.jpg",
               "class_content": "content-slider-13",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content2": "<h1 class=\"m13-text-gradient\">Never<\/h1>",
               "content3": "<h1>Give Up</h1>",
@@ -1617,7 +1617,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m13-2.jpg",
               "class_content": "content-slider-13",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content2": "<h1>TRAIN HAD<\/h1>",
               "content3": "<h1>WROK OUT</h1>",

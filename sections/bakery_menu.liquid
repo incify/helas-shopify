@@ -1,0 +1,256 @@
+<div data-section-id="{{ section.id }}" class="section_bakery-menu lg-mt-90 md-mt-50 xs-mt-30">
+  {% include "block_title" %}
+  <div class="bakery-menu">
+    <div class="container">
+      <div class="row">
+        <div class="bakery-menu_inner">
+          <div class="grid-x grid-padding-x small-up-1 medium-up-{{section.settings.grid_2}} large-up-{{section.settings.grid}}">
+            <div class="cell">
+              {% for block in section.blocks %} {% if block.type == 'menu_item' %}
+              <div class="icon-boxes-inner">
+                <div class="box-icon-left">
+                  <div class="box-icon-inner type-img">
+                    <div class="wrap-icon">
+                      <div class="box-icon box-icon-style-simple">
+                        <span><img src="{{ block.settings.icon_image | img_url: 'master' }}"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-contents">
+                  <div class="box-heading">
+                    <h5>{{ block.settings.title }}</h5>
+                  </div>
+                  <div class="box-description">
+                    <p>{{ block.settings.text }}</p>
+                    <p><strong class="special-font">{{ block.settings.price }}</strong></p>
+                  </div>
+                </div>
+              </div>
+              {% elsif block.type == 'menu_image' %}
+              <div class="bakery-menu__image">
+                <img src="{{ block.settings.menu_image | img_url: 'master' }}" />
+              </div>
+              {% elsif block.type == 'column' %}
+            </div>
+            <div class="cell">
+              {% endif %} {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="custom-styles-css">
+  body div[data-section-id="{{ section.id }}"]{
+    {% if section.settings.background != blank %}
+    background-image:url({{ section.settings.background | img_url: 'master' }});
+    {% endif %}
+    {% if section.settings.enable_style == true %}
+    {% if section.settings.style_top != '' %}
+    margin-top:{{ section.settings.style_top }}px;
+    {% endif %}
+    {% if section.settings.style_bottom != '' %}
+    margin-bottom:{{ section.settings.style_bottom }}px;
+    {% endif %}
+    {% if section.settings.style_left != '' %}
+    margin-left:{{ section.settings.style_left }}px;
+    {% endif %}
+    {% if section.settings.style_right != '' %}
+    margin-right:{{ section.settings.style_right }}px;
+    {% endif %}
+    {% endif %}
+  }
+</span>
+{% schema %}
+{
+"name": "Bakery Menu",
+"settings": [
+{
+  "type": "image_picker",
+  "id": "background",
+  "label": "Background Image"
+},
+{
+  "type": "header",
+  "content": "Title Settings"
+},
+{
+  "type": "select",
+  "id": "preset_section_title",
+  "label": "Preset Section Title",
+  "options": [
+    {
+      "value": "style_1",
+      "label": "Style 1"
+    },
+    {
+      "value": "style_2",
+      "label": "Style 2"
+    },
+    {
+      "value": "style_3",
+      "label": "Style 3"
+    },
+    {
+      "value": "style_4",
+      "label": "Style 4"
+    },
+    {
+      "value": "style_5",
+      "label": "Style 5"
+    },
+    {
+      "value": "style_6",
+      "label": "Style 6"
+    },
+    {
+      "value": "style_7",
+      "label": "Style 7"
+    },
+    {
+      "value": "style_8",
+      "label": "Style 8"
+    },
+    {
+      "value": "style_9",
+      "label": "Style 9"
+    }
+  ],
+  "default": "style_9"
+},
+{
+  "type": "text",
+  "id": "title",
+  "label": "Title"
+},
+{
+  "type": "text",
+  "id": "sub_title",
+  "label": "Sub Title"
+},
+    {
+    "type": "header",
+    "content": "Menu Settings"
+    },
+    {
+      "type": "range",
+      "id": "grid",
+      "label": "Banner per row (Desktop View)",
+      "min": 2,
+      "max": 6,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "grid_2",
+      "label": "Banner per row (Tablet View)",
+      "min": 2,
+      "max": 6,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "header",
+      "content": "Styles Settings"
+    },
+    {
+     "type": "checkbox",
+     "id": "enable_style",
+     "default": false,
+     "label": "Enable Style Settings"
+    },
+    {
+        "type":      "range",
+        "id":        "style_top",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Top",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_bottom",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Bottom",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_left",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Left",
+        "default":   0
+    },
+    {
+        "type":      "range",
+        "id":        "style_right",
+        "min":       0,
+        "max":        500,
+        "step":       5,
+        "unit":       "px",
+        "label":     "Space Right",
+        "default":   0
+    }
+	],
+  "blocks": [
+    {
+      "type": "menu_item",
+      "name": "Menu Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_image",
+          "label": "Banner Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Menu Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Menu Content"
+        },
+        {
+          "type": "text",
+          "id": "price",
+          "label": "Menu Price"
+        }
+      ]
+    },
+    {
+      "type": "column",
+      "name": "Next Column",
+      "settings": [
+      ]
+    },
+    {
+      "type": "menu_image",
+      "name": "Menu Image",
+      "settings": [
+      {
+        "type": "image_picker",
+        "id": "menu_image",
+        "label": "Menu Image"
+      }
+      ]
+    }
+  ],
+	"presets": [{
+      "name": "Bakery Menu",
+      "category": "Bakery Main"
+  	}]
+}
+{% endschema %}

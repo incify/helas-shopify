@@ -1143,7 +1143,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-14-1.jpg",
               "class_content": "content-slider content-slider-14-1",
-              "use_content_image": true,
+              "image_postion": "absolute",
               "content_image_slider": "shopify:\/\/shop_images\/slider-14-1-1.png",
               "content1": "<h3>Welcome to Organic Store<\/h3>",
               "content2": "",
@@ -1156,7 +1156,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-14-2.jpg",
               "class_content": "content-slider content-slider-14-1",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h2>Fresh<\/h1>",
               "content2": "<h2>Fruits<\/h2>",
@@ -1169,7 +1169,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-14-3.jpg",
               "class_content": "content-slider content-slider-14-1",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h2>Healthy<\/h2>",
               "content2": "<h2>Eating<\/h2>",

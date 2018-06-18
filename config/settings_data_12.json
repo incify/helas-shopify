@@ -1594,7 +1594,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m12-1.jpg",
               "class_content": "content-slider-12",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h5>#Handicraft Store<\/h5>",
               "content2": "<h1>Handmade with love<\/h1>",
@@ -1607,7 +1607,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m12-2.jpg",
               "class_content": "content-slider-12-2",
-              "use_content_image": true,
+              "image_postion": "absolute",
               "content_image_slider": "shopify:\/\/shop_images\/m12-slider-2-1.png",
               "button_content": "<a href=\"#\" class=\"btn-button black uppercase\">Shop now<\/a>"
             }

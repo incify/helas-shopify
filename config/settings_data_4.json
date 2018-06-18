@@ -1596,7 +1596,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m04-1.jpg",
               "class_content": "content-slider-3",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h3>Winter treats<\/h3>",
               "content2": "<p>$79.99<\/p>",
@@ -1608,7 +1608,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m04-2.jpg",
               "class_content": "content-slider-3-2",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h2>London FW<\/h2>",
               "content2": "<h5>UP TO 30% SELECTED ITEMS<\/h5>",
@@ -1620,7 +1620,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m04-3.jpg",
               "class_content": "content-slider-3-3",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h2>CORDUROY TROUSERS<\/h2>",
               "content2": "<p>4317/388 - Color: navy blue<\/p>",

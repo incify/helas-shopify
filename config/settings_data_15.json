@@ -1140,7 +1140,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-15-1.jpg",
               "class_content": "content-slider content-slider-15-1",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h3>OC Wine Store - Premium Quality<\/h3>",
               "content2": "<h1>Welcome to Wine Store<\/h1>",
@@ -1152,7 +1152,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-15-2.jpg",
               "class_content": "content-slider content-slider-15-2",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h3>Ugly Sweater Red Blend 750 mL Wine<\/h3>",
               "content2": "<h1>Apotic Rose<\/h1>",
@@ -1165,7 +1165,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-15-3.jpg",
               "class_content": "content-slider content-slider-15-3",
-              "use_content_image": true,
+              "image_postion": "absolute",
               "content_image_slider": "shopify:\/\/shop_images\/slider-15-2-1.png",
               "content1": "",
               "content2": "",

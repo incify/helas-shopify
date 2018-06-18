@@ -306,6 +306,36 @@
     }
   }
 }
+.style_9 {
+  .section-title {
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+    span {
+      font-size: 72px;
+      font-weight: 400;
+      font-style: normal;
+      text-transform: none;
+      color: #fff;
+    }
+  }
+
+  .section-sub-title {
+    color: #a7adbc;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  &.sub-title-enable {
+    .section-title {
+      margin-bottom: 0 !important;
+      padding-bottom: 10px !important;
+    }
+  }
+}
 @media (max-width: 767px) {
   .section-title {
     margin-bottom: 15px;

@@ -1598,7 +1598,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m01-1-1.jpg",
               "class_content": "content-slider-1",
-              "use_content_image": true,
+              "image_postion": "absolute",
               "content_image_slider": "shopify:\/\/shop_images\/slider-mockup-m01-1-1.png",
               "content1": "<h1 class=\"special-font\">Slim-fit unstructured blazer<\/h1>",
               "content2": "<p>$89.99<\/p>",
@@ -1610,7 +1610,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m01-2-1.jpg",
               "class_content": "content-slider-1-2",
-              "use_content_image": true,
+              "image_postion": "absolute",
               "content_image_slider": "shopify:\/\/shop_images\/slider-mockup-m01-2-1.png",
               "button_content": "<a href=\"#\" class=\"btn-button large bordered uppercase\">Shop now<\/a>"
             }
@@ -1620,7 +1620,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m01-3-1.jpg",
               "class_content": "content-slider-1",
-              "use_content_image": true,
+              "image_postion": "absolute",
               "content_image_slider": "shopify:\/\/shop_images\/slider-mockup-m01-3-1.png",
               "content1": "<h1 class=\"special-font\">Velvet Tube Dress<\/h1>",
               "content2": "<p>$89.99<\/p>",

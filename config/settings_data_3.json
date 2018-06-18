@@ -1598,7 +1598,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m03-1.jpg",
               "class_content": "content-slider-3",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h4>Cotton cashmere-blend cardigan<\/h4>",
               "content2": "<p>$79.99<\/p>",
@@ -1610,7 +1610,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m03-2.jpg",
               "class_content": "content-slider-3-2",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h4>Wrap neckline satin jumpsuit<\/h4>",
               "content2": "<p>$79.99<\/p>",

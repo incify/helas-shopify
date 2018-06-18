@@ -1,0 +1,73 @@
+.section_bakery-menu {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 75px 0;
+
+  .bakery-menu {
+    margin-top: 30px;
+    .bakery-menu_inner {
+      position: relative;
+      background-color: rgba(255,255,255,0.9) !important;
+      padding: 4%;
+
+      &:before {
+        content: "";
+        background-image: url(m14-corner-1.png), url(m14-corner-2.png), url(m14-corner-3.png), url(m14-corner-4.png);
+        background-position: left top, right top, right bottom, left bottom;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        right: 20px;
+        bottom: 20px;
+        display: block;
+        background-repeat: no-repeat;
+      }
+    }
+
+    .bakery-menu__image {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .icon-boxes-inner {
+      margin-bottom: 35px;
+    }
+
+    .box-icon-left {
+      display: table-cell;
+      line-height: 0;
+      vertical-align: top;
+      padding-top: 5px;
+    }
+
+    .box-icon {
+      display: inline-block;
+      vertical-align: middle;
+      overflow: hidden;
+      max-width: 100%;
+    }
+
+    .box-contents {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+
+      h5 {
+        font-size: 30px;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      strong {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+      }
+
+      .box-description {
+        margin-left: 15px;
+      }
+    }
+  }
+}

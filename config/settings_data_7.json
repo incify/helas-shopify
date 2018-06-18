@@ -1596,7 +1596,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m07-1.jpg",
               "class_content": "content-slider-7",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h5>#FASION WEEK 2018<\/h5>",
               "content2": "<h1 class=\"special-font\">ONCE UPON A TIME<\/h1>",
@@ -1609,7 +1609,7 @@
             "settings": {
               "background_image": "shopify:\/\/shop_images\/slider-m07-2.jpg",
               "class_content": "content-slider-7",
-              "use_content_image": false,
+              "image_postion": "none",
               "content_image_slider": "",
               "content1": "<h5>#FASION WEEK 2018<\/h5>",
               "content2": "<h1 class=\"special-font\">KNIT TRENDS<\/h1>",

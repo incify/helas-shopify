@@ -117,6 +117,9 @@ $s_fontFamily: {{ settings.special_google_font }};
 {% else %}
 $s_fontFamily: {{ settings.special_family_font }};
 {% endif%}
+{% if settings.special_google_font != 'Playfair Display'%}
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&subset=vietnamese');
+{% endif%}
 /*****************************************/
 /************** Basic ********************/
 /*****************************************/
@@ -206,6 +209,10 @@ body {
 .banner-image-section.style_4 .banner-image .banner--infor .banner--infor__text_1,
 .style_7 .section-title span,
 .testimonial-section.layout-style_5 .incify-testimonial .testimonial_item--inner .testimonial_item--info .testimonial_item--excerpt,
+.slideshow-section .slideshow .content.content-slider.content-slider-14-2 h3,
+.section__about-us-content-box.style_4 .aboutus-content-box__content h1,
+.section_bakery-menu .bakery-menu .box-contents h5,
+.style_9 .section-title span,
 .special-font {
   font-family: $s_fontFamily, arial, serif ;
 }
@@ -554,6 +561,7 @@ ul.form-list li label,
 .testimonial-section.layout-style_5 .incify-testimonial .testimonial_item--inner .testimonial_item--info .testimonial_item--excerpt,
 .testimonial-section.layout-style_5 .incify-testimonial .testimonial_item--inner .testimonial_item--bottom .testimonial_item--title-role .testimonial_item--title,
 .testimonial-section.layout-style_5 .incify-testimonial .testimonial_item--inner .testimonial_item--bottom .testimonial_item--title-role .testimonial_item--role,
+.section_bakery-menu .bakery-menu .box-contents strong,
 .sidebar .nav-accordion li span.expand:after {
   color: $HeadingColor;
 }
@@ -1230,4 +1238,7 @@ a:hover {
   .main-section-header.header-transparent-enable.header--preset_dark .header-container {
       background: $HeadingColor !important;
   }
+}
+.slideshow-section .slideshow .content.content-slider.content-slider-14 h1 {
+  font-family: "Playfair Display";
 }

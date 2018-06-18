@@ -3,12 +3,26 @@
     <div class="aboutus-content-box row">
       {% if section.settings.preset == 'style_1' %}
       <div class="col-sm-6">
-        <div class="aboutus-content=box__image">
+        <div class="aboutus-content-box__image">
           <img src="{{ section.settings.image | img_url: 'master' }}" />
         </div>
       </div>
       <div class="col-sm-6 col-md-offset-1 col-md-5">
         <div class="aboutus-content-box__content text-left lg-mt-100 md-mt-70 xs-mt-50 lg-mb-100 md-mb-80 xs-mb-30">
+          <h1>{{ section.settings.content_title }}</h1>
+          <p>
+            {{ section.settings.content_text }}
+          </p>
+        </div>
+      </div>
+      {% elsif section.settings.preset == 'style_4' %}
+      <div class="col-sm-6">
+        <div class="aboutus-content=box__image">
+          <img src="{{ section.settings.image | img_url: 'master' }}" />
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="aboutus-content-box__content text-left xs-mb-30">
           <h1>{{ section.settings.content_title }}</h1>
           <p>
             {{ section.settings.content_text }}
@@ -56,30 +70,32 @@ body div[data-section-id="{{ section.id }}"]{
 {% schema %}
 {
   "name": "Content Box",
-  "settings": [
-    {
+  "settings": [{
       "type": "header",
       "content": "Content Box Settings"
     },
     {
-    "type": "select",
-    "id": "preset",
-    "label": "Preset",
-    "options": [
-    {
-    "value": "style_1",
-    "label": "Style 1"
-    },
-    {
-    "value": "style_2",
-    "label": "Style 2"
-  },
-  {
-  "value": "style_3",
-  "label": "Style 3"
-  }
-    ],
-    "default": "style_1"
+      "type": "select",
+      "id": "preset",
+      "label": "Preset",
+      "options": [{
+          "value": "style_1",
+          "label": "Style 1"
+        },
+        {
+          "value": "style_2",
+          "label": "Style 2"
+        },
+        {
+          "value": "style_3",
+          "label": "Style 3"
+        },
+        {
+          "value": "style_4",
+          "label": "Style 4"
+        }
+      ],
+      "default": "style_1"
     },
     {
       "type": "image_picker",
@@ -101,57 +117,55 @@ body div[data-section-id="{{ section.id }}"]{
       "content": "Styles Settings"
     },
     {
-     "type": "checkbox",
-     "id": "enable_style",
-     "default": false,
-     "label": "Enable Style Settings"
+      "type": "checkbox",
+      "id": "enable_style",
+      "default": false,
+      "label": "Enable Style Settings"
     },
     {
-        "type":      "range",
-        "id":        "style_top",
-        "min":       0,
-        "max":        500,
-        "step":       5,
-        "unit":       "px",
-        "label":     "Space Top",
-        "default":   0
+      "type": "range",
+      "id": "style_top",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Top",
+      "default": 0
     },
     {
-        "type":      "range",
-        "id":        "style_bottom",
-        "min":       0,
-        "max":        500,
-        "step":       5,
-        "unit":       "px",
-        "label":     "Space Bottom",
-        "default":   0
+      "type": "range",
+      "id": "style_bottom",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Bottom",
+      "default": 0
     },
     {
-        "type":      "range",
-        "id":        "style_left",
-        "min":       0,
-        "max":        500,
-        "step":       5,
-        "unit":       "px",
-        "label":     "Space Left",
-        "default":   0
+      "type": "range",
+      "id": "style_left",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Left",
+      "default": 0
     },
     {
-        "type":      "range",
-        "id":        "style_right",
-        "min":       0,
-        "max":        500,
-        "step":       5,
-        "unit":       "px",
-        "label":     "Space Right",
-        "default":   0
+      "type": "range",
+      "id": "style_right",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Right",
+      "default": 0
     }
   ],
-  "presets": [
-    {
-      "name": "AboutUs Box",
-      "category": "Content"
-    }
-  ]
+  "presets": [{
+    "name": "AboutUs Box",
+    "category": "Content"
+  }]
 }
 {% endschema %}
