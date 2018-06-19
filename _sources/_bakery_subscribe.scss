@@ -1,0 +1,111 @@
+.bakery-subscribe-section {
+  .left-content,
+  .right-content {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+  }
+
+  .left-content {
+    h1 {
+      font-size: 72px;
+      font-weight: 400;
+      text-transform: none;
+      color: #fff;
+      margin-bottom: 30px;
+    }
+
+    p {
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .custom-component-inner {
+      margin-top: 30px;
+
+      .la_compt_iem {
+        float: none;
+        display: inline-block;
+        margin-left: 20px;
+
+        .component-target {
+          display: block;
+          font-size: 12px;
+          line-height: 20px;
+          height: 40px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          vertical-align: middle;
+          color: #fff;
+
+          i {
+            display: inline-block;
+            line-height: inherit;
+            font-size: 16px;
+            margin-right: 5px;
+            position: relative;
+            top: -1px;
+            vertical-align: middle;
+            color: #fff !important;
+          }
+        }
+      }
+    }
+  }
+
+  .right-content {
+    .colunm-inner {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-size: 46px;
+      font-weight: 400;
+      text-transform: none;
+      color: #fff;
+    }
+
+    .sub-title {
+      font-size: 46px;
+      line-height: 46px;
+    }
+
+    form {
+      display: block;
+      width: 100%;
+      margin-top: 30px;
+
+      .input-group {
+        display: block !important;
+      }
+
+      input#fc-email {
+        background: rgba(255,255,255,.9);
+        border: 0;
+        outline: 0!important;
+        width: 100%;
+        line-height: 35px;
+        padding: 15px 120px 15px 20px;
+        margin: 0;
+        color: #000;
+      }
+
+      button.btn-button {
+        border: 0;
+        margin: 0!important !important;
+        width: 120px;
+        padding: 15px 0;
+        line-height: 35px;
+        background-color: transparent!important;
+        position: absolute;
+        color: #000;
+        right: 0;
+        top: 0;
+      }
+    }
+  }
+}

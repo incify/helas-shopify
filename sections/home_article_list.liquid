@@ -16,6 +16,8 @@
                                     {% include 'home_article_item_2' %}
                                   {% when 'style_3' %}
                                     {% include 'home_article_item_3' %}
+                                  {% when 'style_4' %}
+                                    {% include 'home_article_item_4' %}
                                   {% else %}
                                     {% include 'home_article_item' %}
                                   {% endcase %}
@@ -82,6 +84,10 @@ body div[data-section-id="{{ section.id }}"]{
 {
 "value": "style_3",
 "label": "Style 3"
+},
+{
+"value": "style_4",
+"label": "Style 4"
 }
 ],
 "default": "style_1"
@@ -126,6 +132,14 @@ body div[data-section-id="{{ section.id }}"]{
 {
 "value": "style_8",
 "label": "Style 8"
+},
+{
+"value": "style_9",
+"label": "Style 9"
+},
+{
+"value": "style_10",
+"label": "Style 10"
 }
 ],
 "default": "style_1"

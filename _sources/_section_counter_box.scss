@@ -24,6 +24,17 @@
     }
   }
 }
+.layout-bakery {
+  padding: 75px 0;
+  .incify-counter--number {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.3;
+    font-style: normal;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+}
 @media (min-width: 1500px) {
   .layout-spa .container {
       width: 1440px;

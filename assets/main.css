@@ -12764,6 +12764,9 @@ button {
 .column-wrapper--maxwidth--1500 {
   max-width: 1500px; }
 
+.column-wrapper--maxwidth--1920 {
+  max-width: 1920px; }
+
 .section__icon_box.style_2 .incify-icon-box {
   margin-top: 0;
   text-align: center; }
@@ -16970,6 +16973,25 @@ div.sort-by .bootstrap-select .selectize-dropdown {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%); }
 
+.layout-preset-bakery h3.title {
+  font-size: 72px;
+  letter-spacing: 0;
+  text-transform: none; }
+
+.layout-preset-bakery .la-member__inner .la-member__info .la-member__info-title-role .la-member__info-title {
+  font-size: 18px;
+  font-family: "Playfair Display";
+  text-transform: none; }
+  .layout-preset-bakery .la-member__inner .la-member__info .la-member__info-title-role .la-member__info-title:after {
+    content: ". . . . .";
+    display: block;
+    width: 40px;
+    line-height: 0;
+    margin: 0 auto;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
 .section__service-box .services-box .services-box__content h1 {
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -17045,6 +17067,16 @@ div.sort-by .bootstrap-select .selectize-dropdown {
       line-height: 24px;
       font-style: italic !important;
       margin-bottom: 20px; }
+
+.layout-bakery {
+  padding: 75px 0; }
+  .layout-bakery .incify-counter--number {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.3;
+    font-style: normal;
+    margin-top: 15px;
+    margin-bottom: 5px; }
 
 @media (min-width: 1500px) {
   .layout-spa .container {
@@ -17903,6 +17935,29 @@ div.sort-by .bootstrap-select .selectize-dropdown {
   margin-bottom: 0 !important;
   padding-bottom: 10px !important; }
 
+.style_10 .section-title {
+  text-align: center;
+  position: relative;
+  padding-bottom: 15px; }
+  .style_10 .section-title span {
+    font-size: 72px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    color: #fff; }
+
+.style_10 .section-sub-title {
+  color: #a7adbc;
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+.style_10.sub-title-enable .section-title {
+  margin-bottom: 0 !important;
+  padding-bottom: 10px !important; }
+
 @media (max-width: 767px) {
   .section-title {
     margin-bottom: 15px;
@@ -18466,6 +18521,24 @@ div.sort-by .bootstrap-select .selectize-dropdown {
     text-align: center; }
     .blog-article-section.layout-style_3 .item .content-detail-blog .date_comment {
       text-align: center; }
+  .blog-article-section.layout-style_4 .feature-image-blog {
+    float: none;
+    width: 100%; }
+  .blog-article-section.layout-style_4 .item .content-detail-blog {
+    width: 100%;
+    float: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    text-align: center; }
+    .blog-article-section.layout-style_4 .item .content-detail-blog .date_comment {
+      text-align: center; }
+  .blog-article-section.layout-style_4 .blog_article .item .postTitle h2 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "Playfair Display" !important;
+    margin: 0;
+    text-transform: none; }
 
 .blog_item--inner {
   width: 100%;
@@ -18538,6 +18611,8 @@ div.sort-by .bootstrap-select .selectize-dropdown {
       filter: grayscale(0);
       -webkit-filter: grayscale(0);
       opacity: 1; }
+  .sections__brands.max-1920 {
+    border-top: #e0e0e0 solid 1px; }
 
 .banner-video-section.layout-spa h3 {
   font-size: 36px;
@@ -18796,6 +18871,57 @@ div.sort-by .bootstrap-select .selectize-dropdown {
     .testimonial-section.layout-style_5 .incify-testimonial .testimonial_item--inner .testimonial_item--bottom .testimonial_item--title-role .testimonial_item--role:before {
       content: "-";
       padding: 0 5px; }
+
+.testimonial-section.layout-style_6 .incify-testimonial .slick-arrow {
+  display: none !important; }
+
+.testimonial-section.layout-style_6 .incify-testimonial .slick-dots {
+  bottom: 0;
+  text-align: center; }
+  .testimonial-section.layout-style_6 .incify-testimonial .slick-dots li.slick-active button {
+    color: #fff; }
+    .testimonial-section.layout-style_6 .incify-testimonial .slick-dots li.slick-active button:before {
+      color: inherit;
+      font-size: 12px; }
+
+.testimonial-section.layout-style_6 .incify-testimonial .slick-dotted.slick-slider {
+  margin-bottom: 0; }
+
+.testimonial-section.layout-style_6 .incify-testimonial .testimonial_item--inner {
+  text-align: center; }
+  .testimonial-section.layout-style_6 .incify-testimonial .testimonial_item--inner .testimonial_item--image {
+    display: none; }
+  .testimonial-section.layout-style_6 .incify-testimonial .testimonial_item--inner .testimonial_item--info i {
+    font-size: 38px;
+    color: #fff; }
+  .testimonial-section.layout-style_6 .incify-testimonial .testimonial_item--inner .testimonial_item--info .testimonial_item--excerpt {
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 1.6;
+    color: #fff; }
+  .testimonial-section.layout-style_6 .incify-testimonial .testimonial_item--inner .testimonial_item--bottom .testimonial_item--title-role {
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 14px; }
+    .testimonial-section.layout-style_6 .incify-testimonial .testimonial_item--inner .testimonial_item--bottom .testimonial_item--title-role:before {
+      display: none; }
+    .testimonial-section.layout-style_6 .incify-testimonial .testimonial_item--inner .testimonial_item--bottom .testimonial_item--title-role .testimonial_item--title {
+      display: inline-block;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 400;
+      color: #fff; }
+    .testimonial-section.layout-style_6 .incify-testimonial .testimonial_item--inner .testimonial_item--bottom .testimonial_item--title-role .testimonial_item--role {
+      display: inline-block;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 400;
+      color: #fff; }
+      .testimonial-section.layout-style_6 .incify-testimonial .testimonial_item--inner .testimonial_item--bottom .testimonial_item--title-role .testimonial_item--role:before {
+        content: "-";
+        padding: 0 5px; }
 
 .product-mini-list-section .product-mini-list h3.title {
   position: relative;
@@ -19333,6 +19459,92 @@ div.sort-by .bootstrap-select .selectize-dropdown {
         font-size: 18px; }
       .section_bakery-menu .bakery-menu .box-contents .box-description {
         margin-left: 15px; }
+
+.bakery-subscribe-section .left-content,
+.bakery-subscribe-section .right-content {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+  text-align: center;
+  color: #fff; }
+
+.bakery-subscribe-section .left-content h1 {
+  font-size: 72px;
+  font-weight: 400;
+  text-transform: none;
+  color: #fff;
+  margin-bottom: 30px; }
+
+.bakery-subscribe-section .left-content p {
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+.bakery-subscribe-section .left-content .custom-component-inner {
+  margin-top: 30px; }
+  .bakery-subscribe-section .left-content .custom-component-inner .la_compt_iem {
+    float: none;
+    display: inline-block;
+    margin-left: 20px; }
+    .bakery-subscribe-section .left-content .custom-component-inner .la_compt_iem .component-target {
+      display: block;
+      font-size: 12px;
+      line-height: 20px;
+      height: 40px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      vertical-align: middle;
+      color: #fff; }
+      .bakery-subscribe-section .left-content .custom-component-inner .la_compt_iem .component-target i {
+        display: inline-block;
+        line-height: inherit;
+        font-size: 16px;
+        margin-right: 5px;
+        position: relative;
+        top: -1px;
+        vertical-align: middle;
+        color: #fff !important; }
+
+.bakery-subscribe-section .right-content .colunm-inner {
+  max-width: 700px;
+  margin: 0 auto; }
+
+.bakery-subscribe-section .right-content h2 {
+  font-size: 46px;
+  font-weight: 400;
+  text-transform: none;
+  color: #fff; }
+
+.bakery-subscribe-section .right-content .sub-title {
+  font-size: 46px;
+  line-height: 46px; }
+
+.bakery-subscribe-section .right-content form {
+  display: block;
+  width: 100%;
+  margin-top: 30px; }
+  .bakery-subscribe-section .right-content form .input-group {
+    display: block !important; }
+  .bakery-subscribe-section .right-content form input#fc-email {
+    background: rgba(255, 255, 255, 0.9);
+    border: 0;
+    outline: 0 !important;
+    width: 100%;
+    line-height: 35px;
+    padding: 15px 120px 15px 20px;
+    margin: 0;
+    color: #000; }
+  .bakery-subscribe-section .right-content form button.btn-button {
+    border: 0;
+    margin: 0 !important !important;
+    width: 120px;
+    padding: 15px 0;
+    line-height: 35px;
+    background-color: transparent !important;
+    position: absolute;
+    color: #000;
+    right: 0;
+    top: 0; }
 
 .bike-fun-stuff .bike-fun-stuff__icon {
   display: table-cell;

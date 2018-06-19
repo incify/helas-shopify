@@ -1745,14 +1745,175 @@
           "title": "Menu today"
         }
       },
+      "main-counter-box": {
+        "type": "service_counter_box",
+        "blocks": {
+          "m14-counter-01": {
+            "type": "counter_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m14-icon-7.png",
+              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus,",
+              "number": "254"
+            }
+          },
+          "m14-counter-02": {
+            "type": "counter_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m14-icon-8.png",
+              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus,",
+              "number": "47"
+            }
+          },
+          "m14-counter-03": {
+            "type": "counter_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m14-icon-9.png",
+              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus,",
+              "number": "136"
+            }
+          },
+          "m14-counter-04": {
+            "type": "counter_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m14-icon-10.png",
+              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus,",
+              "number": "897"
+            }
+          }
+        },
+        "block_order": [
+          "m14-counter-01",
+          "m14-counter-02",
+          "m14-counter-03",
+          "m14-counter-04"
+        ],
+        "settings": {
+          "preset": "bakery",
+          "background_color": "#ffffff",
+          "gradient_bg": false,
+          "enable_style": true,
+          "style_top": 75
+        }
+      },
+      "main-testimonial": {
+        "type": "home_testimonials",
+        "blocks": {
+          "main-testimonial01": {
+            "type": "testimonial_content",
+            "settings": {
+              "testimonial_avt": "shopify:\/\/shop_images\/m2-mem-1.jpg",
+              "testimonial_text": "\"Curabitur lacinia metus vitae odio euismod, sit amet cursus ipsum tincidunt. Pellentesm, id vestibulum\"",
+              "testimonial_text_author": "Eugene Watkins",
+              "testimonial_text_job": "Happy Client"
+            }
+          },
+          "main-testimonial02": {
+            "type": "testimonial_content",
+            "settings": {
+                "testimonial_avt": "shopify:\/\/shop_images\/m2-mem-1.jpg",
+              "testimonial_text": "\"Curabitur lacinia metus vitae odio euismod, sit amet cursus ipsum tincidunt. Pellentesm, id vestibulum\"",
+              "testimonial_text_author": "Jon Snow",
+              "testimonial_text_job": "Happy Client"
+            }
+          }
+        },
+        "block_order": [
+          "main-testimonial01",
+          "main-testimonial02"
+        ],
+        "settings": {
+          "preset": "style_6",
+          "preset_section_title": "style_9",
+          "title": "Testimonials",
+          "enable_parallax": true,
+          "background": "shopify:\/\/shop_images\/m14-b-4.jpg",
+          "padding_top": 70,
+          "padding_bottom": 70
+        }
+      },
+      "home-team-member": {
+        "type": "about_us_team_member",
+        "blocks": {
+            "m11-member-01": {
+              "type": "team_member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/m14-u-1.jpg",
+                "name": "Jose Lamb",
+                "postion": "CEO - Founder",
+                "fb": "#",
+                "tw": "#",
+                "pin": "#",
+                "gp": "#"
+              }
+            },
+            "m11-member-02": {
+              "type": "team_member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/m14-u-2.jpg",
+                "name": "Dale Ballard",
+                "postion": "CEO Manager",
+                "fb": "#",
+                "tw": "#",
+                "pin": "#",
+                "gp": "#"
+              }
+            },
+            "m11-member-03": {
+              "type": "team_member",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/m14-u-3.jpg",
+                "name": "Nora Patton",
+                "postion": "Marketing Manager",
+                "fb": "#",
+                "tw": "#",
+                "pin": "#",
+                "gp": "#"
+              }
+            },
+          "m11-member-04": {
+            "type": "team_member",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m14-u-4.jpg",
+              "name": "Amy Moran",
+              "postion": "Louisa Salazar",
+              "fb": "#",
+              "tw": "#",
+              "pin": "#",
+              "gp": "#"
+            }
+          }
+        },
+        "block_order": [
+          "m11-member-01",
+          "m11-member-02",
+          "m11-member-03",
+          "m11-member-04"
+        ],
+        "settings": {
+          "preset": "bakery",
+          "title": "Our Chefs"
+        }
+      },
+      "home-bakery-newsletter": {
+        "type": "bakery_subscribe",
+        "settings": {
+          "left_background": "shopify:\/\/shop_images\/m14-b-5.jpg",
+          "left_title": "Opening Time",
+          "left_text": "<p>Tue-Fri 7:30 am – 6:00 pm</p><p>Saturday 7:30 am – 5:00 pm</p><p>Sunday 7:00 am – 1:30 pm</p><p>Closed Mondays</p>",
+          "left_phone": "+56.653.534",
+          "left_email": "INFO@DOMAIN.COM",
+          "right_background": "shopify:\/\/shop_images\/m14-b-6.jpg",
+          "right_title": "Sign up for newsletter",
+          "right_sub_title": "get 10% offers / weeks"
+        }
+      },
       "blog-list": {
         "type": "home_article_list",
         "settings": {
-          "preset_section_title": "style_8",
-          "title": "OUR BLOG",
-          "sub_title": "Ut nec semper ligula nulla lacus nisl",
-          "preset": "style_3",
-          "blog": "sport",
+          "preset_section_title": "style_10",
+          "title": "The Blog",
+          "preset": "style_4",
+          "blog": "bakery",
           "blog_article_limit": "3",
           "number_columns_blog_show": "3"
         }
@@ -1763,49 +1924,49 @@
           "001": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-1.png",
+              "image": "shopify:\/\/shop_images\/m14-pn-1.png",
               "link": ""
             }
           },
           "002": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-2.png",
+              "image": "shopify:\/\/shop_images\/m14-pn-2.png",
               "link": ""
             }
           },
           "003": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-3.png",
+              "image": "shopify:\/\/shop_images\/m14-pn-3.png",
               "link": ""
             }
           },
           "004": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-4.png",
+              "image": "shopify:\/\/shop_images\/m14-pn-4.png",
               "link": ""
             }
           },
           "005": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-5.png",
+              "image": "shopify:\/\/shop_images\/m14-pn-5.png",
               "link": ""
             }
           },
           "006": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-6.png",
+              "image": "shopify:\/\/shop_images\/m14-pn-6.png",
               "link": ""
             }
           },
           "007": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/m2-brand-3.png",
+              "image": "shopify:\/\/shop_images\/m14-pn-7.png",
               "link": ""
             }
           }
@@ -1820,11 +1981,11 @@
           "007"
         ],
         "settings": {
-          "preset": "style_2",
-          "columns": "6",
+          "columns": "7",
+          "width_layout": "max-1920",
           "enable_style": true,
           "style_top": 40,
-          "style_bottom": 40
+          "style_bottom": 0
         }
       }
     },
@@ -1832,9 +1993,10 @@
       "home-slideshow",
       "main-aboutus-box",
       "home-bakery-menu",
-      "home-banner-image",
-      "home-banner-image-2",
-      "home-icon-box",
+      "main-counter-box",
+      "main-testimonial",
+      "home-team-member",
+      "home-bakery-newsletter",
       "blog-list",
       "home_brands"
     ]

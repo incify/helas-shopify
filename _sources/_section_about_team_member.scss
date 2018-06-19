@@ -30,3 +30,25 @@
     }
   }
 }
+.layout-preset-bakery {
+  h3.title {
+    font-size: 72px;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+  .la-member__inner .la-member__info .la-member__info-title-role .la-member__info-title {
+    font-size: 18px;
+    font-family: "Playfair Display";
+    text-transform: none;
+    &:after {
+      content: ". . . . .";
+    display: block;
+    width: 40px;
+    line-height: 0;
+    margin: 0 auto;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+}
+}

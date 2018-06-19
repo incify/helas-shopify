@@ -1,5 +1,5 @@
-<div data-section-id="{{ section.id }}" class="sections__brands">
-    <div class="featured-brands{% if section.settings.width_layout == 'boxed' %} container{% elsif section.settings.width_layout == 'max-1500' %} container-fluid column-wrapper--maxwidth--1500{% else %} container-fluid{% endif %}">
+<div data-section-id="{{ section.id }}" class="sections__brands {{section.settings.width_layout}}">
+    <div class="featured-brands{% if section.settings.width_layout == 'boxed' %} container{% elsif section.settings.width_layout == 'max-1500' %} container-fluid column-wrapper--maxwidth--1500{% elsif section.settings.width_layout == 'max-1920' %} container-fluid column-wrapper--maxwidth--1920{% else %} container-fluid{% endif %}">
       <div class="slick-carousel" data-slick='{"slidesToShow":{{ section.settings.columns }},"slidesToScroll":{{ section.settings.columns }},"dots":false,"autoplaySpeed":5000,"speed":300,"infinite":false,"arrows":false,"swipe":true,"draggable":true,"touchMove":true,"pauseOnHover":false,"responsive":[{"breakpoint":1824,"settings":{"slidesToShow":{{ section.settings.columns }},"slidesToScroll":{{ section.settings.columns }}}},{"breakpoint":1200,"settings":{"slidesToShow":{{ section.settings.columns }},"slidesToScroll":{{ section.settings.columns }}}},{"breakpoint":992,"settings":{"slidesToShow":3,"slidesToScroll":3}},{"breakpoint":768,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":480,"settings":{"slidesToShow":2,"slidesToScroll":2}}],"pauseOnDotsHover":true}'>
         {% for block in section.blocks %}
           <div class="item">
@@ -53,6 +53,10 @@
 {
 "value": "max-1500",
 "label": "1500px"
+},
+{
+"value": "max-1920",
+"label": "1920px"
 },
 {
 "value": "boxed",
