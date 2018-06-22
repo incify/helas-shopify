@@ -203,6 +203,30 @@
       }
     }
   }
+  &.style_5 {
+    .banner-image {
+      .link-shop-overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        transition: all 250ms ease-out;
+        span {
+          display: none !important;
+        }
+      }
+    }
+
+    .banner--infor {
+      text-align: center;
+      color: #fff;
+      .banner--infor__text_1 {
+        color: #fff !important;
+      }
+    }
+  }
 }
 
 .small-space {

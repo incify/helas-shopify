@@ -1,13 +1,16 @@
 .section__special-offters {
   .special-offters-box {
     margin-top: 30px;
+
     .left-content {
       position: relative;
+
       .special-discount-html {
         position: absolute;
         right: 5%;
         top: 25%;
         text-align: right;
+
         span.onsale {
           background-color: #d3b48c;
           width: 67px;
@@ -20,32 +23,70 @@
           display: block;
           float: right;
           margin-right: 20px;
+
           span {
             color: #fff;
           }
         }
+
         span.price {
           font-size: 36px;
           display: block;
           letter-spacing: -2px;
           float: right;
           clear: both;
+
           del {
             font-size: 18px;
             letter-spacing: 0;
           }
+
           ins {
             text-decoration: none;
           }
         }
       }
     }
+
     .right-content {
       h2 {
         margin-bottom: 0;
       }
+
       .btn-button {
         margin-top: 40px;
+      }
+    }
+  }
+
+  &.style_2 {
+    .left-content {
+      padding-top: 120px;
+
+      .special-discount-html span.onsale {
+        background-color: #dacb50 !important;
+      }
+    }
+
+    .right-content {
+      p {
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+      h2 {
+        font-size: 24px;
+        line-height: 1.5;
+        font-weight: 400;
+        text-align: center;
+      }
+
+      .shortcode-countdown .product-date > div {
+        border: none;
       }
     }
   }

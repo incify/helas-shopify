@@ -79,3 +79,16 @@
     right: -1px;
   }
 }
+.style-furniture .tab-product-collection .category-list .tab-selector ul li:hover,
+.style-furniture .tab-product-collection .category-list .tab-selector ul li.active {
+  position: relative;
+  &:after {
+    content: "";
+    height: 3px;
+    background-image: linear-gradient(90deg,#d1ecff 0,#efcdcd 90%);
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+  }
+}

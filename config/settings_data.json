@@ -14,7 +14,7 @@
     "currency_format": "money_format",
     "supported_currencies": "EUR USD GBP",
     "default_currency": "USD",
-    "theme_color": "#432917",
+    "theme_color": "#d3b48c",
     "heading_color": "#36393e",
     "custom_general": "1",
     "text_color": "#8a8a8a",
@@ -130,7 +130,7 @@
     "h5_font_size": "14",
     "h6_font_size": "12",
     "special_font": "google",
-    "special_google_font": "Mr Dafoe",
+    "special_google_font": "Open Sans",
     "special_family_font": "Helvetica, Arial, sans-serif",
     "nav_linklist": "main-menu",
     "menu_item_type_1": "wide",
@@ -595,8 +595,8 @@
           "type": "style1",
           "language_flag": "yes",
           "enable_header_transparent": "yes",
-          "header_preset": "dark",
-          "header_menu": "normal",
+          "header_preset": "light",
+          "header_menu": "uppercase_bold",
           "header_2_left_text": "<span class=\"header-2-left-text\"><i class=\"fa fa-phone\"><\/i> +56.653.534<\/span>\n<span class=\"header-2-left-text\"><a href=\"mailto:INFO@DOMAIN.COM\"><i class=\"fa fa-envelope-o\"><\/i> INFO@DOMAIN.COM<\/a><\/span>\n<span class=\"header-2-left-text\"><i class=\"dl-icon-clock\"><\/i> MON-SAT:8AM TO 9PM<\/span>",
           "custom_block_header_aside_top": "<p class=\"header-text\">Curabitur placerat urna augue, id luctus sem imperdiet id. Nunc congue ac libero ut lacinia. In ultrices elementum ipsum, in tempus enim accumsan...<\/p>\n<div class=\"social-media-link\">\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-facebook\"><\/i><\/a>\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-twitter\"><\/i><\/a>\n   <a target=\"_blank\" href=\"#\" class=\"share-icon-header\"><i class=\"fa fa-pinterest\"><\/i><\/a>\n<\/div>",
 
@@ -604,7 +604,7 @@
           "logo_width": "262",
           "logo": "",
           "logo_white_use_image": true,
-          "logo_white": "shopify:\/\/shop_images\/m14-logo.png",
+          "logo_white": "shopify:\/\/shop_images\/m15-logo.png",
           "sticky_header_enable": "enable",
           "custum_block_style_4": "<span class=\"three-font-family\">Spring Summer<\/span>\r\n<p> Sale off 50% <\/p>\r\n<a href=\"#\" class=\"btn-shopping\">SHOPPING NOW<\/a>",
           "style_3_enable_social": false,
@@ -620,7 +620,7 @@
           "footer_background_color": "",
           "logo_use_image": true,
           "logo_width": "146",
-          "logo_white": "shopify:\/\/shop_images\/m14-logo.png",
+          "logo_white": "",
           "footer_preset": "dark",
           "footer_social_share": "<a href=\"https://www.facebook.com/\" class=\"facebook\" title=\"Facebook\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-facebook\"></i></a><a href=\"https://twitter.com/\" class=\"twitter\" title=\"Twitter\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-twitter\"></i></a><a href=\"https://www.linkedin.com\" class=\"linkedin\" title=\"LinkedIn\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-linkedin-square\"></i></a><a href=\"https://www.youtube.com\" class=\"youtube\" title=\"Youtube\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-youtube-play\"></i></a><a href=\"https://vimeo.com\" class=\"vimeo\" title=\"Vimeo\" target=\"_blank\" rel=\"nofollow\"><i class=\"fa fa-vimeo-square\"></i></a>",
           "footer_bottom_copyright": "© 2018 CREATED BY THEMEDEUX",
@@ -1001,7 +1001,7 @@
           "testimonial03"
         ],
         "settings": {
-          "preset": "style_4",
+          "preset": "style_7",
           "background": "",
           "enable_parallax": false,
           "gradient_bg": true,
@@ -1075,6 +1075,7 @@
           "007"
         ],
         "settings": {
+          "width_layout": "max-1500",
           "preset": "style_2",
           "columns": "6"
         }
@@ -1590,34 +1591,32 @@
           "home-slideshow-0": {
             "type": "image",
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/slider-m14-1.jpg",
-              "class_content": "content-slider-14",
-              "image_postion": "static",
-              "content_image_slider": "shopify:\/\/shop_images\/slider-m14-1-1.png",
-              "content1": "<h1>WELCOME TO <span class=\"special-font\">Bakery</span> STORE<\/h1>",
-              "button_content": "<a href=\"#\" class=\"btn-button white uppercase\">Shop now<\/a>"
+              "background_image": "shopify:\/\/shop_images\/m15-slider-1.jpg",
+              "class_content": "content-slider-15",
+              "image_postion": "none",
+              "content1": "<h4>#COLLECTIONS 2018<\/h4>"
             }
           },
           "home-slideshow-1": {
             "type": "image",
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/slider-m14-2.jpg",
-              "class_content": "content-slider-14",
-              "image_postion": "static",
-              "content_image_slider": "shopify:\/\/shop_images\/slider-m14-2-1.png",
+              "background_image": "shopify:\/\/shop_images\/m15-slider-2.jpg",
+              "class_content": "content-slider-15-2",
+              "image_postion": "none",
+              "content1": "<h5>#Skyline Furniture<\/h5>",
+              "content2": "<h4>Skyline Furniture Armless Chair in <br/> Zig Zag Black and White<\/h4>",
               "button_content": "<a href=\"#\" class=\"btn-button white uppercase\">Shop now<\/a>"
             }
           },
           "home-slideshow-2": {
             "type": "image",
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/slider-m14-3.jpg",
-              "class_content": "content-slider-14-2",
+              "background_image": "shopify:\/\/shop_images\/m15-slider-3.jpg",
+              "class_content": "content-slider-15-3",
               "image_postion": "none",
-              "content_image_slider": "",
-              "content2": "<h3>Donut Cakes<\/h3>",
-              "content3": "<h1>$1.59</h1>",
-              "button_content": "<a href=\"#\" class=\"btn-button bordered white uppercase\">Shop now<\/a>"
+              "content1": "<h5>#RIVET FURNITURE<\/h5>",
+              "content2": "<h4>Rivet Axel Lid Storage Wood and Metal Side Table, Walnut<\/h4>",
+              "button_content": "<a href=\"#\" class=\"btn-button white uppercase\">Shop now<\/a>"
             }
           }
         },
@@ -1636,163 +1635,113 @@
           "slide_nav_next": "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"><\/i>"
         }
       },
-      "main-aboutus-box": {
-        "type": "home_aboutus_box",
-        "settings": {
-          "preset": "style_4",
-          "image": "shopify:\/\/shop_images\/m14-b-1.jpg",
-          "content_title": "Making Your Sweet",
-          "content_text": "<p>Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus. Phasellus vitae feugiat magna.</p> <a href=\"#\" class=\"btn-button bordered uppercase\">Discovery Now<\/a>"
-        }
-      },
-      "home-bakery-menu": {
-        "type": "bakery_menu",
+      "home-banner-image": {
+        "type": "home_banner_image",
         "blocks": {
-          "menu-1": {
-            "type": "menu_image",
+          "m11-b-4-1": {
+            "type": "banner_item",
             "settings": {
-              "menu_image": "shopify:\/\/shop_images\/m14-m-1.png"
+              "image_banner": "shopify:\/\/shop_images\/m15-b-1.jpg",
+              "text_position": "center",
+              "text_banner": "LOREM IPSUM",
+              "text_class": "font-size-24 text-uppercase letter-spacing-5",
+              "link_banner": "#",
+              "banner_button": "Shop Now"
             }
           },
-          "menu-2": {
-            "type": "menu_item",
+          "m11-b-4-2": {
+            "type": "banner_item",
             "settings": {
-              "icon_image": "shopify:\/\/shop_images\/m14-icon-1.png",
-              "title": "Muffin Cakes",
-              "text": "Phasellus ut urna porttitor turpis accumsan sagittis.",
-              "price": "M size $1.49 / L size $1.80"
+              "image_banner": "shopify:\/\/shop_images\/m15-b-2.jpg",
+              "text_position": "center",
+              "text_banner": "LOREM IPSUM",
+              "text_class": "font-size-24 text-uppercase letter-spacing-5",
+              "link_banner": "#",
+              "banner_button": "Shop Now"
             }
           },
-          "menu-3": {
-            "type": "menu_item",
+          "m11-b-4-3": {
+            "type": "banner_item",
             "settings": {
-              "icon_image": "shopify:\/\/shop_images\/m14-icon-2.png",
-              "title": "Banna Bread",
-              "text": "Phasellus ut urna porttitor turpis accumsan sagittis.",
-              "price": "M size $1.49 / L size $1.80"
-            }
-          },
-          "menu-4": {
-            "type": "menu_item",
-            "settings": {
-              "icon_image": "shopify:\/\/shop_images\/m14-icon-3.png",
-              "title": "Sticky Buns",
-              "text": "Phasellus ut urna porttitor turpis accumsan sagittis.",
-              "price": "M size $1.49 / L size $1.80"
-            }
-          },
-          "menu-5": {
-            "type": "column"
-          },
-          "menu-6": {
-            "type": "menu_image",
-            "settings": {
-              "menu_image": "shopify:\/\/shop_images\/m14-m-2.png"
-            }
-          },
-          "menu-7": {
-            "type": "menu_item",
-            "settings": {
-              "icon_image": "shopify:\/\/shop_images\/m14-icon-4.png",
-              "title": "Oatmeal Raisin",
-              "text": "Phasellus ut urna porttitor turpis accumsan sagittis.",
-              "price": "M size $1.49 / L size $1.80"
-            }
-          },
-          "menu-8": {
-            "type": "menu_item",
-            "settings": {
-              "icon_image": "shopify:\/\/shop_images\/m14-icon-5.png",
-              "title": "Peanut Butter",
-              "text": "Phasellus ut urna porttitor turpis accumsan sagittis.",
-              "price": "M size $1.49 / L size $1.80"
-            }
-          },
-          "menu-9": {
-            "type": "menu_item",
-            "settings": {
-              "icon_image": "shopify:\/\/shop_images\/m14-icon-6.png",
-              "title": "Tartletters",
-              "text": "Phasellus ut urna porttitor turpis accumsan sagittis.",
-              "price": "M size $1.49 / L size $1.80"
-            }
-          },
-          "menu-10": {
-            "type": "column"
-          },
-          "menu-11": {
-            "type": "menu_image",
-            "settings": {
-              "menu_image": "shopify:\/\/shop_images\/m14-b-3.png"
+              "image_banner": "shopify:\/\/shop_images\/m15-b-3.jpg",
+              "text_position": "center",
+              "text_banner": "LOREM IPSUM",
+              "text_class": "font-size-24 text-uppercase letter-spacing-5",
+              "link_banner": "#",
+              "banner_button": "Shop Now"
             }
           }
         },
         "block_order": [
-          "menu-1",
-          "menu-2",
-          "menu-3",
-          "menu-4",
-          "menu-5",
-          "menu-6",
-          "menu-7",
-          "menu-8",
-          "menu-9",
-          "menu-10",
-          "menu-11"
+          "m11-b-4-1",
+          "m11-b-4-2",
+          "m11-b-4-3"
         ],
         "settings": {
-          "background": "shopify:\/\/shop_images\/m14-b-2.jpg",
-          "title": "Menu today"
-        }
-      },
-      "main-counter-box": {
-        "type": "service_counter_box",
-        "blocks": {
-          "m14-counter-01": {
-            "type": "counter_item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/m14-icon-7.png",
-              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus,",
-              "number": "254"
-            }
-          },
-          "m14-counter-02": {
-            "type": "counter_item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/m14-icon-8.png",
-              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus,",
-              "number": "47"
-            }
-          },
-          "m14-counter-03": {
-            "type": "counter_item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/m14-icon-9.png",
-              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus,",
-              "number": "136"
-            }
-          },
-          "m14-counter-04": {
-            "type": "counter_item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/m14-icon-10.png",
-              "text": "Fusce quis porta neque. Suspendisse potenti. Ut finibus,",
-              "number": "897"
-            }
-          }
-        },
-        "block_order": [
-          "m14-counter-01",
-          "m14-counter-02",
-          "m14-counter-03",
-          "m14-counter-04"
-        ],
-        "settings": {
-          "preset": "bakery",
-          "background_color": "#ffffff",
-          "gradient_bg": false,
+          "banner_preset": "style_5",
+          "width_layout": "full",
+          "banner_space": "yes",
+          "show_content_when_hover": true,
+          "grid": "3",
+          "grid_2": "3",
           "enable_style": true,
-          "style_top": 75
+          "style_top": 30
+        }
+      },
+      "home-products-tab": {
+        "type": "home_tab_collection",
+        "settings": {
+          "preset": "furniture",
+          "preset_section_title": "style_11",
+          "title": "#Popular",
+          "tab_collection_view_all_product": "VIEW ALL PRODUCTS",
+          "tab_collection_link_all_product": "#",
+          "tab_collection_limit": "15",
+          "tab_collection_column": "5",
+          "tab_collection_title_1": "all",
+          "tab_collection_1": "furniture",
+          "tab_collection_title_2": "Man Shoes",
+          "tab_collection_2": "watches",
+          "tab_collection_title_3": "Woman Shoes",
+          "tab_collection_3": "spa",
+          "tab_collection_title_4": "SPORT EQUIPMENTS",
+          "tab_collection_4": "watches",
+          "enable_style": true,
+          "style_top": 30
+        }
+      },
+      "home-special-offers": {
+        "type": "home_special_offers",
+        "blocks": {
+          "offer-1": {
+            "type": "offer_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/m15-bg-2.png",
+              "discount_percent": "$150",
+              "title": "The James Collection Mid-Century Modern Living Room",
+              "sub_title": "#SPECIAL OFFER",
+              "button_url": "#"
+            }
+          }
+        },
+        "block_order": [
+          "offer-1"
+        ],
+        "settings": {
+          "preset": "style_2",
+          "background_to_color": "#FFEBCF",
+          "background_from_color": "#C0FFF1"
+        }
+      },
+      "newsletter-box": {
+        "type": "home_subscribe",
+        "settings": {
+          "preset": "style_2",
+          "title": "Sign up for newsletter and <strong class=\"text-color-primary\"><i>get 10%<\/i><\/strong> offers / weeks",
+          "enable_parallax": false,
+          "padding_top": 70,
+          "padding_bottom": 70,
+          "enable_social": false
         }
       },
       "main-testimonial": {
@@ -1801,204 +1750,70 @@
           "main-testimonial01": {
             "type": "testimonial_content",
             "settings": {
-              "testimonial_avt": "shopify:\/\/shop_images\/m2-mem-1.jpg",
-              "testimonial_text": "\"Curabitur lacinia metus vitae odio euismod, sit amet cursus ipsum tincidunt. Pellentesm, id vestibulum\"",
-              "testimonial_text_author": "Eugene Watkins",
-              "testimonial_text_job": "Happy Client"
+              "testimonial_avt": "shopify:\/\/shop_images\/m15-t-1.jpg",
+              "testimonial_text": "\"Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus.\"",
+              "testimonial_text_author": "Robert Elliott",
+              "testimonial_text_job": "CEO Adobe"
             }
           },
           "main-testimonial02": {
             "type": "testimonial_content",
             "settings": {
-                "testimonial_avt": "shopify:\/\/shop_images\/m2-mem-1.jpg",
-              "testimonial_text": "\"Curabitur lacinia metus vitae odio euismod, sit amet cursus ipsum tincidunt. Pellentesm, id vestibulum\"",
-              "testimonial_text_author": "Jon Snow",
-              "testimonial_text_job": "Happy Client"
+              "testimonial_avt": "shopify:\/\/shop_images\/m15-t-2.jpg",
+              "testimonial_text": "\"Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus.\"",
+              "testimonial_text_author": "Gilbert Norton",
+              "testimonial_text_job": "CEO Adobe"
+            }
+          },
+          "main-testimonial03": {
+            "type": "testimonial_content",
+            "settings": {
+              "testimonial_avt": "shopify:\/\/shop_images\/m15-t-3.jpg",
+              "testimonial_text": "\"Fusce quis porta neque. Suspendisse potenti. Ut finibus, eros vel ullamcorper tempus, nibh lorem congue lectus, ut pharetra tortor odio et purus.\"",
+              "testimonial_text_author": "Eva Powers",
+              "testimonial_text_job": "CEO Microsoft"
             }
           }
         },
         "block_order": [
           "main-testimonial01",
-          "main-testimonial02"
+          "main-testimonial02",
+          "main-testimonial03"
         ],
         "settings": {
-          "preset": "style_6",
-          "preset_section_title": "style_9",
-          "title": "Testimonials",
-          "enable_parallax": true,
-          "background": "shopify:\/\/shop_images\/m14-b-4.jpg",
-          "padding_top": 70,
-          "padding_bottom": 70
-        }
-      },
-      "home-team-member": {
-        "type": "about_us_team_member",
-        "blocks": {
-            "m11-member-01": {
-              "type": "team_member",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/m14-u-1.jpg",
-                "name": "Jose Lamb",
-                "postion": "CEO - Founder",
-                "fb": "#",
-                "tw": "#",
-                "pin": "#",
-                "gp": "#"
-              }
-            },
-            "m11-member-02": {
-              "type": "team_member",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/m14-u-2.jpg",
-                "name": "Dale Ballard",
-                "postion": "CEO Manager",
-                "fb": "#",
-                "tw": "#",
-                "pin": "#",
-                "gp": "#"
-              }
-            },
-            "m11-member-03": {
-              "type": "team_member",
-              "settings": {
-                "image": "shopify:\/\/shop_images\/m14-u-3.jpg",
-                "name": "Nora Patton",
-                "postion": "Marketing Manager",
-                "fb": "#",
-                "tw": "#",
-                "pin": "#",
-                "gp": "#"
-              }
-            },
-          "m11-member-04": {
-            "type": "team_member",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/m14-u-4.jpg",
-              "name": "Amy Moran",
-              "postion": "Louisa Salazar",
-              "fb": "#",
-              "tw": "#",
-              "pin": "#",
-              "gp": "#"
-            }
-          }
-        },
-        "block_order": [
-          "m11-member-01",
-          "m11-member-02",
-          "m11-member-03",
-          "m11-member-04"
-        ],
-        "settings": {
-          "preset": "bakery",
-          "title": "Our Chefs"
-        }
-      },
-      "home-bakery-newsletter": {
-        "type": "bakery_subscribe",
-        "settings": {
-          "left_background": "shopify:\/\/shop_images\/m14-b-5.jpg",
-          "left_title": "Opening Time",
-          "left_text": "<p>Tue-Fri 7:30 am – 6:00 pm</p><p>Saturday 7:30 am – 5:00 pm</p><p>Sunday 7:00 am – 1:30 pm</p><p>Closed Mondays</p>",
-          "left_phone": "+56.653.534",
-          "left_email": "INFO@DOMAIN.COM",
-          "right_background": "shopify:\/\/shop_images\/m14-b-6.jpg",
-          "right_title": "Sign up for newsletter",
-          "right_sub_title": "get 10% offers / weeks"
+          "preset": "style_7",
+          "enable_parallax": false,
+          "background": "shopify:\/\/shop_images\/m15-bg-1.jpg",
+          "sides_show": 3,
+          "padding_top": 100,
+          "padding_bottom": 100
         }
       },
       "blog-list": {
         "type": "home_article_list",
         "settings": {
-          "preset_section_title": "style_10",
-          "title": "The Blog",
-          "preset": "style_4",
-          "blog": "bakery",
+          "preset_section_title": "style_11",
+          "title": "#The Blog",
+          "preset": "style_5",
+          "blog": "furniture",
           "blog_article_limit": "3",
-          "number_columns_blog_show": "3"
-        }
-      },
-      "home_brands": {
-        "type": "home_brands",
-        "blocks": {
-          "001": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/m14-pn-1.png",
-              "link": ""
-            }
-          },
-          "002": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/m14-pn-2.png",
-              "link": ""
-            }
-          },
-          "003": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/m14-pn-3.png",
-              "link": ""
-            }
-          },
-          "004": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/m14-pn-4.png",
-              "link": ""
-            }
-          },
-          "005": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/m14-pn-5.png",
-              "link": ""
-            }
-          },
-          "006": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/m14-pn-6.png",
-              "link": ""
-            }
-          },
-          "007": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/m14-pn-7.png",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "001",
-          "002",
-          "003",
-          "004",
-          "005",
-          "006",
-          "007"
-        ],
-        "settings": {
-          "columns": "7",
-          "width_layout": "max-1920",
+          "number_columns_blog_show": "3",
           "enable_style": true,
-          "style_top": 40,
-          "style_bottom": 0
+          "style_top": 60,
+          "style_bottom": 60
         }
       }
     },
     "content_for_index": [
       "home-slideshow",
-      "main-aboutus-box",
-      "home-bakery-menu",
-      "main-counter-box",
+      "home-banner-image",
+      "home-products-tab",
+      "home-special-offers",
+      "newsletter-box",
       "main-testimonial",
       "home-team-member",
       "home-bakery-newsletter",
-      "blog-list",
-      "home_brands"
+      "blog-list"
     ]
   },
   "presets": {

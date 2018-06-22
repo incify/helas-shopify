@@ -1006,7 +1006,7 @@
           "preset_section_title": "style_1",
           "title": "",
           "sub_title": "",
-          "preset": "style_2",
+          "preset": "style_7",
           "background": "",
           "enable_parallax": false,
           "gradient_bg": true,
@@ -1080,6 +1080,7 @@
           "007"
         ],
         "settings": {
+          "width_layout": "max-1500",
           "preset": "style_2",
           "columns": "6"
         }

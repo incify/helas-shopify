@@ -8,7 +8,7 @@
         {% endif %}
       <div class="container">
         <div class="row">
-          <div class="{% if section.settings.preset == 'style_2' %}col-sm-10 col-md-7{% else %}col-sm-10 col-lg-offset-2 col-lg-8 col-sm-offset-1{% endif %}">
+          <div class="{% if section.settings.preset == 'style_2' %}col-sm-10 col-md-7 {% elsif section.settings.preset == 'style_7' %}col-sm-12{% else %}col-sm-10 col-lg-offset-2 col-lg-8 col-sm-offset-1{% endif %}">
             <div class="slick-carousel testimonial-content hidden-dots" data-slick='{"slidesToShow":{{ section.settings.sides_show }},"slidesToScroll":{{ section.settings.sides_show }},"dots":true,"autoplaySpeed":5000,"speed":300,"infinite":false,"arrows":false,"swipe":true,"draggable":true,"touchMove":true,"pauseOnHover":false,"responsive":[{"breakpoint":1824,"settings":{"slidesToShow":{{ section.settings.sides_show }},"slidesToScroll":{{ section.settings.sides_show }}}},{"breakpoint":1200,"settings":{"slidesToShow":{{ section.settings.sides_show }},"slidesToScroll":{{ section.settings.sides_show }}}},{"breakpoint":992,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":768,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"pauseOnDotsHover":true}'>
                   {% for block in section.blocks limit: section.blocks.size %}
                   <div class="testimonial_item--inner item-inner">
@@ -178,6 +178,10 @@ body div[data-section-id="{{ section.id }}"] .incify-testimonial .incify-testimo
         {
           "value": "style_6",
           "label": "Style 6"
+        },
+        {
+          "value": "style_7",
+          "label": "Style 7"
         }
       ],
       "default": "style_1"

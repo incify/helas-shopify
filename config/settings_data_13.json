@@ -1001,7 +1001,7 @@
           "testimonial03"
         ],
         "settings": {
-          "preset": "style_4",
+          "preset": "style_7",
           "background": "",
           "enable_parallax": false,
           "gradient_bg": true,
@@ -1075,6 +1075,7 @@
           "007"
         ],
         "settings": {
+          "width_layout": "max-1500",
           "preset": "style_2",
           "columns": "6"
         }
