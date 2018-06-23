@@ -31,8 +31,10 @@
       {% include 'footer_style_3' %}
       {% when 'style4' %}
       {% include 'footer_style_4' %}
-      {% else %}
+      {% when 'style5' %}
       {% include 'footer_style_5' %}
+      {% else %}
+      {% include 'footer_style_6' %}
       {% endcase %}
     </div>
 
@@ -89,6 +91,10 @@
         {
           "value": "style5",
           "label": "Footer Style 5"
+        },
+        {
+          "value": "style6",
+          "label": "Footer Style 6"
         },
         {
           "value": "no",

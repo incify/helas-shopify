@@ -11964,6 +11964,69 @@ button {
 .font-size-90 {
   font-size: 90px !important; }
 
+.line-height-10 {
+  line-height: 10px !important; }
+
+.line-height-11 {
+  line-height: 11px !important; }
+
+.line-height-12 {
+  line-height: 12px !important; }
+
+.line-height-13 {
+  line-height: 13px !important; }
+
+.line-height-14 {
+  line-height: 14px !important; }
+
+.line-height-15 {
+  line-height: 15px !important; }
+
+.line-height-16 {
+  line-height: 16px !important; }
+
+.line-height-17 {
+  line-height: 17px !important; }
+
+.line-height-18 {
+  line-height: 18px !important; }
+
+.line-height-19 {
+  line-height: 19px !important; }
+
+.line-height-20 {
+  line-height: 20px !important; }
+
+.line-height-24 {
+  line-height: 24px !important; }
+
+.line-height-28 {
+  line-height: 28px !important; }
+
+.line-height-30 {
+  line-height: 30px !important; }
+
+.line-height-36 {
+  line-height: 36px !important; }
+
+.line-height-40 {
+  line-height: 40px !important; }
+
+.line-height-50 {
+  line-height: 50px !important; }
+
+.line-height-60 {
+  line-height: 60px !important; }
+
+.line-height-70 {
+  line-height: 70px !important; }
+
+.line-height-80 {
+  line-height: 80px !important; }
+
+.line-height-90 {
+  line-height: 90px !important; }
+
 .font-weight-200 {
   font-weight: 200 !important; }
 
@@ -11981,6 +12044,15 @@ button {
 
 .font-weight-700 {
   font-weight: 700 !important; }
+
+.font-style-italic {
+  font-style: italic !important; }
+
+.with-percent-after:after {
+  content: "%";
+  font-size: 40%;
+  display: inline-block;
+  line-height: 1; }
 
 .slick-carousel {
   margin-left: -15px;
@@ -18000,6 +18072,32 @@ div.sort-by .bootstrap-select .selectize-dropdown {
   margin-bottom: 0 !important;
   padding-bottom: 10px !important; }
 
+.style_12 .section-title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  font-weight: 400;
+  text-transform: uppercase; }
+  .style_12 .section-title:after {
+    display: none; }
+  .style_12 .section-title span {
+    font-size: 36px;
+    padding: 0 20px;
+    position: relative;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase; }
+
+.style_12 .section-sub-title {
+  text-align: center;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
 @media (max-width: 767px) {
   .section-title {
     margin-bottom: 15px;
@@ -18086,6 +18184,14 @@ div.sort-by .bootstrap-select .selectize-dropdown {
     bottom: -1px;
     left: -1px;
     right: -1px; }
+
+.style-main-16 .tab-product-collection .category-list .tab-selector ul li {
+  border: none;
+  padding: 0px 15px; }
+
+.style-main-16 .tab-product-collection .category-list .tab-selector ul li a {
+  font-size: 30px;
+  letter-spacing: 2px; }
 
 .section-products-tab .main-tab-products {
   margin-top: 30px; }
@@ -20383,6 +20489,70 @@ div.sort-by .bootstrap-select .selectize-dropdown {
             margin: 0;
             border: 1px solid rgba(51, 51, 51, 0.1); }
           #shopify-section-footer .footer-wrapper.footer-style5 .footer-container .footer--newsletter-box .footer_newsletter_subscribe .input-group .btn-button {
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 9px 20px;
+            background-color: transparent;
+            font-weight: 700;
+            letter-spacing: 0;
+            color: #343538;
+            font-size: 12px; }
+
+#shopify-section-footer .footer-wrapper.footer-style6 {
+  padding-top: 0;
+  padding-bottom: 0px; }
+  #shopify-section-footer .footer-wrapper.footer-style6 .footer-container {
+    text-align: center; }
+    #shopify-section-footer .footer-wrapper.footer-style6 .footer-container .container {
+      max-width: 1170px;
+      border-top: #dedede solid 1px;
+      padding-top: 45px; }
+    #shopify-section-footer .footer-wrapper.footer-style6 .footer-container .footer_middle_logo {
+      margin-bottom: 15px; }
+    #shopify-section-footer .footer-wrapper.footer-style6 .footer-container .content-text {
+      margin-top: 0;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 15px;
+      font-style: italic; }
+    #shopify-section-footer .footer-wrapper.footer-style6 .footer-container .copyright-text {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 20px 0; }
+    #shopify-section-footer .footer-wrapper.footer-style6 .footer-container .footer-area-socials {
+      margin-bottom: 30px; }
+      #shopify-section-footer .footer-wrapper.footer-style6 .footer-container .footer-area-socials .social-media-link a {
+        margin-right: 30px;
+        font-size: 85%; }
+    #shopify-section-footer .footer-wrapper.footer-style6 .footer-container .footer-menu {
+      text-align: center; }
+      #shopify-section-footer .footer-wrapper.footer-style6 .footer-container .footer-menu li {
+        display: inline-block;
+        font-size: 16px;
+        margin: 5px 25px; }
+    #shopify-section-footer .footer-wrapper.footer-style6 .footer-container .footer--newsletter-box {
+      text-align: center; }
+      #shopify-section-footer .footer-wrapper.footer-style6 .footer-container .footer--newsletter-box .footer_newsletter_subscribe {
+        max-width: 560px;
+        margin: 0 auto; }
+        #shopify-section-footer .footer-wrapper.footer-style6 .footer-container .footer--newsletter-box .footer_newsletter_subscribe .input-group {
+          position: relative;
+          display: block; }
+          #shopify-section-footer .footer-wrapper.footer-style6 .footer-container .footer--newsletter-box .footer_newsletter_subscribe .input-group input {
+            background: transparent;
+            outline: 0 !important;
+            width: 100%;
+            font-size: 12px;
+            line-height: 24px;
+            padding: 10px 100px 10px 20px;
+            margin: 0;
+            border: 1px solid rgba(51, 51, 51, 0.1); }
+          #shopify-section-footer .footer-wrapper.footer-style6 .footer-container .footer--newsletter-box .footer_newsletter_subscribe .input-group .btn-button {
             position: absolute;
             right: 0;
             top: 0;

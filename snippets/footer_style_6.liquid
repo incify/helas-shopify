@@ -1,0 +1,64 @@
+<div class="footer-inner">
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="footer-column footer-col-1">
+                {% if section.settings.logo_use_image %}
+                <a class="footer_middle_logo light" href="/">
+                    <img src="{{ footer_logo }}" alt=""/>
+                </a>
+                <a class="footer_middle_logo dark" href="/">
+                    <img src="{{ footer_logo_white }}" alt=""/>
+                </a>
+                {% endif %}
+                {% if section.settings.footer_text != '' %}
+                <div class="content-text">
+                    {{ section.settings.footer_text }}
+                </div>
+                {% endif %}
+                {% if section.settings.footer_social_share != blank %}
+                <div class="footer-area-socials">
+                    <div class="social-media-link">
+                        {{ section.settings.footer_social_share }}
+                    </div>
+                </div>
+                {% endif %}
+                {% if section.settings.footer_5_enable_newsletter == true %}
+                <div class="footer--newsletter-box">
+                  {% include 'footer_newsletter_subscribe' %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <div class="footer-column footer-col-2">
+                {% assign list = linklists[section.settings.footer_linklist_type2] %}
+                <ul class="footer-menu">
+                    {% for link in list.links %}
+                    <li>
+                        <a href="{{ link.url }}">
+                            {% if settings.language_enable %}
+                            <span class="lang1">{{ link.title | split: '|' | first }}</span>
+                            <span class="lang2">{{ link.title | split: '|' | last }}</span>
+                            {% else %}
+                            {{ link.title | split: '|' | first }}
+                            {% endif %}
+                        </a>
+                    </li>
+                    {% endfor %}
+            </div>
+        </div>
+        {% if section.settings.footer_social_share != '' %}
+        <div class="col-sm-12">
+            <div class="footer-column footer-col-3">
+                {% if section.settings.footer_bottom_copyright != '' %}
+                <div class="copyright-text">
+                    {{ section.settings.footer_bottom_copyright }}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+  </div>
+</div>

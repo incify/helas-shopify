@@ -2,6 +2,7 @@
 assets/color-config.scss.liquid:
   demo_14: 2018-06-19T03:34:28-04:00   0706587734a0c72be5621ffe2164620a
   demo_15: 2018-06-22T02:54:43-04:00   11e314f9370ff6710dc9ff4a7ad7a867
+  demo_16: 2018-06-23T01:08:40-04:00   955586321a1c7890970f5cfa410eb19b
 assets/m14-corner-1.png:
   demo_14: 2018-06-17T23:24:01-04:00   3d38126bdbdef999d3f895bea5e798e0
 assets/m14-corner-2.png:
@@ -13,11 +14,14 @@ assets/m14-corner-4.png:
 assets/main.css:
   demo_14: 2018-06-19T03:56:20-04:00   2380f2a3220910ebb123dacf82708a3f
   demo_15: 2018-06-22T04:01:18-04:00   654d91b541e5bc4c6111070d4453d36b
+  demo_16: 2018-06-23T01:08:01-04:00   0ab876bd392498dedbedf7b2b226beb1
 assets/style_home.css:
   demo_15: 2018-06-21T03:33:32-04:00   d2562e03da2608566e9a84342641ca99
+  demo_16: 2018-06-22T22:33:00-04:00   00d64f1e41bb4782a5a8605caa56d4cc
 config/settings_data.json:
   demo_14: 2018-06-19T03:57:26-04:00   d0979b956a87694752d936bee579c2f9
   demo_15: 2018-06-22T03:39:17-04:00   9a52b529b8cc47a9998cbe04896682b4
+  demo_16: 2018-06-23T01:13:27-04:00   bb0101991689041a2bf98adf1ecce1b5
 config/settings_data_1.json:
   demo_15: 2018-06-22T03:06:07-04:00   e8bdac6fc07555daeadbf41faf73d1a2
 config/settings_data_2.json:
@@ -55,6 +59,8 @@ sections/bakery_menu.liquid:
   demo_14: 2018-06-17T23:27:16-04:00   65667383daf979880eaa964963f17f0b
 sections/bakery_subscribe.liquid:
   demo_14: 2018-06-19T03:20:19-04:00   5de439a0f45dc77fd478555b5c2361c0
+sections/footer.liquid:
+  demo_16: 2018-06-22T22:03:56-04:00   594c041760d33b206875d18603e23d4e
 sections/home_aboutus_box.liquid:
   demo_14: 2018-06-15T03:09:48-04:00   63590d1b2ad34ad1d6a70fe741c3cf99
 sections/home_article_list.liquid:
@@ -62,6 +68,8 @@ sections/home_article_list.liquid:
   demo_15: 2018-06-22T03:20:13-04:00   01dd6af07f8be0a4d1d27251c4c49a69
 sections/home_banner_image.liquid:
   demo_15: 2018-06-21T04:41:09-04:00   6138432ef7efec4a640a426543efb74b
+sections/home_banner_image_2.liquid:
+  demo_16: 2018-06-23T01:12:23-04:00   845429586cf25fd9db456b72c02412df
 sections/home_brands.liquid:
   demo_14: 2018-06-19T03:54:31-04:00   3ffeae3d348dc84b15766837dc2b56e3
   demo_15: 2018-06-22T03:00:57-04:00   3ffeae3d348dc84b15766837dc2b56e3
@@ -69,11 +77,16 @@ sections/home_special_offers.liquid:
   demo_15: 2018-06-22T01:33:57-04:00   46bc7f3dc1874e967fab552c6f04093a
 sections/home_tab_collection.liquid:
   demo_15: 2018-06-21T04:53:10-04:00   4e5fe3de65e222d99374cb4915fbc0d9
+  demo_16: 2018-06-22T22:58:21-04:00   96dd41bcf0a90310a15c448ce7521eb8
 sections/home_testimonials.liquid:
   demo_14: 2018-06-19T00:12:04-04:00   3f4eba80a0e342cbf4d4c71203ef73ca
   demo_15: 2018-06-22T02:46:07-04:00   29ad36be1b01a9057848815a6ad5ad37
 sections/service_counter_box.liquid:
   demo_14: 2018-06-18T23:51:13-04:00   324fa912620e3bec3baf741dee0e9e67
+sections/slideshow.liquid:
+  demo_16: 2018-06-22T22:16:54-04:00   a5a166b383b950aac1385aebb481faf1
+snippets/footer_style_6.liquid:
+  demo_16: 2018-06-22T22:03:10-04:00   4007ca37b0843ca09c73bbde89169c58
 snippets/home_article_item_4.liquid:
   demo_14: 2018-06-19T03:36:44-04:00   cb103eb0eaeba65c49a5e86a0788879c
 snippets/home_article_item_5.liquid:

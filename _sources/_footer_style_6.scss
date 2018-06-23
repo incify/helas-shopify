@@ -1,0 +1,85 @@
+//footer style 5
+#shopify-section-footer {
+  .footer-wrapper.footer-style6 {
+    padding-top: 0;
+    padding-bottom: 0px;
+    .footer-container {
+      text-align: center;
+      .container {
+        max-width: 1170px;
+        border-top: #dedede solid 1px;
+        padding-top: 45px;
+      }
+      .footer_middle_logo {
+        margin-bottom: 15px;
+
+      }
+      .content-text{
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 15px;
+        font-style: italic;
+      }
+      .copyright-text {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 10px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 20px 0;
+      }
+      .footer-area-socials{
+        margin-bottom: 30px;
+        .social-media-link{
+          a{
+            margin-right: 30px;
+            font-size: 85%;
+          }
+        }
+      }
+      .footer-menu {
+        text-align: center;
+        li {
+          display: inline-block;
+          font-size: 16px;
+          margin: 5px 25px;
+        }
+      }
+      .footer--newsletter-box {
+        text-align: center;
+        .footer_newsletter_subscribe {
+          max-width: 560px;
+          margin: 0 auto;
+          .input-group{
+            position: relative;
+            display: block;
+            input{
+              background: transparent;
+              outline: 0 !important;
+              width: 100%;
+              font-size: 12px;
+              line-height: 24px;
+              padding: 10px 100px 10px 20px;
+              margin: 0;
+              border: 1px solid rgba(51,51,51,.1);
+            }
+            .btn-button{
+              position: absolute;
+              right: 0;
+              top: 0;
+              padding: 9px 20px;
+              background-color: transparent;
+              font-weight: 700;
+              letter-spacing: 0;
+              color: #343538;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//end footer style 5

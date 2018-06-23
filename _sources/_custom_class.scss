@@ -16,6 +16,15 @@ $font-size-values : (10,11,12,13,14,15,16,17,18,19,20,24,28,30,36,40,50,60,70,80
   }
 }
 @include make-font-size($font-size-values);
+$line-height-values : (10,11,12,13,14,15,16,17,18,19,20,24,28,30,36,40,50,60,70,80,90)!default;
+@mixin make-line-height($values) {
+  @each $value in $values {
+    .line-height-#{$value} {
+      line-height: #{$value}px !important;
+    }
+  }
+}
+@include make-line-height($line-height-values);
 .font-weight-200 {
   font-weight: 200 !important;
 }
@@ -33,4 +42,13 @@ $font-size-values : (10,11,12,13,14,15,16,17,18,19,20,24,28,30,36,40,50,60,70,80
 }
 .font-weight-700 {
   font-weight: 700 !important;
+}
+.font-style-italic {
+  font-style: italic !important;
+}
+.with-percent-after:after {
+    content: "%";
+    font-size: 40%;
+    display: inline-block;
+    line-height: 1;
 }

@@ -396,6 +396,40 @@
     }
   }
 }
+.style_12 {
+  .section-title {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    &:after {
+      display: none;
+    }
+
+    span {
+      font-size: 36px;
+      padding: 0 20px;
+      position: relative;
+      letter-spacing: 2px;
+      line-height: 1.2;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
+
+  .section-sub-title {
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
 @media (max-width: 767px) {
   .section-title {
     margin-bottom: 15px;

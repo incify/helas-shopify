@@ -186,83 +186,84 @@
 </span>
 {% schema %}
   {
-    "name": "Tab Collection",
-    "settings": [
-    {
-    "type": "header",
-    "content": "Main Tab Collection"
+  "name": "Tab Collection",
+  "settings": [{
+      "type": "header",
+      "content": "Main Tab Collection"
     },
     {
-    "type": "select",
-    "id": "preset",
-    "label": "Style",
-    "options": [
-    {
-    "value": "default",
-    "label": "Default "
+      "type": "select",
+      "id": "preset",
+      "label": "Style",
+      "options": [{
+          "value": "default",
+          "label": "Default "
+        },
+        {
+          "value": "sport",
+          "label": "Main Sport"
+        },
+        {
+          "value": "furniture",
+          "label": "Main Furniture"
+        },
+        {
+          "value": "main-16",
+          "label": "Main 16"
+        }
+      ],
+      "default": "default"
     },
     {
-    "value": "sport",
-    "label": "Main Sport"
-  },
-  {
-  "value": "furniture",
-  "label": "Main Furniture"
-  }
-    ],
-    "default": "default"
-    },
-    {
-    "type": "select",
-    "id": "preset_section_title",
-    "label": "Preset Section Title",
-    "options": [
-    {
-    "value": "style_1",
-    "label": "Style 1"
-    },
-    {
-    "value": "style_2",
-    "label": "Style 2"
-    },
-    {
-    "value": "style_3",
-    "label": "Style 3"
-    },
-    {
-    "value": "style_4",
-    "label": "Style 4"
-    },
-    {
-    "value": "style_5",
-    "label": "Style 5"
-    },
-    {
-    "value": "style_6",
-    "label": "Style 6"
-    },
-    {
-    "value": "style_7",
-    "label": "Style 7"
-    },
-    {
-    "value": "style_8",
-    "label": "Style 8"
-    },
-    {
-    "value": "style_9",
-    "label": "Style 9"
-  },
-  {
-  "value": "style_10",
-  "label": "Style 10"
-},
-{
-"value": "style_11",
-"label": "Style 11"
-}
-    ],
-    "default": "style_1"
+      "type": "select",
+      "id": "preset_section_title",
+      "label": "Preset Section Title",
+      "options": [{
+          "value": "style_1",
+          "label": "Style 1"
+        },
+        {
+          "value": "style_2",
+          "label": "Style 2"
+        },
+        {
+          "value": "style_3",
+          "label": "Style 3"
+        },
+        {
+          "value": "style_4",
+          "label": "Style 4"
+        },
+        {
+          "value": "style_5",
+          "label": "Style 5"
+        },
+        {
+          "value": "style_6",
+          "label": "Style 6"
+        },
+        {
+          "value": "style_7",
+          "label": "Style 7"
+        },
+        {
+          "value": "style_8",
+          "label": "Style 8"
+        },
+        {
+          "value": "style_9",
+          "label": "Style 9"
+        },
+        {
+          "value": "style_10",
+          "label": "Style 10"
+        },
+        {
+          "value": "style_11",
+          "label": "Style 11"
+        }
+      ],
+      "default": "style_1"
     },
     {
       "type": "color",
@@ -270,179 +271,176 @@
       "label": "Backgound Color"
     },
     {
-    "type": "select",
-    "id": "width_layout",
-    "label": "Display Full Width / Boxed",
-    "options": [
-    {
-    "value": "full",
-    "label": "Full Width"
-    },
-    {
-    "value": "boxed",
-    "label": "Boxed"
-    }
-    ],
-    "default": "full"
-    },
-    {
-    "type": "text",
-    "id": "title",
-    "label": "Tab Collection Title"
-    },
-    {
-    "type": "text",
-    "id": "sub_title",
-    "label": "Tab Collection Sub Title"
-    },
-    {
-    "type": "text",
-    "id": "tab_collection_view_all_product",
-    "label": "Text View All Product"
-    },
-    {
-    "type": "url",
-    "id": "tab_collection_link_all_product",
-    "label": "Custom Link"
-    },
-      {
-        "type": "text",
-        "id": "tab_collection_limit",
-        "label": "Number of products to show",
-        "default": "12"
-      },
-      {
-        "type": "text",
-        "id": "tab_collection_column",
-        "label": "Products per row",
-        "default": "4"
-      },
-      {
-        "type": "header",
-        "content": "Tab Collection 1"
-      },
-      {
-        "type": "text",
-        "id": "tab_collection_title_1",
-        "label": "Collection title"
-      },
-      {
-        "type": "collection",
-        "id": "tab_collection_1",
-        "label": "Collection use:"
-      },
-      {
-        "type": "header",
-        "content": "Tab Collection 2"
-      },
-      {
-        "type": "text",
-        "id": "tab_collection_title_2",
-        "label": "Collection title"
-      },
-      {
-        "type": "collection",
-        "id": "tab_collection_2",
-        "label": "Collection use:"
-      },
-        {
-        "type": "header",
-        "content": "Tab Collection 3"
+      "type": "select",
+      "id": "width_layout",
+      "label": "Display Full Width / Boxed",
+      "options": [{
+          "value": "full",
+          "label": "Full Width"
         },
         {
-        "type": "text",
-        "id": "tab_collection_title_3",
-        "label": "Collection title"
-        },
-        {
-        "type": "collection",
-        "id": "tab_collection_3",
-        "label": "Collection use:"
-        },
-        {
-        "type": "header",
-        "content": "Tab Collection 4"
-        },
-        {
-        "type": "text",
-        "id": "tab_collection_title_4",
-        "label": "Collection title"
-        },
-        {
-        "type": "collection",
-        "id": "tab_collection_4",
-        "label": "Collection use:"
-        },
-        {
-        "type": "header",
-        "content": "Tab Collection 5"
-        },
-        {
-        "type": "text",
-        "id": "tab_collection_title_5",
-        "label": "Collection title"
-        },
-        {
-        "type": "collection",
-        "id": "tab_collection_5",
-        "label": "Collection use:"
-        },
-        {
-          "type": "header",
-          "content": "Styles Settings"
-        },
-        {
-         "type": "checkbox",
-         "id": "enable_style",
-         "default": false,
-         "label": "Enable Style Settings"
-        },
-        {
-            "type":      "range",
-            "id":        "style_top",
-            "min":       0,
-            "max":        500,
-            "step":       5,
-            "unit":       "px",
-            "label":     "Space Top",
-            "default":   0
-        },
-        {
-            "type":      "range",
-            "id":        "style_bottom",
-            "min":       0,
-            "max":        500,
-            "step":       5,
-            "unit":       "px",
-            "label":     "Space Bottom",
-            "default":   0
-        },
-        {
-            "type":      "range",
-            "id":        "style_left",
-            "min":       0,
-            "max":        500,
-            "step":       5,
-            "unit":       "px",
-            "label":     "Space Left",
-            "default":   0
-        },
-        {
-            "type":      "range",
-            "id":        "style_right",
-            "min":       0,
-            "max":        500,
-            "step":       5,
-            "unit":       "px",
-            "label":     "Space Right",
-            "default":   0
+          "value": "boxed",
+          "label": "Boxed"
         }
-	],
-	"presets": [
-      {
-      "name": "Tab Collection",
-      "category": "Collection"
-      }
-    ]
-  }
+      ],
+      "default": "full"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Tab Collection Title"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Tab Collection Sub Title"
+    },
+    {
+      "type": "text",
+      "id": "tab_collection_view_all_product",
+      "label": "Text View All Product"
+    },
+    {
+      "type": "url",
+      "id": "tab_collection_link_all_product",
+      "label": "Custom Link"
+    },
+    {
+      "type": "text",
+      "id": "tab_collection_limit",
+      "label": "Number of products to show",
+      "default": "12"
+    },
+    {
+      "type": "text",
+      "id": "tab_collection_column",
+      "label": "Products per row",
+      "default": "4"
+    },
+    {
+      "type": "header",
+      "content": "Tab Collection 1"
+    },
+    {
+      "type": "text",
+      "id": "tab_collection_title_1",
+      "label": "Collection title"
+    },
+    {
+      "type": "collection",
+      "id": "tab_collection_1",
+      "label": "Collection use:"
+    },
+    {
+      "type": "header",
+      "content": "Tab Collection 2"
+    },
+    {
+      "type": "text",
+      "id": "tab_collection_title_2",
+      "label": "Collection title"
+    },
+    {
+      "type": "collection",
+      "id": "tab_collection_2",
+      "label": "Collection use:"
+    },
+    {
+      "type": "header",
+      "content": "Tab Collection 3"
+    },
+    {
+      "type": "text",
+      "id": "tab_collection_title_3",
+      "label": "Collection title"
+    },
+    {
+      "type": "collection",
+      "id": "tab_collection_3",
+      "label": "Collection use:"
+    },
+    {
+      "type": "header",
+      "content": "Tab Collection 4"
+    },
+    {
+      "type": "text",
+      "id": "tab_collection_title_4",
+      "label": "Collection title"
+    },
+    {
+      "type": "collection",
+      "id": "tab_collection_4",
+      "label": "Collection use:"
+    },
+    {
+      "type": "header",
+      "content": "Tab Collection 5"
+    },
+    {
+      "type": "text",
+      "id": "tab_collection_title_5",
+      "label": "Collection title"
+    },
+    {
+      "type": "collection",
+      "id": "tab_collection_5",
+      "label": "Collection use:"
+    },
+    {
+      "type": "header",
+      "content": "Styles Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_style",
+      "default": false,
+      "label": "Enable Style Settings"
+    },
+    {
+      "type": "range",
+      "id": "style_top",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "style_bottom",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "style_left",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Left",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "style_right",
+      "min": 0,
+      "max": 500,
+      "step": 5,
+      "unit": "px",
+      "label": "Space Right",
+      "default": 0
+    }
+  ],
+  "presets": [{
+    "name": "Tab Collection",
+    "category": "Collection"
+  }]
+}
 {% endschema %}

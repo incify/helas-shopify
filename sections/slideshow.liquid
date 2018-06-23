@@ -1,58 +1,60 @@
 <div data-section-id="{{ section.id }}" data-section-type="slideshow-section"{% if section.settings.row_gap == 'yes' %} class="EL_row_padding_65"{% endif %}>
   {% if section.blocks.size > 0 %}
   <div class="slideshow-section {% if section.settings.slide_fullscreen == '1' %}full-screen-slider{% endif %}">
-    <div class="data-slideshow"
-         data-auto="{{ section.settings.auto_speed }}"
-         data-paging="{{ section.settings.slide_pagination }}"
-         data-nav="{{ section.settings.slide_navigation }}"
-         data-transition="{{ section.settings.slide_transition }}"
-         data-prev='{{ section.settings.slide_nav_prev }}'
-         data-next='{{ section.settings.slide_nav_next }}' style="display: none;"></div>
-    <div class="slideshow owl-carousel">
-      {% for block in section.blocks %}
-      <div class="item item-mousemove-translate" style="background: url({{ block.settings.background_image | img_url: 'master' }}) center center no-repeat;background-size: cover; height: {{  section.settings.slider_height }}vh;">
-        <div class="container" style="position:relative; height: 100%">
-          {% if block.settings.image_postion == 'absolute' %}
-          <div class="slider-content-image img-{{ block.settings.class_content }}">
-            <img src="{{ block.settings.content_image_slider | img_url: 'master' }}">
-          </div>
-          {% endif %}
-          <div class="content content-slider {{ block.settings.class_content }}">
-            {% if block.settings.image_postion == 'static'  %}
-            <div class="slider-static-image static-img-{{ block.settings.class_content }}">
+    <div class="{% if section.settings.width_layout == 'boxed' %}container{% else %}container-fluid{% endif %}">
+      <div class="data-slideshow"
+           data-auto="{{ section.settings.auto_speed }}"
+           data-paging="{{ section.settings.slide_pagination }}"
+           data-nav="{{ section.settings.slide_navigation }}"
+           data-transition="{{ section.settings.slide_transition }}"
+           data-prev='{{ section.settings.slide_nav_prev }}'
+           data-next='{{ section.settings.slide_nav_next }}' style="display: none;"></div>
+      <div class="slideshow owl-carousel">
+        {% for block in section.blocks %}
+        <div class="item item-mousemove-translate" style="background: url({{ block.settings.background_image | img_url: 'master' }}) center center no-repeat;background-size: cover; height: {{  section.settings.slider_height }}vh;">
+          <div class="container" style="position:relative; height: 100%">
+            {% if block.settings.image_postion == 'absolute' %}
+            <div class="slider-content-image img-{{ block.settings.class_content }}">
               <img src="{{ block.settings.content_image_slider | img_url: 'master' }}">
             </div>
             {% endif %}
-            <div class="content-area">
-              {% if settings.language_enable %}
-              <div class="lang1">{{ block.settings.content1 | split: '[lang2]' | first }}</div>
-              <div class="lang2">{{ block.settings.content1 | split: '[lang2]' | last }}</div>
-              {% else %}
-              {{ block.settings.content1 | split: '[lang2]' | first }}
+            <div class="content content-slider {{ block.settings.class_content }}">
+              {% if block.settings.image_postion == 'static'  %}
+              <div class="slider-static-image static-img-{{ block.settings.class_content }}">
+                <img src="{{ block.settings.content_image_slider | img_url: 'master' }}">
+              </div>
               {% endif %}
-              {% if settings.language_enable %}
-              <div class="lang1">{{ block.settings.content2 | split: '[lang2]' | first }}</div>
-              <div class="lang2">{{ block.settings.content2 | split: '[lang2]' | last }}</div>
-              {% else %}
-              {{ block.settings.content2 | split: '[lang2]' | first }}
-              {% endif %}
-              {% if settings.language_enable %}
-              <div class="lang1">{{ block.settings.content3 | split: '[lang2]' | first }}</div>
-              <div class="lang2">{{ block.settings.content3 | split: '[lang2]' | last }}</div>
-              {% else %}
-              {{ block.settings.content3 | split: '[lang2]' | first }}
-              {% endif %}
-              {% if settings.language_enable %}
-              <div class="lang1">{{ block.settings.button_content | split: '[lang2]' | first }}</div>
-              <div class="lang2">{{ block.settings.button_content | split: '[lang2]' | last }}</div>
-              {% else %}
-              {{ block.settings.button_content | split: '[lang2]' | first }}
-              {% endif %}
+              <div class="content-area">
+                {% if settings.language_enable %}
+                <div class="lang1">{{ block.settings.content1 | split: '[lang2]' | first }}</div>
+                <div class="lang2">{{ block.settings.content1 | split: '[lang2]' | last }}</div>
+                {% else %}
+                {{ block.settings.content1 | split: '[lang2]' | first }}
+                {% endif %}
+                {% if settings.language_enable %}
+                <div class="lang1">{{ block.settings.content2 | split: '[lang2]' | first }}</div>
+                <div class="lang2">{{ block.settings.content2 | split: '[lang2]' | last }}</div>
+                {% else %}
+                {{ block.settings.content2 | split: '[lang2]' | first }}
+                {% endif %}
+                {% if settings.language_enable %}
+                <div class="lang1">{{ block.settings.content3 | split: '[lang2]' | first }}</div>
+                <div class="lang2">{{ block.settings.content3 | split: '[lang2]' | last }}</div>
+                {% else %}
+                {{ block.settings.content3 | split: '[lang2]' | first }}
+                {% endif %}
+                {% if settings.language_enable %}
+                <div class="lang1">{{ block.settings.button_content | split: '[lang2]' | first }}</div>
+                <div class="lang2">{{ block.settings.button_content | split: '[lang2]' | last }}</div>
+                {% else %}
+                {{ block.settings.button_content | split: '[lang2]' | first }}
+                {% endif %}
+              </div>
             </div>
           </div>
         </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
   </div>
   {% endif %}
@@ -78,6 +80,22 @@
     }
     ],
       "default": "no"
+    },
+    {
+    "type": "select",
+    "id": "width_layout",
+    "label": "Display Full Width / Boxed",
+    "options": [
+    {
+    "value": "full",
+    "label": "Full Width"
+    },
+    {
+    "value": "boxed",
+    "label": "Boxed"
+    }
+    ],
+    "default": "full"
     },
     {
         "type":      "range",
