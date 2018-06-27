@@ -20,6 +20,16 @@
                       {% if block.settings.text_banner_3 != blank %}
                         <div class="banner--infor__text_3 {{ block.settings.text_class_3 }}">{{ block.settings.text_banner_3 }}</div>
                       {% endif %}
+                      {% when 'style_4' %}
+                        {% if block.settings.text_banner != blank %}
+                          <div class="banner--infor__text_1 {{ block.settings.text_class }}">{{ block.settings.text_banner }}</div>
+                        {% endif %}
+                        {% if block.settings.text_banner_2 != blank %}
+                          <div class="banner--infor__text_2 {{ block.settings.text_class_2 }}">{{ block.settings.text_banner_2 }}</div>
+                        {% endif %}
+                        {% if block.settings.text_banner_3 != blank %}
+                          <div class="banner--infor__text_3 {{ block.settings.text_class_3 }}">{{ block.settings.text_banner_3 }}</div>
+                        {% endif %}
                     {% else %}
                       {% if block.settings.text_banner != blank %}
                         <div class="banner--infor__text_1 {{ block.settings.text_class }}">{{ block.settings.text_banner }}</div>
@@ -158,6 +168,10 @@
     {
       "value": "style_3",
       "label": "Style 3"
+    },
+    {
+      "value": "style_4",
+      "label": "Style 4"
     }
     ],
     "default": "style_1"

@@ -145,6 +145,18 @@
       color: #fff;
     }
   }
+  &.layout-style_4 {
+    .cell {
+      width: 33.33333333%;
+
+      &:nth-child(2) {
+        width: 66.66666667%;
+      }
+    }
+    .banner--infor__text_1 {
+      color: #fff;
+    }
+  }
 }
 
 .small-space {

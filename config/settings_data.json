@@ -1745,6 +1745,52 @@
           "style_top": 60
         }
       },
+      "home-top-collections-2": {
+        "type": "home_banner_image_2",
+        "blocks": {
+          "m13-b-2-1": {
+            "type": "banner_item",
+            "settings": {
+              "image_banner": "shopify:\/\/shop_images\/m16-b-6.jpg",
+              "text_position": "center",
+              "text_banner": "",
+              "text_class": "font-size-20 letter-spacing-3 special-font",
+              "text_banner": "WOMEN",
+              "link_banner": "#",
+              "banner_button": "Shop Now"
+            }
+          },
+          "m13-b-2-2": {
+            "type": "column"
+          },
+          "m13-b-2-3": {
+            "type": "banner_item",
+            "settings": {
+              "image_banner": "shopify:\/\/shop_images\/m16-b-7.jpg",
+              "text_position": "center",
+              "text_class": "font-size-20 letter-spacing-3 special-font",
+              "text_banner": "ACCESSORIES",
+              "link_banner": "#",
+              "banner_button": "Shop Now"
+            }
+          }
+        },
+        "block_order": [
+          "m13-b-2-1",
+          "m13-b-2-2",
+          "m13-b-2-3"
+        ],
+        "settings": {
+          "banner_preset": "style_4",
+          "width_layout": "boxed",
+          "banner_space": "yes",
+          "grid": "2",
+          "grid_2": "2",
+          "show_content_when_hover": true,
+          "enable_style": true,
+          "style_top": 0
+        }
+      },
       "home-special-offers": {
         "type": "home_special_offers",
         "blocks": {
@@ -1844,12 +1890,11 @@
       "home-banner-image",
       "home-products-tab",
       "home-top-collections",
+      "home-top-collections-2",
       "home-special-offers",
       "newsletter-box",
       "main-testimonial",
-      "home-team-member",
-      "home-bakery-newsletter",
-      "blog-list"
+      "home-team-member"
     ]
   },
   "presets": {

@@ -115,7 +115,7 @@ demo_15:
   theme_id: "17732239407"
   store: helas-store.myshopify.com
   ignore_files:
-  - config/settings_data.json    
+  - config/settings_data.json
   - _sources/*.scss
 
 demo_16:

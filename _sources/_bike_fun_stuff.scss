@@ -4,24 +4,29 @@
     vertical-align: middle;
     padding-right: 30px;
   }
+
   .bike-fun-stuff__desc {
     display: table-cell;
     vertical-align: middle;
+
     .incify-counter--number {
       color: #fff;
       font-size: 36px;
       line-height: 50px;
     }
+
     .incify-counter--title {
       color: #fff;
     }
   }
+
   .box-icon {
     display: inline-block;
     vertical-align: middle;
     overflow: hidden;
     max-width: 100%;
     background: #fff;
+
     span {
       display: block;
       line-height: 50px;
@@ -31,6 +36,7 @@
       padding: 15px;
     }
   }
+
   .box-icon-style-circle {
     border-radius: 50%;
   }
