@@ -19530,12 +19530,12 @@ div.sort-by .bootstrap-select .selectize-dropdown {
   .section__special-offters .special-offters-box .right-content .btn-button {
     margin-top: 40px; }
 
-.section__special-offters.style_2 .left-content {
+.section__special-offters.layout-style_2 .left-content {
   padding-top: 120px; }
-  .section__special-offters.style_2 .left-content .special-discount-html span.onsale {
+  .section__special-offters.layout-style_2 .left-content .special-discount-html span.onsale {
     background-color: #dacb50 !important; }
 
-.section__special-offters.style_2 .right-content p {
+.section__special-offters.layout-style_2 .right-content p {
   font-size: 10px;
   font-weight: 700;
   line-height: 1;
@@ -19543,14 +19543,58 @@ div.sort-by .bootstrap-select .selectize-dropdown {
   text-transform: uppercase;
   letter-spacing: 2px; }
 
-.section__special-offters.style_2 .right-content h2 {
+.section__special-offters.layout-style_2 .right-content h2 {
   font-size: 24px;
   line-height: 1.5;
   font-weight: 400;
   text-align: center; }
 
-.section__special-offters.style_2 .right-content .shortcode-countdown .product-date > div {
+.section__special-offters.layout-style_2 .right-content .shortcode-countdown .product-date > div {
   border: none; }
+
+.section__special-offters.layout-style_3 .style_12 .section-title {
+  margin-bottom: 0; }
+
+.section__special-offters.layout-style_3 .right-content .offer-desc {
+  margin-top: 20px; }
+
+.section__special-offters.layout-style_3 .slick-slider .slick-arrow {
+  text-align: center;
+  border: 0;
+  padding: 0;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  z-index: 3;
+  font-size: 38px;
+  color: #858a9f;
+  font-weight: 400;
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%); }
+  .section__special-offters.layout-style_3 .slick-slider .slick-arrow:before {
+    display: none; }
+
+.section__special-offters.layout-style_3 .slick-slider .slick-arrow {
+  bottom: 10%;
+  top: auto;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transform: none;
+  right: 22%;
+  left: auto; }
+
+.section__special-offters.layout-style_3 .slick-arrow.slick-prev {
+  right: 25%; }
+
+.la-slick-nav .slick-arrow svg,
+.slick-slider .slick-arrow svg {
+  width: 100%;
+  height: 100%; }
 
 .section__helas-banner-image .helas-banner-image .helas-banner-image__content {
   padding-left: 50px; }

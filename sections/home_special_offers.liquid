@@ -1,9 +1,9 @@
-<div data-section-id="{{ section.id }}" class="section__special-offters {{ section.settings.preset }} lg-mt-85 md-mt-60 xs-mt-50">
+<div data-section-id="{{ section.id }}" class="section__special-offters layout-{{ section.settings.preset }} lg-mt-85 md-mt-60 xs-mt-50">
   {% include "block_title" %}
   <div class="special-offters-box">
     <div class="container">
       <div class="row">
-          <div class="slick-carousel" data-slick='{"slidesToShow":1, "slidesToScroll":1, "dots": false, "autoplaySpeed":5000, "speed":300,"infinite":false}'>
+          <div class="slick-carousel" data-slick='{"slidesToShow":1,"slidesToScroll":1,"dots":false,"autoplaySpeed":5000,"speed":300,"infinite":false,"arrows":true,"nextArrow":"<button type=\"button\" style=\"color:#333333;font-size:24px;width:24px;height:24px;line-height:24px;\" class=\"slick-next default\"><svg><use xlink:href=\"#dlicon-arrow-right1\"><\/use><\/svg><\/button>","prevArrow":"<button type=\"button\" style=\"color:#333333;font-size:24px;width:24px;height:24px;line-height:24px;\" class=\"slick-prev default\"><svg><use xlink:href=\"#dlicon-arrow-left1\"><\/use><\/svg><\/button>","swipe":true,"draggable":true,"touchMove":true,"pauseOnHover":false,"responsive":[{"breakpoint":1824,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":1200,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":992,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":768,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"pauseOnDotsHover":true}'>
             {% for block in section.blocks %}
             <div class="special-offters-item row">
               <div class="col-sm-6 left-content">
@@ -21,16 +21,32 @@
                 {% when 'style_1' %}
                 <h2>{{ block.settings.title }}</h2>
                 <p>{{ block.settings.sub_title }}</p>
-                {% else %}
-                <p>{{ block.settings.sub_title }}</p>
-                <h2>{{ block.settings.title }}</h2>
-                {% endcase %}
                 <div class="shortcode-countdown">
                     <div class="product-date clearfix" data-date="{{ block.settings.to_date }}"></div>
                 </div>
                 {%- if block.settings.button_url != blank -%}
-                  <a href="{{ block.settings.button_url }}" class="btn-button {% if section.settings.preset == 'style_1' %}black{% else %}white{% endif %} uppercase">{{ block.settings.button_text }}</a>
+                  <a href="{{ block.settings.button_url }}" class="btn-button black uppercase">{{ block.settings.button_text }}</a>
                 {%- endif -%}
+                {% when 'style_2' %}
+                <p>{{ block.settings.sub_title }}</p>
+                <h2>{{ block.settings.title }}</h2>
+                <div class="shortcode-countdown">
+                    <div class="product-date clearfix" data-date="{{ block.settings.to_date }}"></div>
+                </div>
+                {%- if block.settings.button_url != blank -%}
+                  <a href="{{ block.settings.button_url }}" class="btn-button white uppercase">{{ block.settings.button_text }}</a>
+                {%- endif -%}
+                {% else %}
+                <h2>{{ block.settings.title }}</h2>
+                <p>{{ block.settings.sub_title }}</p>
+                <div class="shortcode-countdown">
+                    <div class="product-date clearfix" data-date="{{ block.settings.to_date }}"></div>
+                </div>
+                <div class="offer-desc">{{ block.settings.desc }}</div>
+                {%- if block.settings.button_url != blank -%}
+                  <a href="{{ block.settings.button_url }}" class="btn-button bordered uppercase">{{ block.settings.button_text }}</a>
+                {%- endif -%}
+                {% endcase %}
               </div>
             </div>
             {% endfor %}
@@ -71,73 +87,93 @@ body div[data-section-id="{{ section.id }}"] .special-offters-box {
 {
   "name": "Special Offers",
   "settings": [
-  {
-  "type": "header",
-  "content": "Title Settings"
-  },
-  {
-  "type": "select",
-  "id": "preset_section_title",
-  "label": "Preset Section Title",
-  "options": [
-  {
-  "value": "style_1",
-  "label": "Style 1"
-  },
-  {
-  "value": "style_2",
-  "label": "Style 2"
-  },
-  {
-  "value": "style_3",
-  "label": "Style 3"
-  },
-  {
-  "value": "style_4",
-  "label": "Style 4"
-  },
-  {
-  "value": "style_5",
-  "label": "Style 5"
-  },
-  {
-  "value": "style_6",
-  "label": "Style 6"
-  },
-  {
-  "value": "style_7",
-  "label": "Style 7"
-  },
-  {
-  "value": "style_8",
-  "label": "Style 8"
-  }
-  ],
-  "default": "style_1"
-  },
-  {
-  "type": "text",
-  "id": "title",
-  "label": "Box title"
-  },
-  {
-  "type": "text",
-  "id": "sub_title",
-  "label": "Box Sub title"
-  },
-  {
+    {
+      "type": "header",
+      "content": "Title Settings"
+    },
+    {
+      "type": "select",
+      "id": "preset_section_title",
+      "label": "Preset Section Title",
+      "options": [
+        {
+          "value": "style_1",
+          "label": "Style 1"
+        },
+        {
+          "value": "style_2",
+          "label": "Style 2"
+        },
+        {
+          "value": "style_3",
+          "label": "Style 3"
+        },
+        {
+          "value": "style_4",
+          "label": "Style 4"
+        },
+        {
+          "value": "style_5",
+          "label": "Style 5"
+        },
+        {
+          "value": "style_6",
+          "label": "Style 6"
+        },
+        {
+          "value": "style_7",
+          "label": "Style 7"
+        },
+        {
+          "value": "style_8",
+          "label": "Style 8"
+        },
+        {
+          "value": "style_9",
+          "label": "Style 9"
+        },
+        {
+          "value": "style_10",
+          "label": "Style 10"
+        },
+        {
+          "value": "style_11",
+          "label": "Style 11"
+        },
+        {
+          "value": "style_12",
+          "label": "Style 12"
+        }
+      ],
+      "default": "style_1"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Box title"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Box Sub title"
+    },
+    {
       "type": "select",
       "id": "preset",
       "label": "Preset",
       "options": [
-      {
-        "value": "style_1",
-        "label": "Style 1"
-      },
-      {
-        "value": "style_2",
-        "label": "Style 2"
-      }
+        {
+          "value": "style_1",
+          "label": "Style 1"
+        },
+        {
+          "value": "style_2",
+          "label": "Style 2"
+        },
+        {
+          "value": "style_3",
+          "label": "Style 3"
+        }
       ],
       "default": "style_1"
     },
@@ -248,6 +284,11 @@ body div[data-section-id="{{ section.id }}"] .special-offters-box {
           "label": "Sub Title"
         },
         {
+          "type": "textarea",
+          "id": "desc",
+          "label": "Content"
+        },
+        {
           "type": "text",
           "id": "to_date",
           "label": "Offer To Date",
@@ -268,9 +309,11 @@ body div[data-section-id="{{ section.id }}"] .special-offters-box {
       ]
     }
   ],
-  "presets": [{
-    "name": "Special Offers",
-    "category": "Products"
-  }]
+  "presets": [
+    {
+      "name": "Special Offers",
+      "category": "Products"
+    }
+  ]
 }
 {% endschema %}
