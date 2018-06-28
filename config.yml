@@ -3,7 +3,6 @@ development:
   theme_id: "13478035503"
   store: helas-store.myshopify.com
   ignore_files:
-  - config/settings_data.json
   - _sources/*.scss
 
 demo_2:

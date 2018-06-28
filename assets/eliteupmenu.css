@@ -345,10 +345,10 @@ li.level0 > a > span > .pin-bottom:before {
   margin-bottom: 0;
 }
 .top-navigation ul li.groups ul.level1 li a{
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 400;
   letter-spacing: 0;
-  text-transform: none;
+  text-transform: uppercase;
 }
 .top-navigation ul li ul.level1 li:last-child a{
   margin-bottom:5px;

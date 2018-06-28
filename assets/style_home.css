@@ -416,7 +416,6 @@ slider show
       background: #08c; }
 
 .slideshow-section .slideshow .content.content-slider.content-slider-1 {
-  left: auto !important;
   right: 0;
   top: auto !important;
   bottom: 0; }
@@ -425,7 +424,9 @@ slider show
   .slideshow-section .slideshow .content.content-slider.content-slider-1 h1 {
     font-size: 30px;
     line-height: 50px;
-    font-weight: 700; }
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: none; }
   .slideshow-section .slideshow .content.content-slider.content-slider-1 p {
     margin-top: 15px;
     margin-bottom: 30px; }
@@ -684,7 +685,7 @@ slider show
   .slideshow-section .slideshow .content.content-slider.content-slider-10 .btn-button {
     margin-top: 45px; }
 
-.slideshow-section .slideshow .content.content-slider, .slideshow-section .slideshow .content.content-slider.content-slider-11 {
+.slideshow-section .slideshow .content.content-slider.content-slider-11 {
   left: 50%;
   top: 50%;
   bottom: auto;
@@ -696,7 +697,7 @@ slider show
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
-  .slideshow-section .slideshow .content.content-slider h1, .slideshow-section .slideshow .content.content-slider.content-slider-11 h1 {
+  .slideshow-section .slideshow .content.content-slider.content-slider-11 h1 {
     font-size: 70px;
     line-height: 80px;
     font-weight: 700;
@@ -704,7 +705,7 @@ slider show
     margin-bottom: 20px;
     letter-spacing: 10px;
     text-transform: uppercase; }
-  .slideshow-section .slideshow .content.content-slider p, .slideshow-section .slideshow .content.content-slider.content-slider-11 p {
+  .slideshow-section .slideshow .content.content-slider.content-slider-11 p {
     min-width: 615px;
     max-width: 615px;
     margin-left: auto;
@@ -712,7 +713,7 @@ slider show
     font-size: 14px;
     line-height: 24px;
     color: #fff; }
-  .slideshow-section .slideshow .content.content-slider .btn-button, .slideshow-section .slideshow .content.content-slider.content-slider-11 .btn-button {
+  .slideshow-section .slideshow .content.content-slider.content-slider-11 .btn-button {
     margin-top: 45px; }
 
 .slideshow-section .slideshow .content.content-slider.content-slider-11-2 {

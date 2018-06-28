@@ -381,7 +381,6 @@ slider show
 
 .slideshow-section .slideshow .content.content-slider {
   &.content-slider-1 {
-    left: auto !important;
     right: 0;
     top: auto !important;
     bottom: 0;
@@ -394,6 +393,8 @@ slider show
       font-size: 30px;
       line-height: 50px;
       font-weight: 700;
+      letter-spacing: 0;
+      text-transform: none;
     }
 
     p {
@@ -709,8 +710,6 @@ slider show
       margin-top: 45px;
     }
   }
-
-  ,
    &.content-slider-11 {
     left: 50%;
     top: 50%;
