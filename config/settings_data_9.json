@@ -647,10 +647,10 @@
           "page_header_01": {
             "type": "text_block",
             "settings": {
-              "page_handle": "lookbook",
+              "page_handle": "gallery",
               "enble_page_header": true,
-              "page_header_image": "shopify:\/\/shop_images\/page-title-lookbook.jpg",
-              "top_space": "100px",
+              "page_header_image": "",
+              "top_space": "150px",
               "bottom_space": "50px",
               "page_header_preset": "light"
             }
