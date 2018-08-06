@@ -122,4 +122,13 @@ demo_16:
   theme_id: "17750425647"
   store: helas-store.myshopify.com
   ignore_files:
+  - config/settings_data.json
+  - _sources/*.scss
+
+client:
+  password: ac6fe85f92d94b0184b2172ceac3c769
+  theme_id: "31943950453"
+  store: so-not-size-zero.myshopify.com
+  ignore_files:
+  - config/settings_data.json
   - _sources/*.scss

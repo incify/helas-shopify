@@ -2470,7 +2470,7 @@ body.side-header {
     overflow: visible;
     color: #8a8a8a;
     letter-spacing: 0.5px;
-    background-color: transparent !important; }
+    background-color: rgba(0, 0, 0, 0) !important; }
     .btn-button.bordered-2.white, .spr-button.bordered-2.white {
       border: #fff solid 1px;
       color: #fff; }
@@ -2501,7 +2501,7 @@ body.side-header {
     overflow: visible;
     color: #000;
     letter-spacing: 0.5px;
-    background-color: transparent !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     border: #000 solid 1px; }
     .btn-button.bordered-black:hover, .spr-button.bordered-black:hover {
       background-color: #000 !important; }
@@ -2510,7 +2510,7 @@ body.side-header {
     overflow: visible;
     color: #8a8a8a;
     letter-spacing: 1px;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
     border-color: white;
     border-style: solid;
     border-width: 0px 0px 3px;
@@ -2518,7 +2518,7 @@ body.side-header {
     .btn-button.bottom-line.white, .spr-button.bottom-line.white {
       color: #fff; }
       .btn-button.bottom-line.white:hover, .spr-button.bottom-line.white:hover {
-        background-color: transparent !important; }
+        background-color: rgba(0, 0, 0, 0) !important; }
     .btn-button.bottom-line.black, .spr-button.bottom-line.black {
       color: #232324; }
       .btn-button.bottom-line.black:hover, .spr-button.bottom-line.black:hover {
@@ -2687,8 +2687,8 @@ body.side-header {
     vertical-align: middle;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    -webkit-box-shadow: 0 0 1px transparent;
-    box-shadow: 0 0 1px transparent;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
@@ -5947,7 +5947,6 @@ button {
     .post-layout-list .blog-wrapper .postWrapper .postContent .postDesc {
       margin: 0 0 30px; }
     .post-layout-list .blog-wrapper .postWrapper .postContent img {
-      width: 100%;
       margin: 10px 0 30px; }
     .post-layout-list .blog-wrapper .postWrapper .postContent .nova-sharing-posts {
       float: right;
@@ -6343,7 +6342,6 @@ button {
   .blog-wrapper .postWrapper .postContent .postDesc {
     margin: 0 0 30px; }
   .blog-wrapper .postWrapper .postContent img {
-    width: 100%;
     margin: 10px 0 30px; }
   .blog-wrapper .postWrapper .no-bullets,
   .blog-wrapper .postWrapper .inline-list {
@@ -6471,7 +6469,6 @@ button {
 
 .blog-wrapper .author-info {
   position: relative;
-  float: left;
   margin-bottom: 70px;
   padding-left: 35px; }
   .blog-wrapper .author-info .author-info--inner {
@@ -13128,8 +13125,8 @@ button {
   background-color: transparent;
   border: none;
   border-radius: 0;
-  -webkit-box-shadow: 0 0 0 transparent;
-  box-shadow: 0 0 0 transparent; }
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0); }
   .panel-group .panel .panel-heading {
     padding: 10px 0;
     border-bottom: 1px solid #ccc !important; }
@@ -14426,7 +14423,7 @@ div.sort-by .bootstrap-select .selectize-dropdown {
         text-align: center;
         padding-top: 10px; }
       .category-products .products-grid .item .item-area.style_3 .item--overlay {
-        background: transparent !important; }
+        background: rgba(0, 0, 0, 0) !important; }
       .category-products .products-grid .item .item-area.style_3 .rollover--style-1 .action-icon {
         background-color: #ebebeb; }
     .category-products .products-grid .item .item-area.style_4 {
@@ -14455,7 +14452,7 @@ div.sort-by .bootstrap-select .selectize-dropdown {
           text-align: center;
           padding-top: 10px; }
       .category-products .products-grid .item .item-area.style_4 .item--overlay {
-        background: transparent !important; }
+        background: rgba(0, 0, 0, 0) !important; }
       .category-products .products-grid .item .item-area.style_4 .rollover--style-1 .action-icon {
         background-color: #ebebeb; }
       .category-products .products-grid .item .item-area.style_4:hover {
