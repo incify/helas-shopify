@@ -14,12 +14,14 @@
 {% endfor %}
 <div class="product_item--inner">
   <div class="product_item--thumbnail">
-    {% if variant_tmp.compare_at_price > variant_tmp.price %}
-    <div class="product-label">
-        <div class="onsale">
-            <span class="price_percentage">{{ product.compare_at_price_max | minus:product.price | times:100 | divided_by:product.compare_at_price_max }}%</span>
-        </div>
-    </div>
+    {% if settings.collection_show_discount != blank %}
+      {% if variant_tmp.compare_at_price > variant_tmp.price %}
+      <div class="product-label">
+          <div class="onsale">
+              <span class="price_percentage">{{ product.compare_at_price_max | minus:product.price | times:100 | divided_by:product.compare_at_price_max }}%</span>
+          </div>
+      </div>
+      {% endif %}
     {% endif %}
     {% if sold_out %}
     <div class="product-label">
