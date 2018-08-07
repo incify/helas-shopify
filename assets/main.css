@@ -5952,7 +5952,6 @@ button {
     .post-layout-list .blog-wrapper .postWrapper .postContent .postDesc {
       margin: 0 0 30px; }
     .post-layout-list .blog-wrapper .postWrapper .postContent img {
-      width: 100%;
       margin: 10px 0 30px; }
     .post-layout-list .blog-wrapper .postWrapper .postContent .nova-sharing-posts {
       float: right;
@@ -6351,7 +6350,6 @@ button {
   .blog-wrapper .postWrapper .postContent .postDesc {
     margin: 0 0 30px; }
   .blog-wrapper .postWrapper .postContent img {
-    width: 100%;
     margin: 10px 0 30px; }
   .blog-wrapper .postWrapper .no-bullets,
   .blog-wrapper .postWrapper .inline-list {
@@ -6479,7 +6477,6 @@ button {
 
 .blog-wrapper .author-info {
   position: relative;
-  float: left;
   margin-bottom: 70px;
   padding-left: 35px; }
   .blog-wrapper .author-info .author-info--inner {
