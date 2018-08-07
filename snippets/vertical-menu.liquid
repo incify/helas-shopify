@@ -11,7 +11,7 @@
         </a>
         {% if block.settings.sub_menu != '0' %}
         <div class="level0 menu-wrap-sub ">
-            <div class="content-menu-inner" style="background-image: url(//cdn.shopify.com/s/files/1/2573/5730/t/15/assets/menu-shop-bg-1.jpg?17087655361032364156);{% if block.settings.sub_menu == '2' %} max-width:650px;{% endif %}">
+            <div class="content-menu-inner" style="{% if block.settings.sub_menu == '2' %} max-width:650px;{% endif %}">
                 <div class="container">
                     <div class="mega-columns row">
                         {% if block.settings.sub_menu == '1' %}

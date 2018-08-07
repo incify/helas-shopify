@@ -76,7 +76,7 @@
                     <!--span class="icon icon-arrow-down" aria-hidden="true"></span-->
                 </a>
                 <div class="level0 menu-wrap-sub {% if settings[menu_type] =='classic'%} dropdown {% endif %}" {% if settings[menu_type] == 'staticwidth' %} style="width: {{settings[menu_staticwidth]}}" {%endif%}>
-                <div class="content-menu-inner" {% if settings[menu_type] == 'wide' %} style="background-image: url({{menu_background | asset_url}})" {%endif%}>
+                <div class="content-menu-inner">
                 <div class="container">
                     <div class="mega-columns row">
                         {% if settings[proportions_left] != '0' %}

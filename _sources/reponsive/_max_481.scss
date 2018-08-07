@@ -2,6 +2,143 @@
   .input-text, input.input-full {
     height: 40px;
   }
+  .top-collection-section .collection-banner-content .item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /*============================================================================
+  #Page Header
+  ==============================================================================*/
+  .section_page_header .backdround-image-inner .page-title {
+    font-size: 1em;
+  }
+  /*============================================================================
+  #Helas Sections
+  ==============================================================================*/
+  .section__helas-banner-image .helas-banner-image .helas-banner-image__content {
+    padding-left: 0;
+    margin-top: 15px;
+    h1 {
+      font-size: 28px;
+      margin-left: 0;
+    }
+  }
+  .section__helas-banner-image .helas-banner-image .helas-banner-image__content.style_2 {
+    margin-bottom: 15px;
+    h1 {
+      margin-left: 0;
+      white-space: normal;
+    }
+  }
+  .incify-icon-box {
+    margin-top: 0;
+  }
+  .subscribe-section.style_2 h1 {
+    font-size: 32px;
+  }
+  .section__about-us-v2-content-box .aboutus-v2__content-box .aboutus-v2__content-box--content h1 {
+    font-size: 32px;
+    margin-top: 15px;
+  }
+  .section__service-box .services-box .services-box__content h1,
+  .section__about-us-service-box .aboutus__services-box .aboutus__services-box--content h1 {
+     font-size: 32px;
+  }
+  .section__faq-content {
+    padding: 30px 0;
+  }
+  .faq-box-inner {
+    .cell {
+      margin-bottom: 30px;
+    }
+  }
+  .testimonial-section.layout-style_2 .incify-testimonial .testimonial_item--inner .testimonial_item--info .testimonial_item--excerpt {
+    padding: 0 15px;
+    font-size: 18px;
+  }
+  .testimonial_item--bottom {
+    padding: 0 15px;
+  }
+  .testimonial-section.layout-style_2 .incify-testimonial .testimonial_item--inner .testimonial_item--bottom .testimonial_item--title-role .testimonial_item--title {
+    font-size: 14px;
+  }
+  .testimonial-section.layout-style_2 .incify-testimonial .slick-dots {
+    text-align: center;
+  }
+  .section__about-us-content-box .aboutus-content-box .aboutus-content-box__content h1 {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  .subscribe-section.style_4 h1 {
+    font-size: 24px;
+  }
+  .testimonial-section.layout-style_3 .incify-testimonial .testimonial_item--inner .testimonial_item--info .testimonial_item--excerpt {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  .background-content-section.style_3 .background-content__content {
+    width: 100%;
+    .text-1 {
+      font-size: 18px;
+      line-height: 1.4;
+    }
+  }
+  .background-content-section.style_6 .background-content__content,
+  .background-content-section.style_4 .background-content__content {
+    width: 100%;
+    padding: 0 15px;
+    .text-1 {
+      font-size: 32px;
+      line-height: 1.4;
+      letter-spacing: 0;
+    }
+  }
+  .background-content-section.style_5 .background-content__content {
+    width: 100%;
+    padding: 0 15px;
+    .text-2 {
+      font-size: 32px;
+      line-height: 1.4;
+    }
+  }
+  .banner-image-2-section.layout-style_1 .cell:nth-child(2),
+  .banner-image-2-section.layout-style_1 .cell {
+    width: 100%;
+  }
+  .bakery-subscribe-section .right-content h2 {
+    font-size: 36px;
+  }
+  .bakery-subscribe-section .right-content .sub-title {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  .main-container .tab-product-collection .tab-selector ul.nav-tabs li {
+    padding: 2px 10px;
+  }
+  .style_12 .section-title span {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+  .section__special-offters .special-offters-box .right-content h2 {
+     font-size: 24px;
+     line-height: 1.4;
+  }
+  .section__special-offters.layout-style_3 .right-content .offer-desc {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  /*============================================================================
+  #BLog Page
+  ==============================================================================*/
+  .blog-article-section .feature-image-blog {
+    width: 100%;
+  }
+  .blog-article-section .blog_article .item .content-detail-blog {
+    width: 100%;
+  }
+  .template-article .blog-wrapper {
+    margin-top: 45px;
+  }
   /*============================================================================
   #Banner Image Background Section
   ==============================================================================*/
@@ -133,6 +270,23 @@
     text-align: center;
     margin-bottom: 30px;
   }
+  .section__special-offters .special-offters-box .left-content .special-discount-html {
+    right: 15%;
+  }
+  .section__special-offters .special-offters-box .left-content .special-discount-html span.price del,
+  .section__special-offters .special-offters-box .left-content .special-discount-html span.price {
+    font-size: 16px;
+  }
+  .shortcode-countdown .product-date > div {
+    width: 60px;
+    height: 60px;
+  }
+  .shortcode-countdown .product-date .no {
+    font-size: 14px;
+  }
+  .shortcode-countdown .product-date .text {
+    font-size: 11px;
+  }
   /*============================================================================
   #Pages
   ==============================================================================*/
@@ -152,6 +306,9 @@
   /*============================================================================
   #Slideshow
   ==============================================================================*/
+  .slideshow-section .slideshow .item {
+    height: 30vh !important;
+  }
   .slideshow-section .slideshow .content .content-area {
     padding: 0 15px;
   }
@@ -166,25 +323,80 @@
   .btn-button.bordered-2.x3, .spr-button.bordered-2.x3 {
     padding: 10px 30px;
   }
-  .slideshow-section .content-slider-3-1 {
+  .slideshow-section .slideshow .content.content-slider.content-slider-3-2 h4,
+  .slideshow-section .slideshow .content.content-slider.content-slider-3 h4 {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  .slideshow-section .slideshow .content.content-slider.content-slider-3 h3,
+  .slideshow-section .slideshow .content.content-slider.content-slider-3-3 h2,
+  .slideshow-section .slideshow .content.content-slider.content-slider-3-2 h2 {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  .slideshow-section .slideshow .content.content-slider.content-slider-7 {
+    width: 100%;
     h1 {
-      font-size: 3em;
+      font-size: 18px;
+    }
+    p {
+      display: none;
+    }
+  }
+  .slideshow-section .slideshow .content.content-slider.content-slider-8 {
+    h1 {
+      font-size: 18px;
       line-height: 1.4;
     }
+     p {
+        display: none;
+     }
   }
-  .slideshow-section .content-slider-11-1 h1 {
+  .slideshow-section .slideshow .content.content-slider.content-slider-11-2,
+  .slideshow-section .slideshow .content.content-slider.content-slider-11 {
+    h1 {
+      font-size: 18px;
+      line-height: 1.4;
+      letter-spacing: 5px;
+    }
+     p {
+       display: none;
+     }
+     .btn-button {
+       margin-top: 20px;
+     }
+  }
+  .slideshow-section .slideshow .content.content-slider.content-slider-15 h4 {
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 3px;
+  }
+  .slideshow-section .slideshow .content.content-slider.content-slider-15-3 h4,
+  .slideshow-section .slideshow .content.content-slider.content-slider-15-2 h4 {
+      font-size: 18px;
+      line-height: 1.4;
+  }
+  .slideshow-section .slideshow .content.content-slider.content-slider-14 h1 {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  .slideshow-section .slideshow .content.content-slider.content-slider-14-2 h3 {
+    font-size: 18px;
+    line-height: 1.4
+  }
+  .slideshow-section .slideshow .content.content-slider.content-slider-14-2 h1 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  .static-img-content-slider-14 {
+    display: none;
+  }
+  .slideshow-section .slideshow .content.content-slider.content-slider-16-2 h1,
+  .slideshow-section .slideshow .content.content-slider.content-slider-16 h1 {
     font-size: 32px;
-    line-height: 1.2;
-    &:after,
-    &:before {
-      height: 5px;
-    }
-  }
-  .section__wine-deal .wine-deal .wine-deal__inner {
-    display: block;
-    .wine-deal__left-column {
-      padding-bottom: 70%;
-    }
+    line-height: 1.4;
   }
   /*============================================================================
   #Footer
@@ -193,5 +405,26 @@
     display: block;
     margin: 15px;
   }
-
+  #shopify-section-footer .footer-wrapper.footer-style4 .footer-container {
+    padding: 30px 15px 20px 15px;
+    text-align: center;
+  }
+  #shopify-section-footer .footer-wrapper.footer-style4 .footer-container .social-media-link {
+    float: none;
+  }
+  // Custom Section Style
+  body div[data-section-id="home-icon-box"] {
+    margin-top: 30px !important;
+  }
+  body div[data-section-id="newsletter-box"] {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    padding: 0 !important;
+  }
+  body div[data-section-id="home-banner-image"] {
+    margin-top: 45px !important;
+  }
+  body div[data-section-id="main-testimonial"] {
+    margin-top: 45px !important;
+  }
 }

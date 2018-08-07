@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="{% if settings.blog_sidebar_position == 'none' %}col-md-12 no-sidebar{% else %}col-md-9 col-md-push-3{% endif %}">
-                <div class="blog-wrapper text-center">
+                <div class="blog-wrapper text-center clearfix">
                     {% for article in blog.articles %}
                     <div class="postWrapper">
                         <div class="entry-thumbnail blog_item--thumbnail-with-effect">

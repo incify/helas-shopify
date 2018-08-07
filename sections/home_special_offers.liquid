@@ -6,7 +6,7 @@
           <div class="slick-carousel" data-slick='{"slidesToShow":1,"slidesToScroll":1,"dots":false,"autoplaySpeed":5000,"speed":300,"infinite":false,"arrows":true,"nextArrow":"<button type=\"button\" style=\"color:#333333;font-size:24px;width:24px;height:24px;line-height:24px;\" class=\"slick-next default\"><svg><use xlink:href=\"#dlicon-arrow-right1\"><\/use><\/svg><\/button>","prevArrow":"<button type=\"button\" style=\"color:#333333;font-size:24px;width:24px;height:24px;line-height:24px;\" class=\"slick-prev default\"><svg><use xlink:href=\"#dlicon-arrow-left1\"><\/use><\/svg><\/button>","swipe":true,"draggable":true,"touchMove":true,"pauseOnHover":false,"responsive":[{"breakpoint":1824,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":1200,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":992,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":768,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"pauseOnDotsHover":true}'>
             {% for block in section.blocks %}
             <div class="special-offters-item row">
-              <div class="col-sm-6 left-content">
+              <div class="col-md-6 left-content">
                 <a href="{{ block.settings.button_url }}"><img src="{{ block.settings.image | img_url: 'master' }}" /></a>
                 <div class="special-discount-html">
                   <span class="onsale"> <span class="save-percentage"><span>{{ block.settings.discount_percent }}</span></span></span>
@@ -16,13 +16,14 @@
                   </span>
                 </div>
               </div>
-              <div class="col-sm-6 right-content text-center lg-pt-70 xs-pt-0 lg-pb-150 xs-pb-50">
+              <div class="col-md-6 right-content text-center lg-pt-70 xs-pt-0 lg-pb-150 xs-pb-50">
                 {% assign handle = section.settings.preset %} {% case handle %}
                 {% when 'style_1' %}
                 <h2>{{ block.settings.title }}</h2>
                 <p>{{ block.settings.sub_title }}</p>
                 <div class="shortcode-countdown">
-                    <div class="product-date clearfix" data-date="{{ block.settings.to_date }}"></div>
+                    <!-- <div class="product-date clearfix" data-date="{{ block.settings.to_date }}"></div> -->
+                    <div class="product-date clearfix"><div class="day"><span class="no">516</span><span class="text">Days</span></div><div class="hours"><span class="no">22</span><span class="text">Hours</span></div><div class="min"><span class="no">25</span><span class="text">Mins</span></div><div class="second"><span class="no">33</span><span class="text">Secs</span></div></div>
                 </div>
                 {%- if block.settings.button_url != blank -%}
                   <a href="{{ block.settings.button_url }}" class="btn-button black uppercase">{{ block.settings.button_text }}</a>

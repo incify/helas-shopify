@@ -628,7 +628,6 @@ slider show
     right: auto;
     top: 50%;
     bottom: auto;
-    min-width: 793px;
     max-width: 793px;
     @include translate_all;
 
@@ -885,6 +884,7 @@ slider show
       line-height: 72px;
       text-transform: none;
       letter-spacing: 0;
+      color: #fff;
 
       span {
         font-weight: 400;
@@ -911,6 +911,7 @@ slider show
       font-weight: 400;
       text-transform: none;
       letter-spacing: 0;
+      color: #fff;
     }
 
     h3 {
@@ -1015,6 +1016,7 @@ slider show
       font-size: 45px;
       line-height: 57px;
       font-weight: 400;
+          color: #fff;
     }
     p {
       font-size: 11px;
@@ -1048,7 +1050,6 @@ line-height: 23px;
 font-weight: 700;
 letter-spacing: 1px;
 max-width: 569px;
-min-width: 569px;
 text-transform: uppercase;
     }
     .btn-button {

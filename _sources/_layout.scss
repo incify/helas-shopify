@@ -18,6 +18,12 @@ body.boxed{
   left: 0;
   transition: left 0.3s;
 }
+.container-fluid {
+  padding: 0;
+  .row {
+    margin: 0;
+  }
+}
 .overlay{
   background-color: #000;
   opacity: .55;

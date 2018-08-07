@@ -1746,7 +1746,7 @@
           "width_layout": "full",
           "banner_space": "no",
           "grid": "4",
-          "grid_2": "4"
+          "grid_2": "2"
         }
       },
       "main11-counter-box": {
@@ -1852,7 +1852,7 @@
           "width_layout": "full",
           "banner_space": "yes",
           "grid": "3",
-          "grid_2": "3"
+          "grid_2": "2"
         }
       },
       "home-testimonials": {

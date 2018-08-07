@@ -435,10 +435,6 @@
   .main-container .tab-product-collection .tab-selector:before {
     background-color:  transparent;
   }
-  .main-container .tab-product-collection .tab-selector ul.nav-tabs li {
-    padding: 0 10px;
-    line-height: 35px;
-  }
   /*block option container*/
   .main-container .block-option-container .container .block-subscribe .block-inner .input-group .input-box input {
     width: 100%;

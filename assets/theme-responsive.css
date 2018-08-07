@@ -13,11 +13,14 @@
 
 @media (max-width: 991px) {
   .nova_row_gap_65,
+  .EL_row_padding_65,
   .nova_row_gap_80 {
     padding-left: 15px;
     padding-right: 15px; }
   .btn-button.large, .spr-button.large {
     padding: 15px 35px; }
+  .display-flex {
+    display: block; }
   /*============================================================================
   #Header
   ==============================================================================*/
@@ -73,6 +76,16 @@
     width: 100%; }
   .header-container.type6 .header-left-area {
     padding: 15px 0; }
+  .header-container.type6 .header-middle-area {
+    width: 100%; }
+  .header-container.type6 .logo-header {
+    float: left; }
+  .header-container.type6 .menu-icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 15px;
+    top: calc(50% - 15px); }
   /*============================================================================
   #Slideshow
   ==============================================================================*/
@@ -88,60 +101,38 @@
   .slideshow-section .slideshow .content .content-area .text-slider-2 {
     font-size: 5em;
     line-height: 1; }
-  .slideshow-section .content-slider-1 .btn-button.large {
-    padding: 10px 30px; }
-  .slideshow-section .slideshow .content-slider-2-1 {
-    text-align: center !important;
-    left: 0 !important; }
-    .slideshow-section .slideshow .content-slider-2-1 h1 {
-      font-size: 3em;
+  .slideshow-section .slideshow .content.content-slider.content-slider-1 .content-area {
+    padding-right: 30px; }
+  .slider-content-image img {
+    width: 60% !important; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-6,
+  .slideshow-section .slideshow .content.content-slider.content-slider-6-2 {
+    text-align: center !important; }
+    .slideshow-section .slideshow .content.content-slider.content-slider-6 h1,
+    .slideshow-section .slideshow .content.content-slider.content-slider-6-2 h1 {
+      font-size: 50px;
+      line-height: 1.4;
+      letter-spacing: 0; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-7 {
+    text-align: center; }
+    .slideshow-section .slideshow .content.content-slider.content-slider-7 h1 {
+      font-size: 50px;
       line-height: 1.4; }
-  .slideshow-section .content-slider-2-2 {
-    text-align: center !important;
-    left: 0 !important; }
-    .slideshow-section .content-slider-2-2 h3 {
-      font-size: 28px; }
-    .slideshow-section .content-slider-2-2 h1 {
-      font-size: 7em;
-      line-height: 2; }
-  .slideshow-section .content-slider-3-1 h1 {
-    font-size: 5em;
-    line-height: 1.4; }
-  .slideshow-section .content-slider-13-1 h1,
-  .slideshow-section .content-slider-13-2 h1,
-  .slideshow-section .content-slider-13-3 h1 {
-    font-size: 5rem;
-    line-height: 1.4; }
-  .slideshow-section .content-slider-13-1 h4,
-  .slideshow-section .content-slider-13-2 h4,
-  .slideshow-section .content-slider-13-3 h4 {
-    font-size: 16px;
+  .slideshow-section .slideshow .content.content-slider.content-slider-12 h1 {
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 2px; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-12 p {
+    display: none; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-13 h1 {
+    font-size: 50px;
     line-height: 1.4;
     letter-spacing: 0; }
-  .slideshow-section .slideshow .content.content-slider-14-1 {
-    left: 0;
-    text-align: center; }
-  .slideshow-section .content-slider-14-1 h2 {
-    font-size: 7rem;
-    line-height: 1; }
-  .slideshow-section .slideshow .content.content-slider.content-slider-15-1 {
-    text-align: center;
-    left: 0; }
-  .slideshow-section .content-slider-15-1 h1 {
-    font-size: 28px;
+  .slideshow-section .slideshow .content.content-slider.content-slider-14 h1 {
+    font-size: 50px;
     line-height: 1.4; }
-  .slideshow-section .content-slider-15-2 {
-    right: 10%; }
-    .slideshow-section .content-slider-15-2 h1 {
-      font-size: 28px;
-      line-height: 1.4; }
-    .slideshow-section .content-slider-15-2 h3 {
-      font-size: 16px;
-      line-height: 1.4; }
-    .slideshow-section .content-slider-15-2 p {
-      font-size: 14px; }
-  .slideshow-section .content-slider-15-3 {
-    text-align: center !important; }
+  .slider-static-image img {
+    width: 50% !important; }
   /*============================================================================
   #Tile Section
   ==============================================================================*/
@@ -180,7 +171,8 @@
     padding-top: 50px !important;
     padding-bottom: 50px !important; }
   .section_page_header .backdround-image-inner .page-title {
-    font-size: 3em; }
+    font-size: 2em;
+    letter-spacing: 3px; }
   .main-container .main-breadcrumbs {
     font-size: 10px;
     padding-bottom: 0; }
@@ -262,6 +254,32 @@
   .banner-image-section.style_14 .banner-image .banner--infor h1 {
     font-size: 28px;
     line-height: 1.2; }
+  .banner-image-section.style_2 .banner-image .banner--infor .btn-button {
+    margin-top: 20px;
+    padding: 5px 25px;
+    font-size: 10px; }
+  .banner-image-section.style_4 .banner-image .banner--infor .banner--infor__text_1 {
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 2px; }
+  .banner-image-2-section .box-inner .banner--infor .banner--infor__text_2.font-size-36 {
+    font-size: 18px !important; }
+  .section__special-offters .special-offters-box .left-content img {
+    margin: 0 auto; }
+  .section__special-offters .special-offters-box .right-content {
+    margin-top: 30px; }
+  .section__special-offters.layout-style_3 .slick-slider .slick-arrow {
+    display: none !important; }
+  /*============================================================================
+  #Helas Sections
+  ==============================================================================*/
+  body div[data-section-id="about_us_accordion_box"] {
+    background: none !important; }
+  .section__about-us-v2-content-box .aboutus-v2__content-box .aboutus-v2__content-box--image,
+  .section__about-us-service-box .aboutus__services-box .aboutus__services-box--image {
+    text-align: center; }
+  .section__about-us-service-box .aboutus__services-box .aboutus__services-box--image {
+    margin-bottom: 50px; }
   /*============================================================================
   #Banner Block Section
   ==============================================================================*/
@@ -290,11 +308,6 @@
   .m9-heading {
     font-size: 9rem;
     letter-spacing: 0; }
-  .shortcode-countdown .product-date .no {
-    font-size: 28px; }
-  .shortcode-countdown .product-date > div {
-    margin-right: 20px;
-    padding-left: 20px; }
   /*============================================================================
   #Product List Section
   ==============================================================================*/
@@ -383,7 +396,7 @@
   .template-article .blog-style2 .page-title,
   .template-article .page-title {
     display: inline;
-    font-size: 3em !important;
+    font-size: 2em !important;
     text-align: center; }
   .post-layout-list {
     margin-top: 15px; }
@@ -403,6 +416,8 @@
     width: 100%; }
   .post_layout_ziczac .blog_item--thumbnail > a:before {
     display: none; }
+  .layout-style_1 .blog_item--inner .blog_item--inner2 .blog_item--info .date_comment {
+    text-align: center; }
   /*============================================================================
   #Pages
   ==============================================================================*/
@@ -442,36 +457,6 @@
     margin-top: 30px; }
     .service-quote-box p {
       font-size: 28px; }
-  .section__organic-deal-box .organic-deal-box .shortcode-countdown .product-date div {
-    margin-right: 15px;
-    padding-left: 15px; }
-  .section__wine-deal .wine-deal .wine-deal__right-column .shortcode-countdown .product-date > div {
-    margin-right: 20px;
-    padding-left: 20px; }
-  /*============================================================================
-  #Main Bike
-  ==============================================================================*/
-  .bike-fun-stuff .bike-fun-stuff__icon {
-    padding-right: 15px; }
-  .section__bike-fun-stuff.banner-image-section.incify-styles {
-    padding-top: 100px !important;
-    padding-bottom: 100px !important; }
-  .bike-fun-stuff .bike-fun-stuff__desc .incify-counter--number {
-    font-size: 24px; }
-  .section__bike-testimonial .bike-testimonial .testimonial_item--inner .testimonial_item--image {
-    position: static;
-    margin-top: 0; }
-  .section__bike-testimonial .bike-testimonial .testimonial_item--inner {
-    padding: 60px; }
-  /*============================================================================
-  #Wine Bike
-  ==============================================================================*/
-  .section__wine-deal .wine-deal .wine-deal__right-column {
-    padding: 70px 15px 70px 0; }
-  .section__wine-deal .wine-deal .wine-deal__left-column .wine-deal__left-column--content blockquote {
-    font-size: 28px; }
-  .section__wine-deal .wine-deal .wine-deal__left-column .wine-deal__left-column--content address {
-    font-size: 14px; }
   /*============================================================================
   #Footer
   ==============================================================================*/
@@ -500,6 +485,107 @@
 @media (max-width: 481px) {
   .input-text, input.input-full {
     height: 40px; }
+  .top-collection-section .collection-banner-content .item {
+    padding-left: 0;
+    padding-right: 0; }
+  /*============================================================================
+  #Page Header
+  ==============================================================================*/
+  .section_page_header .backdround-image-inner .page-title {
+    font-size: 1em; }
+  /*============================================================================
+  #Helas Sections
+  ==============================================================================*/
+  .section__helas-banner-image .helas-banner-image .helas-banner-image__content {
+    padding-left: 0;
+    margin-top: 15px; }
+    .section__helas-banner-image .helas-banner-image .helas-banner-image__content h1 {
+      font-size: 28px;
+      margin-left: 0; }
+  .section__helas-banner-image .helas-banner-image .helas-banner-image__content.style_2 {
+    margin-bottom: 15px; }
+    .section__helas-banner-image .helas-banner-image .helas-banner-image__content.style_2 h1 {
+      margin-left: 0;
+      white-space: normal; }
+  .incify-icon-box {
+    margin-top: 0; }
+  .subscribe-section.style_2 h1 {
+    font-size: 32px; }
+  .section__about-us-v2-content-box .aboutus-v2__content-box .aboutus-v2__content-box--content h1 {
+    font-size: 32px;
+    margin-top: 15px; }
+  .section__service-box .services-box .services-box__content h1,
+  .section__about-us-service-box .aboutus__services-box .aboutus__services-box--content h1 {
+    font-size: 32px; }
+  .section__faq-content {
+    padding: 30px 0; }
+  .faq-box-inner .cell {
+    margin-bottom: 30px; }
+  .testimonial-section.layout-style_2 .incify-testimonial .testimonial_item--inner .testimonial_item--info .testimonial_item--excerpt {
+    padding: 0 15px;
+    font-size: 18px; }
+  .testimonial_item--bottom {
+    padding: 0 15px; }
+  .testimonial-section.layout-style_2 .incify-testimonial .testimonial_item--inner .testimonial_item--bottom .testimonial_item--title-role .testimonial_item--title {
+    font-size: 14px; }
+  .testimonial-section.layout-style_2 .incify-testimonial .slick-dots {
+    text-align: center; }
+  .section__about-us-content-box .aboutus-content-box .aboutus-content-box__content h1 {
+    font-size: 18px;
+    line-height: 1.4; }
+  .subscribe-section.style_4 h1 {
+    font-size: 24px; }
+  .testimonial-section.layout-style_3 .incify-testimonial .testimonial_item--inner .testimonial_item--info .testimonial_item--excerpt {
+    font-size: 18px;
+    line-height: 1.4; }
+  .background-content-section.style_3 .background-content__content {
+    width: 100%; }
+    .background-content-section.style_3 .background-content__content .text-1 {
+      font-size: 18px;
+      line-height: 1.4; }
+  .background-content-section.style_6 .background-content__content,
+  .background-content-section.style_4 .background-content__content {
+    width: 100%;
+    padding: 0 15px; }
+    .background-content-section.style_6 .background-content__content .text-1,
+    .background-content-section.style_4 .background-content__content .text-1 {
+      font-size: 32px;
+      line-height: 1.4;
+      letter-spacing: 0; }
+  .background-content-section.style_5 .background-content__content {
+    width: 100%;
+    padding: 0 15px; }
+    .background-content-section.style_5 .background-content__content .text-2 {
+      font-size: 32px;
+      line-height: 1.4; }
+  .banner-image-2-section.layout-style_1 .cell:nth-child(2),
+  .banner-image-2-section.layout-style_1 .cell {
+    width: 100%; }
+  .bakery-subscribe-section .right-content h2 {
+    font-size: 36px; }
+  .bakery-subscribe-section .right-content .sub-title {
+    font-size: 24px;
+    line-height: 1.4; }
+  .main-container .tab-product-collection .tab-selector ul.nav-tabs li {
+    padding: 2px 10px; }
+  .style_12 .section-title span {
+    font-size: 28px;
+    line-height: 1.4; }
+  .section__special-offters .special-offters-box .right-content h2 {
+    font-size: 24px;
+    line-height: 1.4; }
+  .section__special-offters.layout-style_3 .right-content .offer-desc {
+    padding-left: 30px;
+    padding-right: 30px; }
+  /*============================================================================
+  #BLog Page
+  ==============================================================================*/
+  .blog-article-section .feature-image-blog {
+    width: 100%; }
+  .blog-article-section .blog_article .item .content-detail-blog {
+    width: 100%; }
+  .template-article .blog-wrapper {
+    margin-top: 45px; }
   /*============================================================================
   #Banner Image Background Section
   ==============================================================================*/
@@ -589,6 +675,18 @@
   .incify-counter {
     text-align: center;
     margin-bottom: 30px; }
+  .section__special-offters .special-offters-box .left-content .special-discount-html {
+    right: 15%; }
+  .section__special-offters .special-offters-box .left-content .special-discount-html span.price del,
+  .section__special-offters .special-offters-box .left-content .special-discount-html span.price {
+    font-size: 16px; }
+  .shortcode-countdown .product-date > div {
+    width: 60px;
+    height: 60px; }
+  .shortcode-countdown .product-date .no {
+    font-size: 14px; }
+  .shortcode-countdown .product-date .text {
+    font-size: 11px; }
   /*============================================================================
   #Pages
   ==============================================================================*/
@@ -604,6 +702,8 @@
   /*============================================================================
   #Slideshow
   ==============================================================================*/
+  .slideshow-section .slideshow .item {
+    height: 30vh !important; }
   .slideshow-section .slideshow .content .content-area {
     padding: 0 15px; }
   .slideshow-section .content-slider-2-2 h1 {
@@ -614,24 +714,83 @@
     line-height: 1.4; }
   .btn-button.bordered-2.x3, .spr-button.bordered-2.x3 {
     padding: 10px 30px; }
-  .slideshow-section .content-slider-3-1 h1 {
-    font-size: 3em;
+  .slideshow-section .slideshow .content.content-slider.content-slider-3-2 h4,
+  .slideshow-section .slideshow .content.content-slider.content-slider-3 h4 {
+    font-size: 18px;
     line-height: 1.4; }
-  .slideshow-section .content-slider-11-1 h1 {
+  .slideshow-section .slideshow .content.content-slider.content-slider-3 h3,
+  .slideshow-section .slideshow .content.content-slider.content-slider-3-3 h2,
+  .slideshow-section .slideshow .content.content-slider.content-slider-3-2 h2 {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 2px; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-7 {
+    width: 100%; }
+    .slideshow-section .slideshow .content.content-slider.content-slider-7 h1 {
+      font-size: 18px; }
+    .slideshow-section .slideshow .content.content-slider.content-slider-7 p {
+      display: none; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-8 h1 {
+    font-size: 18px;
+    line-height: 1.4; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-8 p {
+    display: none; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-11-2 h1,
+  .slideshow-section .slideshow .content.content-slider.content-slider-11 h1 {
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 5px; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-11-2 p,
+  .slideshow-section .slideshow .content.content-slider.content-slider-11 p {
+    display: none; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-11-2 .btn-button,
+  .slideshow-section .slideshow .content.content-slider.content-slider-11 .btn-button {
+    margin-top: 20px; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-15 h4 {
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 3px; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-15-3 h4,
+  .slideshow-section .slideshow .content.content-slider.content-slider-15-2 h4 {
+    font-size: 18px;
+    line-height: 1.4; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-14 h1 {
+    font-size: 18px;
+    line-height: 1.4; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-14-2 h3 {
+    font-size: 18px;
+    line-height: 1.4; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-14-2 h1 {
+    font-size: 24px;
+    line-height: 1.4; }
+  .static-img-content-slider-14 {
+    display: none; }
+  .slideshow-section .slideshow .content.content-slider.content-slider-16-2 h1,
+  .slideshow-section .slideshow .content.content-slider.content-slider-16 h1 {
     font-size: 32px;
-    line-height: 1.2; }
-    .slideshow-section .content-slider-11-1 h1:after, .slideshow-section .content-slider-11-1 h1:before {
-      height: 5px; }
-  .section__wine-deal .wine-deal .wine-deal__inner {
-    display: block; }
-    .section__wine-deal .wine-deal .wine-deal__inner .wine-deal__left-column {
-      padding-bottom: 70%; }
+    line-height: 1.4; }
   /*============================================================================
   #Footer
   ==============================================================================*/
   #shopify-section-footer .footer-wrapper.footer-style2 .footer-container .footer-menu li {
     display: block;
-    margin: 15px; } }
+    margin: 15px; }
+  #shopify-section-footer .footer-wrapper.footer-style4 .footer-container {
+    padding: 30px 15px 20px 15px;
+    text-align: center; }
+  #shopify-section-footer .footer-wrapper.footer-style4 .footer-container .social-media-link {
+    float: none; }
+  body div[data-section-id="home-icon-box"] {
+    margin-top: 30px !important; }
+  body div[data-section-id="newsletter-box"] {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    padding: 0 !important; }
+  body div[data-section-id="home-banner-image"] {
+    margin-top: 45px !important; }
+  body div[data-section-id="main-testimonial"] {
+    margin-top: 45px !important; } }
 
 @media (min-width: 992px) {
   .a-right-sm {

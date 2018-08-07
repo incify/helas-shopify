@@ -1,11 +1,15 @@
 @media (max-width: 991px) {
   .nova_row_gap_65,
+  .EL_row_padding_65,
   .nova_row_gap_80 {
     padding-left: 15px;
     padding-right: 15px;
   }
   .btn-button.large, .spr-button.large {
     padding: 15px 35px;
+  }
+  .display-flex {
+    display: block;
   }
   /*============================================================================
   #Header
@@ -67,6 +71,19 @@
   .header-container.type6 .header-left-area {
     padding: 15px 0;
   }
+  .header-container.type6 .header-middle-area {
+    width: 100%;
+  }
+  .header-container.type6 .logo-header {
+    float: left;
+  }
+  .header-container.type6 .menu-icon {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      right: 15px;
+      top: calc(50% - 15px);
+  }
   /*============================================================================
   #Slideshow
   ==============================================================================*/
@@ -86,81 +103,51 @@
     font-size: 5em;
     line-height: 1;
   }
-  .slideshow-section .content-slider-1 .btn-button {
-    &.large {
-        padding: 10px 30px;
-    }
+.slideshow-section .slideshow .content.content-slider.content-slider-1 .content-area {
+  padding-right: 30px;
+}
+
+
+  .slider-content-image img {
+    width: 60% !important;
   }
-  .slideshow-section .slideshow .content-slider-2-1 {
+  .slideshow-section .slideshow .content.content-slider.content-slider-6,
+  .slideshow-section .slideshow .content.content-slider.content-slider-6-2 {
     text-align: center !important;
-    left: 0 !important;
     h1 {
-     font-size: 3em;
-    line-height: 1.4;
-   }
-  }
-  .slideshow-section .content-slider-2-2 {
-    text-align: center !important;
-    left: 0 !important;
-    h3 {
-      font-size: 28px;
-    }
-    h1 {
-      font-size: 7em;
-      line-height: 2;
+      font-size: 50px;
+      line-height: 1.4;
+      letter-spacing: 0;
     }
   }
-  .slideshow-section .content-slider-3-1 {
+  .slideshow-section .slideshow .content.content-slider.content-slider-7 {
+    text-align: center;
     h1 {
-      font-size: 5em;
+      font-size: 50px;
       line-height: 1.4;
     }
   }
-  .slideshow-section .content-slider-13-1 h1,
-  .slideshow-section .content-slider-13-2 h1,
-  .slideshow-section .content-slider-13-3 h1 {
-    font-size: 5rem;
-    line-height: 1.4;
+  .slideshow-section .slideshow .content.content-slider.content-slider-12 {
+    h1 {
+      font-size: 18px;
+      line-height: 1.4;
+      letter-spacing: 2px;
+    }
+    p {
+      display: none;
+    }
   }
-  .slideshow-section .content-slider-13-1 h4,
-  .slideshow-section .content-slider-13-2 h4,
-  .slideshow-section .content-slider-13-3 h4 {
-    font-size: 16px;
+  .slideshow-section .slideshow .content.content-slider.content-slider-13 h1 {
+    font-size: 50px;
     line-height: 1.4;
     letter-spacing: 0;
   }
-  .slideshow-section .slideshow .content.content-slider-14-1 {
-    left: 0;
-    text-align: center;
-  }
-  .slideshow-section .content-slider-14-1 h2 {
-    font-size: 7rem;
-    line-height: 1;
-  }
-  .slideshow-section .slideshow .content.content-slider.content-slider-15-1 {
-    text-align: center;
-    left: 0;
-  }
-  .slideshow-section .content-slider-15-1 h1 {
-    font-size: 28px;
+  .slideshow-section .slideshow .content.content-slider.content-slider-14 h1 {
+    font-size: 50px;
     line-height: 1.4;
   }
-  .slideshow-section .content-slider-15-2 {
-    right: 10%;
-    h1 {
-      font-size: 28px;
-      line-height: 1.4;
-    }
-    h3 {
-      font-size: 16px;
-      line-height: 1.4
-    }
-     p {
-       font-size: 14px;
-     }
-  }
-  .slideshow-section .content-slider-15-3 {
-    text-align: center !important;
+  .slider-static-image img {
+    width: 50% !important;
   }
   /*============================================================================
   #Tile Section
@@ -212,7 +199,8 @@
     padding-bottom: 50px !important;
   }
   .section_page_header .backdround-image-inner .page-title {
-    font-size: 3em;
+    font-size: 2em;
+    letter-spacing: 3px;
   }
   .main-container .main-breadcrumbs {
     font-size: 10px;
@@ -328,6 +316,45 @@
     font-size: 28px;
     line-height: 1.2;
   }
+  .banner-image-section.style_2 .banner-image .banner--infor .btn-button {
+    margin-top: 20px;
+    padding: 5px 25px;
+    font-size: 10px;
+  }
+  .banner-image-section.style_4 .banner-image .banner--infor .banner--infor__text_1 {
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 2px;
+  }
+  .banner-image-2-section .box-inner .banner--infor .banner--infor__text_2 {
+    &.font-size-36 {
+      font-size: 18px !important;
+    }
+  }
+  .section__special-offters .special-offters-box .left-content {
+    img {
+      margin: 0 auto;
+    }
+  }
+  .section__special-offters .special-offters-box .right-content {
+    margin-top: 30px;
+  }
+  .section__special-offters.layout-style_3 .slick-slider .slick-arrow {
+    display: none !important;
+  }
+  /*============================================================================
+  #Helas Sections
+  ==============================================================================*/
+  body div[data-section-id="about_us_accordion_box"] {
+    background: none!important;
+  }
+  .section__about-us-v2-content-box .aboutus-v2__content-box .aboutus-v2__content-box--image,
+  .section__about-us-service-box .aboutus__services-box .aboutus__services-box--image {
+    text-align: center;
+  }
+  .section__about-us-service-box .aboutus__services-box .aboutus__services-box--image  {
+    margin-bottom: 50px;
+  }
   /*============================================================================
   #Banner Block Section
   ==============================================================================*/
@@ -363,13 +390,6 @@
   .m9-heading {
     font-size: 9rem;
     letter-spacing: 0;
-  }
-  .shortcode-countdown .product-date .no{
-    font-size:28px;
-  }
-  .shortcode-countdown .product-date > div {
-    margin-right: 20px;
-    padding-left: 20px;
   }
   /*============================================================================
   #Product List Section
@@ -495,7 +515,7 @@
   .template-article .blog-style2 .page-title,
   .template-article .page-title {
     display: inline;
-    font-size: 3em !important;
+    font-size: 2em !important;
     text-align: center;
   }
   .post-layout-list {
@@ -522,6 +542,9 @@
   }
   .post_layout_ziczac .blog_item--thumbnail>a:before {
     display: none;
+  }
+  .layout-style_1 .blog_item--inner .blog_item--inner2 .blog_item--info .date_comment {
+    text-align: center;
   }
   /*============================================================================
   #Pages
@@ -584,46 +607,6 @@
     p {
       font-size: 28px;
     }
-  }
-  .section__organic-deal-box .organic-deal-box .shortcode-countdown .product-date div {
-    margin-right: 15px;
-    padding-left: 15px;
-  }
-  .section__wine-deal .wine-deal .wine-deal__right-column .shortcode-countdown .product-date > div {
-    margin-right: 20px;
-    padding-left: 20px;
-  }
-  /*============================================================================
-  #Main Bike
-  ==============================================================================*/
-  .bike-fun-stuff .bike-fun-stuff__icon {
-    padding-right: 15px;
-  }
-  .section__bike-fun-stuff.banner-image-section.incify-styles {
-    padding-top: 100px !important;
-    padding-bottom: 100px !important;
-  }
-  .bike-fun-stuff .bike-fun-stuff__desc .incify-counter--number {
-    font-size: 24px;
-  }
-  .section__bike-testimonial .bike-testimonial .testimonial_item--inner .testimonial_item--image {
-    position: static;
-    margin-top: 0;
-  }
-  .section__bike-testimonial .bike-testimonial .testimonial_item--inner {
-    padding: 60px;
-  }
-  /*============================================================================
-  #Wine Bike
-  ==============================================================================*/
-  .section__wine-deal .wine-deal .wine-deal__right-column {
-    padding: 70px 15px 70px 0;
-  }
-  .section__wine-deal .wine-deal .wine-deal__left-column .wine-deal__left-column--content blockquote {
-    font-size: 28px;
-  }
-  .section__wine-deal .wine-deal .wine-deal__left-column .wine-deal__left-column--content address {
-    font-size: 14px;
   }
   /*============================================================================
   #Footer

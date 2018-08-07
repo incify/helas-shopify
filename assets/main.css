@@ -2239,6 +2239,11 @@ body.boxed {
   -o-transition: left 0.3s;
   transition: left 0.3s; }
 
+.container-fluid {
+  padding: 0; }
+  .container-fluid .row {
+    margin: 0; }
+
 .overlay {
   background-color: #000;
   opacity: .55;
@@ -2470,7 +2475,7 @@ body.side-header {
     overflow: visible;
     color: #8a8a8a;
     letter-spacing: 0.5px;
-    background-color: transparent !important; }
+    background-color: rgba(0, 0, 0, 0) !important; }
     .btn-button.bordered-2.white, .spr-button.bordered-2.white {
       border: #fff solid 1px;
       color: #fff; }
@@ -2501,7 +2506,7 @@ body.side-header {
     overflow: visible;
     color: #000;
     letter-spacing: 0.5px;
-    background-color: transparent !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     border: #000 solid 1px; }
     .btn-button.bordered-black:hover, .spr-button.bordered-black:hover {
       background-color: #000 !important; }
@@ -2510,7 +2515,7 @@ body.side-header {
     overflow: visible;
     color: #8a8a8a;
     letter-spacing: 1px;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
     border-color: white;
     border-style: solid;
     border-width: 0px 0px 3px;
@@ -2518,7 +2523,7 @@ body.side-header {
     .btn-button.bottom-line.white, .spr-button.bottom-line.white {
       color: #fff; }
       .btn-button.bottom-line.white:hover, .spr-button.bottom-line.white:hover {
-        background-color: transparent !important; }
+        background-color: rgba(0, 0, 0, 0) !important; }
     .btn-button.bottom-line.black, .spr-button.bottom-line.black {
       color: #232324; }
       .btn-button.bottom-line.black:hover, .spr-button.bottom-line.black:hover {
@@ -2687,8 +2692,8 @@ body.side-header {
     vertical-align: middle;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    -webkit-box-shadow: 0 0 1px transparent;
-    box-shadow: 0 0 1px transparent;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
@@ -6233,6 +6238,9 @@ button {
   font-weight: normal;
   width: 700px;
   max-width: 100%; }
+
+.template-article .blog-wrapper {
+  margin-top: 75px; }
 
 .single-post-style2 {
   margin-top: 50px; }
@@ -13128,8 +13136,8 @@ button {
   background-color: transparent;
   border: none;
   border-radius: 0;
-  -webkit-box-shadow: 0 0 0 transparent;
-  box-shadow: 0 0 0 transparent; }
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0); }
   .panel-group .panel .panel-heading {
     padding: 10px 0;
     border-bottom: 1px solid #ccc !important; }
@@ -14133,7 +14141,6 @@ div.sort-by .bootstrap-select .selectize-dropdown {
         z-index: 0;
         overflow: hidden;
         border-radius: 0;
-        background: #ededed;
         min-height: 100px; }
         .category-products .products-grid .item .item-area .product-figure .product-image img {
           width: 100%;
@@ -14426,7 +14433,7 @@ div.sort-by .bootstrap-select .selectize-dropdown {
         text-align: center;
         padding-top: 10px; }
       .category-products .products-grid .item .item-area.style_3 .item--overlay {
-        background: transparent !important; }
+        background: rgba(0, 0, 0, 0) !important; }
       .category-products .products-grid .item .item-area.style_3 .rollover--style-1 .action-icon {
         background-color: #ebebeb; }
     .category-products .products-grid .item .item-area.style_4 {
@@ -14455,7 +14462,7 @@ div.sort-by .bootstrap-select .selectize-dropdown {
           text-align: center;
           padding-top: 10px; }
       .category-products .products-grid .item .item-area.style_4 .item--overlay {
-        background: transparent !important; }
+        background: rgba(0, 0, 0, 0) !important; }
       .category-products .products-grid .item .item-area.style_4 .rollover--style-1 .action-icon {
         background-color: #ebebeb; }
       .category-products .products-grid .item .item-area.style_4:hover {
@@ -17332,7 +17339,8 @@ div.sort-by .bootstrap-select .selectize-dropdown {
 .banner-image-section.style_2 .banner-image .banner--infor {
   top: 50%; }
   .banner-image-section.style_2 .banner-image .banner--infor .banner--infor__text_2 {
-    font-size: 24px; }
+    font-size: 24px;
+    line-height: 1.4; }
   .banner-image-section.style_2 .banner-image .banner--infor .btn-button {
     margin-top: 45px; }
 

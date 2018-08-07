@@ -1648,7 +1648,7 @@
       "home-products-tab": {
         "type": "home_tab_collection",
         "settings": {
-          "preset_section_title": "style_3",
+          "preset_section_title": "style_4",
           "title": "New <span class=\"special-font\">Arrival<\/span>",
           "tab_collection_view_all_product": "VIEW ALL PRODUCTS",
           "tab_collection_link_all_product": "#",
@@ -1709,7 +1709,7 @@
         ],
         "settings": {
           "title": "Top <span class=\"special-font\">Categories<\/span>",
-          "preset_section_title": "style_3",
+          "preset_section_title": "style_4",
           "top_collection_width_screen": "full",
           "top_collection_display": "grid",
           "grid": 2
@@ -1736,14 +1736,14 @@
         ],
         "settings": {
           "title": "Special <span class=\"special-font\">Offers<\/span>",
-          "preset_section_title": "style_3"
+          "preset_section_title": "style_4"
         }
       },
       "main-blog-list": {
         "type": "home_article_list",
         "settings": {
           "preset": "style_2",
-          "preset_section_title": "style_3",
+          "preset_section_title": "style_4",
           "title": "Our <span class=\"special-font\">Blog<\/span>",
           "blog": "main-03",
           "blog_article_limit": "3",

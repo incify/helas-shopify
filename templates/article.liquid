@@ -1,7 +1,7 @@
 <!-- /templates/article.liquid -->
 {% assign number_of_comments = article.comments_count %}
 {% section 'blog_page_header' %}
-<div class="container single-post-{{ settings.blog_single_post_layout }} md-mb-100 xs-mb-50">
+<div class="container single-post-{{ settings.blog_single_post_layout }} md-mb-100 xs-mb-0">
   <div class="row">
     <div class="{% if settings.blog_single_post_layout == 'style1' %}col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-xs-12{% else %}col-md-9 col-md-push-3{% endif %}">
       <div class="blog-wrapper">
